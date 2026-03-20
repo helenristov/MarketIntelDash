@@ -1,0 +1,212 @@
+{
+  "snapshotDate": "March 20, 2026",
+  "marketPulse": "Risk-Off",
+  "marketPulseSubtext": "Momentum accelerating down",
+  "topDriver": "Middle East + Rates",
+  "topDriverSubtext": "Oil and inflation shock",
+  "lastUpdated": "Mar 20, 2026",
+  "lastUpdatedSubtext": "Manual refresh snapshot",
+  "disclaimer": "Prototype disclaimer: This screen reflects a manual March 20, 2026 market snapshot, but it is not validated for trading, investment, or risk decisions. It should be connected to real-time market and news sources and monitored before production use.",
+  "topThemes": [
+    {
+      "theme": "Middle East escalation intensifies",
+      "impact": "Oil, inflation expectations, global risk appetite",
+      "strength": 95,
+      "direction": "Dominant"
+    },
+    {
+      "theme": "Higher-for-longer fears deepen",
+      "impact": "Yields, equities, policy path",
+      "strength": 91,
+      "direction": "Accelerating"
+    },
+    {
+      "theme": "Equity selloff extends",
+      "impact": "Broad indices, growth, volatility",
+      "strength": 86,
+      "direction": "Persistent"
+    },
+    {
+      "theme": "Energy leadership continues",
+      "impact": "Energy equities, commodities, defensives",
+      "strength": 78,
+      "direction": "Firm"
+    }
+  ],
+  "rateCurve": [
+    { "tenor": "2Y", "current": 3.79, "prior": 3.72 },
+    { "tenor": "10Y", "current": 4.28, "prior": 4.24 },
+    { "tenor": "30Y", "current": 4.86, "prior": 4.88 }
+  ],
+  "rateCurveRead": "As of the March 20 snapshot, front-end and long-end yields remained elevated as markets reassessed inflation and policy risk in light of the latest oil shock.",
+  "crossMarket": [
+    {
+      "market": "S&P 500",
+      "risk": "Elevated",
+      "driver": "Oil shock plus higher-rate fears",
+      "move": "-0.71%",
+      "trend": "Fourth straight weekly loss risk",
+      "heat": 83
+    },
+    {
+      "market": "Nasdaq",
+      "risk": "Elevated",
+      "driver": "Rates pressure on growth duration",
+      "move": "-1.17%",
+      "trend": "Growth under heavier pressure",
+      "heat": 88
+    },
+    {
+      "market": "Dow",
+      "risk": "Moderate",
+      "driver": "Cyclicals pressured by oil and yields",
+      "move": "-0.24%",
+      "trend": "Lower, but off session lows",
+      "heat": 71
+    },
+    {
+      "market": "Dollar Index",
+      "risk": "Moderate",
+      "driver": "Dollar rally paused",
+      "move": "99.8",
+      "trend": "Slightly softer",
+      "heat": 56
+    },
+    {
+      "market": "2Y Treasury",
+      "risk": "Watch",
+      "driver": "Policy repricing remains tight",
+      "move": "3.79%",
+      "trend": "Still elevated",
+      "heat": 72
+    },
+    {
+      "market": "10Y Treasury",
+      "risk": "Watch",
+      "driver": "Inflation and oil premium",
+      "move": "4.28%",
+      "trend": "Holding high levels",
+      "heat": 70
+    },
+    {
+      "market": "Brent Crude",
+      "risk": "High",
+      "driver": "Refinery strike and supply fears",
+      "move": "$108.00",
+      "trend": "Near recent highs",
+      "heat": 95
+    },
+    {
+      "market": "WTI Crude",
+      "risk": "High",
+      "driver": "Energy shock remains bid",
+      "move": "$96.48",
+      "trend": "Still sharply elevated",
+      "heat": 89
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Middle East escalation",
+      "score": 95,
+      "detail": "Iran’s attack on a Kuwaiti refinery and broader war fears pushed energy and inflation risks back to the center of the tape.",
+      "linked": "Oil, inflation expectations, global risk appetite",
+      "confidence": "High"
+    },
+    {
+      "name": "Higher-for-longer repricing",
+      "score": 92,
+      "detail": "Investors are dialing down rate-cut expectations as elevated energy prices threaten to keep inflation hotter for longer.",
+      "linked": "2Y yields, financial conditions, equity multiples",
+      "confidence": "High"
+    },
+    {
+      "name": "Growth-stock pressure",
+      "score": 86,
+      "detail": "Higher yields and persistent macro uncertainty continue to weigh more heavily on duration-sensitive technology names.",
+      "linked": "Nasdaq, long-duration equities, volatility",
+      "confidence": "High"
+    },
+    {
+      "name": "Energy leadership",
+      "score": 78,
+      "detail": "Energy remains one of the few areas with relative strength as crude stays elevated despite volatile headlines.",
+      "linked": "Energy equities, commodities, defensives",
+      "confidence": "Medium"
+    }
+  ],
+  "risks": [
+    {
+      "title": "Inflation shock persistence",
+      "level": "High",
+      "desc": "High oil and gas prices risk feeding through to inflation and delaying any policy relief."
+    },
+    {
+      "title": "Renewed equity valuation compression",
+      "level": "High",
+      "desc": "Rising yields and falling cut expectations continue to pressure equity multiples, especially in growth."
+    },
+    {
+      "title": "Cross-asset volatility spike",
+      "level": "Elevated",
+      "desc": "War headlines are driving abrupt moves across oil, bonds, equities, and currencies."
+    },
+    {
+      "title": "Weekend gap risk",
+      "level": "Medium",
+      "desc": "Escalation risk into the weekend can leave markets vulnerable to sharp reopening moves."
+    }
+  ],
+  "timeline": [
+    {
+      "time": "Overnight",
+      "headline": "Iran struck a Kuwaiti refinery, intensifying energy-supply fears.",
+      "effect": "Oil moved higher and inflation concerns re-accelerated."
+    },
+    {
+      "time": "Open",
+      "headline": "U.S. stocks opened lower as investors reassessed rate-cut hopes.",
+      "effect": "Risk appetite weakened and bond yields stayed elevated."
+    },
+    {
+      "time": "Midday",
+      "headline": "Nasdaq underperformed while energy stocks held relative strength.",
+      "effect": "Growth pressure deepened as macro leadership narrowed."
+    },
+    {
+      "time": "Latest",
+      "headline": "Markets remained fragile into the weekend with oil near $108.",
+      "effect": "Defensive positioning stayed favored."
+    }
+  ],
+  "strategies": [
+    {
+      "title": "Stay Defensive",
+      "body": "With oil high, yields elevated, and geopolitical risk still climbing, defensive positioning remains favored until markets show cleaner stabilization.",
+      "trigger": "Oil holds high and yields remain elevated",
+      "confidence": "High",
+      "score": 91
+    },
+    {
+      "title": "Fade Growth Rallies",
+      "body": "Any bounce in growth-heavy equities remains vulnerable while the macro backdrop keeps tightening financial conditions.",
+      "trigger": "Nasdaq rallies but yields and oil stay firm",
+      "confidence": "High",
+      "score": 87
+    },
+    {
+      "title": "Energy Leadership Bias",
+      "body": "Energy can continue to outperform on a relative basis as long as supply fears remain unresolved and crude stays elevated.",
+      "trigger": "Crude holds above elevated range",
+      "confidence": "Medium",
+      "score": 78
+    },
+    {
+      "title": "Watch Weekend Risk",
+      "body": "Geopolitical escalation into the weekend raises the odds of sharp gap moves when markets reopen.",
+      "trigger": "Conflict headlines worsen into close",
+      "confidence": "Medium",
+      "score": 74
+    }
+  ]
+}

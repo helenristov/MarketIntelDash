@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Market Intelligence Dashboard</title>
+  <style>
+    :root {
+      --bg: #061226;
+      --panel: #0c1b34;
+      --panel-2: #061124;
+      --border: #173253;
+      --muted: #8ea9cd;
+      --text: #ffffff;
+      --cyan: #13d8ff;
+      --cyan-soft: rgba(19,216,255,.18);
+      --warn-bg: #322611;
+      --warn-border: #92611a;
+      --warn-text: #ffd88a;
+      --rose: #ff7b8b;
+      --green: #8df4c4;
+      --radius: 26px;
+      --radius-sm: 20px;
+      --shadow: 0 0 0 1px rgba(255,255,255,0.02) inset;
+      --font: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+    }
+    .page { max-width: 1320px; margin: 0 auto; padding: 24px; }
+    .stack { display: flex; flex-direction: column; gap: 24px; }
+    .panel {
+      background: var(--panel);
+      border: 1px solid #1b3252;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+    .header-top {
+      display: flex; gap: 24px; justify-content: space-between; align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .badge {
+      display: inline-flex; border-radius: 4px; background: #0d47c6; color: white;
+      padding: 6px 8px; font-size: 11px; font-weight: 700; letter-spacing: .25em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 16px 0 0; font-size: 52px; line-height: .95; letter-spacing: -0.03em; max-width: 640px; }
+    h2 { margin: 0; font-size: 32px; line-height: 1; letter-spacing: -0.02em; }
+    .subtitle { margin-top: 12px; max-width: 760px; color: #a5bfdc; font-size: 15px; line-height: 1.6; }
+    .stat-grid { display: grid; grid-template-columns: repeat(3, minmax(150px, 1fr)); gap: 16px; min-width: 530px; }
+    .stat {
+      background: #071327; border: 1px solid #1c3457; border-radius: 22px; padding: 16px;
+    }
+    .stat-label { color: #91abd1; font-size: 10px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+    .stat-value { margin-top: 12px; font-size: 34px; line-height: 1; font-weight: 700; }
+    .stat-note { margin-top: 8px; font-size: 13px; line-height: 1.45; color: #9ab4d3; }
+    .cyan-dot { width: 10px; height: 10px; border-radius: 999px; background: var(--cyan); display: inline-block; }
+    .disclaimer {
+      margin-top: 24px; padding: 16px 20px; border-radius: 18px; background: var(--warn-bg);
+      border: 1px solid var(--warn-border); color: var(--warn-text); font-size: 13px; line-height: 1.5;
+    }
+    .theme-grid, .two-col, .strategy-grid { display: grid; gap: 16px; }
+    .theme-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); margin-top: 24px; }
+    .theme-card, .card {
+      background: var(--panel-2); border: 1px solid var(--border); border-radius: 22px; padding: 16px;
+    }
+    .theme-header, .card-header { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+    .theme-title { font-size: 18px; line-height: 1.2; font-weight: 700; }
+    .theme-impact { margin-top: 8px; font-size: 12px; line-height: 1.35; color: var(--muted); min-height: 34px; }
+    .pill {
+      white-space: nowrap; border-radius: 999px; background: var(--cyan-soft); color: var(--cyan);
+      padding: 6px 12px; font-size: 11px; font-weight: 700;
+    }
+    .progress { margin-top: 20px; height: 7px; border-radius: 999px; background: #223a59; overflow: hidden; }
+    .progress > span { display: block; height: 100%; background: var(--cyan); border-radius: 999px; }
+    .muted { color: var(--muted); }
+    .section-top { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; flex-wrap: wrap; }
+    .section-subtitle { margin-top: 8px; font-size: 13px; color: #8fb0d6; }
+    .ghost-pill {
+      border-radius: 999px; border: 1px solid #0a9ed1; color: var(--cyan); padding: 8px 14px;
+      font-size: 11px; font-weight: 700;
+    }
+    .curve-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 24px; }
+    .curve-card { background: var(--panel-2); border: 1px solid var(--border); border-radius: 20px; padding: 16px; }
+    .curve-head { display: flex; justify-content: space-between; align-items: center; }
+    .curve-tenor { font-size: 24px; font-weight: 700; }
+    .curve-value { font-size: 18px; font-weight: 700; color: #cfe7ff; }
+    .curve-bars { height: 132px; display: flex; gap: 12px; align-items: flex-end; margin-top: 20px; }
+    .curve-bar { flex: 1; border-radius: 14px 14px 0 0; }
+    .curve-bar.prior { background: #25354f; }
+    .curve-bar.current { background: var(--cyan); }
+    .curve-read {
+      margin-top: 20px; background: var(--panel-2); border: 1px solid var(--border); border-radius: 18px;
+      padding: 16px 20px; font-size: 13px; line-height: 1.5; color: #d8e8ff;
+    }
+    .table-wrap { margin-top: 24px; overflow: auto; border: 1px solid var(--border); border-radius: 18px; }
+    table { width: 100%; border-collapse: collapse; background: var(--panel-2); font-size: 14px; }
+    thead { background: #08192e; color: var(--muted); }
+    th, td { padding: 16px 24px; text-align: left; }
+    tbody tr { border-top: 1px solid #132846; }
+    tbody tr:hover { background: rgba(30,46,72,.45); }
+    .risk-badge, .confidence-badge {
+      border-radius: 999px; padding: 5px 10px; font-size: 11px; font-weight: 700; display: inline-block;
+      border: 1px solid transparent;
+    }
+    .risk-watch { background: #fef3c7; color: #b45309; border-color: #fde68a; }
+    .risk-moderate { background: #fef9c3; color: #a16207; border-color: #fde68a; }
+    .risk-elevated, .risk-high { background: #ffe4e6; color: #be123c; border-color: #fecdd3; }
+    .confidence-high { background: #dcfce7; color: #15803d; border-color: #bbf7d0; }
+    .confidence-medium { background: #fef3c7; color: #b45309; border-color: #fde68a; }
+    .confidence-low { background: #e2e8f0; color: #334155; border-color: #cbd5e1; }
+    .heat-meter { display: flex; align-items: center; gap: 12px; }
+    .heat-line { width: 92px; height: 6px; background: #223a59; border-radius: 999px; overflow: hidden; }
+    .heat-line > span { display: block; height: 100%; background: var(--cyan); }
+    .two-col { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .driver-list, .risk-list, .timeline-list { margin-top: 24px; display: flex; flex-direction: column; gap: 16px; }
+    .driver-score { font-size: 30px; font-weight: 700; color: var(--cyan); text-align: right; }
+    .driver-title, .risk-title, .strategy-title { font-size: 22px; line-height: 1.2; font-weight: 700; }
+    .driver-linked, .risk-body, .strategy-body { color: var(--muted); font-size: 12px; line-height: 1.4; margin-top: 8px; }
+    .driver-detail, .risk-detail, .strategy-body { color: #d8e8ff; font-size: 15px; line-height: 1.6; }
+    .prob-row { margin-top: 14px; display: flex; justify-content: space-between; align-items: center; font-size: 13px; }
+    .prob-strong { color: var(--green); font-weight: 700; }
+    .prob-med { color: var(--cyan); font-weight: 700; }
+    .prob-warn { color: #fcd34d; font-weight: 700; }
+    .heat-grid { margin-top: 24px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .heat-tile { border-radius: 18px; padding: 16px; border: 1px solid transparent; }
+    .heat-h1 { font-size: 22px; font-weight: 700; }
+    .heat-value { font-size: 28px; font-weight: 700; }
+    .heat-hi { background: rgba(244,63,94,.25); border-color: rgba(251,113,133,.4); }
+    .heat-mid { background: rgba(245,158,11,.25); border-color: rgba(251,191,36,.35); }
+    .heat-low { background: rgba(234,179,8,.2); border-color: rgba(250,204,21,.3); }
+    .timeline-item { display: flex; gap: 16px; }
+    .timeline-rail { display: flex; flex-direction: column; align-items: center; }
+    .timeline-dot { width: 12px; height: 12px; border-radius: 999px; background: var(--cyan); margin-top: 4px; }
+    .timeline-line { width: 1px; flex: 1; background: #1d3657; margin-top: 8px; }
+    .timeline-time { color: #7ca5d5; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .timeline-headline { margin-top: 8px; font-size: 20px; line-height: 1.3; font-weight: 700; }
+    .timeline-effect { margin-top: 8px; color: var(--muted); font-size: 14px; line-height: 1.5; }
+    .strategy-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 24px; }
+    .signal { color: var(--cyan); font-size: 13px; }
+    .checks { margin-top: 24px; background: var(--panel-2); border: 1px solid var(--border); border-radius: 18px; padding: 20px; }
+    .check-row { display: flex; justify-content: space-between; align-items: center; }
+    .check-pill-ok { background: #dcfce7; color: #15803d; }
+    .check-pill-bad { background: #ffe4e6; color: #be123c; }
+    .check-list { margin: 16px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; color: var(--muted); font-size: 14px; }
+    @media (max-width: 1100px) {
+      .theme-grid, .curve-grid, .strategy-grid, .two-col, .heat-grid { grid-template-columns: 1fr 1fr; }
+      .stat-grid { min-width: 0; width: 100%; }
+    }
+    @media (max-width: 760px) {
+      .page { padding: 16px; }
+      h1 { font-size: 38px; }
+      h2 { font-size: 28px; }
+      .theme-grid, .curve-grid, .strategy-grid, .two-col, .heat-grid, .stat-grid { grid-template-columns: 1fr; }
+      .stat-value { font-size: 28px; }
+      th, td { padding: 12px 14px; }
+      .driver-title, .risk-title, .strategy-title, .timeline-headline { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div id="app" class="stack"></div>
+  </div>
+
+  <script>
+    const app = document.getElementById('app');
+
+    const clampPercent = (value) => {
+      const n = Number(value);
+      if (!Number.isFinite(n)) return 0;
+      return Math.max(0, Math.min(100, n));
+    };
+
+    const getDeltaLabel = (current, prior) => {
+      const delta = Number(current) - Number(prior);
+      const prefix = delta >= 0 ? '+' : '';
+      return `${prefix}${delta.toFixed(2)}%`;
+    };
+
+    const riskBadgeClass = (level) => {
+      if (level === 'Watch') return 'risk-watch';
+      if (level === 'Moderate') return 'risk-moderate';
+      if (level === 'Elevated') return 'risk-elevated';
+      if (level === 'High') return 'risk-high';
+      if (level === 'Medium') return 'risk-watch';
+      return 'risk-watch';
+    };
+
+    const confidenceClass = (level) => {
+      if (level === 'High') return 'confidence-high';
+      if (level === 'Medium') return 'confidence-medium';
+      return 'confidence-low';
+    };
+
+    const heatTileClass = (heat) => {
+      if (heat >= 85) return 'heat-hi';
+      if (heat >= 65) return 'heat-mid';
+      return 'heat-low';
+    };
+
+    const getSignalProbability = (score, confidence) => {
+      const boost = confidence === 'High' ? 8 : confidence === 'Medium' ? 0 : -8;
+      return Math.max(1, Math.min(99, Math.round(Number(score) + boost)));
+    };
+
+    const probabilityToneClass = (p) => {
+      if (p >= 85) return 'prob-strong';
+      if (p >= 70) return 'prob-med';
+      if (p >= 55) return 'prob-warn';
+      return '';
+    };
+
+    const fmtHeight = (value, max) => {
+      if (!max || max <= 0) return '0%';
+      return `${clampPercent((Number(value) / Number(max)) * 100)}%`;
+    };
+
+    const sectionHeader = (title, subtitle, extra = '') => `
+      <div class="section-top">
+        <div>
+          <h2>${title}</h2>
+          <div class="section-subtitle">${subtitle}</div>
+        </div>
+        ${extra}
+      </div>
+    `;
+
+    async function render() {
+      const res = await fetch('./market_data.json', { cache: 'no-store' });
+      const data = await res.json();
+
+      const curveMax = Math.max(...data.rateCurve.map((p) => p.current), 1);
+      const checks = [
+        { label: 'theme cards populated', passed: Array.isArray(data.topThemes) && data.topThemes.length === 4 },
+        { label: 'cross-market rows populated', passed: Array.isArray(data.crossMarket) && data.crossMarket.length === 8 },
+        { label: 'curve points populated', passed: Array.isArray(data.rateCurve) && data.rateCurve.length >= 3 },
+        { label: 'driver cards populated', passed: Array.isArray(data.drivers) && data.drivers.length === 4 },
+        { label: 'strategy cards populated', passed: Array.isArray(data.strategies) && data.strategies.length === 4 },
+      ];
+      const allChecksPassed = checks.every((c) => c.passed);
+
+      app.innerHTML = `
+        <section class="panel">
+          <div class="header-top">
+            <div>
+              <div class="badge">Macro Signal Console</div>
+              <h1>AI Market Intelligence Dashboard</h1>
+              <div class="subtitle">
+                Current market snapshot for ${data.snapshotDate} using manually inserted public-market context.
+                This is still a prototype: the data is not independently validated, and production use would require live data feeds, signal logic, and testing.
+              </div>
+            </div>
+            <div class="stat-grid">
+              <div class="stat">
+                <div class="stat-label">Market pulse</div>
+                <div class="stat-value" style="color:#ff7b8b">${data.marketPulse}</div>
+                <div class="stat-note">${data.marketPulseSubtext}</div>
+              </div>
+              <div class="stat">
+                <div class="stat-label">Top driver</div>
+                <div class="stat-value" style="font-size:34px">${data.topDriver}</div>
+                <div class="stat-note">${data.topDriverSubtext}</div>
+              </div>
+              <div class="stat">
+                <div class="stat-label">Last updated</div>
+                <div class="stat-value" style="font-size:34px">${data.lastUpdated}</div>
+                <div class="stat-note"><span class="cyan-dot"></span> ${data.lastUpdatedSubtext}</div>
+              </div>
+            </div>
+          </div>
+          <div class="disclaimer"><strong>Prototype disclaimer:</strong> ${data.disclaimer.replace(/^Prototype disclaimer:\s*/,'')}</div>
+          <div class="theme-grid">
+            ${data.topThemes.map((item) => `
+              <div class="theme-card">
+                <div class="theme-header">
+                  <div>
+                    <div class="theme-title">${item.theme}</div>
+                    <div class="theme-impact">${item.impact}</div>
+                  </div>
+                  <div class="pill">${item.direction}</div>
+                </div>
+                <div class="progress"><span style="width:${clampPercent(item.strength)}%"></span></div>
+                <div class="muted" style="font-size:12px;margin-top:8px">Signal strength ${item.strength}/100</div>
+              </div>
+            `).join('')}
+          </div>
+        </section>
+
+        <section class="panel">
+          ${sectionHeader('Rate Curve Monitor', 'Current vs prior snapshot, highlighting where policy repricing is hitting hardest.', '<div class="ghost-pill">snapshot</div>')}
+          <div class="curve-grid">
+            ${data.rateCurve.map((point) => `
+              <div class="curve-card">
+                <div class="curve-head">
+                  <div class="curve-tenor">${point.tenor}</div>
+                  <div class="curve-value">${Number(point.current).toFixed(2)}%</div>
+                </div>
+                <div class="curve-bars">
+                  <div class="curve-bar prior" style="height:${fmtHeight(point.prior, curveMax)}"></div>
+                  <div class="curve-bar current" style="height:${fmtHeight(point.current, curveMax)}"></div>
+                </div>
+                <div class="muted" style="font-size:12px;margin-top:12px">Prior vs current</div>
+                <div style="margin-top:4px;font-size:14px;font-weight:700;color:${Number(point.current) >= Number(point.prior) ? '#ff7b8b' : '#8df4c4'}">${getDeltaLabel(point.current, point.prior)}</div>
+              </div>
+            `).join('')}
+          </div>
+          <div class="curve-read"><strong>Read:</strong> ${data.rateCurveRead}</div>
+        </section>
+
+        <section class="panel">
+          ${sectionHeader('Cross-Market Dashboard', 'What is moving, why it is moving, and how stressed each pocket looks.')}
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Market</th>
+                  <th>Risk</th>
+                  <th>Primary driver</th>
+                  <th>Move</th>
+                  <th>Trend</th>
+                  <th>Heat</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${data.crossMarket.map((row) => `
+                  <tr>
+                    <td style="font-weight:700;color:#fff">${row.market}</td>
+                    <td><span class="risk-badge ${riskBadgeClass(row.risk)}">${row.risk}</span></td>
+                    <td style="color:#d8e8ff">${row.driver}</td>
+                    <td style="color:#fff">${row.move}</td>
+                    <td class="muted">${row.trend}</td>
+                    <td>
+                      <div class="heat-meter">
+                        <div class="heat-line"><span style="width:${clampPercent(row.heat)}%"></span></div>
+                        <span class="muted" style="font-size:12px">${row.heat}</span>
+                      </div>
+                    </td>
+                  </tr>
+                `).join('')}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <div class="two-col">
+          <section class="panel">
+            ${sectionHeader('Driver Stack', 'The macro and narrative signals currently pushing cross-asset behavior.')}
+            <div class="driver-list">
+              ${data.drivers.map((item) => {
+                const prob = getSignalProbability(item.score, item.confidence);
+                return `
+                  <div class="card">
+                    <div class="card-header">
+                      <div>
+                        <div class="driver-title">${item.name}</div>
+                        <div class="driver-linked">${item.linked}</div>
+                      </div>
+                      <div style="text-align:right">
+                        <div class="driver-score">${item.score}</div>
+                        <span class="confidence-badge ${confidenceClass(item.confidence)}">${item.confidence} confidence</span>
+                      </div>
+                    </div>
+                    <div class="progress"><span style="width:${clampPercent(item.score)}%"></span></div>
+                    <div class="prob-row"><span class="muted">Signal probability</span><span class="${probabilityToneClass(prob)}">${prob}%</span></div>
+                    <div class="driver-detail" style="margin-top:14px">${item.detail}</div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </section>
+
+          <section class="panel">
+            ${sectionHeader('Market Heatmap', 'Quick visual read on where momentum and stress are clustering across the dashboard.')}
+            <div class="heat-grid">
+              ${data.crossMarket.map((row) => `
+                <div class="heat-tile ${heatTileClass(row.heat)}">
+                  <div class="card-header">
+                    <div>
+                      <div class="heat-h1">${row.market}</div>
+                      <div class="muted" style="margin-top:6px;font-size:12px">${row.trend}</div>
+                    </div>
+                    <div class="heat-value">${row.heat}</div>
+                  </div>
+                  <div style="margin-top:12px;font-size:12px;color:#f2d7ff">${row.driver}</div>
+                </div>
+              `).join('')}
+            </div>
+          </section>
+        </div>
+
+        <div class="two-col">
+          <section class="panel">
+            ${sectionHeader('Risk Radar', 'Key exposures building underneath the current narrative.')}
+            <div class="risk-list">
+              ${data.risks.map((risk) => `
+                <div class="card">
+                  <div class="card-header">
+                    <div class="risk-title">${risk.title}</div>
+                    <span class="risk-badge ${riskBadgeClass(risk.level)}">${risk.level}</span>
+                  </div>
+                  <div class="risk-detail" style="margin-top:14px">${risk.desc}</div>
+                </div>
+              `).join('')}
+            </div>
+          </section>
+
+          <section class="panel">
+            ${sectionHeader('Narrative Timeline', 'A compact read on how the day’s market story unfolded.')}
+            <div class="timeline-list">
+              ${data.timeline.map((item, index) => `
+                <div class="timeline-item">
+                  <div class="timeline-rail">
+                    <div class="timeline-dot"></div>
+                    ${index !== data.timeline.length - 1 ? '<div class="timeline-line"></div>' : ''}
+                  </div>
+                  <div>
+                    <div class="timeline-time">${item.time}</div>
+                    <div class="timeline-headline">${item.headline}</div>
+                    <div class="timeline-effect">Market effect: ${item.effect}</div>
+                  </div>
+                </div>
+              `).join('')}
+            </div>
+          </section>
+        </div>
+
+        <section class="panel">
+          ${sectionHeader('Signal Indicators and Strategy Ideas', 'Illustrative signals derived from the dashboard state. These are concepts only and need validation before any real trading use.')}
+          <div class="strategy-grid">
+            ${data.strategies.map((item) => {
+              const prob = getSignalProbability(item.score, item.confidence);
+              return `
+                <div class="card">
+                  <div class="card-header">
+                    <div class="strategy-title">${item.title}</div>
+                    <span class="confidence-badge ${confidenceClass(item.confidence)}">${item.confidence}</span>
+                  </div>
+                  <div class="strategy-body" style="margin-top:14px">${item.body}</div>
+                  <div class="prob-row"><span class="signal">Signal: ${item.trigger}</span><span class="${probabilityToneClass(prob)}">Probability ${prob}%</span></div>
+                  <div class="progress"><span style="width:${clampPercent(prob)}%"></span></div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+          <div class="disclaimer" style="margin-top:20px"><strong>Strategy disclaimer:</strong> These signals are conceptual examples only. Real trading systems require backtesting, live data feeds, position sizing rules, transaction cost modeling, and risk controls.</div>
+        </section>
+
+        <section class="panel">
+          ${sectionHeader('Render Sanity Checks', 'Lightweight helper checks added to make the component more robust.')}
+          <div class="checks">
+            <div class="check-row">
+              <span style="font-size:14px;color:#fff">Component checks</span>
+              <span class="risk-badge ${allChecksPassed ? 'check-pill-ok' : 'check-pill-bad'}">${allChecksPassed ? 'Passed' : 'Failed'}</span>
+            </div>
+            <ul class="check-list">
+              ${checks.map((c) => `<li>${c.passed ? '✓' : '✗'} ${c.label}</li>`).join('')}
+            </ul>
+          </div>
+        </section>
+      `;
+    }
+
+    render().catch((err) => {
+      console.error(err);
+      app.innerHTML = `<section class="panel"><h2>Failed to load dashboard</h2><div class="subtitle">${String(err)}</div></section>`;
+    });
+  </script>
+</body>
+</html>
