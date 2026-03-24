@@ -1,8 +1,12 @@
 {
   "snapshotDate": "2026-03-24",
   "marketPulse": "Risk-Off",
+  "marketPulseSubtext": "Momentum mixed intraday",
   "topDriver": "Oil + Iran headlines",
+  "topDriverSubtext": "One-variable market",
   "lastUpdated": "Mar 24, 2026",
+  "lastUpdatedSubtext": "Manual refresh snapshot",
+  "disclaimer": "Prototype disclaimer: This screen reflects a manual March 24, 2026 market snapshot, but it is not validated for trading, investment, or risk decisions. It would need to be hooked up to real-time market and news sources, then scored by tested algorithms and monitoring before production use.",
   "topThemes": [
     {
       "theme": "Iran-war headlines dominate",
@@ -29,7 +33,25 @@
       "direction": "Fragile"
     }
   ],
-  "sectors": [
+  "rateCurve": [
+    {
+      "tenor": "2Y",
+      "current": 3.92,
+      "prior": 3.83
+    },
+    {
+      "tenor": "10Y",
+      "current": 4.38,
+      "prior": 4.34
+    },
+    {
+      "tenor": "30Y",
+      "current": 4.9,
+      "prior": 4.86
+    }
+  ],
+  "rateCurveRead": "As of the March 24 snapshot, Treasury yields moved back up as oil rebounded and markets pared back rate-cut hopes again.",
+  "crossMarket": [
     {
       "market": "S&P 500",
       "risk": "Elevated",
@@ -95,11 +117,6 @@
       "heat": 89
     }
   ],
-  "rateCurve": [
-    { "tenor": "2Y", "current": 3.92, "prior": 3.83 },
-    { "tenor": "10Y", "current": 4.38, "prior": 4.34 },
-    { "tenor": "30Y", "current": 4.90, "prior": 4.86 }
-  ],
   "drivers": [
     {
       "name": "Iran-war uncertainty",
@@ -134,7 +151,7 @@
     {
       "title": "Inflation shock persistence",
       "level": "High",
-      "desc": "Oil’s rebound threatens to keep inflation hotter and policy more restrictive."
+      "desc": "Oil\u2019s rebound threatens to keep inflation hotter and policy more restrictive."
     },
     {
       "title": "One-variable market risk",
@@ -155,7 +172,7 @@
   "timeline": [
     {
       "time": "Overnight",
-      "headline": "Optimism from Monday’s talk headlines faded as Iran denied direct talks.",
+      "headline": "Optimism from Monday\u2019s talk headlines faded as Iran denied direct talks.",
       "effect": "Oil and volatility rebounded."
     },
     {
