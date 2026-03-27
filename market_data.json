@@ -1,222 +1,222 @@
 {
-  "snapshotDate": "2026-03-25",
-  "marketPulse": "Risk-On / Fragile",
-  "marketPulseSubtext": "Relief rally on ceasefire hopes",
-  "topDriver": "Iran peace-plan optimism",
-  "topDriverSubtext": "Oil down, stocks up",
-  "lastUpdated": "Mar 25, 2026",
+  "snapshotDate": "2026-03-26",
+  "marketPulse": "Risk-Off Shock",
+  "marketPulseSubtext": "Oil up, yields up, equities down hard",
+  "topDriver": "Iran rejection + oil surge",
+  "topDriverSubtext": "Inflation fear back on the tape",
+  "lastUpdated": "Mar 26, 2026",
   "lastUpdatedSubtext": "Manual refresh snapshot",
-  "disclaimer": "Prototype disclaimer: This screen reflects a manual March 25, 2026 market snapshot, but it is not validated for trading, investment, or risk decisions. It would need to be hooked up to real-time market and news sources, then scored by tested algorithms and monitoring before production use.",
+  "disclaimer": "Prototype disclaimer: This screen reflects a manual March 26, 2026 market snapshot, but it is not validated for trading, investment, or risk decisions. It would need to be hooked up to real-time market and news sources, then scored by tested algorithms and monitoring before production use.",
   "topThemes": [
     {
-      "theme": "Ceasefire hopes lift risk assets",
-      "impact": "Equities, oil, yields, broad risk appetite",
-      "strength": 93,
+      "theme": "Iran rejection resets markets",
+      "impact": "Oil, equities, inflation expectations",
+      "strength": 96,
       "direction": "Dominant"
     },
     {
-      "theme": "Oil prices ease sharply",
-      "impact": "Crude, inflation expectations, transports",
-      "strength": 91,
-      "direction": "Cooling"
+      "theme": "Oil surge reignites inflation fear",
+      "impact": "Crude, yields, cyclicals, transports",
+      "strength": 94,
+      "direction": "Accelerating"
     },
     {
-      "theme": "Treasury yields fall back",
-      "impact": "Rates, financial conditions, growth multiples",
-      "strength": 84,
-      "direction": "Repricing lower"
+      "theme": "Higher-for-longer repricing deepens",
+      "impact": "Rates, financial conditions, valuations",
+      "strength": 89,
+      "direction": "Persistent"
     },
     {
-      "theme": "Headline-driven whipsaw remains",
-      "impact": "Volatility, defensives, intraday positioning",
-      "strength": 77,
-      "direction": "Fragile"
+      "theme": "Nasdaq correction confirmed",
+      "impact": "Growth, volatility, sentiment",
+      "strength": 85,
+      "direction": "Risk-Off"
     }
   ],
   "rateCurve": [
     {
       "tenor": "2Y",
-      "current": 3.89,
-      "prior": 3.92
+      "current": 3.983,
+      "prior": 3.89
     },
     {
       "tenor": "10Y",
-      "current": 4.34,
-      "prior": 4.38
+      "current": 4.415,
+      "prior": 4.34
     },
     {
       "tenor": "30Y",
-      "current": 4.85,
-      "prior": 4.9
+      "current": 4.9,
+      "prior": 4.85
     }
   ],
-  "rateCurveRead": "As of the March 25 snapshot, Treasury yields eased as oil fell and markets responded positively to guarded hopes of a ceasefire proposal, though rates remain elevated versus pre-war levels.",
+  "rateCurveRead": "As of the March 26 snapshot, Treasury yields climbed sharply again as oil surged and markets pared back any remaining hopes for rate cuts.",
   "crossMarket": [
     {
       "market": "S&P 500",
-      "risk": "Moderate",
-      "driver": "Relief rally on ceasefire hopes",
-      "move": "+0.5%",
-      "trend": "Recovered after recent whipsaw",
-      "heat": 63
+      "risk": "Elevated",
+      "driver": "Iran rejection and oil shock",
+      "move": "-1.7%",
+      "trend": "Worst day since January",
+      "heat": 89
     },
     {
       "market": "Nasdaq",
-      "risk": "Moderate",
-      "driver": "Growth rebounds as yields ease",
-      "move": "+0.8%",
-      "trend": "Leading on lower oil and rates",
-      "heat": 67
+      "risk": "High",
+      "driver": "Growth hit by yields and war risk",
+      "move": "-2.4%",
+      "trend": "Entered correction territory",
+      "heat": 95
     },
     {
       "market": "Dow",
-      "risk": "Moderate",
-      "driver": "Broad risk-on bounce",
-      "move": "+0.7%",
-      "trend": "Strong rebound session",
-      "heat": 61
+      "risk": "Elevated",
+      "driver": "Broad risk-off repricing",
+      "move": "-1.0% (-469 pts)",
+      "trend": "Worst drop since Iran war began",
+      "heat": 84
     },
     {
       "market": "Dollar Index",
       "risk": "Moderate",
-      "driver": "Dollar still firm despite rally",
-      "move": "99.64",
-      "trend": "Up modestly",
-      "heat": 58
+      "driver": "Safe-haven demand",
+      "move": "100.0",
+      "trend": "Firm",
+      "heat": 67
     },
     {
       "market": "2Y Treasury",
       "risk": "Watch",
-      "driver": "Rate-cut fears ease slightly",
-      "move": "3.89%",
-      "trend": "Down from prior session",
-      "heat": 62
+      "driver": "Cuts priced out again",
+      "move": "3.983%",
+      "trend": "Highest since last June",
+      "heat": 86
     },
     {
       "market": "10Y Treasury",
       "risk": "Watch",
-      "driver": "Oil drop softens inflation premium",
-      "move": "4.34%",
-      "trend": "Yield easing",
-      "heat": 60
+      "driver": "Oil and auction weakness",
+      "move": "4.415%",
+      "trend": "Highest since last July",
+      "heat": 84
     },
     {
       "market": "Brent Crude",
       "risk": "High",
-      "driver": "Ceasefire proposal cools supply panic",
-      "move": "$102.22",
-      "trend": "Down 2.2% on day",
-      "heat": 76
+      "driver": "Hormuz disruption fears",
+      "move": "$108.01",
+      "trend": "Up about 6% on day",
+      "heat": 97
     },
     {
       "market": "WTI Crude",
       "risk": "High",
-      "driver": "War-risk premium reduced",
-      "move": "$90.32",
-      "trend": "Down 2.2% on day",
-      "heat": 73
+      "driver": "War-risk premium surges",
+      "move": "$94.48",
+      "trend": "Sharp upside continuation",
+      "heat": 93
     }
   ],
   "drivers": [
     {
-      "name": "Ceasefire optimism",
-      "score": 94,
-      "detail": "A U.S. 15-point ceasefire proposal to Iran lifted hopes for de-escalation and drove a broad relief move across global equities.",
-      "linked": "S&P 500, Dow, global risk appetite",
+      "name": "Iran rejection / war escalation",
+      "score": 96,
+      "detail": "Markets sold off hard after Iran rejected a U.S. ceasefire proposal, reviving fears of a prolonged conflict and worsening supply disruption.",
+      "linked": "Oil, global risk appetite, defensives",
       "confidence": "High"
     },
     {
-      "name": "Oil price reversal lower",
-      "score": 91,
-      "detail": "Crude fell as traders priced a lower probability of prolonged supply disruption, reducing some immediate inflation anxiety.",
+      "name": "Oil shock returns",
+      "score": 94,
+      "detail": "Brent surged above $108 and WTI above $94 as Hormuz disruption fears intensified, putting inflation anxiety back at the center of the tape.",
       "linked": "Brent, WTI, transports, inflation expectations",
       "confidence": "High"
     },
     {
-      "name": "Yields retrace from highs",
-      "score": 84,
-      "detail": "Treasury yields moved lower as markets saw less need to price a fresh inflation shock from energy.",
+      "name": "Rate-cut hopes collapse",
+      "score": 90,
+      "detail": "Treasury yields jumped as investors priced out any meaningful chance of near-term cuts and even revived talk of further hikes.",
       "linked": "2Y yields, 10Y yields, financial conditions",
       "confidence": "High"
     },
     {
-      "name": "Headline whipsaw still alive",
-      "score": 78,
-      "detail": "The market remains highly sensitive to contradictory war headlines, which can still reverse leadership quickly.",
-      "linked": "Volatility, defensives, intraday positioning",
-      "confidence": "Medium"
+      "name": "Tech-led valuation compression",
+      "score": 86,
+      "detail": "The Nasdaq led the decline as higher yields and geopolitical stress hit long-duration growth assets hardest.",
+      "linked": "Nasdaq, long-duration equities, volatility",
+      "confidence": "High"
     }
   ],
   "risks": [
     {
-      "title": "False relief rally",
+      "title": "Extended oil shock",
       "level": "High",
-      "desc": "Any denial or breakdown in talks could quickly reverse the bounce in stocks and the drop in oil."
+      "desc": "A prolonged Hormuz disruption could keep energy prices rising and deepen inflation stress."
     },
     {
-      "title": "Headline-driven volatility",
+      "title": "Further equity de-rating",
       "level": "High",
-      "desc": "Markets are still trading news flow first, with major reversals possible hour to hour."
+      "desc": "Higher yields and falling cut expectations can keep pressuring equity valuations, especially in growth."
     },
     {
-      "title": "Rates still restrictive",
+      "title": "Cross-asset volatility spike",
       "level": "Elevated",
-      "desc": "Even after today\u2019s easing, yields remain high enough to keep financial conditions relatively tight."
+      "desc": "War headlines and weak bond-auction demand are driving abrupt moves across oil, bonds, and stocks."
     },
     {
-      "title": "Inflation pressure not gone",
+      "title": "False de-escalation headlines",
       "level": "Medium",
-      "desc": "A one-day oil pullback does not fully remove the risk of renewed energy-driven inflation."
+      "desc": "Any brief peace optimism can reverse quickly, creating whipsaw conditions across all major asset classes."
     }
   ],
   "timeline": [
     {
       "time": "Overnight",
-      "headline": "Reports emerged that the U.S. sent Iran a 15-point ceasefire proposal.",
-      "effect": "Global risk appetite improved and oil started to fall."
+      "headline": "Iran rejected the U.S. ceasefire proposal, reviving fears of a longer war.",
+      "effect": "Oil rose sharply and global risk sentiment deteriorated."
     },
     {
       "time": "Open",
-      "headline": "Wall Street opened higher as traders embraced a possible off-ramp to the war.",
-      "effect": "Equities rallied while crude and yields eased."
+      "headline": "U.S. stocks opened lower as crude moved back above $100.",
+      "effect": "The S&P 500, Dow, and Nasdaq all sold off immediately."
     },
     {
       "time": "Midday",
-      "headline": "Iran said it was reviewing the proposal but denied active negotiations.",
-      "effect": "Markets stayed positive but remained jittery."
+      "headline": "Treasury yields climbed further after another weak government-debt auction.",
+      "effect": "Financial conditions tightened and growth stocks underperformed."
     },
     {
       "time": "Close",
-      "headline": "Stocks closed higher and oil settled lower on guarded de-escalation hope.",
-      "effect": "Risk assets finished the session stronger, though uncertainty remained high."
+      "headline": "Wall Street closed with its worst drop since the Iran war began.",
+      "effect": "The Nasdaq entered correction territory and risk-off sentiment dominated."
     }
   ],
   "strategies": [
     {
-      "title": "Trade the Relief, Respect the Fragility",
-      "body": "The market is rewarding de-escalation hopes, but conviction should stay tactical because the setup can reverse on a single headline.",
-      "trigger": "Positive talks headlines persist and oil stays soft",
+      "title": "Stay Defensive",
+      "body": "With oil surging and yields rising, defensive positioning remains favored until markets show a real de-escalation signal.",
+      "trigger": "Oil stays elevated and yields keep rising",
       "confidence": "High",
-      "score": 89
+      "score": 91
     },
     {
-      "title": "Prefer Lower-Oil Beneficiaries",
-      "body": "Sectors and assets that benefit from easing energy pressure may continue to outperform if crude keeps retreating.",
-      "trigger": "Brent and WTI extend downside",
+      "title": "Fade Growth Rallies",
+      "body": "Growth-heavy equities remain vulnerable while the macro backdrop tightens financial conditions and pushes valuations lower.",
+      "trigger": "Nasdaq bounces while yields and crude stay firm",
       "confidence": "High",
-      "score": 84
+      "score": 87
     },
     {
-      "title": "Fade Panic in Yields",
-      "body": "If peace hopes continue, markets may keep unwinding the most aggressive higher-for-longer pricing.",
-      "trigger": "2Y and 10Y yields continue to ease",
+      "title": "Respect Energy Leadership",
+      "body": "Energy can continue to outperform as long as conflict risk and supply concerns remain unresolved.",
+      "trigger": "Crude holds near or above current highs",
       "confidence": "Medium",
-      "score": 76
+      "score": 82
     },
     {
       "title": "Watch for Headline Reversal",
-      "body": "A rejection of the proposal or renewed attacks could quickly flip leadership back toward energy and defensives.",
-      "trigger": "Talks stall or conflict escalates",
+      "body": "A credible de-escalation headline could trigger a violent reversal lower in oil and higher in beaten-down risk assets.",
+      "trigger": "Confirmed talks or ceasefire acceptance",
       "confidence": "Medium",
       "score": 74
     }
