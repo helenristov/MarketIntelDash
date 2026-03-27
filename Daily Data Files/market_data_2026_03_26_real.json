@@ -1,0 +1,224 @@
+{
+  "snapshotDate": "2026-03-26",
+  "marketPulse": "Risk-Off Shock",
+  "marketPulseSubtext": "Oil up, yields up, equities down hard",
+  "topDriver": "Iran rejection + oil surge",
+  "topDriverSubtext": "Inflation fear back on the tape",
+  "lastUpdated": "Mar 26, 2026",
+  "lastUpdatedSubtext": "Manual refresh snapshot",
+  "disclaimer": "Prototype disclaimer: This screen reflects a manual March 26, 2026 market snapshot, but it is not validated for trading, investment, or risk decisions. It would need to be hooked up to real-time market and news sources, then scored by tested algorithms and monitoring before production use.",
+  "topThemes": [
+    {
+      "theme": "Iran rejection resets markets",
+      "impact": "Oil, equities, inflation expectations",
+      "strength": 96,
+      "direction": "Dominant"
+    },
+    {
+      "theme": "Oil surge reignites inflation fear",
+      "impact": "Crude, yields, cyclicals, transports",
+      "strength": 94,
+      "direction": "Accelerating"
+    },
+    {
+      "theme": "Higher-for-longer repricing deepens",
+      "impact": "Rates, financial conditions, valuations",
+      "strength": 89,
+      "direction": "Persistent"
+    },
+    {
+      "theme": "Nasdaq correction confirmed",
+      "impact": "Growth, volatility, sentiment",
+      "strength": 85,
+      "direction": "Risk-Off"
+    }
+  ],
+  "rateCurve": [
+    {
+      "tenor": "2Y",
+      "current": 3.983,
+      "prior": 3.89
+    },
+    {
+      "tenor": "10Y",
+      "current": 4.415,
+      "prior": 4.34
+    },
+    {
+      "tenor": "30Y",
+      "current": 4.9,
+      "prior": 4.85
+    }
+  ],
+  "rateCurveRead": "As of the March 26 snapshot, Treasury yields climbed sharply again as oil surged and markets pared back any remaining hopes for rate cuts.",
+  "crossMarket": [
+    {
+      "market": "S&P 500",
+      "risk": "Elevated",
+      "driver": "Iran rejection and oil shock",
+      "move": "-1.7%",
+      "trend": "Worst day since January",
+      "heat": 89
+    },
+    {
+      "market": "Nasdaq",
+      "risk": "High",
+      "driver": "Growth hit by yields and war risk",
+      "move": "-2.4%",
+      "trend": "Entered correction territory",
+      "heat": 95
+    },
+    {
+      "market": "Dow",
+      "risk": "Elevated",
+      "driver": "Broad risk-off repricing",
+      "move": "-1.0% (-469 pts)",
+      "trend": "Worst drop since Iran war began",
+      "heat": 84
+    },
+    {
+      "market": "Dollar Index",
+      "risk": "Moderate",
+      "driver": "Safe-haven demand",
+      "move": "100.0",
+      "trend": "Firm",
+      "heat": 67
+    },
+    {
+      "market": "2Y Treasury",
+      "risk": "Watch",
+      "driver": "Cuts priced out again",
+      "move": "3.983%",
+      "trend": "Highest since last June",
+      "heat": 86
+    },
+    {
+      "market": "10Y Treasury",
+      "risk": "Watch",
+      "driver": "Oil and auction weakness",
+      "move": "4.415%",
+      "trend": "Highest since last July",
+      "heat": 84
+    },
+    {
+      "market": "Brent Crude",
+      "risk": "High",
+      "driver": "Hormuz disruption fears",
+      "move": "$108.01",
+      "trend": "Up about 6% on day",
+      "heat": 97
+    },
+    {
+      "market": "WTI Crude",
+      "risk": "High",
+      "driver": "War-risk premium surges",
+      "move": "$94.48",
+      "trend": "Sharp upside continuation",
+      "heat": 93
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Iran rejection / war escalation",
+      "score": 96,
+      "detail": "Markets sold off hard after Iran rejected a U.S. ceasefire proposal, reviving fears of a prolonged conflict and worsening supply disruption.",
+      "linked": "Oil, global risk appetite, defensives",
+      "confidence": "High"
+    },
+    {
+      "name": "Oil shock returns",
+      "score": 94,
+      "detail": "Brent surged above $108 and WTI above $94 as Hormuz disruption fears intensified, putting inflation anxiety back at the center of the tape.",
+      "linked": "Brent, WTI, transports, inflation expectations",
+      "confidence": "High"
+    },
+    {
+      "name": "Rate-cut hopes collapse",
+      "score": 90,
+      "detail": "Treasury yields jumped as investors priced out any meaningful chance of near-term cuts and even revived talk of further hikes.",
+      "linked": "2Y yields, 10Y yields, financial conditions",
+      "confidence": "High"
+    },
+    {
+      "name": "Tech-led valuation compression",
+      "score": 86,
+      "detail": "The Nasdaq led the decline as higher yields and geopolitical stress hit long-duration growth assets hardest.",
+      "linked": "Nasdaq, long-duration equities, volatility",
+      "confidence": "High"
+    }
+  ],
+  "risks": [
+    {
+      "title": "Extended oil shock",
+      "level": "High",
+      "desc": "A prolonged Hormuz disruption could keep energy prices rising and deepen inflation stress."
+    },
+    {
+      "title": "Further equity de-rating",
+      "level": "High",
+      "desc": "Higher yields and falling cut expectations can keep pressuring equity valuations, especially in growth."
+    },
+    {
+      "title": "Cross-asset volatility spike",
+      "level": "Elevated",
+      "desc": "War headlines and weak bond-auction demand are driving abrupt moves across oil, bonds, and stocks."
+    },
+    {
+      "title": "False de-escalation headlines",
+      "level": "Medium",
+      "desc": "Any brief peace optimism can reverse quickly, creating whipsaw conditions across all major asset classes."
+    }
+  ],
+  "timeline": [
+    {
+      "time": "Overnight",
+      "headline": "Iran rejected the U.S. ceasefire proposal, reviving fears of a longer war.",
+      "effect": "Oil rose sharply and global risk sentiment deteriorated."
+    },
+    {
+      "time": "Open",
+      "headline": "U.S. stocks opened lower as crude moved back above $100.",
+      "effect": "The S&P 500, Dow, and Nasdaq all sold off immediately."
+    },
+    {
+      "time": "Midday",
+      "headline": "Treasury yields climbed further after another weak government-debt auction.",
+      "effect": "Financial conditions tightened and growth stocks underperformed."
+    },
+    {
+      "time": "Close",
+      "headline": "Wall Street closed with its worst drop since the Iran war began.",
+      "effect": "The Nasdaq entered correction territory and risk-off sentiment dominated."
+    }
+  ],
+  "strategies": [
+    {
+      "title": "Stay Defensive",
+      "body": "With oil surging and yields rising, defensive positioning remains favored until markets show a real de-escalation signal.",
+      "trigger": "Oil stays elevated and yields keep rising",
+      "confidence": "High",
+      "score": 91
+    },
+    {
+      "title": "Fade Growth Rallies",
+      "body": "Growth-heavy equities remain vulnerable while the macro backdrop tightens financial conditions and pushes valuations lower.",
+      "trigger": "Nasdaq bounces while yields and crude stay firm",
+      "confidence": "High",
+      "score": 87
+    },
+    {
+      "title": "Respect Energy Leadership",
+      "body": "Energy can continue to outperform as long as conflict risk and supply concerns remain unresolved.",
+      "trigger": "Crude holds near or above current highs",
+      "confidence": "Medium",
+      "score": 82
+    },
+    {
+      "title": "Watch for Headline Reversal",
+      "body": "A credible de-escalation headline could trigger a violent reversal lower in oil and higher in beaten-down risk assets.",
+      "trigger": "Confirmed talks or ceasefire acceptance",
+      "confidence": "Medium",
+      "score": 74
+    }
+  ]
+}
