@@ -1,0 +1,263 @@
+{
+  "snapshotDate": "2026-04-01",
+  "marketPulse": "Relief Rally within Volatile Macro Shock",
+  "marketPulseSubtext": "Oil down, stocks higher, volatility easing, but rates and gold still signal unresolved macro stress",
+  "topDriver": "War de-escalation hopes + inflation still unresolved",
+  "topDriverSubtext": "Oil cooled enough to lift risk assets, but pressure is still visible across rates, gold, and broader macro signals",
+  "lastUpdated": "Apr 1, 2026",
+  "lastUpdatedSubtext": "Manual refresh snapshot",
+  "disclaimer": "Prototype disclaimer: This screen reflects a manual April 1, 2026 market snapshot, but it is not validated for trading, investment, or risk decisions. It would need to be hooked up to real-time market and news sources, then scored by tested algorithms and monitoring before production use.",
+  "topThemes": [
+    {
+      "theme": "Relief rally takes hold",
+      "impact": "Equities, sentiment, positioning",
+      "strength": 86,
+      "direction": "Risk-On"
+    },
+    {
+      "theme": "Oil shock cools, not disappears",
+      "impact": "Crude, inflation expectations, cyclicals",
+      "strength": 82,
+      "direction": "Easing"
+    },
+    {
+      "theme": "Rates stay firm enough to matter",
+      "impact": "Financial conditions, duration, valuation pressure",
+      "strength": 79,
+      "direction": "Persistent"
+    },
+    {
+      "theme": "Safety demand remains underneath the bounce",
+      "impact": "Gold, volatility, macro hedging",
+      "strength": 81,
+      "direction": "Lingering"
+    }
+  ],
+  "rateCurve": [
+    {
+      "tenor": "2Y",
+      "current": 3.807,
+      "prior": 3.799
+    },
+    {
+      "tenor": "10Y",
+      "current": 4.327,
+      "prior": 4.311
+    },
+    {
+      "tenor": "30Y",
+      "current": 4.883,
+      "prior": 4.874
+    }
+  ],
+  "rateCurveRead": "As of the April 1 snapshot, Treasury yields were still firm rather than collapsing, which suggests the market is treating the easing in oil as helpful but not enough to fully erase inflation and growth concerns.",
+  "crossMarket": [
+    {
+      "market": "S&P 500 (SPY proxy)",
+      "risk": "Watch",
+      "driver": "Broad relief rally as de-escalation hopes improve sentiment",
+      "move": "$655.24",
+      "trend": "+0.69% on day",
+      "heat": 72
+    },
+    {
+      "market": "Nasdaq 100 (QQQ proxy)",
+      "risk": "Watch",
+      "driver": "Growth rebounds as oil pressure cools and tech leads",
+      "move": "$584.31",
+      "trend": "+1.17% on day",
+      "heat": 79
+    },
+    {
+      "market": "Dow",
+      "risk": "Watch",
+      "driver": "Cyclicals stabilize as war-risk premium eases",
+      "move": "46,565.74",
+      "trend": "+224.15 pts (+0.48%)",
+      "heat": 68
+    },
+    {
+      "market": "Dollar Index",
+      "risk": "Watch",
+      "driver": "Safe-haven demand fades as headline stress cools",
+      "move": "Down 0.12%",
+      "trend": "Two-day pullback extends",
+      "heat": 58
+    },
+    {
+      "market": "2Y Treasury",
+      "risk": "Watch",
+      "driver": "Fed path still uncertain, cuts not fully back in control",
+      "move": "3.807%",
+      "trend": "Firm",
+      "heat": 73
+    },
+    {
+      "market": "10Y Treasury",
+      "risk": "Watch",
+      "driver": "Inflation and growth still in tension",
+      "move": "4.327%",
+      "trend": "Firm to slightly higher",
+      "heat": 76
+    },
+    {
+      "market": "30Y Treasury",
+      "risk": "Watch",
+      "driver": "Long-end term premium still elevated",
+      "move": "4.883%",
+      "trend": "Still elevated",
+      "heat": 72
+    },
+    {
+      "market": "Brent Crude",
+      "risk": "High",
+      "driver": "War-risk premium fades on de-escalation hopes",
+      "move": "$101.16",
+      "trend": "-2.7% on day",
+      "heat": 80
+    },
+    {
+      "market": "WTI Crude",
+      "risk": "High",
+      "driver": "Crude reprices lower, but still near triple digits",
+      "move": "$100.12",
+      "trend": "-1.24% on day",
+      "heat": 78
+    },
+    {
+      "market": "Gold",
+      "risk": "Watch",
+      "driver": "Safety bid remains active even as stocks rebound",
+      "move": "$4,768.04",
+      "trend": "+2.11% spot; futures settled +2.9%",
+      "heat": 84
+    },
+    {
+      "market": "VIX",
+      "risk": "Elevated",
+      "driver": "Fear eases, but the market is not back to calm",
+      "move": "24.5",
+      "trend": "Lowest in more than a week, still above normal",
+      "heat": 71
+    },
+    {
+      "market": "Bitcoin",
+      "risk": "Watch",
+      "driver": "Speculative appetite steadies with risk sentiment",
+      "move": "$68,281",
+      "trend": "+0.19% on day",
+      "heat": 66
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Oil is still the first lens, but no longer the only one",
+      "score": 86,
+      "detail": "Crude fell sharply on hopes the Iran war could de-escalate, but prices are still elevated enough to keep inflation and growth concerns alive.",
+      "linked": "Brent, WTI, gasoline, inflation expectations",
+      "confidence": "High"
+    },
+    {
+      "name": "The relief rally is real, but still tactical",
+      "score": 84,
+      "detail": "U.S. stocks rallied for a second straight session, led by tech, but the bounce still depends heavily on shifting geopolitical headlines.",
+      "linked": "Dow, S&P 500, Nasdaq, sentiment",
+      "confidence": "High"
+    },
+    {
+      "name": "Bond yields are not behaving like a full all-clear",
+      "score": 80,
+      "detail": "Treasury yields stayed firm rather than collapsing, which suggests inflation repricing and resilient economic data are still limiting the bond market's safe-haven response.",
+      "linked": "2Y yields, 10Y yields, 30Y yields, financial conditions",
+      "confidence": "High"
+    },
+    {
+      "name": "Gold is confirming that caution remains underneath the surface",
+      "score": 83,
+      "detail": "Gold kept climbing even as stocks rallied, showing that investors are still paying for protection rather than embracing a clean risk-on reset.",
+      "linked": "Gold, macro hedging, defensives",
+      "confidence": "High"
+    },
+    {
+      "name": "Other areas to watch now are rates, volatility, shipping, and consumer spillover",
+      "score": 82,
+      "detail": "Beyond oil, the next important read-throughs are Treasury yields, the VIX, fuel and shipping-related pressure, and whether higher energy costs spill into housing and consumer demand.",
+      "linked": "VIX, Treasury curve, mortgage rates, transports, consumer sensitivity",
+      "confidence": "High"
+    }
+  ],
+  "risks": [
+    {
+      "title": "Rates stay too high for comfort",
+      "level": "High",
+      "desc": "If yields remain firm while oil holds near $100, financial conditions can stay tighter than equity bulls want."
+    },
+    {
+      "title": "Volatility cools, but not enough",
+      "level": "Elevated",
+      "desc": "A VIX near the mid-20s is better than 30-plus, but it still leaves the market vulnerable to sharp headline reactions."
+    },
+    {
+      "title": "Consumer and housing spillover",
+      "level": "Elevated",
+      "desc": "Higher mortgage rates and fuel costs could still start weighing on affordability, travel, and discretionary demand."
+    },
+    {
+      "title": "False dawn on de-escalation",
+      "level": "Medium",
+      "desc": "If the war narrative reverses again, oil, gold, and volatility could all snap back higher quickly."
+    }
+  ],
+  "timeline": [
+    {
+      "time": "Overnight",
+      "headline": "Global markets rallied on hopes the Iran war could de-escalate within weeks.",
+      "effect": "Risk appetite improved and oil sold off from prior panic levels."
+    },
+    {
+      "time": "Morning",
+      "headline": "Crude inventories rose sharply in the U.S. and helped reinforce the move lower in oil.",
+      "effect": "Energy pressure eased and the market leaned further into the relief trade."
+    },
+    {
+      "time": "Afternoon",
+      "headline": "U.S. stocks finished higher again, led by technology and growth shares.",
+      "effect": "The rally broadened, but gains still rested on fragile geopolitical optimism."
+    },
+    {
+      "time": "Close",
+      "headline": "Gold stayed strong and volatility remained elevated despite the rally.",
+      "effect": "The close still signaled caution underneath the bounce rather than a full reset to calm."
+    }
+  ],
+  "strategies": [
+    {
+      "title": "Watch Rates With Oil",
+      "body": "The cleanest test of whether this bounce can hold is not just lower crude, but lower or at least stable Treasury yields alongside it.",
+      "trigger": "WTI stays near or below $100 and 10Y does not re-accelerate higher",
+      "confidence": "High",
+      "score": 90
+    },
+    {
+      "title": "Monitor Volatility Reset",
+      "body": "A falling VIX would support the rally, but if volatility stalls in the mid-20s, markets may still be vulnerable to failed follow-through.",
+      "trigger": "VIX holds below roughly 25 or turns back up",
+      "confidence": "High",
+      "score": 85
+    },
+    {
+      "title": "Respect Gold's Message",
+      "body": "If gold keeps rising while equities also rise, the market may be pricing tactical relief without fully trusting the geopolitical or inflation backdrop.",
+      "trigger": "Gold remains firm even as stocks extend gains",
+      "confidence": "Medium",
+      "score": 82
+    },
+    {
+      "title": "Watch Housing and Consumer Pressure",
+      "body": "Mortgage rates, travel-sensitive names, and discretionary spending are useful next-leg indicators for whether the oil shock starts showing up in the real economy.",
+      "trigger": "Mortgage rates stay high and consumer-sensitive groups lag",
+      "confidence": "Medium",
+      "score": 79
+    }
+  ]
+}
