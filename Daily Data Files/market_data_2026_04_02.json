@@ -1,0 +1,263 @@
+{
+  "snapshotDate": "2026-04-02",
+  "marketPulse": "Shock Absorbed, but Warflation Risk Still Dominates",
+  "marketPulseSubtext": "Stocks finished mixed after absorbing an oil spike, while the dollar and yields stayed firm and volatility remained elevated.",
+  "topDriver": "Iran war escalation keeps oil and inflation risk front and center",
+  "topDriverSubtext": "Markets bent but did not break as crude surged above $109 Brent and $111 WTI, while investors still leaned on the dollar and kept pressure on rates.",
+  "lastUpdated": "Apr 2, 2026",
+  "lastUpdatedSubtext": "Manual refresh snapshot",
+  "disclaimer": "Prototype disclaimer: This screen reflects a manual April 2, 2026 market snapshot, but it is not validated for trading, investment, or risk decisions. It would need to be hooked up to real-time market and news sources, then scored by tested algorithms and monitoring before production use.",
+  "topThemes": [
+    {
+      "theme": "Warflation replaces relief-rally optimism",
+      "impact": "Oil, rates, macro sentiment",
+      "strength": 90,
+      "direction": "Risk-Off"
+    },
+    {
+      "theme": "Equities hold together better than the headlines",
+      "impact": "Index resilience, positioning, short covering",
+      "strength": 74,
+      "direction": "Mixed"
+    },
+    {
+      "theme": "Dollar and yields confirm tighter financial conditions",
+      "impact": "Funding, duration, mortgage pressure",
+      "strength": 84,
+      "direction": "Persistent"
+    },
+    {
+      "theme": "Volatility stays elevated into the long weekend",
+      "impact": "Options pricing, hedging, fragile follow-through",
+      "strength": 83,
+      "direction": "Elevated"
+    }
+  ],
+  "rateCurve": [
+    {
+      "tenor": "2Y",
+      "current": 3.859,
+      "prior": 3.807
+    },
+    {
+      "tenor": "10Y",
+      "current": 4.379,
+      "prior": 4.327
+    },
+    {
+      "tenor": "30Y",
+      "current": 4.952,
+      "prior": 4.883
+    }
+  ],
+  "rateCurveRead": "As of the April 2 snapshot, Treasury yields moved higher across the curve instead of rallying on safety, which suggests the market is focusing more on inflation and supply shock risk than on a clean flight to duration.",
+  "crossMarket": [
+    {
+      "market": "S&P 500 (SPY proxy)",
+      "risk": "Watch",
+      "driver": "Broad market stabilized after early weakness as investors balanced high oil with late-session resilience",
+      "move": "$655.83",
+      "trend": "+0.10% on day",
+      "heat": 70
+    },
+    {
+      "market": "Nasdaq 100 (QQQ proxy)",
+      "risk": "Watch",
+      "driver": "Growth recovered from intraday pressure and finished modestly higher",
+      "move": "$584.98",
+      "trend": "+0.13% on day",
+      "heat": 74
+    },
+    {
+      "market": "Dow",
+      "risk": "Watch",
+      "driver": "Cyclicals and travel-sensitive names felt the oil shock more directly",
+      "move": "46,504.67",
+      "trend": "-59.76 pts (-0.13%)",
+      "heat": 69
+    },
+    {
+      "market": "Dollar Index",
+      "risk": "Watch",
+      "driver": "Safe-haven demand returned as investors sought dollar liquidity",
+      "move": "Up 0.59%",
+      "trend": "Rebound strengthens",
+      "heat": 72
+    },
+    {
+      "market": "2Y Treasury",
+      "risk": "Watch",
+      "driver": "Fed path firms as oil-driven inflation risk muddies the case for cuts",
+      "move": "3.859%",
+      "trend": "Higher",
+      "heat": 79
+    },
+    {
+      "market": "10Y Treasury",
+      "risk": "Watch",
+      "driver": "Inflation shock and term premium both leaning upward",
+      "move": "4.379%",
+      "trend": "Higher",
+      "heat": 82
+    },
+    {
+      "market": "30Y Treasury",
+      "risk": "High",
+      "driver": "Long-end stays under pressure as inflation uncertainty persists",
+      "move": "4.952%",
+      "trend": "Near 5%",
+      "heat": 84
+    },
+    {
+      "market": "Brent Crude",
+      "risk": "High",
+      "driver": "Conflict and Hormuz uncertainty push the global benchmark sharply higher",
+      "move": "$109.03",
+      "trend": "+7.8% on day",
+      "heat": 94
+    },
+    {
+      "market": "WTI Crude",
+      "risk": "High",
+      "driver": "U.S. crude posts its largest one-day dollar jump in decades",
+      "move": "$111.54",
+      "trend": "+11.3% on day",
+      "heat": 96
+    },
+    {
+      "market": "Gold",
+      "risk": "Watch",
+      "driver": "Higher yields and a stronger dollar undercut the metal despite geopolitical stress",
+      "move": "$4,651.50",
+      "trend": "Down sharply on day",
+      "heat": 71
+    },
+    {
+      "market": "VIX",
+      "risk": "Elevated",
+      "driver": "Options market still prices headline risk and weekend uncertainty",
+      "move": "~27",
+      "trend": "Elevated",
+      "heat": 85
+    },
+    {
+      "market": "Bitcoin",
+      "risk": "Watch",
+      "driver": "Macro stress clipped risk appetite in crypto",
+      "move": "$66,868",
+      "trend": "-0.70% on day",
+      "heat": 68
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Oil is now the transmission channel into everything else",
+      "score": 93,
+      "detail": "The biggest move of the day was crude, with WTI jumping above $111 and Brent closing above $109 as the market repriced the odds of a longer disruption tied to Iran and the Strait of Hormuz.",
+      "linked": "Brent, WTI, gasoline, inflation expectations",
+      "confidence": "High"
+    },
+    {
+      "name": "Stocks showed resilience, but not conviction",
+      "score": 78,
+      "detail": "Indexes finished only slightly mixed after sharp early losses, which says positioning and dip buying helped, but the market is still trading event risk rather than a durable all-clear.",
+      "linked": "Dow, S&P 500, Nasdaq, positioning",
+      "confidence": "High"
+    },
+    {
+      "name": "Rates are flashing tighter conditions again",
+      "score": 86,
+      "detail": "The Treasury curve moved higher across maturities, which is a problem for equities, housing, and any part of the economy that needs lower financing costs to keep momentum.",
+      "linked": "2Y yields, 10Y yields, 30Y yields, mortgage rates",
+      "confidence": "High"
+    },
+    {
+      "name": "The dollar is back in the conversation",
+      "score": 80,
+      "detail": "A stronger dollar is now reinforcing the shock by tightening global financial conditions and pressuring risk assets outside the narrow energy winners.",
+      "linked": "Dollar index, global funding, FX sensitivity",
+      "confidence": "High"
+    },
+    {
+      "name": "The next areas to watch are transport, housing, and consumer demand",
+      "score": 84,
+      "detail": "Beyond oil itself, the most important spillovers are airline and freight sensitivity, mortgage-rate pressure, and whether higher fuel and financing costs begin to weigh on discretionary spending.",
+      "linked": "Airlines, transports, mortgage rates, consumer sensitivity",
+      "confidence": "High"
+    }
+  ],
+  "risks": [
+    {
+      "title": "Oil shock bleeds into inflation expectations",
+      "level": "High",
+      "desc": "If crude stays near or above current levels, the market may keep pushing rate-cut hopes further out and reprice inflation higher again."
+    },
+    {
+      "title": "Long weekend headline gap risk",
+      "level": "Elevated",
+      "desc": "With markets closed for Good Friday, any geopolitical surprise could leave investors unable to react until the next reopening."
+    },
+    {
+      "title": "Housing affordability keeps worsening",
+      "level": "Elevated",
+      "desc": "Mortgage rates have climbed again, which raises the odds that housing demand and broader consumer confidence soften further."
+    },
+    {
+      "title": "False sense of equity resilience",
+      "level": "Medium",
+      "desc": "A mixed close can mask fragility if the market is being carried by short covering while oil, yields, and volatility all stay elevated."
+    }
+  ],
+  "timeline": [
+    {
+      "time": "Overnight",
+      "headline": "President Trump's tougher Iran messaging revived fears of a longer conflict and another squeeze through the Strait of Hormuz.",
+      "effect": "Oil surged, the dollar rebounded, and global risk sentiment turned defensive."
+    },
+    {
+      "time": "Morning",
+      "headline": "U.S. stocks opened lower while volatility and Treasury yields pushed higher.",
+      "effect": "The market repriced inflation risk more than it embraced a classic safety trade."
+    },
+    {
+      "time": "Afternoon",
+      "headline": "Reports of Iran-Oman discussions on monitoring or reopening the strait helped calm the worst of the panic.",
+      "effect": "Equities recovered from their lows and the session finished mixed instead of disorderly."
+    },
+    {
+      "time": "Close",
+      "headline": "Oil still finished sharply higher, while the dollar and rates stayed firm into the Good Friday shutdown.",
+      "effect": "The close signaled resilience in stocks, but not resolution in the macro shock."
+    }
+  ],
+  "strategies": [
+    {
+      "title": "Watch Oil Against Yields",
+      "body": "The key test is whether crude stays elevated and pulls Treasury yields even higher, because that combination is what tightens conditions fastest across the real economy.",
+      "trigger": "WTI holds above roughly $110 while the 10Y remains near or above 4.35%",
+      "confidence": "High",
+      "score": 92
+    },
+    {
+      "title": "Monitor Transport and Travel Sensitivity",
+      "body": "If airlines, shippers, and fuel-sensitive cyclicals keep underperforming, the market is telling you the oil shock is moving beyond commodities and into earnings risk.",
+      "trigger": "Travel and transport groups lag even when the broad market stabilizes",
+      "confidence": "High",
+      "score": 86
+    },
+    {
+      "title": "Respect the Dollar Rebound",
+      "body": "A stronger dollar on top of higher oil can become a second tightening channel, especially for multinational earnings and global risk appetite.",
+      "trigger": "Dollar strength persists for another few sessions",
+      "confidence": "Medium",
+      "score": 81
+    },
+    {
+      "title": "Track Housing as the Cleanest Spillover Gauge",
+      "body": "Mortgage rates are one of the fastest ways this macro shock can hit the real economy, so housing data and rate-sensitive equities matter more here than usual.",
+      "trigger": "Mortgage rates stay elevated and housing-linked names weaken",
+      "confidence": "Medium",
+      "score": 80
+    }
+  ]
+}
