@@ -1,0 +1,263 @@
+{
+  "snapshotDate": "2026-04-03",
+  "marketPulse": "Holiday Pause, Hot Jobs, and Warflation Still in Charge",
+  "marketPulseSubtext": "U.S. cash equities were closed for Good Friday, but a stronger March jobs report kept yields and the dollar firm while oil stayed near Thursday shock highs.",
+  "topDriver": "Good Friday froze cash markets, but payroll strength reinforced the higher-for-longer message",
+  "topDriverSubtext": "With stocks shut, the real signal came from the March jobs report: 178,000 payrolls and 4.3% unemployment kept pressure on yields and the dollar even as oil remained the dominant inflation threat.",
+  "lastUpdated": "Apr 3, 2026",
+  "lastUpdatedSubtext": "Manual refresh snapshot",
+  "disclaimer": "Prototype disclaimer: This screen reflects a manual April 3, 2026 market snapshot, but it is not validated for trading, investment, or risk decisions. U.S. cash equity markets were closed for Good Friday, so several risk-asset levels still reflect Thursday closes while macro context was updated with Friday data and holiday trading conditions. It would need live market and news feeds, plus tested scoring and monitoring, before production use.",
+  "topThemes": [
+    {
+      "theme": "Good Friday pauses trading, not macro risk",
+      "impact": "Liquidity, positioning, headline sensitivity",
+      "strength": 88,
+      "direction": "Holiday-Thin"
+    },
+    {
+      "theme": "Stronger payrolls harden the higher-for-longer view",
+      "impact": "Fed path, yields, dollar",
+      "strength": 86,
+      "direction": "Tighter"
+    },
+    {
+      "theme": "Oil shock still dominates inflation psychology",
+      "impact": "Energy, CPI, consumer pressure",
+      "strength": 92,
+      "direction": "Warflation"
+    },
+    {
+      "theme": "Weekend gap risk remains unusually high",
+      "impact": "Volatility, hedging, reopening risk",
+      "strength": 85,
+      "direction": "Elevated"
+    }
+  ],
+  "rateCurve": [
+    {
+      "tenor": "2Y",
+      "current": 3.84,
+      "prior": 3.859
+    },
+    {
+      "tenor": "10Y",
+      "current": 4.35,
+      "prior": 4.379
+    },
+    {
+      "tenor": "30Y",
+      "current": 4.91,
+      "prior": 4.952
+    }
+  ],
+  "rateCurveRead": "As of the April 3 snapshot, Treasury yields remained firm after the March jobs report, reinforcing a higher-for-longer backdrop even with U.S. equity markets closed for Good Friday. The message is that growth has not cooled enough to offset the inflation risk coming from energy.",
+  "crossMarket": [
+    {
+      "market": "S&P 500 (SPY proxy)",
+      "risk": "Watch",
+      "driver": "U.S. cash equities were closed for Good Friday, leaving Thursday's resilient close as the latest cash read while futures softened after payrolls.",
+      "move": "$655.83",
+      "trend": "Cash market closed; futures lower",
+      "heat": 69
+    },
+    {
+      "market": "Nasdaq 100 (QQQ proxy)",
+      "risk": "Watch",
+      "driver": "Growth shares kept Thursday's rebound, but holiday trading pointed to mild pressure after the stronger labor report.",
+      "move": "$584.98",
+      "trend": "Cash market closed; futures lower",
+      "heat": 73
+    },
+    {
+      "market": "Dow",
+      "risk": "Watch",
+      "driver": "Industrial and travel exposure remain vulnerable to fuel costs even though the cash index did not trade Friday.",
+      "move": "46,504.67",
+      "trend": "Cash market closed",
+      "heat": 68
+    },
+    {
+      "market": "Dollar Index",
+      "risk": "Watch",
+      "driver": "The dollar stayed supported after payrolls beat expectations, reinforcing tighter global financial conditions.",
+      "move": "Higher",
+      "trend": "Firm after jobs report",
+      "heat": 74
+    },
+    {
+      "market": "2Y Treasury",
+      "risk": "Watch",
+      "driver": "Short-end yields stayed firm as stronger jobs data reduced the urgency for rate cuts.",
+      "move": "3.84%",
+      "trend": "Firm",
+      "heat": 80
+    },
+    {
+      "market": "10Y Treasury",
+      "risk": "Watch",
+      "driver": "The 10Y hovered around 4.35%, keeping broader financial conditions tight into next week's CPI setup.",
+      "move": "4.35%",
+      "trend": "Firm",
+      "heat": 82
+    },
+    {
+      "market": "30Y Treasury",
+      "risk": "High",
+      "driver": "The long end remained near 4.9%, a sign that inflation and term-premium pressure have not faded.",
+      "move": "4.91%",
+      "trend": "Still elevated",
+      "heat": 84
+    },
+    {
+      "market": "Brent Crude",
+      "risk": "High",
+      "driver": "Oil markets were closed Friday, but Brent held near Thursday's shock close as Hormuz disruption fears lingered.",
+      "move": "$109.03",
+      "trend": "Holiday pause after +7.8%",
+      "heat": 94
+    },
+    {
+      "market": "WTI Crude",
+      "risk": "High",
+      "driver": "WTI stayed anchored near Thursday's spike above $111 with traders still focused on war-driven supply risk.",
+      "move": "$111.54",
+      "trend": "Holiday pause after +11.4%",
+      "heat": 96
+    },
+    {
+      "market": "Gold",
+      "risk": "Watch",
+      "driver": "Precious-metals markets were shut for the holiday, leaving gold caught between geopolitical demand and pressure from firmer yields and dollar strength.",
+      "move": "$4,652.31",
+      "trend": "Closed for holiday",
+      "heat": 70
+    },
+    {
+      "market": "VIX",
+      "risk": "Elevated",
+      "driver": "Volatility stayed elevated into the long weekend as investors faced reopening risk with no ability to hedge in cash markets.",
+      "move": "26.78",
+      "trend": "Elevated",
+      "heat": 84
+    },
+    {
+      "market": "Bitcoin",
+      "risk": "Watch",
+      "driver": "Crypto softened modestly after the jobs report as higher-for-longer rate expectations nudged risk appetite lower.",
+      "move": "$66,850",
+      "trend": "Down modestly",
+      "heat": 67
+    }
+  ],
+  "drivers": [
+    {
+      "name": "The jobs report became Friday's real market move",
+      "score": 90,
+      "detail": "March nonfarm payrolls rose by 178,000 and unemployment edged down to 4.3%, making it harder for the market to lean on near-term Fed easing.",
+      "linked": "Payrolls, unemployment rate, Fed path, yields",
+      "confidence": "High"
+    },
+    {
+      "name": "Oil still owns the inflation narrative",
+      "score": 92,
+      "detail": "Even with energy markets closed Friday, Thursday's jump to $111.54 WTI and $109.03 Brent kept war-driven inflation fears front and center.",
+      "linked": "WTI, Brent, gasoline, CPI expectations",
+      "confidence": "High"
+    },
+    {
+      "name": "Holiday closures reduced price discovery but increased gap risk",
+      "score": 84,
+      "detail": "With U.S. stocks shut and many global markets also closed, investors were forced to carry geopolitical and macro risk into Monday's reopening.",
+      "linked": "Good Friday closure, futures, weekend headlines",
+      "confidence": "High"
+    },
+    {
+      "name": "The dollar and curve remain the cleaner tightening signal",
+      "score": 81,
+      "detail": "Friday's macro response still favored a firmer dollar and steady upward pressure on rates, which is the transmission path that can tighten conditions fastest.",
+      "linked": "Dollar index, 2Y, 10Y, 30Y",
+      "confidence": "High"
+    },
+    {
+      "name": "Next week's inflation data matters more now",
+      "score": 85,
+      "detail": "After a stronger jobs print and an energy shock, next week's CPI release becomes the clearest test of whether warflation is already bleeding into the data.",
+      "linked": "CPI, Fed expectations, inflation repricing",
+      "confidence": "Medium"
+    }
+  ],
+  "risks": [
+    {
+      "title": "Weekend gap risk into Monday reopen",
+      "level": "High",
+      "desc": "With U.S. cash equities closed Friday, any geopolitical escalation or diplomatic surprise can hit markets all at once when trading resumes."
+    },
+    {
+      "title": "Hot labor plus expensive oil delays rate-cut hopes",
+      "level": "High",
+      "desc": "A resilient labor market combined with an energy shock makes it harder for the Fed to sound dovish."
+    },
+    {
+      "title": "CPI surprise risk next week",
+      "level": "Elevated",
+      "desc": "The market now has to test whether higher fuel costs and sticky inflation pressures show up quickly in the March data."
+    },
+    {
+      "title": "False calm from a holiday tape",
+      "level": "Medium",
+      "desc": "Quiet price action on a closure day can understate how much stress is still sitting in oil, volatility, and rates."
+    }
+  ],
+  "timeline": [
+    {
+      "time": "Pre-market",
+      "headline": "Good Friday closures left U.S. cash equities shut while traders focused on macro data instead of a normal session.",
+      "effect": "Risk was expressed through yields, the dollar, crypto, and index futures rather than cash stocks."
+    },
+    {
+      "time": "8:30 a.m. ET",
+      "headline": "The March jobs report showed 178,000 payroll gains and a 4.3% unemployment rate.",
+      "effect": "The data reinforced a higher-for-longer Fed message and kept pressure on yields and the dollar."
+    },
+    {
+      "time": "Midday",
+      "headline": "Stock index futures drifted lower while the bond market stayed firm after the labor surprise.",
+      "effect": "The market treated strong jobs as another reason not to price easy policy relief."
+    },
+    {
+      "time": "Into the weekend",
+      "headline": "Oil remained near Thursday shock levels and investors carried geopolitical exposure into Monday's reopen.",
+      "effect": "The setup preserved warflation risk even without a fresh cash equity close."
+    }
+  ],
+  "strategies": [
+    {
+      "title": "Watch Monday's Reopen for Gap Confirmation",
+      "body": "Because Friday was a holiday session, Monday's cash open matters more than usual for confirming whether risk assets truly absorbed the jobs report and oil shock.",
+      "trigger": "A large gap in SPY, QQQ, airlines, or transports at Monday's open",
+      "confidence": "High",
+      "score": 91
+    },
+    {
+      "title": "Stay Focused on Oil Versus CPI",
+      "body": "The most important macro test now is whether energy stays elevated into next week's inflation data, because that is where war risk turns into a broader policy problem.",
+      "trigger": "WTI holds near or above $110 into the CPI release",
+      "confidence": "High",
+      "score": 90
+    },
+    {
+      "title": "Respect the Dollar and Front-End Signal",
+      "body": "If the dollar stays firm and front-end yields refuse to ease, the market is telling you financial conditions are still tightening despite the holiday pause.",
+      "trigger": "2Y stays near 3.8%+ and dollar strength persists",
+      "confidence": "Medium",
+      "score": 83
+    },
+    {
+      "title": "Use Transport and Consumer Sensitivity as Spillover Gauges",
+      "body": "Airlines, shippers, retailers, and housing-linked names remain the cleanest way to see whether the oil shock is starting to damage the real economy.",
+      "trigger": "Travel, transport, and housing names lag on any broad-market bounce",
+      "confidence": "Medium",
+      "score": 82
+    }
+  ]
+}
