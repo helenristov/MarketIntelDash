@@ -431,7 +431,7 @@
         </div>
 
         <section class="panel">
-          ${sectionHeader('Signal Indicators and Strategy Ideas', 'Illustrative signals derived from the dashboard state. These are concepts only and need validation before any real trading use.')}
+          ${sectionHeader('Signal Indicators and Strategy Ideas', 'Illustrative signals derived from the dashboard state.')}
           <div class="strategy-grid">
             ${data.strategies.map((item) => {
               const prob = getSignalProbability(item.score, item.confidence);
