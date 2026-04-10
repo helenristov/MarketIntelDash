@@ -240,6 +240,41 @@
   ],
   "strategies": [
     {
+      "title": "Semiconductor Leadership Rebuild",
+      "body": "Growth re-risking led by AI and semiconductor leadership",
+      "trigger": "QQQ outperforming SPY while the 10Y yield stabilizes below roughly 4.35%",
+      "confidence": "High",
+      "score": 82
+    },
+    {
+      "title": "Consumer vs Energy Rotation",
+      "body": "Disinflation without a clear growth collapse",
+      "trigger": "Oil fails to hold above roughly $100 to $102 while consumer discretionary outperforms energy",
+      "confidence": "Medium",
+      "score": 78
+    },
+    {
+      "title": "Gold and Equities Co-Rally",
+      "body": "Upside participation with tail-risk hedging still in place",
+      "trigger": "SPY and gold advance together in the same session",
+      "confidence": "Medium",
+      "score": 74
+    },
+    {
+      "title": "Rates vs Equity Divergence",
+      "body": "Narrative tension that can resolve through a sharper cross-asset repricing",
+      "trigger": "Equities rise while the 10Y Treasury yield remains above roughly 4.25%",
+      "confidence": "High",
+      "score": 85
+    },
+    {
+      "title": "Bitcoin as Liquidity Proxy",
+      "body": "Liquidity appetite may be rebuilding beneath the surface",
+      "trigger": "Bitcoin strengthens while equities lag or consolidate",
+      "confidence": "Low",
+      "score": 68
+    },
+    {
       "title": "Favor QQQ Over Energy if the Truce Holds",
       "body": "Today\u2019s tape showed a cleaner bid in growth and consumer-linked risk than in energy. If diplomacy keeps improving and oil stops re-accelerating, duration-sensitive quality growth can keep outperforming the conflict winners.",
       "trigger": "QQQ continues making higher closes while WTI fails to extend much beyond roughly $102",
@@ -266,43 +301,6 @@
       "trigger": "March CPI release on April 10, 2026 at 8:30 a.m. ET",
       "confidence": "High",
       "score": 93
-    }
-  ],
-  "opportunities": [
-    {
-      "name": "Semiconductor Leadership Rebuild",
-      "type": "Cross-Asset Momentum",
-      "trigger": "QQQ outperforming SPY while the 10Y yield stabilizes below roughly 4.35%",
-      "signal": "Growth re-risking led by AI and semiconductor leadership",
-      "confidence": 82
-    },
-    {
-      "name": "Consumer vs Energy Rotation",
-      "type": "Sector Rotation",
-      "trigger": "Oil fails to hold above roughly $100 to $102 while consumer discretionary outperforms energy",
-      "signal": "Disinflation without a clear growth collapse",
-      "confidence": 78
-    },
-    {
-      "name": "Gold and Equities Co-Rally",
-      "type": "Hedged Risk-On",
-      "trigger": "SPY and gold advance together in the same session",
-      "signal": "Upside participation with tail-risk hedging still in place",
-      "confidence": 74
-    },
-    {
-      "name": "Rates vs Equity Divergence",
-      "type": "Macro Tension",
-      "trigger": "Equities rise while the 10Y Treasury yield remains above roughly 4.25%",
-      "signal": "Narrative tension that can resolve through a sharper cross-asset repricing",
-      "confidence": 85
-    },
-    {
-      "name": "Bitcoin as Liquidity Proxy",
-      "type": "Risk Appetite Signal",
-      "trigger": "Bitcoin strengthens while equities lag or consolidate",
-      "signal": "Liquidity appetite may be rebuilding beneath the surface",
-      "confidence": 68
     }
   ]
 }
