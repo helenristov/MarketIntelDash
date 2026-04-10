@@ -1,263 +1,271 @@
 {
-  "snapshotDate": "2026-04-07",
-  "marketPulse": "Deadline Risk, Elevated Oil, and a Market Waiting for 8 p.m.",
-  "marketPulseSubtext": "U.S. stocks traded lower while oil stayed historically elevated, Treasury yields held near recent highs, and investors counted down to President Trump's 8 p.m. ET deadline for Iran to reopen the Strait of Hormuz.",
-  "topDriver": "Hormuz deadline risk kept markets defensive while oil, yields, and the dollar reinforced the inflation threat",
-  "topDriverSubtext": "By late afternoon, SPY and QQQ were modestly lower, WTI was around $112.95 and Brent settled near $109.27, the 10Y Treasury yield was near 4.35%, and the dollar index hovered around 100 as traders shifted focus toward Friday's CPI release.",
-  "lastUpdated": "Apr 7, 2026",
+  "snapshotDate": "2026-04-09",
+  "marketPulse": "Relief Rally in Equities, Oil Rebound, and a Market Still Testing the Cease-Fire",
+  "marketPulseSubtext": "U.S. stocks finished higher, volatility cooled, and gold advanced, but oil rebounded toward $100 and Treasury yields stayed elevated as investors weighed fragile Middle East diplomacy ahead of Friday morning's March CPI release.",
+  "topDriver": "Risk appetite improved in equities, but oil, rates, and gold all said the market still does not fully trust the cease-fire",
+  "topDriverSubtext": "By the close, SPY, QQQ, and DIA all ended higher, WTI traded around $102.09 and Brent around $99.16, the 10Y Treasury yield was near 4.29% to 4.30%, the 30Y was near 4.89%, spot gold was near $4,789.67, and the dollar index was roughly 99.11.",
+  "lastUpdated": "Apr 9, 2026",
   "lastUpdatedSubtext": "Manual refresh snapshot",
-  "disclaimer": "Prototype disclaimer: This screen reflects a manual April 7, 2026 market snapshot and is not validated for trading, investment, or risk decisions. Several fields combine live or late-day market quotes with same-day news context around the U.S.-Iran conflict, the Strait of Hormuz deadline, and upcoming inflation data. It would need live market and news feeds, plus tested scoring and monitoring, before production use.",
+  "disclaimer": "Prototype disclaimer: This screen reflects a manual April 9, 2026 market snapshot and is not validated for trading, investment, or risk decisions. Several fields combine market quotes and same-day news context around the fragile U.S.-Iran cease-fire, renewed pressure in oil, Treasury yields, gold, and the upcoming March CPI report due April 10, 2026 at 8:30 a.m. ET. It would need live market and news feeds, plus tested scoring and monitoring, before production use.",
   "topThemes": [
     {
-      "theme": "Iran deadline is the dominant overnight and gap-risk event",
-      "impact": "Volatility, oil, safe havens",
-      "strength": 94,
-      "direction": "Event Risk"
+      "theme": "Equities kept extending the relief move even as macro stress signals stayed alive",
+      "impact": "Index momentum, sector rotation, positioning",
+      "strength": 88,
+      "direction": "Risk-On with Caution"
     },
     {
-      "theme": "Oil remains high enough to keep stagflation fears alive",
-      "impact": "Energy, inflation, consumers",
-      "strength": 92,
-      "direction": "Warflation"
+      "theme": "Oil rebounded sharply and kept inflation anxiety in play",
+      "impact": "Energy, transports, consumers, inflation",
+      "strength": 86,
+      "direction": "Warflation Residual"
     },
     {
-      "theme": "Yields and the dollar are still transmitting tighter conditions",
-      "impact": "Fed path, discount rates, funding conditions",
-      "strength": 84,
+      "theme": "Long-end yields stayed high enough to keep financial conditions restrictive",
+      "impact": "Discount rates, housing, duration assets",
+      "strength": 82,
       "direction": "Higher-for-Longer"
     },
     {
-      "theme": "Friday CPI now matters even more",
-      "impact": "Macro repricing, policy expectations",
-      "strength": 87,
-      "direction": "Data Risk"
+      "theme": "Gold strength and a stable dollar showed lingering demand for protection",
+      "impact": "Hedges, real assets, defensive positioning",
+      "strength": 80,
+      "direction": "Hedge Demand"
     }
   ],
   "rateCurve": [
     {
       "tenor": "2Y",
-      "current": 3.865,
-      "prior": 3.849
+      "current": 3.78,
+      "prior": 3.865
     },
     {
       "tenor": "10Y",
-      "current": 4.354,
-      "prior": 4.335
+      "current": 4.29,
+      "prior": 4.354
     },
     {
       "tenor": "30Y",
-      "current": 4.912,
-      "prior": 4.89
+      "current": 4.89,
+      "prior": 4.912
     }
   ],
-  "rateCurveRead": "As of the April 7 snapshot, the Treasury curve stayed firm rather than offering relief: the 2Y sat near 3.87%, the 10Y near 4.35%, and the 30Y near 4.91%. That combination says the market still sees inflation pressure from energy as more important than any near-term growth scare.",
+  "rateCurveRead": "Relative to the previous dashboard snapshot, the Treasury curve eased at the front end but stayed historically firm in the long end. The 2Y was near 3.78%, the 10Y near 4.29% to 4.30%, and the 30Y near 4.89%, which still argues that the market sees persistent inflation risk even as equities embraced a partial relief rally.",
   "crossMarket": [
     {
       "market": "S&P 500 (SPY proxy)",
-      "risk": "Watch",
-      "driver": "Broad equities traded lower as investors waited for the Iran deadline and priced the risk that elevated oil could bleed into inflation and consumer demand.",
-      "move": "$658.01",
-      "trend": "Lower intraday",
-      "heat": 74
+      "risk": "Opportunity",
+      "driver": "Broad equities closed higher as investors leaned into de-escalation hopes and pushed the index back above key technical levels.",
+      "move": "$679.91",
+      "trend": "Higher close",
+      "heat": 79
     },
     {
       "market": "Nasdaq 100 (QQQ proxy)",
-      "risk": "Watch",
-      "driver": "Growth shares weakened as higher oil, firmer yields, and headline risk kept pressure on duration-sensitive names.",
-      "move": "$587.26",
-      "trend": "Lower intraday",
-      "heat": 78
+      "risk": "Opportunity",
+      "driver": "Growth and mega-cap tech led the move higher as risk appetite improved and AI-linked optimism stayed strong.",
+      "move": "$610.19",
+      "trend": "Higher close",
+      "heat": 84
     },
     {
       "market": "Dow (DIA proxy)",
-      "risk": "Watch",
-      "driver": "Industrial exposure remained sensitive to energy costs and global-growth worries as investors leaned defensive.",
-      "move": "$465.44",
-      "trend": "Lower intraday",
-      "heat": 72
+      "risk": "Opportunity",
+      "driver": "The industrial-heavy benchmark advanced with the broader relief bid, though oil and long yields still limit how clean that move can become.",
+      "move": "$481.90",
+      "trend": "Higher close",
+      "heat": 76
     },
     {
       "market": "Dollar Index",
       "risk": "Watch",
-      "driver": "The dollar stayed near 100 as safe-haven demand and higher energy-driven inflation risk kept it supported.",
-      "move": "99.81-100.03",
-      "trend": "Firm to flat",
-      "heat": 76
+      "driver": "The dollar stayed firm rather than breaking down, suggesting the macro backdrop is calmer but not fully normalized.",
+      "move": "99.109",
+      "trend": "Flat to firm",
+      "heat": 68
     },
     {
       "market": "2Y Treasury",
       "risk": "Watch",
-      "driver": "The front end remained elevated as investors saw little room for a quick dovish reset while oil stays high.",
-      "move": "3.865%",
-      "trend": "Slightly higher",
-      "heat": 81
+      "driver": "The front end eased from the prior dashboard snapshot but still reflects limited conviction in near-term rate cuts.",
+      "move": "3.780%",
+      "trend": "Lower vs prior snapshot",
+      "heat": 72
     },
     {
       "market": "10Y Treasury",
       "risk": "Watch",
-      "driver": "The 10Y held around 4.35%, keeping broader financial conditions restrictive into this week's inflation data.",
-      "move": "4.354%",
-      "trend": "Firm",
-      "heat": 83
+      "driver": "The 10Y held around 4.29% to 4.30%, softening a bit but still restrictive enough to matter for valuation-sensitive assets.",
+      "move": "4.290%",
+      "trend": "Slightly lower",
+      "heat": 74
     },
     {
       "market": "30Y Treasury",
       "risk": "High",
-      "driver": "The long end near 4.91% signaled persistent inflation and term-premium pressure rather than a clean flight to safety.",
-      "move": "4.912%",
+      "driver": "The long bond remained near 4.89%, signaling sticky term premium and ongoing inflation sensitivity despite the equity rebound.",
+      "move": "4.890%",
       "trend": "Still elevated",
-      "heat": 86
+      "heat": 82
     },
     {
       "market": "Brent Crude",
       "risk": "High",
-      "driver": "Brent settled lower on growth worries but stayed near $109, which is still high enough to keep inflation expectations uncomfortable.",
-      "move": "$109.27",
-      "trend": "Mixed / slightly lower",
-      "heat": 93
+      "driver": "Brent rebounded to about $99.16 as traders questioned whether the cease-fire can keep shipping and supply risks contained.",
+      "move": "$99.16",
+      "trend": "Rebounding",
+      "heat": 88
     },
     {
       "market": "WTI Crude",
       "risk": "High",
-      "driver": "WTI rose to about $112.95, showing that the U.S. market is still pricing a meaningful risk premium tied to supply disruption.",
-      "move": "$112.95",
-      "trend": "Higher",
-      "heat": 95
+      "driver": "WTI climbed to about $102.09, restoring part of the risk premium that disappeared during the immediate cease-fire relief move.",
+      "move": "$102.09",
+      "trend": "Rebounding",
+      "heat": 90
     },
     {
       "market": "Gold",
-      "risk": "Watch",
-      "driver": "Gold gained modestly as geopolitical caution offset some pressure from firm yields and a strong dollar.",
-      "move": "$4,684.59",
-      "trend": "Modestly higher",
-      "heat": 72
+      "risk": "Opportunity",
+      "driver": "Gold rose more than 1% to around $4,789.67, showing that investors still want hedges even while equities recover.",
+      "move": "$4,789.67",
+      "trend": "Higher",
+      "heat": 83
     },
     {
       "market": "VIX",
-      "risk": "Elevated",
-      "driver": "The fear gauge moved into the mid-20s and pushed higher late in the session as headline risk intensified.",
-      "move": "24.55-28.00 intraday",
-      "trend": "Elevated / rising",
-      "heat": 88
+      "risk": "Opportunity",
+      "driver": "Volatility cooled materially from the conflict highs and slipped below 20 intraday, a sign that panic hedging has relaxed.",
+      "move": "Below 20 intraday / near low-20s in some reports",
+      "trend": "Cooling",
+      "heat": 61
     },
     {
       "market": "Bitcoin",
+      "risk": "Opportunity",
+      "driver": "Crypto pushed higher with the broader risk rebound, though it still sits below its intraday highs and remains sensitive to macro headlines.",
+      "move": "$72,158",
+      "trend": "Higher",
+      "heat": 71
+    },
+    {
+      "market": "Semiconductors (SOXX proxy)",
       "risk": "Watch",
-      "driver": "Crypto drifted lower as traders showed less appetite for risk ahead of the geopolitical deadline.",
-      "move": "$69,477",
-      "trend": "Soft",
-      "heat": 69
+      "driver": "Semiconductors showed relative strength as yields stabilized and AI-driven demand expectations supported growth-sensitive names.",
+      "move": "Relative outperformance",
+      "trend": "Strengthening",
+      "heat": 82
     }
   ],
   "drivers": [
     {
-      "name": "The 8 p.m. ET Iran deadline became the market's central risk event",
-      "score": 95,
-      "detail": "Investors spent the session waiting for whether the U.S. would escalate further if Iran did not reopen the Strait of Hormuz, which kept risk-taking muted across stocks, rates, and FX.",
-      "linked": "Hormuz, oil flows, equities, safe havens",
+      "name": "Equities extended the cease-fire relief trade",
+      "score": 89,
+      "detail": "The Dow, S&P 500, and Nasdaq all closed higher as investors focused on diplomacy and treated the worst-case geopolitical scenario as less immediate than earlier in the week.",
+      "linked": "SPY, QQQ, DIA, market breadth",
       "confidence": "High"
     },
     {
-      "name": "Oil stayed high enough to keep warflation front and center",
-      "score": 93,
-      "detail": "WTI settled around $112.95 while Brent held near $109.27, preserving the view that energy is still the clearest inflation transmission channel.",
+      "name": "Oil snapped back enough to keep inflation nerves alive",
+      "score": 87,
+      "detail": "WTI moved back above $100 and Brent approached $100 again, which keeps the war-to-inflation transmission channel active even as stocks rally.",
       "linked": "WTI, Brent, gasoline, inflation expectations",
       "confidence": "High"
     },
     {
-      "name": "Rates did not offer a relief signal",
-      "score": 84,
-      "detail": "Treasury yields stayed firm, with the 2Y near 3.865%, the 10Y near 4.354%, and the 30Y near 4.912%, which argues against a rapid easing pivot.",
+      "name": "The rate complex still refused to flash all-clear",
+      "score": 81,
+      "detail": "The 10Y near 4.29% to 4.30% and the 30Y near 4.89% show that long-duration pricing still faces a meaningful macro hurdle.",
       "linked": "2Y, 10Y, 30Y, Fed path",
       "confidence": "High"
     },
     {
-      "name": "Volatility climbed as investors priced headline whiplash",
-      "score": 88,
-      "detail": "The VIX moved through the mid-20s and reached a late-session high near 28, showing that the market was paying up for protection into the deadline.",
-      "linked": "VIX, options hedging, overnight risk",
-      "confidence": "Medium"
+      "name": "Gold confirmed that defensive demand has not disappeared",
+      "score": 79,
+      "detail": "Gold gained more than 1% even as stocks rose, which is a useful cross-market tell that investors still want protection against policy or geopolitical surprises.",
+      "linked": "Gold, dollar, safe havens",
+      "confidence": "High"
     },
     {
-      "name": "Friday's CPI report is the next hard macro test",
-      "score": 89,
-      "detail": "With oil elevated and yields firm, the March CPI release on April 10 now carries more weight for confirming whether war-driven price pressure is leaking into the data.",
+      "name": "Friday morning CPI is now the next hard validation point",
+      "score": 91,
+      "detail": "The March CPI release arrives on April 10 at 8:30 a.m. ET and now matters more because the market has to decide whether the oil rebound is a temporary shock or the start of another inflation leg.",
       "linked": "CPI, Fed expectations, inflation repricing",
       "confidence": "High"
     }
   ],
   "risks": [
     {
-      "title": "Overnight escalation risk after the 8 p.m. ET deadline",
+      "title": "The truce narrative can still reverse quickly",
       "level": "High",
-      "desc": "Any military escalation, delayed strike decision, or surprise diplomatic move could reprice equities, oil, and safe havens quickly."
+      "desc": "Any fresh military escalation, shipping disruption, or failed diplomacy headline could reprice oil, volatility, and equities fast."
     },
     {
-      "title": "Oil stays high long enough to damage growth",
+      "title": "Oil above $100 can damage the clean risk-on setup",
       "level": "High",
-      "desc": "Even without a fresh supply shock, crude above roughly $100 to $110 keeps pressure on fuel costs, margins, and household spending."
+      "desc": "If crude keeps climbing, transports, consumers, and rate-cut hopes all come under pressure again."
     },
     {
-      "title": "Sticky inflation narrative hardens before summer",
+      "title": "CPI could validate the higher-for-longer regime",
       "level": "Elevated",
-      "desc": "If CPI stays firm while oil remains elevated, the market may need to push rate-cut timing even further out."
+      "desc": "A hot March CPI print would make it harder for falling front-end yields and equity optimism to keep advancing together."
     },
     {
-      "title": "False comfort from modest index declines",
+      "title": "Long-end yields remain a valuation ceiling",
       "level": "Medium",
-      "desc": "A relatively orderly equity session can hide how much stress is still sitting in oil, volatility, and cross-asset hedging demand."
+      "desc": "Even with improving sentiment, a 30Y yield near 4.89% keeps the cost of capital conversation alive."
     }
   ],
   "timeline": [
     {
       "time": "Pre-market",
-      "headline": "Futures pointed lower as traders focused on the approaching U.S. deadline for Iran to reopen the Strait of Hormuz.",
-      "effect": "The session opened with a defensive tone and immediate attention on oil, yields, and the dollar."
+      "headline": "Markets opened with renewed skepticism around the cease-fire as oil bounced and investors reassessed whether the prior day's relief move had gone too far.",
+      "effect": "The early tone was cautious, especially in rates, oil, and volatility."
     },
     {
       "time": "Mid-session",
-      "headline": "Treasury yields stayed near 3.865% on the 2Y and 4.354% on the 10Y while the dollar remained close to 100.",
-      "effect": "The market signaled tighter financial conditions rather than a clean rush into bonds."
+      "headline": "Treasury yields held near 3.78% on the 2Y and about 4.29% to 4.30% on the 10Y while the dollar stayed near 99.11.",
+      "effect": "Cross-asset pricing suggested less panic, but not a full macro all-clear."
     },
     {
       "time": "Late session",
-      "headline": "Stocks stayed lower, WTI held near $113, and the VIX pushed higher as the 8 p.m. ET deadline drew closer.",
-      "effect": "Investors paid more for protection and avoided adding broad risk ahead of the evening event."
+      "headline": "Stocks closed higher, oil stayed elevated, gold strengthened, and volatility cooled as investors leaned into diplomacy without fully trusting it.",
+      "effect": "The market ended in a mixed but constructive posture: risk appetite improved, yet hedges still found buyers."
     },
     {
-      "time": "This week",
-      "headline": "The next key scheduled macro release is the March CPI report on Friday, April 10, at 8:30 a.m. ET.",
-      "effect": "Inflation data now matters more because oil and rates are already tightening the market's policy assumptions."
+      "time": "Next scheduled macro test",
+      "headline": "The March CPI report is due Friday, April 10, 2026, at 8:30 a.m. ET.",
+      "effect": "That release is the next key test for whether the recent oil rebound becomes a broader inflation problem."
     }
   ],
   "strategies": [
     {
-      "title": "Watch the Post-Deadline Reaction, Not Just the Headline",
-      "body": "The first tradable verdict matters more than the rhetoric. Focus on how oil, the dollar, and index futures behave after the deadline rather than reacting to the initial headline alone.",
-      "trigger": "A sharp move in oil, VIX, or U.S. equity futures after 8 p.m. ET",
-      "confidence": "High",
-      "score": 92
-    },
-    {
-      "title": "Treat Oil as the Fastest Inflation Gauge",
-      "body": "WTI and Brent remain the cleanest real-time check on whether geopolitical stress is becoming a broader macro problem.",
-      "trigger": "WTI holds above roughly $110 and Brent above roughly $109",
-      "confidence": "High",
-      "score": 91
-    },
-    {
-      "title": "Respect the Rate Complex",
-      "body": "If the curve stays firm despite equity weakness, the market is telling you inflation risk still matters more than growth fear in the near term.",
-      "trigger": "2Y remains near 3.85%+ and 10Y near 4.35%+",
-      "confidence": "High",
+      "title": "Favor QQQ Over Energy if the Truce Holds",
+      "body": "Today\u2019s tape showed a cleaner bid in growth and consumer-linked risk than in energy. If diplomacy keeps improving and oil stops re-accelerating, duration-sensitive quality growth can keep outperforming the conflict winners.",
+      "trigger": "QQQ continues making higher closes while WTI fails to extend much beyond roughly $102",
+      "confidence": "Medium",
       "score": 86
     },
     {
-      "title": "Use CPI as the Next Confirmation Test",
-      "body": "Friday's CPI report is the next scheduled event that can either validate or challenge the current warflation narrative.",
-      "trigger": "A hot CPI print on April 10 or a surprisingly soft one",
+      "title": "Pair the Equity Relief Trade with a Gold Hedge",
+      "body": "Stocks and gold both worked today, which is a useful template for an environment where headline risk is lower but not gone. That combination offers upside participation with some geopolitical insurance.",
+      "trigger": "Equities remain firm while gold holds above roughly $4,750",
+      "confidence": "High",
+      "score": 88
+    },
+    {
+      "title": "Watch Consumer Discretionary vs. Energy for the Cleanest Rotation Signal",
+      "body": "Reuters noted consumer discretionary led while energy lagged. If that relative trend continues, it is one of the clearest signs that the market believes the oil shock is fading rather than spreading.",
+      "trigger": "Consumer discretionary outperforms and energy continues to trail on up days",
       "confidence": "High",
       "score": 90
+    },
+    {
+      "title": "Respect CPI as the Cross-Market Decider",
+      "body": "Tomorrow morning's CPI can either support the lower-yield, higher-equity setup or break it. A benign number would reinforce the relief trade, while a hot print could reverse gains in duration-sensitive assets quickly.",
+      "trigger": "March CPI release on April 10, 2026 at 8:30 a.m. ET",
+      "confidence": "High",
+      "score": 93
     }
   ]
 }
