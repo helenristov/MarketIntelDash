@@ -1,0 +1,279 @@
+{
+  "snapshotDate": "2026-04-15",
+  "marketPulse": "Record Highs in SPY and QQQ as Semis Lead and the Dow Lags",
+  "marketPulseSubtext": "U.S. equities extended the relief rally into a new all-time high for the S&P 500 and a fresh record for the Nasdaq, while Treasury yields firmed modestly, oil stabilized, volatility fell back toward pre-war levels, and the dollar stayed subdued.",
+  "topDriver": "Tech, semiconductors, and easing war fears pushed the market into a stronger risk-on phase despite firmer yields",
+  "topDriverSubtext": "By the close, SPY finished near $699.94, QQQ near $637.40, and SOXX near $401.86, while WTI held around $91.29 and Brent around $94.93, the 10Y Treasury yield rose to about 4.282%, the VIX fell near 18.13, and Bitcoin stayed firm near $74,605.",
+  "lastUpdated": "Apr 15, 2026",
+  "lastUpdatedSubtext": "Manual refresh snapshot",
+  "disclaimer": "Prototype disclaimer: This screen reflects a manual April 15, 2026 market snapshot and is not validated for trading, investment, or risk decisions. Several fields combine public market quotes with same-day news context around easing U.S.-Iran war fears, record highs in the S&P 500 and Nasdaq, earnings support from large banks, and continued leadership in technology and semiconductors. It would need live market and news feeds, plus tested scoring and monitoring, before production use.",
+  "topThemes": [
+    {
+      "theme": "Semiconductors and large-cap tech remain the market's clearest leadership group",
+      "impact": "Nasdaq, AI capex, growth leadership",
+      "strength": 94,
+      "direction": "Leadership"
+    },
+    {
+      "theme": "Small caps are improving, hinting at better breadth under the surface",
+      "impact": "Breadth, cyclicals, domestic growth",
+      "strength": 76,
+      "direction": "Broadening"
+    },
+    {
+      "theme": "Rates are no longer helping, but equities are rallying anyway",
+      "impact": "Valuations, macro tension, durability of risk-on",
+      "strength": 83,
+      "direction": "Divergence"
+    },
+    {
+      "theme": "Volatility has normalized faster than oil and bonds",
+      "impact": "Hedging demand, positioning, risk appetite",
+      "strength": 80,
+      "direction": "Vol Reset"
+    }
+  ],
+  "rateCurve": [
+    {
+      "tenor": "2Y",
+      "current": 3.761,
+      "prior": 3.75
+    },
+    {
+      "tenor": "10Y",
+      "current": 4.282,
+      "prior": 4.255
+    },
+    {
+      "tenor": "30Y",
+      "current": 4.88,
+      "prior": 4.865
+    }
+  ],
+  "rateCurveRead": "As of the April 15 snapshot, Treasury yields firmed modestly rather than extending yesterday's decline. The 2Y was near 3.76%, the 10Y near 4.28%, and the 30Y near 4.88%. That mix says equities are pushing higher without much help from bonds, which keeps the rally constructive but not fully confirmed by the rates complex.",
+  "crossMarket": [
+    {
+      "market": "S&P 500 (SPY proxy)",
+      "risk": "Watch",
+      "driver": "Broad equities broke to a fresh record high as easing war fears and strong earnings kept buyers engaged.",
+      "move": "$699.94",
+      "trend": "Higher / record high",
+      "heat": 90
+    },
+    {
+      "market": "Nasdaq 100 (QQQ proxy)",
+      "risk": "Watch",
+      "driver": "Growth and AI-linked names kept leading as investors leaned back into technology and software.",
+      "move": "$637.40",
+      "trend": "Strong higher / record high",
+      "heat": 94
+    },
+    {
+      "market": "Dow (DIA proxy)",
+      "risk": "Watch",
+      "driver": "The Dow lagged as cyclical and industrial participation was less impressive than the move in tech-heavy indexes.",
+      "move": "$484.72",
+      "trend": "Slightly lower",
+      "heat": 66
+    },
+    {
+      "market": "Russell 2000",
+      "risk": "Watch",
+      "driver": "Small caps advanced again, suggesting improving participation beyond mega-cap tech even if leadership is still uneven.",
+      "move": "2,713.66",
+      "trend": "Higher",
+      "heat": 74
+    },
+    {
+      "market": "Dollar Index",
+      "risk": "Watch",
+      "driver": "The dollar stayed near pre-war levels, reflecting fading safe-haven demand even though U.S. yields remain supportive.",
+      "move": "98.25",
+      "trend": "Flat to softer",
+      "heat": 67
+    },
+    {
+      "market": "2Y Treasury",
+      "risk": "Watch",
+      "driver": "The front end ticked up as markets continued to price a patient Fed despite softer inflation data earlier in the week.",
+      "move": "3.761%",
+      "trend": "Slightly higher",
+      "heat": 70
+    },
+    {
+      "market": "10Y Treasury",
+      "risk": "Watch",
+      "driver": "The 10Y yield held near 4.28%, reinforcing that this equity rally is happening without a clean rates tailwind.",
+      "move": "4.282%",
+      "trend": "Firm",
+      "heat": 74
+    },
+    {
+      "market": "30Y Treasury",
+      "risk": "Elevated",
+      "driver": "The long end remained near 4.88%, keeping term-premium and duration sensitivity relevant for equity valuations.",
+      "move": "4.880%",
+      "trend": "Firm to slightly higher",
+      "heat": 79
+    },
+    {
+      "market": "Brent Crude",
+      "risk": "Watch",
+      "driver": "Brent steadied just under $95 as traders weighed de-escalation hopes against continued supply-route uncertainty.",
+      "move": "$94.93",
+      "trend": "Stable / slightly higher",
+      "heat": 74
+    },
+    {
+      "market": "WTI Crude",
+      "risk": "Watch",
+      "driver": "WTI held around $91 as the market stopped panicking about energy but still refused to fully price the all-clear.",
+      "move": "$91.29",
+      "trend": "Stable / slightly higher",
+      "heat": 72
+    },
+    {
+      "market": "Gold",
+      "risk": "Watch",
+      "driver": "Gold eased modestly from a recent high, showing some profit-taking as equity risk appetite improved.",
+      "move": "$4,798.89",
+      "trend": "Slightly lower",
+      "heat": 71
+    },
+    {
+      "market": "VIX",
+      "risk": "Watch",
+      "driver": "The fear gauge fell back near pre-war levels, showing a much cleaner normalization in equity hedging demand.",
+      "move": "18.13",
+      "trend": "Lower",
+      "heat": 55
+    },
+    {
+      "market": "Bitcoin",
+      "risk": "Watch",
+      "driver": "Crypto stayed firm near a four-week high, reinforcing the broader risk-on tone without becoming the main driver.",
+      "move": "$74,605",
+      "trend": "Firm",
+      "heat": 69
+    },
+    {
+      "market": "Semiconductors (SOXX proxy)",
+      "risk": "Watch",
+      "driver": "Chip stocks stayed at the center of the tape as AI optimism and fresh corporate partnerships reinforced semiconductor leadership.",
+      "move": "$401.86",
+      "trend": "Higher / leadership intact",
+      "heat": 92
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Record highs in the S&P 500 and Nasdaq confirmed the relief rally",
+      "score": 93,
+      "detail": "Equities pushed to new highs as investors increasingly acted as though the worst of the war shock had passed and earnings could reassert themselves.",
+      "linked": "SPY, QQQ, earnings, sentiment",
+      "confidence": "High"
+    },
+    {
+      "name": "Semiconductors kept leading on AI and platform optimism",
+      "score": 92,
+      "detail": "Chip stocks remained one of the market's strongest groups, with continued AI infrastructure enthusiasm and new partnership headlines supporting the group.",
+      "linked": "SOXX, QQQ, AI capex, Broadcom, Meta",
+      "confidence": "High"
+    },
+    {
+      "name": "Volatility reset faster than oil or yields",
+      "score": 81,
+      "detail": "The VIX slipped near 18 even as oil and Treasury yields stayed elevated enough to remind traders that the macro backdrop is not fully benign.",
+      "linked": "VIX, oil, Treasuries, hedging",
+      "confidence": "Medium"
+    },
+    {
+      "name": "Breadth is improving, but not fully broad-based yet",
+      "score": 75,
+      "detail": "Small caps moved higher, but the Dow lagged and the strongest leadership still came from technology and semiconductors.",
+      "linked": "Russell 2000, DIA, sector breadth",
+      "confidence": "Medium"
+    }
+  ],
+  "risks": [
+    {
+      "title": "Rates are not confirming the equity breakout",
+      "level": "Elevated",
+      "desc": "Treasury yields firmed rather than fell, so the market is relying more on sentiment and earnings than on easier financial conditions."
+    },
+    {
+      "title": "Oil is calm, not cheap",
+      "level": "Medium",
+      "desc": "Crude stabilized rather than collapsed, leaving the door open for inflation concern to return if diplomacy slips."
+    },
+    {
+      "title": "Leadership is still concentrated",
+      "level": "Medium",
+      "desc": "Semis and large-cap tech remain the strongest groups, which leaves the rally vulnerable if that concentration breaks."
+    },
+    {
+      "title": "Liquidity gets tighter after Tax Day",
+      "level": "Medium",
+      "desc": "The market is rallying into a known liquidity drain, which can matter if geopolitical headlines or yields turn less friendly."
+    }
+  ],
+  "timeline": [
+    {
+      "time": "Pre-market",
+      "headline": "Futures held steady as investors weighed earnings, peace-talk headlines, and the durability of the recent rebound.",
+      "effect": "The setup suggested a calmer tape, but not an automatic extension higher."
+    },
+    {
+      "time": "Mid-session",
+      "headline": "Tech and chip stocks took the lead again while Treasury yields edged higher and the dollar stayed subdued.",
+      "effect": "The market leaned more decisively into growth leadership even without a strong bond-market tailwind."
+    },
+    {
+      "time": "Late session",
+      "headline": "The S&P 500 and Nasdaq closed at fresh records while the VIX dropped back toward pre-war levels.",
+      "effect": "Risk appetite strengthened materially and the relief rally moved into a fuller confirmation phase."
+    },
+    {
+      "time": "Next watchpoint",
+      "headline": "The next test is whether breadth keeps improving or the move stays concentrated in semis and mega-cap tech.",
+      "effect": "That distinction will matter for judging whether this is a durable bull leg or a narrower momentum surge."
+    }
+  ],
+  "strategies": [
+    {
+      "title": "Semiconductor Leadership Rebuild",
+      "body": "Chip stocks remain the cleanest expression of the market's renewed growth appetite and AI spending optimism.",
+      "trigger": "QQQ outperforms SPY while SOXX stays firm and leadership remains concentrated in semis and software",
+      "confidence": "High",
+      "score": 90
+    },
+    {
+      "title": "Breadth Expansion Watch",
+      "body": "The most durable bullish setup from here is one where small caps and cyclicals continue to participate rather than leaving everything to mega-cap tech.",
+      "trigger": "Russell 2000 keeps advancing while the Dow stabilizes and market gains broaden beyond technology",
+      "confidence": "Medium",
+      "score": 77
+    },
+    {
+      "title": "Rates Versus Equities Divergence",
+      "body": "Stocks are rallying even as Treasury yields firm, which is constructive for momentum but also a clear tension to monitor.",
+      "trigger": "SPY and QQQ continue rising while the 10Y Treasury yield stays near or above roughly 4.28%",
+      "confidence": "High",
+      "score": 84
+    },
+    {
+      "title": "Volatility Reset Supports Risk Assets",
+      "body": "With the VIX back near pre-war levels, traders are paying much less for protection, which supports upside continuation as long as macro shocks stay muted.",
+      "trigger": "VIX remains below roughly 20 while semiconductors and large-cap growth keep leading",
+      "confidence": "Medium",
+      "score": 75
+    },
+    {
+      "title": "Tax Day Liquidity Check",
+      "body": "The rally is happening into a known post-Tax-Day liquidity drain, so price action matters more than the headlines alone.",
+      "trigger": "Equities hold gains even as liquidity tightens and bond yields fail to ease further",
+      "confidence": "Medium",
+      "score": 71
+    }
+  ]
+}
