@@ -168,6 +168,7 @@
     <div id="app" class="stack"></div>
   </div>
 
+  
   <script>
     const app = document.getElementById('app');
 
@@ -176,6 +177,13 @@
       if (!Number.isFinite(n)) return 0;
       return Math.max(0, Math.min(100, n));
     };
+
+    const escapeHtml = (value) => String(value ?? '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
 
     const getDeltaLabel = (current, prior) => {
       const delta = Number(current) - Number(prior);
@@ -224,24 +232,77 @@
     const sectionHeader = (title, subtitle, extra = '') => `
       <div class="section-top">
         <div>
-          <h2>${title}</h2>
-          <div class="section-subtitle">${subtitle}</div>
+          <h2>${escapeHtml(title)}</h2>
+          <div class="section-subtitle">${escapeHtml(subtitle)}</div>
         </div>
         ${extra}
       </div>
     `;
 
+    const renderTags = (tags) => {
+      if (!Array.isArray(tags) || !tags.length) return '';
+      return `
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px">
+          ${tags.map((tag) => `
+            <span class="pill" style="padding:5px 10px;font-size:10px">${escapeHtml(tag)}</span>
+          `).join('')}
+        </div>
+      `;
+    };
+
+    const renderSources = (sources) => {
+      if (!Array.isArray(sources) || !sources.length) return '';
+      return `
+        <section class="panel">
+          ${sectionHeader('Source References', 'Public sources used to ground the narrative and data snapshot.')}
+          <div class="driver-list">
+            ${sources.map((source) => `
+              <div class="card">
+                <div class="card-header">
+                  <div>
+                    <div class="driver-title">${escapeHtml(source.name || 'Source')}</div>
+                    <div class="driver-linked">${escapeHtml(source.type || 'Reference')}</div>
+                  </div>
+                  ${(source.url || '').trim()
+                    ? `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer" class="ghost-pill" style="text-decoration:none">Open source</a>`
+                    : ''
+                  }
+                </div>
+                ${source.note ? `<div class="driver-detail" style="margin-top:14px">${escapeHtml(source.note)}</div>` : ''}
+              </div>
+            `).join('')}
+          </div>
+        </section>
+      `;
+    };
+
     async function render() {
       const res = await fetch('./market_data.json', { cache: 'no-store' });
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status} while loading market_data.json`);
+      }
       const data = await res.json();
 
-      const curveMax = Math.max(...data.rateCurve.map((p) => p.current), 1);
+      const topThemes = Array.isArray(data.topThemes) ? data.topThemes : [];
+      const rateCurve = Array.isArray(data.rateCurve) ? data.rateCurve : [];
+      const crossMarket = Array.isArray(data.crossMarket) ? data.crossMarket : [];
+      const drivers = Array.isArray(data.drivers) ? data.drivers : [];
+      const risks = Array.isArray(data.risks) ? data.risks : [];
+      const timeline = Array.isArray(data.timeline) ? data.timeline : [];
+      const strategies = Array.isArray(data.strategies) ? data.strategies : [];
+      const sources = Array.isArray(data.sources) ? data.sources : [];
+
+      const curveMax = Math.max(...rateCurve.map((p) => Number(p.current) || 0), 1);
+
       const checks = [
-        { label: 'theme cards populated', passed: Array.isArray(data.topThemes) && data.topThemes.length === 4 },
-        { label: 'cross-market rows populated', passed: Array.isArray(data.crossMarket) && data.crossMarket.length === 8 },
-        { label: 'curve points populated', passed: Array.isArray(data.rateCurve) && data.rateCurve.length >= 3 },
-        { label: 'driver cards populated', passed: Array.isArray(data.drivers) && data.drivers.length === 4 },
-        { label: 'strategy cards populated', passed: Array.isArray(data.strategies) && data.strategies.length === 4 },
+        { label: 'theme cards populated (>= 1)', passed: topThemes.length >= 1 },
+        { label: 'cross-market rows populated (>= 1)', passed: crossMarket.length >= 1 },
+        { label: 'curve points populated (>= 3)', passed: rateCurve.length >= 3 },
+        { label: 'driver cards populated (>= 1)', passed: drivers.length >= 1 },
+        { label: 'strategy cards populated (>= 1)', passed: strategies.length >= 1 },
+        { label: 'sources block present when provided', passed: data.sources === undefined || sources.length >= 1 },
+        { label: 'rate curve values numeric', passed: rateCurve.every((p) => Number.isFinite(Number(p.current)) && Number.isFinite(Number(p.prior))) },
+        { label: 'cross-market heat values numeric', passed: crossMarket.every((row) => Number.isFinite(Number(row.heat))) }
       ];
       const allChecksPassed = checks.every((c) => c.passed);
 
@@ -252,41 +313,43 @@
               <div class="badge">Macro Signal Console</div>
               <h1>AI Market Intelligence Dashboard</h1>
               <div class="subtitle">
-                Current market snapshot for ${data.snapshotDate} using manually inserted public-market context.
+                Current market snapshot for ${escapeHtml(data.snapshotDate || 'N/A')} using manually inserted public-market context.
                 This is still a prototype: the data is not independently validated, and production use would require live data feeds, signal logic, and testing.
               </div>
+              ${renderTags(data.tags)}
             </div>
             <div class="stat-grid">
               <div class="stat">
                 <div class="stat-label">Market pulse</div>
-                <div class="stat-value" style="color:#ff7b8b">${data.marketPulse}</div>
-                <div class="stat-note">${data.marketPulseSubtext}</div>
+                <div class="stat-value" style="color:#ff7b8b">${escapeHtml(data.marketPulse || 'N/A')}</div>
+                <div class="stat-note">${escapeHtml(data.marketPulseSubtext || '')}</div>
               </div>
               <div class="stat">
                 <div class="stat-label">Top driver</div>
-                <div class="stat-value" style="font-size:34px">${data.topDriver}</div>
-                <div class="stat-note">${data.topDriverSubtext}</div>
+                <div class="stat-value" style="font-size:34px">${escapeHtml(data.topDriver || 'N/A')}</div>
+                <div class="stat-note">${escapeHtml(data.topDriverSubtext || '')}</div>
               </div>
               <div class="stat">
                 <div class="stat-label">Last updated</div>
-                <div class="stat-value" style="font-size:34px">${data.lastUpdated}</div>
-                <div class="stat-note"><span class="cyan-dot"></span> ${data.lastUpdatedSubtext}</div>
+                <div class="stat-value" style="font-size:34px">${escapeHtml(data.lastUpdated || 'N/A')}</div>
+                <div class="stat-note"><span class="cyan-dot"></span> ${escapeHtml(data.lastUpdatedSubtext || '')}</div>
               </div>
             </div>
           </div>
-          <div class="disclaimer"><strong>Prototype disclaimer:</strong> ${data.disclaimer.replace(/^Prototype disclaimer:\s*/,'')}</div>
+          <div class="disclaimer"><strong>Prototype disclaimer:</strong> ${escapeHtml(String(data.disclaimer || '').replace(/^Prototype disclaimer:\s*/, ''))}</div>
           <div class="theme-grid">
-            ${data.topThemes.map((item) => `
+            ${topThemes.map((item) => `
               <div class="theme-card">
                 <div class="theme-header">
                   <div>
-                    <div class="theme-title">${item.theme}</div>
-                    <div class="theme-impact">${item.impact}</div>
+                    <div class="theme-title">${escapeHtml(item.theme || 'Untitled theme')}</div>
+                    <div class="theme-impact">${escapeHtml(item.impact || '')}</div>
                   </div>
-                  <div class="pill">${item.direction}</div>
+                  <div class="pill">${escapeHtml(item.direction || 'Signal')}</div>
                 </div>
+                ${renderTags(item.tags)}
                 <div class="progress"><span style="width:${clampPercent(item.strength)}%"></span></div>
-                <div class="muted" style="font-size:12px;margin-top:8px">Signal strength ${item.strength}/100</div>
+                <div class="muted" style="font-size:12px;margin-top:8px">Signal strength ${clampPercent(item.strength)}/100</div>
               </div>
             `).join('')}
           </div>
@@ -295,10 +358,10 @@
         <section class="panel">
           ${sectionHeader('Rate Curve Monitor', 'Current vs prior snapshot, highlighting where policy repricing is hitting hardest.', '<div class="ghost-pill">snapshot</div>')}
           <div class="curve-grid">
-            ${data.rateCurve.map((point) => `
+            ${rateCurve.map((point) => `
               <div class="curve-card">
                 <div class="curve-head">
-                  <div class="curve-tenor">${point.tenor}</div>
+                  <div class="curve-tenor">${escapeHtml(point.tenor || 'N/A')}</div>
                   <div class="curve-value">${Number(point.current).toFixed(2)}%</div>
                 </div>
                 <div class="curve-bars">
@@ -310,7 +373,7 @@
               </div>
             `).join('')}
           </div>
-          <div class="curve-read"><strong>Read:</strong> ${data.rateCurveRead}</div>
+          <div class="curve-read"><strong>Read:</strong> ${escapeHtml(data.rateCurveRead || '')}</div>
         </section>
 
         <section class="panel">
@@ -325,22 +388,27 @@
                   <th>Move</th>
                   <th>Trend</th>
                   <th>Heat</th>
+                  <th>Source</th>
                 </tr>
               </thead>
               <tbody>
-                ${data.crossMarket.map((row) => `
+                ${crossMarket.map((row) => `
                   <tr>
-                    <td style="font-weight:700;color:#fff">${row.market}</td>
-                    <td><span class="risk-badge ${riskBadgeClass(row.risk)}">${row.risk}</span></td>
-                    <td style="color:#d8e8ff">${row.driver}</td>
-                    <td style="color:#fff">${row.move}</td>
-                    <td class="muted">${row.trend}</td>
+                    <td style="font-weight:700;color:#fff">${escapeHtml(row.market || 'N/A')}</td>
+                    <td><span class="risk-badge ${riskBadgeClass(row.risk)}">${escapeHtml(row.risk || 'Watch')}</span></td>
+                    <td style="color:#d8e8ff">
+                      ${escapeHtml(row.driver || '')}
+                      ${Array.isArray(row.tags) && row.tags.length ? `<div class="muted" style="font-size:11px;margin-top:8px">${row.tags.map(escapeHtml).join(' • ')}</div>` : ''}
+                    </td>
+                    <td style="color:#fff">${escapeHtml(row.move || '')}</td>
+                    <td class="muted">${escapeHtml(row.trend || '')}</td>
                     <td>
                       <div class="heat-meter">
                         <div class="heat-line"><span style="width:${clampPercent(row.heat)}%"></span></div>
-                        <span class="muted" style="font-size:12px">${row.heat}</span>
+                        <span class="muted" style="font-size:12px">${escapeHtml(row.heat ?? '')}</span>
                       </div>
                     </td>
+                    <td class="muted" style="font-size:12px">${escapeHtml(row.source || '')}</td>
                   </tr>
                 `).join('')}
               </tbody>
@@ -352,23 +420,28 @@
           <section class="panel">
             ${sectionHeader('Driver Stack', 'The macro and narrative signals currently pushing cross-asset behavior.')}
             <div class="driver-list">
-              ${data.drivers.map((item) => {
+              ${drivers.map((item) => {
                 const prob = getSignalProbability(item.score, item.confidence);
                 return `
                   <div class="card">
                     <div class="card-header">
                       <div>
-                        <div class="driver-title">${item.name}</div>
-                        <div class="driver-linked">${item.linked}</div>
+                        <div class="driver-title">${escapeHtml(item.name || 'Untitled driver')}</div>
+                        <div class="driver-linked">${escapeHtml(item.linked || '')}</div>
                       </div>
                       <div style="text-align:right">
-                        <div class="driver-score">${item.score}</div>
-                        <span class="confidence-badge ${confidenceClass(item.confidence)}">${item.confidence} confidence</span>
+                        <div class="driver-score">${escapeHtml(item.score ?? '')}</div>
+                        <span class="confidence-badge ${confidenceClass(item.confidence)}">${escapeHtml(item.confidence || 'Low')} confidence</span>
                       </div>
                     </div>
+                    ${renderTags(item.tags)}
                     <div class="progress"><span style="width:${clampPercent(item.score)}%"></span></div>
-                    <div class="prob-row"><span class="muted">Signal probability</span><span class="${probabilityToneClass(prob)}">${prob}%</span></div>
-                    <div class="driver-detail" style="margin-top:14px">${item.detail}</div>
+                    <div class="prob-row">
+                      <span class="muted">Signal probability</span>
+                      <span class="${probabilityToneClass(prob)}">${prob}%</span>
+                    </div>
+                    <div class="driver-detail" style="margin-top:14px">${escapeHtml(item.detail || '')}</div>
+                    ${item.source ? `<div class="driver-linked" style="margin-top:10px">Source: ${escapeHtml(item.source)}</div>` : ''}
                   </div>
                 `;
               }).join('')}
@@ -378,16 +451,16 @@
           <section class="panel">
             ${sectionHeader('Market Heatmap', 'Quick visual read on where momentum and stress are clustering across the dashboard.')}
             <div class="heat-grid">
-              ${data.crossMarket.map((row) => `
-                <div class="heat-tile ${heatTileClass(row.heat)}">
+              ${crossMarket.map((row) => `
+                <div class="heat-tile ${heatTileClass(Number(row.heat) || 0)}">
                   <div class="card-header">
                     <div>
-                      <div class="heat-h1">${row.market}</div>
-                      <div class="muted" style="margin-top:6px;font-size:12px">${row.trend}</div>
+                      <div class="heat-h1">${escapeHtml(row.market || 'N/A')}</div>
+                      <div class="muted" style="margin-top:6px;font-size:12px">${escapeHtml(row.trend || '')}</div>
                     </div>
-                    <div class="heat-value">${row.heat}</div>
+                    <div class="heat-value">${escapeHtml(row.heat ?? '')}</div>
                   </div>
-                  <div style="margin-top:12px;font-size:12px;color:#f2d7ff">${row.driver}</div>
+                  <div style="margin-top:12px;font-size:12px;color:#f2d7ff">${escapeHtml(row.driver || '')}</div>
                 </div>
               `).join('')}
             </div>
@@ -398,13 +471,14 @@
           <section class="panel">
             ${sectionHeader('Risk Radar', 'Key exposures building underneath the current narrative.')}
             <div class="risk-list">
-              ${data.risks.map((risk) => `
+              ${risks.map((risk) => `
                 <div class="card">
                   <div class="card-header">
-                    <div class="risk-title">${risk.title}</div>
-                    <span class="risk-badge ${riskBadgeClass(risk.level)}">${risk.level}</span>
+                    <div class="risk-title">${escapeHtml(risk.title || 'Untitled risk')}</div>
+                    <span class="risk-badge ${riskBadgeClass(risk.level)}">${escapeHtml(risk.level || 'Watch')}</span>
                   </div>
-                  <div class="risk-detail" style="margin-top:14px">${risk.desc}</div>
+                  ${renderTags(risk.tags)}
+                  <div class="risk-detail" style="margin-top:14px">${escapeHtml(risk.desc || '')}</div>
                 </div>
               `).join('')}
             </div>
@@ -413,16 +487,17 @@
           <section class="panel">
             ${sectionHeader('Narrative Timeline', 'A compact read on how the day’s market story unfolded.')}
             <div class="timeline-list">
-              ${data.timeline.map((item, index) => `
+              ${timeline.map((item, index) => `
                 <div class="timeline-item">
                   <div class="timeline-rail">
                     <div class="timeline-dot"></div>
-                    ${index !== data.timeline.length - 1 ? '<div class="timeline-line"></div>' : ''}
+                    ${index !== timeline.length - 1 ? '<div class="timeline-line"></div>' : ''}
                   </div>
                   <div>
-                    <div class="timeline-time">${item.time}</div>
-                    <div class="timeline-headline">${item.headline}</div>
-                    <div class="timeline-effect">Market effect: ${item.effect}</div>
+                    <div class="timeline-time">${escapeHtml(item.time || '')}</div>
+                    <div class="timeline-headline">${escapeHtml(item.headline || '')}</div>
+                    <div class="timeline-effect">Market effect: ${escapeHtml(item.effect || '')}</div>
+                    ${Array.isArray(item.tags) && item.tags.length ? `<div class="driver-linked" style="margin-top:8px">${item.tags.map(escapeHtml).join(' • ')}</div>` : ''}
                   </div>
                 </div>
               `).join('')}
@@ -433,16 +508,17 @@
         <section class="panel">
           ${sectionHeader('Signal Indicators and Strategy Ideas', 'Illustrative signals derived from the dashboard state.')}
           <div class="strategy-grid">
-            ${data.strategies.map((item) => {
+            ${strategies.map((item) => {
               const prob = getSignalProbability(item.score, item.confidence);
               return `
                 <div class="card">
                   <div class="card-header">
-                    <div class="strategy-title">${item.title}</div>
-                    <span class="confidence-badge ${confidenceClass(item.confidence)}">${item.confidence}</span>
+                    <div class="strategy-title">${escapeHtml(item.title || 'Untitled strategy')}</div>
+                    <span class="confidence-badge ${confidenceClass(item.confidence)}">${escapeHtml(item.confidence || 'Low')}</span>
                   </div>
-                  <div class="strategy-body" style="margin-top:14px">${item.body}</div>
-                  <div class="prob-row"><span class="signal">Signal: ${item.trigger}</span><span class="${probabilityToneClass(prob)}">Probability ${prob}%</span></div>
+                  ${renderTags(item.tags)}
+                  <div class="strategy-body" style="margin-top:14px">${escapeHtml(item.body || '')}</div>
+                  <div class="prob-row"><span class="signal">Signal: ${escapeHtml(item.trigger || '')}</span><span class="${probabilityToneClass(prob)}">Probability ${prob}%</span></div>
                   <div class="progress"><span style="width:${clampPercent(prob)}%"></span></div>
                 </div>
               `;
@@ -450,6 +526,8 @@
           </div>
           <div class="disclaimer" style="margin-top:20px"><strong>Strategy disclaimer:</strong> These signals are conceptual examples only. Real trading systems require backtesting, live data feeds, position sizing rules, transaction cost modeling, and risk controls.</div>
         </section>
+
+        ${renderSources(sources)}
 
         <section class="panel">
           ${sectionHeader('Render Sanity Checks', 'Lightweight helper checks added to make the component more robust.')}
@@ -459,7 +537,7 @@
               <span class="risk-badge ${allChecksPassed ? 'check-pill-ok' : 'check-pill-bad'}">${allChecksPassed ? 'Passed' : 'Failed'}</span>
             </div>
             <ul class="check-list">
-              ${checks.map((c) => `<li>${c.passed ? '✓' : '✗'} ${c.label}</li>`).join('')}
+              ${checks.map((c) => `<li>${c.passed ? '✓' : '✗'} ${escapeHtml(c.label)}</li>`).join('')}
             </ul>
           </div>
         </section>
@@ -468,8 +546,9 @@
 
     render().catch((err) => {
       console.error(err);
-      app.innerHTML = `<section class="panel"><h2>Failed to load dashboard</h2><div class="subtitle">${String(err)}</div></section>`;
+      app.innerHTML = `<section class="panel"><h2>Failed to load dashboard</h2><div class="subtitle">${escapeHtml(String(err))}</div></section>`;
     });
   </script>
+
 </body>
 </html>
