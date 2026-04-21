@@ -58,7 +58,8 @@
       "driver": "The broad market slipped modestly as renewed U.S.-Iran tensions cooled the record-high momentum phase.",
       "move": "$708.72",
       "trend": "Slightly lower",
-      "heat": 74
+      "heat": 74,
+      "source": "Yahoo Finance"
     },
     {
       "market": "Nasdaq 100 (QQQ proxy)",
@@ -66,7 +67,8 @@
       "driver": "Growth stocks pulled back, but the decline stayed controlled rather than cascading into a deeper momentum unwind.",
       "move": "$646.79",
       "trend": "Lower",
-      "heat": 72
+      "heat": 72,
+      "source": "Yahoo Finance"
     },
     {
       "market": "Dow (DIA proxy)",
@@ -74,7 +76,8 @@
       "driver": "The Dow was nearly flat, showing that the retreat was more of a pause than a broad liquidation day.",
       "move": "$494.33",
       "trend": "Flat to slightly higher",
-      "heat": 63
+      "heat": 63,
+      "source": "Yahoo Finance"
     },
     {
       "market": "Russell 2000 (IWM proxy)",
@@ -82,7 +85,8 @@
       "driver": "Small caps rose despite the geopolitical shock, which kept the breadth story from fully breaking down.",
       "move": "$277.35",
       "trend": "Higher",
-      "heat": 81
+      "heat": 81,
+      "source": "Yahoo Finance"
     },
     {
       "market": "Dollar Index",
@@ -90,7 +94,8 @@
       "driver": "The dollar held near 98.07, reflecting a modest defensive bid without a full safe-haven surge.",
       "move": "98.07",
       "trend": "Flat to slightly higher",
-      "heat": 66
+      "heat": 66,
+      "source": "Yahoo Finance"
     },
     {
       "market": "2Y Treasury",
@@ -98,7 +103,8 @@
       "driver": "The 2Y near 3.73% suggested short-rate expectations remained relatively contained despite the oil shock.",
       "move": "3.725%",
       "trend": "Slightly higher",
-      "heat": 68
+      "heat": 68,
+      "source": "MarketWatch"
     },
     {
       "market": "10Y Treasury",
@@ -106,7 +112,8 @@
       "driver": "The 10Y near 4.26% showed the bond market was steady rather than signaling a larger inflation panic.",
       "move": "4.255%",
       "trend": "Stable to slightly higher",
-      "heat": 71
+      "heat": 71,
+      "source": "MarketWatch"
     },
     {
       "market": "30Y Treasury",
@@ -114,7 +121,8 @@
       "driver": "The long end near 4.88% kept duration pressure relevant even though yields stayed below the prior week's highs.",
       "move": "4.883%",
       "trend": "Elevated / steady",
-      "heat": 78
+      "heat": 78,
+      "source": "MarketWatch"
     },
     {
       "market": "Brent Crude",
@@ -122,7 +130,8 @@
       "driver": "Brent moved back toward the mid-$90s as renewed tension around the Strait of Hormuz revived supply-risk pricing.",
       "move": "$95.50",
       "trend": "Sharp higher",
-      "heat": 90
+      "heat": 90,
+      "source": "Reuters"
     },
     {
       "market": "WTI Crude",
@@ -130,7 +139,8 @@
       "driver": "WTI jumped to about $89.61, making energy the clearest cross-market stress signal of the session.",
       "move": "$89.61",
       "trend": "Sharp higher",
-      "heat": 88
+      "heat": 88,
+      "source": "Reuters"
     },
     {
       "market": "Gold",
@@ -138,7 +148,8 @@
       "driver": "Gold stayed elevated around the low $4,800s even as it softened on the day, showing hedging demand remained in the system.",
       "move": "$4,816.70",
       "trend": "Lower but elevated",
-      "heat": 72
+      "heat": 72,
+      "source": "Yahoo Finance"
     },
     {
       "market": "VIX",
@@ -146,7 +157,8 @@
       "driver": "The VIX rose to about 18.87, signaling a repricing of risk but not a full panic regime.",
       "move": "18.87",
       "trend": "Higher",
-      "heat": 69
+      "heat": 69,
+      "source": "Yahoo Finance"
     },
     {
       "market": "Bitcoin",
@@ -154,7 +166,8 @@
       "driver": "Crypto held up near $75,607, suggesting the broader liquidity backdrop did not fully crack despite the risk flare-up.",
       "move": "$75,607",
       "trend": "Firm / higher",
-      "heat": 71
+      "heat": 71,
+      "source": "Yahoo Finance"
     },
     {
       "market": "Semiconductors (SOXX proxy)",
@@ -162,7 +175,8 @@
       "driver": "Chip stocks still finished higher, which preserved the AI leadership signal even on a risk-off headline day.",
       "move": "$417.55",
       "trend": "Higher / relative leadership",
-      "heat": 84
+      "heat": 84,
+      "source": "Yahoo Finance"
     }
   ],
   "drivers": [
@@ -171,28 +185,32 @@
       "score": 90,
       "detail": "U.S. stocks closed modestly lower after renewed U.S.-Iran tensions and the re-closure of the Strait of Hormuz pushed oil sharply higher.",
       "linked": "SPY, QQQ, oil, geopolitics",
-      "confidence": "High"
+      "confidence": "High",
+      "source": "Reuters"
     },
     {
       "name": "Oil became the dominant cross-market signal again",
       "score": 92,
       "detail": "WTI surged toward $90 and Brent moved back into the mid-$90s, reintroducing inflation and growth-risk tension into the tape.",
       "linked": "WTI, Brent, inflation risk, macro",
-      "confidence": "High"
+      "confidence": "High",
+      "source": "Yahoo Finance"
     },
     {
       "name": "Relative resilience in semiconductors and small caps kept the damage contained",
       "score": 81,
       "detail": "SOXX and IWM both held up better than the major cap-weighted equity benchmarks, which argues for a pause rather than a full internal breakdown.",
       "linked": "SOXX, IWM, breadth, leadership",
-      "confidence": "Medium"
+      "confidence": "Medium",
+      "source": "Yahoo Finance"
     },
     {
       "name": "Volatility repriced, but not to a panic threshold",
       "score": 76,
       "detail": "The VIX moved back toward 19, showing more demand for protection without a disorderly unwind in risk assets.",
       "linked": "VIX, hedging, sentiment",
-      "confidence": "Medium"
+      "confidence": "Medium",
+      "source": "Yahoo Finance"
     }
   ],
   "risks": [
@@ -274,6 +292,32 @@
       "trigger": "Brent and WTI remain elevated while the 10Y Treasury stays around the mid-4.20s",
       "confidence": "Medium",
       "score": 75
+    }
+  ],
+  "sources": [
+    {
+      "name": "Yahoo Finance",
+      "type": "Market Data",
+      "note": "ETF and index pricing references for SPY, QQQ, DIA, IWM, SOXX, GLD, USO, and BTC proxies.",
+      "url": "https://finance.yahoo.com"
+    },
+    {
+      "name": "MarketWatch",
+      "type": "Rates Data",
+      "note": "Treasury yield references and broader rate context for the 2Y, 10Y, and 30Y curve.",
+      "url": "https://www.marketwatch.com"
+    },
+    {
+      "name": "Reuters",
+      "type": "Macro News",
+      "note": "Same-day macro, geopolitical, oil-market, and equity-sentiment reporting used in the daily narrative.",
+      "url": "https://www.reuters.com"
+    },
+    {
+      "name": "The Guardian",
+      "type": "Macro News",
+      "note": "Supplementary reporting on oil markets and Strait of Hormuz developments.",
+      "url": "https://www.theguardian.com"
     }
   ]
 }
