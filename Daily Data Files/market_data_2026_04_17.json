@@ -1,0 +1,279 @@
+{
+  "snapshotDate": "2026-04-17",
+  "marketPulse": "Records Extend as Oil Crashes, Breadth Broadens, and Chip Leadership Holds",
+  "marketPulseSubtext": "U.S. stocks pushed to fresh highs again as falling oil and easing Middle East risk premium helped cyclicals and small caps, while semiconductors stayed in leadership even with gold advancing and the dollar softening.",
+  "topDriver": "Collapsing oil, fading geopolitical stress, and persistent AI-chip leadership combined to reinforce the risk-on move",
+  "topDriverSubtext": "By the close, SPY finished near $710.14, QQQ near $648.85, DIA near $494.22, IWM near $275.78, and SOXX near $415.71, while Brent traded around $88.97, WTI around $83.21, the 2Y Treasury yield was about 3.71%, the 10Y about 4.30%, the 30Y about 4.92%, the dollar index around 98.10, GLD near $445.93, Bitcoin near $77,465, and the VIX around 17.48.",
+  "lastUpdated": "Apr 17, 2026",
+  "lastUpdatedSubtext": "Manual refresh snapshot",
+  "disclaimer": "Prototype disclaimer: This screen reflects a manual April 17, 2026 market snapshot and is not validated for trading, investment, or risk decisions. Several fields combine public market quotes with same-day news context around the Strait of Hormuz reopening, falling oil, easing geopolitical pressure, ongoing AI-capex strength, improving breadth, softer front-end yields, and still-strong demand for hedges such as gold. It would need live market and news feeds, plus tested scoring and monitoring, before production use.",
+  "topThemes": [
+    {
+      "theme": "Geopolitical relief hit oil hard and removed a major macro overhang",
+      "impact": "Inflation risk, cyclicals, travel, broad equities",
+      "strength": 95,
+      "direction": "Relief"
+    },
+    {
+      "theme": "Semiconductors and AI infrastructure still led the tape",
+      "impact": "Nasdaq, capex cycle, growth leadership",
+      "strength": 92,
+      "direction": "Leadership"
+    },
+    {
+      "theme": "Breadth expanded as small caps and the Dow outperformed",
+      "impact": "Russell 2000, cyclicals, rally durability",
+      "strength": 88,
+      "direction": "Broadening"
+    },
+    {
+      "theme": "Gold rose while VIX fell, showing residual hedging inside a risk-on tape",
+      "impact": "Macro uncertainty, positioning, cross-asset divergence",
+      "strength": 76,
+      "direction": "Divergence"
+    }
+  ],
+  "rateCurve": [
+    {
+      "tenor": "2Y",
+      "current": 3.708,
+      "prior": 3.786
+    },
+    {
+      "tenor": "10Y",
+      "current": 4.3,
+      "prior": 4.32
+    },
+    {
+      "tenor": "30Y",
+      "current": 4.922,
+      "prior": 4.935
+    }
+  ],
+  "rateCurveRead": "As of the April 17 snapshot, the Treasury curve eased modestly, especially at the front end. The 2Y was near 3.71%, the 10Y near 4.30%, and the 30Y near 4.92%. That mix suggests falling oil and softer inflation fears helped rates, but long-duration pressure has not fully disappeared.",
+  "crossMarket": [
+    {
+      "market": "S&P 500 (SPY proxy)",
+      "risk": "Watch",
+      "driver": "Broad equities posted another record close as falling oil and easing geopolitical pressure offset any lingering macro caution.",
+      "move": "$710.14",
+      "trend": "Higher / record high",
+      "heat": 93
+    },
+    {
+      "market": "Nasdaq 100 (QQQ proxy)",
+      "risk": "Watch",
+      "driver": "Growth stocks kept climbing as chip and platform exposure remained the market's cleanest upside expression.",
+      "move": "$648.85",
+      "trend": "Strong higher / record high",
+      "heat": 95
+    },
+    {
+      "market": "Dow (DIA proxy)",
+      "risk": "Watch",
+      "driver": "The Dow outperformed as falling energy costs and improving macro sentiment broadened participation beyond mega-cap tech.",
+      "move": "$494.22",
+      "trend": "Strong higher",
+      "heat": 84
+    },
+    {
+      "market": "Russell 2000 (IWM proxy)",
+      "risk": "Watch",
+      "driver": "Small caps surged again, reinforcing the view that the rally is broadening rather than staying trapped in a narrow AI trade.",
+      "move": "$275.78",
+      "trend": "Higher / breadth leader",
+      "heat": 89
+    },
+    {
+      "market": "Dollar Index",
+      "risk": "Watch",
+      "driver": "The dollar stayed softer as risk appetite improved and geopolitical hedging demand faded.",
+      "move": "98.10",
+      "trend": "Softer / below recent levels",
+      "heat": 63
+    },
+    {
+      "market": "2Y Treasury",
+      "risk": "Watch",
+      "driver": "The front end eased toward 3.71%, supporting the idea that lower oil reduced near-term inflation pressure.",
+      "move": "3.708%",
+      "trend": "Lower",
+      "heat": 66
+    },
+    {
+      "market": "10Y Treasury",
+      "risk": "Watch",
+      "driver": "The 10Y held near 4.30%, showing rates offered a mild tailwind rather than a headwind on the day.",
+      "move": "4.300%",
+      "trend": "Slightly lower / steady",
+      "heat": 70
+    },
+    {
+      "market": "30Y Treasury",
+      "risk": "Elevated",
+      "driver": "The long end eased only slightly, which keeps term-premium and duration sensitivity relevant under the surface.",
+      "move": "4.922%",
+      "trend": "Elevated / slightly lower",
+      "heat": 77
+    },
+    {
+      "market": "Brent Crude",
+      "risk": "Watch",
+      "driver": "Brent collapsed after Iran said the Strait of Hormuz was open for commercial shipping during the ceasefire.",
+      "move": "$88.97",
+      "trend": "Sharp lower",
+      "heat": 90
+    },
+    {
+      "market": "WTI Crude",
+      "risk": "Watch",
+      "driver": "WTI fell into the low $80s, sharply easing one of the market's biggest inflation and growth concerns from earlier in the week.",
+      "move": "$83.21",
+      "trend": "Sharp lower",
+      "heat": 88
+    },
+    {
+      "market": "Gold (GLD proxy)",
+      "risk": "Watch",
+      "driver": "Gold still rose even as equities rallied, which suggests investors kept a hedge on despite the relief tone.",
+      "move": "$445.93",
+      "trend": "Higher / hedge demand intact",
+      "heat": 75
+    },
+    {
+      "market": "VIX",
+      "risk": "Watch",
+      "driver": "The fear gauge slipped to around 17.5, signaling calmer positioning and less demand for immediate downside protection.",
+      "move": "17.48",
+      "trend": "Lower / subdued",
+      "heat": 52
+    },
+    {
+      "market": "Bitcoin",
+      "risk": "Watch",
+      "driver": "Crypto pushed higher alongside equities, reinforcing the idea that liquidity appetite and risk tolerance improved further.",
+      "move": "$77,465",
+      "trend": "Higher / firm risk-on",
+      "heat": 74
+    },
+    {
+      "market": "Semiconductors (SOXX proxy)",
+      "risk": "Watch",
+      "driver": "Chip stocks remained a top-performing leadership group as AI infrastructure demand stayed central to the growth narrative.",
+      "move": "$415.71",
+      "trend": "Higher / leadership intact",
+      "heat": 94
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Oil shock reversed lower and removed a major macro drag",
+      "score": 95,
+      "detail": "Brent and WTI posted sharp one-day declines after Iran said the Strait of Hormuz was open, easing inflation and supply fears.",
+      "linked": "Brent, WTI, inflation, travel, cyclicals",
+      "confidence": "High"
+    },
+    {
+      "name": "Chip leadership remained intact despite broader participation",
+      "score": 92,
+      "detail": "TSMC and ASML-linked AI capex optimism continued to anchor semiconductor strength even as the rally broadened.",
+      "linked": "SOXX, QQQ, TSMC, AI capex",
+      "confidence": "High"
+    },
+    {
+      "name": "Breadth strengthened with small caps and the Dow catching up",
+      "score": 88,
+      "detail": "The Russell 2000 and Dow both outperformed, which makes the advance look healthier than a mega-cap-only move.",
+      "linked": "IWM, DIA, breadth, cyclicals",
+      "confidence": "High"
+    },
+    {
+      "name": "Rates eased just enough to support the move",
+      "score": 79,
+      "detail": "The 2Y and 10Y Treasury yields moved lower, helping risk assets without producing an extreme bond-market signal.",
+      "linked": "2Y, 10Y, duration, financial conditions",
+      "confidence": "Medium"
+    }
+  ],
+  "risks": [
+    {
+      "title": "The ceasefire and shipping relief story could still reverse quickly",
+      "level": "Elevated",
+      "desc": "If the Strait of Hormuz reopening proves temporary or negotiations falter, oil can reprice higher just as quickly as it fell."
+    },
+    {
+      "title": "Gold is still rising alongside equities",
+      "level": "Medium",
+      "desc": "That combination suggests investors are embracing risk but have not fully abandoned macro hedges."
+    },
+    {
+      "title": "Long-end yields remain sticky",
+      "level": "Medium",
+      "desc": "The 30Y Treasury stayed near 4.92%, so the market still faces a real long-duration valuation constraint."
+    },
+    {
+      "title": "AI leadership remains powerful, but concentration has not disappeared",
+      "level": "Medium",
+      "desc": "Breadth improved materially, yet semiconductors and large-cap growth still do much of the psychological heavy lifting."
+    }
+  ],
+  "timeline": [
+    {
+      "time": "Pre-market",
+      "headline": "Risk sentiment improved sharply after Iran said the Strait of Hormuz was open for commercial shipping during the ceasefire.",
+      "effect": "Oil dropped hard and futures leaned risk-on before the cash open."
+    },
+    {
+      "time": "Mid-session",
+      "headline": "Cyclicals, travel, small caps, and semiconductors all participated as falling oil and calmer volatility improved the tone.",
+      "effect": "The rally broadened instead of staying concentrated in a narrow growth trade."
+    },
+    {
+      "time": "Late session",
+      "headline": "The S&P 500, Nasdaq, and Dow all finished strongly, with the Nasdaq extending its winning streak and the S&P setting another record.",
+      "effect": "The market closed with better breadth, lower oil, and a still-subdued VIX."
+    },
+    {
+      "time": "Next watchpoint",
+      "headline": "The next test is whether lower oil and broader participation can persist once the immediate ceasefire optimism fades.",
+      "effect": "That will determine whether this evolves into a durable expansion move or a relief-driven burst."
+    }
+  ],
+  "strategies": [
+    {
+      "title": "Breadth Expansion Confirmation",
+      "body": "The most constructive change in today's tape was not just another record in tech, but clear outperformance from small caps and the Dow.",
+      "trigger": "IWM and DIA continue outperforming while SPY holds or extends record levels",
+      "confidence": "High",
+      "score": 90
+    },
+    {
+      "title": "Semiconductor Leadership Continuation",
+      "body": "Chip stocks still look like the cleanest and most persistent expression of AI demand, even in a broader rally.",
+      "trigger": "SOXX keeps outperforming while QQQ remains firm and AI-capex headlines stay supportive",
+      "confidence": "High",
+      "score": 91
+    },
+    {
+      "title": "Oil Relief Rotation",
+      "body": "Falling crude creates a cleaner setup for cyclicals, transports, travel, and broad risk assets if the geopolitical premium keeps unwinding.",
+      "trigger": "Brent stays below roughly $90 and WTI stays in the low-$80s while cyclicals gain versus defensives",
+      "confidence": "High",
+      "score": 89
+    },
+    {
+      "title": "Hedge-Within-Risk Regime",
+      "body": "The interesting cross-asset tell is that stocks, bitcoin, and semis all rose while gold also gained and VIX stayed low.",
+      "trigger": "Equities and crypto remain firm while GLD holds gains and VIX stays below roughly 18",
+      "confidence": "Medium",
+      "score": 76
+    },
+    {
+      "title": "Long-End Caution Check",
+      "body": "The long bond did not ease nearly as much as oil, which means the duration backdrop is better but not fully benign.",
+      "trigger": "30Y Treasury yield stays near or above roughly 4.90% while growth equities continue stretching higher",
+      "confidence": "Medium",
+      "score": 73
+    }
+  ]
+}
