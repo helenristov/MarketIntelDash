@@ -1,279 +1,279 @@
 {
-  "snapshotDate": "2026-04-17",
-  "marketPulse": "Records Extend as Oil Crashes, Breadth Broadens, and Chip Leadership Holds",
-  "marketPulseSubtext": "U.S. stocks pushed to fresh highs again as falling oil and easing Middle East risk premium helped cyclicals and small caps, while semiconductors stayed in leadership even with gold advancing and the dollar softening.",
-  "topDriver": "Collapsing oil, fading geopolitical stress, and persistent AI-chip leadership combined to reinforce the risk-on move",
-  "topDriverSubtext": "By the close, SPY finished near $710.14, QQQ near $648.85, DIA near $494.22, IWM near $275.78, and SOXX near $415.71, while Brent traded around $88.97, WTI around $83.21, the 2Y Treasury yield was about 3.71%, the 10Y about 4.30%, the 30Y about 4.92%, the dollar index around 98.10, GLD near $445.93, Bitcoin near $77,465, and the VIX around 17.48.",
-  "lastUpdated": "Apr 17, 2026",
-  "lastUpdatedSubtext": "Manual refresh snapshot",
-  "disclaimer": "Prototype disclaimer: This screen reflects a manual April 17, 2026 market snapshot and is not validated for trading, investment, or risk decisions. Several fields combine public market quotes with same-day news context around the Strait of Hormuz reopening, falling oil, easing geopolitical pressure, ongoing AI-capex strength, improving breadth, softer front-end yields, and still-strong demand for hedges such as gold. It would need live market and news feeds, plus tested scoring and monitoring, before production use.",
+  "snapshotDate": "2026-04-20",
+  "marketPulse": "Stocks Pause After Record Run as Oil Jumps, Small Caps Hold Up, and Volatility Reprices Higher",
+  "marketPulseSubtext": "U.S. stocks eased from recent records as renewed U.S.-Iran tensions pushed oil sharply higher, while small caps and semiconductors still showed relative resilience and volatility moved back up.",
+  "topDriver": "Renewed geopolitical stress pushed oil and volatility higher, interrupting the record-chasing equity rally without fully breaking leadership or breadth",
+  "topDriverSubtext": "By the close, SPY finished near $708.72, QQQ near $646.79, DIA near $494.33, IWM near $277.35, and SOXX near $417.55, while WTI traded around $89.61, Brent around $95.5, the 2Y Treasury yield was about 3.725%, the 10Y about 4.255%, the 30Y about 4.883%, the dollar index about 98.07, gold around $4,816.70, bitcoin near $75,607, and the VIX around 18.87.",
+  "lastUpdated": "Apr 20, 2026",
+  "lastUpdatedSubtext": "Manual refresh snapshot from public market sources",
+  "disclaimer": "Prototype disclaimer: This screen reflects a manual April 20, 2026 market snapshot compiled from public market quotes and same-day news context. Several fields combine direct quotes, ETF proxies, and limited inferred values where spot commodity closes were not uniformly available from one source. It is not validated for trading, investment, or risk decisions and would need live feeds plus tested scoring before production use.",
   "topThemes": [
     {
-      "theme": "Geopolitical relief hit oil hard and removed a major macro overhang",
-      "impact": "Inflation risk, cyclicals, travel, broad equities",
-      "strength": 95,
-      "direction": "Relief"
+      "theme": "Oil shock interrupted the rally but did not fully unwind leadership",
+      "impact": "Energy, inflation risk, headline sensitivity",
+      "strength": 91,
+      "direction": "Shock"
     },
     {
-      "theme": "Semiconductors and AI infrastructure still led the tape",
-      "impact": "Nasdaq, capex cycle, growth leadership",
-      "strength": 92,
+      "theme": "Semiconductors stayed relatively firm even as the broad tape softened",
+      "impact": "SOXX, AI capex, growth leadership",
+      "strength": 86,
       "direction": "Leadership"
     },
     {
-      "theme": "Breadth expanded as small caps and the Dow outperformed",
-      "impact": "Russell 2000, cyclicals, rally durability",
-      "strength": 88,
-      "direction": "Broadening"
+      "theme": "Small caps outperformed the major index tape on a difficult day",
+      "impact": "IWM, breadth, rally durability",
+      "strength": 79,
+      "direction": "Relative Strength"
     },
     {
-      "theme": "Gold rose while VIX fell, showing residual hedging inside a risk-on tape",
-      "impact": "Macro uncertainty, positioning, cross-asset divergence",
-      "strength": 76,
-      "direction": "Divergence"
+      "theme": "Volatility repriced higher, but not into panic territory",
+      "impact": "Hedging demand, sentiment, positioning",
+      "strength": 77,
+      "direction": "Vol Reset"
     }
   ],
   "rateCurve": [
     {
       "tenor": "2Y",
-      "current": 3.708,
-      "prior": 3.786
+      "current": 3.725,
+      "prior": 3.71
     },
     {
       "tenor": "10Y",
-      "current": 4.3,
-      "prior": 4.32
+      "current": 4.255,
+      "prior": 4.3
     },
     {
       "tenor": "30Y",
-      "current": 4.922,
-      "prior": 4.935
+      "current": 4.883,
+      "prior": 4.912
     }
   ],
-  "rateCurveRead": "As of the April 17 snapshot, the Treasury curve eased modestly, especially at the front end. The 2Y was near 3.71%, the 10Y near 4.30%, and the 30Y near 4.92%. That mix suggests falling oil and softer inflation fears helped rates, but long-duration pressure has not fully disappeared.",
+  "rateCurveRead": "As of the April 20 snapshot, the front end sat near 3.73%, the 10Y near 4.26%, and the 30Y near 4.88%. That mix suggests the market absorbed the geopolitical shock through oil and volatility more than through a fresh rates breakout, with yields firm but not disorderly.",
   "crossMarket": [
     {
       "market": "S&P 500 (SPY proxy)",
       "risk": "Watch",
-      "driver": "Broad equities posted another record close as falling oil and easing geopolitical pressure offset any lingering macro caution.",
-      "move": "$710.14",
-      "trend": "Higher / record high",
-      "heat": 93
+      "driver": "The broad market slipped modestly as renewed U.S.-Iran tensions cooled the record-high momentum phase.",
+      "move": "$708.72",
+      "trend": "Slightly lower",
+      "heat": 74
     },
     {
       "market": "Nasdaq 100 (QQQ proxy)",
       "risk": "Watch",
-      "driver": "Growth stocks kept climbing as chip and platform exposure remained the market's cleanest upside expression.",
-      "move": "$648.85",
-      "trend": "Strong higher / record high",
-      "heat": 95
+      "driver": "Growth stocks pulled back, but the decline stayed controlled rather than cascading into a deeper momentum unwind.",
+      "move": "$646.79",
+      "trend": "Lower",
+      "heat": 72
     },
     {
       "market": "Dow (DIA proxy)",
       "risk": "Watch",
-      "driver": "The Dow outperformed as falling energy costs and improving macro sentiment broadened participation beyond mega-cap tech.",
-      "move": "$494.22",
-      "trend": "Strong higher",
-      "heat": 84
+      "driver": "The Dow was nearly flat, showing that the retreat was more of a pause than a broad liquidation day.",
+      "move": "$494.33",
+      "trend": "Flat to slightly higher",
+      "heat": 63
     },
     {
       "market": "Russell 2000 (IWM proxy)",
       "risk": "Watch",
-      "driver": "Small caps surged again, reinforcing the view that the rally is broadening rather than staying trapped in a narrow AI trade.",
-      "move": "$275.78",
-      "trend": "Higher / breadth leader",
-      "heat": 89
+      "driver": "Small caps rose despite the geopolitical shock, which kept the breadth story from fully breaking down.",
+      "move": "$277.35",
+      "trend": "Higher",
+      "heat": 81
     },
     {
       "market": "Dollar Index",
       "risk": "Watch",
-      "driver": "The dollar stayed softer as risk appetite improved and geopolitical hedging demand faded.",
-      "move": "98.10",
-      "trend": "Softer / below recent levels",
-      "heat": 63
+      "driver": "The dollar held near 98.07, reflecting a modest defensive bid without a full safe-haven surge.",
+      "move": "98.07",
+      "trend": "Flat to slightly higher",
+      "heat": 66
     },
     {
       "market": "2Y Treasury",
       "risk": "Watch",
-      "driver": "The front end eased toward 3.71%, supporting the idea that lower oil reduced near-term inflation pressure.",
-      "move": "3.708%",
-      "trend": "Lower",
-      "heat": 66
+      "driver": "The 2Y near 3.73% suggested short-rate expectations remained relatively contained despite the oil shock.",
+      "move": "3.725%",
+      "trend": "Slightly higher",
+      "heat": 68
     },
     {
       "market": "10Y Treasury",
       "risk": "Watch",
-      "driver": "The 10Y held near 4.30%, showing rates offered a mild tailwind rather than a headwind on the day.",
-      "move": "4.300%",
-      "trend": "Slightly lower / steady",
-      "heat": 70
+      "driver": "The 10Y near 4.26% showed the bond market was steady rather than signaling a larger inflation panic.",
+      "move": "4.255%",
+      "trend": "Stable to slightly higher",
+      "heat": 71
     },
     {
       "market": "30Y Treasury",
       "risk": "Elevated",
-      "driver": "The long end eased only slightly, which keeps term-premium and duration sensitivity relevant under the surface.",
-      "move": "4.922%",
-      "trend": "Elevated / slightly lower",
-      "heat": 77
+      "driver": "The long end near 4.88% kept duration pressure relevant even though yields stayed below the prior week's highs.",
+      "move": "4.883%",
+      "trend": "Elevated / steady",
+      "heat": 78
     },
     {
       "market": "Brent Crude",
-      "risk": "Watch",
-      "driver": "Brent collapsed after Iran said the Strait of Hormuz was open for commercial shipping during the ceasefire.",
-      "move": "$88.97",
-      "trend": "Sharp lower",
+      "risk": "Elevated",
+      "driver": "Brent moved back toward the mid-$90s as renewed tension around the Strait of Hormuz revived supply-risk pricing.",
+      "move": "$95.50",
+      "trend": "Sharp higher",
       "heat": 90
     },
     {
       "market": "WTI Crude",
-      "risk": "Watch",
-      "driver": "WTI fell into the low $80s, sharply easing one of the market's biggest inflation and growth concerns from earlier in the week.",
-      "move": "$83.21",
-      "trend": "Sharp lower",
+      "risk": "Elevated",
+      "driver": "WTI jumped to about $89.61, making energy the clearest cross-market stress signal of the session.",
+      "move": "$89.61",
+      "trend": "Sharp higher",
       "heat": 88
     },
     {
-      "market": "Gold (GLD proxy)",
+      "market": "Gold",
       "risk": "Watch",
-      "driver": "Gold still rose even as equities rallied, which suggests investors kept a hedge on despite the relief tone.",
-      "move": "$445.93",
-      "trend": "Higher / hedge demand intact",
-      "heat": 75
+      "driver": "Gold stayed elevated around the low $4,800s even as it softened on the day, showing hedging demand remained in the system.",
+      "move": "$4,816.70",
+      "trend": "Lower but elevated",
+      "heat": 72
     },
     {
       "market": "VIX",
       "risk": "Watch",
-      "driver": "The fear gauge slipped to around 17.5, signaling calmer positioning and less demand for immediate downside protection.",
-      "move": "17.48",
-      "trend": "Lower / subdued",
-      "heat": 52
+      "driver": "The VIX rose to about 18.87, signaling a repricing of risk but not a full panic regime.",
+      "move": "18.87",
+      "trend": "Higher",
+      "heat": 69
     },
     {
       "market": "Bitcoin",
       "risk": "Watch",
-      "driver": "Crypto pushed higher alongside equities, reinforcing the idea that liquidity appetite and risk tolerance improved further.",
-      "move": "$77,465",
-      "trend": "Higher / firm risk-on",
-      "heat": 74
+      "driver": "Crypto held up near $75,607, suggesting the broader liquidity backdrop did not fully crack despite the risk flare-up.",
+      "move": "$75,607",
+      "trend": "Firm / higher",
+      "heat": 71
     },
     {
       "market": "Semiconductors (SOXX proxy)",
       "risk": "Watch",
-      "driver": "Chip stocks remained a top-performing leadership group as AI infrastructure demand stayed central to the growth narrative.",
-      "move": "$415.71",
-      "trend": "Higher / leadership intact",
-      "heat": 94
+      "driver": "Chip stocks still finished higher, which preserved the AI leadership signal even on a risk-off headline day.",
+      "move": "$417.55",
+      "trend": "Higher / relative leadership",
+      "heat": 84
     }
   ],
   "drivers": [
     {
-      "name": "Oil shock reversed lower and removed a major macro drag",
-      "score": 95,
-      "detail": "Brent and WTI posted sharp one-day declines after Iran said the Strait of Hormuz was open, easing inflation and supply fears.",
-      "linked": "Brent, WTI, inflation, travel, cyclicals",
+      "name": "Renewed Middle East stress interrupted the record-high streak",
+      "score": 90,
+      "detail": "U.S. stocks closed modestly lower after renewed U.S.-Iran tensions and the re-closure of the Strait of Hormuz pushed oil sharply higher.",
+      "linked": "SPY, QQQ, oil, geopolitics",
       "confidence": "High"
     },
     {
-      "name": "Chip leadership remained intact despite broader participation",
+      "name": "Oil became the dominant cross-market signal again",
       "score": 92,
-      "detail": "TSMC and ASML-linked AI capex optimism continued to anchor semiconductor strength even as the rally broadened.",
-      "linked": "SOXX, QQQ, TSMC, AI capex",
+      "detail": "WTI surged toward $90 and Brent moved back into the mid-$90s, reintroducing inflation and growth-risk tension into the tape.",
+      "linked": "WTI, Brent, inflation risk, macro",
       "confidence": "High"
     },
     {
-      "name": "Breadth strengthened with small caps and the Dow catching up",
-      "score": 88,
-      "detail": "The Russell 2000 and Dow both outperformed, which makes the advance look healthier than a mega-cap-only move.",
-      "linked": "IWM, DIA, breadth, cyclicals",
-      "confidence": "High"
+      "name": "Relative resilience in semiconductors and small caps kept the damage contained",
+      "score": 81,
+      "detail": "SOXX and IWM both held up better than the major cap-weighted equity benchmarks, which argues for a pause rather than a full internal breakdown.",
+      "linked": "SOXX, IWM, breadth, leadership",
+      "confidence": "Medium"
     },
     {
-      "name": "Rates eased just enough to support the move",
-      "score": 79,
-      "detail": "The 2Y and 10Y Treasury yields moved lower, helping risk assets without producing an extreme bond-market signal.",
-      "linked": "2Y, 10Y, duration, financial conditions",
+      "name": "Volatility repriced, but not to a panic threshold",
+      "score": 76,
+      "detail": "The VIX moved back toward 19, showing more demand for protection without a disorderly unwind in risk assets.",
+      "linked": "VIX, hedging, sentiment",
       "confidence": "Medium"
     }
   ],
   "risks": [
     {
-      "title": "The ceasefire and shipping relief story could still reverse quickly",
+      "title": "Oil is back to driving the macro tape",
       "level": "Elevated",
-      "desc": "If the Strait of Hormuz reopening proves temporary or negotiations falter, oil can reprice higher just as quickly as it fell."
+      "desc": "A sustained move higher in crude could quickly tighten financial conditions through inflation expectations and sector dispersion."
     },
     {
-      "title": "Gold is still rising alongside equities",
+      "title": "The rally has lost some near-term momentum",
       "level": "Medium",
-      "desc": "That combination suggests investors are embracing risk but have not fully abandoned macro hedges."
+      "desc": "The first real pause after record highs does not break the trend by itself, but it raises the bar for leadership groups to keep carrying the tape."
     },
     {
-      "title": "Long-end yields remain sticky",
+      "title": "Volatility can climb faster than equities are currently pricing",
       "level": "Medium",
-      "desc": "The 30Y Treasury stayed near 4.92%, so the market still faces a real long-duration valuation constraint."
+      "desc": "With the VIX back near 19, further geopolitical deterioration could push hedging demand higher more quickly than last week suggested."
     },
     {
-      "title": "AI leadership remains powerful, but concentration has not disappeared",
+      "title": "Rates remain a background pressure point",
       "level": "Medium",
-      "desc": "Breadth improved materially, yet semiconductors and large-cap growth still do much of the psychological heavy lifting."
+      "desc": "The long end stayed elevated, which means the market still lacks an easy bond-market tailwind if growth or inflation fears intensify."
     }
   ],
   "timeline": [
     {
       "time": "Pre-market",
-      "headline": "Risk sentiment improved sharply after Iran said the Strait of Hormuz was open for commercial shipping during the ceasefire.",
-      "effect": "Oil dropped hard and futures leaned risk-on before the cash open."
+      "headline": "Renewed tension around the U.S.-Iran ceasefire and the Strait of Hormuz pushed oil higher and cooled risk appetite before the open.",
+      "effect": "The day started with a more defensive tone after the record-high run."
     },
     {
       "time": "Mid-session",
-      "headline": "Cyclicals, travel, small caps, and semiconductors all participated as falling oil and calmer volatility improved the tone.",
-      "effect": "The rally broadened instead of staying concentrated in a narrow growth trade."
+      "headline": "Major indexes traded lower while oil, the dollar, and volatility all held firmer.",
+      "effect": "Markets shifted from momentum extension to headline-sensitive consolidation."
     },
     {
       "time": "Late session",
-      "headline": "The S&P 500, Nasdaq, and Dow all finished strongly, with the Nasdaq extending its winning streak and the S&P setting another record.",
-      "effect": "The market closed with better breadth, lower oil, and a still-subdued VIX."
+      "headline": "The S&P 500 and Nasdaq finished modestly lower, but the Dow was nearly flat and both small caps and semiconductors showed relative strength.",
+      "effect": "The session looked more like a pause under stress than a broad-risk washout."
     },
     {
       "time": "Next watchpoint",
-      "headline": "The next test is whether lower oil and broader participation can persist once the immediate ceasefire optimism fades.",
-      "effect": "That will determine whether this evolves into a durable expansion move or a relief-driven burst."
+      "headline": "The next test is whether oil stays elevated and whether the market can still preserve leadership and breadth under that pressure.",
+      "effect": "That will help determine whether this becomes a shallow reset or a more meaningful de-risking move."
     }
   ],
   "strategies": [
     {
-      "title": "Breadth Expansion Confirmation",
-      "body": "The most constructive change in today's tape was not just another record in tech, but clear outperformance from small caps and the Dow.",
-      "trigger": "IWM and DIA continue outperforming while SPY holds or extends record levels",
+      "title": "Oil Shock Containment Watch",
+      "body": "The key question is whether equities can absorb another energy spike without breadth and leadership breaking apart.",
+      "trigger": "WTI stays near or above roughly $89 while SPY remains orderly and IWM or SOXX continue to hold up",
       "confidence": "High",
-      "score": 90
+      "score": 88
     },
     {
-      "title": "Semiconductor Leadership Continuation",
-      "body": "Chip stocks still look like the cleanest and most persistent expression of AI demand, even in a broader rally.",
-      "trigger": "SOXX keeps outperforming while QQQ remains firm and AI-capex headlines stay supportive",
-      "confidence": "High",
-      "score": 91
-    },
-    {
-      "title": "Oil Relief Rotation",
-      "body": "Falling crude creates a cleaner setup for cyclicals, transports, travel, and broad risk assets if the geopolitical premium keeps unwinding.",
-      "trigger": "Brent stays below roughly $90 and WTI stays in the low-$80s while cyclicals gain versus defensives",
-      "confidence": "High",
-      "score": 89
-    },
-    {
-      "title": "Hedge-Within-Risk Regime",
-      "body": "The interesting cross-asset tell is that stocks, bitcoin, and semis all rose while gold also gained and VIX stayed low.",
-      "trigger": "Equities and crypto remain firm while GLD holds gains and VIX stays below roughly 18",
+      "title": "Semiconductor Relative Leadership Check",
+      "body": "If chip stocks keep outperforming during a geopolitical risk flare, that would reinforce the idea that AI remains the market's core leadership engine.",
+      "trigger": "SOXX stays firmer than QQQ and avoids a sharp reversal",
       "confidence": "Medium",
-      "score": 76
+      "score": 82
     },
     {
-      "title": "Long-End Caution Check",
-      "body": "The long bond did not ease nearly as much as oil, which means the duration backdrop is better but not fully benign.",
-      "trigger": "30Y Treasury yield stays near or above roughly 4.90% while growth equities continue stretching higher",
+      "title": "Breadth Resilience Watch",
+      "body": "Small-cap resilience on a down tape is a constructive internal signal and worth tracking closely if the macro backdrop stays noisy.",
+      "trigger": "IWM continues outperforming while the major indexes stay soft",
+      "confidence": "Medium",
+      "score": 79
+    },
+    {
+      "title": "Volatility Regime Reset",
+      "body": "The market is no longer in the very low-volatility comfort zone, but it also has not moved into outright panic.",
+      "trigger": "VIX holds between roughly 18 and 20 rather than breaking sharply above it",
       "confidence": "Medium",
       "score": 73
+    },
+    {
+      "title": "Rates and Oil Divergence Watch",
+      "body": "If oil keeps climbing but yields stay relatively contained, equities may still find room to consolidate instead of fully repricing lower.",
+      "trigger": "Brent and WTI remain elevated while the 10Y Treasury stays around the mid-4.20s",
+      "confidence": "Medium",
+      "score": 75
     }
   ]
 }
