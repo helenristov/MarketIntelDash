@@ -1,586 +1,514 @@
 {
-  "snapshotDate": "2026-04-23",
-  "marketPulse": "Stocks Fade From Records as Oil Spikes Again, Yields Rise, and Chips Keep Carrying Leadership",
-  "marketPulseSubtext": "U.S. equities closed lower on April 23 as a renewed Middle East escalation pushed crude above the psychological $100 Brent line, lifted Treasury yields and the dollar, and left semiconductors as the clearest pocket of relative strength.",
-  "topDriver": "A renewed oil shock overwhelmed the prior record-high equity tone while semiconductor earnings kept AI leadership alive",
-  "topDriverSubtext": "By the close, SPY finished near $708.45, QQQ near $651.42, DIA near $493.00, IWM near $275.52, and SOXX near $441.00. WTI settled around $95.85, Brent around $105.07, the 2Y Treasury yield was 3.83%, the 10Y was 4.34%, the 30Y was 4.92%, the dollar index was near 98.77, gold futures were around $4,724.00, bitcoin was near $78,258, and the VIX closed near 19.31.",
-  "lastUpdated": "Apr 23, 2026",
-  "lastUpdatedSubtext": "Manual refresh snapshot from public market sources, Reuters reporting, official Treasury data, Yahoo Finance / Investing.com quote history, FRED / Cboe volatility references, and Goldman Sachs energy research context",
-  "disclaimer": "Prototype disclaimer: This screen reflects a manual April 23, 2026 end-of-day market snapshot compiled from public market quotes, official Treasury data, Reuters same-day reporting, public historical quote pages, and Goldman Sachs research context. Equity fields use liquid ETF proxies for the major indexes and semiconductors. Cross-asset fields combine official Treasury data, Reuters reporting, public quote pages, and narrative interpretation. It is not validated for trading, investment, or risk decisions and would need live feeds plus tested scoring before production use.",
+  "snapshotDate": "2026-04-24",
+  "lastUpdated": "Apr 24, 2026",
+  "disclaimer": "Manual end-of-day snapshot compiled from public sources for informational purposes only — not validated for trading or investment decisions.",
+
+  "marketPulse": "Intel's Best Day Since 1987 Drives Nasdaq and S&P to Records; Oil Yo-Yos on Iran Peace Hopes",
+  "marketPulseSubtext": "The S&P 500 rose 0.80% to a record 7,165 and the Nasdaq surged 1.63% to 24,837 as Intel's 23.6% post-earnings surge lifted chips to an 18th consecutive winning day. Oil whipsawed between $103 and $107 Brent before fading on Iran diplomacy signals, while the Dow slipped 0.2% as software and industrials lagged. Consumer sentiment hit an all-time record low of 49.8 but the stock market shrugged it off entirely.",
+  "topDriver": "Intel's strongest earnings day since 1987 ignited a semiconductor sweep that overwhelmed the rest of the tape",
+  "narrativeSummary": "April 24 was a semiconductors-versus-everything-else session. Intel's blowout Q1 beat — its sixth consecutive earnings outperformance — sent shares up 23.6% for their best day since the dot-com era, dragging AMD +14%, Qualcomm +11%, and SOXX to an unprecedented 18-day win streak. The Nasdaq hit fresh records while the Dow fell, a stark divergence that highlights how narrow the rally's leadership has become. Oil added a second layer of drama: Brent swung between $103 and $107 before closing around $104.40 as Iran's foreign minister headed to Islamabad for potential peace talks, providing a fleeting relief valve on crude. Bonds cooperated — the 10Y slipped to 4.31% from 4.34% — offering a mild tailwind to tech multiples. The one jarring data point was Michigan consumer sentiment printing at a record-low 49.8 with 1-year inflation expectations jumping to 4.7%, but equity investors chose to look through the consumer gloom and focus on AI earnings momentum instead. The session's key tension: record stock highs coexisting with record-low consumer confidence and a Strait of Hormuz still closed.",
+
+  "macroStressIndex": 68,
+  "macroStressLabel": "Elevated",
+  "macroStressSubtext": "Oil volatility and record-low sentiment offset by semi earnings surge and easing yields",
+
+  "rateCurve": [
+    { "tenor": "1M",  "current": 5.25, "prior": 5.27 },
+    { "tenor": "3M",  "current": 5.19, "prior": 5.21 },
+    { "tenor": "6M",  "current": 4.99, "prior": 5.02 },
+    { "tenor": "1Y",  "current": 4.67, "prior": 4.71 },
+    { "tenor": "2Y",  "current": 3.78, "prior": 3.83 },
+    { "tenor": "5Y",  "current": 3.96, "prior": 4.10 },
+    { "tenor": "10Y", "current": 4.31, "prior": 4.34 },
+    { "tenor": "30Y", "current": 4.91, "prior": 4.92 }
+  ],
+  "rateCurveRead": "Yields fell modestly across the curve on April 24 — the 10Y eased to 4.31% from 4.34% and the 2Y dipped to 3.78% — as Iran peace-talk optimism briefly reduced the energy-driven inflation premium. The curve shape is still bear-steepened with short end anchored by Fed-on-hold expectations and the long end pricing a persistent energy-inflation tail risk. The mild easing was a minor tailwind to tech multiples rather than a regime shift.",
+
+  "scenarios": [
+    {
+      "label": "Bear",
+      "title": "Peace Talks Collapse, Chips Crack",
+      "probability": 20,
+      "trigger": "Islamabad talks fail, Brent surges back above $110, SOXX 18-day streak breaks hard, VIX clears 22",
+      "outcome": "Semiconductor leadership reversal would remove the market's only reliable bid. Oil resurgence would re-ignite inflation concerns, pressure tech multiples, and force a re-pricing of Fed path. Broad selloff with IWM and consumer stocks most exposed.",
+      "watchpoints": ["Islamabad talks outcome", "SOXX holds $462 or breaks", "Brent back above $108"]
+    },
+    {
+      "label": "Base",
+      "title": "Chips Lead, Oil Stays Volatile, Records Hold Narrowly",
+      "probability": 55,
+      "trigger": "Partial Iran diplomatic progress keeps oil in $100-108 range, semi earnings continue beating, VIX stays 17-21",
+      "outcome": "Records extend but on increasingly thin leadership — mega-cap tech and semis do the work while software, consumer, and small caps lag. Consumer sentiment weakness starts leaking into guidance language but doesn't derail AI capex cycle. Sideways-to-higher tape with high dispersion.",
+      "watchpoints": ["SOXX streak continuation", "Hyperscaler earnings (MSFT, META, AMZN)", "Brent stays below $108"]
+    },
+    {
+      "label": "Bull",
+      "title": "Iran Deal Unlocks Broad Rally",
+      "probability": 25,
+      "trigger": "Islamabad talks produce credible ceasefire path, Brent drops toward $90, yields ease further, software recovers",
+      "outcome": "Oil shock premium collapses, inflation fears recede, bonds rally alongside equities. Breadth broadens dramatically — IWM, software, consumer discretionary all catch up. Fed rate cut expectations return, gold rebounds as haven bid rotates. S&P pushes toward 7,400.",
+      "watchpoints": ["Hormuz reopening signal", "10Y back below 4.20%", "IWM outperforms SPY"]
+    }
+  ],
+
   "topThemes": [
     {
-      "theme": "Crude broke into a higher stress band as Brent settled above $105",
-      "impact": "Energy shock, inflation risk, margins, consumer sensitivity",
-      "strength": 96,
-      "direction": "Shock"
-    },
-    {
-      "theme": "Treasury yields climbed across the curve as oil and PMI inflation signals reinforced higher-for-longer risk",
-      "impact": "Rates, valuation pressure, discount-rate sensitivity",
-      "strength": 90,
-      "direction": "Macro Tightening"
-    },
-    {
-      "theme": "Semiconductors surged again on Texas Instruments-driven earnings strength",
-      "impact": "SOXX, AI capex, tech leadership, market breadth split",
-      "strength": 89,
+      "theme": "Intel surged 23.6% — its best day since 1987 — on a Q1 earnings blowout and raised AI CPU guidance",
+      "impact": "SOXX, QQQ, Nasdaq, AMD, Qualcomm, NVDA, AI capex narrative",
+      "strength": 97,
       "direction": "Leadership"
     },
     {
-      "theme": "The dollar firmed while gold slipped, showing that yield and USD pressure outweighed haven demand",
-      "impact": "DXY, gold, liquidity, global risk appetite",
-      "strength": 84,
-      "direction": "Defensive USD"
+      "theme": "Oil whipsawed on Iran diplomat heading to Islamabad — Brent swung $103-$107 before closing ~$104.40",
+      "impact": "Brent, WTI, energy stocks, inflation expectations, consumer",
+      "strength": 88,
+      "direction": "Shock"
     },
     {
-      "theme": "VIX rose but stayed just under 20, signaling stress without full panic",
-      "impact": "Hedging demand, positioning, tape stability",
-      "strength": 78,
-      "direction": "Vol Watch"
+      "theme": "Consumer sentiment hit an all-time record low of 49.8 with 1-year inflation expectations at 4.7%",
+      "impact": "Consumer discretionary, Fed path, retail, K-shaped divergence narrative",
+      "strength": 79,
+      "direction": "Data"
+    },
+    {
+      "theme": "Nasdaq-Dow divergence sharpened — tech records while software and industrials lagged badly",
+      "impact": "Market breadth, software ETFs, IBM, ServiceNow, Comcast, industrials",
+      "strength": 76,
+      "direction": "Rotation"
+    },
+    {
+      "theme": "Kevin Warsh DOJ probe cleared — path to Fed chair confirmation opens, hawkish signal for rates",
+      "impact": "Fed path pricing, 2Y Treasury, rate-sensitive sectors",
+      "strength": 62,
+      "direction": "Macro Tightening"
     }
   ],
-  "rateCurve": [
-    {
-      "tenor": "1M",
-      "current": 5.27,
-      "prior": 5.28
-    },
-    {
-      "tenor": "3M",
-      "current": 5.21,
-      "prior": 5.22
-    },
-    {
-      "tenor": "6M",
-      "current": 5.02,
-      "prior": 5.01
-    },
-    {
-      "tenor": "1Y",
-      "current": 4.71,
-      "prior": 4.68
-    },
-    {
-      "tenor": "2Y",
-      "current": 3.83,
-      "prior": 3.79
-    },
-    {
-      "tenor": "5Y",
-      "current": 4.1,
-      "prior": 4.06
-    },
-    {
-      "tenor": "10Y",
-      "current": 4.34,
-      "prior": 4.3
-    },
-    {
-      "tenor": "30Y",
-      "current": 4.92,
-      "prior": 4.9
-    }
-  ],
-  "rateCurveRead": "As of the April 23 snapshot, the 2Y Treasury yield rose to 3.83%, the 10Y to 4.34%, and the 30Y to 4.92%. The move was a clear bear-steepening / higher-rate impulse versus April 22, consistent with oil-driven inflation concern, a firmer dollar, and PMI output-price pressure rather than a classic flight-to-safety bond rally.",
+
   "crossMarket": [
     {
       "market": "S&P 500 (SPY proxy)",
       "risk": "Watch",
-      "driver": "SPY closed lower at $708.45, pulling back from the prior record-risk mood as oil and yields moved against equity multiples.",
-      "move": "$708.45",
-      "trend": "Lower",
-      "heat": 80,
-      "source": "Yahoo Finance / StockAnalysis"
+      "driver": "SPY closed at $713.33 near session highs — a new all-time closing high — though the majority of index constituents fell, with the gain almost entirely driven by semiconductor weight.",
+      "move": "$713.33",
+      "trend": "Higher / record",
+      "heat": 72,
+      "source": "Robinhood / Investing.com"
     },
     {
       "market": "Nasdaq 100 (QQQ proxy)",
       "risk": "Watch",
-      "driver": "QQQ slipped to $651.42 as growth stocks faded with higher yields, even though semiconductor leadership softened the damage.",
-      "move": "$651.42",
-      "trend": "Lower",
-      "heat": 79,
-      "source": "Yahoo Finance / Investing.com"
+      "driver": "QQQ closed at $663.88, up from $651.42, for a 1.9% gain led entirely by chip stocks. The index hit a fresh all-time high.",
+      "move": "$663.88",
+      "trend": "Sharp higher / record",
+      "heat": 78,
+      "source": "Investing.com"
     },
     {
-      "market": "Dow (DIA proxy)",
+      "market": "Dow Jones (DIA proxy)",
       "risk": "Watch",
-      "driver": "DIA closed at $493.00 as disappointing guidance from industrial and travel-linked names added to macro pressure.",
-      "move": "$493.00",
+      "driver": "DIA slipped ~0.2% as software, Comcast (-8% on downgrade), and industrial names lagged the chip-driven tape.",
+      "move": "~$492.00",
       "trend": "Lower",
-      "heat": 76,
-      "source": "Yahoo Finance / Investing.com"
+      "heat": 55,
+      "source": "TheStreet / Motley Fool"
     },
     {
       "market": "Russell 2000 (IWM proxy)",
-      "risk": "Elevated",
-      "driver": "IWM closed near $275.52, leaving small caps lagging the AI-led leadership complex and exposed to higher financing-cost pressure.",
-      "move": "$275.52",
-      "trend": "Lower / lagging",
-      "heat": 82,
-      "source": "Yahoo Finance previous close from Apr 24 quote"
+      "risk": "Watch",
+      "driver": "IWM added roughly 0.3%, a modest catch-up but still sharply underperforming Nasdaq. Small caps remain hamstrung by rate sensitivity and lack of AI exposure.",
+      "move": "~$276.30",
+      "trend": "Slightly higher / lagging",
+      "heat": 58,
+      "source": "TheStreet"
     },
     {
-      "market": "Dollar Index",
+      "market": "Semiconductors (SOXX)",
       "risk": "Watch",
-      "driver": "The dollar index rose to about 98.77 as geopolitical caution and higher yields supported defensive dollar demand.",
-      "move": "98.77",
-      "trend": "Higher",
-      "heat": 77,
+      "driver": "SOXX surged 4.67% to $462.16 on Intel's blowout and AMD's 14% pop — an 18th consecutive winning session, the longest streak ever recorded for the index.",
+      "move": "$462.16",
+      "trend": "↑ record streak",
+      "heat": 95,
+      "source": "Yahoo Finance / TheStreet"
+    },
+    {
+      "market": "Intel (INTC)",
+      "risk": "Watch",
+      "driver": "Intel surged 23.6% after its sixth consecutive earnings beat — Q1 revenue of $13.58B smashed the $12.42B consensus. CEO Lip-Bu Tan highlighted AI-centric CPU demand surge. Best single-day gain since 1987.",
+      "move": "+23.6%",
+      "trend": "↑ historic surge",
+      "heat": 99,
+      "source": "Motley Fool / CNBC / Schwab"
+    },
+    {
+      "market": "Brent Crude",
+      "risk": "Elevated",
+      "driver": "Brent whipsawed between $103-$107 before closing around $104.40 — down slightly on the day — as Iran's FM Araghchi headed to Islamabad for peace talks, providing a brief relief valve.",
+      "move": "$104.40",
+      "trend": "Volatile / slightly lower",
+      "heat": 89,
+      "source": "Reuters / TradingEconomics"
+    },
+    {
+      "market": "WTI Crude",
+      "risk": "Elevated",
+      "driver": "WTI closed around $94.88, down from $95.85, as diplomatic signals eased the supply-fear premium modestly. Still on track for ~14% weekly gain.",
+      "move": "$94.88",
+      "trend": "Slightly lower / volatile",
+      "heat": 85,
       "source": "Investing.com / Reuters"
+    },
+    {
+      "market": "10Y Treasury",
+      "risk": "Watch",
+      "driver": "The 10Y yield eased to 4.31% from 4.34% as Iran peace-talk optimism took a small amount of inflation risk premium out of the long end.",
+      "move": "4.31%",
+      "trend": "Slightly lower",
+      "heat": 68,
+      "source": "Advisor Perspectives / TradingEconomics"
     },
     {
       "market": "2Y Treasury",
       "risk": "Watch",
-      "driver": "The 2Y moved up to 3.83%, showing the front end reduced room for near-term easing as inflation-sensitive inputs firmed.",
-      "move": "3.83%",
-      "trend": "Higher",
-      "heat": 77,
-      "source": "U.S. Treasury"
-    },
-    {
-      "market": "10Y Treasury",
-      "risk": "Elevated",
-      "driver": "The 10Y rose to 4.34%, which kept pressure on equity duration and reinforced that bonds were not providing much cushion.",
-      "move": "4.34%",
-      "trend": "Higher",
-      "heat": 84,
-      "source": "U.S. Treasury"
-    },
-    {
-      "market": "30Y Treasury",
-      "risk": "Elevated",
-      "driver": "The 30Y rose to 4.92%, keeping long-duration valuation pressure alive and making the oil shock harder for equities to shrug off.",
-      "move": "4.92%",
-      "trend": "Higher / elevated",
-      "heat": 86,
-      "source": "U.S. Treasury"
-    },
-    {
-      "market": "Brent Crude",
-      "risk": "High",
-      "driver": "Brent settled at $105.07 after renewed Strait of Hormuz and Tehran escalation headlines pushed supply-risk pricing back to the center of the tape.",
-      "move": "$105.07",
-      "trend": "Sharp higher",
-      "heat": 97,
-      "source": "Reuters"
-    },
-    {
-      "market": "WTI Crude",
-      "risk": "High",
-      "driver": "WTI settled at $95.85, up more than 3%, making oil the dominant cross-asset shock variable again.",
-      "move": "$95.85",
-      "trend": "Sharp higher",
-      "heat": 95,
-      "source": "Reuters"
-    },
-    {
-      "market": "Brent-WTI Spread",
-      "risk": "Watch",
-      "driver": "The Brent-WTI spread widened to roughly $9.22, underscoring that the global seaborne supply-risk premium was leading U.S. crude pricing.",
-      "move": "$9.22",
-      "trend": "Wider",
-      "heat": 86,
-      "source": "Calculated from Reuters settles"
+      "driver": "The 2Y eased to 3.78% — the Warsh Fed confirmation news is hawkish on structure but near-term Fed-on-hold expectations keep the front end anchored.",
+      "move": "3.78%",
+      "trend": "Slightly lower",
+      "heat": 62,
+      "source": "Advisor Perspectives"
     },
     {
       "market": "Gold",
       "risk": "Watch",
-      "driver": "Gold futures eased to about $4,724 as the stronger dollar and higher yields offset safe-haven demand from Middle East stress.",
-      "move": "$4,724.00",
-      "trend": "Lower",
-      "heat": 79,
-      "source": "Investing.com / WSJ"
+      "driver": "Gold recovered to $4,723 after approaching $4,700 earlier in the week. A potential Iran deal reduces haven demand but inflation expectations at 4.7% provide a floor.",
+      "move": "$4,723",
+      "trend": "Slight recovery",
+      "heat": 70,
+      "source": "TradingEconomics"
     },
     {
       "market": "VIX",
       "risk": "Watch",
-      "driver": "The VIX rose to 19.31, signaling a more anxious tape but not yet a full break into a sustained panic regime above 20.",
-      "move": "19.31",
-      "trend": "Higher / below 20",
-      "heat": 80,
-      "source": "FRED / Cboe / Investing.com"
+      "driver": "VIX eased to ~18.76-18.92 — near post-Iran-war lows — as the long/short-vol dispersion trade continues. Structurally fragile: any shock could trigger rapid short-covering.",
+      "move": "18.92",
+      "trend": "Lower / complacency risk",
+      "heat": 65,
+      "source": "Schwab / Yahoo Finance"
     },
     {
       "market": "Bitcoin",
       "risk": "Watch",
-      "driver": "Bitcoin held near $78,258, showing better resilience than broad equities despite the geopolitical and rates pressure.",
-      "move": "$78,258",
-      "trend": "Firm / resilient",
-      "heat": 72,
-      "source": "Investing.com / Yahoo Finance"
+      "driver": "Bitcoin rose to $78,594, up 4%, moving in sympathy with the risk-on tech tone — continuing its pattern of tracking AI sentiment rather than acting as an independent haven.",
+      "move": "$78,594",
+      "trend": "Higher",
+      "heat": 63,
+      "source": "Yahoo Finance"
     },
     {
-      "market": "Semiconductors (SOXX proxy)",
-      "risk": "Watch",
-      "driver": "SOXX closed around $441.00, up more than 2%, as Texas Instruments earnings reinforced the AI and chip leadership narrative even on a weaker tape.",
-      "move": "$441.00",
-      "trend": "Higher / strong relative leadership",
-      "heat": 91,
-      "source": "Yahoo Finance / Investing.com / iShares"
+      "market": "Software ETF (IGV proxy)",
+      "risk": "Elevated",
+      "driver": "Software stocks extended Thursday's SaaSpocalypse selloff — IBM, ServiceNow, Workday, and Microsoft all fell. IGV is now down nearly 30% since last fall, a sharp divergence from chip stocks.",
+      "move": "↓ extended selloff",
+      "trend": "Lower / multi-session",
+      "heat": 78,
+      "source": "Motley Fool / Schwab"
     }
   ],
-  "drivers": [
-    {
-      "name": "Strait of Hormuz and Tehran escalation pushed oil into a higher risk band",
-      "score": 96,
-      "detail": "Reuters reported that U.S. crude settled up 3.11% at $95.85 and Brent settled up 3.10% at $105.07 after Iran-related escalation headlines and signs of renewed stress around the Strait of Hormuz.",
-      "linked": "WTI, Brent, Hormuz, geopolitical risk, inflation",
-      "confidence": "High",
-      "source": "Reuters"
-    },
-    {
-      "name": "Rates rose instead of absorbing the shock",
-      "score": 90,
-      "detail": "Treasury data showed the 2Y at 3.83%, the 10Y at 4.34%, and the 30Y at 4.92%, a higher-rate move that increased pressure on duration-sensitive equities.",
-      "linked": "2Y, 10Y, 30Y, valuation, inflation risk",
-      "confidence": "High",
-      "source": "U.S. Treasury"
-    },
-    {
-      "name": "PMI and claims data kept the macro backdrop from looking recessionary",
-      "score": 84,
-      "detail": "Reuters noted muted jobless claims and an S&P Global advance PMI showing business activity picking up, but with output prices jumping to the highest reading since July 2022 because of Middle East-related supply complications.",
-      "linked": "PMI, claims, inflation, growth, Fed path",
-      "confidence": "Medium",
-      "source": "Reuters"
-    },
-    {
-      "name": "Dollar strength and gold weakness confirmed a yield-led defensive rotation",
-      "score": 83,
-      "detail": "The dollar index moved higher while gold futures slipped, suggesting that rising yields and dollar strength outweighed classic haven demand.",
-      "linked": "DXY, gold, yields, risk appetite",
-      "confidence": "High",
-      "source": "Reuters / Investing.com / WSJ"
-    },
-    {
-      "name": "Semiconductor leadership narrowed but did not break",
-      "score": 88,
-      "detail": "SOXX rose roughly 2.1% on the day, with Texas Instruments strength helping chips stand apart from weaker broad indexes and preserving the AI leadership story.",
-      "linked": "SOXX, Texas Instruments, AI capex, QQQ, breadth",
-      "confidence": "High",
-      "source": "Barron's / Yahoo Finance / Investing.com"
-    },
-    {
-      "name": "Goldman oil framing remains useful for interpreting the shock path",
-      "score": 82,
-      "detail": "Goldman Sachs Research has emphasized that oil can trade above fair value when geopolitical uncertainty and supply-disruption risks persist, while later Reuters reporting on Goldman highlighted that post-Hormuz recovery could still depend on logistics, tanker availability, and well performance.",
-      "linked": "Brent, WTI, Hormuz, supply risk, Goldman Sachs",
-      "confidence": "Medium",
-      "source": "Goldman Sachs Research / Reuters"
-    }
-  ],
-  "risks": [
-    {
-      "title": "Oil has moved from a warning signal to the center of the macro dashboard",
-      "level": "High",
-      "desc": "With Brent above $105 and WTI near $96, the next leg of the equity story depends heavily on whether crude keeps climbing or stabilizes quickly."
-    },
-    {
-      "title": "The bond market is amplifying rather than cushioning the oil shock",
-      "level": "Elevated",
-      "desc": "A 10Y at 4.34% and 30Y at 4.92% leave less room for equity multiples to absorb another geopolitical inflation impulse."
-    },
-    {
-      "title": "The rally is becoming increasingly dependent on chips",
-      "level": "Medium",
-      "desc": "SOXX strength is constructive, but the broad tape looks more fragile if semiconductors remain the only obvious leadership pocket."
-    },
-    {
-      "title": "VIX is below panic territory but still moving the wrong way",
-      "level": "Medium",
-      "desc": "A VIX close near 19.31 is not a crisis, but another oil headline could push it back above 20 and change hedging behavior quickly."
-    },
-    {
-      "title": "Gold is not acting like a clean haven while the dollar and yields rise",
-      "level": "Medium",
-      "desc": "Gold weakness despite geopolitical stress suggests the dollar and rate channel is dominating traditional safe-haven behavior for now."
-    },
-    {
-      "title": "Corporate guidance is starting to show war uncertainty leakage",
-      "level": "Medium",
-      "desc": "Disappointing guidance from companies exposed to travel, industrial demand, and global uncertainty raises the risk that geopolitics enters earnings narratives more directly."
-    }
-  ],
-  "timeline": [
-    {
-      "time": "Pre-market",
-      "headline": "Markets entered Thursday after record closes in the S&P 500 and Nasdaq but with geopolitical risk still active around the U.S.-Iran truce and Strait of Hormuz headlines.",
-      "effect": "The setup was vulnerable because optimism on earnings had to compete with oil and rates pressure."
-    },
-    {
-      "time": "Morning",
-      "headline": "Earnings initially created a split tape, with semiconductor strength standing out while software and some industrial-linked names struggled.",
-      "effect": "Leadership narrowed instead of broadening, keeping the index move more fragile than the chip rally suggested."
-    },
-    {
-      "time": "Midday / afternoon",
-      "headline": "Reports of Iran air defenses engaging targets over Tehran and visible Iranian control over Strait of Hormuz shipping routes sent crude sharply higher.",
-      "effect": "Oil became the dominant macro variable and pulled stocks lower from the earlier earnings-driven tone."
-    },
-    {
-      "time": "Close",
-      "headline": "SPY, QQQ, DIA, and IWM closed lower while SOXX finished higher, rates rose across the curve, the dollar firmed, gold slipped, and VIX closed higher but under 20.",
-      "effect": "The session looked like a geopolitical inflation repricing with narrow AI/chip leadership rather than a broad risk collapse."
-    },
-    {
-      "time": "Next watchpoint",
-      "headline": "The key test is whether Brent holds above $105, whether the 10Y keeps moving above 4.34%, and whether VIX breaks back above 20.",
-      "effect": "Those three signals will decide whether this remains a headline shock or becomes a broader macro tightening phase."
-    }
-  ],
-  "strategies": [
-    {
-      "title": "Oil Shock Confirmation Watch",
-      "body": "Treat Brent above $105 as the cleanest stress signal. If crude keeps rising, the market may need to reprice inflation, margins, consumer spending, and travel demand more aggressively.",
-      "trigger": "Brent holds above $105 or pushes toward $110 while WTI stays above $95",
-      "confidence": "High",
-      "score": 94
-    },
-    {
-      "title": "Rates and Multiple Compression Check",
-      "body": "Watch whether the 10Y and 30Y continue rising alongside oil. That combination is more damaging for equity multiples than oil alone.",
-      "trigger": "10Y holds above 4.34% and 30Y remains near or above 4.90%",
-      "confidence": "High",
-      "score": 89
-    },
-    {
-      "title": "Semiconductor Leadership Stress Test",
-      "body": "SOXX is still the market's strongest leadership signal. Continued outperformance would argue for contained damage, while a chip reversal would be a more serious breadth warning.",
-      "trigger": "SOXX holds above roughly $441 and continues outperforming QQQ during macro stress",
-      "confidence": "High",
-      "score": 88
-    },
-    {
-      "title": "VIX 20 Line Watch",
-      "body": "The VIX is close enough to 20 that a small shock could change the volatility regime. Below 20 is manageable; above 20 changes positioning and hedging costs.",
-      "trigger": "VIX closes above 20 after an oil or rates-driven selloff",
-      "confidence": "Medium",
-      "score": 82
-    },
-    {
-      "title": "Gold-Dollar Divergence Monitor",
-      "body": "Gold weakness during geopolitical stress says the dollar and yield channel is winning. A reversal higher in gold while DXY stays firm would signal a more classic haven bid returning.",
-      "trigger": "Gold reclaims the $4,750 area while DXY remains near 98.8 or higher",
-      "confidence": "Medium",
-      "score": 78
-    },
-    {
-      "title": "Breadth Repair Versus Narrow Rally Risk",
-      "body": "The market can survive a headline shock if leadership expands again. If small caps and non-chip growth keep lagging, the rally becomes much more fragile.",
-      "trigger": "IWM stabilizes relative to SPY and QQQ, or continues lagging while SOXX carries the tape alone",
-      "confidence": "Medium",
-      "score": 80
-    },
-    {
-      "title": "Goldman Oil Risk Overlay",
-      "body": "Keep the Goldman-style supply-risk framework in place: geopolitical uncertainty can keep oil above fair value, but a credible safe reopening or de-escalation path could create fast downside in crude.",
-      "trigger": "Hormuz disruption headlines persist, or credible reopening / de-escalation headlines emerge",
-      "confidence": "Medium",
-      "score": 83
-    }
-  ],
-  "sources": [
-    {
-      "name": "Reuters Global Markets Wrap",
-      "type": "Macro News",
-      "note": "April 23, 2026 global markets wrap covering U.S. equity declines, S&P 500 and Nasdaq pullback from record closes, Iran and Strait of Hormuz escalation, oil settlements, gold, dollar, PMI, jobless claims, and earnings context.",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-04-23/"
-    },
-    {
-      "name": "Reuters Oil Market Report",
-      "type": "Energy News",
-      "note": "April 22, 2026 oil-market report covering U.S. fuel-stock draws, crude-stock rise, gunfire attacks on container ships in the Strait of Hormuz, vessel seizures, and the preceding move in Brent and WTI.",
-      "url": "https://www.reuters.com/business/energy/us-oil-prices-rise-us-iran-peace-talks-remain-uncertain-2026-04-21/"
-    },
-    {
-      "name": "U.S. Department of the Treasury",
-      "type": "Rates Data",
-      "note": "Official daily Treasury par yield curve rates for April 23, 2026, including 2Y, 10Y, and 30Y references.",
-      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
-    },
-    {
-      "name": "Yahoo Finance",
-      "type": "Market Data",
-      "note": "Public historical quote reference for ETF proxy levels including SPY, QQQ, DIA, IWM, SOXX, bitcoin, and VIX checks.",
-      "url": "https://finance.yahoo.com"
-    },
-    {
-      "name": "Investing.com Historical Data",
-      "type": "Market Data",
-      "note": "Public historical quote reference for SPY, QQQ, DIA, SOXX, DXY, gold futures, bitcoin, and VIX cross-checks around the April 23 close.",
-      "url": "https://www.investing.com"
-    },
-    {
-      "name": "StockAnalysis.com ETF History",
-      "type": "Market Data",
-      "note": "Public ETF historical quote reference used to cross-check SPY, QQQ, DIA, and SOXX closing values for April 23, 2026.",
-      "url": "https://stockanalysis.com"
-    },
-    {
-      "name": "FRED / Cboe Volatility Index",
-      "type": "Volatility Data",
-      "note": "FRED CBOE Volatility Index daily close reference showing VIX at 19.31 on April 23, 2026, with Cboe as the underlying volatility index source.",
-      "url": "https://fred.stlouisfed.org/series/VIXCLS"
-    },
-    {
-      "name": "Barron's Market Coverage",
-      "type": "Market News",
-      "note": "April 23 market coverage highlighting oil-driven equity weakness and semiconductor strength, including Texas Instruments-led chip leadership and SOXX outperformance context.",
-      "url": "https://www.barrons.com/livecoverage/stock-market-news-today-042326"
-    },
-    {
-      "name": "WSJ Commodity and Currency Coverage",
-      "type": "Commodity / FX News",
-      "note": "April 23 references for Comex gold settlement and dollar strength context during the oil and geopolitical repricing.",
-      "url": "https://www.wsj.com/market-data"
-    },
-    {
-      "name": "Goldman Sachs Research",
-      "type": "Research",
-      "note": "Reference framing for oil-price behavior during Iran-related geopolitical uncertainty and persistent supply-disruption risk.",
-      "url": "https://www.goldmansachs.com/insights/articles/how-will-the-iran-conflict-impact-oil-prices"
-    },
-    {
-      "name": "Reuters on Goldman Sachs",
-      "type": "Research News",
-      "note": "Reporting on Goldman Sachs' assessment that Gulf oil output could recover within months after a safe Hormuz reopening, with logistics and well-performance constraints shaping timing.",
-      "url": "https://www.reuters.com/business/energy/gulf-oil-output-likely-rebound-within-months-after-hormuz-reopening-goldman-says-2026-04-24/"
-    }
-  ],
-  "scenarios": [
-    {
-      "label": "Bear",
-      "title": "Escalation Accelerates",
-      "probability": 25,
-      "trigger": "Brent holds above $110, 10Y breaks 4.6%, VIX >25",
-      "outcome": "Broad equity selloff, recession pricing returns, Fed stuck between inflation and growth.",
-      "watchpoints": [
-        "Brent > $110",
-        "10Y > 4.6%",
-        "VIX > 25"
-      ]
-    },
-    {
-      "label": "Base",
-      "title": "Contained Shock, Narrow Leadership",
-      "probability": 55,
-      "trigger": "Crude stabilizes $95\u2013$108, chips hold leadership, VIX stays <20",
-      "outcome": "Equities trade sideways to slightly lower. SOXX remains the only clear leadership pocket. Rates elevated but not surging.",
-      "watchpoints": [
-        "SOXX holds $441+",
-        "VIX < 20",
-        "Brent $95\u2013$108"
-      ]
-    },
-    {
-      "label": "Bull",
-      "title": "De-escalation Surprise",
-      "probability": 20,
-      "trigger": "Hormuz reopens, Brent drops toward $90, 10Y retraces to 4.1%",
-      "outcome": "Risk-on rotation broadens. IWM catches up, rates ease, gold resumes haven bid as USD softens.",
-      "watchpoints": [
-        "Brent < $95",
-        "10Y < 4.15%",
-        "IWM outperforms"
-      ]
-    }
-  ],
-  "watchpoints": [
-    {
-      "date": "Apr 24",
-      "event": "Brent crude open \u2013 holds or breaks $105 level",
-      "significance": "High",
-      "tag": "Energy"
-    },
-    {
-      "date": "Apr 24",
-      "event": "VIX 20 line \u2013 close above triggers positioning shift",
-      "significance": "High",
-      "tag": "Volatility"
-    },
-    {
-      "date": "Apr 24",
-      "event": "SOXX relative performance vs QQQ",
-      "significance": "High",
-      "tag": "Equities"
-    },
-    {
-      "date": "Apr 25",
-      "event": "U.S. PCE inflation print",
-      "significance": "High",
-      "tag": "Macro"
-    },
-    {
-      "date": "Apr 25",
-      "event": "Fed speakers \u2013 any updated guidance on rates path",
-      "significance": "Medium",
-      "tag": "Rates"
-    },
-    {
-      "date": "Apr 28",
-      "event": "Q1 GDP advance estimate",
-      "significance": "High",
-      "tag": "Macro"
-    }
-  ],
+
   "sectorHeat": [
     {
-      "sector": "Energy",
-      "heat": 97,
-      "trend": "\u2191 surge",
-      "driver": "Hormuz shock"
-    },
-    {
       "sector": "Semiconductors",
-      "heat": 91,
-      "trend": "\u2191 lead",
-      "driver": "TXN earnings"
+      "heat": 97,
+      "trend": "↑ historic",
+      "driver": "Intel +24%, AMD +14%, 18-day streak"
     },
     {
-      "sector": "Rates / Fixed",
-      "heat": 86,
-      "trend": "\u2191 rising",
-      "driver": "Bear steepen"
+      "sector": "Energy",
+      "heat": 85,
+      "trend": "↓ easing",
+      "driver": "Oil retreats on Iran talks"
     },
     {
-      "sector": "Industrials",
+      "sector": "Software / Cloud",
+      "heat": 78,
+      "trend": "↓ SaaSpocalypse",
+      "driver": "IBM, NOW, WDAY miss"
+    },
+    {
+      "sector": "Mega-cap AI",
       "heat": 74,
-      "trend": "\u2193 fade",
-      "driver": "Guidance miss"
+      "trend": "↑ lifted",
+      "driver": "NVDA +4%, hyperscaler setup"
     },
     {
       "sector": "Consumer",
-      "heat": 71,
-      "trend": "\u2193 pressure",
-      "driver": "Oil cost pass"
+      "heat": 72,
+      "trend": "↓ sentiment shock",
+      "driver": "UMich 49.8 record low"
+    },
+    {
+      "sector": "Industrials",
+      "heat": 60,
+      "trend": "↓ lagging",
+      "driver": "Defense sacking, guidance risk"
     },
     {
       "sector": "Financials",
-      "heat": 68,
-      "trend": "\u2192 mixed",
-      "driver": "Yield curve"
+      "heat": 55,
+      "trend": "→ mixed",
+      "driver": "Rates eased slightly"
     },
     {
       "sector": "Healthcare",
-      "heat": 55,
-      "trend": "\u2192 stable",
-      "driver": "Defensive bid"
-    },
-    {
-      "sector": "Utilities",
-      "heat": 52,
-      "trend": "\u2192 neutral",
-      "driver": "Rate drag"
+      "heat": 48,
+      "trend": "→ quiet",
+      "driver": "No major catalysts"
     },
     {
       "sector": "Real Estate",
-      "heat": 48,
-      "trend": "\u2193 lagging",
-      "driver": "Duration pain"
+      "heat": 42,
+      "trend": "→ dormant",
+      "driver": "Rate sensitivity, no news"
     }
   ],
-  "macroStressIndex": 87,
-  "macroStressLabel": "Elevated",
-  "macroStressSubtext": "Oil shock + rising yields overwhelm earnings momentum",
-  "narrativeSummary": "April 23 was a geopolitical inflation repricing session. A renewed Strait of Hormuz escalation drove Brent crude above $105 and WTI near $96, pulling equities off their record-high tone. Crucially, Treasuries amplified rather than cushioned the shock \u2014 the 10Y rose to 4.34% and the 30Y to 4.92%, compressing equity multiples further. The only clear leadership pocket was semiconductors: SOXX surged 2%+ on Texas Instruments earnings strength, keeping the AI narrative intact. The dollar firmed, gold slipped, and VIX closed at 19.31 \u2014 stressed but not yet panicking. The session reads as a contained geopolitical repricing, but three signals will define whether it escalates: Brent holding above $105, the 10Y pushing past 4.5%, and the VIX breaking above 20."
+
+  "drivers": [
+    {
+      "name": "Intel's Q1 earnings blowout — 6th straight beat, AI CPU demand surge, best day since 1987",
+      "score": 97,
+      "detail": "Intel posted Q1 revenue of $13.58B vs $12.42B expected and raised guidance on AI-centric CPU demand. CEO Lip-Bu Tan cited a massive surge in data-center CPU orders. The stock surged 23.6% — its largest single-day gain since the dot-com era — dragging AMD +14%, Qualcomm +11%, and extending SOXX's streak to 18 sessions.",
+      "linked": "INTC, AMD, QCOM, SOXX, QQQ, AI capex",
+      "confidence": "High",
+      "source": "Motley Fool / CNBC / Schwab / TheStreet"
+    },
+    {
+      "name": "Iran FM heading to Islamabad — oil yo-yo relief valve but Hormuz still closed",
+      "score": 88,
+      "detail": "Iranian Foreign Minister Araghchi traveled to Pakistan with reports of a 'high likelihood of breakthrough' in US-Iran negotiations. Brent, which had been above $106, swung down toward $103 before settling ~$104.40. The Strait of Hormuz remains closed and the naval blockade intact — this was a sentiment shift, not a fundamental change.",
+      "linked": "Brent, WTI, energy stocks, inflation expectations",
+      "confidence": "Medium",
+      "source": "Reuters / BNN Bloomberg"
+    },
+    {
+      "name": "Michigan consumer sentiment hit all-time record low of 49.8; 1-year inflation expectations jumped to 4.7%",
+      "score": 79,
+      "detail": "The final April Michigan sentiment reading was revised up slightly to 49.8 from the preliminary 47.6 but remains the weakest in the survey's history. Year-ahead inflation expectations surged to 4.7%, the largest monthly jump since April 2025, while long-term expectations rose to 3.5%. The stock market ignored this entirely, highlighting the K-shaped divergence between asset prices and consumer stress.",
+      "linked": "Consumer discretionary, Fed path, retail, household spending",
+      "confidence": "High",
+      "source": "University of Michigan / TradingEconomics / Advisor Perspectives"
+    },
+    {
+      "name": "Kevin Warsh DOJ probe cleared — Fed chair path open, hawkish rate structure signal",
+      "score": 62,
+      "detail": "The Justice Department ended its investigation into Jerome Powell, removing the roadblock for Sen. Tillis to support Warsh's confirmation. Warsh has pledged Fed independence but is viewed as hawkish on balance sheet normalization. Markets see this as a longer-term headwind to rate-cut expectations.",
+      "linked": "Fed path, 2Y Treasury, rate-sensitive sectors, USD",
+      "confidence": "Medium",
+      "source": "BNN Bloomberg / AP"
+    }
+  ],
+
+  "risks": [
+    {
+      "title": "Semiconductor concentration: the entire market is riding an 18-day chip streak — any crack is systemic",
+      "level": "Elevated",
+      "desc": "SOXX's RSI hit 85 — a level that has historically preceded corrections. NewEdge Wealth warns the rally is 'dangerously reliant on cyclical semiconductors.' If Intel's or SOXX's momentum breaks, there is limited breadth elsewhere to absorb it — software is already down 30% from its highs."
+    },
+    {
+      "title": "Consumer-market divergence is at historic extremes and must eventually resolve",
+      "level": "Elevated",
+      "desc": "Record-low consumer sentiment of 49.8 alongside record-high S&P 500 levels is a historically unusual configuration. Consumer spending accounts for ~70% of GDP. If gasoline prices stay above $4/gallon and the Iran shock persists, spending data will eventually reflect sentiment, and guidance will follow."
+    },
+    {
+      "title": "Iran peace talks remain fragile — Hormuz closed, blockade intact",
+      "level": "High",
+      "desc": "Today's diplomatic signal is Iran's FM traveling to Pakistan — it is not a deal. The Strait of Hormuz remains closed, the US naval blockade of Iranian ports is active, and Iran has not submitted a formal proposal. A single breakdown in Islamabad could send Brent back toward $110 within hours."
+    },
+    {
+      "title": "VIX at post-war lows while realized single-stock vol is ferocious — dispersion trap risk",
+      "level": "Medium",
+      "desc": "VIX near 18.76 reflects a long-stock / short-vol positioning trade that Bloomberg describes as an 'important marker of complacency.' Intel +24% and Comcast -8% on the same day shows realized vol is high. A concentrated shock could trigger rapid VIX short-covering, as seen in early 2018 when VIX briefly spiked above 50."
+    },
+    {
+      "title": "Software sector is in a bear market that the headline indices are hiding",
+      "level": "Medium",
+      "desc": "IGV-proxy software stocks are down nearly 30% since last fall. IBM, ServiceNow, Workday, and Intuit all sold off this week. This is a genuine sector recession happening underneath record Nasdaq headline numbers — if it spreads to AI infrastructure names, the breadth story collapses."
+    }
+  ],
+
+  "timeline": [
+    {
+      "time": "Pre-market",
+      "headline": "Intel reported Q1 results after Thursday's close — $13.58B revenue vs $12.42B expected, with raised guidance on AI CPU demand. Stock surged 27% pre-market.",
+      "effect": "Set up a chip-led gap higher for Nasdaq and QQQ; Dow futures were mixed as the move was entirely sector-specific."
+    },
+    {
+      "time": "Morning open",
+      "headline": "Markets opened with Nasdaq +0.7%, S&P +0.3%, Dow flat. SOXX gap opened toward new all-time highs. AMD, Qualcomm, ASML, TSMC all up 3-12% in sympathy.",
+      "effect": "Tech leadership was broad within semis but didn't extend to software or industrials, widening the intra-market divergence."
+    },
+    {
+      "time": "Midday",
+      "headline": "Michigan consumer sentiment final print: 49.8 (record low) with 1-year inflation expectations at 4.7%. Oil briefly spiked toward $107 Brent on residual Hormuz tension.",
+      "effect": "Markets shrugged the sentiment miss entirely. Oil's spike was short-lived as Iran diplomat travel news hit wires."
+    },
+    {
+      "time": "Afternoon",
+      "headline": "Iran FM Araghchi confirmed heading to Islamabad for peace talks. Trump told Reuters Iran 'plans to make an offer.' Brent pulled back to $104.40 from $107.",
+      "effect": "Oil relief reduced the inflation tail slightly, helping the 10Y ease to 4.31% and providing a secondary boost to tech multiples."
+    },
+    {
+      "time": "Close",
+      "headline": "S&P 500 closed at 7,165 (+0.80%) and Nasdaq at 24,837 (+1.63%) — both records. Dow fell 0.2%. SOXX extended win streak to 18 days. VIX closed ~18.92.",
+      "effect": "Session confirmed the AI earnings cycle is overriding macro headwinds — but the Dow/Nasdaq split shows how narrow the leadership base has become."
+    },
+    {
+      "time": "Next watchpoint",
+      "headline": "Islamabad talks outcome this weekend. Hyperscalers report next week — Microsoft, Meta, Amazon, Apple all due. FOMC meeting May 6-7.",
+      "effect": "Weekend Iran developments are binary for Monday open. Hyperscaler earnings will either validate or stress-test the AI capex thesis that is carrying the entire market."
+    }
+  ],
+
+  "watchpoints": [
+    {
+      "date": "Apr 25-27",
+      "event": "Islamabad US-Iran talks outcome — deal or breakdown binary for oil and equities on Monday open",
+      "significance": "High",
+      "tag": "Geopolitical"
+    },
+    {
+      "date": "Apr 29",
+      "event": "Microsoft Q1 earnings — first hyperscaler to report, sets tone for AI capex cycle validation",
+      "significance": "High",
+      "tag": "Earnings"
+    },
+    {
+      "date": "Apr 29",
+      "event": "Meta Q1 earnings — AI ad spend and capex guidance critical for semi demand chain",
+      "significance": "High",
+      "tag": "Earnings"
+    },
+    {
+      "date": "Apr 30",
+      "event": "Amazon Q1 earnings — AWS cloud capex and consumer health signal",
+      "significance": "High",
+      "tag": "Earnings"
+    },
+    {
+      "date": "Apr 30",
+      "event": "Q1 GDP advance estimate — first read on economic growth against a backdrop of record consumer gloom",
+      "significance": "High",
+      "tag": "Macro"
+    },
+    {
+      "date": "May 1",
+      "event": "Apple Q1 earnings + PCE inflation data — consumer health from both angles on the same day",
+      "significance": "High",
+      "tag": "Earnings"
+    },
+    {
+      "date": "May 6-7",
+      "event": "FOMC meeting — no rate change expected but Warsh confirmation path and Iran inflation shock will shape language",
+      "significance": "High",
+      "tag": "Rates"
+    }
+  ],
+
+  "strategies": [
+    {
+      "title": "SOXX Streak Continuation vs. RSI Reversal Watch",
+      "body": "SOXX at RSI 85 with an 18-day win streak is historically overbought but momentum is real. The trade is whether hyperscaler earnings (MSFT, META, AMZN next week) validate AI capex spending that justifies chip demand. A beat extends the streak; a miss or cautious capex guidance is the first serious threat.",
+      "trigger": "SOXX holds above $462 and hyperscaler earnings confirm AI capex is accelerating",
+      "confidence": "Medium",
+      "score": 72
+    },
+    {
+      "title": "Iran Deal Binary: Oil Relief Trade",
+      "body": "A credible Islamabad framework would take $8-12 off Brent rapidly, easing inflation expectations, unlocking a bond rally, and broadening equity leadership to consumer and rate-sensitive sectors. The setup is clean but the catalyst is binary and weekend-dependent.",
+      "trigger": "Islamabad talks produce a formal ceasefire framework with Hormuz reopening timeline",
+      "confidence": "Medium",
+      "score": 68
+    },
+    {
+      "title": "Software Sector Recovery Watch",
+      "body": "Software is down ~30% from its highs while the Nasdaq hits records — the valuation gap versus semis is near historic extremes. A recovery requires either an earnings beat from a bellwether (Salesforce, ServiceNow, Workday) or an oil-driven rate relief that re-rates growth multiples.",
+      "trigger": "A major software name beats and raises; or 10Y falls below 4.15% on Iran relief",
+      "confidence": "Low",
+      "score": 55
+    },
+    {
+      "title": "Warsh Hawkish Regime — Short Long-Duration Assets",
+      "body": "Warsh's confirmation path is now clear. His hawkish balance-sheet stance suggests long-term yields may not fall as much as the market expects even if the Fed cuts short rates. Long-duration tech and real estate remain structurally exposed.",
+      "trigger": "Warsh Senate confirmation proceeds; 30Y holds above 4.85% despite any near-term easing",
+      "confidence": "Medium",
+      "score": 65
+    },
+    {
+      "title": "Consumer Sentiment vs. Spending Divergence — Eventual Snap",
+      "body": "Record-low consumer sentiment at 49.8 with 4.7% 1-year inflation expectations will eventually show up in spending data. Retail, restaurants, discretionary travel, and auto-adjacent names are the most exposed. The question is when — currently the stock market is pricing in that it never happens.",
+      "trigger": "PCE (May 1) or NFP (May 8) show consumer spending weakening below expectations",
+      "confidence": "Medium",
+      "score": 60
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "The Motley Fool — Stock Market Today Apr 24 2026",
+      "type": "Market News",
+      "note": "Live coverage of Intel earnings surge, AMD, SOXX 18-day streak, Nasdaq record, and Dow divergence.",
+      "url": "https://www.fool.com/investing/2026/04/24/stock-market-today-live-coverage/"
+    },
+    {
+      "name": "TheStreet — Markets Today Apr 24 2026",
+      "type": "Market News",
+      "note": "S&P 500 and Nasdaq closing levels, SOXX win streak count, Intel and AMD percentage moves.",
+      "url": "https://www.thestreet.com/latest-news/stock-market-today-apr-24-2026-updates"
+    },
+    {
+      "name": "Schwab Market Update — Apr 24 2026",
+      "type": "Market News",
+      "note": "Intel lead, chip sweep detail, VIX dispersion trade analysis, software sector context.",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+    },
+    {
+      "name": "Reuters / BNN Bloomberg — Oil and Iran",
+      "type": "Energy News",
+      "note": "Brent whipsaw between $103-$107, Araghchi Islamabad travel, Trump Reuters quote on Iran proposal.",
+      "url": "https://www.bnnbloomberg.ca/markets/2026/04/24/intel-leads-wall-street-toward-a-record-following-a-blowout-profit-report-while-oil-prices-swing/"
+    },
+    {
+      "name": "Advisor Perspectives / dshort — Treasury Yields Snapshot Apr 24",
+      "type": "Rates Data",
+      "note": "10Y at 4.31%, 2Y at 3.78%, 30Y at 4.91% closing values confirmed.",
+      "url": "https://www.advisorperspectives.com/dshort/updates/2026/04/24/treasury-yields-snapshot-april-24-2026"
+    },
+    {
+      "name": "TradingEconomics — Michigan Consumer Sentiment",
+      "type": "Macro Data",
+      "note": "Final April reading 49.8 (record low), 1-year inflation expectations 4.7%, long-term 3.5%.",
+      "url": "https://tradingeconomics.com/united-states/consumer-confidence"
+    },
+    {
+      "name": "TradingEconomics — Brent and Gold",
+      "type": "Commodity News",
+      "note": "Brent closing ~$104.40, Gold at $4,723 with weekly context.",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "name": "Investing.com — QQQ, WTI, VIX",
+      "type": "Market Data",
+      "note": "QQQ closing price $663.88, WTI $94.88, VIX ~18.76 intraday levels.",
+      "url": "https://www.investing.com/etfs/powershares-qqqq"
+    },
+    {
+      "name": "CNBC — Intel Earnings Analysis",
+      "type": "Earnings",
+      "note": "Intel Q1 beat details, Citi analyst note on AI CPU demand, 6th consecutive beat context.",
+      "url": "https://www.cnbc.com/2026/04/24/intel-soars-after-earnings-beat-two-wall-street-firms-call-the-stock-a-buy.html"
+    },
+    {
+      "name": "24/7 Wall St. — VIX Dispersion Analysis",
+      "type": "Market News",
+      "note": "VIX below 19 analysis, long-stock/short-vol dispersion trade, complacency risk framing.",
+      "url": "https://247wallst.com/investing/2026/04/24/the-vix-dips-below-19-heres-what-that-means-for-your-portfolio/"
+    }
+  ]
 }
