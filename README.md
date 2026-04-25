@@ -1,158 +1,126 @@
-# 📊 AI Market Intelligence Dashboard (3-File Version)
+# Macro Signal Console
 
-A lightweight, self-updating market dashboard powered by AI-generated data.
+A daily macro intelligence dashboard that reads the market so you don't have to stare at 12 tabs.
 
-This project is intentionally minimal by design — it separates **data generation** from **visualization**, allowing you to refresh market insights daily without touching the UI.
+One prompt after close → scans prices, yields, and news → drops a JSON file → full narrative read loads automatically. Yesterday it caught an oil shock and a semiconductor leadership split. Today it caught Intel's best day since 1987 running alongside an all-time record low in consumer sentiment. Same dashboard, completely different story. That's the point.
 
----
-
-## 🧠 What This Is
-
-This dashboard provides a structured snapshot of market conditions, including:
-
-- Macro themes
-- Cross-market movements (equities, rates, oil, dollar)
-- Rate curve changes
-- Key market drivers
-- Risk radar
-- Narrative timeline
-- Strategy signals
-
-It is **not a trading system** — it is a **market intelligence layer** designed to summarize the day’s dominant narrative.
+![Dashboard preview](preview.png)
 
 ---
 
-## 🧩 Architecture (Simple by Design)
+## What it does
 
-This project uses only **3 files**:
+Renders a full end-of-day macro snapshot from a single JSON file:
 
-```
-index.html        → Dashboard UI (presentation only)
-market_data.json  → Daily data snapshot (AI-generated)
-fetch_data.js     → Script to regenerate the JSON
-```
-
-### Data Flow
-
-```
-AI → market_data.json → index.html
-```
-
-- The **UI never changes**
-- The **JSON updates daily**
-- The **AI generates structured data only (not UI)**
-
-This keeps everything clean, testable, and easy to maintain.
+- **Narrative summary** — 4–6 sentence read on what actually happened and why it matters
+- **Macro Stress Index** — weighted composite score across key markets, with a ring gauge
+- **Top themes** — the dominant forces of the session, color-coded by type (shock, leadership, rotation, etc.)
+- **Rate curve chart** — full 8-tenor yield curve, current vs. prior, rendered with Chart.js
+- **Cross-asset table** — every market that moved, with risk badge, heat score, and driver narrative
+- **Sector heat map** — dynamic sectors based on what actually mattered today, not a fixed list
+- **Driver stack** — ranked macro forces with confidence scores and signal probability
+- **Scenario matrix** — Bear / Base / Bull with trigger conditions and explicit probabilities
+- **Narrative timeline** — how the session unfolded, pre-market through close
+- **Forward watchpoints** — dated, specific events to watch in the next 1–5 days
+- **Strategy ideas** — illustrative signal setups derived from the current dashboard state
+- **Source references** — every source used, linked
 
 ---
 
-## 🚀 How to Run Locally
+## How to run it
 
-### 1. Start a local server
+Both files must live in the same folder. Start a local server from that folder:
 
 ```bash
-python -m http.server 8000
+# Python (built in — easiest)
+python3 -m http.server 8000
 ```
 
-Then open:
+Then open **http://localhost:8000** in your browser.
 
-http://localhost:8000
-
-> ⚠️ Do NOT open `index.html` directly — it needs a server to fetch JSON.
+That's it. No build step, no dependencies, no backend. Pure HTML + Chart.js.
 
 ---
 
-## 🔄 How to Update the Dashboard (Daily)
+## File structure
 
-### Step 1 — Set your OpenAI API key
+```
+├── index.html          # The dashboard — never needs editing
+├── market_data.json    # Today's snapshot — replace this each day
+├── README.md
+└── daily_refresh_prompt_v3.md   # The prompt you run each evening
+```
+
+---
+
+## Updating it daily
+
+1. Open `daily_refresh_prompt_v3.md`
+2. Copy the prompt block, replace `[TODAY]` with today's date
+3. Paste into a new Claude conversation
+4. Claude researches markets and outputs a raw JSON object
+5. Save it as `market_data.json` in this folder
+6. Refresh `http://localhost:8000`
+
+Optional — validate before loading:
 
 ```bash
-export OPENAI_API_KEY=your_key_here
+python3 -c "
+import json, sys
+with open('market_data.json') as f:
+    d = json.load(f)
+required = ['snapshotDate','narrativeSummary','macroStressIndex','rateCurve','scenarios','sectorHeat']
+missing = [k for k in required if k not in d]
+if missing: print('MISSING:', missing); sys.exit(1)
+assert len(d['rateCurve']) == 8
+assert len(d['scenarios']) == 3
+assert sum(s['probability'] for s in d['scenarios']) == 100
+print(f'✓ {d[\"snapshotDate\"]} | MSI {d[\"macroStressIndex\"]} ({d[\"macroStressLabel\"]})')
+"
 ```
 
 ---
 
-### Step 2 — Provide market context
+## What makes it dynamic
 
-```bash
-export MARKET_CONTEXT="Dow down 0.24%, Nasdaq down 1.17%, Brent near 108, yields elevated, geopolitical tensions rising"
-```
+Most dashboards have a fixed structure — same markets, same sectors, same number of rows every day. This one doesn't. The prompt instructs Claude to populate sections based on what actually happened:
 
----
+- A quiet session might have 2 themes and 8 cross-market rows
+- A multi-shock session expands to 6 themes, 14+ rows, a detailed timeline
+- Sectors are chosen by relevance — on an earnings week "Mega-cap AI" and "Software / Cloud" appear instead of generic sector names
+- New markets get added to the cross-market table when they're relevant (a specific currency, credit spread, or single stock that moved the tape)
 
-### Step 3 — Run the generator
+The only fixed elements are the ones the dashboard's rendering logic structurally requires:
 
-```bash
-node fetch_data.js
-```
+| Fixed | Why |
+|---|---|
+| `rateCurve` — 8 tenors in order | Chart.js needs consistent tenor sequence |
+| `scenarios` — Bear / Base / Bull | CSS color classes are keyed to these labels |
+| Top-level header strings | Accessed directly by name in the JS |
 
----
-
-### Step 4 — Refresh the browser
-
-That’s it — your dashboard is updated.
-
----
-
-## 🧠 How the AI Works
-
-The script:
-- Sends your **market context** to the model
-- Asks for **strict JSON output**
-- Rewrites `market_data.json`
-
-The UI then reads and renders that JSON.
+Everything else — markets, sectors, array lengths — follows the day.
 
 ---
 
-## 🎯 Design Philosophy
+## Tech
 
-This project is intentionally:
+- **HTML / CSS / JS** — single file, no framework
+- **Chart.js 4.4** — yield curve chart, loaded from CDN
+- **Google Fonts** — Syne (display), DM Mono (data), Inter (body)
+- **JSON** — all data, separate file, fetched at runtime via `fetch()`
 
-### 1. **Simple**
-- No frameworks required
-- No backend required
-- No database required
-
-### 2. **Decoupled**
-- UI and data are completely separate
-- You can swap data sources without touching the UI
-
-### 3. **Extensible**
-- Easy to automate (GitHub Actions, cron jobs)
-- Easy to upgrade UI later (React, Tailwind, etc.)
+No npm. No webpack. No React. Open `index.html` with a local server and it works.
 
 ---
 
-## ⚠️ Important Notes
+## Customizing the JSON
 
-- This dashboard is **not real-time**
-- It reflects a **daily snapshot**
-- AI output should be **reviewed before critical use**
-- API keys must **never be exposed in the browser**
+The dashboard renders whatever the JSON contains — no hardcoded market names or sector lists. To add a new market to the cross-market table, just add an object to the `crossMarket` array. To change the sectors shown, change the `sectorHeat` array. The dashboard adapts.
 
----
-
-## 🔮 Future Enhancements (Optional)
-
-- Automate daily refresh via GitHub Actions
-- Add schema validation for AI output
-- Upgrade UI styling (Tailwind / React)
-- Add historical snapshots
-- Connect to real market data feeds
+The schema with all field descriptions and allowed values is documented in `daily_refresh_prompt_v3.md`.
 
 ---
 
-## 💡 Summary
+## License
 
-This project gives you:
-
-✔ A clean, professional dashboard  
-✔ A simple daily update workflow  
-✔ A scalable foundation for future expansion  
-
-All with just **3 files**.
-
----
-
-Enjoy building 🚀
+Partly by Muxing. Partly by MIT.
