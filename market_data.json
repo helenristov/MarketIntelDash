@@ -1,86 +1,92 @@
 {
-  "snapshotDate": "2026-04-24",
-  "lastUpdated": "Apr 24, 2026",
+  "snapshotDate": "2026-04-27",
+  "lastUpdated": "Apr 27, 2026",
   "disclaimer": "Manual end-of-day snapshot compiled from public sources for informational purposes only — not validated for trading or investment decisions.",
 
-  "marketPulse": "Intel's Best Day Since 1987 Drives Nasdaq and S&P to Records; Oil Yo-Yos on Iran Peace Hopes",
-  "marketPulseSubtext": "The S&P 500 rose 0.80% to a record 7,165 and the Nasdaq surged 1.63% to 24,837 as Intel's 23.6% post-earnings surge lifted chips to an 18th consecutive winning day. Oil whipsawed between $103 and $107 Brent before fading on Iran diplomacy signals, while the Dow slipped 0.2% as software and industrials lagged. Consumer sentiment hit an all-time record low of 49.8 but the stock market shrugged it off entirely.",
-  "topDriver": "Intel's strongest earnings day since 1987 ignited a semiconductor sweep that overwhelmed the rest of the tape",
-  "narrativeSummary": "April 24 was a semiconductors-versus-everything-else session. Intel's blowout Q1 beat — its sixth consecutive earnings outperformance — sent shares up 23.6% for their best day since the dot-com era, dragging AMD +14%, Qualcomm +11%, and SOXX to an unprecedented 18-day win streak. The Nasdaq hit fresh records while the Dow fell, a stark divergence that highlights how narrow the rally's leadership has become. Oil added a second layer of drama: Brent swung between $103 and $107 before closing around $104.40 as Iran's foreign minister headed to Islamabad for potential peace talks, providing a fleeting relief valve on crude. Bonds cooperated — the 10Y slipped to 4.31% from 4.34% — offering a mild tailwind to tech multiples. The one jarring data point was Michigan consumer sentiment printing at a record-low 49.8 with 1-year inflation expectations jumping to 4.7%, but equity investors chose to look through the consumer gloom and focus on AI earnings momentum instead. The session's key tension: record stock highs coexisting with record-low consumer confidence and a Strait of Hormuz still closed.",
+  "marketPulse": "Records Again, But the Plot Thickened — Iran Proposal, Microsoft-OpenAI Breakup, and Oil Back Above $108",
+  "marketPulseSubtext": "S&P 500 edged to a fresh record close of 7,173.91 (+0.12%) and Nasdaq hit 24,887.10 (+0.20%) while the Dow slipped 63 points. The day's real action was off the tape: Microsoft and OpenAI ended their exclusive partnership, Iran submitted a new Hormuz reopening proposal via Pakistan, Goldman raised its oil forecast, and Brent touched $108 before closing ~$106. Semis took a rare breather as breadth rotated toward financials, communications, and memory.",
+  "topDriver": "Microsoft-OpenAI exclusivity ends — OpenAI goes multi-cloud, reshaping the entire AI infrastructure competitive landscape",
+  "narrativeSummary": "April 27 was the day the AI ecosystem's most important partnership got rewritten. Microsoft and OpenAI announced the end of their exclusive arrangement — OpenAI can now deploy models on AWS, Google Cloud, and any other platform, while Microsoft keeps a non-exclusive license through 2032 and stops paying revenue share. The announcement sent shockwaves through cloud competitive dynamics: Amazon's CEO immediately posted that OpenAI models are coming to AWS Bedrock 'in the coming weeks.' Meanwhile the Iran war entered its ninth week with Brent briefly touching $108 after Trump scrapped the Islamabad talks on Saturday, before Iran's new Hormuz reopening proposal via Pakistan brought prices back to ~$106. Goldman Sachs raised its Q4 Brent forecast to $90 and Citi raised its 3-month target to $120. Semiconductors took a rare pause — SOXX's 18-day win streak ended — but memory stocks surged as Melius Research called the AI memory cycle durable through 2030. The week ahead is historic: five Magnificent Seven earnings reports, Fed decision Wednesday, BoJ Tuesday, ECB Thursday. The market is simultaneously at record highs and standing at the edge of its most consequential week in years.",
 
-  "macroStressIndex": 68,
-  "macroStressLabel": "Elevated",
-  "macroStressSubtext": "Oil volatility and record-low sentiment offset by semi earnings surge and easing yields",
+  "macroStressIndex": 72,
+  "macroStressLabel": "High",
+  "macroStressSubtext": "Oil back near $108, Goldman/Citi raising forecasts, FOMC week, AI realignment — stress rising",
 
   "rateCurve": [
-    { "tenor": "1M",  "current": 5.25, "prior": 5.27 },
-    { "tenor": "3M",  "current": 5.19, "prior": 5.21 },
-    { "tenor": "6M",  "current": 4.99, "prior": 5.02 },
-    { "tenor": "1Y",  "current": 4.67, "prior": 4.71 },
-    { "tenor": "2Y",  "current": 3.78, "prior": 3.83 },
-    { "tenor": "5Y",  "current": 3.96, "prior": 4.10 },
-    { "tenor": "10Y", "current": 4.31, "prior": 4.34 },
-    { "tenor": "30Y", "current": 4.91, "prior": 4.92 }
+    { "tenor": "1M",  "current": 5.24, "prior": 5.25 },
+    { "tenor": "3M",  "current": 5.18, "prior": 5.19 },
+    { "tenor": "6M",  "current": 4.98, "prior": 4.99 },
+    { "tenor": "1Y",  "current": 4.65, "prior": 4.67 },
+    { "tenor": "2Y",  "current": 3.80, "prior": 3.78 },
+    { "tenor": "5Y",  "current": 4.02, "prior": 3.96 },
+    { "tenor": "10Y", "current": 4.32, "prior": 4.31 },
+    { "tenor": "30Y", "current": 4.93, "prior": 4.91 }
   ],
-  "rateCurveRead": "Yields fell modestly across the curve on April 24 — the 10Y eased to 4.31% from 4.34% and the 2Y dipped to 3.78% — as Iran peace-talk optimism briefly reduced the energy-driven inflation premium. The curve shape is still bear-steepened with short end anchored by Fed-on-hold expectations and the long end pricing a persistent energy-inflation tail risk. The mild easing was a minor tailwind to tech multiples rather than a regime shift.",
+  "rateCurveRead": "Yields edged higher across the curve on Monday — the 10Y nudged up to 4.32% and the 30Y to 4.93% — as stalled Iran peace talks kept oil elevated and reinforced 'higher for longer' expectations heading into the FOMC meeting Wednesday. The bear steepener structure remains intact: short end anchored by Fed-on-hold pricing, long end drifting up on persistent energy-driven inflation risk. All eyes on Wednesday's Fed statement for any shift in language around the Iran shock's inflationary impact.",
 
   "scenarios": [
     {
       "label": "Bear",
-      "title": "Peace Talks Collapse, Chips Crack",
-      "probability": 20,
-      "trigger": "Islamabad talks fail, Brent surges back above $110, SOXX 18-day streak breaks hard, VIX clears 22",
-      "outcome": "Semiconductor leadership reversal would remove the market's only reliable bid. Oil resurgence would re-ignite inflation concerns, pressure tech multiples, and force a re-pricing of Fed path. Broad selloff with IWM and consumer stocks most exposed.",
-      "watchpoints": ["Islamabad talks outcome", "SOXX holds $462 or breaks", "Brent back above $108"]
+      "title": "Mag Seven Disappoint, Oil Stays Stuck",
+      "probability": 22,
+      "trigger": "MSFT or META capex guidance disappoints, Brent holds above $108, Fed turns unexpectedly hawkish Wednesday, SOXX break accelerates",
+      "outcome": "AI capex thesis gets its first serious challenge just as oil inflation is compressing margins. Multiple compression across growth stocks, VIX spikes above 23, semis reverse the entire post-Intel move. Dow and IWM lead the selloff as rate-sensitive sectors get hit hardest.",
+      "watchpoints": ["MSFT capex guidance vs $20B Q1 baseline", "Brent holds above $108", "VIX breaks 22"]
     },
     {
       "label": "Base",
-      "title": "Chips Lead, Oil Stays Volatile, Records Hold Narrowly",
-      "probability": 55,
-      "trigger": "Partial Iran diplomatic progress keeps oil in $100-108 range, semi earnings continue beating, VIX stays 17-21",
-      "outcome": "Records extend but on increasingly thin leadership — mega-cap tech and semis do the work while software, consumer, and small caps lag. Consumer sentiment weakness starts leaking into guidance language but doesn't derail AI capex cycle. Sideways-to-higher tape with high dispersion.",
-      "watchpoints": ["SOXX streak continuation", "Hyperscaler earnings (MSFT, META, AMZN)", "Brent stays below $108"]
+      "title": "Mag Seven Beat, Hormuz Stalemate Persists",
+      "probability": 53,
+      "trigger": "Hyperscalers confirm AI capex acceleration, Fed holds and keeps language neutral, Brent stays $100-108, OpenAI multi-cloud deal expands AWS/Google AI revenue",
+      "outcome": "Records extend on narrow leadership — mega-cap AI and memory carry the index while energy inflation slowly erodes consumer and industrial margins. The Microsoft-OpenAI realignment benefits AWS and Google near-term. Market grinds higher with elevated dispersion and vol staying in the 18-21 range.",
+      "watchpoints": ["MSFT/META/AMZN AI capex language", "Fed statement neutrality", "Brent stays below $110"]
     },
     {
       "label": "Bull",
-      "title": "Iran Deal Unlocks Broad Rally",
+      "title": "Iran Deal + AI Earnings Sweep",
       "probability": 25,
-      "trigger": "Islamabad talks produce credible ceasefire path, Brent drops toward $90, yields ease further, software recovers",
-      "outcome": "Oil shock premium collapses, inflation fears recede, bonds rally alongside equities. Breadth broadens dramatically — IWM, software, consumer discretionary all catch up. Fed rate cut expectations return, gold rebounds as haven bid rotates. S&P pushes toward 7,400.",
-      "watchpoints": ["Hormuz reopening signal", "10Y back below 4.20%", "IWM outperforms SPY"]
+      "trigger": "Iran Hormuz proposal accepted this week, Brent falls toward $90, all five Mag Seven beat and raise, Fed signals satisfaction with disinflation",
+      "outcome": "Oil shock premium collapses simultaneously with AI earnings validation — the two biggest macro overhangs lift at once. Breadth explodes: IWM, software, consumer, and financials all catch up. VIX drops toward 15, gold rallies as dollar softens, S&P pushes toward 7,400 by end of week.",
+      "watchpoints": ["Formal Iran ceasefire framework", "Mag Seven clean sweep", "10Y drops below 4.20%"]
     }
   ],
 
   "topThemes": [
     {
-      "theme": "Intel surged 23.6% — its best day since 1987 — on a Q1 earnings blowout and raised AI CPU guidance",
-      "impact": "SOXX, QQQ, Nasdaq, AMD, Qualcomm, NVDA, AI capex narrative",
-      "strength": 97,
-      "direction": "Leadership"
-    },
-    {
-      "theme": "Oil whipsawed on Iran diplomat heading to Islamabad — Brent swung $103-$107 before closing ~$104.40",
-      "impact": "Brent, WTI, energy stocks, inflation expectations, consumer",
-      "strength": 88,
-      "direction": "Shock"
-    },
-    {
-      "theme": "Consumer sentiment hit an all-time record low of 49.8 with 1-year inflation expectations at 4.7%",
-      "impact": "Consumer discretionary, Fed path, retail, K-shaped divergence narrative",
-      "strength": 79,
-      "direction": "Data"
-    },
-    {
-      "theme": "Nasdaq-Dow divergence sharpened — tech records while software and industrials lagged badly",
-      "impact": "Market breadth, software ETFs, IBM, ServiceNow, Comcast, industrials",
-      "strength": 76,
+      "theme": "Microsoft-OpenAI exclusivity ends — OpenAI goes multi-cloud, AWS and Google Cloud are the immediate beneficiaries",
+      "impact": "MSFT, AMZN, GOOGL, cloud infrastructure, AI model distribution, enterprise AI spending",
+      "strength": 95,
       "direction": "Rotation"
     },
     {
-      "theme": "Kevin Warsh DOJ probe cleared — path to Fed chair confirmation opens, hawkish signal for rates",
-      "impact": "Fed path pricing, 2Y Treasury, rate-sensitive sectors",
-      "strength": 62,
+      "theme": "Iran War week 9: Trump cancels Islamabad talks, Brent hits $108, Iran submits new Hormuz proposal via Pakistan",
+      "impact": "Brent, WTI, energy stocks, inflation expectations, global growth, consumer",
+      "strength": 91,
+      "direction": "Shock"
+    },
+    {
+      "theme": "Goldman raises Q4 Brent to $90, Citi sets 3-month target at $120 — bank forecasts structurally re-anchoring higher",
+      "impact": "Energy complex, inflation pricing, bond yields, rate path, consumer staples",
+      "strength": 84,
       "direction": "Macro Tightening"
+    },
+    {
+      "theme": "Memory supercycle reaffirmed — Melius Research says AI memory demand durable through 2030; Micron +5.6%, Sandisk +7%",
+      "impact": "MU, WDC, SOXX, data center infrastructure, AI capex chain",
+      "strength": 79,
+      "direction": "Leadership"
+    },
+    {
+      "theme": "Super Central Bank Week begins — Fed Wed, BoJ Tue, ECB Thu — Powell's likely final meeting before Warsh",
+      "impact": "Rates across all tenors, USD, EM currencies, rate-sensitive equity sectors",
+      "strength": 76,
+      "direction": "Macro Tightening"
+    },
+    {
+      "theme": "SOXX 18-day win streak snapped — semis pause as rotation broadens to financials and comms",
+      "impact": "SOXX, NVDA, AMD, sector breadth, market leadership concentration",
+      "strength": 68,
+      "direction": "Rotation"
     }
   ],
 
@@ -88,427 +94,444 @@
     {
       "market": "S&P 500 (SPY proxy)",
       "risk": "Watch",
-      "driver": "SPY closed at $713.33 near session highs — a new all-time closing high — though the majority of index constituents fell, with the gain almost entirely driven by semiconductor weight.",
-      "move": "$713.33",
+      "driver": "Closed at a record 7,173.91 (+0.12%) — the sixth record close in seven sessions — but gains were paper-thin and driven by financials and communications rather than chips for the first time in weeks.",
+      "move": "7,173.91",
       "trend": "Higher / record",
-      "heat": 72,
-      "source": "Robinhood / Investing.com"
+      "heat": 65,
+      "source": "Yahoo Finance / TradingEconomics"
     },
     {
       "market": "Nasdaq 100 (QQQ proxy)",
       "risk": "Watch",
-      "driver": "QQQ closed at $663.88, up from $651.42, for a 1.9% gain led entirely by chip stocks. The index hit a fresh all-time high.",
-      "move": "$663.88",
-      "trend": "Sharp higher / record",
-      "heat": 78,
-      "source": "Investing.com"
+      "driver": "Nasdaq closed at a record 24,887.10 (+0.20%) with NVDA +4% and Alphabet +1.8% doing the heavy lifting as semis broadly paused. Microsoft ended the day green despite the OpenAI exclusivity news.",
+      "move": "24,887.10",
+      "trend": "Higher / record",
+      "heat": 68,
+      "source": "Yahoo Finance"
     },
     {
       "market": "Dow Jones (DIA proxy)",
       "risk": "Watch",
-      "driver": "DIA slipped ~0.2% as software, Comcast (-8% on downgrade), and industrial names lagged the chip-driven tape.",
-      "move": "~$492.00",
+      "driver": "Dow fell 62.92 points (-0.13%) to 49,167.79. McDonald's -3.1%, Walmart -1.75%, and IBM -1.62% led losses. Even Verizon's +1.47% gain on raised guidance wasn't enough to offset the consumer and industrial drag.",
+      "move": "49,167.79",
       "trend": "Lower",
-      "heat": 55,
-      "source": "TheStreet / Motley Fool"
+      "heat": 58,
+      "source": "TradingEconomics / TheStreet"
     },
     {
       "market": "Russell 2000 (IWM proxy)",
       "risk": "Watch",
-      "driver": "IWM added roughly 0.3%, a modest catch-up but still sharply underperforming Nasdaq. Small caps remain hamstrung by rate sensitivity and lack of AI exposure.",
-      "move": "~$276.30",
-      "trend": "Slightly higher / lagging",
-      "heat": 58,
-      "source": "TheStreet"
+      "driver": "IWM added just +0.04% to 2,788.19 — small caps remain essentially frozen as oil-driven inflation and rate uncertainty compress small-cap margins and rate-sensitive borrowing costs.",
+      "move": "2,788.19",
+      "trend": "Flat",
+      "heat": 55,
+      "source": "Yahoo Finance"
     },
     {
       "market": "Semiconductors (SOXX)",
       "risk": "Watch",
-      "driver": "SOXX surged 4.67% to $462.16 on Intel's blowout and AMD's 14% pop — an 18th consecutive winning session, the longest streak ever recorded for the index.",
-      "move": "$462.16",
-      "trend": "↑ record streak",
-      "heat": 95,
-      "source": "Yahoo Finance / TheStreet"
+      "driver": "SOXX's historic 18-session win streak ended Monday as the group took a breather. AMD fell 3.8% after a Northland Capital downgrade. Nvidia held up (+4%) but couldn't carry the index alone.",
+      "move": "~$448",
+      "trend": "↓ streak ends",
+      "heat": 72,
+      "source": "TheStreet / TradingKey"
     },
     {
-      "market": "Intel (INTC)",
+      "market": "Memory (Micron / Sandisk)",
       "risk": "Watch",
-      "driver": "Intel surged 23.6% after its sixth consecutive earnings beat — Q1 revenue of $13.58B smashed the $12.42B consensus. CEO Lip-Bu Tan highlighted AI-centric CPU demand surge. Best single-day gain since 1987.",
-      "move": "+23.6%",
-      "trend": "↑ historic surge",
-      "heat": 99,
-      "source": "Motley Fool / CNBC / Schwab"
+      "driver": "Micron surged 5.6% and Sandisk gained 7%+ after Melius Research called the AI memory cycle durable through 2030, arguing memory stocks are no longer purely cyclical. A sector-specific bull case emerging within semis.",
+      "move": "MU +5.6% / WDC +7%",
+      "trend": "↑ breakout",
+      "heat": 85,
+      "source": "CNBC / Schwab"
     },
     {
       "market": "Brent Crude",
-      "risk": "Elevated",
-      "driver": "Brent whipsawed between $103-$107 before closing around $104.40 — down slightly on the day — as Iran's FM Araghchi headed to Islamabad for peace talks, providing a brief relief valve.",
-      "move": "$104.40",
-      "trend": "Volatile / slightly lower",
-      "heat": 89,
-      "source": "Reuters / TradingEconomics"
+      "risk": "High",
+      "driver": "Brent hit $108 in Asian hours after Trump canceled the Islamabad talks Saturday, then pulled back to ~$106 when Iran's new Hormuz proposal via Pakistan surfaced. Goldman raised Q4 forecast to $90; Citi targets $120 in 3 months. IEA calls this the largest energy supply shock on record.",
+      "move": "$106.68",
+      "trend": "↑ volatile / near 3-week high",
+      "heat": 93,
+      "source": "TradingEconomics / CNBC / Goldman Sachs"
     },
     {
       "market": "WTI Crude",
-      "risk": "Elevated",
-      "driver": "WTI closed around $94.88, down from $95.85, as diplomatic signals eased the supply-fear premium modestly. Still on track for ~14% weekly gain.",
-      "move": "$94.88",
-      "trend": "Slightly lower / volatile",
-      "heat": 85,
-      "source": "Investing.com / Reuters"
+      "risk": "High",
+      "driver": "WTI closed at $96.37 after briefly topping $97, up roughly 2% on the day. Goldman now sees Q4 WTI at $83; J.P. Morgan warns of $120-$130 if Hormuz stays shut past mid-May.",
+      "move": "$96.37",
+      "trend": "↑ higher",
+      "heat": 89,
+      "source": "CNBC / TradingKey"
     },
     {
       "market": "10Y Treasury",
-      "risk": "Watch",
-      "driver": "The 10Y yield eased to 4.31% from 4.34% as Iran peace-talk optimism took a small amount of inflation risk premium out of the long end.",
-      "move": "4.31%",
-      "trend": "Slightly lower",
-      "heat": 68,
-      "source": "Advisor Perspectives / TradingEconomics"
-    },
-    {
-      "market": "2Y Treasury",
-      "risk": "Watch",
-      "driver": "The 2Y eased to 3.78% — the Warsh Fed confirmation news is hawkish on structure but near-term Fed-on-hold expectations keep the front end anchored.",
-      "move": "3.78%",
-      "trend": "Slightly lower",
-      "heat": 62,
-      "source": "Advisor Perspectives"
+      "risk": "Elevated",
+      "driver": "10Y held near 4.32% — unchanged to slightly higher — as stalled peace talks and oil above $100 kept the inflation-risk premium embedded. FOMC Wednesday is the next catalyst; no rate change expected but statement language on Iran inflation closely watched.",
+      "move": "4.32%",
+      "trend": "→ slightly higher",
+      "heat": 69,
+      "source": "TradingEconomics / CNBC"
     },
     {
       "market": "Gold",
       "risk": "Watch",
-      "driver": "Gold recovered to $4,723 after approaching $4,700 earlier in the week. A potential Iran deal reduces haven demand but inflation expectations at 4.7% provide a floor.",
-      "move": "$4,723",
-      "trend": "Slight recovery",
-      "heat": 70,
-      "source": "TradingEconomics"
+      "driver": "Gold closed at $4,702.80 (+0.19%) — range-bound near $4,694-$4,723 as rising oil strengthens inflation expectations and lifts yields, which competes with gold's haven bid. Dollar holding near 98 is an additional headwind.",
+      "move": "$4,702.80",
+      "trend": "→ range-bound",
+      "heat": 62,
+      "source": "Yahoo Finance / sundayguardianlive"
     },
     {
       "market": "VIX",
       "risk": "Watch",
-      "driver": "VIX eased to ~18.76-18.92 — near post-Iran-war lows — as the long/short-vol dispersion trade continues. Structurally fragile: any shock could trigger rapid short-covering.",
-      "move": "18.92",
-      "trend": "Lower / complacency risk",
-      "heat": 65,
-      "source": "Schwab / Yahoo Finance"
+      "driver": "VIX closed at 18.02, down 3.7% on the day — the complacency-versus-risk tension continues. Schwab notes S&P RSI is near 70 and chip RSI above 80, flagging overbought conditions heading into the most important earnings week of the year.",
+      "move": "18.02",
+      "trend": "↓ lower / still complacent",
+      "heat": 63,
+      "source": "Yahoo Finance / Schwab"
     },
     {
       "market": "Bitcoin",
       "risk": "Watch",
-      "driver": "Bitcoin rose to $78,594, up 4%, moving in sympathy with the risk-on tech tone — continuing its pattern of tracking AI sentiment rather than acting as an independent haven.",
-      "move": "$78,594",
-      "trend": "Higher",
-      "heat": 63,
+      "driver": "Bitcoin pulled back 1.96% to $77,133 — down from last week's $79,490 high. Nic Puckrin of Coin Bureau warns BTC is technically in a bear market, sitting 40%+ below its October peak with support around $74,000 but downside risk to $55,700-$58,200.",
+      "move": "$77,133",
+      "trend": "↓ pullback",
+      "heat": 60,
       "source": "Yahoo Finance"
     },
     {
-      "market": "Software ETF (IGV proxy)",
-      "risk": "Elevated",
-      "driver": "Software stocks extended Thursday's SaaSpocalypse selloff — IBM, ServiceNow, Workday, and Microsoft all fell. IGV is now down nearly 30% since last fall, a sharp divergence from chip stocks.",
-      "move": "↓ extended selloff",
-      "trend": "Lower / multi-session",
-      "heat": 78,
-      "source": "Motley Fool / Schwab"
+      "market": "Silver",
+      "risk": "Watch",
+      "driver": "Silver trading near $76.32 — up sharply from $33.58 a year ago — supported by a multi-year structural supply deficit and strong industrial demand from solar and electronics. The AI and energy transition capex cycle is creating a new demand base for silver that didn't exist in prior cycles.",
+      "move": "$76.32",
+      "trend": "↑ structural bid",
+      "heat": 74,
+      "source": "TheStreet"
     }
   ],
 
   "sectorHeat": [
     {
-      "sector": "Semiconductors",
-      "heat": 97,
-      "trend": "↑ historic",
-      "driver": "Intel +24%, AMD +14%, 18-day streak"
-    },
-    {
       "sector": "Energy",
+      "heat": 93,
+      "trend": "↑ re-escalating",
+      "driver": "Brent $108, Goldman/Citi raise forecasts"
+    },
+    {
+      "sector": "AI Memory (MU / WDC)",
       "heat": 85,
-      "trend": "↓ easing",
-      "driver": "Oil retreats on Iran talks"
+      "trend": "↑ breakout",
+      "driver": "Melius 2030 supercycle call"
     },
     {
-      "sector": "Software / Cloud",
-      "heat": 78,
-      "trend": "↓ SaaSpocalypse",
-      "driver": "IBM, NOW, WDAY miss"
+      "sector": "Cloud Infrastructure",
+      "heat": 83,
+      "trend": "↑ realignment",
+      "driver": "OpenAI goes multi-cloud"
     },
     {
-      "sector": "Mega-cap AI",
-      "heat": 74,
-      "trend": "↑ lifted",
-      "driver": "NVDA +4%, hyperscaler setup"
-    },
-    {
-      "sector": "Consumer",
+      "sector": "Semiconductors (broad)",
       "heat": 72,
-      "trend": "↓ sentiment shock",
-      "driver": "UMich 49.8 record low"
-    },
-    {
-      "sector": "Industrials",
-      "heat": 60,
-      "trend": "↓ lagging",
-      "driver": "Defense sacking, guidance risk"
+      "trend": "↓ streak ends",
+      "driver": "SOXX 18-day run snapped"
     },
     {
       "sector": "Financials",
-      "heat": 55,
-      "trend": "→ mixed",
-      "driver": "Rates eased slightly"
+      "heat": 67,
+      "trend": "↑ rotation bid",
+      "driver": "AmEx +1.5%, sector breadth day"
     },
     {
-      "sector": "Healthcare",
-      "heat": 48,
-      "trend": "→ quiet",
-      "driver": "No major catalysts"
+      "sector": "Communication Services",
+      "heat": 65,
+      "trend": "↑ leading",
+      "driver": "Verizon raised guidance +3.5%"
+    },
+    {
+      "sector": "Consumer Staples",
+      "heat": 60,
+      "trend": "↓ lagging",
+      "driver": "MCD -3%, WMT -1.75%, oil drag"
+    },
+    {
+      "sector": "Industrials",
+      "heat": 54,
+      "trend": "↓ defensive",
+      "driver": "Input cost pressure, Iran risk"
     },
     {
       "sector": "Real Estate",
       "heat": 42,
       "trend": "→ dormant",
-      "driver": "Rate sensitivity, no news"
+      "driver": "Rate ceiling, no catalyst"
     }
   ],
 
   "drivers": [
     {
-      "name": "Intel's Q1 earnings blowout — 6th straight beat, AI CPU demand surge, best day since 1987",
-      "score": 97,
-      "detail": "Intel posted Q1 revenue of $13.58B vs $12.42B expected and raised guidance on AI-centric CPU demand. CEO Lip-Bu Tan cited a massive surge in data-center CPU orders. The stock surged 23.6% — its largest single-day gain since the dot-com era — dragging AMD +14%, Qualcomm +11%, and extending SOXX's streak to 18 sessions.",
-      "linked": "INTC, AMD, QCOM, SOXX, QQQ, AI capex",
+      "name": "Microsoft-OpenAI exclusivity ends — OpenAI models coming to AWS and all clouds by end of May",
+      "score": 95,
+      "detail": "In a jointly announced restructuring, Microsoft dropped its exclusive access to OpenAI models. Microsoft retains a non-exclusive license through 2032, stops paying revenue share (while OpenAI pays a capped share to Microsoft through 2030). Amazon's Andy Jassy immediately confirmed OpenAI models coming to AWS Bedrock 'in the coming weeks.' The deal also resolved OpenAI's legal exposure from its $50B Amazon contract. Microsoft closed the day green — markets read the revenue-share savings as a net positive for MSFT margins.",
+      "linked": "MSFT, AMZN, GOOGL, OpenAI, cloud infrastructure, enterprise AI budgets",
       "confidence": "High",
-      "source": "Motley Fool / CNBC / Schwab / TheStreet"
+      "source": "Reuters / Bloomberg / TechCrunch / TipRanks"
     },
     {
-      "name": "Iran FM heading to Islamabad — oil yo-yo relief valve but Hormuz still closed",
-      "score": 88,
-      "detail": "Iranian Foreign Minister Araghchi traveled to Pakistan with reports of a 'high likelihood of breakthrough' in US-Iran negotiations. Brent, which had been above $106, swung down toward $103 before settling ~$104.40. The Strait of Hormuz remains closed and the naval blockade intact — this was a sentiment shift, not a fundamental change.",
-      "linked": "Brent, WTI, energy stocks, inflation expectations",
-      "confidence": "Medium",
-      "source": "Reuters / BNN Bloomberg"
+      "name": "Iran War week 9: Trump cancels Islamabad talks, Brent hits $108, IEA calls it the largest energy supply shock on record",
+      "score": 91,
+      "detail": "Trump scrapped plans to send Witkoff and Kushner to Pakistan Saturday, saying negotiations could happen by phone. Iran's FM Pezeshkian reiterated Tehran won't negotiate 'under threats or blockade.' Hormuz traffic remains at ~5% of pre-war daily average. Later in the day Iran submitted a new proposal via Pakistani mediators — reopen Hormuz, end the war, defer nuclear talks — but no response from the White House by close.",
+      "linked": "Brent, WTI, energy stocks, inflation, global growth, consumer, shipping",
+      "confidence": "High",
+      "source": "CNBC / CNN / TradingEconomics / Reuters"
     },
     {
-      "name": "Michigan consumer sentiment hit all-time record low of 49.8; 1-year inflation expectations jumped to 4.7%",
+      "name": "Goldman raises Q4 Brent to $90, Citi targets $120 — structural oil repricing underway",
+      "score": 84,
+      "detail": "Goldman Sachs estimates 14.5 million barrels per day of Persian Gulf production losses are driving global inventories to draw at a record 11-12 million bpd pace in April, flipping the market from a 1.8M bpd surplus to a 9.6M bpd deficit in Q2. Goldman pushes Hormuz normalization to end of June. Citi sees $120 in three months if disruptions persist and $150 in a tail scenario. IEA has already slashed its 2026 demand forecast to -80,000 bpd growth.",
+      "linked": "Brent, WTI, inflation expectations, 10Y yield, Fed path, consumer spending",
+      "confidence": "High",
+      "source": "Goldman Sachs / Citi / IEA / CNBC / CNN"
+    },
+    {
+      "name": "Melius Research: AI memory demand is durable through 2030 — this is not a normal cycle",
       "score": 79,
-      "detail": "The final April Michigan sentiment reading was revised up slightly to 49.8 from the preliminary 47.6 but remains the weakest in the survey's history. Year-ahead inflation expectations surged to 4.7%, the largest monthly jump since April 2025, while long-term expectations rose to 3.5%. The stock market ignored this entirely, highlighting the K-shaped divergence between asset prices and consumer stress.",
-      "linked": "Consumer discretionary, Fed path, retail, household spending",
-      "confidence": "High",
-      "source": "University of Michigan / TradingEconomics / Advisor Perspectives"
+      "detail": "Melius analysts argued Monday that memory stocks (Micron, Sandisk) are no longer purely cyclical — AI data center buildout is creating a structural demand base that makes them more like infrastructure companies. Micron surged 5.6% and Sandisk added 7%+. The research note is significant because it provides an analytic framework to re-rate the memory sector permanently higher if the AI capex cycle is sustained.",
+      "linked": "MU, WDC, SOXX, AI data center, NVDA demand chain",
+      "confidence": "Medium",
+      "source": "CNBC / Schwab"
     },
     {
-      "name": "Kevin Warsh DOJ probe cleared — Fed chair path open, hawkish rate structure signal",
-      "score": 62,
-      "detail": "The Justice Department ended its investigation into Jerome Powell, removing the roadblock for Sen. Tillis to support Warsh's confirmation. Warsh has pledged Fed independence but is viewed as hawkish on balance sheet normalization. Markets see this as a longer-term headwind to rate-cut expectations.",
-      "linked": "Fed path, 2Y Treasury, rate-sensitive sectors, USD",
-      "confidence": "Medium",
-      "source": "BNN Bloomberg / AP"
+      "name": "Super Central Bank Week: Fed, BoJ, ECB all decide within 48 hours — Powell's likely final meeting",
+      "score": 76,
+      "detail": "The Fed meets Wednesday and is overwhelmingly expected to hold rates. The key question is whether the statement acknowledges the Iran-driven inflation shock as a reason to push cuts further out. BoJ meets Tuesday amid yen pressure. ECB meets Thursday. Schwab notes that ~53% of S&P 500 stocks are above their 50-day moving average, down from 60% a week ago — breadth narrowing heading into the most policy-dense week of the year.",
+      "linked": "Fed funds rate, 2Y Treasury, USD, EM FX, rate-sensitive equity sectors",
+      "confidence": "High",
+      "source": "Schwab / TradingEconomics / CNBC"
     }
   ],
 
   "risks": [
     {
-      "title": "Semiconductor concentration: the entire market is riding an 18-day chip streak — any crack is systemic",
-      "level": "Elevated",
-      "desc": "SOXX's RSI hit 85 — a level that has historically preceded corrections. NewEdge Wealth warns the rally is 'dangerously reliant on cyclical semiconductors.' If Intel's or SOXX's momentum breaks, there is limited breadth elsewhere to absorb it — software is already down 30% from its highs."
-    },
-    {
-      "title": "Consumer-market divergence is at historic extremes and must eventually resolve",
-      "level": "Elevated",
-      "desc": "Record-low consumer sentiment of 49.8 alongside record-high S&P 500 levels is a historically unusual configuration. Consumer spending accounts for ~70% of GDP. If gasoline prices stay above $4/gallon and the Iran shock persists, spending data will eventually reflect sentiment, and guidance will follow."
-    },
-    {
-      "title": "Iran peace talks remain fragile — Hormuz closed, blockade intact",
+      "title": "Magnificent Seven earnings sweep is priced in — any miss creates an asymmetric selloff",
       "level": "High",
-      "desc": "Today's diplomatic signal is Iran's FM traveling to Pakistan — it is not a deal. The Strait of Hormuz remains closed, the US naval blockade of Iranian ports is active, and Iran has not submitted a formal proposal. A single breakdown in Islamabad could send Brent back toward $110 within hours."
+      "desc": "84% of S&P 500 companies reporting so far have beaten earnings expectations — historically strong. But the five Mag Seven reports this week (MSFT, META, AMZN, AAPL, GOOGL) have been priced for perfection. S&P RSI near 70 and chip RSI above 80. Schwab explicitly flags that if AI capex guidance from hyperscalers doesn't meet elevated expectations, a chip sector pullback could follow with limited breadth support elsewhere to absorb it."
     },
     {
-      "title": "VIX at post-war lows while realized single-stock vol is ferocious — dispersion trap risk",
-      "level": "Medium",
-      "desc": "VIX near 18.76 reflects a long-stock / short-vol positioning trade that Bloomberg describes as an 'important marker of complacency.' Intel +24% and Comcast -8% on the same day shows realized vol is high. A concentrated shock could trigger rapid VIX short-covering, as seen in early 2018 when VIX briefly spiked above 50."
+      "title": "Oil structural repricing: Goldman, Citi, JPMorgan all raising forecasts — the ceiling is moving higher",
+      "level": "High",
+      "desc": "This is no longer a short-term shock premium. Goldman's 14.5M bpd production loss estimate, Citi's $120 three-month target, and JPMorgan's $130 scenario if Hormuz stays shut past mid-May represent a structural repricing of energy. Even if a deal is struck, Goldman notes it could take months for flows to normalize. US gas prices hit $4.11/gallon Monday — fifth straight day of increases."
     },
     {
-      "title": "Software sector is in a bear market that the headline indices are hiding",
-      "level": "Medium",
-      "desc": "IGV-proxy software stocks are down nearly 30% since last fall. IBM, ServiceNow, Workday, and Intuit all sold off this week. This is a genuine sector recession happening underneath record Nasdaq headline numbers — if it spreads to AI infrastructure names, the breadth story collapses."
+      "title": "Microsoft-OpenAI realignment creates near-term uncertainty for MSFT's AI moat narrative",
+      "level": "Elevated",
+      "desc": "While markets read the deal as net positive for MSFT margins (no more revenue share), Microsoft's key competitive advantage was exclusive access to the world's best models. That is now gone. Azure's AI premium pricing power may compress as OpenAI models become available on AWS and Google Cloud. MSFT earnings Wednesday will be the first real test of whether the cloud AI narrative holds without exclusivity."
+    },
+    {
+      "title": "Market breadth narrowing sharply — only 188 S&P 500 stocks rose last week vs 406 the week prior",
+      "level": "Elevated",
+      "desc": "Schwab data shows just 188 S&P 500 names advanced last week, versus 406 two weeks prior. Only 53% of the index is above its 50-day moving average. Record headline closes masking deteriorating participation — the pattern that often precedes a mean-reversion correction when the leadership names stumble."
+    },
+    {
+      "title": "Bitcoin technically in a bear market — 40% below October peak with $55K downside scenario in play",
+      "level": "Watch",
+      "desc": "Despite BTC outperforming most assets since the Iran war began, it sits 40%+ below its October 2025 peak. Nic Puckrin of Coin Bureau sees support at $74,000 but a potential drop to $55,700-$58,200 in a broader corporate selloff scenario. BTC's recent tight correlation to AI sentiment means a Mag Seven miss this week could pull crypto down in sympathy."
     }
   ],
 
   "timeline": [
     {
-      "time": "Pre-market",
-      "headline": "Intel reported Q1 results after Thursday's close — $13.58B revenue vs $12.42B expected, with raised guidance on AI CPU demand. Stock surged 27% pre-market.",
-      "effect": "Set up a chip-led gap higher for Nasdaq and QQQ; Dow futures were mixed as the move was entirely sector-specific."
+      "time": "Weekend",
+      "headline": "Trump canceled Islamabad talks Saturday via Truth Social — 'Too much time wasted on traveling.' Goldman and Citi raised oil forecasts Sunday. Iran stated Hormuz 'will not return to its pre-war state.'",
+      "effect": "Set up a bearish open for equities Monday — Dow futures were down, oil futures gapped higher. Brent touched $108 in Asian trading, the highest in three weeks."
     },
     {
-      "time": "Morning open",
-      "headline": "Markets opened with Nasdaq +0.7%, S&P +0.3%, Dow flat. SOXX gap opened toward new all-time highs. AMD, Qualcomm, ASML, TSMC all up 3-12% in sympathy.",
-      "effect": "Tech leadership was broad within semis but didn't extend to software or industrials, widening the intra-market divergence."
+      "time": "Pre-market",
+      "headline": "Microsoft and OpenAI announced the end of their exclusive partnership before the open. Amazon CEO Jassy immediately confirmed OpenAI models coming to AWS. A seismic AI infrastructure realignment hit screens before a single trade was placed.",
+      "effect": "MSFT wobbled pre-market before stabilizing. AMZN and GOOGL futures bid higher. The AI narrative shifted from 'Microsoft wins everything' to 'everyone gets a piece.'"
+    },
+    {
+      "time": "Morning",
+      "headline": "Stocks opened mixed — S&P flat, Dow down 87 points early, Nasdaq off 0.21%. SOXX opened lower as AMD was downgraded by Northland. Oil held above $106 Brent with Hormuz traffic at ~5% of normal.",
+      "effect": "First session in three weeks where semis were a drag rather than a driver. Financials and communication services stepped in as the session's unexpected leaders."
     },
     {
       "time": "Midday",
-      "headline": "Michigan consumer sentiment final print: 49.8 (record low) with 1-year inflation expectations at 4.7%. Oil briefly spiked toward $107 Brent on residual Hormuz tension.",
-      "effect": "Markets shrugged the sentiment miss entirely. Oil's spike was short-lived as Iran diplomat travel news hit wires."
-    },
-    {
-      "time": "Afternoon",
-      "headline": "Iran FM Araghchi confirmed heading to Islamabad for peace talks. Trump told Reuters Iran 'plans to make an offer.' Brent pulled back to $104.40 from $107.",
-      "effect": "Oil relief reduced the inflation tail slightly, helping the 10Y ease to 4.31% and providing a secondary boost to tech multiples."
+      "headline": "Iran submitted a new proposal via Pakistani mediators: reopen Hormuz, end the war, defer nuclear talks. Trump's team said they would review the proposal. Omani FM reported 'good discussion' with Iran but no agreement.",
+      "effect": "Brent pulled back from $108 toward $106. Equities recovered from morning lows — S&P moved into positive territory. The Iran proposal gave bulls enough to work with."
     },
     {
       "time": "Close",
-      "headline": "S&P 500 closed at 7,165 (+0.80%) and Nasdaq at 24,837 (+1.63%) — both records. Dow fell 0.2%. SOXX extended win streak to 18 days. VIX closed ~18.92.",
-      "effect": "Session confirmed the AI earnings cycle is overriding macro headwinds — but the Dow/Nasdaq split shows how narrow the leadership base has become."
+      "headline": "S&P 500 closed at record 7,173.91 (+0.12%), Nasdaq at record 24,887.10 (+0.20%), Dow -62.92 to 49,167.79. NVDA +4%, MU +5.6%. VIX closed at 18.02, down 3.7%. SOXX 18-day streak ended.",
+      "effect": "A sixth consecutive S&P record close — but the narrowest of the streak. Leadership rotated visibly for the first time: financials and communications rather than chips. A healthy sign or the beginning of a leadership crack, depending on what hyperscalers say this week."
     },
     {
-      "time": "Next watchpoint",
-      "headline": "Islamabad talks outcome this weekend. Hyperscalers report next week — Microsoft, Meta, Amazon, Apple all due. FOMC meeting May 6-7.",
-      "effect": "Weekend Iran developments are binary for Monday open. Hyperscaler earnings will either validate or stress-test the AI capex thesis that is carrying the entire market."
+      "time": "After-hours",
+      "headline": "Mag Seven earnings season officially kicks off this week: MSFT and Alphabet report Tuesday after close, META on Wednesday, Amazon and Apple on Thursday.",
+      "effect": "Futures edged lower after close (-0.2%) as the market begins to price the event risk of the most consequential earnings week of 2026."
     }
   ],
 
   "watchpoints": [
     {
-      "date": "Apr 25-27",
-      "event": "Islamabad US-Iran talks outcome — deal or breakdown binary for oil and equities on Monday open",
+      "date": "Apr 28",
+      "event": "Microsoft Q1 earnings — AI capex guidance and Azure growth rate; first test of the post-exclusivity narrative",
       "significance": "High",
-      "tag": "Geopolitical"
+      "tag": "Earnings"
+    },
+    {
+      "date": "Apr 28",
+      "event": "Alphabet Q1 earnings — Google Cloud AI revenue and capex confirmation; direct beneficiary of OpenAI multi-cloud",
+      "significance": "High",
+      "tag": "Earnings"
+    },
+    {
+      "date": "Apr 28",
+      "event": "Bank of Japan rate decision — yen pressure and global rate differential implications",
+      "significance": "Medium",
+      "tag": "Rates"
     },
     {
       "date": "Apr 29",
-      "event": "Microsoft Q1 earnings — first hyperscaler to report, sets tone for AI capex cycle validation",
+      "event": "Federal Reserve rate decision + Powell press conference — statement language on Iran inflation; Powell's likely final meeting",
+      "significance": "High",
+      "tag": "Rates"
+    },
+    {
+      "date": "Apr 29",
+      "event": "Meta Q1 earnings — AI ad monetization and capex; key read on AI ROI for non-infra companies",
       "significance": "High",
       "tag": "Earnings"
     },
     {
       "date": "Apr 29",
-      "event": "Meta Q1 earnings — AI ad spend and capex guidance critical for semi demand chain",
-      "significance": "High",
-      "tag": "Earnings"
-    },
-    {
-      "date": "Apr 30",
-      "event": "Amazon Q1 earnings — AWS cloud capex and consumer health signal",
-      "significance": "High",
-      "tag": "Earnings"
-    },
-    {
-      "date": "Apr 30",
-      "event": "Q1 GDP advance estimate — first read on economic growth against a backdrop of record consumer gloom",
+      "event": "Q1 GDP advance estimate — first growth print under the Iran oil shock",
       "significance": "High",
       "tag": "Macro"
     },
     {
-      "date": "May 1",
-      "event": "Apple Q1 earnings + PCE inflation data — consumer health from both angles on the same day",
+      "date": "Apr 30",
+      "event": "Amazon Q1 earnings — AWS revenue and OpenAI/Bedrock integration timeline from Jassy",
       "significance": "High",
       "tag": "Earnings"
     },
     {
-      "date": "May 6-7",
-      "event": "FOMC meeting — no rate change expected but Warsh confirmation path and Iran inflation shock will shape language",
-      "significance": "High",
+      "date": "Apr 30",
+      "event": "ECB rate decision — European growth vs. energy inflation tradeoff",
+      "significance": "Medium",
       "tag": "Rates"
+    },
+    {
+      "date": "May 1",
+      "event": "Apple Q1 earnings + PCE inflation data — consumer health from both angles simultaneously",
+      "significance": "High",
+      "tag": "Earnings"
+    },
+    {
+      "date": "Any day",
+      "event": "US response to Iran's Hormuz reopening proposal — binary for oil and equities",
+      "significance": "High",
+      "tag": "Geopolitical"
     }
   ],
 
   "strategies": [
     {
-      "title": "SOXX Streak Continuation vs. RSI Reversal Watch",
-      "body": "SOXX at RSI 85 with an 18-day win streak is historically overbought but momentum is real. The trade is whether hyperscaler earnings (MSFT, META, AMZN next week) validate AI capex spending that justifies chip demand. A beat extends the streak; a miss or cautious capex guidance is the first serious threat.",
-      "trigger": "SOXX holds above $462 and hyperscaler earnings confirm AI capex is accelerating",
+      "title": "AWS / Google Cloud: OpenAI Multi-Cloud Beneficiary Play",
+      "body": "The end of Microsoft's OpenAI exclusivity is structurally positive for AWS and Google Cloud. Amazon CEO Jassy confirmed OpenAI models arriving on Bedrock imminently. If AMZN and GOOGL earnings this week confirm accelerating cloud AI revenue, the market will re-rate both as OpenAI distribution plays — a category that was previously only available through MSFT Azure.",
+      "trigger": "AMZN AWS revenue growth accelerates above 21% YoY and Jassy confirms OpenAI Bedrock launch date; GOOGL Cloud growth confirms above 28% with OpenAI partnership mentioned",
       "confidence": "Medium",
-      "score": 72
+      "score": 74
     },
     {
-      "title": "Iran Deal Binary: Oil Relief Trade",
-      "body": "A credible Islamabad framework would take $8-12 off Brent rapidly, easing inflation expectations, unlocking a bond rally, and broadening equity leadership to consumer and rate-sensitive sectors. The setup is clean but the catalyst is binary and weekend-dependent.",
-      "trigger": "Islamabad talks produce a formal ceasefire framework with Hormuz reopening timeline",
+      "title": "AI Memory Structural Re-Rating: MU and WDC on Dips",
+      "body": "Melius Research's 'memory is now infrastructure' framework is a genuine re-rating catalyst if the AI capex cycle is confirmed by hyperscalers this week. Micron and Sandisk are pricing in a recovery cycle; if the Mag Seven confirm sustained data center buildout, memory demand becomes a multi-year structural story rather than a cyclical trade.",
+      "trigger": "Hyperscaler capex guidance exceeds $20B per quarter aggregate; Micron holds above $105 post-earnings on May 28",
+      "confidence": "Medium",
+      "score": 70
+    },
+    {
+      "title": "Oil Upside Hedge: Brent toward $120 if Hormuz Stays Shut Through June",
+      "body": "Goldman, Citi, and JPMorgan are all pointing to $120+ Brent scenarios if the Hormuz closure persists. The market has partially repriced but Goldman's estimate of a 9.6M bpd Q2 deficit is not fully in current prices. Energy stocks lag crude in this cycle due to Iran-specific dynamics — the cleaner expression may be through crude futures or energy ETFs rather than equities.",
+      "trigger": "No Iran deal by May 10, Hormuz traffic stays below 10% of pre-war average, Brent breaks decisively above $110",
       "confidence": "Medium",
       "score": 68
     },
     {
-      "title": "Software Sector Recovery Watch",
-      "body": "Software is down ~30% from its highs while the Nasdaq hits records — the valuation gap versus semis is near historic extremes. A recovery requires either an earnings beat from a bellwether (Salesforce, ServiceNow, Workday) or an oil-driven rate relief that re-rates growth multiples.",
-      "trigger": "A major software name beats and raises; or 10Y falls below 4.15% on Iran relief",
-      "confidence": "Low",
-      "score": 55
-    },
-    {
-      "title": "Warsh Hawkish Regime — Short Long-Duration Assets",
-      "body": "Warsh's confirmation path is now clear. His hawkish balance-sheet stance suggests long-term yields may not fall as much as the market expects even if the Fed cuts short rates. Long-duration tech and real estate remain structurally exposed.",
-      "trigger": "Warsh Senate confirmation proceeds; 30Y holds above 4.85% despite any near-term easing",
+      "title": "Mag Seven Miss Hedge: VIX Calls Into Earnings Week",
+      "body": "VIX at 18.02 with S&P RSI near 70 and Mag Seven all priced for perfection heading into earnings is a classic setup for outsized vol if even one major name disappoints. Breadth is already narrowing — only 188 S&P stocks rose last week. A single miss on AI capex guidance could see VIX spike rapidly from 18 toward 24-26.",
+      "trigger": "Any two of MSFT, META, AMZN, AAPL, GOOGL miss revenue or capex guidance; VIX closes above 21",
       "confidence": "Medium",
       "score": 65
     },
     {
-      "title": "Consumer Sentiment vs. Spending Divergence — Eventual Snap",
-      "body": "Record-low consumer sentiment at 49.8 with 4.7% 1-year inflation expectations will eventually show up in spending data. Retail, restaurants, discretionary travel, and auto-adjacent names are the most exposed. The question is when — currently the stock market is pricing in that it never happens.",
-      "trigger": "PCE (May 1) or NFP (May 8) show consumer spending weakening below expectations",
-      "confidence": "Medium",
-      "score": 60
+      "title": "Iran Deal Breadth Explosion: IWM and Software on Ceasefire News",
+      "body": "A credible Hormuz reopening deal would collapse the oil inflation premium, ease yields, and finally give the market's left-behind sectors — IWM, software, consumer discretionary — a reason to catch up. Software is down 30% from highs while Nasdaq hits records; the spread is historically extreme and will compress violently if the macro headwind lifts.",
+      "trigger": "Formal US-Iran ceasefire framework announced; Brent drops below $95 within 48 hours",
+      "confidence": "Low",
+      "score": 58
     }
   ],
 
   "sources": [
     {
-      "name": "The Motley Fool — Stock Market Today Apr 24 2026",
-      "type": "Market News",
-      "note": "Live coverage of Intel earnings surge, AMD, SOXX 18-day streak, Nasdaq record, and Dow divergence.",
-      "url": "https://www.fool.com/investing/2026/04/24/stock-market-today-live-coverage/"
+      "name": "Yahoo Finance — Market Summary Apr 27 2026",
+      "type": "Market Data",
+      "note": "Closing prices for S&P 500 (7,173.91), Nasdaq (24,887.10), Dow (49,167.79), VIX (18.02), Gold ($4,702.80), Bitcoin ($77,133), WTI ($96.44) confirmed.",
+      "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-april-27-232226050.html"
     },
     {
-      "name": "TheStreet — Markets Today Apr 24 2026",
-      "type": "Market News",
-      "note": "S&P 500 and Nasdaq closing levels, SOXX win streak count, Intel and AMD percentage moves.",
-      "url": "https://www.thestreet.com/latest-news/stock-market-today-apr-24-2026-updates"
+      "name": "TradingEconomics — S&P 500, Brent, 10Y Treasury Apr 27",
+      "type": "Market Data",
+      "note": "Record S&P 500 close confirmed, Brent intraday high/close, 10Y at 4.32% with FOMC context.",
+      "url": "https://tradingeconomics.com/united-states/stock-market"
     },
     {
-      "name": "Schwab Market Update — Apr 24 2026",
+      "name": "CNBC — Oil prices and Iran War Apr 27",
+      "type": "Energy News",
+      "note": "Brent close at $106.68, WTI at $96.37, Iran's new Hormuz proposal via Pakistan, Goldman/Citi forecast upgrades.",
+      "url": "https://www.cnbc.com/2026/04/26/oil-price-iran-war-strait-hormuz.html"
+    },
+    {
+      "name": "Reuters / Bloomberg — Microsoft-OpenAI Exclusivity Ends",
       "type": "Market News",
-      "note": "Intel lead, chip sweep detail, VIX dispersion trade analysis, software sector context.",
+      "note": "Joint announcement details, non-exclusive license through 2032, revenue share reversal, Amazon Bedrock confirmation.",
+      "url": "https://www.investing.com/news/stock-market-news/microsoft-to-end-exclusive-license-for-openais-technology-4638956"
+    },
+    {
+      "name": "TechCrunch — OpenAI Amazon deal context",
+      "type": "Market News",
+      "note": "Legal context on OpenAI's $50B Amazon deal and how the MSFT restructuring resolved the exclusivity conflict.",
+      "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/"
+    },
+    {
+      "name": "Schwab Market Update — Apr 27 2026",
+      "type": "Research",
+      "note": "Breadth data (188 vs 406 stocks rising), S&P RSI near 70, chip RSI above 80, FOMC week context, earnings beat rate 84%.",
       "url": "https://www.schwab.com/learn/story/stock-market-update-open"
     },
     {
-      "name": "Reuters / BNN Bloomberg — Oil and Iran",
-      "type": "Energy News",
-      "note": "Brent whipsaw between $103-$107, Araghchi Islamabad travel, Trump Reuters quote on Iran proposal.",
-      "url": "https://www.bnnbloomberg.ca/markets/2026/04/24/intel-leads-wall-street-toward-a-record-following-a-blowout-profit-report-while-oil-prices-swing/"
+      "name": "CNBC — Motley Fool — Memory sector and Micron Apr 27",
+      "type": "Research",
+      "note": "Melius Research AI memory durable through 2030 call, MU +5.6% and WDC +7% reaction, structural re-rating framework.",
+      "url": "https://www.cnbc.com/2026/04/26/stock-market-today-live-updates.html"
     },
     {
-      "name": "Advisor Perspectives / dshort — Treasury Yields Snapshot Apr 24",
+      "name": "Goldman Sachs via CNN / TradingKey",
+      "type": "Research",
+      "note": "Q4 Brent raised to $90, WTI to $83, Hormuz normalization pushed to end-June, 14.5M bpd production loss estimate, 9.6M bpd Q2 deficit.",
+      "url": "https://www.cnn.com/2026/04/27/world/live-news/iran-war-trump-israel"
+    },
+    {
+      "name": "TradingEconomics — 10Y Treasury Yield Monitor",
       "type": "Rates Data",
-      "note": "10Y at 4.31%, 2Y at 3.78%, 30Y at 4.91% closing values confirmed.",
-      "url": "https://www.advisorperspectives.com/dshort/updates/2026/04/24/treasury-yields-snapshot-april-24-2026"
+      "note": "10Y at 4.32% Monday, 'higher for longer' framing confirmed ahead of FOMC, Warsh context included.",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield"
     },
     {
-      "name": "TradingEconomics — Michigan Consumer Sentiment",
-      "type": "Macro Data",
-      "note": "Final April reading 49.8 (record low), 1-year inflation expectations 4.7%, long-term 3.5%.",
-      "url": "https://tradingeconomics.com/united-states/consumer-confidence"
-    },
-    {
-      "name": "TradingEconomics — Brent and Gold",
-      "type": "Commodity News",
-      "note": "Brent closing ~$104.40, Gold at $4,723 with weekly context.",
-      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-    },
-    {
-      "name": "Investing.com — QQQ, WTI, VIX",
-      "type": "Market Data",
-      "note": "QQQ closing price $663.88, WTI $94.88, VIX ~18.76 intraday levels.",
-      "url": "https://www.investing.com/etfs/powershares-qqqq"
-    },
-    {
-      "name": "CNBC — Intel Earnings Analysis",
-      "type": "Earnings",
-      "note": "Intel Q1 beat details, Citi analyst note on AI CPU demand, 6th consecutive beat context.",
-      "url": "https://www.cnbc.com/2026/04/24/intel-soars-after-earnings-beat-two-wall-street-firms-call-the-stock-a-buy.html"
-    },
-    {
-      "name": "24/7 Wall St. — VIX Dispersion Analysis",
+      "name": "TheStreet — Markets Today Apr 27 2026",
       "type": "Market News",
-      "note": "VIX below 19 analysis, long-stock/short-vol dispersion trade, complacency risk framing.",
-      "url": "https://247wallst.com/investing/2026/04/24/the-vix-dips-below-19-heres-what-that-means-for-your-portfolio/"
+      "note": "SOXX streak end, AMD downgrade, Verizon guidance raise, intraday sector rotation details, Iran proposal market reaction.",
+      "url": "https://www.thestreet.com/latest-news/stock-market-today-apr-27-2026-updates"
     }
   ]
 }
