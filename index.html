@@ -667,16 +667,24 @@ async function render() {
             <div class="stat-label">Top Signal</div>
             <div class="stat-value val-amber" style="font-size:13px;margin-top:6px;line-height:1.4">${esc((d.topDriver||'N/A').substring(0,60)+(d.topDriver?.length>60?'…':''))}</div>
           </div>
-          <div class="stat-card">
-            <div class="stat-label">Brent Crude</div>
-            <div class="stat-value val-rose">$105.07</div>
-            <div class="stat-note">↑ 3.1% · High risk</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-label">10Y Treasury</div>
-            <div class="stat-value val-amber">4.34%</div>
-            <div class="stat-note">Bear steepening</div>
-          </div>
+          ${(()=>{
+            const brent = crossMarket.find(r=>r.market&&r.market.toLowerCase().includes('brent'));
+            const color = brent ? (Number(brent.heat)>=80?'val-rose':Number(brent.heat)>=60?'val-amber':'val-green') : 'val-rose';
+            return `<div class="stat-card">
+              <div class="stat-label">Brent Crude</div>
+              <div class="stat-value ${color}">${esc(brent?.move||'—')}</div>
+              <div class="stat-note">${esc(brent?.trend||'')} · ${esc(brent?.risk||'')}</div>
+            </div>`;
+          })()}
+          ${(()=>{
+            const t10 = crossMarket.find(r=>r.market&&r.market.includes('10Y'));
+            const color = t10 ? (Number(t10.heat)>=75?'val-rose':Number(t10.heat)>=55?'val-amber':'val-accent') : 'val-amber';
+            return `<div class="stat-card">
+              <div class="stat-label">10Y Treasury</div>
+              <div class="stat-value ${color}">${esc(t10?.move||'—')}</div>
+              <div class="stat-note">${esc(t10?.trend||'')}</div>
+            </div>`;
+          })()}
         </div>
       </div>
     </div>
