@@ -2,125 +2,185 @@
 
 A daily macro intelligence dashboard that reads the market so you don't have to stare at 12 tabs.
 
-One prompt after close → scans prices, yields, and news → drops a JSON file → full narrative read loads automatically. Yesterday it caught an oil shock and a semiconductor leadership split. Today it caught Intel's best day since 1987 running alongside an all-time record low in consumer sentiment. Same dashboard, completely different story. That's the point.
-
-![Dashboard preview](preview.png)
+One prompt after close → scans prices, yields, news, and flows → drops a JSON file → full narrative read loads automatically. Yesterday it caught Alphabet's Cloud growing 63% while Brent briefly printed $120. Same dashboard, completely different story every day. That's the point.
 
 ---
 
 ## What it does
 
-Renders a full end-of-day macro snapshot from a single JSON file:
+Renders a full end-of-day macro snapshot from a single JSON file across 12 collapsible sections:
 
-- **Narrative summary** — 4–6 sentence read on what actually happened and why it matters
-- **Macro Stress Index** — weighted composite score across key markets, with a ring gauge
-- **Top themes** — the dominant forces of the session, color-coded by type (shock, leadership, rotation, etc.)
-- **Rate curve chart** — full 8-tenor yield curve, current vs. prior, rendered with Chart.js
-- **Cross-asset table** — every market that moved, with risk badge, heat score, and driver narrative
-- **Sector heat map** — dynamic sectors based on what actually mattered today, not a fixed list
-- **Driver stack** — ranked macro forces with confidence scores and signal probability
-- **Scenario matrix** — Bear / Base / Bull with trigger conditions and explicit probabilities
-- **Narrative timeline** — how the session unfolded, pre-market through close
-- **Forward watchpoints** — dated, specific events to watch in the next 1–5 days
-- **Strategy ideas** — illustrative signal setups derived from the current dashboard state
-- **Source references** — every source used, linked
+| Section | What it shows |
+|---|---|
+| **Hero** | Narrative summary, MSI stress ring with delta, 4 dynamic stat cards |
+| **Top Themes** | Session forces color-coded by direction (Shock, Leadership, Rotation, etc.) |
+| **Rate Curve** | Full 8-tenor yield curve — current vs. prior session |
+| **Cross-Market** | Every market that moved, with click-to-expand driver rows |
+| **Capital Flows** | Where institutional money moved — inflows, outflows, size, regime read |
+| **Indicator Suite** | 4 custom composite indicators computed live from the JSON |
+| **Signal Board** | Indicator-derived signals with entry, exit, and stop conditions |
+| **Driver Stack** | Ranked macro forces with confidence scores |
+| **Sector Heat** | Dynamic tiles colored by stress intensity |
+| **Scenario Matrix** | Bear/Base/Bull with stacked probability bar |
+| **Timeline + Watchpoints** | Session narrative + dated forward-looking events |
+| **Strategy Ideas** | Illustrative setups derived from the dashboard state |
+
+Every section is **collapsible** — click the title to fold it. Cross-market rows are **expandable** — click any row to reveal the full driver narrative inline.
 
 ---
 
 ## How to run it
 
-Both files must live in the same folder. Start a local server from that folder:
+Put both files in the same folder. Start a local server:
 
 ```bash
-# Python (built in — easiest)
 python3 -m http.server 8000
 ```
 
-Then open **http://localhost:8000** in your browser.
-
-That's it. No build step, no dependencies, no backend. Pure HTML + Chart.js.
+Open **http://localhost:8000**. No build step, no dependencies, no backend.
 
 ---
 
 ## File structure
 
 ```
-├── index.html          # The dashboard — never needs editing
-├── market_data.json    # Today's snapshot — replace this each day
-├── README.md
-└── daily_refresh_prompt_v3.md   # The prompt you run each evening
+├── index.html                    # Dashboard — never needs editing
+├── market_data.json              # Today's snapshot — replace each day
+├── daily_refresh_prompt_v3.md   # The prompt you run each evening
+└── README.md
 ```
 
 ---
 
-## Updating it daily
+## Updating daily
 
-1. Open `daily_refresh_prompt_v3.md`
-2. Copy the prompt block, replace `[TODAY]` with today's date
+1. Copy the prompt block from `daily_refresh_prompt_v3.md`
+2. Replace `[TODAY]` with today's date
 3. Paste into a new Claude conversation
-4. Claude researches markets and outputs a raw JSON object
-5. Save it as `market_data.json` in this folder
-6. Refresh `http://localhost:8000`
+4. Save the JSON output as `market_data.json`
+5. Refresh `http://localhost:8000`
 
-Optional — validate before loading:
+### Quick validation
 
 ```bash
 python3 -c "
 import json, sys
 with open('market_data.json') as f:
     d = json.load(f)
-required = ['snapshotDate','narrativeSummary','macroStressIndex','rateCurve','scenarios','sectorHeat']
+required = ['snapshotDate','narrativeSummary','macroStressIndex','rateCurve',
+            'scenarios','sectorHeat','crossMarket','flows','indicators']
 missing = [k for k in required if k not in d]
 if missing: print('MISSING:', missing); sys.exit(1)
 assert len(d['rateCurve']) == 8
 assert len(d['scenarios']) == 3
 assert sum(s['probability'] for s in d['scenarios']) == 100
-print(f'✓ {d[\"snapshotDate\"]} | MSI {d[\"macroStressIndex\"]} ({d[\"macroStressLabel\"]})')
+assert len(d.get('flows',[])) >= 1
+for s in d['sectorHeat']:
+    assert s['trend'][0] in ['↑','↓','→'], f'Bad trend: {s["sector"]}'
+print(f'OK — {d["snapshotDate"]} | MSI {d["macroStressIndex"]} ({d["macroStressLabel"]})')
+print(f'  flows: {len(d["flows"])} | markets: {len(d["crossMarket"])} | sources: {len(d["sources"])}')
 "
 ```
 
 ---
 
-## What makes it dynamic
+## The 4 custom indicators
 
-Most dashboards have a fixed structure — same markets, same sectors, same number of rows every day. This one doesn't. The prompt instructs Claude to populate sections based on what actually happened:
+Scores are computed live in the browser from raw `indicators` inputs in the JSON. Claude supplies 15 data points; the dashboard runs the weighted formulas. If an input is missing, the dashboard falls back to estimates from existing heat scores (labeled "est." in the UI).
 
-- A quiet session might have 2 themes and 8 cross-market rows
-- A multi-shock session expands to 6 themes, 14+ rows, a detailed timeline
-- Sectors are chosen by relevance — on an earnings week "Mega-cap AI" and "Software / Cloud" appear instead of generic sector names
-- New markets get added to the cross-market table when they're relevant (a specific currency, credit spread, or single stock that moved the tape)
+### OGPI — Oil Geopolitical Pressure Index
+How much of today's oil price is geopolitical premium vs. fundamental supply.
 
-The only fixed elements are the ones the dashboard's rendering logic structurally requires:
+```
+OGPI = (BrentWTI_spread × 0.30) + (Hormuz_closure × 0.35) + (Tanker_premium × 0.20) + (Backwardation × 0.15)
+```
+≥75 Active (long energy) · 60–74 Watch · <60 Off
 
-| Fixed | Why |
-|---|---|
-| `rateCurve` — 8 tenors in order | Chart.js needs consistent tenor sequence |
-| `scenarios` — Bear / Base / Bull | CSS color classes are keyed to these labels |
-| Top-level header strings | Accessed directly by name in the JS |
+### AICS — AI Capex Conviction Score
+Whether AI capex is generating real returns. The revenue-to-capex ratio is the key: above 1.0 = returns beating spend.
 
-Everything else — markets, sectors, array lengths — follows the day.
+```
+AICS = (Cloud_growth × 0.35) + (Semi_demand × 0.25) + (Earnings_revisions × 0.20) + (Rev÷Capex × 0.20)
+```
+≥70 Active (long cloud) · 55–69 Watch · <40 Fire (short AI infra)
+
+### SPI — Stagflation Pressure Index
+The macro regime indicator. Above 65, long equity AND long bond strategies both fail simultaneously.
+
+```
+SPI = (Energy_inflation × 0.35) + (Growth_decel × 0.25) + (Real_wage_compression × 0.25) + (Credit_tightening × 0.15)
+```
+≥65 Stagflation · 50–64 Transitional · 35–49 Growth · <35 Deflation
+
+### MBDS — Market Breadth Divergence Signal
+Flags when index price action and breadth diverge — the earliest warning for index tops.
+
+```
+MBDS = (Adv/Dec × 0.30) + (New_Hi/Lo × 0.25) + (Cap_vs_EW_gap × 0.25) + (Pct_above_50d × 0.20)
+```
+>55 Fire (active divergence, hedge) · 42–55 Watch · <42 Off
+
+---
+
+## Capital Flows section
+
+Each daily JSON includes flows by asset class:
+
+```json
+{
+  "asset":        "Energy ETFs (XLE, USO)",
+  "direction":    "Inflow",
+  "size":         "+$2.8B",
+  "note":         "Extended blockade signal driving institutional energy positioning.",
+  "significance": "High"
+}
+```
+
+Plus a `flowsRead` field — a synthesized paragraph connecting the day's flows to the indicator suite (e.g. confirming the SPI stagflation read or the OGPI signal).
+
+The copy button includes flows in the clipboard output.
+
+---
+
+## JSON: fixed vs. dynamic
+
+**Fixed** (dashboard breaks without these):
+- `snapshotDate`, `marketPulse`, `topDriver`, `narrativeSummary`
+- `macroStressIndex`, `macroStressLabel`, `macroStressSubtext`, `macroStressIndexPrior`
+- `rateCurve` — exactly 8 tenors in this order: 1M, 3M, 6M, 1Y, 2Y, 5Y, 10Y, 30Y
+- `scenarios` — exactly Bear/Base/Bull, probabilities summing to 100
+
+**Dynamic** (follow the day, any length ≥ 1):
+`topThemes`, `crossMarket`, `flows`, `sectorHeat`, `drivers`, `risks`, `timeline`, `watchpoints`, `strategies`, `sources`
+
+**Optional but recommended**:
+`indicators` — 15 raw data points that power the 4 composite indicator scores.
 
 ---
 
 ## Tech
 
-- **HTML / CSS / JS** — single file, no framework
-- **Chart.js 4.4** — yield curve chart, loaded from CDN
-- **Google Fonts** — Syne (display), DM Mono (data), Inter (body)
-- **JSON** — all data, separate file, fetched at runtime via `fetch()`
-
-No npm. No webpack. No React. Open `index.html` with a local server and it works.
+- HTML + CSS + JS — single file, no framework
+- Chart.js 4.4 — yield curve chart (CDN)
+- Google Fonts — Syne + DM Mono + Inter
+- JSON — separate file, fetched at runtime
 
 ---
 
-## Customizing the JSON
+## Day-type guide
 
-The dashboard renders whatever the JSON contains — no hardcoded market names or sector lists. To add a new market to the cross-market table, just add an object to the `crossMarket` array. To change the sectors shown, change the `sectorHeat` array. The dashboard adapts.
+**Quiet session** — 2–3 themes, 8 crossMarket rows, 5–6 flows. Short and honest.
 
-The schema with all field descriptions and allowed values is documented in `daily_refresh_prompt_v3.md`.
+**Shock day** (oil spike, geopolitical) — Energy flows prominent, OGPI auto-elevates, 12–15 crossMarket rows, heavy flow commentary.
+
+**FOMC day** — Short-duration inflows, long-duration outflows in flows section. Rate path watchpoints. Powell language in drivers.
+
+**Earnings-driven** — Replace generic `sectorHeat` sector names with specific ones (e.g. "Mega-cap AI"). Add individual stocks to `crossMarket`. AICS reflects the earnings read.
+
+**Stagflation confirmed** (SPI > 65) — Energy and TIPS inflows, TLT outflows. `flowsRead` should confirm the regime directly.
 
 ---
 
 ## License
 
-Partly by Muxing. Partly by MIT.
+Partly by Muxing. Partly by MIT
