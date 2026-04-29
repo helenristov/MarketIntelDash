@@ -1,0 +1,531 @@
+{
+  "snapshotDate": "2026-04-28",
+  "lastUpdated": "Apr 28, 2026",
+  "disclaimer": "Manual end-of-day snapshot compiled from public sources for informational purposes only — not validated for trading or investment decisions.",
+
+  "marketPulse": "Three Simultaneous Shocks: OpenAI Revenue Miss, Brent Hits $111, UAE Quits OPEC",
+  "marketPulseSubtext": "The S&P 500 fell 0.49% to 7,138.80 and the Nasdaq shed 0.9% to 24,663.80 as a WSJ report revealing OpenAI missed its own revenue and user targets sent Nvidia -3.3%, AMD -5.5%, ARM -7.4%, and Oracle -5.2% sharply lower. Simultaneously, Brent crude settled at $111.26 — the highest since the Iran war began — after Trump rejected Iran's Hormuz proposal, and the UAE stunned markets by announcing it would quit OPEC effective May 1. The lone bright spots: Coca-Cola surged +6.3% on a blockbuster earnings beat and GM jumped +4.2% on a 41% EPS beat, confirming the real economy is not breaking.",
+  "topDriver": "OpenAI revenue miss + Trump rejects Iran deal + UAE exits OPEC — three regime-changing shocks in a single session",
+  "narrativeSummary": "April 28 was one of the most news-dense sessions of 2026. The Wall Street Journal reported OpenAI missed its own monthly revenue targets earlier this year, losing ground to Anthropic in coding and enterprise markets, with CFO Sarah Friar warning leadership the company may struggle to fund its massive data-center commitments — a $300B Oracle deal prominently among them. The market hit the sell button on everything AI-adjacent: Nvidia -3.3%, AMD -5.5%, ARM -7.4%, Oracle -5.2%, CoreWeave -6%. Meanwhile oil entered a new phase: Trump flatly rejected Iran's Hormuz reopening proposal — calling Tehran's government 'seriously fractured' — sending Brent to $111.26 and WTI above $99.93, both multi-week highs. Then mid-session the UAE delivered its own bombshell: after 57 years, it is leaving OPEC effective May 1, freeing itself from Saudi-imposed quotas and further fracturing the cartel's cohesion. The 10Y Treasury hit a one-month high of 4.35%. The only relief came from the real economy: Coca-Cola delivered a comprehensive beat on organic growth (+10%), and GM crushed estimates by 41% on a Supreme Court tariff windfall. Conference Board consumer confidence rose to 92.8, the highest of 2026. The session sets up Wednesday as potentially the most consequential single day in 2026 market history: Alphabet, Amazon, Meta, and Microsoft all report after the close while the Fed delivers its decision.",
+
+  "macroStressIndex": 84,
+  "macroStressLabel": "High",
+  "macroStressSubtext": "Oil at post-war highs, AI revenue crack, OPEC fracturing, 10Y at 1-month high — regime stress",
+
+  "rateCurve": [
+    { "tenor": "1M",  "current": 5.23, "prior": 5.24 },
+    { "tenor": "3M",  "current": 5.17, "prior": 5.18 },
+    { "tenor": "6M",  "current": 4.97, "prior": 4.98 },
+    { "tenor": "1Y",  "current": 4.66, "prior": 4.65 },
+    { "tenor": "2Y",  "current": 3.83, "prior": 3.80 },
+    { "tenor": "5Y",  "current": 4.02, "prior": 4.02 },
+    { "tenor": "10Y", "current": 4.35, "prior": 4.32 },
+    { "tenor": "30Y", "current": 4.97, "prior": 4.93 }
+  ],
+  "rateCurveRead": "The 10Y hit a one-month high of 4.35% on April 28 as Trump's rejection of Iran's Hormuz proposal killed near-term peace hopes and Brent surging to $111 rekindled inflation fears heading into the Fed meeting. The 2Y rose to 3.83% and the 30Y touched 4.97%, reflecting a broad repricing of the 'higher for longer' scenario. The curve shape remains a bear steepener: oil inflation keeping the long end elevated while Fed-on-hold pricing anchors the short end. The BoJ kept rates at 0.75% Tuesday but sharply raised its core inflation outlook to 2.8% — adding a global dimension to the tightening narrative.",
+
+  "scenarios": [
+    {
+      "label": "Bear",
+      "title": "Mag Seven Disappoint, Oil Breaks $120",
+      "probability": 28,
+      "trigger": "One or more of MSFT/META/AMZN/GOOGL misses AI capex guidance tonight; Brent breaks above $120 on extended Iran stalemate; VIX closes above 22",
+      "outcome": "The AI capex thesis cracks at the same time oil inflation is compressing margins. A dual shock — AI revenue doubt plus energy cost surge — would drive a broad de-rating of growth stocks. VIX spikes to 25-28, semis extend their decline, and the S&P breaks below 7,000. Fed's hands are tied: can't cut into $120 oil.",
+      "watchpoints": ["MSFT/META AI monetization language tonight", "Brent breaks $120", "VIX closes above 22"]
+    },
+    {
+      "label": "Base",
+      "title": "Hyperscalers Validate AI Capex, Oil Stays Volatile",
+      "probability": 50,
+      "trigger": "MSFT, META, AMZN, GOOGL all beat and confirm AI capex acceleration; Fed holds and stays neutral; Brent stays $105-115; OpenAI story treated as idiosyncratic",
+      "outcome": "Wednesday's hyperscaler reports override the OpenAI miss — mega-cap AI reasserts leadership, semis stabilize, and the market treats OpenAI's struggles as a private-company problem, not a sector read. Oil stays elevated but contained. Records extend on thin breadth. VIX retreats toward 17-18.",
+      "watchpoints": ["Alphabet Cloud revenue above $13B", "MSFT Azure growth holds above 33%", "META AI ad revenue accelerating"]
+    },
+    {
+      "label": "Bull",
+      "title": "Hyperscaler Sweep + Iran Surprise",
+      "probability": 22,
+      "trigger": "All four hyperscalers beat and raise on AI revenue; surprise Iran-US communication restarts talks; Brent drops toward $100; Fed statement surprisingly dovish",
+      "outcome": "The OpenAI miss is completely overshadowed by hyperscaler confirmation that AI is monetizing at scale. An Iran negotiation signal collapses the oil premium. Breadth broadens explosively — IWM, software, and consumer all participate. S&P pushes toward 7,400 by end of week.",
+      "watchpoints": ["Iran-US back-channel communication", "Brent drops below $103", "All four hyperscalers raise guidance"]
+    }
+  ],
+
+  "topThemes": [
+    {
+      "theme": "OpenAI missed its own revenue and user targets — CFO warned compute contracts may become unaffordable if growth doesn't accelerate",
+      "impact": "NVDA, AMD, ARM, ORCL, CRWV, AI infrastructure broadly, chip valuations, enterprise AI spending thesis",
+      "strength": 96,
+      "direction": "Risk-Off"
+    },
+    {
+      "theme": "Trump rejects Iran's Hormuz proposal — calls Tehran 'seriously fractured', war enters new escalation phase, Brent hits $111.26",
+      "impact": "Brent, WTI, energy stocks, global inflation, consumer spending, 10Y Treasury, Fed path",
+      "strength": 95,
+      "direction": "Shock"
+    },
+    {
+      "theme": "UAE quits OPEC after 57 years — effective May 1, stripping cartel of ~4M bpd capacity and fracturing Saudi-led coordination",
+      "impact": "OPEC cohesion, long-term oil supply architecture, Saudi Arabia, energy geopolitics, petrodollar system",
+      "strength": 91,
+      "direction": "Shock"
+    },
+    {
+      "theme": "Real economy resilient — Coca-Cola +6.3%, GM +4.2%, Conference Board confidence at 2026 high of 92.8",
+      "impact": "Consumer staples, autos, retail, divergence between Main Street and AI-driven Wall Street narrative",
+      "strength": 75,
+      "direction": "Earnings"
+    },
+    {
+      "theme": "Wednesday is most binary day of 2026: MSFT, META, AMZN, GOOGL all report + Fed decision + BoJ aftermath",
+      "impact": "Entire market — AI capex thesis resolution, rate path, tech multiple re-rating",
+      "strength": 93,
+      "direction": "Vol Watch"
+    }
+  ],
+
+  "crossMarket": [
+    {
+      "market": "S&P 500 (SPY proxy)",
+      "risk": "Elevated",
+      "driver": "S&P fell 0.49% to 7,138.80, pulled back from Monday's record close by the triple shock of OpenAI revenue miss, oil surge, and UAE-OPEC exit. 54.1% of US market issues fell on the day — breadth deteriorating sharply.",
+      "move": "7,138.80",
+      "trend": "↓ pullback from record",
+      "heat": 72,
+      "source": "CNBC / TheStreet"
+    },
+    {
+      "market": "Nasdaq 100 (QQQ proxy)",
+      "risk": "Elevated",
+      "driver": "Nasdaq fell 0.9% to 24,663.80 as AI-linked names were hit hard across the board. Nvidia -3.3%, AMD -5.5%, ARM -7.4%, Oracle -5.2%, CoreWeave -6%. The OpenAI revenue miss reopened the AI capex-vs-revenue debate that has haunted the market all year.",
+      "move": "24,663.80",
+      "trend": "↓ AI selloff",
+      "heat": 79,
+      "source": "CNBC / Yahoo Finance"
+    },
+    {
+      "market": "Dow Jones (DIA proxy)",
+      "risk": "Watch",
+      "driver": "Dow shed just 25.86 points (-0.05%) to 49,141.93, cushioned by Coca-Cola's +6.3% surge after its blockbuster Q1 beat and GM's +4.2% gain on a 41% EPS beat. The Dow's relative resilience underscores the split between real-economy defensives and AI-growth names.",
+      "move": "49,141.93",
+      "trend": "→ near flat",
+      "heat": 55,
+      "source": "CNBC / TheStreet"
+    },
+    {
+      "market": "Russell 2000 (IWM proxy)",
+      "risk": "Elevated",
+      "driver": "Russell 2000 fell 1.26% — the worst performer among major indices — as steep declines in small-cap tech compounded the broader AI selloff. Only 943 of the index's holdings advanced vs 965 declining. The index has surged 11% YTD and 10%+ in April alone, making it vulnerable to profit-taking.",
+      "move": "~2,753",
+      "trend": "↓ underperforming",
+      "heat": 74,
+      "source": "TheStreet / CNBC"
+    },
+    {
+      "market": "Brent Crude",
+      "risk": "High",
+      "driver": "Brent settled at $111.26, up nearly 3% — the highest settlement since the Iran war began. Trump told advisors he is not satisfied with Iran's proposal as Tehran wants to defer nuclear talks. The UAE's OPEC exit trimmed gains briefly but didn't change the supply deficit math.",
+      "move": "$111.26",
+      "trend": "↑ post-war high",
+      "heat": 97,
+      "source": "CNBC / TradingEconomics"
+    },
+    {
+      "market": "WTI Crude",
+      "risk": "High",
+      "driver": "WTI jumped more than 3% to close at $99.93 — crossing $100/barrel during the session for the first time this conflict. Seventh consecutive session of gains. J.P. Morgan now formally warns of $120-$130 if Hormuz closure extends past mid-May.",
+      "move": "$99.93",
+      "trend": "↑ breaks $100",
+      "heat": 95,
+      "source": "CNBC / TradingEconomics"
+    },
+    {
+      "market": "10Y Treasury",
+      "risk": "Elevated",
+      "driver": "10Y hit a one-month high of 4.35% as the Iran deal collapse killed any near-term inflation relief narrative and Brent surging past $111 reinforced 'higher for longer.' Fed meeting begins Tuesday — no rate change expected but statement language on oil-driven inflation closely watched.",
+      "move": "4.35%",
+      "trend": "↑ 1-month high",
+      "heat": 78,
+      "source": "TradingEconomics / Investing.com"
+    },
+    {
+      "market": "2Y Treasury",
+      "risk": "Watch",
+      "driver": "2Y rose to 3.83%, up 3bps — the front end is being pulled higher by oil inflation fears even though the Fed is universally expected to hold. BoJ's upward revision of core inflation to 2.8% added a global dimension to the tightening narrative.",
+      "move": "3.83%",
+      "trend": "↑ slightly higher",
+      "heat": 65,
+      "source": "TradingEconomics"
+    },
+    {
+      "market": "Gold",
+      "risk": "Watch",
+      "driver": "Gold fell 2.18% to $4,591.50 — a significant pullback from its recent highs. The move reflects dollar strength (+0.25% DXY) and rising real yields compressing the non-yielding asset's appeal, even as geopolitical stress remains elevated. Pre-Fed positioning likely contributing.",
+      "move": "$4,591.50",
+      "trend": "↓ risk-off selling",
+      "heat": 68,
+      "source": "TheStreet / Yahoo Finance"
+    },
+    {
+      "market": "Silver",
+      "risk": "Watch",
+      "driver": "Silver dropped 3.5% to $72.96 — a sharper decline than gold, suggesting industrial demand concerns are outweighing the haven bid as AI capex uncertainty clouds the semiconductor and solar supply chain outlook.",
+      "move": "$72.96",
+      "trend": "↓ sharp pullback",
+      "heat": 71,
+      "source": "TheStreet"
+    },
+    {
+      "market": "VIX",
+      "risk": "Elevated",
+      "driver": "VIX closed at 19.06, up sharply from Monday's 18.02, and approaching the psychologically important 20 threshold that signals active hedging. The options market is explicitly pricing the binary risk of tonight's four Mag-7 earnings reports as a potential volatility catalyst.",
+      "move": "19.06",
+      "trend": "↑ approaching danger zone",
+      "heat": 76,
+      "source": "CapitalStreetFX / Yahoo Finance"
+    },
+    {
+      "market": "Bitcoin",
+      "risk": "Watch",
+      "driver": "Bitcoin fell 1.38% to ~$76,312, tracking the broader risk-off move in AI and tech. Continues to behave as a high-beta tech sentiment proxy rather than a haven — declining alongside Nvidia rather than alongside gold.",
+      "move": "$76,312",
+      "trend": "↓ tracking tech risk-off",
+      "heat": 60,
+      "source": "Yahoo Finance"
+    },
+    {
+      "market": "Coca-Cola (KO)",
+      "risk": "Watch",
+      "driver": "KO surged +6.3% — the Dow's biggest winner — after new CEO Henrique Braun delivered Q1 EPS of $0.86 vs $0.81 estimate on 10% organic revenue growth. Volume up 3% globally including US, China, and India. Full-year EPS guidance raised to 8-9% growth. A clean signal that the consumer-facing real economy is not breaking.",
+      "move": "+6.3%",
+      "trend": "↑ earnings breakout",
+      "heat": 82,
+      "source": "CNBC / Yahoo Finance"
+    }
+  ],
+
+  "sectorHeat": [
+    {
+      "sector": "Energy",
+      "heat": 97,
+      "trend": "↑ re-escalating",
+      "driver": "Brent $111, WTI $100, UAE quits OPEC"
+    },
+    {
+      "sector": "AI Infrastructure",
+      "heat": 92,
+      "trend": "↓ revenue crack",
+      "driver": "OpenAI miss, NVDA -3.3%, ARM -7.4%"
+    },
+    {
+      "sector": "Consumer Staples",
+      "heat": 82,
+      "trend": "↑ defensive bid",
+      "driver": "KO +6.3%, confidence 92.8"
+    },
+    {
+      "sector": "Semiconductors (broad)",
+      "heat": 85,
+      "trend": "↓ second session down",
+      "driver": "AMD -5.5%, AI demand doubt"
+    },
+    {
+      "sector": "Autos / Industrials",
+      "heat": 74,
+      "trend": "↑ earnings beat",
+      "driver": "GM +4.2%, Nucor +3.8%"
+    },
+    {
+      "sector": "Rates / Fixed Income",
+      "heat": 78,
+      "trend": "↑ bear steepen",
+      "driver": "10Y 4.35%, 30Y 4.97%"
+    },
+    {
+      "sector": "Cloud / Software",
+      "heat": 80,
+      "trend": "↓ dual pressure",
+      "driver": "ORCL -5.2%, OpenAI doubt"
+    },
+    {
+      "sector": "Financials",
+      "heat": 58,
+      "trend": "→ mixed",
+      "driver": "LendingClub +14% vs rate risk"
+    },
+    {
+      "sector": "Real Estate",
+      "heat": 45,
+      "trend": "↓ rate headwind",
+      "driver": "10Y at 4.35% ceiling"
+    }
+  ],
+
+  "drivers": [
+    {
+      "name": "OpenAI revenue miss — CFO warned compute contracts may be unaffordable; ChatGPT web share fell from 86.7% to 64.5%",
+      "score": 96,
+      "detail": "The WSJ reported OpenAI missed multiple monthly revenue targets earlier in 2026 after losing ground to Anthropic in coding and enterprise markets. ChatGPT's share of generative AI web traffic fell from 86.7% a year ago to 64.5% in January, while Google's Gemini climbed to 21.5%. CFO Sarah Friar reportedly warned that if revenue doesn't accelerate, the company may struggle to pay for computing contracts including a reported $300B five-year deal with Oracle. OpenAI called the report 'clickbait' but the market did not accept the rebuttal.",
+      "linked": "NVDA, AMD, ARM, ORCL, CRWV, MSFT, AI infrastructure, enterprise AI spending",
+      "confidence": "High",
+      "source": "Wall Street Journal / CapitalStreetFX / Motley Fool"
+    },
+    {
+      "name": "Trump rejects Iran's Hormuz proposal — calls government 'seriously fractured', war enters new escalation phase",
+      "score": 95,
+      "detail": "Trump told advisors he is not satisfied with Iran's Hormuz reopening proposal because Tehran wants to defer nuclear discussions. Secretary of State Rubio said on Fox News that Iran's offer — reopen the strait while maintaining control — is 'not opening the straits.' White House said Trump would respond 'very soon.' Brent settled at $111.26 and WTI crossed $100 for the first time this conflict. Seventh consecutive session of gains for crude.",
+      "linked": "Brent, WTI, energy stocks, 10Y yield, global inflation, Fed path, consumer spending",
+      "confidence": "High",
+      "source": "CNBC / New York Times / CapitalStreetFX"
+    },
+    {
+      "name": "UAE quits OPEC after 57 years — effective May 1, fracturing the cartel's supply coordination mechanism",
+      "score": 91,
+      "detail": "The UAE announced it would exit OPEC and OPEC+ effective May 1, removing ~4M bpd of capacity from the cartel's control — the most significant exit since Qatar in 2019 and categorically larger in market impact. UAE Energy Minister said 'timing is right because the Strait of Hormuz is closed and the impact will be limited.' Rystad Energy warned 'a structurally weaker OPEC will find it increasingly difficult to calibrate supply and stabilize prices.' Kazakhstan may follow. Near-term physical impact is muted while Hormuz is closed but the structural implications for OPEC's post-war credibility are severe.",
+      "linked": "Brent long-term, OPEC pricing power, Saudi Arabia, energy geopolitics, petrodollar",
+      "confidence": "High",
+      "source": "Reuters / Fortune / Axios / The National / CNN"
+    },
+    {
+      "name": "Real economy resilient: KO +6.3% on 10% organic growth, GM beats by 41%, Conference Board confidence at 2026 high",
+      "score": 75,
+      "detail": "Coca-Cola under new CEO Henrique Braun delivered Q1 EPS $0.86 vs $0.81 estimate with 10% organic revenue growth and 3% volume gains globally including the US, China, and India. GM crushed Q1 estimates ($3.70 vs $2.62 adj. EPS, a 41.7% beat) lifted by a ~$500M Supreme Court tariff ruling windfall. Conference Board consumer confidence rose to 92.8 — the highest of 2026 — as job-market and pay expectations improved despite record-low Michigan sentiment. The divergence between consumer confidence and consumer sentiment is now one of the most unusual macro readings in years.",
+      "linked": "KO, GM, consumer discretionary, retail, real economy vs. asset market divergence",
+      "confidence": "High",
+      "source": "CNBC / Yahoo Finance / TheStreet"
+    },
+    {
+      "name": "BoJ holds at 0.75% but sharply raises core inflation outlook to 2.8% — global tightening narrative strengthens",
+      "score": 68,
+      "detail": "The Bank of Japan left its policy rate unchanged at 0.75% on Tuesday but cut its growth forecast for fiscal 2026 to 0.5% from 1% and raised its core inflation outlook to 2.8% from 1.9%. Governor Ueda offered no guidance on timing of future hikes. The move reinforces the global 'oil-driven stagflation' narrative: central banks everywhere are caught between slowing growth and rising energy-driven inflation. The yen weakened.",
+      "linked": "JPY, EM currencies, global bond yields, DXY, BoJ policy path",
+      "confidence": "High",
+      "source": "CNBC / TradingEconomics"
+    }
+  ],
+
+  "risks": [
+    {
+      "title": "Tonight is binary: four Mag-7 reports could validate or demolish the AI capex thesis in a single evening",
+      "level": "High",
+      "desc": "Alphabet, Amazon, Meta, and Microsoft all report after Wednesday's close. Every management team must answer the question the OpenAI revenue miss puts directly on the table: is your AI revenue growing fast enough to justify your AI capex? VIX at 19.06, approaching the 20 danger zone, reflects the options market's view of the downside scenario. A single miss on AI monetization language from any of the four could extend the selloff into territory that questions the entire AI infrastructure bull market's revenue foundation."
+    },
+    {
+      "title": "Oil at post-war highs with no deal in sight — J.P. Morgan warns $120-$130 if Hormuz closure extends past mid-May",
+      "level": "High",
+      "desc": "Brent at $111.26 and WTI crossing $100 represent a step-change in the energy shock. Trump has now explicitly rejected Iran's proposal. With no negotiation path visible and the UAE exit from OPEC accelerating the cartel's fracture, the structural supply deficit is deepening. US gas prices at $4.11/gallon and rising. The IEA has already called this the largest supply shock on record. J.P. Morgan's $120-130 scenario is now live, not tail risk."
+    },
+    {
+      "title": "OPEC fracture is a long-term energy order event — the petrodollar system is visibly under stress",
+      "level": "Elevated",
+      "desc": "The UAE's exit follows ships paying Iranian transit tolls in Bitcoin, Iran selling oil to China in yuan, and India paying in rupees. Deutsche Bank warns the conflict 'could be remembered as a key catalyst for erosion in petrodollar dominance.' Dollar's share of global FX reserves has already fallen to ~57% — a 25-year low. The UAE exit is an immediate market event but also a signal that the post-1974 energy order is fracturing faster than most models assumed."
+    },
+    {
+      "title": "AI revenue-vs-capex gap is now the central market risk — OpenAI is the canary",
+      "level": "Elevated",
+      "desc": "ChatGPT's web traffic share fell from 86.7% to 64.5% in six months. OpenAI missed multiple monthly revenue targets while committing to a $300B Oracle compute contract. The question the market is now asking of every AI infrastructure company: is your revenue growth rate sufficient to justify your capex commitment? If tonight's hyperscalers can't answer yes convincingly, this becomes a sector-level repricing event, not a single-company story."
+    },
+    {
+      "title": "VIX at 19.06, approaching 20 — dispersion trade is unwinding and convexity risk is building",
+      "level": "Elevated",
+      "desc": "VIX moved from 18.02 Monday to 19.06 Tuesday — a 5.8% daily jump. The 20 level is the threshold at which volatility-targeting and risk-parity strategies mechanically reduce equity exposure. A close above 20 would trigger systematic deleveraging on top of any fundamental selling. With four Mag-7 reports tonight and a Fed decision, VIX could move sharply in either direction — both the upside (20+) and downside (sub-17) scenarios have large second-order effects."
+    }
+  ],
+
+  "timeline": [
+    {
+      "time": "Pre-market",
+      "headline": "WSJ published its OpenAI revenue miss report before the open — CFO Friar's warnings about compute affordability, the ChatGPT traffic decline to 64.5%, and the $300B Oracle commitment were all in the story. Futures reversed from flat to negative.",
+      "effect": "Chip futures gapped lower. Nvidia, AMD, ARM all down 2-3% pre-market. Oracle down 4%. The AI narrative that had driven markets to records suddenly had a fundamental challenge."
+    },
+    {
+      "time": "Morning",
+      "headline": "UAE announced OPEC exit effective May 1. Markets opened mixed — Dow initially green on KO and GM strength, Nasdaq down 1%+. Brent briefly exceeded $113 in European trading before the US open.",
+      "effect": "Energy stocks surged while tech sold off — the largest intraday sector divergence since the Iran war began. Oil above $110 Brent renewed inflation fears and pushed 10Y yields toward 4.35%."
+    },
+    {
+      "time": "Midday",
+      "headline": "White House confirmed Trump is not satisfied with Iran's Hormuz proposal. Rubio said on Fox News Iran's offer to 'control' the reopened strait is not a genuine opening. Brent held above $111. VIX crossed 19.",
+      "effect": "The brief hope from Monday's Iran proposal evaporated completely. Oil held its gains, tech stayed under pressure, and gold paradoxically declined as real yields rose and the dollar strengthened."
+    },
+    {
+      "time": "Afternoon",
+      "headline": "Conference Board consumer confidence printed at 92.8 — the highest of 2026 — a stark counterpoint to the record-low Michigan sentiment. GM and Coca-Cola earnings kept the Dow from larger losses.",
+      "effect": "The consumer confidence beat provided no relief for tech. The session confirmed the market is trading on AI-revenue fear and oil-inflation fear, not on consumer or industrial fundamentals."
+    },
+    {
+      "time": "Close",
+      "headline": "S&P settled at 7,138.80 (-0.49%), Nasdaq at 24,663.80 (-0.9%), Dow at 49,141.93 (-0.05%). Brent $111.26, WTI $99.93, 10Y at 4.35%, VIX at 19.06. Gold $4,591.50 (-2.18%).",
+      "effect": "A decisive risk-off session with clear fault lines: AI infrastructure and oil-sensitive sectors under pressure, consumer defensives and energy producers outperforming. The stage is set for the most important post-close earnings slate in 2026."
+    },
+    {
+      "time": "After-hours",
+      "headline": "Alphabet (GOOGL), Amazon (AMZN), Meta (META), and Microsoft (MSFT) all report after the close — effectively the entire AI infrastructure ecosystem reports simultaneously. Fed decision and Powell presser Wednesday.",
+      "effect": "Futures were modestly positive after hours (+0.14% S&P futures) as investors positioned for a potential beat. The binary nature of the event means tomorrow's open could swing 1-2% in either direction depending on AI capex language from all four companies."
+    }
+  ],
+
+  "watchpoints": [
+    {
+      "date": "Apr 29",
+      "event": "Microsoft Q1 earnings — Azure growth rate and AI capex guidance: does it validate or contradict the OpenAI revenue miss narrative?",
+      "significance": "High",
+      "tag": "Earnings"
+    },
+    {
+      "date": "Apr 29",
+      "event": "Alphabet Q1 earnings — Google Cloud revenue target $13B+ and AI search monetization; direct OpenAI competitor",
+      "significance": "High",
+      "tag": "Earnings"
+    },
+    {
+      "date": "Apr 29",
+      "event": "Meta Q1 earnings — AI ad revenue and capex; key test of whether AI is monetizing at non-OpenAI companies",
+      "significance": "High",
+      "tag": "Earnings"
+    },
+    {
+      "date": "Apr 29",
+      "event": "Amazon Q1 earnings — AWS cloud growth rate and OpenAI Bedrock integration timeline from Jassy",
+      "significance": "High",
+      "tag": "Earnings"
+    },
+    {
+      "date": "Apr 29",
+      "event": "Federal Reserve rate decision + Powell press conference — Powell's likely final meeting; statement language on Iran oil inflation is key",
+      "significance": "High",
+      "tag": "Rates"
+    },
+    {
+      "date": "Apr 29",
+      "event": "Q1 GDP advance estimate — first growth print under the full weight of the Hormuz closure",
+      "significance": "High",
+      "tag": "Macro"
+    },
+    {
+      "date": "Apr 30",
+      "event": "Apple Q1 earnings — consumer hardware demand and services revenue; how is oil-shock consumer spending holding up?",
+      "significance": "High",
+      "tag": "Earnings"
+    },
+    {
+      "date": "Apr 30",
+      "event": "ECB rate decision — European growth vs energy inflation tradeoff with Brent at $111",
+      "significance": "Medium",
+      "tag": "Rates"
+    },
+    {
+      "date": "May 1",
+      "event": "UAE officially exits OPEC — watch for Saudi response and any cascading producer exits (Kazakhstan flagged)",
+      "significance": "High",
+      "tag": "Energy"
+    },
+    {
+      "date": "Any day",
+      "event": "White House response to Iran proposal — Trump said 'very soon'; binary for oil direction and risk assets",
+      "significance": "High",
+      "tag": "Geopolitical"
+    }
+  ],
+
+  "strategies": [
+    {
+      "title": "Hyperscaler Beat: AI Capex Validation Trade",
+      "body": "If MSFT, META, AMZN, and GOOGL all confirm AI revenue is accelerating and capex is well-supported by demand, tonight becomes one of the great AI-buying opportunities of the cycle. The OpenAI story is about a private company losing share to Anthropic and Google — that's good for the hyperscalers, not bad. The trade is to be positioned long AI infrastructure names into the reports with a tight stop on any capex-guidance miss.",
+      "trigger": "All four hyperscalers confirm AI capex is demand-driven; MSFT Azure growth above 33%; GOOGL Cloud above $13B revenue",
+      "confidence": "Medium",
+      "score": 70
+    },
+    {
+      "title": "Oil Breakout: Brent Toward $120 if No Deal by May 10",
+      "body": "Trump has now formally rejected Iran's proposal and the UAE has exited OPEC. J.P. Morgan's $120-130 scenario is no longer tail risk — it's the base case if talks don't resume within two weeks. The supply deficit is deepening: Goldman estimates a 9.6M bpd Q2 deficit. Energy stocks still lag crude in this cycle, but the futures curve is the cleaner expression.",
+      "trigger": "No Iran-US negotiation resumption by May 5; Brent closes above $115 on consecutive sessions",
+      "confidence": "Medium",
+      "score": 72
+    },
+    {
+      "title": "VIX Call Spread: Binary Event Protection",
+      "body": "VIX at 19.06 with four Mag-7 earnings and a Fed decision in the next 24 hours is one of the clearest event-vol setups of the year. A close above 20 triggers systematic deleveraging from risk-parity and vol-targeting strategies on top of any fundamental selling. The downside scenario — all four hyperscalers disappoint on AI monetization — is not priced at 19.",
+      "trigger": "VIX closes above 20 following any Mag-7 miss on AI revenue guidance tonight",
+      "confidence": "Medium",
+      "score": 68
+    },
+    {
+      "title": "OPEC Fracture: Long-Term Oil Floor Reset",
+      "body": "The UAE's exit removes the cartel's third-largest producer from quota discipline permanently. Post-war, when Hormuz reopens, the UAE will be free to ramp production toward its 4.85M bpd capacity — but OPEC will have lost its ability to coordinate the response. This is structurally bullish for oil prices in the $85-100 range post-conflict as the cartel's capacity to manage oversupply weakens.",
+      "trigger": "Post-Hormuz reopening: Brent stabilizes in $88-100 range with UAE producing above 3.5M bpd unconstrained",
+      "confidence": "Medium",
+      "score": 65
+    },
+    {
+      "title": "Consumer Defensive Rotation: KO, GM, Conference Board Signal",
+      "body": "Conference Board confidence at 92.8 and blowout results from KO and GM confirm the real economy consumer is not as distressed as the Michigan sentiment number suggests. If tonight's AI earnings disappoint and the market sells off, consumer staples and selective cyclicals with genuine earnings traction are the natural rotation target.",
+      "trigger": "Hyperscaler misses drive Nasdaq down 1.5%+; XLP and XLY outperform QQQ on the session",
+      "confidence": "Medium",
+      "score": 63
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "CNBC — Markets Live April 28 2026",
+      "type": "Market News",
+      "note": "S&P 500 close 7,138.80, Nasdaq 24,663.80, Dow 49,141.93, Brent $111.26, WTI $99.93, VIX 19.06, Gold $4,591.50 confirmed.",
+      "url": "https://www.cnbc.com/2026/04/27/stock-market-today-live-updates.html"
+    },
+    {
+      "name": "TheStreet — Stock Market Today April 28 2026",
+      "type": "Market News",
+      "note": "Russell 2000 -1.26%, 54.1% of issues fell, 10Y at 4.35%, Silver -3.5% to $72.96, sector detail and breadth data.",
+      "url": "https://www.thestreet.com/latest-news/stock-market-today-apr-28-2026-updates"
+    },
+    {
+      "name": "Wall Street Journal — OpenAI Revenue Miss",
+      "type": "Market News",
+      "note": "OpenAI missed internal revenue and user targets, CFO Friar warned about compute contract affordability, ChatGPT traffic share decline detail.",
+      "url": "https://www.wsj.com"
+    },
+    {
+      "name": "CapitalStreetFX — Market Close Analysis April 28",
+      "type": "Research",
+      "note": "Comprehensive close analysis: individual stock moves, VIX level, OpenAI market impact, Brent $111, Conference Board 92.8, GM and KO earnings detail.",
+      "url": "https://www.capitalstreetfx.com/market-analysis/market-close-trading-analysis-april-28-2026/"
+    },
+    {
+      "name": "Reuters / Axios / Fortune — UAE Exits OPEC",
+      "type": "Energy News",
+      "note": "UAE OPEC exit effective May 1 confirmed, Energy Minister quotes, Rystad and Columbia CGEP analyst reactions, petrodollar fracture context.",
+      "url": "https://www.axios.com/2026/04/28/uae-leaves-opec"
+    },
+    {
+      "name": "The National — UAE OPEC Exit Detail",
+      "type": "Energy News",
+      "note": "UAE 4.85M bpd capacity, 44% production slump since Hormuz closure, historical OPEC membership context, Dr. Sultan Al Jaber statement.",
+      "url": "https://www.thenationalnews.com/business/energy/2026/04/28/uae-announces-it-will-leave-opec/"
+    },
+    {
+      "name": "TradingEconomics — Brent, WTI, 10Y, 2Y",
+      "type": "Rates Data",
+      "note": "Brent settlement $111.26, WTI $99.93, 10Y at 4.35% (one-month high), 2Y at 3.83%, all April 28 confirmed.",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "name": "Yahoo Finance — Equities and VIX April 28",
+      "type": "Market Data",
+      "note": "S&P 500, Nasdaq, Dow, Bitcoin $76,312, VIX 19.06, Gold $4,591.50 closing levels.",
+      "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-tuesday-april-28-225503310.html"
+    },
+    {
+      "name": "CNBC — Oil Prices, Iran Rejection",
+      "type": "Energy News",
+      "note": "WTI closes at $99.93, Brent at $111.26, Trump rejects Iran proposal detail, Rubio Fox News quote, J.P. Morgan $120-130 scenario.",
+      "url": "https://www.cnbc.com/2026/04/28/oil-prices-us-iran-hormuz-negotiations-wti-brent-crude.html"
+    },
+    {
+      "name": "TradingEconomics / CNBC — BoJ April 28",
+      "type": "Macro Data",
+      "note": "BoJ holds at 0.75%, growth forecast cut to 0.5%, core inflation raised to 2.8%, Governor Ueda press conference notes.",
+      "url": "https://tradingeconomics.com"
+    }
+  ]
+}
