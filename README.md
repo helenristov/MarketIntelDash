@@ -2,7 +2,7 @@
 
 A daily macro intelligence dashboard that reads the market so you don't have to stare at 12 tabs.
 
-One prompt after close → scans prices, yields, news, and flows → drops a JSON file → full narrative read loads automatically. Yesterday it caught Alphabet's Cloud growing 63% while Brent briefly printed $120. Same dashboard, completely different story every day. That's the point.
+One prompt after close → scans prices, yields, news, and flows → drops a JSON file → full narrative read loads automatically. Same dashboard, completely different story every day. That's the point
 
 ---
 
