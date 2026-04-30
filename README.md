@@ -44,7 +44,7 @@ Open **http://localhost:8000**. No build step, no dependencies, no backend.
 ## File structure
 
 ```
-├── index.html                    # Dashboard — never needs editing
+├── index.html                    # Dashboard — fluid and updateable. New Liquid Glass Display
 ├── market_data.json              # Today's snapshot — replace each day
 ├── daily_refresh_prompt.md   # The prompt you run each evening
 └── README.md
@@ -54,7 +54,7 @@ Open **http://localhost:8000**. No build step, no dependencies, no backend.
 
 ## Updating daily
 
-1. Copy the prompt block from `daily_refresh_prompt_v3.md`
+1. Copy the prompt block from `daily_refresh_prompt.md`
 2. Replace `[TODAY]` with today's date
 3. Paste into a new Claude conversation
 4. Save the JSON output as `market_data.json`
