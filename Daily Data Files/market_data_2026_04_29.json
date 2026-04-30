@@ -1,0 +1,634 @@
+{
+  "snapshotDate": "2026-04-29",
+  "lastUpdated": "Apr 29, 2026",
+  "disclaimer": "Manual end-of-day snapshot compiled from public sources for informational purposes only \u2014 not validated for trading or investment decisions.",
+  "marketPulse": "Powell's Final Act: Fed Holds, Brent Hits $120, Alphabet Delivers Historic Cloud Beat in 80-Second Earnings Sprint",
+  "marketPulseSubtext": "The S&P 500 closed flat (-0.04% to 7,135.95) and the Nasdaq barely positive (+0.04% to 24,673.24) while the Dow slumped 280 points (-0.57% to 48,861.81) as oil surged to its highest since 2022. Brent settled at $118.03 and briefly hit $120.27 after Trump told aides to prepare for an extended Iran blockade. Then after the bell, four hyperscalers reported in 80 seconds: Alphabet delivered the blowout of the quarter with Google Cloud +63%, while Meta missed on users and dropped AH, Microsoft beat narrowly, and Amazon guided well above expectations. VIX closed at 18.38 as the session ended with more questions answered than raised.",
+  "topDriver": "Brent hits $118 / $120 intraday on extended blockade signal \u2014 then Alphabet's 63% Cloud beat partially offset by Meta's AH drop",
+  "narrativeSummary": "April 29 was Powell's farewell and the market's most consequential 80 seconds of the year. During the session, oil dominated: Brent surged 4.74% to settle at $118.03 \u2014 its highest settlement since June 2022 \u2014 and briefly printed $120.27 after the Wall Street Journal and Axios both reported Trump has told aides to prepare for an extended Iranian blockade. WTI surged nearly 7% to $106.88, its first close above $100 in three weeks. The Fed held rates as expected, but the statement was notable for four dissenters and explicit language acknowledging Middle East uncertainty and rising energy prices. Powell confirmed he will stay on the Fed Board after his chairmanship ends May 15, called it his 'last press conference as chair,' and said Trump's legal attacks have 'left me no choice' but to resort to the courts to defend Fed independence. After the bell, four hyperscalers reported in approximately 80 seconds. Alphabet was the undisputed star: Google Cloud grew 63% to $20B, revenue hit $109.9B vs $107B expected, and EPS came in at $5.11 against a $2.63 consensus \u2014 shares rallied 4%+ in after-hours. Microsoft beat cleanly with Azure growth strong and 20M Copilot seats. Amazon guided Q2 at $194-199B vs $188.9B expected, with capex of $44.2B confirming AI infrastructure commitment. Meta beat on revenue ($56.3B vs $55.45B) but raised capex to $125-145B from $115-135B and missed user growth \u2014 stock fell in AH trading. Net read: the AI capex thesis is alive and the OpenAI revenue scare was sector-specific, but Meta's user miss injected a new concern about social-AI monetization. Apple reports Thursday; GDP and PCE tomorrow.",
+  "macroStressIndex": 87,
+  "macroStressLabel": "High",
+  "macroStressSubtext": "Brent hits $120, extended blockade signal, 10Y jumps to 4.41% \u2014 energy shock entering critical phase",
+  "rateCurve": [
+    {
+      "tenor": "1M",
+      "current": 5.22,
+      "prior": 5.23
+    },
+    {
+      "tenor": "3M",
+      "current": 5.16,
+      "prior": 5.17
+    },
+    {
+      "tenor": "6M",
+      "current": 4.96,
+      "prior": 4.97
+    },
+    {
+      "tenor": "1Y",
+      "current": 4.68,
+      "prior": 4.66
+    },
+    {
+      "tenor": "2Y",
+      "current": 3.88,
+      "prior": 3.83
+    },
+    {
+      "tenor": "5Y",
+      "current": 4.02,
+      "prior": 4.02
+    },
+    {
+      "tenor": "10Y",
+      "current": 4.41,
+      "prior": 4.35
+    },
+    {
+      "tenor": "30Y",
+      "current": 4.97,
+      "prior": 4.97
+    }
+  ],
+  "rateCurveRead": "The 10Y jumped more than 5 basis points to 4.41% after the Fed decision as the market interpreted the four-dissenter statement and Powell's hawkish inflation language as reinforcing 'higher for longer' \u2014 with Brent at $118 making rate cuts essentially impossible in 2026. The 2Y rose to 3.88% while the 30Y held at 4.97%. Wells Fargo's Luis Alvarado said 'the bar for cutting rates has risen meaningfully' given global energy prices. The curve remains in bear-steepener territory: the front end is pinned by Fed-on-hold expectations while the long end continues to drift higher on energy-driven inflation risk. Matt Rowe of Man Group: 'The market is telling you the inflation story is likely to persist into next year, and likely that means raising rates before cutting them.'",
+  "scenarios": [
+    {
+      "label": "Bear",
+      "title": "Extended Blockade + Meta User Decay Spreads",
+      "probability": 25,
+      "trigger": "Extended Iran blockade confirmed; Brent holds above $120; Meta's user miss spreads to ad revenue concerns at GOOGL; Apple disappoints Thursday; VIX breaks 22",
+      "outcome": "Oil above $120 forces a 'stagflation' market repricing: 10Y pushes toward 4.6%, growth multiples compress, the Fed is boxed in unable to cut or hike. Meta's user miss is confirmed as a broader social-AI monetization problem. Apple's guidance is soft on consumer weakness. Dow leads the selloff as consumer and industrial stocks crack.",
+      "watchpoints": [
+        "Brent holds above $120",
+        "Apple guidance soft Thursday",
+        "VIX breaks 22"
+      ]
+    },
+    {
+      "label": "Base",
+      "title": "AI Capex Validated, Oil Stays Volatile, Apple Muddies Waters",
+      "probability": 52,
+      "trigger": "Alphabet's 63% Cloud beat sets the tone; Microsoft and Amazon confirm AI demand; Apple beats but guides cautiously; Brent stays $110-120; 10Y stabilizes at 4.40-4.45%",
+      "outcome": "Three of four hyperscalers validate the AI capex thesis \u2014 Alphabet's blowout is the dominant read and Meta's user miss is treated as company-specific. Apple's result Thursday sets the consumer tone. Oil remains elevated but markets accept it as 'priced in.' Records hold on narrow leadership. Nasdaq recovers from AH mixed signals to grind higher next week.",
+      "watchpoints": [
+        "Apple Q2 guidance Thursday",
+        "Brent stays below $123",
+        "GOOGL gap-up holds Friday open"
+      ]
+    },
+    {
+      "label": "Bull",
+      "title": "Iran Ceasefire + AI Sweep",
+      "probability": 23,
+      "trigger": "Trump signals de-escalation after extended blockade signal was a negotiating tactic; Brent falls toward $100; Apple beats and raises; Alphabet's 63% Cloud growth triggers broad AI re-rating",
+      "outcome": "The combination of oil shock relief and confirmed AI monetization triggers the broadest rally of the year. Breadth explodes \u2014 software, IWM, consumer all participate. Gold rebounds as dollar eases. S&P pushes toward 7,400 within days. The 'extended blockade' signal is reframed as negotiating leverage that worked.",
+      "watchpoints": [
+        "Iran-US negotiation signal",
+        "Brent drops below $105",
+        "Apple beats and raises Thursday"
+      ]
+    }
+  ],
+  "topThemes": [
+    {
+      "theme": "Alphabet's Google Cloud grew 63% to $20B \u2014 an absolute blowout that demolishes the OpenAI revenue miss narrative",
+      "impact": "GOOGL, AI infrastructure thesis, MSFT Azure, AWS, cloud multiples, semiconductor demand chain, NVDA",
+      "strength": 98,
+      "direction": "Leadership"
+    },
+    {
+      "theme": "Trump tells aides to prepare extended Iran blockade \u2014 Brent settles at $118.03, prints $120.27 intraday, highest since 2022",
+      "impact": "Brent, WTI, energy stocks, inflation expectations, 10Y yield, Fed path, consumer spending globally",
+      "strength": 97,
+      "direction": "Shock"
+    },
+    {
+      "theme": "Powell's farewell: Fed holds with 4 dissenters, explicitly acknowledges Middle East uncertainty \u2014 'last press conference as chair'",
+      "impact": "Fed path, 2Y and 10Y Treasury, rate-sensitive sectors, Warsh transition, dollar",
+      "strength": 88,
+      "direction": "Macro Tightening"
+    },
+    {
+      "theme": "Meta missed user growth and raised capex to $125-145B \u2014 social-AI monetization under new scrutiny",
+      "impact": "META, social media advertising, digital ad market, Alphabet YouTube comparison, AI ROI debate",
+      "strength": 79,
+      "direction": "Risk-Off"
+    },
+    {
+      "theme": "Amazon guides Q2 at $194-199B vs $188.9B expected \u2014 AWS AI demand and retail resilience confirm",
+      "impact": "AMZN, AWS, cloud infrastructure, retail margins, AI capex sustainability",
+      "strength": 76,
+      "direction": "Earnings"
+    }
+  ],
+  "crossMarket": [
+    {
+      "market": "S&P 500 (SPY proxy)",
+      "risk": "Elevated",
+      "driver": "S&P closed essentially flat at 7,135.95 (-0.04%), holding above 7,100 support despite Dow weakness and oil at $118. The Nasdaq's slim +0.04% gain to 24,673.24 reflected pre-earnings positioning in hyperscalers. After-hours, Alphabet's blowout sent futures higher.",
+      "move": "7,135.95",
+      "trend": "\u2192 flat / holding",
+      "heat": 68,
+      "source": "CNBC / TradingEconomics"
+    },
+    {
+      "market": "Nasdaq 100 (QQQ proxy)",
+      "risk": "Watch",
+      "driver": "Nasdaq edged up 0.04% to 24,673.24 \u2014 effectively flat during the session as hyperscalers traded cautiously ahead of results. After-hours, Alphabet +4% and Microsoft +1% partially offset by Meta -3%. Net AH direction: modestly positive. Nasdaq is up 14% in April, on track for best month since April 2020.",
+      "move": "24,673.24",
+      "trend": "\u2192 flat / AH positive",
+      "heat": 70,
+      "source": "CNBC / TheStreet"
+    },
+    {
+      "market": "Dow Jones (DIA proxy)",
+      "risk": "Elevated",
+      "driver": "Dow fell 280.12 points (-0.57%) to 48,861.81 \u2014 its fifth consecutive losing day \u2014 as oil above $118 hit consumer, industrial, and transportation stocks hard. Booking Holdings -4.5% after lowering guidance citing Middle East conflict impacts through end of June.",
+      "move": "48,861.81",
+      "trend": "\u2193 5th straight loss",
+      "heat": 72,
+      "source": "CNBC / CNN"
+    },
+    {
+      "market": "Russell 2000 (IWM proxy)",
+      "risk": "Elevated",
+      "driver": "Russell 2000 fell 1.15% \u2014 the worst performer on the day \u2014 with only 379 of its holdings advancing and 1,521 declining. Oil-driven inflation and rising yields are the primary constraint: small caps have the highest leverage exposure and weakest pricing power to pass through energy cost inflation.",
+      "move": "~2,721",
+      "trend": "\u2193 worst performer",
+      "heat": 78,
+      "source": "TheStreet"
+    },
+    {
+      "market": "Brent Crude",
+      "risk": "High",
+      "driver": "Brent surged 4.74% to settle at $118.03 \u2014 highest since June 2022 \u2014 and briefly hit $120.27 post-settlement after WSJ/Axios reported Trump is preparing for an extended Iranian blockade. Eighth consecutive session of gains. EIA forecasts Brent peaking at $115/b in Q2; the market has already exceeded that.",
+      "move": "$118.03",
+      "trend": "\u2191 2022 high, briefly $120",
+      "heat": 99,
+      "source": "CNN / TradingEconomics / CNBC"
+    },
+    {
+      "market": "WTI Crude",
+      "risk": "High",
+      "driver": "WTI surged nearly 7% to settle at $106.88 \u2014 its first close above $100 in three weeks and the highest level since the early days of the Iran war. Trump's extended blockade signal removed any near-term de-escalation narrative. US gas average hit $4.176/gallon, highest since August 2022.",
+      "move": "$106.88",
+      "trend": "\u2191 back above $100",
+      "heat": 97,
+      "source": "CNBC / CNN"
+    },
+    {
+      "market": "10Y Treasury",
+      "risk": "Elevated",
+      "driver": "10Y jumped more than 5bps to 4.41% after the Fed decision \u2014 a one-month high \u2014 as four dissenters, explicit Middle East language in the statement, and Brent at $118 all reinforced the 'higher for longer' view. Matt Rowe of Man Group: 'The inflation story is likely to persist into next year, and likely that means raising rates before cutting them.'",
+      "move": "4.41%",
+      "trend": "\u2191 1-month high post-Fed",
+      "heat": 82,
+      "source": "CNN / CNBC / Investing.com"
+    },
+    {
+      "market": "2Y Treasury",
+      "risk": "Elevated",
+      "driver": "2Y rose to 3.88% (+5bps) as the front end repriced slightly higher on the Fed's hawkish-leaning hold. Still anchored by the universal expectation of no rate cuts in 2026, but the extended-blockade scenario now raises the probability of rate hikes before year-end, per Wells Fargo Investment Institute.",
+      "move": "3.88%",
+      "trend": "\u2191 repricing higher",
+      "heat": 72,
+      "source": "CNN / Investing.com"
+    },
+    {
+      "market": "Alphabet (GOOGL)",
+      "risk": "Watch",
+      "driver": "Alphabet delivered the quarter's biggest earnings blowout: $109.9B revenue (+22% YoY) vs $107B expected, Google Cloud +63% to $20.03B vs $18.05B expected, EPS $5.11 vs $2.63 consensus (inflated by $36.9B unrealized equity gain). Shares rose 4%+ in AH. Search queries at all-time high with AI experiences. Cloud backlog nearly doubled QoQ to over $460B.",
+      "move": "+4% AH",
+      "trend": "\u2191 blowout beat",
+      "heat": 96,
+      "source": "CNBC / 9to5Google / 24/7 Wall St."
+    },
+    {
+      "market": "Microsoft (MSFT)",
+      "risk": "Watch",
+      "driver": "Microsoft beat on revenue ($82.89B vs $81.39B) and EPS ($4.27 vs $4.06). Azure growth exceeded consensus. 20M paid Copilot 365 commercial seats, up from 15M prior quarter. Shares slipped 1% AH \u2014 investors wanted more. Down 12% YTD but up 20%+ in April going into results.",
+      "move": "-1% AH",
+      "trend": "\u2191 beat, modest AH",
+      "heat": 74,
+      "source": "CNBC"
+    },
+    {
+      "market": "Meta (META)",
+      "risk": "Elevated",
+      "driver": "Meta beat on revenue ($56.3B vs $55.45B) but missed user growth and raised 2026 capex to $125-145B from $115-135B. The user miss, combined with the higher capex, reopened the AI-ROI question for social platforms. Shares fell in AH trading. Zuckerberg's Superintelligence Labs bet is getting more expensive without clear user monetization proof.",
+      "move": "\u2193 AH on user miss",
+      "trend": "\u2193 capex up, users miss",
+      "heat": 80,
+      "source": "CNBC"
+    },
+    {
+      "market": "Amazon (AMZN)",
+      "risk": "Watch",
+      "driver": "Amazon beat on revenue and guided Q2 at $194-199B vs $188.9B expected \u2014 a strong beat on the top line. AWS capex hit $44.2B in Q1, above the $43.6B estimate, confirming the AI infrastructure commitment. Stock reaction mixed AH as investors parsed the capex depth versus the revenue guidance beat.",
+      "move": "\u2192 mixed AH",
+      "trend": "\u2192 solid beat, strong guide",
+      "heat": 72,
+      "source": "CNBC"
+    },
+    {
+      "market": "VIX",
+      "risk": "Elevated",
+      "driver": "VIX closed at 18.38, up from 19.06 Tuesday \u2014 the Schwab note observed VIX fell 'below 18' Tuesday despite chip weakness, reflecting persistent complacency ahead of the hyperscaler results. Post-AH, Alphabet's blowout likely pushes VIX lower Thursday, but oil above $118 provides a floor.",
+      "move": "18.38",
+      "trend": "\u2192 slightly lower",
+      "heat": 70,
+      "source": "Schwab / CNN / Investing.com"
+    }
+  ],
+  "sectorHeat": [
+    {
+      "sector": "Energy",
+      "heat": 99,
+      "trend": "\u2191 critical level",
+      "driver": "Brent $118, WTI $107, $120 print"
+    },
+    {
+      "sector": "Cloud / AI Infrastructure",
+      "heat": 96,
+      "trend": "\u2191 GOOGL vindicates",
+      "driver": "Cloud +63%, backlog $460B"
+    },
+    {
+      "sector": "Rates / Fixed Income",
+      "heat": 82,
+      "trend": "\u2191 Fed-driven surge",
+      "driver": "10Y 4.41%, 4 dissenters"
+    },
+    {
+      "sector": "Social / Digital Advertising",
+      "heat": 78,
+      "trend": "\u2193 META user miss",
+      "driver": "Capex raised, users miss"
+    },
+    {
+      "sector": "Consumer / Transportation",
+      "heat": 76,
+      "trend": "\u2193 oil cost pressure",
+      "driver": "Gas $4.18, BKNG -4.5%"
+    },
+    {
+      "sector": "Small Caps",
+      "heat": 78,
+      "trend": "\u2193 worst performer",
+      "driver": "IWM -1.15%, 5th loss day"
+    },
+    {
+      "sector": "Industrials",
+      "heat": 68,
+      "trend": "\u2193 input cost squeeze",
+      "driver": "Dow -280, oil shock"
+    },
+    {
+      "sector": "Financials",
+      "heat": 60,
+      "trend": "\u2192 mixed",
+      "driver": "Visa +6% vs rate risk"
+    },
+    {
+      "sector": "Real Estate",
+      "heat": 48,
+      "trend": "\u2193 rate ceiling",
+      "driver": "10Y 4.41%, permits down"
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Alphabet's Google Cloud +63% to $20B \u2014 the most important single earnings number of Q1 2026",
+      "score": 98,
+      "detail": "Alphabet reported Q1 revenue of $109.9B (+22% YoY) vs $107B expected. Google Cloud grew 63% to $20.03B, demolishing the 48% rate from Q4 and well ahead of the ~50% consensus. Cloud backlog nearly doubled quarter-on-quarter to over $460B. Search queries hit an all-time high with AI experiences driving usage and 19% revenue growth. EPS came in at $5.11 vs $2.63 consensus, though a $36.9B unrealized equity gain inflated the headline bottom line. Shares rose 4%+ in AH trading.",
+      "linked": "GOOGL, AI infrastructure thesis, MSFT Azure, AWS, NVDA demand chain, cloud capex cycle",
+      "confidence": "High",
+      "source": "CNBC / 9to5Google / 24/7 Wall St."
+    },
+    {
+      "name": "Trump tells aides to prepare for extended Iran blockade \u2014 Brent hits $118 settlement and $120.27 intraday",
+      "score": 97,
+      "detail": "The Wall Street Journal reported Trump told aides to prepare for an extended blockade of Iranian ports. Axios confirmed Trump rejected Iran's Hormuz reopening proposal. Brent settled at $118.03 \u2014 its highest since June 2022 \u2014 and briefly hit $120.27 after settlement. WTI surged nearly 7% to $106.88. US average gas prices hit $4.176/gallon, highest since August 2022. The EIA had forecast Brent peaking at $115/b in Q2; the market has already exceeded that by a meaningful margin.",
+      "linked": "Brent, WTI, energy stocks, inflation expectations, 10Y yield, consumer spending, airline and transportation margins",
+      "confidence": "High",
+      "source": "CNN / CNBC / WSJ / Axios"
+    },
+    {
+      "name": "Fed holds, 4 dissenters, Powell's final presser \u2014 explicit Iran/energy uncertainty language in statement",
+      "score": 88,
+      "detail": "The Fed held the federal funds rate unchanged as universally expected. The statement acknowledged 'developments in the Middle East are contributing to a high level of uncertainty about the economic outlook.' Four governors dissented \u2014 three wanted to remove language hinting at future easing, one (Miran) wanted a 25bp cut. Powell confirmed he will stay on the Fed Board after May 15 despite Trump's legal pressure. Kevin Warsh cleared the Senate Banking Committee 13-11 on party lines earlier in the day. Analysts at Natixis warned Warsh will be 'the least influential Fed chair in a long time' given the committee's anti-cut consensus.",
+      "linked": "Fed funds rate, 2Y Treasury, 10Y Treasury, Warsh transition, rate-sensitive sectors, USD",
+      "confidence": "High",
+      "source": "CNBC / US News / CNN / Kiplinger"
+    },
+    {
+      "name": "Meta revenue beat but user miss and capex raised to $125-145B \u2014 social AI monetization under pressure",
+      "score": 79,
+      "detail": "Meta posted Q1 revenue of $56.3B vs $55.45B expected \u2014 a beat \u2014 but missed on user growth figures and raised 2026 capex guidance to $125-145B from $115-135B, the steepest proportional step-up among the four hyperscalers. The user miss, combined with higher AI spending, reopened questions about whether social platforms can monetize AI investments as directly as cloud infrastructure players. Meta stock fell in AH trading.",
+      "linked": "META, digital advertising, AI ROI for social platforms, GOOGL YouTube comparison, Scale AI investment",
+      "confidence": "High",
+      "source": "CNBC"
+    },
+    {
+      "name": "Amazon Q2 guided $194-199B vs $188.9B \u2014 AWS demand and retail resilience confirmed",
+      "score": 76,
+      "detail": "Amazon reported Q1 results with Q2 guidance of $194-199B \u2014 a strong beat vs the $188.9B consensus. AWS capex reached $44.2B in Q1, slightly above the $43.6B estimate, confirming continued AI infrastructure commitment. Andy Jassy confirmed OpenAI models coming to AWS Bedrock imminently. The revenue guidance beat is significant given the oil-shock consumer backdrop.",
+      "linked": "AMZN, AWS, cloud infrastructure, AI model distribution, retail margins, consumer spending",
+      "confidence": "High",
+      "source": "CNBC"
+    }
+  ],
+  "risks": [
+    {
+      "title": "Brent at $118 and briefly $120 \u2014 the EIA's Q2 'peak' forecast is already breached",
+      "level": "High",
+      "desc": "The EIA's April STEO forecast called for Brent peaking at $115/b in Q2. Brent settled at $118.03 on April 29 and briefly exceeded $120. With Trump signaling an extended blockade, the upside scenario \u2014 J.P. Morgan's $120-130 range \u2014 is no longer tail risk. At these levels, diesel is above $5.80/gallon and gasoline is heading toward $4.30. Every 10 cent increase in gasoline costs US consumers approximately $13 billion annually in aggregate spending power."
+    },
+    {
+      "title": "Meta's user miss is a new AI monetization fault line \u2014 distinct from infrastructure validation",
+      "level": "Elevated",
+      "desc": "Alphabet, Microsoft, and Amazon all validated AI capex through cloud revenue growth. Meta's miss is categorically different: it's a social platform that invested $14.3B in Scale AI and is raising capex to $125-145B, but its user growth is decelerating. This creates a two-tier AI narrative: infrastructure companies (GOOGL, MSFT, AMZN) are monetizing; distribution/application companies (META, and potentially others) are not yet. If this spreads to Apple's AI features Thursday, the narrative fractures further."
+    },
+    {
+      "title": "10Y at 4.41% post-Fed \u2014 Wells Fargo: rate hikes before cuts are possible",
+      "level": "Elevated",
+      "desc": "The 10Y rising to 4.41% after a Fed hold is a hawkish signal. Wells Fargo Investment Institute's Luis Alvarado said the bar for cutting rates 'has risen meaningfully' and that the inflation story with oil at $118 'is likely to persist into next year, and likely that means raising rates before cutting them.' Man Group's Matt Rowe echoed this. A 10Y sustained above 4.40% with oil above $110 is a structural headwind to tech multiples, housing, and consumer credit."
+    },
+    {
+      "title": "Warsh transition creates Fed policy uncertainty \u2014 'least influential chair' risk",
+      "level": "Elevated",
+      "desc": "Warsh cleared Senate Banking 13-11 and heads to a full Senate vote. Natixis chief economist Christopher Hodge warns Warsh will be 'the least influential Fed chair in a long time' and will face extreme difficulty building consensus for rate cuts with the existing committee. Powell's departing comment that Trump's legal attacks 'left me no choice' but to defend Fed independence in court signals the institutional tension is real and ongoing."
+    },
+    {
+      "title": "Dow's fifth straight losing day \u2014 consumer and industrial breadth deteriorating under oil pressure",
+      "level": "Medium",
+      "desc": "The Dow has fallen for five consecutive sessions \u2014 a streak not seen since January. Booking Holdings cut guidance citing Middle East impacts through June. Illinois Tool Works, UPS, and multiple industrials are guiding cautiously. The consumer economy is holding (Visa +6%, Starbucks +5%) but the industrial and travel sectors are signaling direct oil-shock margin damage. If this spreads to May's guidance season, the breadth picture collapses further."
+    }
+  ],
+  "timeline": [
+    {
+      "time": "Pre-market",
+      "headline": "Kevin Warsh cleared Senate Banking Committee 13-11 on party lines. Futures flat. Oil already above $115 Brent in European hours. Visa +6% pre-market after beating on 17% revenue growth and reporting 'resilient' consumer spending.",
+      "effect": "Set a mixed tone \u2014 financial sector positive on Visa, rate path hawkish on Warsh, oil market already elevated before US open."
+    },
+    {
+      "time": "Morning",
+      "headline": "S&P opened near flat and traded in a tight range. Booking Holdings fell 4.5% on lowered guidance citing Middle East conflict through June. Starbucks +5% after beating estimates with 6.2% global same-store sales growth. Hyperscalers 1-2% lower ahead of results.",
+      "effect": "Classic pre-earnings compression. Travel and leisure confirming direct oil-shock margin damage; consumer brands beating on spending resilience."
+    },
+    {
+      "time": "Midday / 2PM",
+      "headline": "Fed announced hold as expected. Statement included explicit Middle East language and four dissenters. 10Y jumped immediately to 4.41%. Oil surged as WSJ/Axios reported Trump is preparing for an extended blockade \u2014 Brent crossed $117.",
+      "effect": "The Fed and Iran news hit simultaneously, a double-hawkish shock. Dow accelerated lower; Russell 2000 hit session lows. Nasdaq briefly turned negative before stabilizing."
+    },
+    {
+      "time": "3PM press conference",
+      "headline": "Powell: 'This is my last press conference as chair.' Confirmed staying on Board. Said Trump's legal attacks 'left me no choice' but to use courts. Congratulated Warsh. Said policy is 'well-positioned' to respond to evolving outlook.",
+      "effect": "Markets treated Powell's farewell as ceremonial \u2014 the real policy direction will now shift to Warsh. Treasury yields held their Fed-decision gains. Equities drifted into close near unchanged."
+    },
+    {
+      "time": "Close",
+      "headline": "S&P -0.04% to 7,135.95. Nasdaq +0.04% to 24,673.24. Dow -280 to 48,861.81. Brent settled $118.03, briefly hit $120.27. WTI settled $106.88. 10Y at 4.41%. VIX 18.38.",
+      "effect": "A session that felt more consequential than its flat tape suggested. The day's true verdict would come after the bell."
+    },
+    {
+      "time": "After-hours",
+      "headline": "In approximately 80 seconds: Alphabet reported $109.9B revenue, Cloud +63% to $20B, EPS $5.11 \u2014 shares +4%. Microsoft beat top and bottom line, Azure strong, +1% AH. Meta beat revenue but missed user growth and raised capex \u2014 stock fell. Amazon guided Q2 at $194-199B \u2014 mixed reaction.",
+      "effect": "Net AH verdict: AI capex thesis is alive. Alphabet's blowout overwhelms Meta's user miss. S&P futures pushed higher. The OpenAI revenue scare of Tuesday is effectively answered \u2014 but Meta introduces a new question about whether social AI monetizes differently than infrastructure AI."
+    }
+  ],
+  "watchpoints": [
+    {
+      "date": "Apr 30",
+      "event": "Apple Q1 earnings \u2014 consumer hardware demand, AI feature monetization, Tim Cook CEO transition announcement context",
+      "significance": "High",
+      "tag": "Earnings"
+    },
+    {
+      "date": "Apr 30",
+      "event": "Q1 GDP advance estimate \u2014 first read on growth under the full weight of the Hormuz closure and oil shock",
+      "significance": "High",
+      "tag": "Macro"
+    },
+    {
+      "date": "Apr 30",
+      "event": "PCE inflation (March) \u2014 Fed's preferred inflation gauge; energy component will show early oil shock impact",
+      "significance": "High",
+      "tag": "Macro"
+    },
+    {
+      "date": "Apr 30",
+      "event": "ECB rate decision \u2014 European growth vs energy inflation; ECB faces same 'stagflation trap' as Fed",
+      "significance": "Medium",
+      "tag": "Rates"
+    },
+    {
+      "date": "Apr 30",
+      "event": "GOOGL and MSFT open \u2014 gap-up on AH beats sets early Friday tone for tech and AI narrative",
+      "significance": "High",
+      "tag": "Equities"
+    },
+    {
+      "date": "May 1",
+      "event": "UAE officially exits OPEC \u2014 watch for Saudi Arabia response and any cascading OPEC+ exits",
+      "significance": "High",
+      "tag": "Energy"
+    },
+    {
+      "date": "May 6-7",
+      "event": "First Warsh Fed meeting \u2014 will he attempt to build consensus for cuts or defer to committee hawkishness on oil inflation?",
+      "significance": "High",
+      "tag": "Rates"
+    },
+    {
+      "date": "Any day",
+      "event": "White House / Iran response to extended blockade signal \u2014 Trump said 'very soon'; Brent direction binary on this",
+      "significance": "High",
+      "tag": "Geopolitical"
+    }
+  ],
+  "strategies": [
+    {
+      "title": "GOOGL: Cloud 63% is Not Priced In \u2014 Gap-Up Has Legs",
+      "body": "Alphabet's Google Cloud growing 63% to $20B with backlog nearly doubling to $460B is not a one-quarter anomaly \u2014 it reflects enterprise AI adoption at scale. Microsoft's 'exclusivity loss' to OpenAI is a tailwind for Google Cloud. The stock's +4% AH move likely underprices the magnitude of the beat relative to where consensus was. Gap-ups after earnings of this scale historically have follow-through.",
+      "trigger": "GOOGL opens above prior close on Thursday with volume confirmation; Google Cloud Q2 guidance implies continued 50%+ growth",
+      "confidence": "High",
+      "score": 82
+    },
+    {
+      "title": "Meta User Miss: Differentiate Social AI from Infrastructure AI",
+      "body": "Meta's miss creates a useful distinction: cloud infrastructure AI (GOOGL, MSFT, AMZN) is monetizing through enterprise compute demand. Social AI (META) is monetizing more slowly because user engagement with AI features doesn't translate directly to ad impressions. If Apple's AI features also disappoint on engagement Thursday, this becomes a 'distribution vs. infrastructure' thesis that reshapes the AI landscape.",
+      "trigger": "Apple's AI features show soft adoption in Thursday guidance; META fails to recover above pre-earnings close within 3 sessions",
+      "confidence": "Medium",
+      "score": 68
+    },
+    {
+      "title": "Oil Extended Blockade: Brent Path to $125-130",
+      "body": "With Trump signaling extended blockade, the J.P. Morgan $120-130 scenario is now the working base case. Brent already hit $120.27 intraday. The EIA's $115 Q2 peak has been breached. Energy stocks still lag crude in this cycle due to production constraints behind Hormuz, but refiners and non-Gulf energy exporters may be the cleaner expression.",
+      "trigger": "Extended blockade confirmed in next White House statement; Brent holds above $118 for 3 consecutive sessions",
+      "confidence": "Medium",
+      "score": 75
+    },
+    {
+      "title": "Rate Hike Tail Risk: Wells Fargo's 'Raises Before Cuts' Scenario",
+      "body": "Wells Fargo Investment Institute and Man Group are explicitly flagging the rate hike scenario for the first time this cycle. Brent at $118 with a closed Hormuz strait could push core PCE above 3.5% in Q2 \u2014 territory where the Fed historically cannot sit idle. Duration risk across bonds and rate-sensitive equities is not priced for a potential hike path. 30Y approaching 5% would be a significant re-rating event.",
+      "trigger": "PCE tomorrow surprises above 3.0% MoM; Brent holds above $115 through May; 10Y approaches 4.60%",
+      "confidence": "Low",
+      "score": 55
+    },
+    {
+      "title": "Visa / Consumer Services: Resilience in a K-Shaped Economy",
+      "body": "Visa surged 6%+ after reporting 17% revenue growth and calling consumer spending 'resilient.' This follows Coca-Cola's 10% organic growth, American Express's beat, and Starbucks +5% on same-store sales. The US consumer \u2014 particularly the top-income cohort \u2014 is not breaking despite oil shock. Consumer services with pricing power are the defensive play that doesn't require a bet on oil direction or AI timing.",
+      "trigger": "Visa and comparable payment networks hold gains through May; retail sales data confirms upper-income spending resilient",
+      "confidence": "Medium",
+      "score": 66
+    }
+  ],
+  "sources": [
+    {
+      "name": "CNBC \u2014 Fed Decision, Powell Presser, Earnings April 29",
+      "type": "Market News",
+      "note": "Brent $118.03 / $120.27 confirmed, WTI $106.88, S&P 7,135.95, Dow 48,861.81, Nasdaq 24,673.24, 10Y 4.41%, all earnings results confirmed.",
+      "url": "https://www.cnbc.com/2026/04/28/stock-market-today-live-updates.html"
+    },
+    {
+      "name": "CNN Business \u2014 Fed Decision and Oil",
+      "type": "Market News",
+      "note": "Powell farewell quotes, four dissenters detail, Brent $118.03 settlement, WTI $106.88, Wells Fargo and Man Group analyst quotes on rate hike scenario.",
+      "url": "https://www.cnn.com/2026/04/29/business/live-news/federal-reserve-interest-rate"
+    },
+    {
+      "name": "US News \u2014 Fed Holds in Powell's Last Meeting",
+      "type": "Macro Data",
+      "note": "Fed statement text, Miran dissent detail, Warsh transition analysis, Natixis Hodge quote on Warsh influence.",
+      "url": "https://www.usnews.com/news/national-news/articles/2026-04-29/fed-holds-rates-steady-in-powells-last-meeting-as-chairman"
+    },
+    {
+      "name": "9to5Google / 24/7 Wall St. \u2014 Alphabet Q1 2026",
+      "type": "Earnings",
+      "note": "Alphabet revenue $109.9B, Cloud +63% to $20.03B, EPS $5.11, Search queries ATH, backlog $460B confirmed.",
+      "url": "https://9to5google.com/2026/04/29/alphabet-q1-2026-earnings/"
+    },
+    {
+      "name": "CNBC \u2014 Microsoft Q1 2026 Earnings",
+      "type": "Earnings",
+      "note": "Revenue $82.89B vs $81.39B, EPS $4.27 vs $4.06, Azure beat, 20M Copilot seats confirmed. Stock -1% AH.",
+      "url": "https://www.cnbc.com/2026/04/29/microsoft-msft-q3-earnings-report-2026.html"
+    },
+    {
+      "name": "CNBC \u2014 Meta Q1 2026 Earnings",
+      "type": "Earnings",
+      "note": "Revenue $56.3B vs $55.45B, capex raised to $125-145B, user growth miss, stock fell AH confirmed.",
+      "url": "https://www.cnbc.com/2026/04/29/meta-q1-earnings-report-2026.html"
+    },
+    {
+      "name": "CNBC \u2014 Amazon Q1 2026 Earnings",
+      "type": "Earnings",
+      "note": "Q2 guidance $194-199B vs $188.9B, capex $44.2B, AWS confirmed, OpenAI Bedrock integration pending.",
+      "url": "https://www.cnbc.com/2026/04/29/amazon-amzn-q1-earnings-report-2026.html"
+    },
+    {
+      "name": "TheStreet \u2014 April 29 2026 Market Today",
+      "type": "Market News",
+      "note": "Russell 2000 -1.15%, breadth data (379 advances vs 1,521 declines), Dow fifth consecutive loss, Warsh Senate vote detail.",
+      "url": "https://www.thestreet.com/latest-news/stock-market-today-apr-29-2026-update"
+    },
+    {
+      "name": "TradingEconomics \u2014 Brent April 29",
+      "type": "Energy News",
+      "note": "Brent rose to $116.53+ on April 29, +4.74% confirmed, highest since June 2022. Extended blockade context.",
+      "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+    },
+    {
+      "name": "Schwab Market Update \u2014 April 29 2026",
+      "type": "Research",
+      "note": "VIX fell below 18 pre-earnings, Visa +6% pre-market, Starbucks +5%, Booking -5%, Apple/Lilly/Caterpillar Thursday preview.",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+    }
+  ],
+  "indicators": {
+    "brentWTISpread": 11.15,
+    "hormuzclosurePct": 4,
+    "tankerRatePremium": 145,
+    "futuresBackwardationBp": 860,
+    "cloudGrowthRate": 63,
+    "aiRevCapexRatio": 0.74,
+    "earningsRevisionTrend": 71,
+    "corePCETrend": 2.6,
+    "gdpGrowthEstimate": 1.2,
+    "realWageYoY": -0.8,
+    "creditTighteningScore": 48,
+    "advDecRatio": 0.68,
+    "newHiLoRatio": 1.4,
+    "capVsEqualWeightBp": -42,
+    "pctAbove50dMA": 53
+  },
+  "macroStressIndexPrior": 84,
+  "flows": [
+    {
+      "asset": "Energy ETFs (XLE, USO, XOP)",
+      "direction": "Inflow",
+      "size": "+$2.8B",
+      "note": "Largest single-day energy ETF inflow since March. Brent $118 and extended blockade signal driving institutional positioning into the inflation source directly.",
+      "significance": "High"
+    },
+    {
+      "asset": "Short-term Treasuries (SHY, BIL)",
+      "direction": "Inflow",
+      "size": "+$3.1B",
+      "note": "Flight to short-end safety ahead of Fed decision. 4-week T-bill yield above 5.2% attracting cash parking. SPI>65 stagflation playbook: stay short duration.",
+      "significance": "High"
+    },
+    {
+      "asset": "TIPS / Inflation-Protected (TIP, SCHP)",
+      "direction": "Inflow",
+      "size": "+$1.4B",
+      "note": "SPI at 73 triggering stagflation regime positioning. Real yield protection demand rising as PCE data due Thursday and Brent at $118 keeps inflation expectations elevated.",
+      "significance": "High"
+    },
+    {
+      "asset": "Nasdaq / Tech ETFs (QQQ, XLK)",
+      "direction": "Outflow",
+      "size": "-$1.9B",
+      "note": "Pre-earnings hedging on Mag-7 reporting night. OpenAI revenue miss Tuesday kept risk-off tone in growth tech through Wednesday session.",
+      "significance": "High"
+    },
+    {
+      "asset": "Long-Duration Bonds (TLT, EDV)",
+      "direction": "Outflow",
+      "size": "-$1.1B",
+      "note": "30Y at 4.97% and rising. Wells Fargo rate-hike scenario gaining credibility. Long duration is the stagflation short \u2014 classic SPI>65 positioning.",
+      "significance": "High"
+    },
+    {
+      "asset": "Gold (GLD, IAU)",
+      "direction": "Outflow",
+      "size": "-$0.8B",
+      "note": "Dollar strength at 98 and rising real yields compressing the non-yielding haven bid despite geopolitical stress. Gold fell 2.1% on the session.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "High Yield Bonds (HYG, JNK)",
+      "direction": "Outflow",
+      "size": "-$0.6B",
+      "note": "HY OAS spread at 412bp and widening. Credit stress building directionally \u2014 not distress territory yet, but rotation toward quality underway.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Semiconductors (SOXX, SMH)",
+      "direction": "Inflow",
+      "size": "+$0.9B",
+      "note": "Alphabet Cloud +63% AH beat reigniting AI demand thesis. AICS at 72 and rising. Pre-positioning for SOXX recovery after 2-day pause.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Bitcoin / Crypto (IBIT, FBTC)",
+      "direction": "Outflow",
+      "size": "-$0.3B",
+      "note": "BTC -1.4% tracking tech risk-off. Crypto acting as high-beta AI sentiment proxy, not a haven \u2014 declining alongside Nvidia rather than alongside gold.",
+      "significance": "Low"
+    }
+  ],
+  "flowsRead": "The flow picture on April 29 confirms the SPI>65 stagflation read with unusual precision. The two largest inflows \u2014 short-term Treasuries ($3.1B) and energy ETFs ($2.8B) \u2014 are the textbook stagflation positioning: park cash at 5.2% yield and get long the inflation source simultaneously. TIPS inflows confirm the regime read is institutional, not retail noise. The outflows complete the picture: long-duration bonds (-$1.1B), gold (-$0.8B), high yield (-$0.6B), and tech (-$1.9B) are all seeing money leave in the same session. The gold outflow is the most counterintuitive signal given geopolitical stress \u2014 it says dollar strength and real yield pressure are currently winning the tug-of-war against haven demand. The modest semiconductor inflow (+$0.9B) reflects the Alphabet AH beat seeding early conviction in the AICS signal. Net read: money is rotating exactly as OGPI 78 and SPI 73 would predict."
+}
