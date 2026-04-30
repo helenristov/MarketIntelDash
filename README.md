@@ -46,7 +46,7 @@ Open **http://localhost:8000**. No build step, no dependencies, no backend.
 ```
 ├── index.html                    # Dashboard — never needs editing
 ├── market_data.json              # Today's snapshot — replace each day
-├── daily_refresh_prompt_v3.md   # The prompt you run each evening
+├── daily_refresh_prompt.md   # The prompt you run each evening
 └── README.md
 ```
 
