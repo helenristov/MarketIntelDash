@@ -405,6 +405,29 @@ body{
 .stat-val{font-family:var(--font-mono);font-size:20px;font-weight:500;margin:5px 0 3px;line-height:1.1}
 .stat-note{font-size:10px;color:var(--t2);line-height:1.4}
 
+
+/* ── EXPANDABLE STAT CARDS ── */
+.stat-card{cursor:pointer;user-select:none}
+.stat-card-inner{padding:12px 14px}
+.stat-expand-icon{
+  float:right;font-size:10px;color:var(--t4);margin-top:1px;
+  transition:transform .2s,color .2s;display:block;
+}
+.stat-card.expanded .stat-expand-icon{transform:rotate(180deg);color:var(--ice)}
+.stat-detail{
+  max-height:0;overflow:hidden;
+  transition:max-height .32s cubic-bezier(.4,0,.2,1),padding .32s;
+  background:rgba(255,255,255,0.04);
+  border-top:0px solid rgba(255,255,255,0.08);
+  font-size:12px;color:var(--t2);line-height:1.65;
+  padding:0 14px;
+}
+.stat-card.expanded .stat-detail{
+  max-height:220px;
+  padding:10px 14px 12px;
+  border-top-width:1px;
+}
+
 .hero-actions{display:flex;gap:10px;align-items:center;margin-top:20px;flex-wrap:wrap}
 #copy-btn{
   display:inline-flex;align-items:center;gap:6px;
@@ -440,7 +463,7 @@ body{
 .tp-tight {background:rgba(255,200,0,0.20);  color:#ffd020;border:1px solid rgba(255,200,0,0.55)}
 .tp-lead  {background:rgba(0,255,160,0.20);  color:#00ffb2;border:1px solid rgba(0,255,160,0.55)}
 .tp-def   {background:rgba(192,80,255,0.20); color:#cc66ff;border:1px solid rgba(192,80,255,0.55)}
-.tp-watch {background:var(--g2);              color:var(--t3);border:1px solid var(--edge-dim)}
+.tp-watch {background:var(--g2);              color:var(--ice);border:1px solid var(--ice-glow)}
 .theme-name{font-size:12px;font-weight:500;line-height:1.4;margin-bottom:6px;color:var(--t1)}
 .theme-impact{font-size:11px;color:var(--t2);line-height:1.4;margin-bottom:9px}
 .strength-bar{height:2px;background:rgba(255,255,255,0.07);border-radius:999px;overflow:hidden;margin-top:6px}
@@ -890,13 +913,7 @@ function sectorTileClass(h) {
   if (h >= 58) return 'st-mid';
   return 'st-low';
 }
-function sectorNumColor(h) {
-  h = Number(h);
-  if (h >= 88) return 'var(--red)';
-  if (h >= 72) return 'var(--am)';
-  if (h >= 58) return 'var(--blue)';
-  return 'var(--text-tertiary)';
-}
+function sectorNumColor(h) { h = Number(h); if (h >= 88) return 'var(--co)'; if (h >= 72) return 'var(--am)'; if (h >= 58) return 'var(--ice)'; return 'var(--t4)'; }
 function riskBadge(lvl) {
   const m = { High:'rb-high', Elevated:'rb-elev', Medium:'rb-mod', Moderate:'rb-mod', Watch:'rb-watch' };
   return `<span class="risk-badge ${m[lvl]||'rb-watch'}">${esc(lvl)}</span>`;
@@ -920,7 +937,7 @@ function trendPill(t) {
 /* Direction pill for themes */
 function dirPill(dir) {
   const d = (dir||'').toLowerCase();
-  if (d==='shock'||d.includes('risk-off')||d.includes('credit')||d.includes('compress')||d.includes('squeeze'))
+  if (d==='shock'||d.includes('risk-off')||d.includes('vol')||d.includes('credit')||d.includes('compress')||d.includes('squeeze'))
     return `<span class="theme-dir-pill tp-shock">${esc(dir)}</span>`;
   if (d.includes('tight')||d.includes('macro')||d.includes('data')||d.includes('stagflat')||d.includes('haven'))
     return `<span class="theme-dir-pill tp-tight">${esc(dir)}</span>`;
@@ -931,14 +948,7 @@ function dirPill(dir) {
   return `<span class="theme-dir-pill tp-watch">${esc(dir)}</span>`;
 }
 
-function strengthColor(dir) {
-  const d = (dir||'').toLowerCase();
-  if (d==='shock'||d.includes('risk-off')) return '#ff3030';
-  if (d.includes('tight')||d.includes('macro')||d.includes('data')) return '#ffcc00';
-  if (d==='leadership'||d.includes('risk-on')||d.includes('earning')) return '#00ffb2';
-  if (d.includes('def')||d.includes('usd')||d.includes('rotation')) return '#c060ff';
-  return '#3dd8ff';
-}
+function strengthColor(dir) { const d = (dir||'').toLowerCase(); if (d==='shock'||d.includes('risk-off')||d.includes('vol')||d.includes('credit')||d.includes('compress')||d.includes('squeeze')) return '#ff3030'; if (d.includes('tight')||d.includes('macro')||d.includes('data')||d.includes('stagflat')||d.includes('haven')) return '#ffcc00'; if (d==='leadership'||d.includes('risk-on')||d.includes('easing')||d.includes('earning')) return '#00ffb2'; if (d.includes('def')||d.includes('usd')||d.includes('fx')||d.includes('rotation')) return '#c060ff'; return '#3dd8ff'; }
 
 function signalProb(score, conf) {
   const b = conf==='High'?8:conf==='Medium'?0:-8;
@@ -1290,25 +1300,41 @@ async function render() {
     <div class="hero-stats">
       ${renderRing(msi, msiColor, msiPrior)}
       <div class="stat-row">
-        <div class="stat-card" style="border-top-color:${msiColor}">
-          <div class="stat-lbl">Market Pulse</div>
-          <div class="stat-val" style="color:${msiColor};font-size:13px;line-height:1.4;margin-top:5px">${esc((d.marketPulse||'').substring(0,50)+(d.marketPulse?.length>50?'…':''))}</div>
-          <div class="stat-note">${esc(d.macroStressLabel||'')} · MSI ${msi}</div>
+        <div class="stat-card" style="border-top-color:${msiColor}" onclick="toggleStatCard(this)">
+          <div class="stat-card-inner">
+            <span class="stat-expand-icon">▼</span>
+            <div class="stat-lbl">Market Pulse</div>
+            <div class="stat-val" style="color:${msiColor};font-size:13px;line-height:1.4;margin-top:5px">${esc((d.marketPulse||'').substring(0,50)+(d.marketPulse?.length>50?'…':''))}</div>
+            <div class="stat-note">${esc(d.macroStressLabel||'')} · MSI ${msi}</div>
+          </div>
+          <div class="stat-detail">${esc(d.marketPulse||'')}${d.marketPulseSubtext ? '<br><br>' + esc(d.marketPulseSubtext) : ''}</div>
         </div>
-        <div class="stat-card" style="border-top-color:${topCol}">
-          <div class="stat-lbl">Top Signal</div>
-          <div class="stat-val" style="color:${topCol};font-size:12px;line-height:1.4;margin-top:5px">${esc((d.topDriver||'—').substring(0,58)+(d.topDriver?.length>58?'…':''))}</div>
-          <div class="stat-note">${esc(topThemes[0]?.direction||'')} · ${clamp(topThemes[0]?.strength||0)}/100</div>
+        <div class="stat-card" style="border-top-color:${topCol}" onclick="toggleStatCard(this)">
+          <div class="stat-card-inner">
+            <span class="stat-expand-icon">▼</span>
+            <div class="stat-lbl">Top Signal</div>
+            <div class="stat-val" style="color:${topCol};font-size:12px;line-height:1.4;margin-top:5px">${esc((d.topDriver||'—').substring(0,58)+(d.topDriver?.length>58?'…':''))}</div>
+            <div class="stat-note">${esc(topThemes[0]?.direction||'')} · ${clamp(topThemes[0]?.strength||0)}/100</div>
+          </div>
+          <div class="stat-detail">${esc(d.topDriver||'')}${topThemes[0]?.impact ? '<br><br>' + esc(topThemes[0].impact) : ''}</div>
         </div>
-        <div class="stat-card" style="border-top-color:${bCol}">
-          <div class="stat-lbl">Brent Crude</div>
-          <div class="stat-val" style="color:${bCol}">${esc(brent?.move||'—')}</div>
-          <div class="stat-note">${esc(brent?.trend||'')} · ${esc(brent?.risk||'')}</div>
+        <div class="stat-card" style="border-top-color:${bCol}" onclick="toggleStatCard(this)">
+          <div class="stat-card-inner">
+            <span class="stat-expand-icon">▼</span>
+            <div class="stat-lbl">Brent Crude</div>
+            <div class="stat-val" style="color:${bCol}">${esc(brent?.move||'—')}</div>
+            <div class="stat-note">${esc(brent?.trend||'')} · ${esc(brent?.risk||'')}</div>
+          </div>
+          <div class="stat-detail">${esc(brent?.driver||brent?.trend||'No additional detail available.')}</div>
         </div>
-        <div class="stat-card" style="border-top-color:${tCol}">
-          <div class="stat-lbl">10Y Treasury</div>
-          <div class="stat-val" style="color:${tCol}">${esc(t10?.move||'—')}</div>
-          <div class="stat-note">${esc(t10?.trend||'')}</div>
+        <div class="stat-card" style="border-top-color:${tCol}" onclick="toggleStatCard(this)">
+          <div class="stat-card-inner">
+            <span class="stat-expand-icon">▼</span>
+            <div class="stat-lbl">10Y Treasury</div>
+            <div class="stat-val" style="color:${tCol}">${esc(t10?.move||'—')}</div>
+            <div class="stat-note">${esc(t10?.trend||'')}</div>
+          </div>
+          <div class="stat-detail">${esc(t10?.driver||t10?.trend||'No additional detail available.')}</div>
         </div>
       </div>
     </div>
@@ -1731,6 +1757,10 @@ function copyNarrative() {
     btn.classList.add('copied'); btn.textContent = '✓ Copied to clipboard';
     setTimeout(()=>{ btn.classList.remove('copied'); btn.innerHTML = '<svg width="11" height="11" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="9" height="9" rx="1.5"/><path d="M3 11H2a1 1 0 01-1-1V2a1 1 0 011-1h8a1 1 0 011 1v1"/></svg> Copy narrative'; }, 2500);
   });
+}
+
+function toggleStatCard(el) {
+  el.classList.toggle('expanded');
 }
 
 function setupScrollSpy() {
