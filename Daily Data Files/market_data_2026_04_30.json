@@ -1,0 +1,645 @@
+{
+  "snapshotDate": "2026-04-30",
+  "lastUpdated": "Apr 30, 2026",
+  "disclaimer": "Market data and narratives are for informational and educational use only and are not investment advice. Figures are sourced from publicly available market data and news reports available at refresh time; verify prices before making decisions.",
+  "marketPulse": "Risk-on tape shrugs off oil shock as earnings carry the close",
+  "marketPulseSubtext": "U.S. equities finished sharply higher, with SPY +1.0%, QQQ +0.9%, DIA +1.6%, IWM +2.2%, and SOXX +2.6%. Oil remained the macro shock variable, but a late pullback in Brent and WTI let earnings strength, breadth, and AI/cloud optimism dominate the close.",
+  "topDriver": "Oil shock fading intraday while earnings and AI capex optimism supported risk",
+  "narrativeSummary": "April ended with a classic wall-of-worry rally: stocks pushed to record levels even as crude remained historically elevated because the immediate oil spike faded into the close. The dominant market read was not that geopolitical risk disappeared, but that the tape could absorb it as long as oil stopped accelerating and earnings kept beating. Strong GDP, low jobless claims, and firm PCE inflation left the Fed in a higher-for-longer posture, while the Treasury curve stayed steep with long-end yields near 5%. The AI complex was mixed beneath the surface: Alphabet, Amazon, semis, and data-center beneficiaries helped risk appetite, while Meta and Microsoft reminded investors that capex discipline still matters. The setup remains constructive but fragile: equities are celebrating earnings breadth, while oil, inflation, and long-duration rates still define the downside tail.",
+  "macroStressIndex": 59,
+  "macroStressIndexPrior": 63,
+  "macroStressLabel": "Elevated",
+  "macroStressSubtext": "Oil and long rates still elevated, but equity breadth and lower VIX eased stress.",
+  "rateCurveRead": "The Treasury curve remained steep, with short bills clustered near 3.7% while the 10Y held around 4.40% and the 30Y near 4.98%. That shape keeps the market in an inflation-risk regime: growth is still holding up, but long-end duration is demanding compensation for energy shock and policy uncertainty.",
+  "rateCurve": [
+    {
+      "tenor": "1M",
+      "current": 3.72,
+      "prior": 3.68
+    },
+    {
+      "tenor": "3M",
+      "current": 3.68,
+      "prior": 3.68
+    },
+    {
+      "tenor": "6M",
+      "current": 3.71,
+      "prior": 3.73
+    },
+    {
+      "tenor": "1Y",
+      "current": 3.72,
+      "prior": 3.75
+    },
+    {
+      "tenor": "2Y",
+      "current": 3.88,
+      "prior": 3.92
+    },
+    {
+      "tenor": "5Y",
+      "current": 4.02,
+      "prior": 4.05
+    },
+    {
+      "tenor": "10Y",
+      "current": 4.4,
+      "prior": 4.42
+    },
+    {
+      "tenor": "30Y",
+      "current": 4.98,
+      "prior": 4.98
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Bear",
+      "title": "Oil shock re-accelerates",
+      "probability": 30,
+      "trigger": "Brent reclaims the $120-$126 zone while Hormuz disruption persists and long yields rise again.",
+      "outcome": "Equity multiples compress, VIX lifts back above 20, energy and defensives outperform, and rate-sensitive growth fades.",
+      "watchpoints": [
+        "Brent above $120",
+        "10Y Treasury above 4.50%",
+        "VIX back over 20"
+      ]
+    },
+    {
+      "label": "Base",
+      "title": "Earnings absorb the macro shock",
+      "probability": 50,
+      "trigger": "Oil remains elevated but stops making new highs while earnings revisions and breadth keep improving.",
+      "outcome": "Indexes grind higher with rotation into cyclicals, semis, health care, and industrials, but leadership stays sensitive to AI capex headlines.",
+      "watchpoints": [
+        "Brent holds below $115",
+        "Equal-weight S&P keeps pace with SPY",
+        "Cloud earnings revisions stay positive"
+      ]
+    },
+    {
+      "label": "Bull",
+      "title": "Oil risk premium unwinds",
+      "probability": 20,
+      "trigger": "Diplomatic progress or shipping normalization pushes crude lower while inflation fears ease.",
+      "outcome": "Rates stabilize, VIX compresses, small caps and cyclicals lead, and the AI-capex trade regains cleaner sponsorship.",
+      "watchpoints": [
+        "WTI below $100",
+        "30Y yield below 4.85%",
+        "SOXX continues to outperform"
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "asset": "U.S. equities and broad beta",
+      "direction": "Inflow",
+      "size": "directional",
+      "note": "Broad index gains and strong advancers suggested money moved back into risk after the oil spike cooled. Small caps outperformed, signaling more than mega-cap-only sponsorship.",
+      "significance": "High"
+    },
+    {
+      "asset": "Semiconductors and AI infrastructure",
+      "direction": "Inflow",
+      "size": "directional",
+      "note": "SOXX outperformed as investors rewarded AI infrastructure demand, Qualcomm hyperscaler news, and strong cloud growth despite capex concerns.",
+      "significance": "High"
+    },
+    {
+      "asset": "Long-duration Treasuries",
+      "direction": "Outflow",
+      "size": "directional",
+      "note": "TLT was slightly lower while the 30Y yield stayed near 4.98%, consistent with limited appetite for duration amid oil-driven inflation risk.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Oil-linked exposure",
+      "direction": "Mixed",
+      "size": "directional",
+      "note": "Crude futures fell from extreme intraday levels, but energy risk premium remained high because Hormuz disruption is unresolved.",
+      "significance": "High"
+    },
+    {
+      "asset": "Gold and havens",
+      "direction": "Inflow",
+      "size": "directional",
+      "note": "Gold rose even as equities rallied, indicating investors still wanted geopolitical and inflation hedges.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Dollar exposure",
+      "direction": "Outflow",
+      "size": "directional",
+      "note": "The dollar weakened sharply as yen intervention headlines hit FX, reducing one source of global tightening pressure.",
+      "significance": "Medium"
+    }
+  ],
+  "flowsRead": "The flow picture was not pure risk-on; it was selective risk-on with hedges still attached. Equities, small caps, semis, and health care caught sponsorship, but gold held a haven bid and duration failed to rally meaningfully. That combination keeps the SPI elevated: growth-sensitive assets are participating, yet energy inflation and long-rate pressure remain the macro tax. The AICS read improved because cloud demand and AI infrastructure revenue signals offset investor anxiety about capex intensity.",
+  "indicators": {
+    "brentWTISpread": 8.94,
+    "hormuzclosurePct": 15,
+    "tankerRatePremium": 145,
+    "futuresBackwardationBp": 360,
+    "cloudGrowthRate": 63.0,
+    "aiRevCapexRatio": 0.74,
+    "earningsRevisionTrend": 72,
+    "corePCETrend": 3.2,
+    "gdpGrowthEstimate": 2.0,
+    "realWageYoY": -0.1,
+    "creditTighteningScore": 35,
+    "advDecRatio": 2.4,
+    "newHiLoRatio": 1.6,
+    "capVsEqualWeightBp": -45,
+    "pctAbove50dMA": 58
+  },
+  "topThemes": [
+    {
+      "theme": "Oil risk premium cools but remains the macro tax",
+      "impact": "Crude fell from shock highs, allowing equities to rally, but Brent above $110 keeps inflation and policy risk alive.",
+      "strength": 86,
+      "direction": "Shock"
+    },
+    {
+      "theme": "Earnings breadth beats geopolitical fear",
+      "impact": "Strong results from Alphabet, Amazon, Caterpillar, Eli Lilly, and chip-linked names supported a broad month-end bid.",
+      "strength": 82,
+      "direction": "Earnings"
+    },
+    {
+      "theme": "AI capex trade splits winners from spenders",
+      "impact": "Cloud growth and semiconductor demand were rewarded, while investors punished companies where capex pressure looked too large.",
+      "strength": 76,
+      "direction": "Leadership"
+    },
+    {
+      "theme": "Steep curve warns inflation is not solved",
+      "impact": "The front end was contained, but 10Y and 30Y yields stayed elevated, signaling a higher-for-longer regime.",
+      "strength": 72,
+      "direction": "Macro Tightening"
+    },
+    {
+      "theme": "Volatility compression masks tail risk",
+      "impact": "VIX cooled toward the high teens despite oil and geopolitical risk, creating a fragile calm rather than an all-clear.",
+      "strength": 64,
+      "direction": "Vol Watch"
+    }
+  ],
+  "crossMarket": [
+    {
+      "market": "S&P 500 / SPY",
+      "risk": "Moderate",
+      "driver": "Broad earnings rally and month-end momentum",
+      "move": "$718.66, +1.0%",
+      "trend": "Record-high risk-on close",
+      "heat": 67,
+      "source": "Yahoo Finance via market data; AP/Reuters market wrap"
+    },
+    {
+      "market": "Nasdaq 100 / QQQ",
+      "risk": "Moderate",
+      "driver": "AI and cloud optimism offset mega-cap capex anxiety",
+      "move": "$667.74, +0.9%",
+      "trend": "Higher but mixed beneath the surface",
+      "heat": 64,
+      "source": "Yahoo Finance via market data; Reuters earnings wrap"
+    },
+    {
+      "market": "Dow Industrials / DIA",
+      "risk": "Moderate",
+      "driver": "Industrials and health care earnings strength",
+      "move": "$496.65, +1.6%",
+      "trend": "Cyclical catch-up bid",
+      "heat": 70,
+      "source": "Yahoo Finance via market data; AP index close"
+    },
+    {
+      "market": "Russell 2000 / IWM",
+      "risk": "Moderate",
+      "driver": "Broadening risk appetite and lower VIX",
+      "move": "$277.97, +2.2%",
+      "trend": "Small-cap outperformance",
+      "heat": 73,
+      "source": "Yahoo Finance via market data; AP index close"
+    },
+    {
+      "market": "Semiconductors / SOXX",
+      "risk": "Elevated",
+      "driver": "AI infrastructure demand and hyperscaler chip optimism",
+      "move": "$461.44, +2.6%",
+      "trend": "Leadership acceleration",
+      "heat": 78,
+      "source": "Yahoo Finance via market data; Qualcomm/AWS/Alphabet reports"
+    },
+    {
+      "market": "Brent Crude",
+      "risk": "High",
+      "driver": "Hormuz disruption and U.S.-Iran war premium, with late profit-taking",
+      "move": "$114.01, -3.4%",
+      "trend": "Still elevated after spike above $126",
+      "heat": 88,
+      "source": "Reuters oil close"
+    },
+    {
+      "market": "WTI Crude",
+      "risk": "High",
+      "driver": "Supply disruption risk eased intraday but stayed historically high",
+      "move": "$105.07, -1.7%",
+      "trend": "Pullback from shock zone",
+      "heat": 82,
+      "source": "Reuters oil close"
+    },
+    {
+      "market": "Gold Futures",
+      "risk": "Elevated",
+      "driver": "Haven bid and inflation hedge demand",
+      "move": "~$4,629.59, +1.1%",
+      "trend": "Haven demand persists",
+      "heat": 66,
+      "source": "Investing.com historical futures data"
+    },
+    {
+      "market": "Bitcoin",
+      "risk": "Watch",
+      "driver": "Risk appetite improved with lower volatility",
+      "move": "$76,473, +1.1%",
+      "trend": "Firm alongside equities",
+      "heat": 58,
+      "source": "Yahoo Finance via market data"
+    },
+    {
+      "market": "VIX",
+      "risk": "Watch",
+      "driver": "Equity rally compressed hedging demand",
+      "move": "~16.89 to 18.16, lower on day",
+      "trend": "Vol compression",
+      "heat": 54,
+      "source": "Yahoo Finance/Investing.com historical VIX data"
+    },
+    {
+      "market": "10Y Treasury",
+      "risk": "Elevated",
+      "driver": "Inflation risk and hawkish hold keep long yields sticky",
+      "move": "4.40%, -2 bp",
+      "trend": "Elevated plateau",
+      "heat": 70,
+      "source": "U.S. Treasury daily par yield curve"
+    },
+    {
+      "market": "30Y Treasury",
+      "risk": "High",
+      "driver": "Long-end inflation compensation remains high",
+      "move": "4.98%, unchanged",
+      "trend": "Near 5% stress line",
+      "heat": 77,
+      "source": "U.S. Treasury daily par yield curve"
+    },
+    {
+      "market": "U.S. Dollar / UUP proxy",
+      "risk": "Watch",
+      "driver": "Yen intervention headlines pressured dollar exposure",
+      "move": "$27.36, -0.9%",
+      "trend": "Dollar softer",
+      "heat": 57,
+      "source": "Yahoo Finance via market data; Reuters global markets"
+    }
+  ],
+  "sectorHeat": [
+    {
+      "sector": "Semiconductors",
+      "heat": 78,
+      "trend": "\u2191 AI infrastructure bid",
+      "driver": "SOXX +2.6% as chip and hyperscaler demand stayed central to the earnings tape."
+    },
+    {
+      "sector": "Health Care",
+      "heat": 74,
+      "trend": "\u2191 Defensive growth rally",
+      "driver": "XLV +2.2%, helped by Eli Lilly strength and renewed interest in quality growth."
+    },
+    {
+      "sector": "Industrials",
+      "heat": 72,
+      "trend": "\u2191 Earnings-led cyclicals",
+      "driver": "Caterpillar and infrastructure-linked names supported Dow leadership."
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "heat": 65,
+      "trend": "\u2191 Risk appetite returns",
+      "driver": "XLY +1.3% as lower intraday oil pressure helped the consumer read."
+    },
+    {
+      "sector": "Financials",
+      "heat": 55,
+      "trend": "\u2192 Modest participation",
+      "driver": "XLF +0.4%, with the steep curve supportive but macro uncertainty limiting enthusiasm."
+    },
+    {
+      "sector": "Technology",
+      "heat": 54,
+      "trend": "\u2192 Split leadership",
+      "driver": "XLK barely higher as cloud winners competed with capex-driven weakness in select mega-cap names."
+    },
+    {
+      "sector": "Energy",
+      "heat": 68,
+      "trend": "\u2193 Profit-taking after oil spike",
+      "driver": "Crude pulled back from extreme highs, but sector risk remains tied to Hormuz and Brent volatility."
+    }
+  ],
+  "drivers": [
+    {
+      "name": "Oil shock reversal from intraday extremes",
+      "score": 92,
+      "detail": "Brent touched $126.41 before settling at $114.01, letting equities rally while keeping inflation risk elevated.",
+      "linked": "Brent, WTI, SPI, OGPI",
+      "confidence": "High",
+      "source": "Reuters oil report"
+    },
+    {
+      "name": "Broad equity rally into month-end",
+      "score": 86,
+      "detail": "The S&P 500, Dow, Nasdaq, and Russell 2000 all advanced, with small caps and cyclicals showing participation beyond mega-cap tech.",
+      "linked": "SPY, DIA, QQQ, IWM, MBDS",
+      "confidence": "High",
+      "source": "AP index close; Reuters Wall Street wrap"
+    },
+    {
+      "name": "AI/cloud earnings support",
+      "score": 80,
+      "detail": "Alphabet cloud strength, AWS growth, and semiconductor-related optimism reinforced the AI infrastructure narrative, even as capex scrutiny stayed high.",
+      "linked": "SOXX, XLK, AICS",
+      "confidence": "High",
+      "source": "Reuters Alphabet; AP Amazon; Barron's Microsoft"
+    },
+    {
+      "name": "Firm macro data keeps Fed cautious",
+      "score": 76,
+      "detail": "Q1 GDP grew 2.0%, PCE inflation rose 3.5% year over year, and jobless claims fell to 189,000, reducing near-term cut pressure.",
+      "linked": "Rates, dollar, SPI",
+      "confidence": "High",
+      "source": "AP GDP/PCE; Reuters jobless claims"
+    },
+    {
+      "name": "Long-end yields stay near stress levels",
+      "score": 72,
+      "detail": "The 10Y closed near 4.40% and the 30Y near 4.98%, keeping valuation and housing pressure in the background.",
+      "linked": "10Y, 30Y, TLT",
+      "confidence": "High",
+      "source": "U.S. Treasury daily par yield curve"
+    },
+    {
+      "name": "Volatility compression",
+      "score": 61,
+      "detail": "VIX moved lower toward the high teens, signaling less immediate hedging demand despite unresolved geopolitical risk.",
+      "linked": "VIX, equities",
+      "confidence": "Medium",
+      "source": "Yahoo/Investing.com VIX data; MarketWatch"
+    }
+  ],
+  "risks": [
+    {
+      "title": "Hormuz disruption re-prices oil higher",
+      "level": "High",
+      "desc": "Any renewed blockade escalation or military action could push Brent back toward the $120-$126 shock range and reignite inflation stress."
+    },
+    {
+      "title": "Long-end yield pressure breaks equity multiples",
+      "level": "Elevated",
+      "desc": "The 30Y near 5% remains a valuation headwind, especially for duration-heavy growth and housing-sensitive sectors."
+    },
+    {
+      "title": "AI capex skepticism spreads",
+      "level": "Elevated",
+      "desc": "If investors shift from rewarding cloud growth to punishing capex intensity, mega-cap tech leadership could narrow quickly."
+    },
+    {
+      "title": "Breadth divergence under the surface",
+      "level": "Medium",
+      "desc": "Indexes are strong, but technical breadth warnings suggest the rally still needs continued participation from equal-weight, small caps, and cyclicals."
+    },
+    {
+      "title": "Inflation data keeps Fed boxed in",
+      "level": "Medium",
+      "desc": "PCE above target plus energy pass-through lowers the odds of a near-term easing pivot."
+    }
+  ],
+  "timeline": [
+    {
+      "time": "Pre-market",
+      "headline": "Oil spikes again on Iran/Hormuz fears",
+      "effect": "Brent briefly traded above $126, putting stagflation and supply shock risk back at the center of the tape."
+    },
+    {
+      "time": "Morning",
+      "headline": "Economic data shows growth plus inflation",
+      "effect": "GDP rebounded, PCE stayed hot, and jobless claims surprised lower, supporting a higher-for-longer Fed read."
+    },
+    {
+      "time": "Midday",
+      "headline": "Crude reverses and equities broaden",
+      "effect": "Oil pulled back from shock highs, small caps joined the rally, and volatility compressed."
+    },
+    {
+      "time": "Afternoon",
+      "headline": "Earnings leadership takes over",
+      "effect": "Alphabet, Amazon, Caterpillar, Eli Lilly, and chip-linked names supported risk appetite into the close."
+    },
+    {
+      "time": "Close",
+      "headline": "Stocks finish strong despite unresolved macro shock",
+      "effect": "SPY, QQQ, DIA, IWM, and SOXX closed higher while gold and long yields showed hedges remained in place."
+    },
+    {
+      "time": "Next watchpoint",
+      "headline": "Can oil stay below the panic zone?",
+      "effect": "A sustained Brent move back above $120 would likely flip the tape from earnings-led risk-on back to stagflation stress."
+    }
+  ],
+  "watchpoints": [
+    {
+      "date": "May 01",
+      "event": "ISM manufacturing / PMI follow-through",
+      "significance": "High",
+      "tag": "Macro"
+    },
+    {
+      "date": "May 01",
+      "event": "Oil shipping and Hormuz traffic headlines",
+      "significance": "High",
+      "tag": "Geopolitical"
+    },
+    {
+      "date": "May 02",
+      "event": "Energy futures curve and Brent contract rollover effects",
+      "significance": "Medium",
+      "tag": "Energy"
+    },
+    {
+      "date": "May 03",
+      "event": "Mega-cap earnings digestion and AI capex commentary",
+      "significance": "High",
+      "tag": "Earnings"
+    },
+    {
+      "date": "May 04",
+      "event": "Treasury yield curve response to inflation pass-through",
+      "significance": "High",
+      "tag": "Rates"
+    },
+    {
+      "date": "May 04",
+      "event": "VIX and volatility futures term structure",
+      "significance": "Medium",
+      "tag": "Volatility"
+    },
+    {
+      "date": "May 05",
+      "event": "AMD, Disney, Palantir, PayPal, and ad-tech earnings watch",
+      "significance": "Medium",
+      "tag": "Earnings"
+    }
+  ],
+  "strategies": [
+    {
+      "title": "Favor broadening over mega-cap-only beta",
+      "body": "The strongest message today was not simply tech strength; it was small-cap and cyclical participation alongside semis. Broadening leadership is healthier than another narrow AI-only chase.",
+      "trigger": "IWM and RSP continue outperforming SPY for multiple sessions.",
+      "confidence": "Medium",
+      "score": 76
+    },
+    {
+      "title": "Keep oil shock hedges active",
+      "body": "Equities can rally while oil falls from extremes, but Brent above $110 is still a macro tax. Energy exposure, inflation hedges, or tactical downside protection remain relevant until Hormuz risk fades.",
+      "trigger": "Brent holds above $110 or reclaims $120.",
+      "confidence": "High",
+      "score": 82
+    },
+    {
+      "title": "Separate AI revenue winners from capex prisoners",
+      "body": "The AI trade is becoming more discriminating. Prefer companies converting cloud or infrastructure demand into visible revenue and margin support, while avoiding names where capex spend overwhelms the story.",
+      "trigger": "Cloud growth and backlog beat capex growth in earnings commentary.",
+      "confidence": "Medium",
+      "score": 79
+    },
+    {
+      "title": "Watch duration as the market\u2019s hidden veto",
+      "body": "The 30Y near 5% can cap multiples even when earnings are strong. A clean equity breakout is easier if the 10Y/30Y stop rising.",
+      "trigger": "10Y below 4.35% and 30Y below 4.90%.",
+      "confidence": "Medium",
+      "score": 70
+    },
+    {
+      "title": "Use VIX compression carefully",
+      "body": "Lower VIX supports risk appetite, but geopolitics and oil create gap risk. Volatility dips may be better used for hedging than complacency.",
+      "trigger": "VIX below 17 while Brent stays above $110.",
+      "confidence": "Medium",
+      "score": 68
+    }
+  ],
+  "sources": [
+    {
+      "name": "Reuters Global Markets Wrap",
+      "type": "news",
+      "note": "Global cross-asset market narrative for April 30, including oil pullback, yen intervention, and equity rally.",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-04-30/"
+    },
+    {
+      "name": "Reuters Oil Report",
+      "type": "news",
+      "note": "Brent and WTI settlement levels, intraday oil spike, and Hormuz disruption context.",
+      "url": "https://www.reuters.com/business/energy/oil-retreats-after-hitting-four-year-high-concern-us-iran-war-escalation-2026-04-30/"
+    },
+    {
+      "name": "Reuters Wall Street Wrap",
+      "type": "news",
+      "note": "U.S. equity close, earnings drivers, and market breadth context.",
+      "url": "https://www.reuters.com/business/wall-street-futures-mixed-oil-spike-overshadows-tech-earnings-strength-2026-04-30/"
+    },
+    {
+      "name": "U.S. Treasury Daily Treasury Par Yield Curve Rates",
+      "type": "official data",
+      "note": "Official Treasury curve rates for April 30 and April 29, 2026.",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
+    },
+    {
+      "name": "AP Major U.S. Index Close",
+      "type": "news/data",
+      "note": "S&P 500, Dow, Nasdaq, and Russell 2000 close and daily change.",
+      "url": "https://apnews.com/article/4e1442eeb72e72fc921e6804287d2b89"
+    },
+    {
+      "name": "AP Market Rally Wrap",
+      "type": "news",
+      "note": "Month-end stock rally, oil whipsaw, and key earnings movers.",
+      "url": "https://apnews.com/article/42120b305ce6298712931e79b66a20de"
+    },
+    {
+      "name": "Reuters Jobless Claims",
+      "type": "macro data/news",
+      "note": "Initial jobless claims fell to 189,000 for the week ending April 25.",
+      "url": "https://www.reuters.com/business/us-weekly-jobless-claims-decrease-labor-market-conditions-remain-stable-2026-04-30/"
+    },
+    {
+      "name": "AP GDP and Inflation Report",
+      "type": "macro data/news",
+      "note": "Q1 GDP growth, consumer spending, and inflation context.",
+      "url": "https://apnews.com/article/2e09bd656cd8ad1f9999c3cb7aac75e1"
+    },
+    {
+      "name": "AP PCE Inflation Report",
+      "type": "macro data/news",
+      "note": "March PCE inflation and core PCE readings.",
+      "url": "https://apnews.com/article/5c2037950e57d8e5d402a40b8fc41384"
+    },
+    {
+      "name": "Reuters Alphabet Earnings",
+      "type": "earnings/news",
+      "note": "Google Cloud growth, AI demand, capex, and backlog details.",
+      "url": "https://www.reuters.com/business/alphabets-cloud-unit-beats-quarterly-revenue-estimates-strong-ai-demand-2026-04-29/"
+    },
+    {
+      "name": "AP Amazon Earnings",
+      "type": "earnings/news",
+      "note": "AWS growth and Amazon AI investment context.",
+      "url": "https://apnews.com/article/5c2356e39214d3d4a4949b63027a3c43"
+    },
+    {
+      "name": "MarketWatch AWS Live Coverage",
+      "type": "earnings/news",
+      "note": "AWS annualized run-rate revenue and 28% year-over-year growth detail.",
+      "url": "https://www.marketwatch.com/livecoverage/amazon-earnings-stock-results-aws-guidance-ai/card/aws-has-annualized-run-rate-revenue-of-150-billion-jassy-says-6hd3tf1RVSVBFQpXsjGx"
+    },
+    {
+      "name": "Barron's Microsoft Earnings",
+      "type": "earnings/news",
+      "note": "Azure growth, capex pressure, and investor reaction.",
+      "url": "https://www.barrons.com/articles/microsoft-earnings-stock-price-1750a2b4"
+    },
+    {
+      "name": "Business Insider Qualcomm Earnings",
+      "type": "earnings/news",
+      "note": "Qualcomm hyperscaler AI chip deal and semiconductor sentiment.",
+      "url": "https://www.businessinsider.com/qualcomm-earnings-qcom-stock-chip-deal-hyperscaler-ai-datacenter-2026-4"
+    },
+    {
+      "name": "Yahoo Finance Market Data",
+      "type": "market data",
+      "note": "ETF and crypto prices for SPY, QQQ, DIA, IWM, SOXX, UUP, GLD, USO, BNO, TLT, and BTC.",
+      "url": "https://finance.yahoo.com/"
+    },
+    {
+      "name": "Investing.com VIX Historical Data",
+      "type": "market data",
+      "note": "VIX close, high, low, and daily change for April 30, 2026.",
+      "url": "https://www.investing.com/indices/volatility-s-p-500-historical-data"
+    },
+    {
+      "name": "Investing.com Gold Futures Historical Data",
+      "type": "market data",
+      "note": "Gold futures price context for April 30, 2026.",
+      "url": "https://www.investing.com/commodities/gold-historical-data"
+    }
+  ]
+}
