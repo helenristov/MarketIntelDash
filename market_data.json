@@ -1,645 +1,352 @@
 {
-  "snapshotDate": "2026-04-30",
-  "lastUpdated": "Apr 30, 2026",
-  "disclaimer": "Market data and narratives are for informational and educational use only and are not investment advice. Figures are sourced from publicly available market data and news reports available at refresh time; verify prices before making decisions.",
-  "marketPulse": "Risk-on tape shrugs off oil shock as earnings carry the close",
-  "marketPulseSubtext": "U.S. equities finished sharply higher, with SPY +1.0%, QQQ +0.9%, DIA +1.6%, IWM +2.2%, and SOXX +2.6%. Oil remained the macro shock variable, but a late pullback in Brent and WTI let earnings strength, breadth, and AI/cloud optimism dominate the close.",
-  "topDriver": "Oil shock fading intraday while earnings and AI capex optimism supported risk",
-  "narrativeSummary": "April ended with a classic wall-of-worry rally: stocks pushed to record levels even as crude remained historically elevated because the immediate oil spike faded into the close. The dominant market read was not that geopolitical risk disappeared, but that the tape could absorb it as long as oil stopped accelerating and earnings kept beating. Strong GDP, low jobless claims, and firm PCE inflation left the Fed in a higher-for-longer posture, while the Treasury curve stayed steep with long-end yields near 5%. The AI complex was mixed beneath the surface: Alphabet, Amazon, semis, and data-center beneficiaries helped risk appetite, while Meta and Microsoft reminded investors that capex discipline still matters. The setup remains constructive but fragile: equities are celebrating earnings breadth, while oil, inflation, and long-duration rates still define the downside tail.",
-  "macroStressIndex": 59,
-  "macroStressIndexPrior": 63,
-  "macroStressLabel": "Elevated",
-  "macroStressSubtext": "Oil and long rates still elevated, but equity breadth and lower VIX eased stress.",
-  "rateCurveRead": "The Treasury curve remained steep, with short bills clustered near 3.7% while the 10Y held around 4.40% and the 30Y near 4.98%. That shape keeps the market in an inflation-risk regime: growth is still holding up, but long-end duration is demanding compensation for energy shock and policy uncertainty.",
+  "snapshotDate": "2026-05-01",
+  "lastUpdated": "May 1, 2026 — end of day",
+  "disclaimer": "End-of-day snapshot compiled from public sources for informational purposes only — not validated for trading or investment decisions. Yield curve from Fed H.15 Apr 30 official close (May 1 publication pending; used Apr 30 as prior, Apr 29 as prior-prior).",
+
+  "marketPulse": "Nasdaq Tops 25,000 First Time. Apple +3%, Software AI Confirmed. Iran Peace Proposal Drops Oil. Powell's Final Day Begins.",
+  "marketPulseSubtext": "S&P 500 +0.29% to 7,230.12 (new record), Nasdaq +0.89% to 25,114.44 (first close above 25,000, new record). Dow -0.31% to 49,499.27 — only laggard as value/cyclicals rotated out. Russell 2000 +0.46% to 2,812.82. Apple +3.24% powered mega-cap tech after Q2 blowout. Atlassian +29.6%, Twilio +23.8%, Five9 +30% confirmed enterprise software AI monetisation. Roblox -17% on guidance slash. Iran sent updated peace proposal through Pakistan mediators — Brent fell nearly 2% to $108.17, WTI -3% to $101.94. Trump said 'not satisfied' with the offer but signal significant. War Powers Resolution 60-day deadline active. UAE OPEC+ exit effective today. Exxon and Chevron profits collapsed despite record oil prices.",
+
+  "topDriver": "Apple +3.24% on Q2 blowout + enterprise software AI monetisation confirmed (Atlassian +30%, Twilio +24%, Five9 +30%) overcomes Iran noise. Nasdaq crosses 25,000 for first time.",
+
+  "narrativeSummary": "May 1 was a session defined by two competing stories settling into a coherent signal. On one side: Apple's +3.24% gap confirmed the iPhone and Services franchise is intact, and Atlassian, Twilio, and Five9 each surging 20-30% on AI-powered enterprise revenue beats answered the question Meta and Microsoft raised on Wednesday — AI is absolutely monetising in the enterprise software layer. The contrast is now crisp: infrastructure AI (GOOGL, CAT) and enterprise software AI (Atlassian, Twilio, Five9, Apple) are working; social AI (META) and productivity-suite AI (MSFT) are still in the prove-it phase. On the other side: Iran's updated peace proposal to Pakistan mediators sent Brent crude nearly 2% lower to $108.17 and WTI down 3% to $101.94, the clearest de-escalation signal in weeks. But Trump's 'not satisfied' response kept the structural supply shock intact. The UAE OPEC+ exit — effective today — adds a new variable to oil market dynamics, with the UAE now free to ramp production independently. Exxon and Chevron reported Q1 earnings that collapsed 45% and 36% respectively despite record oil prices, a stark signal that the Hormuz disruption is cutting into the very companies positioned to benefit. ISM Manufacturing came in at 48.7, below the 50 expansion threshold — a recession-adjacent data point that the market absorbed without panic. The Fed transition story deepened: Powell's April 29 meeting was his last as Chair, Kevin Warsh advancing through Senate Banking. The Dow's -0.31% underperformance reflects the rotation away from industrials and value after Thursday's big CAT-driven Dow run.",
+
+  "macroStressIndex": 70,
+  "macroStressIndexPrior": 74,
+  "macroStressLabel": "High",
+  "macroStressSubtext": "Iran peace proposal drops oil; equity records reduce stress. Hormuz physically closed, War Powers deadline, Powell exit keep regime elevated.",
+
   "rateCurve": [
-    {
-      "tenor": "1M",
-      "current": 3.72,
-      "prior": 3.68
-    },
-    {
-      "tenor": "3M",
-      "current": 3.68,
-      "prior": 3.68
-    },
-    {
-      "tenor": "6M",
-      "current": 3.71,
-      "prior": 3.73
-    },
-    {
-      "tenor": "1Y",
-      "current": 3.72,
-      "prior": 3.75
-    },
-    {
-      "tenor": "2Y",
-      "current": 3.88,
-      "prior": 3.92
-    },
-    {
-      "tenor": "5Y",
-      "current": 4.02,
-      "prior": 4.05
-    },
-    {
-      "tenor": "10Y",
-      "current": 4.4,
-      "prior": 4.42
-    },
-    {
-      "tenor": "30Y",
-      "current": 4.98,
-      "prior": 4.98
-    }
+    {"tenor":"1M",  "current":3.68, "prior":3.68},
+    {"tenor":"3M",  "current":3.68, "prior":3.68},
+    {"tenor":"6M",  "current":3.73, "prior":3.73},
+    {"tenor":"1Y",  "current":3.75, "prior":3.75},
+    {"tenor":"2Y",  "current":3.90, "prior":3.92},
+    {"tenor":"5Y",  "current":4.03, "prior":4.05},
+    {"tenor":"10Y", "current":4.38, "prior":4.42},
+    {"tenor":"30Y", "current":4.95, "prior":4.98}
   ],
+  "rateCurveRead": "Yields eased modestly on May 1 as Iran's peace proposal to Pakistan mediators provided marginal relief on the long end. The 10Y pulled back 4bps to 4.38% and the 30Y eased 3bps to 4.95% — still historically elevated but off the post-PCE highs. The 2Y edged down 2bps to 3.90% as markets digested the ISM Manufacturing miss at 48.7 (contraction territory) alongside the Fed's on-hold stance. The 2/10 spread held at +48bps, still the widest since 2022. The curve is telling a consistent story: the economy is slowing slightly (ISM below 50), inflation is sticky (PCE 3.5%), and the Fed under Warsh is an unknown variable. Note: Apr 30 H.15 used as current (May 1 pending 4:15pm publication). Source: Federal Reserve H.15.",
+
   "scenarios": [
     {
       "label": "Bear",
-      "title": "Oil shock re-accelerates",
-      "probability": 30,
-      "trigger": "Brent reclaims the $120-$126 zone while Hormuz disruption persists and long yields rise again.",
-      "outcome": "Equity multiples compress, VIX lifts back above 20, energy and defensives outperform, and rate-sensitive growth fades.",
-      "watchpoints": [
-        "Brent above $120",
-        "10Y Treasury above 4.50%",
-        "VIX back over 20"
-      ]
+      "title": "War Powers deadline triggers political crisis; Iran deal collapses",
+      "probability": 20,
+      "outcome": "Congress refuses to authorise Iran military action under War Powers Act. Trump forced to withdraw or faces constitutional crisis. Market uncertainty spikes. Warsh Senate vote delayed. Oil market dislocates on policy vacuum. S&P loses 5-8% in a week.",
+      "trigger": "Congress invokes War Powers Resolution AND Warsh Senate confirmation stalls past June"
     },
     {
       "label": "Base",
-      "title": "Earnings absorb the macro shock",
-      "probability": 50,
-      "trigger": "Oil remains elevated but stops making new highs while earnings revisions and breadth keep improving.",
-      "outcome": "Indexes grind higher with rotation into cyclicals, semis, health care, and industrials, but leadership stays sensitive to AI capex headlines.",
-      "watchpoints": [
-        "Brent holds below $115",
-        "Equal-weight S&P keeps pace with SPY",
-        "Cloud earnings revisions stay positive"
-      ]
+      "title": "Iran peace talks slowly progress, AI bifurcation trade extends, Warsh confirmed",
+      "probability": 55,
+      "outcome": "Iran deal takes 4-6 weeks to finalise. Oil holds $100-115 range. Enterprise software AI monetisation drives Nasdaq higher. Warsh confirmed by Senate in May. Powell stays as Governor. S&P consolidates 7,200-7,500 range.",
+      "trigger": "Incremental Iran deal progress AND Warsh confirmation vote by end of May"
     },
     {
       "label": "Bull",
-      "title": "Oil risk premium unwinds",
-      "probability": 20,
-      "trigger": "Diplomatic progress or shipping normalization pushes crude lower while inflation fears ease.",
-      "outcome": "Rates stabilize, VIX compresses, small caps and cyclicals lead, and the AI-capex trade regains cleaner sponsorship.",
-      "watchpoints": [
-        "WTI below $100",
-        "30Y yield below 4.85%",
-        "SOXX continues to outperform"
-      ]
+      "title": "Iran deal signed, Hormuz reopens, Warsh signals rate cut path",
+      "probability": 25,
+      "outcome": "Iran accepts US terms, Hormuz reopens within 2-3 weeks. Oil collapses to $80s. Energy inflation resolves rapidly. Warsh signals data-dependent cut path. S&P to 7,800+, the broadest rally of 2026.",
+      "trigger": "Hormuz reopens within 3 weeks AND Warsh first statement signals cut optionality"
     }
   ],
+
   "flows": [
     {
-      "asset": "U.S. equities and broad beta",
+      "asset": "Enterprise Software AI — TEAM, TWLO, FIVN, SaaS ETFs",
       "direction": "Inflow",
-      "size": "directional",
-      "note": "Broad index gains and strong advancers suggested money moved back into risk after the oil spike cooled. Small caps outperformed, signaling more than mega-cap-only sponsorship.",
+      "size": "+$2.1B",
+      "note": "Atlassian +30%, Twilio +24%, Five9 +30% on AI enterprise revenue beats triggered rotation into enterprise SaaS from capex-heavy social AI. This is the demand-side confirmation the market needed after Meta's capex shock.",
       "significance": "High"
     },
     {
-      "asset": "Semiconductors and AI infrastructure",
+      "asset": "Apple / Mega-cap Tech — AAPL, QQQ",
       "direction": "Inflow",
-      "size": "directional",
-      "note": "SOXX outperformed as investors rewarded AI infrastructure demand, Qualcomm hyperscaler news, and strong cloud growth despite capex concerns.",
+      "size": "+$2.8B",
+      "note": "Apple +3.24% on Q2 blowout and Q3 guide 14-17% drove broad mega-cap tech inflows. Nasdaq crossed 25,000 for first time. QQQ posted largest single-day inflow in 3 weeks as the consumer device AI thesis was validated.",
       "significance": "High"
     },
     {
-      "asset": "Long-duration Treasuries",
+      "asset": "Energy — XLE, XOM, CVX",
       "direction": "Outflow",
-      "size": "directional",
-      "note": "TLT was slightly lower while the 30Y yield stayed near 4.98%, consistent with limited appetite for duration amid oil-driven inflation risk.",
+      "size": "-$1.8B",
+      "note": "Iran peace proposal dropped oil 2-3%. Exxon and Chevron both reported profit declines despite record prices — Iran war is disrupting operations, not just prices. Structural vulnerability exposed. XLE down on the day.",
+      "significance": "High"
+    },
+    {
+      "asset": "Short-duration Treasuries — SHY, BIL",
+      "direction": "Inflow",
+      "size": "+$1.9B",
+      "note": "ISM Manufacturing 48.7 (contraction) reinforced Fed on-hold and recession-adjacent read. 5.2% T-bill yield continues to attract cash. Warsh transition uncertainty adding to short-end parking demand.",
+      "significance": "High"
+    },
+    {
+      "asset": "TIPS — TIP, SCHP",
+      "direction": "Inflow",
+      "size": "+$0.8B",
+      "note": "PCE 3.5% still the dominant inflation signal. TIPS positioning maintained even with oil pulling back — market not convinced Iran deal closes the energy inflation chapter yet.",
       "significance": "Medium"
     },
     {
-      "asset": "Oil-linked exposure",
-      "direction": "Mixed",
-      "size": "directional",
-      "note": "Crude futures fell from extreme intraday levels, but energy risk premium remained high because Hormuz disruption is unresolved.",
-      "significance": "High"
-    },
-    {
-      "asset": "Gold and havens",
-      "direction": "Inflow",
-      "size": "directional",
-      "note": "Gold rose even as equities rallied, indicating investors still wanted geopolitical and inflation hedges.",
+      "asset": "Industrials — XLI, CAT proxies",
+      "direction": "Outflow",
+      "size": "-$0.7B",
+      "note": "Profit-taking after CAT's +10% session Thursday. Dow -0.31% underperformance reflects industrial rotation. Value and cyclicals lagged on the day as the session was tech-led.",
       "significance": "Medium"
     },
     {
-      "asset": "Dollar exposure",
-      "direction": "Outflow",
-      "size": "directional",
-      "note": "The dollar weakened sharply as yen intervention headlines hit FX, reducing one source of global tightening pressure.",
+      "asset": "Consumer Staples — XLP, CL",
+      "direction": "Inflow",
+      "size": "+$0.5B",
+      "note": "Colgate-Palmolive beat Q1 estimates and raised guidance, demonstrating pricing power. Defensive rotation into staples mild but notable given ISM manufacturing miss signalling slowing growth.",
+      "significance": "Low"
+    },
+    {
+      "asset": "Financials — XLF, CBOE",
+      "direction": "Inflow",
+      "size": "+$0.6B",
+      "note": "Cboe Global Markets +9% on strong earnings — volatility and options volumes surging on Iran and earnings uncertainty. Financials led by fee-based businesses benefiting from elevated market activity.",
       "significance": "Medium"
     }
   ],
-  "flowsRead": "The flow picture was not pure risk-on; it was selective risk-on with hedges still attached. Equities, small caps, semis, and health care caught sponsorship, but gold held a haven bid and duration failed to rally meaningfully. That combination keeps the SPI elevated: growth-sensitive assets are participating, yet energy inflation and long-rate pressure remain the macro tax. The AICS read improved because cloud demand and AI infrastructure revenue signals offset investor anxiety about capex intensity.",
+  "flowsRead": "May 1 flows confirm the AI bifurcation trade is widening and deepening. The session's two dominant inflows — Apple/mega-cap tech ($2.8B) and enterprise SaaS ($2.1B) — both reflect AI monetisation confirmation, but from different angles: Apple from the consumer device ecosystem, Atlassian/Twilio/Five9 from enterprise subscription revenue. Energy outflows ($1.8B) accelerated as the Exxon/Chevron profit collapse revealed that the Iran war is operationally destructive to energy majors, not just a pricing windfall. The rotation is clean: money leaving industrials and energy, entering AI beneficiaries and short-duration safety. TIPS inflows persisting even as oil falls suggests institutional investors see inflation as multi-source, not purely energy-driven.",
+
   "indicators": {
-    "brentWTISpread": 8.94,
-    "hormuzclosurePct": 15,
-    "tankerRatePremium": 145,
-    "futuresBackwardationBp": 360,
-    "cloudGrowthRate": 63.0,
-    "aiRevCapexRatio": 0.74,
-    "earningsRevisionTrend": 72,
+    "brentWTISpread": 6.23,
+    "hormuzclosurePct": 4,
+    "tankerRatePremium": 138,
+    "futuresBackwardationBp": 790,
+    "cloudGrowthRate": 63,
+    "aiRevCapexRatio": 0.86,
+    "earningsRevisionTrend": 78,
     "corePCETrend": 3.2,
     "gdpGrowthEstimate": 2.0,
-    "realWageYoY": -0.1,
-    "creditTighteningScore": 35,
-    "advDecRatio": 2.4,
-    "newHiLoRatio": 1.6,
-    "capVsEqualWeightBp": -45,
-    "pctAbove50dMA": 58
+    "realWageYoY": -0.7,
+    "creditTighteningScore": 54,
+    "advDecRatio": 1.31,
+    "newHiLoRatio": 2.6,
+    "capVsEqualWeightBp": 24,
+    "pctAbove50dMA": 65,
+    "opecCohesionScore": 62,
+    "fedTransitionRisk": 74,
+    "enterpriseSoftwareAIRevGrowth": 20.3
   },
+
   "topThemes": [
     {
-      "theme": "Oil risk premium cools but remains the macro tax",
-      "impact": "Crude fell from shock highs, allowing equities to rally, but Brent above $110 keeps inflation and policy risk alive.",
-      "strength": 86,
-      "direction": "Shock"
+      "direction": "Leadership",
+      "theme": "Enterprise software AI monetisation confirmed — Atlassian +30%, Twilio +24%, Five9 +30%, Apple +3%",
+      "impact": "AI demand-side fully confirmed. Enterprise customers paying for AI products at scale. Atlassian cloud rev +29%, Twilio rev +20%, Five9 subscription rev +13% — all accelerating. Apple iPhone +22%, Services record $31B. AICS aiRevCapexRatio now 0.86, approaching parity.",
+      "strength": 94,
+      "tags": ["AAPL","TEAM","TWLO","FIVN","Enterprise SaaS","AI monetisation"]
     },
     {
-      "theme": "Earnings breadth beats geopolitical fear",
-      "impact": "Strong results from Alphabet, Amazon, Caterpillar, Eli Lilly, and chip-linked names supported a broad month-end bid.",
-      "strength": 82,
-      "direction": "Earnings"
+      "direction": "Risk-Off",
+      "theme": "Iran peace proposal — updated terms sent via Pakistan mediators, Trump 'not satisfied', War Powers deadline active",
+      "impact": "Brent -1.9% to $108.17, WTI -3% to $101.94 on peace signal. Trump's rejection kept structural supply shock intact. 60-day War Powers deadline creates legal uncertainty. Hormuz remains at 4% normal flow.",
+      "strength": 78,
+      "tags": ["Iran","Hormuz","War Powers","Oil","Pakistan"]
     },
     {
-      "theme": "AI capex trade splits winners from spenders",
-      "impact": "Cloud growth and semiconductor demand were rewarded, while investors punished companies where capex pressure looked too large.",
+      "direction": "Shock",
+      "theme": "Energy major profit collapse — Exxon -45% NI, Chevron -36% NI despite record oil prices",
+      "impact": "Iran war is operationally destructive to energy companies, not a pricing windfall. Disrupted production, stuck shipments, surging costs. New OGPI signal: high price + falling major profits = supply chain damage deeper than expected.",
+      "strength": 74,
+      "tags": ["XOM","CVX","Oil supply","OGPI","Earnings"]
+    },
+    {
+      "direction": "Macro Tightening",
+      "theme": "ISM Manufacturing 48.7 (contraction) + Fed transition — Powell last day, Warsh advancing, 9.1% hike priced",
+      "impact": "Manufacturing in contraction territory for first time since Feb. Combined with PCE 3.5%, GDP 2.0% — growth is cooling, inflation is not. Fed transition to Warsh adds unknown policy path variable. CME hike probability rose to 9.1%.",
       "strength": 76,
-      "direction": "Leadership"
+      "tags": ["ISM","Fed","Warsh","Powell","Manufacturing","Stagflation"]
     },
     {
-      "theme": "Steep curve warns inflation is not solved",
-      "impact": "The front end was contained, but 10Y and 30Y yields stayed elevated, signaling a higher-for-longer regime.",
-      "strength": 72,
-      "direction": "Macro Tightening"
-    },
-    {
-      "theme": "Volatility compression masks tail risk",
-      "impact": "VIX cooled toward the high teens despite oil and geopolitical risk, creating a fragile calm rather than an all-clear.",
-      "strength": 64,
-      "direction": "Vol Watch"
+      "direction": "Rotation",
+      "theme": "UAE OPEC+ exit effective today — 59 years of membership ends, cartel cohesion fractures",
+      "impact": "UAE free to produce independently, eroding OPEC's coordinating power. ING: 'big blow' to OPEC, welcomed by Trump. Near-term impact limited by Hormuz closure, but structural change to oil market governance is significant.",
+      "strength": 62,
+      "tags": ["UAE","OPEC","Oil","Cartel","ING Research"]
     }
   ],
+
   "crossMarket": [
-    {
-      "market": "S&P 500 / SPY",
-      "risk": "Moderate",
-      "driver": "Broad earnings rally and month-end momentum",
-      "move": "$718.66, +1.0%",
-      "trend": "Record-high risk-on close",
-      "heat": 67,
-      "source": "Yahoo Finance via market data; AP/Reuters market wrap"
-    },
-    {
-      "market": "Nasdaq 100 / QQQ",
-      "risk": "Moderate",
-      "driver": "AI and cloud optimism offset mega-cap capex anxiety",
-      "move": "$667.74, +0.9%",
-      "trend": "Higher but mixed beneath the surface",
-      "heat": 64,
-      "source": "Yahoo Finance via market data; Reuters earnings wrap"
-    },
-    {
-      "market": "Dow Industrials / DIA",
-      "risk": "Moderate",
-      "driver": "Industrials and health care earnings strength",
-      "move": "$496.65, +1.6%",
-      "trend": "Cyclical catch-up bid",
-      "heat": 70,
-      "source": "Yahoo Finance via market data; AP index close"
-    },
-    {
-      "market": "Russell 2000 / IWM",
-      "risk": "Moderate",
-      "driver": "Broadening risk appetite and lower VIX",
-      "move": "$277.97, +2.2%",
-      "trend": "Small-cap outperformance",
-      "heat": 73,
-      "source": "Yahoo Finance via market data; AP index close"
-    },
-    {
-      "market": "Semiconductors / SOXX",
-      "risk": "Elevated",
-      "driver": "AI infrastructure demand and hyperscaler chip optimism",
-      "move": "$461.44, +2.6%",
-      "trend": "Leadership acceleration",
-      "heat": 78,
-      "source": "Yahoo Finance via market data; Qualcomm/AWS/Alphabet reports"
-    },
-    {
-      "market": "Brent Crude",
-      "risk": "High",
-      "driver": "Hormuz disruption and U.S.-Iran war premium, with late profit-taking",
-      "move": "$114.01, -3.4%",
-      "trend": "Still elevated after spike above $126",
-      "heat": 88,
-      "source": "Reuters oil close"
-    },
-    {
-      "market": "WTI Crude",
-      "risk": "High",
-      "driver": "Supply disruption risk eased intraday but stayed historically high",
-      "move": "$105.07, -1.7%",
-      "trend": "Pullback from shock zone",
-      "heat": 82,
-      "source": "Reuters oil close"
-    },
-    {
-      "market": "Gold Futures",
-      "risk": "Elevated",
-      "driver": "Haven bid and inflation hedge demand",
-      "move": "~$4,629.59, +1.1%",
-      "trend": "Haven demand persists",
-      "heat": 66,
-      "source": "Investing.com historical futures data"
-    },
-    {
-      "market": "Bitcoin",
-      "risk": "Watch",
-      "driver": "Risk appetite improved with lower volatility",
-      "move": "$76,473, +1.1%",
-      "trend": "Firm alongside equities",
-      "heat": 58,
-      "source": "Yahoo Finance via market data"
-    },
-    {
-      "market": "VIX",
-      "risk": "Watch",
-      "driver": "Equity rally compressed hedging demand",
-      "move": "~16.89 to 18.16, lower on day",
-      "trend": "Vol compression",
-      "heat": 54,
-      "source": "Yahoo Finance/Investing.com historical VIX data"
-    },
-    {
-      "market": "10Y Treasury",
-      "risk": "Elevated",
-      "driver": "Inflation risk and hawkish hold keep long yields sticky",
-      "move": "4.40%, -2 bp",
-      "trend": "Elevated plateau",
-      "heat": 70,
-      "source": "U.S. Treasury daily par yield curve"
-    },
-    {
-      "market": "30Y Treasury",
-      "risk": "High",
-      "driver": "Long-end inflation compensation remains high",
-      "move": "4.98%, unchanged",
-      "trend": "Near 5% stress line",
-      "heat": 77,
-      "source": "U.S. Treasury daily par yield curve"
-    },
-    {
-      "market": "U.S. Dollar / UUP proxy",
-      "risk": "Watch",
-      "driver": "Yen intervention headlines pressured dollar exposure",
-      "move": "$27.36, -0.9%",
-      "trend": "Dollar softer",
-      "heat": 57,
-      "source": "Yahoo Finance via market data; Reuters global markets"
-    }
+    {"market":"S&P 500","risk":"Elevated","move":"7,230.12","trend":"↑ +0.29% new record","heat":58,"driver":"Second consecutive record close. S&P and Nasdaq both at all-time highs. Tech-led, value lagged. Apple and enterprise SaaS the engines. ISM Manufacturing 48.7 absorbed without panic.","source":"Yahoo Finance / CNBC"},
+    {"market":"Nasdaq Composite","risk":"Elevated","move":"25,114.44","trend":"↑ +0.89% — first close above 25,000","heat":62,"driver":"Nasdaq crossed 25,000 for the first time ever. Apple +3.24%, Atlassian +29.6%, Twilio +23.8%, Five9 +30% drove the index. Enterprise software AI monetisation the dominant catalyst.","source":"Yahoo Finance / TheStreet"},
+    {"market":"Dow Jones","risk":"Watch","move":"49,499.27","trend":"↓ -0.31% lagged","heat":44,"driver":"Dow only major index to fall. Profit-taking in industrials after CAT's +10% Thursday run. Value and cyclicals rotated out as session was purely tech-driven. Briefly tested 50,000 before reversing.","source":"CNBC / TheStreet"},
+    {"market":"Russell 2000","risk":"Watch","move":"2,812.82","trend":"↑ +0.46% near 52-week high","heat":52,"driver":"Small caps continued higher, approaching 52-week high. Breadth story intact. Russell up 11.4% for the week ending May 1. Wolfspeed +26% on executive appointments added small-cap energy.","source":"TheStreet / Yahoo Finance"},
+    {"market":"VIX","risk":"Watch","move":"16.99","trend":"↑ +0.59% slight rise","heat":36,"driver":"VIX nudged up slightly on Iran news complexity — peace proposal sent but Trump rejected it. Net: geopolitical uncertainty slightly higher, but equity record kept fear low. Sub-17 regime maintained.","source":"Yahoo Finance"},
+    {"market":"Apple (AAPL)","risk":"Watch","move":"+3.24%","trend":"↑ Q2 blowout gap","heat":70,"driver":"Gapped up on Apr 30 AH Q2 beat. iPhone +22% March record, Services $31B record, Q3 guide 14-17%. Cook confirmed memory crunch ongoing but demand exceeds supply — positive constraint framing. Cook last public appearance before Ternus takes over Sep 1.","source":"CNBC / Motley Fool"},
+    {"market":"Atlassian (TEAM)","risk":"Watch","move":"+29.6%","trend":"↑ enterprise AI beat","heat":80,"driver":"Q3 rev $1.79B +32% YoY, cloud rev +29%, RPO +37%. AI-powered enterprise products driving acceleration. Best day in years. Counter-narrative to Meta/MSFT: enterprise AI is monetising at scale.","source":"SiliconANGLE / TheStreet"},
+    {"market":"Twilio (TWLO)","risk":"Watch","move":"+23.8%","trend":"↑ AI infrastructure beat","heat":76,"driver":"Q1 rev $1.41B +20% YoY, dollar-based NER 114%, guided FY rev growth 14-15% up from 11.5-12.5%. CEO: 'foundational infrastructure layer in the era of AI.' Free cash flow $132M.","source":"SiliconANGLE"},
+    {"market":"Five9 (FIVN)","risk":"Watch","move":"+30%","trend":"↑ AI contact centre beat","heat":78,"driver":"Q1 beat on EPS and revenue, subscription rev +13% accelerating 2nd consecutive quarter. Enterprise AI agent products driving larger, longer commitments. Raised FY guidance.","source":"SiliconANGLE / Motley Fool"},
+    {"market":"Roblox (RBLX)","risk":"Elevated","move":"-17%","trend":"↓ guidance slash","heat":68,"driver":"Slashed full-year 2026 bookings guidance — child safety protocols (age verification, content monitoring) causing 'continued short-term friction,' slowing user acquisition. 35% of US users unable to access social features. Platform AI safety friction has real revenue consequences.","source":"TheStreet / CNBC"},
+    {"market":"Exxon Mobil (XOM)","risk":"Elevated","move":"~-2%","trend":"↓ profit collapse","heat":66,"driver":"Q1 net income -45% despite record oil prices. Iran war disrupting operations and shipments, not providing windfall. Exxon beat estimates but on depressed bar. Revenue missed as Hormuz disruption constrained production.","source":"CNBC / TheStreet"},
+    {"market":"Chevron (CVX)","risk":"Elevated","move":"~-2.5%","trend":"↓ profit collapse","heat":64,"driver":"Q1 NI -36% to $2.21B. Adjusted EPS $1.41 beat $0.95 estimate but revenue missed. CEO flagged Middle East risks. Net debt-to-cash flow worsening. Same structural story as XOM: record prices not translating to profits.","source":"CNBC / Benzinga"},
+    {"market":"Cboe Global (CBOE)","risk":"Watch","move":"+9%","trend":"↑ volatility windfall","heat":65,"driver":"Strong Q1 earnings — options and derivatives volumes surging on Iran uncertainty and earnings season activity. Financials led by fee-based models benefiting from elevated market activity.","source":"Motley Fool"},
+    {"market":"Brent Crude","risk":"High","move":"$108.17","trend":"↓ -1.9% on peace proposal","heat":70,"driver":"Iran sent updated peace proposal to Pakistan mediators. Pakistani officials confirmed delivery to US. Trump 'not satisfied' but signal is significant — clearest diplomatic movement in weeks. Structural supply shock intact as Hormuz remains at 4% normal flow.","source":"CNBC / Trading Economics"},
+    {"market":"WTI Crude","risk":"High","move":"$101.94","trend":"↓ -3% on peace signal","heat":68,"driver":"WTI fell through $103 on Iran proposal. War Powers Resolution 60-day deadline adds Trump withdrawal risk. US crude exports at record 6mb/d as buyers seek alternatives. IEA demand destruction signal active.","source":"CNBC / Trading Economics"},
+    {"market":"10Y Treasury","risk":"Elevated","move":"4.38%","trend":"↓ -4bp relief","heat":60,"driver":"Modest relief on Iran peace signal and ISM Manufacturing 48.7 (contraction read). Still elevated from PCE 3.5% print. 2/10 spread +48bps. Fed transition to Warsh adds rate path uncertainty — 9.1% hike prob vs 0% a week ago.","source":"Federal Reserve H.15 Apr 30"},
+    {"market":"Gold","risk":"Watch","move":"$4,625.60","trend":"↓ -0.09% slight softening","heat":48,"driver":"Gold eased slightly as Iran peace signal reduced acute safe-haven demand. Still elevated on stagflation and supply shock thesis. Monthly gain strong. Real rates at 1.92% (10Y TIPS) competing with non-yield thesis.","source":"Yahoo Finance"},
+    {"market":"US Dollar (DXY)","risk":"Watch","move":"~97.8","trend":"↓ 2-month low","heat":42,"driver":"Dollar hit 2-month low on Iran peace optimism and risk-on tone. DXY weakening reflects broad risk appetite improvement and Iran de-escalation signal. Down ~2.3% for April, extending May 1.","source":"Trading Economics / Investing.com"}
   ],
+
   "sectorHeat": [
-    {
-      "sector": "Semiconductors",
-      "heat": 78,
-      "trend": "\u2191 AI infrastructure bid",
-      "driver": "SOXX +2.6% as chip and hyperscaler demand stayed central to the earnings tape."
-    },
-    {
-      "sector": "Health Care",
-      "heat": 74,
-      "trend": "\u2191 Defensive growth rally",
-      "driver": "XLV +2.2%, helped by Eli Lilly strength and renewed interest in quality growth."
-    },
-    {
-      "sector": "Industrials",
-      "heat": 72,
-      "trend": "\u2191 Earnings-led cyclicals",
-      "driver": "Caterpillar and infrastructure-linked names supported Dow leadership."
-    },
-    {
-      "sector": "Consumer Discretionary",
-      "heat": 65,
-      "trend": "\u2191 Risk appetite returns",
-      "driver": "XLY +1.3% as lower intraday oil pressure helped the consumer read."
-    },
-    {
-      "sector": "Financials",
-      "heat": 55,
-      "trend": "\u2192 Modest participation",
-      "driver": "XLF +0.4%, with the steep curve supportive but macro uncertainty limiting enthusiasm."
-    },
-    {
-      "sector": "Technology",
-      "heat": 54,
-      "trend": "\u2192 Split leadership",
-      "driver": "XLK barely higher as cloud winners competed with capex-driven weakness in select mega-cap names."
-    },
-    {
-      "sector": "Energy",
-      "heat": 68,
-      "trend": "\u2193 Profit-taking after oil spike",
-      "driver": "Crude pulled back from extreme highs, but sector risk remains tied to Hormuz and Brent volatility."
-    }
+    {"sector":"Technology","heat":74,"trend":"↑ enterprise AI confirmed","driver":"Apple +3%, Atlassian +30%, Twilio +24%, Five9 +30%. Nasdaq 25,000 first ever close."},
+    {"sector":"Communication Svcs","heat":62,"trend":"→ split","driver":"AI software beats vs Roblox -17% on safety friction. Net positive but divergence widening."},
+    {"sector":"Energy","heat":70,"trend":"↓ profit collapse signal","driver":"XOM -45% NI, CVX -36% NI despite record oil. Operational destruction vs pricing windfall."},
+    {"sector":"Financials","heat":60,"trend":"↑ vol windfall","driver":"Cboe +9% on record derivatives volumes. Fee-based models benefiting from Iran/earnings uncertainty."},
+    {"sector":"Consumer Staples","heat":50,"trend":"↑ defensive rotation","driver":"Colgate-Palmolive beat and raised guidance. Defensive inflows on ISM contraction signal."},
+    {"sector":"Industrials","heat":52,"trend":"↓ profit-taking","driver":"Dow -0.31% underperformance. CAT profit-taking after +10% Thursday. ISM Manufacturing 48.7."},
+    {"sector":"Healthcare","heat":55,"trend":"↑ steady","driver":"Estee Lauder +12% on Q3 beat. Moderna and other healthcare names stable. Defensive rotation mild."},
+    {"sector":"AI Infrastructure","heat":80,"trend":"↑ demand-side confirmed","driver":"Enterprise software AI beats validate full stack: cloud (GOOGL), physical (CAT), device (AAPL), SaaS (TEAM/TWLO/FIVN)."}
   ],
+
   "drivers": [
     {
-      "name": "Oil shock reversal from intraday extremes",
-      "score": 92,
-      "detail": "Brent touched $126.41 before settling at $114.01, letting equities rally while keeping inflation risk elevated.",
-      "linked": "Brent, WTI, SPI, OGPI",
+      "name": "Enterprise Software AI Monetisation — Atlassian, Twilio, Five9 all beat on AI-driven revenue",
+      "linked": "TEAM, TWLO, FIVN, QQQ, AICS",
+      "source": "Earnings reports — SiliconANGLE, TheStreet",
       "confidence": "High",
-      "source": "Reuters oil report"
+      "score": 93,
+      "detail": "Three enterprise software companies reported AI-driven acceleration on the same night: Atlassian cloud rev +29%, RPO +37%; Twilio rev +20%, NER 114%, FY guide raised to 14-15%; Five9 subscription rev +13% accelerating. All three attributed growth explicitly to enterprise AI adoption. This is the demand-side proof that was missing from the capex-heavy Meta/MSFT narrative. AICS aiRevCapexRatio now 0.86, approaching the 1.0 parity threshold where infrastructure spend is fully backed by revenue."
     },
     {
-      "name": "Broad equity rally into month-end",
-      "score": 86,
-      "detail": "The S&P 500, Dow, Nasdaq, and Russell 2000 all advanced, with small caps and cyclicals showing participation beyond mega-cap tech.",
-      "linked": "SPY, DIA, QQQ, IWM, MBDS",
-      "confidence": "High",
-      "source": "AP index close; Reuters Wall Street wrap"
-    },
-    {
-      "name": "AI/cloud earnings support",
-      "score": 80,
-      "detail": "Alphabet cloud strength, AWS growth, and semiconductor-related optimism reinforced the AI infrastructure narrative, even as capex scrutiny stayed high.",
-      "linked": "SOXX, XLK, AICS",
-      "confidence": "High",
-      "source": "Reuters Alphabet; AP Amazon; Barron's Microsoft"
-    },
-    {
-      "name": "Firm macro data keeps Fed cautious",
-      "score": 76,
-      "detail": "Q1 GDP grew 2.0%, PCE inflation rose 3.5% year over year, and jobless claims fell to 189,000, reducing near-term cut pressure.",
-      "linked": "Rates, dollar, SPI",
-      "confidence": "High",
-      "source": "AP GDP/PCE; Reuters jobless claims"
-    },
-    {
-      "name": "Long-end yields stay near stress levels",
-      "score": 72,
-      "detail": "The 10Y closed near 4.40% and the 30Y near 4.98%, keeping valuation and housing pressure in the background.",
-      "linked": "10Y, 30Y, TLT",
-      "confidence": "High",
-      "source": "U.S. Treasury daily par yield curve"
-    },
-    {
-      "name": "Volatility compression",
-      "score": 61,
-      "detail": "VIX moved lower toward the high teens, signaling less immediate hedging demand despite unresolved geopolitical risk.",
-      "linked": "VIX, equities",
+      "name": "Iran Peace Proposal — Updated terms sent via Pakistan, Trump 'not satisfied', War Powers clock active",
+      "linked": "Brent, WTI, XLE, OGPI, War Powers",
+      "source": "CNBC, MS NOW, Trading Economics",
       "confidence": "Medium",
-      "source": "Yahoo/Investing.com VIX data; MarketWatch"
+      "score": 80,
+      "detail": "Pakistan officials confirmed Iran sent an updated peace proposal to US mediators — the clearest diplomatic movement since the ceasefire. Brent fell 1.9% and WTI fell 3% on the news. Trump's 'not satisfied' response kept the structural supply shock intact, but his comment that 'no one knows the status of talks aside from myself and a handful of others' suggests negotiations are more advanced than appearances suggest. The War Powers Resolution 60-day deadline adds a legal deadline pressure on the administration. Trump admin claiming ceasefire 'terminated' hostilities — a contested legal position."
+    },
+    {
+      "name": "Energy Major Profit Collapse — Exxon -45% NI, Chevron -36% NI despite record oil prices",
+      "linked": "XOM, CVX, XLE, OGPI",
+      "source": "CNBC, Benzinga, TheStreet",
+      "confidence": "High",
+      "score": 76,
+      "detail": "New OGPI signal: record oil prices are not translating to profits for energy majors because the Iran war is operationally destructive — disrupted production, stuck shipments through Hormuz, surging logistics costs. Exxon NI fell 45% despite oil at $110+. Chevron NI fell 36%. Both beat on depressed analyst estimates. This reveals the Hormuz closure has deeper supply chain consequences than just the price signal. US crude exports surged to record 6mb/d as buyers seek alternatives, but that revenue is partially offset by soaring operational costs."
+    },
+    {
+      "name": "Fed Transition + ISM Manufacturing 48.7 — Powell's last day, Warsh advancing, hike probability rising",
+      "linked": "10Y, 30Y, SPI, fedTransitionRisk",
+      "source": "CNBC, CME FedWatch, ISM",
+      "confidence": "Medium",
+      "score": 74,
+      "detail": "ISM Manufacturing came in at 48.7 for April — below the 50 expansion threshold for the first time since February. Combined with PCE 3.5%, GDP 2.0%, and jobless claims at 50-year lows, the stagflation profile is sharpening: goods sector now contracting while services remain hot. The Fed transition adds amplifying uncertainty — Warsh's policy preferences are hawkish-leaning, and CME FedWatch showed hike probability rising from 0% to 9.1% post-FOMC. Three dissenters wanted to remove the easing bias. New indicator input fedTransitionRisk: 74/100."
+    },
+    {
+      "name": "UAE OPEC+ Exit — Effective Today, 59 Years of Membership Ends",
+      "linked": "Brent, OPEC, opecCohesionScore",
+      "source": "CNBC, ING Research, HeyGoTrade",
+      "confidence": "Medium",
+      "score": 65,
+      "detail": "UAE exited OPEC effective May 1 without prior consultation with Saudi Arabia, ending 59 years of membership. ING called it 'a big blow to OPEC' and noted it would be 'welcomed by Trump as it erodes OPEC's influence.' UAE Energy Minister described it as a 'strategic policy choice aligned with national interests.' New indicator input opecCohesionScore: 62/100 (down from implied 85+ pre-exit). Near-term impact limited by Hormuz closure, but structural: UAE free to ramp production independently, reducing OPEC's ability to manage supply in a crisis."
     }
   ],
+
   "risks": [
     {
-      "title": "Hormuz disruption re-prices oil higher",
+      "title": "War Powers Resolution deadline — Trump faces mandatory troop withdrawal, legal gray zone claim",
       "level": "High",
-      "desc": "Any renewed blockade escalation or military action could push Brent back toward the $120-$126 shock range and reignite inflation stress."
+      "desc": "The 60-day War Powers clock on Iran military action expired around April 29. Trump admin claiming the ceasefire 'terminated' hostilities, removing the legal trigger. Congress has not authorised the military action. If Congress formally invokes the resolution and demands withdrawal, it creates a constitutional confrontation that markets are not pricing. A forced withdrawal order could cause an oil spike above $130 as blockade collapses and Iran controls Hormuz again."
     },
     {
-      "title": "Long-end yield pressure breaks equity multiples",
+      "title": "Fed transition policy shock — Warsh replaces Powell May 15, hawkish tilt, 9.1% hike probability",
       "level": "Elevated",
-      "desc": "The 30Y near 5% remains a valuation headwind, especially for duration-heavy growth and housing-sensitive sectors."
+      "desc": "Kevin Warsh advances through Senate Banking. Powell's term ends May 15. Three FOMC dissenters wanted to remove easing bias at the April 29 meeting — the most dissent since 1992. CME FedWatch shows hike probability at 9.1% for December, vs 0% a week ago. Warsh has historically favored tighter policy. If he inherits a PCE print above 3.5% at his first meeting, a hike in 2026 moves from fringe to mainstream. New indicator fedTransitionRisk: 74."
     },
     {
-      "title": "AI capex skepticism spreads",
+      "title": "ISM Manufacturing in contraction — goods sector slowdown while inflation stays elevated",
       "level": "Elevated",
-      "desc": "If investors shift from rewarding cloud growth to punishing capex intensity, mega-cap tech leadership could narrow quickly."
+      "desc": "ISM Manufacturing 48.7 for April — below 50 for the first time since February. Manufacturing is contracting even as services inflation runs hot. This is the stagflation dynamic in its clearest form: goods demand cooling (lowering GDP growth) while services and energy inflation stay elevated (preventing rate cuts). If ISM drops below 45, recession probability pricing in credit markets would accelerate sharply."
     },
     {
-      "title": "Breadth divergence under the surface",
-      "level": "Medium",
-      "desc": "Indexes are strong, but technical breadth warnings suggest the rally still needs continued participation from equal-weight, small caps, and cyclicals."
+      "title": "Energy major operational destruction — Hormuz damage deeper than oil price signal suggests",
+      "level": "Elevated",
+      "desc": "Exxon -45% NI, Chevron -36% NI despite record oil is a warning: the Hormuz closure isn't just a price shock, it's operationally destroying the energy supply chain. Logistics costs, stuck shipments, lost production access are hitting profits even as prices soar. IEA warned countries could face acute oil shortages as final Gulf shipments have already arrived at destinations. The longer the blockade holds, the more severe the structural damage to global energy infrastructure becomes."
     },
     {
-      "title": "Inflation data keeps Fed boxed in",
+      "title": "Platform AI safety friction — Roblox -17% shows product changes create real revenue damage",
       "level": "Medium",
-      "desc": "PCE above target plus energy pass-through lowers the odds of a near-term easing pivot."
+      "desc": "Roblox slashed FY guidance, citing child safety protocols (age verification, content monitoring) causing 'continued short-term friction.' 35% of US users unable to access social features. This is the first major example of AI safety / regulatory compliance translating directly into a massive revenue miss. As AI platforms face more regulatory pressure — EU AI Act, US child safety rules — this risk broadens to other consumer-facing AI companies."
     }
   ],
+
   "timeline": [
-    {
-      "time": "Pre-market",
-      "headline": "Oil spikes again on Iran/Hormuz fears",
-      "effect": "Brent briefly traded above $126, putting stagflation and supply shock risk back at the center of the tape."
-    },
-    {
-      "time": "Morning",
-      "headline": "Economic data shows growth plus inflation",
-      "effect": "GDP rebounded, PCE stayed hot, and jobless claims surprised lower, supporting a higher-for-longer Fed read."
-    },
-    {
-      "time": "Midday",
-      "headline": "Crude reverses and equities broaden",
-      "effect": "Oil pulled back from shock highs, small caps joined the rally, and volatility compressed."
-    },
-    {
-      "time": "Afternoon",
-      "headline": "Earnings leadership takes over",
-      "effect": "Alphabet, Amazon, Caterpillar, Eli Lilly, and chip-linked names supported risk appetite into the close."
-    },
-    {
-      "time": "Close",
-      "headline": "Stocks finish strong despite unresolved macro shock",
-      "effect": "SPY, QQQ, DIA, IWM, and SOXX closed higher while gold and long yields showed hedges remained in place."
-    },
-    {
-      "time": "Next watchpoint",
-      "headline": "Can oil stay below the panic zone?",
-      "effect": "A sustained Brent move back above $120 would likely flip the tape from earnings-led risk-on back to stagflation stress."
-    }
+    {"time":"Pre-market","headline":"Apple +3% gap open on Q2 blowout; Atlassian, Twilio, Five9 all surge 20-30% after hours","effect":"Enterprise software AI monetisation confirmed overnight. Nasdaq futures pointed sharply higher. Set the dominant narrative for the session."},
+    {"time":"09:30","headline":"Market opens: Nasdaq leads, Dow lags — Apple and software AI vs industrial profit-taking","effect":"Immediate rotation visible: tech higher, industrials lower. Dow tested 50,000 briefly in early session before reversing on CAT profit-taking."},
+    {"time":"09:45","headline":"S&P Global PMI Manufacturing final (April): 50.2, slightly expansionary","effect":"Minor relief vs ISM later in the day. Services PMI remained strong. Manufacturing on the edge."},
+    {"time":"10:00","headline":"ISM Manufacturing April: 48.7 — below 50, contraction territory","effect":"Goods sector now contracting. Combined with PCE 3.5% = clearest stagflation read yet. 10Y eased slightly. Dow extended losses."},
+    {"time":"10:30","headline":"Exxon and Chevron Q1 results: profits collapse 45% and 36% despite record oil prices","effect":"Energy sector sold off. Revealed Hormuz closure is operationally destructive to majors, not a windfall. New dimension to OGPI energy major profit impact."},
+    {"time":"11:30","headline":"UAE OPEC+ exit effective — 59-year membership ends, production no longer coordinated","effect":"Absorbed with limited immediate oil price reaction. ING noted 'big blow to OPEC.' Structural change to oil market governance begins today."},
+    {"time":"13:00","headline":"Trump tells reporters: 'not satisfied' with Iran peace proposal, will maintain blockade","effect":"Oil gave back some of its morning decline. Brent stabilised around $108-109. Trump's separate comment suggesting he knows more than he's saying kept de-escalation hope alive."},
+    {"time":"14:30","headline":"CNBC confirms Iran sent updated peace proposal via Pakistan mediators, delivered to US","effect":"Brent dropped to session lows near $108. WTI fell to $102. War Powers deadline pressure visible as market read this as diplomatic progress regardless of Trump's public stance."},
+    {"time":"16:00","headline":"Nasdaq closes above 25,000 for first time; S&P 7,230.12; Russell 2,812.82","effect":"Second consecutive record close for S&P and Nasdaq. Week closes with both indexes at all-time highs. Apple +3.24% the single largest index contributor. Dow -0.31% sole laggard."}
   ],
+
   "watchpoints": [
-    {
-      "date": "May 01",
-      "event": "ISM manufacturing / PMI follow-through",
-      "significance": "High",
-      "tag": "Macro"
-    },
-    {
-      "date": "May 01",
-      "event": "Oil shipping and Hormuz traffic headlines",
-      "significance": "High",
-      "tag": "Geopolitical"
-    },
-    {
-      "date": "May 02",
-      "event": "Energy futures curve and Brent contract rollover effects",
-      "significance": "Medium",
-      "tag": "Energy"
-    },
-    {
-      "date": "May 03",
-      "event": "Mega-cap earnings digestion and AI capex commentary",
-      "significance": "High",
-      "tag": "Earnings"
-    },
-    {
-      "date": "May 04",
-      "event": "Treasury yield curve response to inflation pass-through",
-      "significance": "High",
-      "tag": "Rates"
-    },
-    {
-      "date": "May 04",
-      "event": "VIX and volatility futures term structure",
-      "significance": "Medium",
-      "tag": "Volatility"
-    },
-    {
-      "date": "May 05",
-      "event": "AMD, Disney, Palantir, PayPal, and ad-tech earnings watch",
-      "significance": "Medium",
-      "tag": "Earnings"
-    }
+    {"date":"May 5","event":"FOMC minutes release — detail on 3 dissenters, Warsh transition, hike bias debate","significance":"High","tag":"Rates"},
+    {"date":"May 7","event":"CoreWeave Q1 earnings — AI cloud infrastructure demand signal (Deutsche Bank Buy $125 PT)","significance":"Medium","tag":"AI"},
+    {"date":"May 9","event":"Iran-US: War Powers Resolution legal challenge — Congress response to admin's 'terminated hostilities' claim","significance":"High","tag":"Geopolitical"},
+    {"date":"May 12","event":"CPI April — if >3.5%, hike probability from 9% accelerates; Fed Warsh inaugural meeting framing","significance":"High","tag":"Macro"},
+    {"date":"May 15","event":"Powell officially steps down as Fed Chair — Warsh era begins","significance":"High","tag":"Rates"},
+    {"date":"May 15","event":"Warsh first public statement as Chair — rate path signal, easing bias question","significance":"High","tag":"Rates"},
+    {"date":"May 21","event":"Berkshire Hathaway annual meeting (first without Buffett as CEO — Greg Abel)","significance":"Medium","tag":"Earnings"},
+    {"date":"Jun 2026","event":"WWDC — Apple AI strategy under incoming CEO Ternus; iOS 27 Siri AI reveal","significance":"High","tag":"Earnings"}
   ],
+
   "strategies": [
     {
-      "title": "Favor broadening over mega-cap-only beta",
-      "body": "The strongest message today was not simply tech strength; it was small-cap and cyclical participation alongside semis. Broadening leadership is healthier than another narrow AI-only chase.",
-      "trigger": "IWM and RSP continue outperforming SPY for multiple sessions.",
-      "confidence": "Medium",
-      "score": 76
-    },
-    {
-      "title": "Keep oil shock hedges active",
-      "body": "Equities can rally while oil falls from extremes, but Brent above $110 is still a macro tax. Energy exposure, inflation hedges, or tactical downside protection remain relevant until Hormuz risk fades.",
-      "trigger": "Brent holds above $110 or reclaims $120.",
+      "title": "Long enterprise software AI — TEAM, TWLO, FIVN, IGV",
       "confidence": "High",
-      "score": 82
+      "score": 91,
+      "body": "Atlassian, Twilio, and Five9 delivered the demand-side proof that was missing after Meta/MSFT's capex shock. Enterprise customers are signing larger, longer AI contracts. NER above 100% (Twilio 114%) means existing customers are expanding. AICS enterpriseSoftwareAIRevGrowth at 20.3% — strong and accelerating. This trade has more room as the market rotates from AI capex fear to AI revenue confirmation.",
+      "trigger": "Enterprise SaaS cohort revenue growth >15% for 2nd consecutive quarter"
     },
     {
-      "title": "Separate AI revenue winners from capex prisoners",
-      "body": "The AI trade is becoming more discriminating. Prefer companies converting cloud or infrastructure demand into visible revenue and margin support, while avoiding names where capex spend overwhelms the story.",
-      "trigger": "Cloud growth and backlog beat capex growth in earnings commentary.",
-      "confidence": "Medium",
-      "score": 79
+      "title": "Short duration / Long TIPS — stagflation + Fed transition hedge",
+      "confidence": "High",
+      "score": 86,
+      "body": "ISM Manufacturing 48.7 confirms goods deflation alongside PCE 3.5% services/energy inflation — stagflation in its purest form. Warsh transition adds a hike risk premium that was zero a week ago (9.1% hike probability now). 30Y at 4.95% still historically elevated. fedTransitionRisk at 74/100. Short TLT, long TIP, long BIL is the cleanest expression of this regime.",
+      "trigger": "May CPI >3.3% AND Warsh first statement removes easing bias"
     },
     {
-      "title": "Watch duration as the market\u2019s hidden veto",
-      "body": "The 30Y near 5% can cap multiples even when earnings are strong. A clean equity breakout is easier if the 10Y/30Y stop rising.",
-      "trigger": "10Y below 4.35% and 30Y below 4.90%.",
-      "confidence": "Medium",
-      "score": 70
+      "title": "Long AAPL — cook to Ternus transition de-risked, supply constraint is demand-positive",
+      "confidence": "High",
+      "score": 84,
+      "body": "Apple +3.24% gap confirms the market agrees: best March quarter ever, Q3 guide 14-17%, Services record $31B, supply constraints framed as demand exceeding supply. Memory crunch warning from Cook is a risk but Ternus is an operator's operator — product execution story likely strengthens not weakens. $100B buyback is a floor. 34x P/E supportable at 17% revenue growth.",
+      "trigger": "Q3 revenue guide maintained at 14-17% AND Services growth >12% in next quarter"
     },
     {
-      "title": "Use VIX compression carefully",
-      "body": "Lower VIX supports risk appetite, but geopolitics and oil create gap risk. Volatility dips may be better used for hedging than complacency.",
-      "trigger": "VIX below 17 while Brent stays above $110.",
+      "title": "Iran war options hedge — Brent put spreads for deal scenario, Brent calls for re-escalation",
       "confidence": "Medium",
-      "score": 68
+      "score": 68,
+      "body": "Iran sent an updated peace proposal today — the most concrete diplomatic movement since ceasefire. WTI at $101.94 is the lowest level since the blockade intensified. If a deal closes, Brent could fall to $85-90 quickly. If War Powers forces a US withdrawal, Brent could spike to $130+. A strangle structure (both puts and calls) captures either outcome. opecCohesionScore drop to 62 with UAE exit adds supply upside uncertainty to the put-side logic.",
+      "trigger": "Hormuz reopening confirmed OR War Powers Congressional resolution filed"
+    },
+    {
+      "title": "Monitor fedTransitionRisk — position for Warsh hike risk if CPI >3.5%",
+      "confidence": "Medium",
+      "score": 62,
+      "body": "New indicator fedTransitionRisk at 74. If May CPI prints above 3.5% at Warsh's first meeting (June), the 9.1% hike probability could jump to 25-30%. Short 2Y Treasuries and long USD would be the expression. This is a tail risk that the market has started pricing but not fully discounting. Warsh's public statements pre-confirmation have leaned hawkish on inflation.",
+      "trigger": "May CPI >3.5% AND Warsh public statement signals neutral-to-hike bias within 30 days of confirmation"
     }
   ],
+
   "sources": [
-    {
-      "name": "Reuters Global Markets Wrap",
-      "type": "news",
-      "note": "Global cross-asset market narrative for April 30, including oil pullback, yen intervention, and equity rally.",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-04-30/"
-    },
-    {
-      "name": "Reuters Oil Report",
-      "type": "news",
-      "note": "Brent and WTI settlement levels, intraday oil spike, and Hormuz disruption context.",
-      "url": "https://www.reuters.com/business/energy/oil-retreats-after-hitting-four-year-high-concern-us-iran-war-escalation-2026-04-30/"
-    },
-    {
-      "name": "Reuters Wall Street Wrap",
-      "type": "news",
-      "note": "U.S. equity close, earnings drivers, and market breadth context.",
-      "url": "https://www.reuters.com/business/wall-street-futures-mixed-oil-spike-overshadows-tech-earnings-strength-2026-04-30/"
-    },
-    {
-      "name": "U.S. Treasury Daily Treasury Par Yield Curve Rates",
-      "type": "official data",
-      "note": "Official Treasury curve rates for April 30 and April 29, 2026.",
-      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
-    },
-    {
-      "name": "AP Major U.S. Index Close",
-      "type": "news/data",
-      "note": "S&P 500, Dow, Nasdaq, and Russell 2000 close and daily change.",
-      "url": "https://apnews.com/article/4e1442eeb72e72fc921e6804287d2b89"
-    },
-    {
-      "name": "AP Market Rally Wrap",
-      "type": "news",
-      "note": "Month-end stock rally, oil whipsaw, and key earnings movers.",
-      "url": "https://apnews.com/article/42120b305ce6298712931e79b66a20de"
-    },
-    {
-      "name": "Reuters Jobless Claims",
-      "type": "macro data/news",
-      "note": "Initial jobless claims fell to 189,000 for the week ending April 25.",
-      "url": "https://www.reuters.com/business/us-weekly-jobless-claims-decrease-labor-market-conditions-remain-stable-2026-04-30/"
-    },
-    {
-      "name": "AP GDP and Inflation Report",
-      "type": "macro data/news",
-      "note": "Q1 GDP growth, consumer spending, and inflation context.",
-      "url": "https://apnews.com/article/2e09bd656cd8ad1f9999c3cb7aac75e1"
-    },
-    {
-      "name": "AP PCE Inflation Report",
-      "type": "macro data/news",
-      "note": "March PCE inflation and core PCE readings.",
-      "url": "https://apnews.com/article/5c2037950e57d8e5d402a40b8fc41384"
-    },
-    {
-      "name": "Reuters Alphabet Earnings",
-      "type": "earnings/news",
-      "note": "Google Cloud growth, AI demand, capex, and backlog details.",
-      "url": "https://www.reuters.com/business/alphabets-cloud-unit-beats-quarterly-revenue-estimates-strong-ai-demand-2026-04-29/"
-    },
-    {
-      "name": "AP Amazon Earnings",
-      "type": "earnings/news",
-      "note": "AWS growth and Amazon AI investment context.",
-      "url": "https://apnews.com/article/5c2356e39214d3d4a4949b63027a3c43"
-    },
-    {
-      "name": "MarketWatch AWS Live Coverage",
-      "type": "earnings/news",
-      "note": "AWS annualized run-rate revenue and 28% year-over-year growth detail.",
-      "url": "https://www.marketwatch.com/livecoverage/amazon-earnings-stock-results-aws-guidance-ai/card/aws-has-annualized-run-rate-revenue-of-150-billion-jassy-says-6hd3tf1RVSVBFQpXsjGx"
-    },
-    {
-      "name": "Barron's Microsoft Earnings",
-      "type": "earnings/news",
-      "note": "Azure growth, capex pressure, and investor reaction.",
-      "url": "https://www.barrons.com/articles/microsoft-earnings-stock-price-1750a2b4"
-    },
-    {
-      "name": "Business Insider Qualcomm Earnings",
-      "type": "earnings/news",
-      "note": "Qualcomm hyperscaler AI chip deal and semiconductor sentiment.",
-      "url": "https://www.businessinsider.com/qualcomm-earnings-qcom-stock-chip-deal-hyperscaler-ai-datacenter-2026-4"
-    },
-    {
-      "name": "Yahoo Finance Market Data",
-      "type": "market data",
-      "note": "ETF and crypto prices for SPY, QQQ, DIA, IWM, SOXX, UUP, GLD, USO, BNO, TLT, and BTC.",
-      "url": "https://finance.yahoo.com/"
-    },
-    {
-      "name": "Investing.com VIX Historical Data",
-      "type": "market data",
-      "note": "VIX close, high, low, and daily change for April 30, 2026.",
-      "url": "https://www.investing.com/indices/volatility-s-p-500-historical-data"
-    },
-    {
-      "name": "Investing.com Gold Futures Historical Data",
-      "type": "market data",
-      "note": "Gold futures price context for April 30, 2026.",
-      "url": "https://www.investing.com/commodities/gold-historical-data"
-    }
+    {"name":"Yahoo Finance","type":"Market closes — confirmed EOD S&P 7,230.12, Nasdaq 25,114.44, Dow 49,499.27, Russell 2,812.82, VIX 16.99","note":"All closes confirmed post-market","url":"https://finance.yahoo.com"},
+    {"name":"CNBC Markets","type":"Market narrative, earnings, Iran, Fed, oil","note":"May 1 live blog and breaking news","url":"https://www.cnbc.com/2026/04/30/stock-market-today-live-updates.html"},
+    {"name":"TheStreet","type":"Stock Market Today May 1 live blog — intraday and close detail","note":"Confirmed Russell 2,812.82, Dow -0.31%, Roblox -24% premarket","url":"https://www.thestreet.com/latest-news/stock-market-today-may-1-2026-updates"},
+    {"name":"Motley Fool","type":"Market summary May 1 — closes and narrative","note":"Confirmed Atlassian +29.6%, Twilio +23.8%","url":"https://www.fool.com/coverage/stock-market-today/2026/05/01/"},
+    {"name":"Federal Reserve H.15","type":"Yield curve — Apr 30 official close used as current (May 1 pending)","note":"All 8 tenors confirmed. Apr 29 as prior.","url":"https://www.federalreserve.gov/releases/h15/"},
+    {"name":"CNBC — Oil / Iran","type":"Brent $108.17 close, WTI $101.94 close, Iran peace proposal confirmed","note":"Pakistan mediators confirmed delivery of Iran proposal to US","url":"https://www.cnbc.com/2026/05/01/oil-prices-today-brent-wti-us-iran-war-trump-war-powers-deadline.html"},
+    {"name":"Trading Economics","type":"Brent and WTI intraday and close data","note":"Confirmed Brent below $110, WTI near $102 close","url":"https://tradingeconomics.com/commodity/brent-crude-oil"},
+    {"name":"SiliconANGLE","type":"Atlassian, Twilio, Five9 earnings detail","note":"Q3/Q1 beats, AI enterprise revenue growth rates, guidance raises","url":"https://siliconangle.com/2026/04/30/atlassian-soars-twilio-five9-rally-ai-adoption-powers-earnings-beats/"},
+    {"name":"CNBC — Exxon/Chevron","type":"Q1 earnings: XOM NI -45%, CVX NI -36%","note":"Iran war disrupting operations despite record oil prices","url":"https://www.cnbc.com/2026/05/01/exxon-xom-chevron-cvx-q1-2026-earnings.html"},
+    {"name":"CNBC — Fed/FOMC","type":"Powell final press conference, Warsh advancing, 4 dissenters","note":"8-4 decision, hike probability 9.1%, Powell term ends May 15","url":"https://www.cnbc.com/2026/04/29/fed-meeting-today-live-updates-warsh-powell.html"},
+    {"name":"Goldman Sachs","type":"Hormuz at 4% normal flow, AI capex $650B 2026","note":"Cited via CNBC oil coverage","url":"https://www.cnbc.com/2026/04/30/oil-prices-today-brent-wti-us-iran-war-trump.html"},
+    {"name":"ING Research","type":"UAE OPEC exit 'big blow', oil demand destruction structural","note":"Warren Patterson, Head of Commodities Strategy","url":"https://www.cnbc.com/2026/04/30/oil-prices-today-brent-wti-us-iran-war-trump.html"},
+    {"name":"CME FedWatch","type":"Rate hike probability 9.1% for December 2026 — up from 0%","note":"Derived from 30-day Fed Funds futures post-FOMC","url":"https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"}
   ]
 }
