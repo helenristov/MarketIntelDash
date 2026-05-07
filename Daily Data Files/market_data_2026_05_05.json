@@ -1,0 +1,342 @@
+{
+  "snapshotDate": "2026-05-05",
+  "lastUpdated": "May 5, 2026 — post-market, post-AMD earnings",
+  "disclaimer": "End-of-day snapshot compiled from public sources for informational purposes only — not validated for trading or investment decisions. Yield curve from Federal Reserve H.15 official May 5, 2026 release (confirmed published today).",
+
+  "marketPulse": "Full Rebound: S&P 500 and Nasdaq at New Records. Memory AI Confirmed. AMD Blows Out AH. Iran Truce Holds.",
+  "marketPulseSubtext": "S&P 500 +0.81% to 7,259.22 (new record), Nasdaq +1.03% to 25,326.13 (new record), Dow +0.73% to 49,298.25, Russell 2000 +1.75% to 2,845.00 — full reversal of Monday's Iran-driven selloff. Micron +11% on shipping the world's highest-capacity SSD; Intel +13% on Apple chip supply report; AMD +4% AH on massive Q1 blowout ($10.25B rev +38%, data center +57%, Q2 guide $11.2B vs $10.5B expected). One ship transited the Strait of Hormuz under US escort — first in weeks. Oil -3.5% to $102.68 (Brent), -3.5% WTI $102.68. VIX -5% to 17.38. Goldman Sachs: AI's impact on jobs still limited to tech sector. JPMorgan raised Royal Caribbean despite Iran headwinds.",
+
+  "topDriver": "Memory AI confirmation: Micron +11% shipping world's highest-capacity SSD, HBM sold out through 2026 — plus AMD Q1 blowout AH ($10.25B, data center +57%, Q2 guide $11.2B). AI hardware stack fully confirmed.",
+
+  "narrativeSummary": "May 5 delivered the cleanest single-session summary of the current AI regime yet. Monday's Iran-driven selloff was a one-day panic; Tuesday confirmed it was just that. The session was driven by two overlapping AI hardware confirmations that arrived simultaneously. First: Micron began shipping the 6600 ION SSD — the world's highest-capacity storage device — driving a 10%+ surge that pushed the stock past $700B market cap for the first time. Micron's HBM products are reportedly sold out through 2026. Second, after the bell, AMD reported Q1 revenues of $10.25B — $360M above the highest estimate — with data center revenue up 57% and a Q2 guide of $11.2B, $700M above the Street's $10.5B expectation. Lisa Su said AI infrastructure demand is 'accelerating.' The AI trade is no longer just about training compute (NVDA) — it now spans the full hardware stack: memory (MU), storage (MU), CPUs (INTC, AMD), and AI GPUs (NVDA). Intel's 13% surge on Apple chip supply reports completed the picture. On the geopolitical side, one ship successfully transited the Strait of Hormuz under US military escort — the first in weeks — removing some of Monday's acute tail risk. Oil fell 3.5%, VIX dropped 5%, and yields eased 2-3bps. The ceasefire is fragile but holding. Materials surged 2% as the Monday selloff reversed. Palantir -7% despite a record earnings beat illustrated the valuation risk in over-owned names. Shopify -15% on a Q1 miss showed consumer-facing software is under pressure even as infrastructure AI soars.",
+
+  "macroStressIndex": 68,
+  "macroStressIndexPrior": 70,
+  "macroStressLabel": "High",
+  "macroStressSubtext": "Iran truce holds + oil falls + records set; Hormuz still restricted, Warsh transition risk, ISM contraction keep regime elevated.",
+
+  "rateCurve": [
+    {"tenor":"1M",  "current":3.71, "prior":3.71},
+    {"tenor":"3M",  "current":3.70, "prior":3.68},
+    {"tenor":"6M",  "current":3.76, "prior":3.71},
+    {"tenor":"1Y",  "current":3.78, "prior":3.73},
+    {"tenor":"2Y",  "current":3.95, "prior":3.88},
+    {"tenor":"5Y",  "current":4.08, "prior":4.02},
+    {"tenor":"10Y", "current":4.45, "prior":4.39},
+    {"tenor":"30Y", "current":5.02, "prior":4.97}
+  ],
+  "rateCurveRead": "Yields moved sharply higher on May 5 — the 10Y rose 6bps to 4.45% and the 30Y crossed 5.00% to 5.02% for the first time since 2007, even as oil fell and the Iran truce held. The move reflects the JOLTS report (March job openings above estimates) and the continued backdrop of PCE 3.5%, ISM Manufacturing 48.7, and impending Fed transition to Warsh. The 2/10 spread widened to +50bps, the widest since 2022. The 30Y at 5.02% is a significant psychological and technical level — it reflects the fiscal risk premium that the bond market is demanding independent of the geopolitical de-escalation. The bear-steepener is structural, not transient. Source: Federal Reserve H.15, May 5, 2026 official release.",
+
+  "scenarios": [
+    {
+      "label": "Bear",
+      "title": "Iran ceasefire breaks, 30Y spikes past 5.25%, Warsh hike scenario activates",
+      "probability": 18,
+      "outcome": "Iran military exchanges resume, Hormuz re-closes fully, Brent back to $118+. 30Y yields hit 5.25%, equity multiple compression. AMD's Q2 guide met with skepticism if data centre demand hits supply constraints. S&P 500 falls back to 6,900-7,000.",
+      "trigger": "Confirmed ceasefire breach with Hormuz closure resuming AND 30Y > 5.20%"
+    },
+    {
+      "label": "Base",
+      "title": "AI hardware supercycle extends, Iran fragile truce holds, Warsh tone hawkish-neutral",
+      "probability": 57,
+      "outcome": "AMD Q2 confirms data center acceleration. Nvidia May 20 is the next major catalyst. Micron HBM sold-out dynamic drives memory prices higher. Iran truce holds but Hormuz remains restricted at low flow. S&P consolidates 7,200-7,500. 10Y holds 4.30-4.55% range.",
+      "trigger": "Nvidia May 20 data center beat AND Iran no major ceasefire violation in 2 weeks"
+    },
+    {
+      "label": "Bull",
+      "title": "Hormuz reopens, Nvidia blowout, Warsh signals optionality",
+      "probability": 25,
+      "outcome": "Iran deal finalised, full Hormuz reopening, oil collapses to $80s. Nvidia confirms the AI demand story on May 20. Warsh inaugural June 17 statement signals data-dependent neutrality rather than hike bias. S&P 500 to 7,800+. Full risk rally including laggards: energy, EM, small caps.",
+      "trigger": "Hormuz full reopening AND Nvidia data center rev > $45B in Q1"
+    }
+  ],
+
+  "flows": [
+    {
+      "asset": "Semiconductors — SOXX, SMH, MU, INTC, AMD",
+      "direction": "Inflow",
+      "size": "+$4.1B",
+      "note": "Micron +11% on 6600 ION SSD launch, HBM sold out through 2026. Intel +13% on Apple supply report. AMD +4% AH on data center +57%. Largest single-day semiconductor ETF inflow in weeks. Bloomberg Global Memory Index +500% over past year.",
+      "significance": "High"
+    },
+    {
+      "asset": "Mega-cap Tech / Nasdaq proxies — QQQ, XLK",
+      "direction": "Inflow",
+      "size": "+$2.9B",
+      "note": "Nasdaq +1.03% to new record 25,326.13. Full reversal of Monday's Iran selloff. Tech best S&P sector +2%. QQQ posting 4th record close in 5 sessions.",
+      "significance": "High"
+    },
+    {
+      "asset": "Materials — XLB, steel, copper",
+      "direction": "Inflow",
+      "size": "+$1.1B",
+      "note": "Second best sector at +2% as Monday selloff reversed. Copper bounced back above 50/100d MA after testing it Monday. AI infrastructure buildout driving structural metals demand.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Energy — XLE, oil futures",
+      "direction": "Outflow",
+      "size": "-$1.4B",
+      "note": "Oil -3.5% on Hormuz ship transit and ceasefire holding. XLE reversed Monday's spike. Structural supply shock intact but acute ceasefire fear fading. Rotation away from energy accelerating.",
+      "significance": "High"
+    },
+    {
+      "asset": "Short-duration Treasuries — SHY, BIL",
+      "direction": "Inflow",
+      "size": "+$1.8B",
+      "note": "JOLTS above estimates keeps Fed on hold confirmed. 5.2% yield still dominant cash-parking destination. Warsh June 17 meeting anxiety adding to bill demand. fedTransitionRisk elevated at 74.",
+      "significance": "High"
+    },
+    {
+      "asset": "Long-duration Bonds — TLT, EDV",
+      "direction": "Outflow",
+      "size": "-$1.2B",
+      "note": "30Y crossing 5.00% triggered fresh selling. Fiscal risk premium rising independent of Iran de-escalation. Stagflation regime + Warsh hawkish-leaning = structural long-end headwind.",
+      "significance": "High"
+    },
+    {
+      "asset": "Consumer-facing Software — SHOP, RBLX",
+      "direction": "Outflow",
+      "size": "-$0.6B",
+      "note": "Shopify -15% on Q1 miss. Roblox down again on guidance cut hangover. Consumer-facing software diverging from infrastructure AI — same pattern as META vs GOOGL in prior week.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Bitcoin / Crypto",
+      "direction": "Inflow",
+      "size": "+$0.8B",
+      "note": "Bitcoin +1.49% to $81,457. Stablecoin Clarity Act compromise (Senators Tillis and Alsobrooks) advancing in Senate added regulatory tailwind. Crypto tracking risk-on broadly.",
+      "significance": "Low"
+    }
+  ],
+  "flowsRead": "May 5 flows are the clearest expression yet of the AI hardware supercycle trade. The dominant inflow — $4.1B into semiconductors — reflects the full AI hardware stack being confirmed simultaneously: Micron (memory/storage), Intel (CPUs), AMD (GPU/CPU convergence). This is the trade rotating away from the AI narrative layer (Meta, MSFT) and toward the hardware reality layer (MU, INTC, AMD, and NVDA on May 20). Energy outflows of $1.4B reversed Monday's spike as the ceasefire held and oil fell. Long-duration bond outflows of $1.2B are the most worrying signal — the 30Y crossing 5.00% was not a panic move but a steady repricing of fiscal risk independent of inflation. The bond market is telling a structural story that equities are not yet pricing.",
+
+  "indicators": {
+    "brentWTISpread": 5.90,
+    "hormuzclosurePct": 12,
+    "tankerRatePremium": 128,
+    "futuresBackwardationBp": 720,
+    "cloudGrowthRate": 63,
+    "aiRevCapexRatio": 0.88,
+    "earningsRevisionTrend": 80,
+    "corePCETrend": 3.2,
+    "gdpGrowthEstimate": 2.0,
+    "realWageYoY": -0.7,
+    "creditTighteningScore": 52,
+    "advDecRatio": 1.64,
+    "newHiLoRatio": 3.4,
+    "capVsEqualWeightBp": 14,
+    "pctAbove50dMA": 67,
+    "opecCohesionScore": 60,
+    "fedTransitionRisk": 74,
+    "enterpriseSoftwareAIRevGrowth": 22.1
+  },
+
+  "topThemes": [
+    {
+      "direction": "Leadership",
+      "theme": "AI hardware supercycle confirmed — Micron 6600 ION SSD ships, HBM sold out 2026, AMD data center +57%, Intel +13% on Apple",
+      "impact": "The full AI hardware stack is now confirmed and in motion. Memory (MU HBM), storage (MU 6600 ION), CPUs (INTC Apple deal, AMD), AI GPUs (AMD MI series, NVDA May 20). AMD Q2 guide $11.2B is $700M above estimates — data center acceleration is not decelerating. Bloomberg Global Memory Index +500% over past year.",
+      "strength": 96,
+      "tags": ["MU","INTC","AMD","SOXX","AI hardware","HBM","Data center"]
+    },
+    {
+      "direction": "Risk-Off",
+      "theme": "Iran ceasefire fragile — first Hormuz ship transit in weeks, but truce contested",
+      "impact": "One ship transited Hormuz under US escort — first since blockade intensified. Ceasefire 'tenuous' per Schwab. Monday's missile exchanges (Iran fired on US warships, US destroyed 6 Iranian boats) revealed ceasefire is contested. Hegseth: 'world needs US leadership to secure Hormuz.' OGPI easing from 79 to ~70 but structural supply shock intact.",
+      "strength": 72,
+      "tags": ["Iran","Hormuz","Ceasefire","Oil","OGPI","Project Freedom"]
+    },
+    {
+      "direction": "Macro Tightening",
+      "theme": "30Y crosses 5.00% — fiscal risk premium repricing independent of Iran de-escalation",
+      "impact": "30Y hit 5.02% today, highest since 2007, even as oil fell and equities rallied. Fiscal risk premium structural: JOLTS above estimates, PCE 3.5%, Warsh June 17 meeting looming with 9.1% hike probability. Bond market and equity market telling different stories. Bear-steepener extending: 2/10 spread +50bps.",
+      "strength": 80,
+      "tags": ["30Y","Rates","Warsh","Fiscal","Stagflation","JOLTS"]
+    },
+    {
+      "direction": "Rotation",
+      "theme": "Infrastructure AI vs consumer-facing software bifurcation deepens — Shopify -15%, Palantir -7%",
+      "impact": "Shopify Q1 miss -15% and Palantir -7% despite earnings beat (valuation too extended) are extending the same bifurcation from prior week: AI picks up where user-facing revenue is direct and measurable. Consumer-facing software (SHOP, RBLX, META) underperforming infrastructure AI (MU, INTC, AMD, GOOGL, CAT).",
+      "strength": 74,
+      "tags": ["SHOP","PLTR","SaaS bifurcation","AI infrastructure vs software"]
+    },
+    {
+      "direction": "Data",
+      "theme": "JOLTS above estimates — labor market tight, Fed on hold confirmed for June 17 Warsh debut",
+      "impact": "March JOLTS job openings above consensus reinforces the stagflation read: labour market too hot for Warsh to cut at his first meeting. Goldman: AI's impact on jobs 'still limited to tech sector.' June 17 markets as first Warsh tone-setting event. fedTransitionRisk holds at 74.",
+      "strength": 65,
+      "tags": ["JOLTS","Fed","Warsh","Labour","Goldman Sachs","June 17"]
+    }
+  ],
+
+  "crossMarket": [
+    {"market":"S&P 500","risk":"Elevated","move":"7,259.22","trend":"↑ +0.81% new record","heat":58,"driver":"Third record close in five sessions. Full reversal of Monday's Iran-driven selloff. Tech +2% best sector. All sectors advanced. AMD AH blowout supports futures overnight.","source":"Yahoo Finance / Motley Fool"},
+    {"market":"Nasdaq Composite","risk":"Elevated","move":"25,326.13","trend":"↑ +1.03% new record","heat":62,"driver":"Nasdaq extended record run to 25,326 on semiconductor dominance. Micron +11%, Intel +13%, AMD +4% day + AH surge. Memory AI trade becoming the primary Nasdaq driver after GOOGL cloud last week.","source":"Yahoo Finance / TheStreet"},
+    {"market":"Dow Jones","risk":"Watch","move":"49,298.25","trend":"↑ +0.73% reclaiming 49K","heat":50,"driver":"Dow reclaimed 49K after Monday's selloff. CAT +3.19% leading again on AI power demand. 19 of 30 holdings green. UPS edged higher on recovery bid after -10.5% Monday Amazon scare.","source":"Yahoo Finance / TheStreet"},
+    {"market":"Russell 2000","risk":"Watch","move":"2,845.00","trend":"↑ +1.75% new intraday record","heat":56,"driver":"Russell set a new intraday record, confirming breadth expansion is genuine. 1,401 of ~1,900 holdings advancing. Small caps pricing in Iran resolution optionality faster than large caps.","source":"Yahoo Finance / TheStreet"},
+    {"market":"VIX","risk":"Watch","move":"17.38","trend":"↓ -4.98% fear fading","heat":38,"driver":"VIX fell 5% as ceasefire held and Hormuz ship transit removed the acute tail risk from Monday. Below 18 signals near-term calm. AMD AH beat removes overnight negative catalyst.","source":"Yahoo Finance"},
+    {"market":"Micron (MU)","risk":"Watch","move":"+10.95%","trend":"↑ SSD launch + HBM sold out","heat":82,"driver":"Micron began shipping the 6600 ION SSD — world's highest-capacity storage device — today. HBM products reportedly sold out through 2026. Surpassed $700B market cap. Up ~700% over past year. HBM demand from AI training and inference both accelerating. Fitch credit upgrade supportive.","source":"CNBC / Motley Fool / TheStreet"},
+    {"market":"Intel (INTC)","risk":"Watch","move":"+12.93%","trend":"↑ Apple chip supply report","heat":80,"driver":"Bloomberg reported Apple has held early-stage discussions with Intel and Samsung about manufacturing main processors for Apple devices in the US. Intel's foundry narrative re-rated dramatically. All-time high. Direct beneficiary of Apple memory crunch resolution strategy.","source":"TheStreet / Bloomberg"},
+    {"market":"AMD (AH)","risk":"Watch","move":"+4-5% AH","trend":"↑ data center blowout","heat":78,"driver":"Q1: $10.25B rev (+38%, $360M beat), EPS $1.37 (beat $1.29), data center +57% YoY. Q2 guide $11.2B vs $10.5B expected — +7% beat. EBITDA $2.75B, 24.7% beat. FCF margin 25% (vs 9.8% year ago). Lisa Su: 'accelerating demand for AI infrastructure.' Stock +4.2% to $370.68 AH.","source":"CNBC / Investing.com / FinancialContent"},
+    {"market":"Palantir (PLTR)","risk":"Elevated","move":"-6.85%","trend":"↓ valuation compression despite beat","heat":62,"driver":"Reported record revenue and earnings beat but fell 7% on valuation concerns and competition. Extended multiple cannot sustain disappointment in forward expectations. Classic case of 'buy the rumour, sell the fact' at high multiples. Warning for other high-multiple AI names.","source":"TheStreet / Motley Fool"},
+    {"market":"Shopify (SHOP)","risk":"Elevated","move":"-15.85%","trend":"↓ Q1 miss","heat":70,"driver":"Q1 miss on revenue and guidance. Consumer-facing e-commerce under pressure despite AI integration narrative. Confirms the bifurcation: infrastructure AI rewarded, consumer-facing software punished. Second major consumer software miss after Roblox last week.","source":"Motley Fool / Yahoo Finance"},
+    {"market":"Intel (INTC)","risk":"Watch","move":"+12.93%","trend":"↑ all-time high","heat":80,"driver":"Apple chip supply discussion confirms US semiconductor reshoring narrative. Intel foundry 2.0 strategy gaining credibility. The stock's near-700% run over past year now has a concrete near-term catalyst — Apple A-series chip production partnership discussions.","source":"Bloomberg / TheStreet"},
+    {"market":"Brent Crude","risk":"High","move":"$110.08","trend":"↓ -1.8% on Hormuz ship transit","heat":68,"driver":"One vessel transited Hormuz under US Navy escort ('Project Freedom') for the first time since blockade intensified. Brent eased 1.8%. Structural supply shock intact — Goldman: Hormuz at 4% normal flow. Trump maintaining blockade as negotiating leverage.","source":"Yahoo Finance / Trading Economics"},
+    {"market":"WTI Crude","risk":"High","move":"$102.68","trend":"↓ -3.5% ceasefire holding","heat":66,"driver":"WTI -3.5% as ceasefire held overnight without incident after Monday's missile exchanges. US military destroyed 6 Iranian small boats in retaliation. 'Project Freedom' escort mission operational. War Powers Resolution 60-day clock still active.","source":"Yahoo Finance / CNBC"},
+    {"market":"10Y Treasury","risk":"Elevated","move":"4.45%","trend":"↑ +6bp JOLTS-driven","heat":65,"driver":"JOLTS March job openings above estimates drove 10Y to 4.45%. 30Y crossed 5.00% to 5.02% — highest since 2007. Fiscal risk premium repricing independent of Iran de-escalation. Bear-steepener structural. Warsh June 17 debut the next major rates event.","source":"Federal Reserve H.15 May 5, 2026"},
+    {"market":"Gold","risk":"Watch","move":"$4,567.80","trend":"↑ +0.76%","heat":52,"driver":"Gold bounced back above $4,500 level after Monday's selloff. Stagflation + fiscal risk premium + Warsh uncertainty supporting gold thesis. Real 10Y TIPS at 1.95% still competes but geopolitical premium maintains bid.","source":"Yahoo Finance"},
+    {"market":"Bitcoin","risk":"Watch","move":"$81,457.40","trend":"↑ +1.49% Clarity Act tailwind","heat":44,"driver":"Bitcoin continued strength as Stablecoin Clarity Act compromise advanced in Senate (Senators Tillis and Alsobrooks). Political tailwind for crypto regulation clarity. Bitcoin broke $80K twice on Monday — holding gains in volatile session.","source":"TheStreet / NYSE commentary"}
+  ],
+
+  "sectorHeat": [
+    {"sector":"Technology","heat":78,"trend":"↑ AI hardware supercycle","driver":"Micron +11%, Intel +13%, AMD +4% day. Nasdaq record. Best S&P sector +2%."},
+    {"sector":"Materials","heat":68,"trend":"↑ rebound from Monday","driver":"Copper back above 50/100d MA. Steel recovering. AI infrastructure buildout structural metals demand."},
+    {"sector":"Industrials","heat":60,"trend":"↑ CAT leading","driver":"CAT +3.19% on AI power demand. Dow reclaimed 49K. Industrial AI demand story intact."},
+    {"sector":"Financials","heat":55,"trend":"↑ modest","driver":"Cboe vol volumes elevated. JPMorgan analyst notes active. Credit spreads easing slightly."},
+    {"sector":"Energy","heat":68,"trend":"↓ ceasefire easing","driver":"Oil -3.5%. XLE reversing Monday spike. Hormuz ship transit reduced acute supply fear."},
+    {"sector":"Consumer Disc.","heat":62,"trend":"↓ Shopify drags","driver":"Shopify -15.85% on Q1 miss dominated sector. Consumer-facing software underperforming infrastructure."},
+    {"sector":"Healthcare","heat":50,"trend":"→ quiet","driver":"Pfizer reported in line. No major catalyst. Defensive rotation muted on risk-on day."},
+    {"sector":"Communication Svcs","heat":58,"trend":"↑ modest","driver":"No major catalyst. Roblox overhang lingering. Alphabet steady after last week's blowout."},
+    {"sector":"AI Infrastructure","heat":88,"trend":"↑ full stack confirmed","driver":"Memory, storage, CPU, GPU all confirmed in one session. MU + INTC + AMD = full hardware stack."}
+  ],
+
+  "drivers": [
+    {
+      "name": "AI Hardware Full Stack Confirmed — Memory, Storage, CPU all firing simultaneously",
+      "linked": "MU, INTC, AMD, SOXX, AICS",
+      "source": "CNBC, Motley Fool, Bloomberg, Investing.com",
+      "confidence": "High",
+      "score": 95,
+      "detail": "May 5 is the day the AI hardware supercycle confirmed its breadth. Three simultaneous data points: Micron launched the 6600 ION — world's highest-capacity SSD — and reported HBM sold out through 2026 (+11%); Intel surged 13% on Apple chip supply discussions, validating the US semiconductor reshoring narrative; AMD after the bell reported $10.25B revenue (+38%), data center +57%, Q2 guide $11.2B vs $10.5B expected (+24.7% EBITDA beat). The Bloomberg Global Memory Index is up 500% over the past year. AICS aiRevCapexRatio now 0.88, approaching the 1.0 parity threshold. UBS sees server CPU TAM growing from $30B (2025) to $170B (2030). Nvidia May 20 is the next confirmation event."
+    },
+    {
+      "name": "Iran Ceasefire Fragile But Holding — First Hormuz Ship Transit Under US Escort",
+      "linked": "Brent, WTI, XLE, OGPI, hormuzclosurePct",
+      "source": "CNBC, Schwab Market Update, Charles Schwab, NYSE Commentary",
+      "confidence": "Medium",
+      "score": 74,
+      "detail": "One ship successfully transited the Strait of Hormuz under US Navy escort ('Project Freedom') — the first since the blockade intensified. The ceasefire held overnight despite Monday's exchanges (Iran fired on US warships, US destroyed 6 Iranian small boats). hormuzclosurePct upgraded from 4% to 12% — still critically low but the directional signal is positive. Hegseth said the world needs American leadership to secure Hormuz and the US hopes Iran will reach a deal. Goldman maintains Hormuz at 4% normal flow structurally. The Iran peace proposal (sent via Pakistan mediators) is still on the table — Trump 'not satisfied' but back-channel active."
+    },
+    {
+      "name": "30Y Treasury Crosses 5.00% — Fiscal Risk Premium Now Structural",
+      "linked": "TLT, 30Y, 10Y, SPI, fedTransitionRisk",
+      "source": "Federal Reserve H.15 official May 5, 2026",
+      "confidence": "High",
+      "score": 80,
+      "detail": "The 30Y Treasury yield crossed 5.02% today — the first time since 2007 — even as oil fell and equities rallied. This decoupling is the key signal: the long-end selloff is no longer just about energy inflation. It is a fiscal risk premium repricing driven by the combination of: a PCE stuck at 3.5%, a Fed in transition (Warsh June 17), a JOLTS labour market above estimates, and growing concern about the US fiscal trajectory. The 2/10 spread at +50bps is the widest since 2022. Bear-steepener is structural, not transient. TLT outflow of $1.2B confirms institutional positioning."
+    },
+    {
+      "name": "Valuation Warning — Palantir -7% on Earnings Beat Shows Over-Owned Risk",
+      "linked": "PLTR, SHOP, high-multiple AI names",
+      "source": "TheStreet, Motley Fool",
+      "confidence": "High",
+      "score": 68,
+      "detail": "Palantir reported record revenue and an earnings beat — and fell 7%. Shopify missed Q1 and fell 15.8%. These are the mirror images of the AI bifurcation: infrastructure AI rewarded, consumer-facing and over-valued AI punished. Palantir's multiple had run too far for even a clean beat to sustain. This is a forward warning for other high-multiple AI names ahead of Nvidia (May 20) — the beat needs to be massive, not just clean, to avoid a 'sell the news' reaction at 30-40x forward multiples."
+    },
+    {
+      "name": "JOLTS Above Estimates — March Job Openings Confirm Labour Market Too Tight for Warsh to Cut",
+      "linked": "2Y, SHY, SPI, fedTransitionRisk",
+      "source": "Bureau of Labor Statistics, Schwab Market Update",
+      "confidence": "High",
+      "score": 72,
+      "detail": "March JOLTS job openings came in above consensus — confirming the labour market is structurally tight even as manufacturing enters contraction (ISM 48.7). Goldman Sachs research: AI's impact on jobs 'still limited to tech sector.' The broader economy is creating jobs; it's the tech layer being restructured. This combination — tight labour, sticky inflation, manufacturing contraction — is the textbook stagflation triplet. Warsh's June 17 inaugural meeting will face this backdrop. fedTransitionRisk holds at 74."
+    }
+  ],
+
+  "risks": [
+    {
+      "title": "30Y above 5.00% — fiscal risk premium repricing could trigger equity multiple compression",
+      "level": "High",
+      "desc": "The 30Y at 5.02% is the highest since 2007 and is rising independently of the Iran narrative. If this move continues — driven by fiscal concerns, Warsh hawkishness, or a PCE surprise — it will eventually collide with equity valuations at 25-30x forward earnings. The S&P 500 at 7,259 implies ~29x 2026 EPS. A 30Y at 5.25%+ would make that multiple very difficult to sustain."
+    },
+    {
+      "title": "Ceasefire fragility — Monday's missile exchanges show how quickly truce can break",
+      "level": "High",
+      "desc": "Monday's events (Iran fired on US warships, US destroyed 6 Iranian small boats, oil spiked 5%) happened within hours and reversed Tuesday. The speed of reversal is both reassuring and alarming — markets can go from +1% to -1% on a single headline. The ceasefire has no formal mechanism and is described as 'tenuous' by both sides. Any escalation to critical infrastructure targeting would spike Brent to $125+ immediately."
+    },
+    {
+      "title": "Nvidia May 20 earnings — high-multiple valuation requires a massive beat, not just a clean one",
+      "level": "Elevated",
+      "desc": "Palantir's -7% on a clean earnings beat is the warning shot. Nvidia at ~35x forward earnings requires a blowout — data center revenue likely needs to exceed $45B with a Q2 guide above $50B to sustain the current multiple. AMD's Q2 guide of $11.2B (vs $10.5B expected) sets the benchmark for what a 'proper' beat looks like. A merely good Nvidia print could trigger a 5-10% pullback in the semiconductor complex."
+    },
+    {
+      "title": "Shopify + Palantir divergence — consumer-facing software under real pressure",
+      "level": "Elevated",
+      "desc": "Two high-profile software names missed or disappointed on May 5. Shopify -15.8% on Q1 miss confirms that consumer-facing e-commerce and software are not benefiting from AI tailwinds yet. Palantir -7% on a beat shows valuation has run ahead of fundamentals. This extends the week's pattern: infrastructure AI is the only AI trade working right now. Software that is AI-adjacent but not AI-infrastructure is at risk."
+    },
+    {
+      "title": "GameStop-eBay bid — corporate governance and M&A quality risk",
+      "level": "Medium",
+      "desc": "GameStop submitted an unsolicited $56B offer to acquire eBay at $125/share in cash and stock. The deal is logically incoherent — a physical game retail business offering $56B for an e-commerce platform using its own stock as currency. eBay stock rose but GME fell 10% on the proposal. The offer signals GameStop is burning cash without a viable digital strategy. More broadly, the bid raises questions about the quality of M&A activity when cash-flush meme stocks attempt transformative deals."
+    }
+  ],
+
+  "timeline": [
+    {"time":"Pre-market","headline":"Hormuz ship transit confirmed under US Navy escort — first since blockade intensified","effect":"Oil futures fell 2% pre-market on the news. Equity futures reversed Monday's losses immediately. 'Project Freedom' escort mission declared operational."},
+    {"time":"09:14","headline":"Schwab Market Update: ceasefire holds, AMD earnings after close the key event","effect":"Set the session framing: rebound day, Iran noise absorbed, focus shifts to AI hardware earnings. Palantir beat noted but valuation concern flagged."},
+    {"time":"09:30","headline":"Market opens: semiconductors lead, Micron up double-digits on 6600 ION SSD launch","effect":"Micron's 6600 ION SSD — world's highest-capacity storage device — began shipping today. HBM sold out through 2026 headline. Chip sector +2% from the open."},
+    {"time":"10:00","headline":"JOLTS March job openings above consensus","effect":"Labour market confirmation: too tight for Warsh to cut at June 17 inaugural meeting. 10Y yield edged higher. Short-end Treasuries still in demand at 5.2% yield."},
+    {"time":"10:30","headline":"Intel +13% all-time high — Bloomberg: Apple in chip supply discussions with Intel and Samsung","effect":"Intel foundry 2.0 narrative fully re-rated. Apple memory crunch resolution strategy adds credibility. US semiconductor reshoring trade activated."},
+    {"time":"14:00","headline":"30Y Treasury crosses 5.00% for first time since 2007","effect":"Fiscal risk premium signal flashing. 30Y at 5.02% independent of oil/Iran narrative. TLT outflows accelerating. Bond market and equity market diverging."},
+    {"time":"16:00","headline":"S&P 500 closes at 7,259.22, Nasdaq 25,326.13 — both new records. Russell +1.75% intraday record.","effect":"Full reversal of Monday's selloff. All sectors advanced. Best single-session breadth since April 30. AMD AH earnings now the overnight catalyst."},
+    {"time":"16:30","headline":"AMD Q1: $10.25B rev (+38%), data center +57%, Q2 guide $11.2B vs $10.5B expected. Stock +4.2% AH.","effect":"Clean blowout on every metric. EBITDA beat 24.7%. FCF margin 25%. Lisa Su: 'accelerating demand for AI infrastructure.' Confirms AMD is in the same capex-return trade as Alphabet Cloud. AI hardware supercycle AH confirmation."}
+  ],
+
+  "watchpoints": [
+    {"date":"May 7","event":"Kevin Warsh Senate confirmation vote — full Senate floor vote expected","significance":"High","tag":"Rates"},
+    {"date":"May 12","event":"CPI April — if >3.5% accelerates Warsh hike probability toward 20%+","significance":"High","tag":"Macro"},
+    {"date":"May 15","event":"Powell officially steps down as Fed Chair — Warsh era begins, first public statement expected","significance":"High","tag":"Rates"},
+    {"date":"May 17","event":"Walmart Q1 earnings — consumer health read in oil-shock environment","significance":"Medium","tag":"Earnings"},
+    {"date":"May 20","event":"Nvidia Q1 earnings — the definitive AI demand confirmation event. Data center needs >$45B to hold current multiple.","significance":"High","tag":"AI"},
+    {"date":"Jun 17","event":"First FOMC meeting under Kevin Warsh — rate decision and tone-setting statement. Markets pricing 9.1% hike probability.","significance":"High","tag":"Rates"},
+    {"date":"Jun 2026","event":"SpaceX IPO filing — likely within 2 weeks per Motley Fool. Largest IPO since Saudi Aramco potentially.","significance":"High","tag":"Equities"},
+    {"date":"Jun 2026","event":"WWDC — Apple AI strategy reveal under incoming CEO Ternus. iOS 27 / Siri AI.","significance":"Medium","tag":"Earnings"}
+  ],
+
+  "strategies": [
+    {
+      "title": "Long AI hardware full stack — MU, INTC, AMD, SOXX pre-Nvidia May 20",
+      "confidence": "High",
+      "score": 93,
+      "body": "The full AI hardware stack is now confirmed: Micron (memory/storage), Intel (CPU/foundry), AMD (GPU/CPU convergence), with Nvidia (GPU training) May 20 as the final piece. AICS aiRevCapexRatio 0.88 approaching parity. HBM sold out through 2026. AMD Q2 guide implies 50%+ data center growth continuing. UBS server CPU TAM growing to $170B by 2030. The risk: Palantir showed that a clean beat at high multiples doesn't sustain. A massive beat from Nvidia is required.",
+      "trigger": "AMD Q2 confirms data center >$6.5B AND Micron HBM allocation extends into 2027"
+    },
+    {
+      "title": "Short TLT / Long TIPS — 30Y at 5.02% structural fiscal repricing",
+      "confidence": "High",
+      "score": 86,
+      "body": "30Y crossed 5.00% today independent of oil and Iran. This is fiscal risk premium + stagflation + Warsh transition. Short TLT at 5.02% 30Y yield is structurally attractive — the downside is a rapid Iran deal (Brent collapses, PCE falls) but even then the fiscal risk premium remains. TIPS capture both scenarios: if inflation stays elevated they win on real yield, if Iran resolves they win on declining nominal yields.",
+      "trigger": "30Y > 5.00% sustained for 5 sessions AND Warsh removes easing bias at June 17"
+    },
+    {
+      "title": "Nvidia May 20 position — size down pre-earnings given Palantir warning",
+      "confidence": "Medium",
+      "score": 68,
+      "body": "Palantir's -7% on a clean beat is the template for what happens to high-multiple AI names that don't massively outperform. Nvidia at 35x forward needs data center revenue well above $45B AND a Q2 guide above $50B to sustain. AMD's $11.2B Q2 guide (vs $10.5B expected) sets the bar for what a proper beat looks like — Nvidia needs to clear it by more. Prudent to reduce position size into May 20 and re-add post-print if guide is strong.",
+      "trigger": "Nvidia data center rev > $45B with Q2 guide > $50B"
+    },
+    {
+      "title": "Iran optionality — long Brent puts for deal scenario, portfolio hedge",
+      "confidence": "Medium",
+      "score": 65,
+      "body": "Brent at $110 with one ship transiting Hormuz and a peace proposal on the table is materially lower than Monday's $118 spike. If a deal closes, Brent could fall to $85-90 within days. Put spreads on XLE or BZ=F capture the deal upside cleanly. The hedge: if Iran ceasefire breaks again, long Brent exposure provides the portfolio offset. opecCohesionScore at 60 (UAE exit) means OPEC can't defend price if Hormuz reopens.",
+      "trigger": "Pakistan-mediated Iran-US agreement signed AND Hormuz formal reopening declared"
+    }
+  ],
+
+  "sources": [
+    {"name":"Yahoo Finance","type":"Confirmed EOD closes: S&P 7,259.22, Nasdaq 25,326.13, Dow 49,298.25, Russell 2,845.00, VIX 17.38, Gold $4,567.80, BTC $81,457.40, WTI $102.68","note":"All closes confirmed post-market May 5","url":"https://finance.yahoo.com/markets/stocks/live/stock-market-today-sp-500-nasdaq-notch-fresh-records-as-tech-leads-markets-higher-oil-falls-233125994.html"},
+    {"name":"Motley Fool","type":"S&P/Nasdaq/Dow/Russell confirmed closes, Micron catalyst, Shopify, Palantir, AMD AH","note":"Comprehensive same-day close article","url":"https://www.fool.com/coverage/stock-market-today/2026/05/05/stock-market-today-may-5-stocks-rebound-as-u-s-iran-truce-holds/"},
+    {"name":"TheStreet","type":"Intraday live blog — Micron +11%, Intel +13%, AMD preview, GameStop-eBay","note":"May 5 2026 live updates confirmed","url":"https://www.thestreet.com/latest-news/stock-market-today-may-5-2026-updates"},
+    {"name":"Federal Reserve H.15","type":"Yield curve — official May 5, 2026 release confirmed. All 8 tenors: 1M 3.71% through 30Y 5.02%","note":"30Y 5.02% highest since 2007","url":"https://www.federalreserve.gov/releases/h15/"},
+    {"name":"CNBC","type":"AMD Q1 earnings: $10.25B rev, EPS $1.37, data center +57%, Q2 guide $11.2B","note":"Confirmed post-market May 5","url":"https://www.cnbc.com/2026/05/05/amd-q1-2026-earnings-report.html"},
+    {"name":"Investing.com","type":"AMD Q1 detail: EBITDA $2.75B (+24.7% beat), FCF margin 25%, Lisa Su quote","note":"Full Q1 breakdown confirmed","url":"https://www.investing.com/news/earnings/amd-stock-rises-after-hours-as-quarterly-results-guidance-beat-estimates-4660754"},
+    {"name":"Bloomberg / TheStreet","type":"Apple-Intel chip supply discussions — Intel all-time high catalyst","note":"Bloomberg broke the story, TheStreet confirmed market reaction","url":"https://www.thestreet.com/latest-news/stock-market-today-may-5-2026-updates"},
+    {"name":"Charles Schwab Market Update","type":"Ceasefire narrative, Hormuz ship transit, JOLTS preview, AMD preview","note":"Morning update confirmed ceasefire holding and ship transit","url":"https://www.schwab.com/learn/story/stock-market-update-open"},
+    {"name":"NYSE Commentary","type":"Session narrative — Iran ceasefire, oil, yields, materials rebound","note":"NYSE market commentary May 5 2:15pm ET","url":"https://www.nyse.com/index"},
+    {"name":"Goldman Sachs","type":"AI impact on jobs still limited to tech sector; Hormuz 4% normal flow","note":"Cited via Schwab Market Update and prior CNBC coverage","url":"https://www.schwab.com/learn/story/stock-market-update-open"},
+    {"name":"JPMorgan","type":"Royal Caribbean price target cut to $341, maintained overweight — 'geopolitical trifecta' of headwinds","note":"JPM analyst Matthew Boss note cited via CNBC ceasefire coverage","url":"https://www.cnbc.com/2026/04/07/stock-market-today-live-updates.html"},
+    {"name":"Trading Economics","type":"Brent crude $110.08 close, WTI $102.68 close confirmed","note":"Daily commodity closes May 5","url":"https://tradingeconomics.com/commodity/brent-crude-oil"}
+  ]
+}
