@@ -1,0 +1,341 @@
+{
+  "snapshotDate": "2026-05-07",
+  "lastUpdated": "May 7, 2026 — post-market, ceasefire breach developing AH",
+  "disclaimer": "End-of-day snapshot compiled from public sources for informational purposes only — not validated for trading or investment decisions. Yield curve from Federal Reserve H.15 official May 7, 2026 release. Iran Qeshm Port strike developing post-close — situation fluid.",
+
+  "marketPulse": "Reversal: Iran Strikes Qeshm Port, Ceasefire Breach Declared. Semis Finally Buckle. Russell -1.74%. Datadog +29% Lone Bright Spot.",
+  "marketPulseSubtext": "S&P 500 -0.38% to 7,337.11, Nasdaq -0.13% to 25,806.20, Dow -0.63% to 49,596.97, Russell 2000 -1.74% to 2,836.80 — snapping all-time high streaks. Every major sector declined, led by Energy -1.95% and Industrials -1.66%. Late-session catalyst: US military struck Iran's Qeshm Port and Bandar Abbas — Iran declared a ceasefire violation. Oil reversed from session lows, Brent closed at $100.06, WTI $94.81. Datadog +29% was the session's standout on a 43% EPS beat. Rackspace +63% on AMD partnership. ARM -6% on chip supply concerns. Broadcom -4% on $18B chip deal financing complexity. US Trade Court ruled Trump's 10% global tariff unconstitutional. Jobless claims 200K (below 206K estimate). AH: Airbnb +8%, Expedia +7%, Block +5%. Iran Qeshm situation still developing.",
+
+  "topDriver": "US strikes Iran's Qeshm Port late session — Iran declares ceasefire breach, oil spikes, all indices reverse from morning highs. Market paid the price for pricing in a peace deal that isn't signed.",
+
+  "narrativeSummary": "May 7 was the session where the market discovered it had priced in a peace deal that doesn't exist yet. The day started with genuine momentum — futures were up, Iran was reviewing a 14-point US proposal, jobless claims came in below estimates at 200K, and Datadog exploded 29% on a 43% EPS beat. The morning looked like a consolidation after five record sessions. Then the afternoon arrived. US military struck Iran's Qeshm Port and Bandar Abbas — Fox News confirmed via a senior US official who said the strikes 'do not mean a restarting of the war.' Iran's armed forces spokesperson immediately declared a ceasefire violation, saying US forces hit civilian areas 'with cooperation of some regional countries.' Iran responded with attacks on US military vessels east of the Strait and south of Chabahar port. Commercial vessel traffic through Hormuz dropped to one of its lowest points ever in the past 48 hours. The impact was immediate: oil reversed from session lows (WTI had been near $93), Brent closed at $100.06, every sector turned red. The Russell 2000 led the decline at -1.74% as industrials, energy, and healthcare — its primary exposures — all sold off. The Dow fell 313 points on CAT -3.37% and JPMorgan -2.74%. Semiconductors buckled for the first time in weeks — ARM -6% on chip supply concerns (Arm's own Q1 FY27 guide implied a slowdown), Broadcom -4% on a report that its $18B chip deal requires Microsoft to buy 40% of output. Apple touched an all-time intraday high of $290.33 but could not hold gains. A US Trade Court ruling striking down Trump's 10% global tariff added an unexpected legal complication — though it will face appeal. The post-close picture was more complicated: Airbnb, Expedia, and Block all reported strong AH beats, and the diplomatic track remains open with Iran still 'reviewing messages' via Pakistani mediators.",
+
+  "macroStressIndex": 68,
+  "macroStressIndexPrior": 58,
+  "macroStressLabel": "High",
+  "macroStressSubtext": "Iran strikes Qeshm Port, declares ceasefire breach — MSI snaps back from Elevated to High. Situation fluid post-close.",
+
+  "rateCurve": [
+    {"tenor":"1M",  "current":3.70, "prior":3.70},
+    {"tenor":"3M",  "current":3.69, "prior":3.69},
+    {"tenor":"6M",  "current":3.74, "prior":3.75},
+    {"tenor":"1Y",  "current":3.73, "prior":3.77},
+    {"tenor":"2Y",  "current":3.87, "prior":3.93},
+    {"tenor":"5Y",  "current":3.99, "prior":4.08},
+    {"tenor":"10Y", "current":4.36, "prior":4.43},
+    {"tenor":"30Y", "current":4.94, "prior":4.98}
+  ],
+  "rateCurveRead": "Yields fell sharply across the curve on May 7 as the morning session priced in an Iran deal — the 10Y dropped to 4.36% (-7bps from May 6's 4.43%) and the 30Y retreated to 4.94% as oil's decline removed energy inflation premium from the long end. The 2Y fell 6bps to 3.87%, the most aggressive since the April ceasefire, as markets priced a more dovish Warsh on lower inflation. However the late-day Qeshm Port strike will partially reverse this overnight — expect the 10Y to open higher on Friday. The 2/10 spread compressed to +49bps from +50bps. Jobless claims 200K (below 206K estimate) and productivity +0.8% (below 1.1% estimate) were both supportive of a soft-landing narrative — before the evening's events. Source: Federal Reserve H.15, May 7, 2026 official release.",
+
+  "scenarios": [
+    {
+      "label": "Bear",
+      "title": "Ceasefire fully collapses — Iran formally ends truce, Brent back to $115+",
+      "probability": 22,
+      "outcome": "Iran formally declares end of ceasefire in response to Qeshm strikes. Brent spikes to $115-120. VIX jumps to 25+. S&P falls 4-6% in a single session. 30Y re-tests 5.05%. Semiconductor rally reverses violently. Warsh inherits a stagflation crisis.",
+      "trigger": "Iran formally ends ceasefire AND Brent closes above $115 on consecutive sessions"
+    },
+    {
+      "label": "Base",
+      "title": "Ceasefire holds despite Qeshm — strikes contained, diplomacy resumes, Iran deal delayed not dead",
+      "probability": 52,
+      "outcome": "US insists strikes are not a ceasefire restart. Iran issues strong condemnation but maintains back-channel. Deal delayed by 2-4 weeks. Oil bounces to $100-108 range. Markets consolidate at lower levels. Nvidia May 20 becomes the next definitive catalyst. S&P holds 7,200-7,400.",
+      "trigger": "Iran does not formally end ceasefire AND Pakistani mediators resume active talks within 72 hours"
+    },
+    {
+      "label": "Bull",
+      "title": "Qeshm de-escalated, deal signed within a week on accelerated terms",
+      "probability": 26,
+      "outcome": "Both sides accept the Qeshm strikes were a targeted operation not a ceasefire breach. Deal accelerates — 14-point framework signed. Hormuz reopens. WTI falls to $85. Inflation resolves rapidly. Warsh signals neutral stance June 17. S&P to 7,700+.",
+      "trigger": "Iran formally accepts US explanation AND 14-point framework signed within 7 days"
+    }
+  ],
+
+  "flows": [
+    {
+      "asset": "Cloud / AI Software — DDOG, SaaS ETFs",
+      "direction": "Inflow",
+      "size": "+$1.8B",
+      "note": "Datadog +29% on 43% EPS beat and FY guide raise to $4.30-4.34B. Cloud AI monitoring and observability thesis confirmed. Enterprise software AI trade back in focus after Shopify miss last week.",
+      "significance": "High"
+    },
+    {
+      "asset": "Short-duration Treasuries — SHY, BIL",
+      "direction": "Inflow",
+      "size": "+$2.1B",
+      "note": "Iran ceasefire uncertainty drove safety demand. Jobless claims 200K below estimates, but Qeshm strike reversed the morning's risk-on. Cash parking at 5.2% yield remains dominant institutional positioning.",
+      "significance": "High"
+    },
+    {
+      "asset": "Semiconductors — SOX, ARM, AVGO",
+      "direction": "Outflow",
+      "size": "-$1.4B",
+      "note": "ARM -6% on chip supply concerns (FY27 Q1 guide implied slowdown). Broadcom -4% on $18B deal financing complexity requiring MSFT commitment. First meaningful semi outflow in two weeks. Rev Shark had warned SOX moves were becoming 'too obvious.'",
+      "significance": "High"
+    },
+    {
+      "asset": "Energy — XLE, Brent futures",
+      "direction": "Outflow then Inflow",
+      "size": "~flat",
+      "note": "Oil fell to session lows near $93 WTI in morning on Iran deal optimism, then reversed sharply on Qeshm strikes. XLE ended net flat on the day as the two moves offset. The volatility itself was the signal.",
+      "significance": "High"
+    },
+    {
+      "asset": "Industrials — XLI, CAT",
+      "direction": "Outflow",
+      "size": "-$1.1B",
+      "note": "XLI -1.66%, worst sector after energy. CAT -3.37% led Dow declines. The AI power demand thesis intact but profit-taking accelerated after the record week. JPMorgan -2.74% also weighed on Dow.",
+      "significance": "High"
+    },
+    {
+      "asset": "Travel / Consumer — ABNB, EXPE",
+      "direction": "Inflow",
+      "size": "+$0.6B",
+      "note": "Airbnb +8% and Expedia +7% after-hours beats on strong travel demand. Bookings resilient despite oil shock — high-income consumer still travelling. K-shaped economy trade evident in travel stocks.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Long-duration Bonds — TLT",
+      "direction": "Inflow",
+      "size": "+$1.2B",
+      "note": "Yields fell sharply on Iran deal optimism in the morning (10Y to 4.36%, 30Y to 4.94%). TLT inflow meaningful. Qeshm strike will partially reverse this overnight — mixed Friday open expected for bonds.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Gold — GLD",
+      "direction": "Inflow",
+      "size": "+$0.7B",
+      "note": "Gold maintained gains above $4,700 as the Qeshm strike reintroduced geopolitical risk premium. Gold bid on both Iran scenarios: deal = dollar weakness; no deal = safe haven. Unique positioning.",
+      "significance": "Medium"
+    }
+  ],
+  "flowsRead": "May 7 flows are dominated by two countervailing forces: the morning's Iran-deal optimism (bonds up, oil down, semis digesting) and the afternoon's Qeshm reversal (energy volatility, industrials selling, safety buying). The clearest signal is the semiconductor outflow — the first meaningful one in two weeks. ARM and Broadcom provided the specific catalysts, but the broader message is that the SOX trade needed a pause after a parabolic run. Datadog's $1.8B inflow confirms that enterprise cloud AI is now a separate trade from hardware AI — and it's working. Short-duration Treasuries at $2.1B inflow is the institutional read: no one is willing to be long duration overnight with Qeshm developing.",
+
+  "indicators": {
+    "brentWTISpread": 5.25,
+    "hormuzclosurePct": 8,
+    "tankerRatePremium": 122,
+    "futuresBackwardationBp": 640,
+    "cloudGrowthRate": 63,
+    "aiRevCapexRatio": 0.91,
+    "earningsRevisionTrend": 84,
+    "corePCETrend": 3.2,
+    "gdpGrowthEstimate": 2.0,
+    "realWageYoY": -0.5,
+    "creditTighteningScore": 50,
+    "advDecRatio": 0.86,
+    "newHiLoRatio": 1.9,
+    "capVsEqualWeightBp": -8,
+    "pctAbove50dMA": 64,
+    "opecCohesionScore": 60,
+    "fedTransitionRisk": 70,
+    "enterpriseSoftwareAIRevGrowth": 24.6
+  },
+
+  "topThemes": [
+    {
+      "direction": "Shock",
+      "theme": "US strikes Qeshm Port — Iran declares ceasefire violation, Hormuz traffic at lowest point ever",
+      "impact": "US military struck Qeshm Port and Bandar Abbas late session. Iran declared ceasefire breach and responded with attacks on US vessels near Chabahar. Commercial Hormuz traffic at lowest point ever (CNN). Oil reversed intraday. The 14-point deal framework is not dead but delayed. Diplomatic back-channel remains open via Pakistan. Situation fluid post-close.",
+      "strength": 90,
+      "tags": ["Iran","Qeshm","Ceasefire","Hormuz","Oil","Reuters","Fox News","CNN"]
+    },
+    {
+      "direction": "Leadership",
+      "theme": "Datadog +29% — enterprise cloud AI monetisation accelerating, 43% EPS beat, FY guide to $4.30-4.34B",
+      "impact": "Datadog Q1: revenue $1.006B (+32%), EPS $0.60 vs $0.42 (43% beat), FCF $289M. Largest single-day stock gain in 6 years. FY guide raised to $4.30-4.34B vs $4.09B expected. Enterprise AI observability and monitoring is a direct pick from the AI infrastructure build. Rackspace +63% on AMD enterprise cloud partnership extends the theme.",
+      "strength": 86,
+      "tags": ["DDOG","Datadog","Cloud AI","Enterprise","RXT","AMD","Observability"]
+    },
+    {
+      "direction": "Rotation",
+      "theme": "Semis finally buckle — ARM -6% supply concern, Broadcom -4% deal financing, first SOX pause in weeks",
+      "impact": "ARM fell 6% as investors focused on the Q1 FY27 guide implying a sequential slowdown and chip supply constraints. Broadcom -4% after The Information reported its OpenAI chip deal requires Microsoft to buy 40% of output to finance the $18B first phase. First meaningful semiconductor rotation in two weeks — potentially healthy consolidation before Nvidia May 20.",
+      "strength": 74,
+      "tags": ["ARM","AVGO","SOX","Semiconductors","Broadcom","MSFT","Supply constraints"]
+    },
+    {
+      "direction": "Data",
+      "theme": "Tariff court ruling — US Trade Court strikes down Trump's 10% global tariff as unconstitutional",
+      "impact": "A US Trade Court ruled against Trump's 10% global tariff in a significant legal setback. The administration will appeal and the tariff likely stays in place pending the appeal, but the ruling introduces legal uncertainty into the trade policy framework that markets had largely stopped pricing. Possible relief for importing companies and consumers if upheld on appeal.",
+      "strength": 68,
+      "tags": ["Tariffs","Trade Court","Trump","Trade policy","Legal risk"]
+    },
+    {
+      "direction": "Macro Tightening",
+      "theme": "Jobless claims 200K below 206K estimate — labour market still tight, but Qeshm overshadowed everything",
+      "impact": "Initial claims 200K, below 206K consensus. Continuing claims fell 10K to 1.77M. Labour market still historically tight — stagflation regime intact. Productivity +0.8% (below 1.1% estimate) signals growth softening. Unit labour costs +2.3% (above 1.6% estimate) means wages running hot. Before the Iran news, this was shaping as a mixed but manageable macro day.",
+      "strength": 60,
+      "tags": ["Jobless claims","Labour market","Productivity","Unit labour costs","SPI"]
+    }
+  ],
+
+  "crossMarket": [
+    {"market":"S&P 500","risk":"Elevated","move":"7,337.11","trend":"↓ -0.38% off record","heat":60,"driver":"Retreated from intraday record on Qeshm strike. Every sector negative. Energy -1.95% and Industrials -1.66% the worst. Apple touched all-time intraday high $290.33 but could not hold. Market paid the price for pricing in an unsigned peace deal.","source":"CNBC / TheStreet"},
+    {"market":"Nasdaq Composite","risk":"Elevated","move":"25,806.20","trend":"↓ -0.13% modest decline","heat":55,"driver":"Held up relatively well — tech and communication services were the only two sectors with any strength. Datadog +29% the standout. ARM -6% and Broadcom -4% partially offset. Nasdaq's resilience confirms the AI software trade is uncorrelated to Iran noise.","source":"Yahoo Finance / TheStreet"},
+    {"market":"Dow Jones","risk":"Elevated","move":"49,596.97","trend":"↓ -313 pts -0.63%","heat":60,"driver":"CAT -3.37% led Dow declines as the industrials profit-taking continued after the record week. JPMorgan -2.74% also weighed. Dow briefly touched 49,200 at session lows before recovering. 50K milestone further away after two consecutive down days.","source":"TheStreet / CNBC"},
+    {"market":"Russell 2000","risk":"Elevated","move":"2,836.80","trend":"↓ -1.74% worst index","heat":66,"driver":"Russell the biggest decliner — fresh off all-time high just one day ago. Industrials, energy, and healthcare — its primary exposures — all sold off hard. 856 holdings declining. The small-cap breadth story reversed quickly when Iran re-escalated.","source":"TheStreet"},
+    {"market":"VIX","risk":"Elevated","move":"~18.5","trend":"↑ rising on Iran","heat":52,"driver":"VIX rose on the Qeshm strike developing post-session. Started the day near 17 but reversed higher as Iran declared ceasefire breach. A Brent spike Friday morning would push VIX toward 20-22.","source":"Yahoo Finance / Estimated"},
+    {"market":"Datadog (DDOG)","risk":"Watch","move":"+28-29%","trend":"↑ blowout beat","heat":82,"driver":"Q1 revenue $1.006B (+32%), EPS $0.60 vs $0.42 (43% beat), FCF $289M. FY guide $4.30-4.34B vs $4.09B expected. Largest single-day gain in 6 years. CEO Olivier Pomel: 'strong quarter with 32% revenue growth.' Enterprise cloud AI observability is a direct pick-and-shovel AI play.","source":"Datadog IR / Yahoo Finance / Bloomberg"},
+    {"market":"Rackspace (RXT)","risk":"Watch","move":"+63%","trend":"↑ AMD partnership","heat":78,"driver":"Announced multiyear strategic partnership with AMD to develop enterprise AI cloud for regulated and sovereign workloads. MOU signed. AMD enterprise AI cloud extends the semiconductor company's reach into the services layer. Rackspace transforms from legacy hosting to AI cloud provider.","source":"TheStreet"},
+    {"market":"Arm Holdings (ARM)","risk":"Elevated","move":"-6%","trend":"↓ chip supply concern","heat":64,"driver":"Initially rose on Wednesday's record Q4 results but sold off Thursday on concerns about chip supply constraints for the new AGI CPU and a Q1 FY27 guide ($1.26B midpoint) implying sequential revenue deceleration from $1.49B. Manufacturing pivot risk as first-in-35-years chip faces supply ramp challenges.","source":"Yahoo Finance / CNBC"},
+    {"market":"Broadcom (AVGO)","risk":"Elevated","move":"-4%","trend":"↓ deal financing complexity","heat":62,"driver":"The Information reported Broadcom's OpenAI chip deal requires MSFT to buy ~40% of output to finance the $18B first phase. If MSFT declines, financing terms change. Introduced execution risk into what had been seen as a clean AI infrastructure play.","source":"Yahoo Finance / The Information"},
+    {"market":"Apple (AAPL)","risk":"Watch","move":"touched $290.33 ATH","trend":"→ intraday record, closed lower","heat":58,"driver":"Apple touched all-time intraday high of $290.33 (above prior high of $288.62 from Dec 3, 2025) but failed to hold gains and closed lower on the day. RSI 71.8 — technically overbought. Up 48.3% YoY. Intel/Samsung chip supply discussions adding strategic optionality.","source":"CNBC"},
+    {"market":"Caterpillar (CAT)","risk":"Elevated","move":"-3.37%","trend":"↓ profit-taking + Iran","heat":62,"driver":"Led Dow declines as industrials gave back some of the massive record-week gains. AI power demand thesis intact but position size was extended. Iran Qeshm strike re-introduces supply chain risk for construction/energy equipment globally.","source":"TheStreet"},
+    {"market":"Airbnb (ABNB — AH)","risk":"Watch","move":"+8% AH","trend":"↑ strong bookings beat","heat":68,"driver":"Q1 revenue +18% YoY to $2.7B. Boosted 2026 revenue forecast after 'particularly strong' bookings. High-income travel demand resilient to oil shock. K-shaped economy: experiences over goods trade continues. Confirms Disney's strong parks result from yesterday.","source":"TheStreet"},
+    {"market":"Expedia (EXPE — AH)","risk":"Watch","move":"+7% AH","trend":"↑ travel demand resilient","heat":66,"driver":"Revenue +15% YoY, surpassing expectations for current and coming quarter despite 'tumultuous time for the travel market.' Same high-income consumer resilience trade as Airbnb and Disney parks.","source":"TheStreet"},
+    {"market":"Brent Crude","risk":"High","move":"$100.06","trend":"↑ off session lows on Qeshm","heat":72,"driver":"Brent reversed from session lows near $97 to close at $100.06 on Qeshm strike. WTI similarly reversed from near $93 to close at $94.81. The peace deal was being priced in — the ceasefire breach rapidly repriced it out. If Iran formally ends ceasefire Friday, Brent spikes to $110+.","source":"CNBC / Yahoo Finance"},
+    {"market":"WTI Crude","risk":"High","move":"$94.81","trend":"→ reversed off lows","heat":70,"driver":"WTI had traded as low as $93 during the morning session when Iran deal pricing was at its peak. Ended near $94.81 -0.28% as Qeshm repriced the market upward from its lows. JPMorgan: Hormuz standstill costing 13 million barrels/day of supply. US SPR releases cushioning paper prices vs physical.","source":"CNBC / JPMorgan"},
+    {"market":"10Y Treasury","risk":"Elevated","move":"4.36%","trend":"↓ -7bp on Iran deal optimism","heat":58,"driver":"The morning session priced a deal — 10Y fell to 4.36%, the lowest since early May. Qeshm will likely reverse some of this Friday. Jobless claims 200K and productivity +0.8% (both below estimates) suggest softening growth. fedTransitionRisk trimmed to 70 as deal optimism reduces Warsh hike case.","source":"Federal Reserve H.15 May 7, 2026"},
+    {"market":"Gold","risk":"Watch","move":"~$4,710","trend":"↑ both scenarios bullish","heat":58,"driver":"Gold maintained bid above $4,700 through the session. Qeshm strike reinforced safe-haven demand. Gold positioned to win both ways: Iran deal = dollar weakens = gold up; Iran escalation = risk-off = gold up. Unique asymmetric positioning.","source":"Yahoo Finance / Estimated"}
+  ],
+
+  "sectorHeat": [
+    {"sector":"Technology","heat":58,"trend":"↓ semis buckle","driver":"ARM -6%, AVGO -4%. First semi outflow in 2 weeks. Datadog +29% buffers the damage. AAPL touched ATH but closed lower."},
+    {"sector":"Energy","heat":72,"trend":"↓ then ↑ volatile","driver":"Session-low near $93 WTI reversed to $94.81 on Qeshm. XLE -1.95%. Oil geopolitical vol highest since May 4."},
+    {"sector":"Industrials","heat":68,"trend":"↓ -1.66% profit-taking + Iran","driver":"CAT -3.37%, JPM -2.74%. Record week gains partly reversed. AI power demand intact but position extended."},
+    {"sector":"Healthcare","heat":55,"trend":"↓ Russell drag","driver":"Healthcare weighed on Russell 2000. No specific catalyst. Defensive names sold in risk-on morning, not bought back in risk-off afternoon."},
+    {"sector":"Communication Svcs","heat":52,"trend":"→ mixed","driver":"Airbnb +8% AH buffers the day. Coinbase missed in crypto decline. Mixed sector — travel vs crypto split."},
+    {"sector":"Consumer Disc.","heat":60,"trend":"↑ travel beats","driver":"Airbnb and Expedia AH beats confirm high-income consumer spending on travel intact. Amazon -2% on Dow weighed during session."},
+    {"sector":"Financials","heat":55,"trend":"↓ JPM leads declines","driver":"JPMorgan -2.74% weighed on Dow. Wall Street pay up significantly in 2026 per Johnson Associates — but stock underperformed on Iran re-escalation."},
+    {"sector":"AI Software","heat":82,"trend":"↑ DDOG blowout","driver":"Datadog +29%, Rackspace +63%. Enterprise cloud AI monitoring and sovereign AI cloud both confirmed. Separate trade from hardware AI."}
+  ],
+
+  "drivers": [
+    {
+      "name": "Iran Qeshm Port Strikes — Ceasefire Breach Declared, Hormuz Traffic at Lowest Point Ever",
+      "linked": "Brent, WTI, OGPI, hormuzclosurePct, XLE",
+      "source": "Reuters, Fox News, CNN, MarketScreener",
+      "confidence": "High",
+      "score": 92,
+      "detail": "US military struck Iran's Qeshm Port and Bandar Abbas late in the trading session. A senior US official told Fox News the strikes 'do not mean a restarting of the war or an end to the ceasefire.' Iran's armed forces spokesperson declared a ceasefire violation and said Iran responded with attacks on US military vessels east of the Strait of Hormuz and south of Chabahar port. CNN reported commercial vessel Hormuz traffic dropped to one of its lowest points ever in the past 48 hours. The diplomatic track remains open — Iran is still 'reviewing messages' via Pakistani mediators and has not finalized its response to the 14-point US proposal. The market had started the day pricing in a deal; the Qeshm strike reversed that trade rapidly in the final hour. hormuzclosurePct downgraded from 20% back to 8%."
+    },
+    {
+      "name": "Datadog +29% — Enterprise Cloud AI Monitoring the Cleanest AI Pick-and-Shovel",
+      "linked": "DDOG, cloud AI, enterprise software, AICS",
+      "source": "Datadog IR press release, Yahoo Finance, Bloomberg",
+      "confidence": "High",
+      "score": 88,
+      "detail": "Datadog Q1 2026: revenue $1.006B (+32% YoY), EPS $0.60 vs $0.42 consensus (43% beat), operating cash flow $335M, FCF $289M. FY 2026 guide raised to $4.30-4.34B vs $4.09B expected — a 6%+ beat. Largest single-day gain in 6 years. CEO Olivier Pomel: '32% revenue growth, $335M operating cash flow.' Datadog's platform monitors and secures every component of the AI infrastructure stack — from GPU clusters to LLM APIs. As the AI hardware supercycle matures, observability becomes mandatory at scale. enterpriseSoftwareAIRevGrowth raised to 24.6% incorporating Datadog."
+    },
+    {
+      "name": "ARM and Broadcom Stumble — Supply Constraints and Deal Financing Complexity Introduce Execution Risk",
+      "linked": "ARM, AVGO, MSFT, OpenAI, SOX",
+      "source": "Yahoo Finance, The Information, CNBC",
+      "confidence": "High",
+      "score": 72,
+      "detail": "ARM fell 6% on two concerns: (1) Q1 FY27 revenue guide of $1.26B ($1.21-1.31B range) implies sequential deceleration from Q4's $1.49B as the licensing lumpy model means revenue won't be linear; (2) chip supply constraints for the new AGI CPU — ARM's first silicon in 35 years needs foundry capacity that is globally constrained. Broadcom fell 4% after The Information reported the $18B first phase of its OpenAI chip venture requires Microsoft to purchase approximately 40% of chips to make financing viable. If MSFT declines, Broadcom must finance the phase alone — a meaningful balance sheet commitment. Both stories introduce execution risk into what had been viewed as clean AI infrastructure plays."
+    },
+    {
+      "name": "US Trade Court Strikes Down 10% Global Tariff as Unconstitutional",
+      "linked": "Trade policy, import costs, S&P consumer sectors",
+      "source": "TheStreet, CNBC",
+      "confidence": "High",
+      "score": 66,
+      "detail": "A US Trade Court ruled against President Trump's 10% global tariff. The court found the tariff exceeded executive authority — the same legal argument that struck down the earlier Liberation Day tariffs at the Supreme Court. The administration will appeal immediately and the tariff likely remains in effect pending appeal, but the ruling introduces legal uncertainty. If upheld on full appeal, it would represent the most significant rollback of Trump's trade policy and could lower consumer goods prices materially — a positive for core PCE. Market reaction was muted as most assumed the tariff stays pending appeal."
+    },
+    {
+      "name": "Labour Market Resilience — Jobless Claims 200K (Below 206K) Amid Iran Chaos",
+      "linked": "SPI, realWageYoY, Fed, Warsh",
+      "source": "Department of Labor via CNBC",
+      "confidence": "High",
+      "score": 62,
+      "detail": "Initial jobless claims 200K for week ended May 2 — 6K below the 206K consensus, up 10K from prior week's revised level. Continuing claims fell 10K to 1.77M. Labour market remains historically tight. Productivity +0.8% (below 1.1% estimate) suggests growth softening. Unit labour costs +2.3% (above 1.6% estimate) — wages running hot relative to productivity, meaning wage inflation is structural. Warsh's June 17 debut will face a still-tight labour market regardless of where Iran goes."
+    }
+  ],
+
+  "risks": [
+    {
+      "title": "Iran ceasefire formally ends — Qeshm strikes are developing post-close, Friday open uncertain",
+      "level": "High",
+      "desc": "The most critical immediate risk. Iran's armed forces declared a ceasefire breach and responded with attacks on US vessels. If Iran's supreme leader formally ends the ceasefire Friday morning, Brent will open near $110-115. The US official insists the strikes were targeted and 'do not mean a restarting of the war' — but Iran's reading is different. The next 12-24 hours are the most geopolitically sensitive since May 4's Monday selloff."
+    },
+    {
+      "title": "Broadcom-OpenAI chip deal contingent on Microsoft — $18B first phase at risk if MSFT declines",
+      "level": "Elevated",
+      "desc": "The Information's report that Broadcom's $18B chip deal requires Microsoft to purchase ~40% of output introduces a key dependency: if MSFT declines (prioritising its $190B capex programme over new chip commitments), Broadcom must finance the phase alone or restructure the deal. This is a large-scale version of the same capex-without-visible-demand concern that punished Meta. The deal was announced as a major AI infrastructure milestone — contingency disclosure changes the risk profile."
+    },
+    {
+      "title": "ARM sequential guide-down — manufacturing pivot risk as first chip in 35 years faces supply ramp",
+      "level": "Elevated",
+      "desc": "ARM's Q1 FY27 guide ($1.26B) implies a sequential step-down from Q4's $1.49B. The licensing model is inherently lumpy, so this may be a timing issue — but it also reflects the reality that the AGI CPU chip manufacturing programme is early-stage. Morgan Stanley's Equal-Weight downgrade (despite raising PT to $150) had flagged this risk: 'near-term risks as Arm transitions into chip manufacturing.' At 100x+ forward earnings, any guidance miss is deeply punished."
+    },
+    {
+      "title": "Russell 2000 -1.74% — small-cap breadth reversing sharply on Iran re-escalation",
+      "level": "Elevated",
+      "desc": "The Russell's -1.74% was the worst single-day decline among major indices, erasing most of the all-time high gain from yesterday. Small caps are more exposed to Iran through: (1) energy cost pass-through (thinner margins), (2) industrial supply chain disruption, (3) healthcare cost inflation. The breadth expansion story of the past week just took a one-day reversal — if Qeshm develops further Friday, the Russell could extend its decline significantly."
+    },
+    {
+      "title": "Gas prices $4.56/gallon national average — political pressure building on Trump from both parties",
+      "level": "Medium",
+      "desc": "National average gas prices hit $4.56/gallon on Thursday — up from $2.98/gallon before the Iran war. NPR/PBS/Marist poll: 81% of Americans feel major or minor household budget strain from fuel prices. 63% blame Trump (including 32% of Republicans). Political cost of the Iran war is now showing up in polls and could pressure the administration toward a faster deal or domestic energy response. California at $6.01/gallon. Social pressure is an accelerant for diplomacy."
+    }
+  ],
+
+  "timeline": [
+    {"time":"08:30","headline":"Jobless claims 200K (below 206K estimate) — labour market still tight","effect":"Supported the morning's mild risk-on mood. Productivity +0.8% below estimate and unit labour costs +2.3% above estimate reinforced the stagflation reading but not dramatically enough to derail the session."},
+    {"time":"09:00","headline":"Iran reviewing 14-point US proposal, expected to respond by end of day via Pakistani mediators","effect":"Set deal optimism tone for the morning session. Oil fell toward $93 WTI. Indices opened higher. The 14-point framework reportedly includes Hormuz reopening and a moratorium on nuclear enrichment."},
+    {"time":"09:30","headline":"Market opens cautiously higher — ARM -6% and Broadcom -4% on supply and deal concerns offset Datadog +29%","effect":"Semiconductors finally paused their parabolic run. Datadog's 43% EPS beat was the session's bright spot. The divergence — hardware AI pausing, software AI accelerating — is the new AI trade structure."},
+    {"time":"10:30","headline":"US Trade Court rules Trump's 10% global tariff unconstitutional","effect":"Largely absorbed — administration will appeal, tariff likely stays. But the legal uncertainty added to the cautious mood. Same constitutional challenge that struck down Liberation Day tariffs."},
+    {"time":"12:00","headline":"Apple touches all-time intraday high of $290.33 — RSI overbought at 71.8","effect":"Briefly positive for indices but AAPL couldn't hold. The RSI overbought signal flagged by CNBC ahead of time proved accurate. Stock closed lower on the day."},
+    {"time":"15:00","headline":"Iran had not yet responded to 14-point proposal — US patience wearing thin","effect":"Market began to lose confidence in a same-day deal announcement. Indices drifted lower. The morning's optimism faded. Oil edged back up from lows."},
+    {"time":"16:00 (approx)","headline":"US military strikes Iran's Qeshm Port and Bandar Abbas — Fox News confirms via senior official","effect":"Oil reversed sharply from session lows. Brent closed $100.06, WTI $94.81. All indices extended session declines. Russell 2000 led the selloff. Iran immediately declared ceasefire violation."},
+    {"time":"Post-close","headline":"Iran declares ceasefire breach; Airbnb +8%, Expedia +7%, Block +5% on strong AH beats","effect":"The positive AH earnings (travel demand resilient) contrast with the Iran escalation creating a binary Friday setup: if Iran formally ends ceasefire, Brent $110+; if back-channel holds, travel/AI beats dominate the narrative."}
+  ],
+
+  "watchpoints": [
+    {"date":"May 8","event":"Iran formal response to Qeshm strikes — will they end ceasefire? Critical 12-24 hour window","significance":"High","tag":"Geopolitical"},
+    {"date":"May 8","event":"Friday oil open — Brent above or below $105 will set the week's close tone. Sub-$100 = deal on; above $105 = escalation repricing","significance":"High","tag":"Energy"},
+    {"date":"May 9","event":"Iranian formal response to US 14-point peace proposal via Pakistani mediators — most critical diplomatic moment yet","significance":"High","tag":"Geopolitical"},
+    {"date":"May 12","event":"CPI April — first inflation print with partial WTI sub-$95 pricing. If headline <3.2%, Warsh hike prob collapses","significance":"High","tag":"Macro"},
+    {"date":"May 15","event":"Powell steps down, Warsh era begins — first statement tone critical for June 17 expectations","significance":"High","tag":"Rates"},
+    {"date":"May 20","event":"Nvidia Q1 earnings — AI hardware supercycle definitive test. Data center >$45B required","significance":"High","tag":"AI"},
+    {"date":"May 21","event":"Berkshire Hathaway AGM — Greg Abel first meeting as CEO","significance":"Medium","tag":"Earnings"},
+    {"date":"Jun 17","event":"First FOMC under Warsh — June 17 is the rates event of the quarter","significance":"High","tag":"Rates"}
+  ],
+
+  "strategies": [
+    {
+      "title": "Long enterprise cloud AI software — DDOG, SaaS picks decoupled from Iran noise",
+      "confidence": "High",
+      "score": 88,
+      "body": "Datadog's 43% EPS beat and 6% FY guide raise confirm enterprise cloud AI monitoring is a structural growth trade independent of Iran, hardware supply constraints, or semi valuations. The pick-and-shovel analogy is exact: as AI models proliferate, observability, security, and monitoring become mandatory at every enterprise. enterpriseSoftwareAIRevGrowth now 24.6%, the best reading in the cycle. Rackspace +63% on AMD partnership extends the sovereign and regulated cloud angle.",
+      "trigger": "Enterprise AI monitoring revenue growth >20% for 2 consecutive quarters"
+    },
+    {
+      "title": "Iran binary position — long Brent puts (deal) AND long XLE calls (escalation)",
+      "confidence": "High",
+      "score": 82,
+      "body": "The Qeshm strike creates a clean binary: either Iran formally ends the ceasefire (Brent $110-120, XLE spikes) or the back-channel absorbs it and the deal proceeds (Brent $85-90, XLE collapses). Both tails are large. A strangle on energy captures either outcome. The cost of the strangle is the premium — at current implied vol, the oil-price range is wide enough that both legs are in-the-money at their respective extremes.",
+      "trigger": "Iran formal ceasefire declaration OR 14-point framework signed"
+    },
+    {
+      "title": "Reduce ARM — supply ramp risk and sequential guide-down at 100x forward earnings",
+      "confidence": "Medium",
+      "score": 70,
+      "body": "ARM's -6% day on the Q1 FY27 guide is a warning. The $1.26B Q1 FY27 midpoint is a 15% sequential decline from Q4's $1.49B. Even if that's licensing timing, it gives bears ammunition at 100x+ forward P/E. The manufacturing pivot to the AGI CPU is the right strategy long-term but introduces execution risk that wasn't priced in at $237. Morgan Stanley's Equal-Weight at $150 PT is not entirely wrong. Trim to a smaller position ahead of the supply ramp.",
+      "trigger": "ARM Q1 FY27 guidance confirmed below $1.3B AND foundry capacity update at investor day"
+    },
+    {
+      "title": "Long TLT — if Iran deal closes, 10Y could fall to 3.9-4.0% rapidly",
+      "confidence": "Medium",
+      "score": 68,
+      "body": "With the 10Y at 4.36% and WTI near $95, the math for a rapid rate rally is compelling if Iran formally signs: WTI falls to $80-85, PCE trend falls toward 2.8-2.9%, Warsh's June 17 inaugural statement shifts from hawkish to neutral, and the fiscal risk premium partially compresses. TLT at 4.36% 10Y offers 6-8% total return to 3.8-4.0%. The risk is obvious — Qeshm could spike oil and rates overnight.",
+      "trigger": "Formal Iran peace agreement signed AND WTI sustained below $90"
+    }
+  ],
+
+  "sources": [
+    {"name":"CNBC","type":"Confirmed S&P 7,337.11, Nasdaq 25,806.20, Dow 49,596.97 closes. Qeshm strikes, Iran ceasefire breach, Apple ATH $290.33, jobless claims, Brent $100.06 WTI $94.81","note":"Primary source for all confirmed closes May 7","url":"https://www.cnbc.com/2026/05/06/stock-market-today-live-updates.html"},
+    {"name":"TheStreet","type":"May 7 live blog — Russell 2,836.80 close, every sector negative, Iran ceasefire declaration AH, Datadog +29%, CAT -3.37%, JPM -2.74%","note":"Confirmed Russell close and AH earnings beats","url":"https://www.thestreet.com/latest-news/stock-market-today-may-7-2026-updates"},
+    {"name":"Yahoo Finance","type":"Intraday and close data — Brent, WTI, gold, Arm, Broadcom, Datadog","note":"Confirmed oil closes and individual stock moves","url":"https://finance.yahoo.com/markets/stocks/live/stock-market-today-thursday-may-7-iran-peace-records-231446268.html"},
+    {"name":"Federal Reserve H.15","type":"Yield curve — official May 7, 2026 release. 10Y 4.36%, 30Y 4.94%, all 8 tenors confirmed","note":"H.15 updated to May 7, 2026","url":"https://www.federalreserve.gov/releases/h15/"},
+    {"name":"Reuters / Fox News / MarketScreener","type":"US strikes Qeshm Port and Bandar Abbas — senior US official confirmed 'do not mean restarting of war'","note":"Breaking confirmation of Qeshm strikes","url":"https://www.marketscreener.com/news/us-military-strikes-iran-s-qeshm-port-and-bandar-abbas-fox-news-reporter-says-ce7f5bdada8cf027"},
+    {"name":"CNN","type":"Iran declares ceasefire violation — Hormuz traffic at lowest point ever, Iran responds near Chabahar","note":"CNN confirmed Iran's armed forces statement and Hormuz traffic data","url":"https://www.cnn.com/2026/05/07/world/live-news/trump-iran-war-news"},
+    {"name":"Datadog IR","type":"Datadog Q1 2026: $1.006B rev +32%, EPS $0.60 (beat $0.42), FCF $289M, FY guide $4.30-4.34B","note":"Official Datadog press release May 7","url":"https://finance.yahoo.com/markets/stocks/articles/datadog-announces-first-quarter-2026-110000045.html"},
+    {"name":"The Information","type":"Broadcom-OpenAI chip deal requires MSFT to buy 40% of chips to finance $18B first phase","note":"Primary source for Broadcom financing contingency","url":"https://www.theinformation.com"},
+    {"name":"JPMorgan","type":"Hormuz standstill costing 13 million barrels/day of oil supply","note":"JPMorgan analyst estimate cited by Yahoo Finance live blog","url":"https://finance.yahoo.com/markets/stocks/live/stock-market-today-thursday-may-7-iran-peace-records-231446268.html"},
+    {"name":"AAA / NPR/PBS/Marist Poll","type":"National gas price $4.56/gallon (up from $2.98 before Iran war); 81% of Americans report household strain","note":"Gas price and consumer pressure data","url":"https://www.cnn.com/2026/05/07/world/live-news/trump-iran-war-news"},
+    {"name":"Department of Labor","type":"Jobless claims 200K (below 206K estimate); productivity +0.8%; unit labour costs +2.3%","note":"Weekly economic data confirmed via CNBC","url":"https://www.cnbc.com/2026/05/06/stock-market-today-live-updates.html"}
+  ]
+}
