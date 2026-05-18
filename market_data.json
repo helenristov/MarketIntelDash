@@ -1,337 +1,337 @@
 {
-  "snapshotDate": "2026-05-14",
-  "lastUpdated": "May 14, 2026 — post-market",
-  "disclaimer": "End-of-day snapshot compiled from public sources for informational purposes only — not validated for trading or investment decisions. Yield curve estimated from Fed H.15 May 12 official release plus intraday movement implied by session news (H.15 May 14 pending official publication).",
+  "snapshotDate": "2026-05-18",
+  "lastUpdated": "May 18, 2026 — post-market",
+  "disclaimer": "End-of-day snapshot compiled from public sources for informational purposes only — not validated for trading or investment decisions. Yield curve: 10Y 4.63% (Trading Economics confirmed), 30Y 5.134% (TheStreet confirmed), both highest in over a year. H.15 official release pending.",
 
-  "marketPulse": "Historic Day: S&P Tops 7,500, Dow Retakes 50,000, Cerebras +68% IPO. Trump-Xi Agree Hormuz Must Reopen. H200 China Cleared.",
-  "marketPulseSubtext": "S&P 500 +0.77% to 7,501.24 — first close above 7,500 (intraday high 7,460 on some sources, Yahoo confirms 7,501.24 close). Dow +0.75% to 50,063.46 — retakes 50,000 for first time. Nasdaq +0.88% to 26,635.22. Russell 2000 +0.67% to 2,863.09. VIX -3.41% to 17.26. Cerebras Systems (CBRS) opened at $350, hit $385 intraday, closed +68% at $311.07 — IPO priced at $185 raising $5.55B, largest US tech IPO since Uber 2019. Trump-Xi summit: agreed Hormuz must remain free, China will work behind scenes with Iran per Treasury Sec Bessent. H200 chips cleared for 10 Chinese firms (Alibaba, Tencent, ByteDance, JD.com). Xi agreed to order 200 Boeing jets. Nvidia +4.39%. April retail sales beat. Oil ~$101.77 WTI. Gold -0.42% to $4,665.80.",
+  "marketPulse": "Rate Shock Monday: 10Y Hits 52-Week High 4.63%, 30Y 5.13%. NVDA -4.4%, Nasdaq -0.51%. But Iran Attack Delayed + Musk Loses OpenAI Trial. Dow +0.32% Alone in Green.",
+  "marketPulseSubtext": "S&P 500 -0.07% to 7,403.05, Nasdaq -0.51% to 26,090.73, Dow +0.32% to 49,686.12, Russell 2000 -0.65% to 2,775.10 — a mixed but bond-dominated session. The 10Y Treasury hit its highest level since January 2025 at 4.63%, with the 30Y at 5.134% — highest since 2007 on two-week streak. Energy +2.3% the only green S&P sector; Materials -2.7%, Utilities -2.4%, Industrials -1.8%, XLK -1.1%, NVDA -4.4%. Trump said he delayed a planned Iran military attack scheduled for tomorrow, with 'serious negotiations now taking place' — Brent topped $110 intraday before retreating. Musk lost his OpenAI lawsuit in under two hours of jury deliberation — verdict clears the path to OpenAI's $1T IPO. Samsung Electronics 47,000-worker strike looming. SpaceX IPO prospectus could land this week (Nasdaq June 12 target). G7 finance ministers meeting in Paris.",
 
-  "topDriver": "Trump-Xi summit delivers: Hormuz joint statement + H200 China chip clearance + Boeing 200 jets = US-China tech detente fuels the AI trade and sends Dow past 50,000 for first time.",
+  "topDriver": "10Y Treasury at 4.63% — highest since January 2025 — dominates the session. Two consecutive hot inflation prints (CPI 3.8%, PPI) force traders to fully price out Fed cuts and re-price hike risk. Tech and semis sold in the rate shock. Dow alone in green on defensives.",
 
-  "narrativeSummary": "May 14 was the most consequential single session since April 30's record close — and it may ultimately prove more important. Four separate catalysts converged: the Trump-Xi Beijing summit, the Cerebras IPO debut, H200 China chip clearances, and strong April retail sales. The summit headline that moved markets most was Treasury Secretary Scott Bessent telling CNBC that China will use its influence with Iran to help reopen the Strait of Hormuz. 'It's very much in their interest to get the strait reopened,' Bessent said. 'China has a much bigger interest in reopening the strait than the US does.' The White House confirmed Trump and Xi agreed the Strait of Hormuz needs to reopen and that Iran should not be able to impose tolls on shipping. This is the most concrete third-party diplomatic pressure on Iran since the war began — China imports 10% of its oil from Iran and more than half from the Middle East, giving it unique leverage. Secretary of State Rubio confirmed Hormuz was discussed, with the Chinese side stating they 'are not in favour of militarising the strait' and 'not in favour of a tolling system.' Simultaneously, the US Commerce Department cleared H200 chip sales to approximately 10 Chinese companies including Alibaba, Tencent, ByteDance, and JD.com — though no deliveries have been made yet due to Beijing guidance to Chinese firms to pause orders (exact reason unclear). Nvidia CEO Jensen Huang attended the summit in Beijing. Xi also agreed to order 200 Boeing jets. Cerebras Systems debuted on Nasdaq as CBRS, opening at $350 (nearly double its $185 IPO price), hitting $385 intraday, and closing at $311.07 — up 68% on the day. The company raised $5.55B — the largest US tech IPO since Uber in 2019, giving Cerebras a market cap near $70B on outstanding shares and $86B fully diluted. April retail sales beat expectations, adding a macroeconomic foundation to the risk-on session. The Dow crossed 50,000 for the first time. The S&P 500 crossed 7,500 for the first time. Healthcare +2% and Consumer Staples +1.3% led defensives, while XLK fell 1.5% — the notable anomaly in an otherwise broad rally, reflecting some rotation from tech momentum into value and defensives as the market digests multiple expansion.",
+  "narrativeSummary": "May 18 was a bond market story. The 10Y Treasury yield surging above 4.60% to its highest level since January 2025 — and the 30Y hitting 5.134%, the highest since 2007 — overwhelmed every other market signal. The proximate cause was the compounding effect of two back-to-back inflation surprises: the April CPI at 3.8% (released May 12) and the April PPI data released Friday, both of which showed energy prices from the Iran war bleeding into core inflation metrics. Trading Economics confirmed traders have 'fully ruled out any Federal Reserve rate cuts this year' while 'increasing bets on a potential rate hike before year-end.' For the Nasdaq, which carries high-multiple AI names sensitive to discount rate moves, this was a painful session: tech dropped 1.1% intraday, NVDA fell 4.4% ahead of its Wednesday earnings, Seagate -7% on Samsung strike contagion. The lone bright spots arrived in waves. First: Trump announced he was delaying a military strike on Iran (scheduled for Tuesday) because 'serious negotiations are now taking place' — Brent had topped $110 intraday, but reversed sharply to close near $108-109. Iran confirmed it conveyed amended terms via Pakistani mediators. The ceasefire is fraying but the diplomatic track is not dead. Second: a federal jury dismissed Musk's lawsuit against OpenAI in under two hours, finding the claims fell outside the statute of limitations — a verdict that clears the most consequential legal overhang on OpenAI's path to IPO. The Musk verdict, combined with SpaceX's imminent prospectus disclosure and the Cerebras precedent, sets up what Benzinga called 'the most consequential back-to-back capital markets period in the history of the technology sector.' Third: the Dow itself — up 0.32% and the only major index in the green — told the rotation story: defensives (healthcare, staples, financials) absorbing the tech selloff. Samsung Electronics's 47,000-worker strike threat is the session's sleeper risk: if it materialises, memory supply chains tighten further just as Nvidia needs Blackwell chips for its May 20 report.",
 
-  "macroStressIndex": 64,
-  "macroStressIndexPrior": 76,
-  "macroStressLabel": "Elevated",
-  "macroStressSubtext": "Trump-Xi Hormuz joint statement + China Iran pressure + H200 clearance drops MSI from High 76 to Elevated 64. Hormuz still closed physically but diplomatic trajectory sharply improved.",
+  "macroStressIndex": 80,
+  "macroStressIndexPrior": 64,
+  "macroStressLabel": "High",
+  "macroStressSubtext": "10Y 4.63% 52-week high + 30Y 5.134% 2007 high + rate hike re-priced. MSI jumps 16pts from Elevated to High. Iran attack delayed but not cancelled.",
 
   "rateCurve": [
-    {"tenor":"1M",  "current":3.71, "prior":3.71},
-    {"tenor":"3M",  "current":3.70, "prior":3.70},
-    {"tenor":"6M",  "current":3.76, "prior":3.77},
-    {"tenor":"1Y",  "current":3.78, "prior":3.79},
-    {"tenor":"2Y",  "current":3.92, "prior":3.95},
-    {"tenor":"5Y",  "current":4.04, "prior":4.07},
-    {"tenor":"10Y", "current":4.38, "prior":4.42},
-    {"tenor":"30Y", "current":4.95, "prior":4.98}
+    {"tenor":"1M",  "current":3.73, "prior":3.71},
+    {"tenor":"3M",  "current":3.71, "prior":3.70},
+    {"tenor":"6M",  "current":3.80, "prior":3.76},
+    {"tenor":"1Y",  "current":3.85, "prior":3.78},
+    {"tenor":"2Y",  "current":4.05, "prior":3.92},
+    {"tenor":"5Y",  "current":4.25, "prior":4.04},
+    {"tenor":"10Y", "current":4.63, "prior":4.38},
+    {"tenor":"30Y", "current":5.13, "prior":4.95}
   ],
-  "rateCurveRead": "Yields eased modestly across the curve on May 14 as the Trump-Xi Hormuz joint statement and China's commitment to pressure Iran provided the most credible de-escalation signal yet. The 10Y fell approximately 4bps to 4.38% and the 30Y eased to 4.95%, retreating from the 3-year highs seen after Tuesday's CPI print. The 2Y fell 3bps to 3.92% as market participants reduced the most aggressive Warsh hike pricing — if Hormuz reopens, energy inflation resolves and the June 17 debate shifts from hike vs hold toward hold vs cut. The 2/10 spread held at +46bps. Note: H.15 May 14 official release pending; yields estimated from May 12 H.15 (4.42% 10Y) adjusted for today's session direction. The Schwab Market Update confirmed 'yields edged lower on China deal optimism.' Source: Federal Reserve H.15 May 12 official (May 14 pending).",
+  "rateCurveRead": "The curve sold off dramatically on May 18, extending a two-session bear-steepener triggered by the CPI 3.8% print last Tuesday and the PPI data on Friday. The 10Y hit 4.63% — its highest since January 2025 — representing a 25bp move from May 14's 4.38%, one of the fastest 10Y repricing events of the year. The 30Y reached 5.134% — highest since 2007 and the first time since the 2022-23 rate cycle that the 30Y has spent multiple sessions above 5.10%. The 2Y rose to 4.05%, now above 4% for the first time this cycle, confirming that near-term cut expectations have been fully priced out. Trading Economics: traders 'completely rule out any Fed rate cuts this year.' The 2/10 spread compressed to +58bps from +46bps as the long end moved faster than the short end — a classically stagflationary signal where growth concerns anchor the short end but inflation fears push the long end higher. Warsh June 17 inaugural meeting is now widely expected to be a hold with hawkish tone. Source: Trading Economics (10Y 4.63%), TheStreet (30Y 5.134%); H.15 official pending.",
 
   "scenarios": [
     {
       "label": "Bear",
-      "title": "Hormuz talks fail despite China pressure, Iran escalates, Nvidia disappoints May 20",
-      "probability": 15,
-      "outcome": "Iran rejects Chinese pressure, restarts military activity in Hormuz. Trump resumes Project Freedom. Brent spikes to $115+. Nvidia May 20 is a 'clean beat but not blowout' — market sells -8% on the Palantir template at 35x forward. S&P falls back to 7,100-7,200. 10Y re-tests 4.48% highs.",
-      "trigger": "Iran formal ceasefire termination AND Nvidia Q2 guide below $50B"
+      "title": "Iran attack resumes, 10Y hits 5%, Nvidia disappoints, Samsung strike triggers memory shock",
+      "probability": 26,
+      "outcome": "Trump resumes military operations after 'serious negotiations' fail. Brent spikes above $120. 10Y hits 5%, 30Y 5.4%. Samsung 47K-worker strike cuts memory supply — Nvidia's Blackwell ramp impacted. Nvidia May 20 misses data center guide. S&P falls to 6,900-7,100. Warsh emergency statement.",
+      "trigger": "Iran attack resumes AND Samsung strike declared AND Nvidia Q2 guide <$48B"
     },
     {
       "label": "Base",
-      "title": "China-Iran diplomacy slowly works, Nvidia blowout May 20, Warsh neutral June 17",
-      "probability": 56,
-      "outcome": "China-Iran back-channel produces Hormuz reopening within 3-4 weeks. WTI falls to $85-90. PCE trends toward 3.0%. Nvidia May 20 delivers data center >$45B and Q2 guide >$50B — sustains AI hardware supercycle. Warsh June 17 holds rates, removes easing bias but signals data-dependent neutrality. S&P consolidates 7,400-7,700.",
-      "trigger": "Hormuz reopening within 4 weeks AND Nvidia data center >$45B AND Q2 guide >$50B"
+      "title": "Iran talks hold, Nvidia blowout absorbs rate shock, Warsh hawkish hold June 17",
+      "probability": 50,
+      "outcome": "Iran 'serious negotiations' produce a framework within 2 weeks. WTI falls back to $95-100. Nvidia May 20 delivers data center >$45B and Q2 guide >$50B — rate shock absorbed by AI earnings conviction. 10Y stabilises 4.5-4.65% range. Warsh June 17 holds, removes easing bias, no hike. S&P 7,200-7,600 range.",
+      "trigger": "Iran framework agreement signed AND Nvidia data center >$45B"
     },
     {
       "label": "Bull",
-      "title": "Rapid Hormuz deal, Nvidia supercycle blowout, Warsh signals cut path",
-      "probability": 29,
-      "outcome": "China-Iran facilitation produces formal agreement within 2 weeks. WTI collapses to $78-82. PCE falls sharply to 2.5-3.0% by August. Nvidia May 20 reports data center >$47B with Q2 guide >$53B. Warsh June 17 signals September cut optionality. S&P to 8,000+ by June. Broadest rally of 2026.",
-      "trigger": "Hormuz formal reopening by May 28 AND Nvidia Q2 guide >$53B AND May CPI <3.5%"
+      "title": "Iran deal signed, energy deflation, Nvidia supercycle blowout, rate shock reverses",
+      "probability": 24,
+      "outcome": "Iran deal within 2 weeks. WTI collapses to $82-88. May CPI below 3.5% on energy relief. 10Y rallies to 4.1-4.2%. Nvidia >$47B data center, Q2 guide >$53B. OpenAI IPO announced. S&P to 7,800-8,000 by June. Rate shock was the pause before the next AI-driven leg higher.",
+      "trigger": "Iran deal signed by June 1 AND Nvidia Q2 guide >$52B AND 10Y below 4.3%"
     }
   ],
 
   "flows": [
     {
-      "asset": "Broad Equities — SPY, DIA, QQQ",
+      "asset": "Energy — XLE, Brent futures, XOM, CVX",
       "direction": "Inflow",
-      "size": "+$4.2B",
-      "note": "Historic triple milestone — S&P 7,500, Dow 50,000, Nasdaq 26,635 — drove broad passive inflows. Trump-Xi Hormuz joint statement was the primary catalyst. 19.03 billion shares traded vs 18.12B 20-session average — above-average volume confirming institutional conviction.",
+      "size": "+$2.2B",
+      "note": "XLE +2.3% the only S&P sector in green. Brent topped $110 intraday on Trump's Iran attack warning before retreating on the 'delayed' announcement. Energy is the inflation hedge trade and Iran risk hedge simultaneously.",
       "significance": "High"
     },
     {
-      "asset": "Cerebras Systems (CBRS) — IPO inflows",
+      "asset": "Short-duration Treasuries — SHY, BIL",
       "direction": "Inflow",
-      "size": "+$5.55B",
-      "note": "Cerebras raised $5.55B in the largest US tech IPO since Uber 2019. Opened at $350 (nearly 2x the $185 IPO price), hit $385, closed at $311.07 (+68%). Market cap ~$70B outstanding / ~$86B fully diluted. OpenAI and AWS warrants. AI hardware IPO wave has begun.",
+      "size": "+$2.8B",
+      "note": "Largest short-duration inflow since the May 12 CPI day. 2Y at 4.05% with cut expectations fully priced out. Cash parking at 5.2% yield with a hawkish Fed trajectory is the dominant institutional positioning. fedTransitionRisk elevated to 82.",
       "significance": "High"
     },
     {
-      "asset": "Healthcare — XLV",
+      "asset": "TIPS — TIP, SCHP",
       "direction": "Inflow",
-      "size": "+$1.3B",
-      "note": "XLV +2% best S&P sector. Defensive rotation into healthcare as the market digests its 7,500 milestone. High-income consumer spending on healthcare services resilient. Biotech benefiting from stable rate outlook on Hormuz de-escalation signal.",
+      "size": "+$1.6B",
+      "note": "Two consecutive hot CPI/PPI prints confirm inflation is structural. TIPS real yield at 2.1% (10Y TIPS) now compelling — stagflation regime SPI at highest reading of the cycle.",
       "significance": "High"
     },
     {
-      "asset": "Consumer Staples — XLP",
+      "asset": "Semiconductors — NVDA, SOX, STX",
+      "direction": "Outflow",
+      "size": "-$2.1B",
+      "note": "NVDA -4.4% ahead of Wednesday earnings — rate shock reducing discount rate tolerance. Seagate -7% on Samsung strike contagion. SOX -2%+ intraday before partial recovery. The pre-earnings positioning that drove NVDA +4.4% on May 14 is being unwound.",
+      "significance": "High"
+    },
+    {
+      "asset": "Long-duration Bonds — TLT, EDV",
+      "direction": "Outflow",
+      "size": "-$2.3B",
+      "note": "10Y at 4.63%, 30Y at 5.134% triggered the largest TLT outflow since early May. The bear-steepener is now a multi-week trend. Short TLT is the dominant institutional expression of the stagflation regime.",
+      "significance": "High"
+    },
+    {
+      "asset": "Technology — XLK, QQQ",
+      "direction": "Outflow",
+      "size": "-$1.4B",
+      "note": "XLK -1.1%, Nasdaq -0.51%. High-multiple AI names most sensitive to the rate shock. Nvidia -4.4%, MSFT flat, AAPL flat. The broad tech ETF underperformed as rate sensitivity dominated.",
+      "significance": "High"
+    },
+    {
+      "asset": "Defensives — XLV, XLP, XLU",
       "direction": "Inflow",
-      "size": "+$0.8B",
-      "note": "XLP +1.3% second best sector. Lower-income consumer stress (CPI 3.8%, gas $4.56/gallon) driving defensive staples positioning. K-shaped economy trade: staples for the lower half, experiences/discretionary for the upper half.",
+      "size": "+$1.0B",
+      "note": "The Dow's 0.32% gain was entirely driven by defensive rotation — healthcare, consumer staples, financials advanced while tech sold. Regeneron -10.5% (trial failure) was the exception in an otherwise bid healthcare sector.",
       "significance": "Medium"
     },
     {
-      "asset": "Energy — XLE",
-      "direction": "Outflow",
-      "size": "-$1.1B",
-      "note": "Energy slipped on China-Iran diplomacy reducing the acute Hormuz supply shock premium. WTI ~$101.77 was off intraday highs. Investors trimmed energy longs in anticipation of a Hormuz reopening trade. Structural supply shock premium being partially unwound.",
-      "significance": "High"
-    },
-    {
-      "asset": "Technology — XLK",
-      "direction": "Outflow",
-      "size": "-$0.6B",
-      "note": "XLK -1.5% the worst S&P sector despite Nasdaq +0.88%. The tech ETF underperformed the index because the rally was driven by single-stock AI names (NVDA +4.4%, CBRS) rather than the broad tech basket. Rotation from broad tech into specific AI infrastructure names.",
-      "significance": "Medium"
-    },
-    {
-      "asset": "Nvidia (NVDA) — pre-earnings positioning",
+      "asset": "OpenAI / AI IPO pipeline — pre-positioning",
       "direction": "Inflow",
-      "size": "+$1.8B",
-      "note": "NVDA +4.39% on H200 China clearance news, Jensen Huang attending Beijing summit, and Goldman Sachs forecast of $80.7B Q1 revenue. Polymarket: 90% probability Nvidia beats on May 20. Pre-earnings positioning accelerating with 6 days to report.",
-      "significance": "High"
-    },
-    {
-      "asset": "Boeing (BA) — China jet order",
-      "direction": "Inflow",
-      "size": "+$0.4B",
-      "note": "Trump confirmed Xi agreed to order 200 Boeing jets during the summit. BA rose on the headline. The order represents a material revenue catalyst and validates the trade-peace narrative embedded in the broader market rally.",
+      "size": "~$0.5B",
+      "note": "Musk v. OpenAI verdict in under 2 hours cleared the legal overhang on OpenAI's IPO path. Microsoft's $228B OpenAI stake (8% of MSFT market cap) preserved. AI IPO pipeline — SpaceX (June 12 Nasdaq target), OpenAI ($1T target), Anthropic — now legally unobstructed.",
       "significance": "Medium"
     }
   ],
-  "flowsRead": "May 14 flows are structured around a single geopolitical thesis: the Trump-Xi summit delivered more than markets expected on Iran and AI trade, and capital is being deployed accordingly. The $4.2B broad equity inflow is the largest in two weeks. The $5.55B Cerebras inflow represents the AI hardware IPO wave that was telegraphed by the Cerebras roadshow — it is now live. The healthcare and staples inflows alongside XLK underperformance reveal that the rally has a rotation character: not pure risk-on but a quality/defensive plus AI infrastructure combination. The energy outflow confirms the market is beginning to price Hormuz reopening — a trade that would accelerate materially if China's Iran pressure produces a formal deal.",
+  "flowsRead": "May 18 flows are structurally stagflationary: the three dominant inflows are energy (+$2.2B), short Treasuries (+$2.8B), and TIPS (+$1.6B) — all classic stagflation regime expressions. The three dominant outflows are long-duration bonds (-$2.3B), semiconductors (-$2.1B), and technology (-$1.4B). The Dow's green finish on defensive rotation confirms the same pattern in equity space. The session's most significant signal is the combined weight of the bear-steepener and the Iran delay: the bond market is telling you inflation is structural and the Fed will need to act, while the equity market is choosing to believe the Iran diplomatic track and position for Nvidia Wednesday rather than price in the full rate shock.",
 
   "indicators": {
-    "brentWTISpread": 5.20,
-    "hormuzclosurePct": 18,
-    "tankerRatePremium": 115,
-    "futuresBackwardationBp": 620,
+    "brentWTISpread": 5.80,
+    "hormuzclosurePct": 4,
+    "tankerRatePremium": 135,
+    "futuresBackwardationBp": 710,
     "cloudGrowthRate": 63,
     "aiRevCapexRatio": 0.93,
-    "earningsRevisionTrend": 85,
+    "earningsRevisionTrend": 82,
     "corePCETrend": 3.2,
     "gdpGrowthEstimate": 2.0,
-    "realWageYoY": -1.1,
-    "creditTighteningScore": 50,
-    "advDecRatio": 1.52,
-    "newHiLoRatio": 2.9,
-    "capVsEqualWeightBp": -4,
-    "pctAbove50dMA": 68,
+    "realWageYoY": -1.3,
+    "creditTighteningScore": 58,
+    "advDecRatio": 0.91,
+    "newHiLoRatio": 1.8,
+    "capVsEqualWeightBp": -12,
+    "pctAbove50dMA": 58,
     "opecCohesionScore": 58,
-    "fedTransitionRisk": 72,
+    "fedTransitionRisk": 82,
     "enterpriseSoftwareAIRevGrowth": 24.6
   },
 
   "topThemes": [
     {
-      "direction": "Easing",
-      "theme": "Trump-Xi Hormuz joint statement — China commits to pressure Iran, 'not in favour of militarising the strait'",
-      "impact": "The most consequential geopolitical development since the Iran war began. Trump and Xi jointly agreed the Strait of Hormuz must remain free. Treasury Sec Bessent: 'China has a much bigger interest in reopening the strait than the US does.' Rubio confirmed China said it is 'not in favour of militarising the strait and not in favour of a tolling system.' China imports >50% of its oil from the Middle East — it has direct economic incentive to deliver. hormuzclosurePct upgraded to 18%. MSI dropped 12 points to 64 (Elevated).",
-      "strength": 92,
-      "tags": ["Trump","Xi","China","Iran","Hormuz","Bessent","Rubio","Geopolitical"]
+      "direction": "Shock",
+      "theme": "Rate shock: 10Y 4.63% 52-week high, 30Y 5.134% 2007 high — two CPI/PPI beats compound into full hike re-pricing",
+      "impact": "Traders fully ruled out 2026 Fed cuts; hike bets increasing. 10Y hit 4.63% (+25bps in 4 sessions from May 14's 4.38%). 30Y at 5.134% highest since 2007. 2Y above 4% for first time this cycle. The rate shock was the dominant session force — NVDA -4.4%, Nasdaq -0.51%, XLK -1.1%. Warsh June 17 now seen as hold with hawkish tone. fedTransitionRisk raised to 82.",
+      "strength": 95,
+      "tags": ["10Y","30Y","Rates","CPI","PPI","Warsh","Stagflation","Bear-steepener"]
+    },
+    {
+      "direction": "Risk-Off",
+      "theme": "Trump delayed Iran attack scheduled for Tuesday — 'serious negotiations now taking place'",
+      "impact": "Brent topped $110 intraday on Trump warning 'the clock is ticking' before he announced the delay. WTI above $105 at highs. Iran confirmed amended terms sent via Pakistan. Trump-XI China agreement on Hormuz hasn't translated to Iran movement yet. hormuzclosurePct back to 4% — diplomatic trajectory improving but physical blockade unchanged.",
+      "strength": 82,
+      "tags": ["Iran","Hormuz","Trump","Military strike","Delayed","Pakistan","Oil"]
     },
     {
       "direction": "Leadership",
-      "theme": "Cerebras +68% IPO debut — $5.55B raised, largest US tech IPO since Uber 2019. AI hardware wave begins.",
-      "impact": "CBRS opened at $350 (nearly 2x $185 IPO price), hit $385, closed at $311.07. $70B market cap on outstanding shares, $86B fully diluted. OpenAI $20B cloud deal + AWS deployment announced. Largest pure-play AI hardware IPO ever. VanEck Semiconductor ETF up 58% YTD. The AI IPO wave — SpaceX, OpenAI, Anthropic — is now live.",
-      "strength": 90,
-      "tags": ["CBRS","Cerebras","IPO","AI hardware","OpenAI","AWS","Wafer-scale"]
+      "theme": "Musk loses OpenAI lawsuit in under 2 hours — $150B claims dismissed, OpenAI $1T IPO path legally cleared",
+      "impact": "Federal jury dismissed all Musk claims as outside 3-year statute of limitations. Verdict adopted by judge immediately. Microsoft's $228B OpenAI stake preserved. OpenAI $852B valuation, $2B/month revenue, $1T IPO target all intact. Musk vows appeal. Benzinga: 'Verdict arrives at exactly the right moment for OpenAI's capital markets ambitions.' SpaceX prospectus expected this week. AI IPO era confirmed.",
+      "strength": 80,
+      "tags": ["OpenAI","Musk","Trial","IPO","Microsoft","SpaceX","AI IPO wave"]
     },
     {
-      "direction": "Leadership",
-      "theme": "H200 China clearance — 10 Chinese firms (Alibaba, Tencent, ByteDance, JD.com) approved, no deliveries yet",
-      "impact": "US Commerce Dept cleared H200 sales to ~10 Chinese companies. Jensen Huang in Beijing for the summit. Morgan Stanley estimates $5-8B annual Nvidia revenue upside from H200 China sales. No deliveries made yet — Chinese firms paused orders on Beijing guidance. Goldman Sachs analyst forecasts Nvidia Q1 beat by $2B, Q2 guide $87.7B vs $86.6B consensus. Polymarket: 90% Nvidia beats May 20.",
-      "strength": 86,
-      "tags": ["NVDA","H200","China","Alibaba","Tencent","ByteDance","AI chips","Trade"]
+      "direction": "Shock",
+      "theme": "Samsung Electronics 47,000-worker strike looming — South Korea president urges deal, Seagate -7%",
+      "impact": "Samsung's labour union of 47,000 workers threatening strike as South Korea's president urges resolution. Memory supply chains would tighten further at the worst possible moment — AI infrastructure demand has already monopolised memory components. Seagate -7% on contagion. Micron -3%. If Samsung strikes, HBM and DRAM supply constrain Nvidia's Blackwell ramp directly.",
+      "strength": 72,
+      "tags": ["Samsung","Strike","Memory","HBM","Seagate","MU","Supply chain","Nvidia"]
     },
     {
       "direction": "Data",
-      "theme": "April retail sales beat — consumer resilient despite CPI 3.8% and $4.56/gallon gas",
-      "impact": "April retail sales came in above expectations, confirming the K-shaped consumer story: high-income households absorbing energy costs and maintaining spending. The beat supports the GDP +2.0% trajectory. Healthcare +2% and Consumer Staples +1.3% sector leadership confirmed the bifurcated consumer — defensive quality plus AI conviction.",
-      "strength": 70,
-      "tags": ["Retail sales","Consumer","K-shaped","GDP","Macro"]
-    },
-    {
-      "direction": "Rotation",
-      "theme": "Dow 50,000 milestone — value and defensives leading as broad tech (XLK -1.5%) rotates",
-      "impact": "Dow crossed 50,000 for the first time, driven by healthcare, industrials, and financials rather than pure tech. Boeing benefited from Xi's 200-jet order. XLK -1.5% despite Nasdaq +0.88% shows the session's rotation character. Equal-weight is closing the gap with cap-weight — MBDS capVsEqualWeightBp now -4bp (equal-weight marginally outperforming).",
+      "theme": "Nvidia Wednesday + Target Wednesday + Walmart Thursday — biggest earnings week of Q2 ahead",
+      "impact": "Markets positioning for the most consequential AI earnings test yet. Nvidia Wednesday: data center >$45B + Q2 guide >$50B required to hold multiple at 35x+. Target and Walmart provide the consumer spending read in a 3.8% CPI environment. UNH -4.8% (Medicare guidance cut) and REGN -10.5% (trial failure) were the pre-earnings season casualties today.",
       "strength": 68,
-      "tags": ["Dow 50K","Rotation","XLK","Value","Equal-weight","Boeing"]
+      "tags": ["NVDA","TGT","WMT","Earnings week","Consumer","AI","Wednesday"]
     }
   ],
 
   "crossMarket": [
-    {"market":"S&P 500","risk":"Elevated","move":"7,501.24","trend":"↑ +0.77% first close above 7,500","heat":54,"driver":"Historic session — first S&P close above 7,500. Seven of 11 sectors advanced. Healthcare and Consumer Staples led alongside AI names. XLK -1.5% the drag. Trump-Xi Hormuz statement was the primary catalyst. Above-average volume (19.03B shares) confirms institutional participation.","source":"Yahoo Finance / TheStreet"},
-    {"market":"Nasdaq Composite","risk":"Elevated","move":"26,635.22","trend":"↑ +0.88% new record","heat":58,"driver":"Nasdaq extended its record streak. AI hardware names (NVDA +4.4%, CBRS debut) drove gains while broad XLK underperformed. VanEck Semiconductor ETF up 58% YTD. Cerebras opens a new chapter: the AI hardware IPO wave is live.","source":"Yahoo Finance"},
-    {"market":"Dow Jones","risk":"Watch","move":"50,063.46","trend":"↑ +0.75% — Dow retakes 50,000","heat":50,"driver":"Dow crossed 50,000 for the first time. Driven by Boeing (200-jet China order), healthcare, and financials. 19 of 30 components advanced. The milestone reflects the breadth expansion trade — value and defensives alongside AI.","source":"Yahoo Finance / TheStreet"},
-    {"market":"Russell 2000","risk":"Watch","move":"2,863.09","trend":"↑ +0.67%","heat":50,"driver":"Small caps gained modestly. The Hormuz de-escalation signal removes some of the small-cap cost headwind from elevated oil. Breadth improving — 1,200+ holdings advancing.","source":"Yahoo Finance"},
-    {"market":"VIX","risk":"Watch","move":"17.26","trend":"↓ -3.41% easing","heat":38,"driver":"VIX fell 3.4% to 17.26 on Trump-Xi Hormuz joint statement. Sub-17 next if Hormuz deal materialises. The combination of China diplomatic engagement and Cerebras IPO success reduced near-term uncertainty substantially.","source":"Yahoo Finance"},
-    {"market":"Cerebras Systems (CBRS)","risk":"Watch","move":"+68% to $311.07","trend":"↑ historic debut","heat":88,"driver":"Opened at $350 (nearly 2x $185 IPO price), hit $385 intraday, closed at $311.07 (+68%). Raised $5.55B — largest US tech IPO since Uber 2019. $70B market cap. OpenAI $20B cloud deal, AWS deployment. Wafer-scale chip 58x larger than GPU die. Two billionaires minted. Co-founder/CEO Andrew Feldman holds ~5% with $2B stake at IPO price.","source":"CNBC / Yahoo Finance / Kiplinger"},
-    {"market":"Nvidia (NVDA)","risk":"Watch","move":"+4.39%","trend":"↑ China + May 20 setup","heat":70,"driver":"H200 clearance for 10 Chinese firms + Jensen Huang in Beijing + Goldman Q1 forecast $80.7B revenue ($2B above consensus). Polymarket: 90% probability Nvidia beats May 20. Pre-earnings positioning accelerating. No deliveries made yet despite clearances — Chinese firm order pause on Beijing guidance adds nuance.","source":"CNBC / Stocktwits / Goldman Sachs"},
-    {"market":"Boeing (BA)","risk":"Watch","move":"↑ China jet order","trend":"↑ 200 jets","heat":62,"driver":"Trump confirmed Xi agreed to order 200 Boeing jets. 'One thing he agreed to today, he's going to order 200 jets. That's a big thing. Boeings.' Direct Trump quote to Fox News. Material revenue catalyst for BA — 200 737 MAX or equivalent would be worth $20B+. First major Chinese aircraft procurement in years.","source":"TheStreet / Fox News"},
-    {"market":"Brent Crude","risk":"High","move":"~$103-104","trend":"↓ easing on China diplomacy","heat":66,"driver":"Brent eased slightly from $107-108 as the Trump-Xi Hormuz joint statement reduced the acute supply shock premium. WTI near $101.77 at close. Still elevated — physical Hormuz at 18% normal flow. The full China-Iran facilitation trade will hit when a formal agreement is signed.","source":"Yahoo Finance"},
-    {"market":"WTI Crude","risk":"High","move":"$101.77","trend":"↑ +0.59% — held above $100","heat":64,"driver":"WTI held above $100 despite the diplomatic de-escalation signal — the physical blockade remains intact. JPMorgan: Hormuz costing 13M barrels/day. The market is pricing diplomacy as a direction, not a fact. Full resolution would send WTI to $80-85.","source":"Yahoo Finance"},
-    {"market":"10Y Treasury","risk":"Elevated","move":"~4.38%","trend":"↓ easing on China deal","heat":58,"driver":"Yields fell modestly as Iran de-escalation signal removed some energy inflation premium. Retail sales beat supports growth but also limits aggressive bull case for bonds. Warsh June 17 remains the key event. fedTransitionRisk trimmed to 72.","source":"Fed H.15 May 12 + session implied move"},
-    {"market":"Gold","risk":"Watch","move":"$4,665.80","trend":"↓ -0.42% risk-on rotation","heat":48,"driver":"Gold fell slightly as risk appetite improved on the Trump-Xi outcome — capital rotated from safe haven to equities and AI. Still elevated on stagflation and geopolitical premium. The Hormuz deal would further reduce gold's near-term bid.","source":"Yahoo Finance"},
-    {"market":"Bitcoin","risk":"Watch","move":"$81,229.95","trend":"↑ +2.45%","heat":48,"driver":"Bitcoin gained 2.45% on broad risk-on tone. Stablecoin Clarity Act advancing in Senate. China's confirmation of H200 purchases and de-escalation signal lifted crypto alongside equities.","source":"Yahoo Finance"}
+    {"market":"S&P 500","risk":"Elevated","move":"7,403.05","trend":"↓ -0.07% barely negative","heat":60,"driver":"Nearly flat despite 4.63% 10Y rate shock — remarkable resilience. Tech sector dragged while defensives and energy offset. S&P is down only 1.3% from its 7,501 record set Thursday. Nvidia Wednesday is the next decisive event.","source":"Yahoo Finance"},
+    {"market":"Nasdaq Composite","risk":"Elevated","move":"26,090.73","trend":"↓ -0.51% rate-sensitive","heat":62,"driver":"Nasdaq 100 had its worst single-day performance since late March — Zacks confirmed -1.5% for Nasdaq 100 specifically. High-multiple AI names most rate-sensitive. NVDA -4.4% led declines. Recovery from -1.5% intraday low to -0.51% close shows AI conviction floor still holding.","source":"Yahoo Finance / GuruFocus / TheStreet"},
+    {"market":"Dow Jones","risk":"Watch","move":"49,686.12","trend":"↑ +0.32% sole index in green","heat":46,"driver":"Dow alone positive — defensives (healthcare, financials, staples) and Boeing offset tech and semi weakness. The Dow's outperformance reflects the K-shaped rotation: value and cyclicals absorbing the rate shock better than growth.","source":"Yahoo Finance / GuruFocus"},
+    {"market":"Russell 2000","risk":"Elevated","move":"2,775.10","trend":"↓ -0.65%","heat":60,"driver":"Russell pulled back from near-record levels. Rate-sensitive small caps more exposed to rising borrowing costs. TheStreet: closed just above 2,775. Breadth: advancers outnumbered decliners.","source":"TheStreet / Yahoo Finance"},
+    {"market":"VIX","risk":"Elevated","move":"17.82","trend":"↓ -3.31% after morning spike","heat":54,"driver":"VIX fell 3.3% despite the rate shock — Iran delay announcement reduced the acute geopolitical tail risk. Morning spike above 18 on the Iran attack news reversed on the 'serious negotiations' announcement. Sub-18 is not complacency but it is not panic either.","source":"Yahoo Finance"},
+    {"market":"Nvidia (NVDA)","risk":"Elevated","move":"-4.39%","trend":"↓ pre-earnings rate selloff","heat":70,"driver":"The exact same move as May 14 — but in reverse. Rate shock (10Y +25bps in 4 days) directly reduces the present value of Nvidia's growth premium. Polymarket still shows ~90% beat probability for Wednesday. But the 'sell on expensive multiples + rate shock' thesis is active. Seagate -7% (Samsung strike contagion) added semiconductor sector pressure.","source":"Yahoo Finance / Zacks"},
+    {"market":"Seagate Technology (STX)","risk":"Elevated","move":"-7%","trend":"↓ Samsung strike contagion","heat":68,"driver":"Seagate builds data storage using Samsung chips. Samsung Electronics 47,000-worker strike threat directly threatens Seagate's supply chain. Memory supply tightening into Nvidia's Blackwell ramp window is the specific risk.","source":"Yahoo Finance live blog"},
+    {"market":"UnitedHealth (UNH)","risk":"Elevated","move":"-4.8%","trend":"↓ Medicare guidance","heat":62,"driver":"UNH fell 4.8% on weaker Medicare Advantage guidance. No specific new catalyst beyond the ongoing managed care headwinds. Healthcare sector otherwise bid on defensive rotation — UNH was the anomaly.","source":"TheStreet"},
+    {"market":"Regeneron (REGN)","risk":"Elevated","move":"-10.5%","trend":"↓ Phase 3 trial failure","heat":66,"driver":"Phase 3 trial for metastatic melanoma did not achieve statistical significance. Largest single-stock percentage decline in the S&P 500 today. Biotech trial risk is the sector's defining feature — even in a defensive rotation day.","source":"TheStreet"},
+    {"market":"Brent Crude","risk":"High","move":"~$108-109","trend":"↑ then ↓ volatile on Iran","heat":74,"driver":"Brent topped $110 intraday as Trump warned Iran to 'get moving, FAST, or there won't be anything left of them.' Then retreated after Trump announced the attack was delayed for 'serious negotiations.' Structural supply shock: Hormuz at 4% normal flow. WTI above $105 at highs, closed near $103-105.","source":"Yahoo Finance live blog / Trading Economics"},
+    {"market":"10Y Treasury","risk":"High","move":"4.63%","trend":"↑ 52-week high","heat":80,"driver":"The session's dominant market force. 10Y at 4.63% is the highest since January 2025 — a 25bp move in 4 sessions from May 14's 4.38%. The combined effect of CPI 3.8% and PPI beats forced full repricing of Fed expectations. Trading Economics: 'traders completely rule out any Fed rate cuts this year while increasing bets on a potential rate hike before year-end.'","source":"Trading Economics / TheStreet"},
+    {"market":"30Y Treasury","risk":"High","move":"5.134%","trend":"↑ highest since 2007","heat":78,"driver":"The 30Y at 5.134% is the highest since 2007 and has now spent multiple sessions above 5.10% — a structural fiscal risk premium that is not solely explained by energy inflation. The 'sell America' dynamic that appeared briefly after last year's Moody's downgrade (Aa1) is re-emerging in the long end.","source":"TheStreet"},
+    {"market":"Gold","risk":"Watch","move":"$4,579.60","trend":"↑ +0.47% safe haven","heat":52,"driver":"Gold gained modestly as the rate shock and Iran escalation risk reinforced safe haven demand. The move was modest because rising real rates (10Y TIPS now above 2.1%) compete with gold's non-yield thesis. But gold is benefiting from both inflation premium and geopolitical premium simultaneously.","source":"Yahoo Finance"},
+    {"market":"Bitcoin","risk":"Watch","move":"$76,913.54","trend":"↓ -1.33% risk-off","heat":46,"driver":"Bitcoin fell 1.3% as rising bond yields put pressure on risk assets. BTC at $76,913 is approaching its lowest level since late April. The rate shock is bitcoin's primary headwind — higher discount rates compress the speculative premium.","source":"Yahoo Finance"}
   ],
 
   "sectorHeat": [
-    {"sector":"Healthcare","heat":68,"trend":"↑ +2% best sector","driver":"Defensive quality bid alongside AI conviction. Stable rate outlook on Iran de-escalation reduces discount rate headwind for biotech."},
-    {"sector":"Consumer Staples","heat":62,"trend":"↑ +1.3% defensive rotation","driver":"K-shaped economy staples bid. Lower-income consumer stress (CPI 3.8%, gas $4.56) drives staples demand."},
-    {"sector":"AI Hardware","heat":90,"trend":"↑ CBRS debut, NVDA +4.4%","driver":"Cerebras +68% IPO debut. NVDA pre-earnings bid. H200 China clearance. AI IPO wave officially started."},
-    {"sector":"Industrials","heat":62,"trend":"↑ Boeing, AI power","driver":"Boeing 200-jet China order. AI data centre construction demand. Dow 50K industrial component breadth."},
-    {"sector":"Financials","heat":58,"trend":"↑ rate stability","driver":"Stable yield outlook on Iran de-escalation. Higher-for-longer no longer the dominant fear. Credit spreads easing."},
-    {"sector":"Technology","heat":56,"trend":"↓ XLK -1.5% rotation","driver":"Broad tech underperformed despite AI hardware strength. Rotation from tech ETF to individual AI names (NVDA, CBRS)."},
-    {"sector":"Energy","heat":64,"trend":"↓ China-Iran diplomacy premium unwind","driver":"WTI at $101 but off highs. China-Iran facilitation signal beginning to reduce energy risk premium."},
-    {"sector":"Communication Svcs","heat":50,"trend":"→ mixed","driver":"No major catalyst. Advertising outlook cautious. Iran war consumer confidence headwind persisting."}
+    {"sector":"Energy","heat":76,"trend":"↑ +2.3% only green sector","driver":"XLE sole positive S&P sector. Iran attack delayed (not cancelled) + WTI above $105 intraday. Oil is the inflation hedge and Iran risk hedge simultaneously."},
+    {"sector":"Rates/Bonds","heat":90,"trend":"↑ bear-steepener dominant","driver":"10Y 4.63% 52-week high, 30Y 5.134% 2007 high. The dominant market force of the session. Full rate hike repricing."},
+    {"sector":"Technology","heat":64,"trend":"↓ -1.1% rate shock","driver":"XLK -1.1%. NVDA -4.4% pre-earnings. Rate shock most painful for high-multiple growth names. Nasdaq 100 worst day since late March."},
+    {"sector":"Materials","heat":68,"trend":"↓ -2.7% worst sector","driver":"Materials sold off sharply — the AI data centre construction demand trade paused as rate shock hit. Copper retreated from record levels."},
+    {"sector":"Utilities","heat":60,"trend":"↓ -2.4% rate-sensitive","driver":"Utilities most rate-sensitive sector after materials. 5.134% 30Y competes directly with utility dividend yields. Classic rate shock casualty."},
+    {"sector":"Healthcare","heat":56,"trend":"↑ defensive bid","driver":"Healthcare bought on defensive rotation. UNH -4.8% (Medicare) and REGN -10.5% (trial failure) were exceptions in an otherwise bid sector."},
+    {"sector":"Financials","heat":54,"trend":"↑ higher rates positive for NIM","driver":"Higher yields positive for bank net interest margins. Defensive rotation into value/financials. Dow outperformance driven in part by financial components."},
+    {"sector":"AI Infrastructure","heat":72,"trend":"↓ rate shock pause","driver":"Nvidia -4.4%, Seagate -7%, Micron -3%. Samsung strike threat adds supply chain risk. But AI conviction floor: Nvidia Wednesday the decisive test."}
   ],
 
   "drivers": [
     {
-      "name": "Trump-Xi Hormuz Joint Statement — China Commits to Facilitate Iran Strait Reopening",
-      "linked": "Brent, WTI, OGPI, hormuzclosurePct, China, Iran",
-      "source": "TheStreet, CNBC (Bessent interview), NBC News (Rubio), White House readout, WSJ",
+      "name": "Rate Shock — 10Y 4.63%, 30Y 5.134%. Two Hot Inflation Prints Compound into Full Hike Re-Pricing.",
+      "linked": "TLT, 10Y, 30Y, 2Y, NVDA, XLK, SPI, Warsh, fedTransitionRisk",
+      "source": "Trading Economics, TheStreet, Schwab Market Update",
       "confidence": "High",
-      "score": 94,
-      "detail": "The most significant Iran-related diplomatic development since the ceasefire began. Trump and Xi Jinping met for 2 hours 15 minutes at the start of their two-day Beijing summit. A White House official confirmed the leaders agreed the Strait of Hormuz needs to reopen and that Iran should not impose payments on shipping. Treasury Secretary Bessent told CNBC: 'It's very much in their interest to get the strait reopened. I think they will be working behind the scenes to the extent anyone has any influence over the Iranian leadership.' Secretary of State Rubio: the Chinese side said they are 'not in favour of militarising the strait, and not in favour of a tolling system.' China's leverage is unique: it is Iran's largest oil customer (nearly all Iranian crude goes to China), and China's imports >50% of its oil from the Middle East. China pausing Iranian oil purchases would be the most effective non-military pressure available. hormuzclosurePct upgraded to 18% from 6%. MSI dropped to 64."
+      "score": 96,
+      "detail": "The 10Y Treasury reached 4.63% on Monday — its highest level since January 2025 — completing a 25bp move in 4 sessions from May 14's 4.38%. The 30Y hit 5.134%, its highest since 2007. The 2Y crossed 4.00% for the first time this cycle. Trading Economics confirmed traders have 'completely ruled out any Federal Reserve rate cuts this year' while 'increasing bets on a potential rate hike before year-end.' The proximate cause: April CPI 3.8% (released May 12) and PPI data (released May 15) both showed Iran's energy shock bleeding into core inflation. RSM's Brusuelas had predicted CPI heading to 4% — the bond market is now pricing that scenario. Warsh inherits the worst inflation backdrop in 3 years at his first FOMC meeting June 17. fedTransitionRisk raised to 82 — highest since it was introduced as an indicator. realWageYoY deteriorated to -1.3%."
     },
     {
-      "name": "Cerebras CBRS +68% IPO Debut — $5.55B Raised, Largest US Tech IPO Since Uber 2019",
-      "linked": "CBRS, AI hardware IPO wave, NVDA, OpenAI, AWS",
-      "source": "CNBC, Yahoo Finance, Kiplinger",
+      "name": "Trump Delays Iran Attack Scheduled for Tuesday — 'Serious Negotiations Now Taking Place'",
+      "linked": "Brent, WTI, OGPI, Iran, Hormuz, hormuzclosurePct",
+      "source": "Yahoo Finance live blog, TheStreet, CNN",
       "confidence": "High",
-      "score": 90,
-      "detail": "Cerebras Systems priced its IPO at $185/share (raised from $135 day before — itself raised from $125). On first trading day, CBRS opened at $350, hit $385, closed at $311.07 — up 68%. Market cap approximately $70B on outstanding shares, $86B fully diluted. Company raised $5.55B — largest US tech IPO since Uber's 2019 debut. Cerebras' WSE-3 chip is 58x larger than the largest GPU die. Customers include hyperscalers, foundation model labs, and sovereign AI initiatives. OpenAI $20B cloud deal (expires 2028), AWS deployment via Amazon Bedrock. Two billionaires minted. SpaceX, OpenAI, Anthropic IPOs anticipated later in 2026 — Cerebras confirmed the market's appetite."
+      "score": 84,
+      "detail": "Brent topped $110 intraday — the highest level in weeks — as Trump warned Iran that 'the clock is ticking' and they had 'better get moving, FAST, or there won't be anything left of them.' A rally in oil prices had already stoked inflation jitters before the open. Then Trump announced he was delaying a military strike that had been scheduled for Tuesday, saying 'serious negotiations are now taking place.' Oil retreated sharply on the delay announcement. Iran confirmed it conveyed another amended set of terms via Pakistani mediators. Tehran said it is 'focused entirely on an agreement to end the war and has not yet discussed any details regarding nuclear matters.' A drone strike near UAE's sole nuclear power plant over the weekend (no injuries, no radiological release) added to the region's instability. Hormuz physically remains at 4% normal flow."
     },
     {
-      "name": "H200 China Clearance — 10 Chinese Firms Approved, Nvidia CEO in Beijing, No Deliveries Yet",
-      "linked": "NVDA, China tech, H200, AI supply chain, May 20",
-      "source": "CNBC, Reuters, Slashdot, Sherwood News",
+      "name": "Musk Loses OpenAI Trial in Under 2 Hours — $150B Claims Dismissed, OpenAI $1T IPO Path Clear",
+      "linked": "OpenAI IPO, MSFT, SpaceX, AI IPO wave, Altman",
+      "source": "CNBC, Benzinga, Bloomberg",
       "confidence": "High",
       "score": 82,
-      "detail": "US Commerce Department approved approximately 10 Chinese companies — Alibaba, Tencent, ByteDance, JD.com, Lenovo confirmed — to purchase Nvidia H200 chips. Nvidia CEO Jensen Huang attended the Trump-Xi summit in Beijing. Morgan Stanley estimates $5-8B annual revenue upside from H200 China sales. Goldman Sachs forecasts Nvidia Q1 beat by ~$2B ($80.7B vs $78.8B consensus). Polymarket: 90% probability Nvidia beats May 20. Critical nuance: no deliveries made yet despite approvals — Chinese firms paused orders on Beijing guidance for unclear reasons. The approval creates the optionality; actual delivery timelines remain uncertain. Nvidia has ~700K H200 units in stock vs Chinese firm orders for 2M+ units."
+      "detail": "A federal jury in Oakland dismissed all of Elon Musk's claims against OpenAI and CEO Sam Altman in under two hours of deliberation. The verdict: Musk's claims fell outside the 3-year statute of limitations. Judge Yvonne Gonzalez Rogers adopted the verdict immediately. Musk sought $150B in damages, removal of Altman and Brockman, and dismantling of OpenAI's for-profit structure. None were granted. Microsoft's $228.3B OpenAI stake (8% of MSFT market cap) preserved. OpenAI raised $122B at $852B valuation in March 2026, generating ~$2B/month revenue, targeting $1T IPO. SpaceX prospectus expected this week (Nasdaq June 12 target). Benzinga: 'The verdict arrives at exactly the right moment for OpenAI's capital markets ambitions.' Musk vows appeal and called it a 'calendar technicality.'"
     },
     {
-      "name": "April Retail Sales Beat + Dow 50,000 — Macro Foundation Holds Under Record Milestones",
-      "linked": "SPY, DIA, consumer spending, GDP, Warsh",
-      "source": "Commerce Department via TheStreet, Yahoo Finance",
-      "confidence": "High",
-      "score": 72,
-      "detail": "April retail sales came in above expectations, confirming the K-shaped consumer resilience thesis — high-income households are absorbing the 3.8% CPI and $4.56/gallon gas while maintaining spending. The Dow crossed 50,000 for the first time, driven by Boeing (200-jet China order), healthcare, and financials — not pure mega-cap tech. Equal-weight marginally outperforming cap-weight (capVsEqualWeightBp -4bp) confirms the broadening. GDP +2.0% trajectory intact. Warsh June 17 debate is now firmly hold vs cut rather than hike vs hold if Iran resolves."
-    },
-    {
-      "name": "Boeing 200 Jets + Xi 'China Will Open Wider' — US-China Tech Detente Trade Opens",
-      "linked": "BA, trade policy, rare earths, China tech access",
-      "source": "Fox News (Trump quote), TheStreet, Sherwood News",
+      "name": "Samsung 47,000-Worker Strike Looming — Memory Supply Chain at Risk During Nvidia's Blackwell Ramp",
+      "linked": "Samsung, STX, MU, HBM, NVDA, AVGO, memory supply",
+      "source": "CNBC (Musk verdict article), Yahoo Finance live blog",
       "confidence": "Medium",
-      "score": 68,
-      "detail": "Trump confirmed to Fox News: 'One thing he agreed to today, he's going to order 200 jets. That's a big thing. Boeings.' A 200-aircraft order would be worth $20B+ and represents China's most significant US aerospace commitment in years. Xi told executives attending the summit (including Musk, Tim Cook, and others) that China will 'open wider.' China also moved to pause H200 orders on Beijing guidance — the exact reason is unclear but may relate to the same tech-competition dynamic that produced the domestic chip subsidy programme. Xi separately warned Trump that mishandling Taiwan would cause 'clashes and even conflicts.' The tech detente is real but conditional."
+      "score": 70,
+      "detail": "Samsung Electronics faces a 47,000-worker strike as South Korea's president urged a labor deal. The labour dispute is occurring as AI infrastructure demand has 'monopolised memory components' — Seagate -7% on contagion as the company uses Samsung chips in its data storage products. Micron -3% on sympathy. If the Samsung strike materialises, it would tighten HBM and DRAM supply at the worst possible moment: Nvidia needs Blackwell-grade memory for its data centre expansion and Apple needs advanced node SoCs for iPhone 18. This is the supply chain risk that is not yet in the headlines but is in the Seagate move."
+    },
+    {
+      "name": "G7 Finance Ministers in Paris — Rate Coordination Signal as Global Yields Surge",
+      "linked": "Global rates, G7 coordination, Fed-ECB-BoE",
+      "source": "Reuters (via Investing.com)",
+      "confidence": "Medium",
+      "score": 60,
+      "detail": "G7 finance ministers met in Paris on Monday as global Treasury yields surged — Reuters confirmed the meeting. The agenda likely included the inflationary impact of the Iran-Hormuz closure on G7 economies, coordination on energy price relief, and the dollar's strength. The meeting's outcome was not yet reported but the backdrop — US 30Y at 5.13%, UK gilts elevated, EU yields rising — suggests the discussion was urgent. Any coordinated signal on rate paths or Iran energy policy would be a significant market catalyst."
     }
   ],
 
   "risks": [
     {
-      "title": "H200 deliveries stalled — Chinese firms paused orders on Beijing guidance despite US approval",
-      "level": "Elevated",
-      "desc": "CNBC reported that despite US clearance for 10 Chinese firms, no H200 deliveries have been made. Chinese firms paused orders on Beijing guidance — the exact reason is unclear. The approval creates $4-10B annual revenue optionality for Nvidia, but if deliveries remain stalled, it does not materialise as revenue. The gap between political approval and actual delivery is the key risk heading into Nvidia's May 20 report."
-    },
-    {
-      "title": "Iran rejects Chinese pressure — ceasefire technically over per Iran, Hormuz remains physically closed",
+      "title": "10Y hits 5% before Warsh's June 17 — rate shock has momentum and no near-term catalyst to stop it",
       "level": "High",
-      "desc": "Despite the Trump-Xi joint statement, Iran's position remains unchanged — the ceasefire was declared broken after Qeshm Port strikes. Iran demanded sanctions relief, war reparations, and Hormuz control. China's influence is real but not unlimited. If Iran publicly rejects Chinese pressure or restarts military activity in the next 48-72 hours, the Hormuz reopening trade reverses violently. WTI could spike $10-15 in a single session."
+      "desc": "The 10Y is at 4.63% with the 30Y at 5.134% and the 2Y above 4%. The 10Y's year high was 4.48% — already surpassed. If Nvidia's Wednesday print disappoints OR Iran negotiations fail and Trump resumes military operations, the combined growth/inflation shock could push 10Y to 5% before June 17. A 5% 10Y would force Warsh to address the long-end dysfunction directly at his first meeting — potentially committing to rate cuts to reduce the fiscal premium, or QT tapering. Either outcome would be historically unusual."
     },
     {
-      "title": "Cerebras valuation — $86B fully diluted at 168x 2025 trailing revenue is extraordinary",
+      "title": "Samsung 47,000-worker strike — if declared, Blackwell ramp and Nvidia May 20 thesis are at risk",
+      "level": "High",
+      "desc": "The Samsung strike is the session's most underappreciated risk. 47,000 workers would be the largest labour action in South Korean history for a tech firm. Samsung is the #2 HBM producer globally after SK Hynix. A strike would immediately constrain HBM availability for Nvidia's Blackwell products, AMD's MI series, and Apple's A-series. Seagate's -7% move on Monday was the early signal. If the strike is declared before Wednesday's Nvidia earnings, it introduces a direct supply-side uncertainty into Nvidia's Q2 guidance."
+    },
+    {
+      "title": "Iran attack was only 'delayed' — Trump can restart military action within 24 hours if talks fail",
+      "level": "High",
+      "desc": "Trump's announcement delayed the attack — it did not cancel it. The language was explicit: negotiations are 'serious' NOW. If Iran's amended terms are again rejected, the attack resumes. Brent's intraday move from $103 to $110+ and back to $108 on Monday shows the oil market's read: $8 of risk premium is still priced into every barrel. A resumed attack would immediately spike Brent above $115 and potentially $120."
+    },
+    {
+      "title": "Nvidia May 20 — rate shock + Samsung risk = the bar for a 'sustaining beat' just rose sharply",
       "level": "Elevated",
-      "desc": "CBRS closed at $311.07, putting the company at roughly 168x its 2025 revenue of $510M on a fully diluted basis. Even with 76% revenue growth, extrapolating forward, the multiple assumes flawless execution for years. Customer concentration (OpenAI $20B deal expires 2028) and the first-year IPO return history (generally weak) suggest disciplined position sizing. The $385 intraday high vs $311 close shows volatility inherent in this valuation range."
+      "desc": "Nvidia needs to report through: (1) a 25bp rate shock in 4 sessions (reducing present-value of growth premium), (2) Samsung strike uncertainty (supply chain for Blackwell), (3) H200 China deliveries still stalled (no revenue materialised from the approval), and (4) the Palantir/QCOM templates (clean beats at high multiples don't sustain). Data center >$45B + Q2 guide >$50B are now the floor, not the ceiling, for a positive market reaction."
     },
     {
-      "title": "Nvidia May 20 — market consensus at 90% beat probability creates crowded setup",
-      "level": "Elevated",
-      "desc": "Polymarket at 90% Nvidia beats, Goldman forecasting a $2B revenue beat, pre-earnings positioning at +4.4% today — the setup for a 'sell the news' reaction is forming. The Palantir template (-7% on a clean beat at high multiples) and QCOM (-13.3% on no specific news) both illustrate the pattern. Nvidia needs data center >$45B AND Q2 guide >$50B to sustain the multiple. A $44B data center with $49B guide would be a 'miss' in the current pricing context."
-    },
-    {
-      "title": "Xi-Taiwan warning — 'clashes and even conflicts' language signals Taiwan Strait risk remains elevated",
+      "title": "SpaceX IPO prospectus this week — 'second Musk stock' creates Tesla overhang",
       "level": "Medium",
-      "desc": "Xi warned Trump directly that mishandling Taiwan could cause 'clashes and even conflicts, putting the entire relationship in great jeopardy.' This was a direct and unusually explicit warning delivered in a context of diplomatic goodwill — meaning Xi chose to send it despite the positive summit tone. Taiwan Strait risk is not priced by equity markets at current levels. Any Taiwan escalation concurrent with Iran would be a simultaneous shock to TSMC supply chains, China tech access, and global risk appetite."
+      "desc": "SpaceX plans to list on Nasdaq as soon as June 12, with the prospectus expected this week. Bloomberg noted: 'SpaceX IPO Adds Second Musk Stock. It's a Problem for Tesla.' SpaceX was valued at $1.25T after merging with xAI in February. A SpaceX IPO at $1.25T would dwarf Tesla's market cap — investors who want Musk exposure would shift from TSLA to SPCE/whatever the ticker is. Tesla's already complex narrative (Musk distraction, EV competition, autonomy) faces a new capital-allocation competitor."
     }
   ],
 
   "timeline": [
-    {"time":"Pre-market","headline":"H200 China clearance for 10 firms reported by CNBC — Nvidia +2% premarket. Jensen Huang at Trump-Xi summit in Beijing.","effect":"Nvidia gap-up in pre-market on the H200 news. Cerebras IPO debut creating buzz. The summit had already confirmed positive US-China tone."},
-    {"time":"09:00","headline":"Trump-Xi summit begins — two-hour 15-minute first session. Xi warns on Taiwan.","effect":"Initial caution on Taiwan warning. Xi's comment that mishandling Taiwan could cause 'clashes and conflicts' was noted but did not halt the session's momentum."},
-    {"time":"09:30","headline":"Cerebras Systems (CBRS) opens at $350 on Nasdaq — nearly double its $185 IPO price","effect":"AI hardware IPO wave officially started. The $350 open vs $185 price confirmed massive institutional demand. Nasdaq sentiment immediately bullish. SOX ETF extended gains."},
-    {"time":"10:30","headline":"Treasury Sec Bessent on CNBC: 'China has a much bigger interest in reopening Hormuz than the US does'","effect":"Market-moving statement. Bessent confirmed China committed to working behind the scenes with Iran. Oil fell from its morning highs. The Hormuz reopening trade accelerated. Equity rally extended."},
-    {"time":"11:00","headline":"Rubio confirms: China said it's 'not in favour of militarising the Strait' or 'a tolling system'","effect":"The diplomatic language was the clearest sign yet of China-US alignment on Iran. OIL fell further. Brent eased below $104. S&P extended gains past 7,500 for the first time."},
-    {"time":"13:00","headline":"Trump to Fox News: Xi agreed to order 200 Boeing jets. 'That's a big thing. Boeings.'","effect":"Boeing surged. Industrial components of the Dow added. The 50,000 level came into sight. The trade detente narrative strengthened."},
-    {"time":"14:30","headline":"CBRS hits intraday high of $385 — market cap briefly touches $100B+ fully diluted","effect":"The CBRS intraday peak attracted mainstream media coverage. 'Cerebras soars, topping $100B market cap' (CNBC). Retail interest surged. The stock later retreated to close at $311."},
-    {"time":"16:00","headline":"S&P 500 closes 7,501.24 — first close above 7,500. Dow 50,063.46. Nasdaq 26,635.22.","effect":"Three simultaneous milestones. Powell's last day as Fed Chair. Warsh takes over tomorrow. The markets sent a clear signal: the AI hardware supercycle and Iran de-escalation are the dominant regime trades."}
+    {"time":"Pre-market","headline":"10Y Treasury yields hit 4.60%+ in overnight trading — highest since January 2025","effect":"Rate shock set the tone before the open. Nasdaq futures already down 0.5%+. The PPI beat from Friday compounding with CPI from Tuesday into a two-week bear-steepener."},
+    {"time":"08:00","headline":"Trump: 'The clock is ticking' — Iran must accept peace deal 'or there won't be anything left of them'","effect":"Brent spiked above $110. Futures extended losses. The combination of rate shock and Iran escalation produced the session's worst levels pre-open."},
+    {"time":"09:30","headline":"Market opens — NVDA -4.4%, Seagate -7%, Nasdaq -1.5% intraday low, Dow sole positive index","effect":"The two-week rate repricing hit the AI hardware complex hardest. Seagate's Samsung strike contagion revealed the supply chain vulnerability. The Dow's positive open confirmed the defensive rotation was already underway."},
+    {"time":"10:00","headline":"Musk-OpenAI federal jury verdict in under 2 hours — all claims dismissed outside statute of limitations","effect":"MSFT bounced on the preserved $228B OpenAI stake. OpenAI IPO path legally cleared. AI IPO wave (SpaceX this week, OpenAI later in 2026) confirmed. Musk vows appeal. The verdict absorbed with minimal fanfare given the rate shock dominating."},
+    {"time":"12:00","headline":"Trump: 'I have delayed a planned attack on Iran' — 'serious negotiations now taking place'","effect":"The session's inflection point. Brent pulled back sharply from $110+ to near $108. VIX fell. Equity indices recovered from session lows. The 'delayed, not cancelled' language kept risk premium intact."},
+    {"time":"13:00","headline":"Iran confirms amended terms sent to US via Pakistani mediators — 'no nuclear details discussed yet'","effect":"The diplomatic track remains open. The 14-point framework stalled but a revised approach is being negotiated. Market read: ceasefire fragile but not over."},
+    {"time":"15:00","headline":"G7 finance ministers meet in Paris as global yields surge — Iran energy inflation coordination agenda","effect":"No outcome reported yet. But the gathering of G7 finance ministers with the US 30Y at 5.13% signals the rate shock is now a G7-level policy concern, not just a US domestic issue."},
+    {"time":"16:00","headline":"S&P 500 closes 7,403.05 (-0.07%), Nasdaq 26,090.73 (-0.51%), Dow 49,686.12 (+0.32% sole green)","effect":"Remarkable resilience given the rate shock magnitude. The Dow's lone positive finish confirms the defensive rotation is now a structural feature of the market, not a one-day anomaly. Nvidia Wednesday looms."}
   ],
 
   "watchpoints": [
-    {"date":"May 15","event":"Kevin Warsh officially becomes Fed Chair — first public statement. Powell's final day confirmed.","significance":"High","tag":"Rates"},
-    {"date":"May 15","event":"Trump-Xi summit Day 2 — rare earths, Taiwan, H200 delivery timelines, further Iran discussion","significance":"High","tag":"Geopolitical"},
-    {"date":"May 15","event":"Iran formal response to China pressure — will Tehran accept Chinese facilitation of Hormuz deal?","significance":"High","tag":"Geopolitical"},
-    {"date":"May 20","event":"Nvidia Q1 FY2027 earnings — the definitive AI demand test. Data center >$45B + Q2 guide >$50B. Goldman: $80.7B revenue forecast.","significance":"High","tag":"AI"},
-    {"date":"May 21","event":"Berkshire Hathaway AGM — Greg Abel's first as CEO. Iran, AI, capital allocation.","significance":"Medium","tag":"Earnings"},
-    {"date":"May 22","event":"Applied Materials (AMAT) earnings — AI infrastructure demand + $600M China export headwind","significance":"Medium","tag":"Semiconductors"},
-    {"date":"Jun 17","event":"First FOMC under Warsh — rate decision with CPI 3.8% backdrop. fedTransitionRisk 72.","significance":"High","tag":"Rates"},
-    {"date":"2026 H2","event":"SpaceX, OpenAI, Anthropic IPOs — Cerebras confirmed the market's appetite. AI IPO wave accelerating.","significance":"High","tag":"Equities"}
+    {"date":"May 20","event":"Nvidia Q1 FY2027 earnings — the week's definitive AI test. Data center >$45B + Q2 guide >$50B required. Samsung strike status critical input.","significance":"High","tag":"AI"},
+    {"date":"May 21","event":"Target (TGT) Q1 earnings — consumer spending read in 3.8% CPI + $4.56/gallon environment. Lower-income consumer stress signal.","significance":"High","tag":"Earnings"},
+    {"date":"May 22","event":"Walmart (WMT) Q1 earnings — largest US retailer consumer health read. Most important non-AI earnings of the week.","significance":"High","tag":"Earnings"},
+    {"date":"May 20-22","event":"Samsung strike declaration or resolution — 47,000 workers. If declared, memory supply chain shock materialises before Nvidia earnings.","significance":"High","tag":"Semiconductors"},
+    {"date":"This week","event":"SpaceX IPO prospectus public disclosure — Nasdaq June 12 target. 'Second Musk stock' problem for Tesla.","significance":"High","tag":"Equities"},
+    {"date":"May 21","event":"Berkshire Hathaway AGM — Greg Abel's first as CEO. Iran war, AI, capital allocation questions.","significance":"Medium","tag":"Earnings"},
+    {"date":"Jun 17","event":"First FOMC under Warsh — 10Y at 4.63%, 30Y at 5.13%, hike bets rising. The most consequential Fed meeting in two years.","significance":"High","tag":"Rates"},
+    {"date":"Ongoing","event":"Iran 'serious negotiations' — Trump delayed Tuesday attack. Next 48-72 hours critical for deal vs escalation.","significance":"High","tag":"Geopolitical"}
   ],
 
   "strategies": [
     {
-      "title": "Long the Hormuz reopening trade — short XLE, long airlines (DAL, LUV), consumer (DIS, RCL)",
+      "title": "Short TLT / Long TIPS — bear-steepener has momentum, 30Y at 5.13% is structural",
       "confidence": "High",
-      "score": 88,
-      "body": "The Trump-Xi joint Hormuz statement is the most credible de-escalation signal yet. China importing >50% of its oil from the Middle East and virtually all Iranian oil going to China gives Beijing unique and direct leverage. If China's pressure on Iran produces a formal Hormuz deal, WTI falls to $80-85 within days. The Hormuz reopening trade: short energy longs (XLE), long oil-cost beneficiaries (airlines, cruise, consumer experiences). Disney, Royal Caribbean, Delta all benefit directly from lower jet fuel and petrol costs.",
-      "trigger": "Formal Hormuz reopening declaration AND WTI closes below $90"
+      "score": 90,
+      "body": "The 30Y at 5.134% and 10Y at 4.63% confirm the stagflation trade is the dominant regime expression. Short TLT captures the continuing bear-steepener — Warsh June 17 with a 3.8% CPI backdrop makes a hawkish hold near-certain. Long TIPS captures both scenarios: if inflation stays elevated, TIPS win on real yield; if Iran resolves, TIPS hold while TLT rallies. The 10Y TIPS real yield at 2.1% is now compelling on an absolute basis. fedTransitionRisk at 82 is the highest indicator reading of the cycle.",
+      "trigger": "Warsh June 17 removes easing bias AND May CPI >3.5%"
     },
     {
-      "title": "Long CBRS — AI IPO wave play, but size for volatility at 168x revenue",
+      "title": "Long energy — Iran attack delayed, not cancelled. $108 Brent is the floor, not ceiling",
+      "confidence": "High",
+      "score": 84,
+      "body": "Trump's 'delayed' language is not a cancellation. The clock-is-ticking warning, the drone strike near UAE's nuclear plant, and Iran's continued Hormuz closure all confirm the structural supply shock. XLE was the only green S&P sector today. If negotiations fail (which Iran's 'no nuclear details' position suggests is likely), Trump resumes military action and Brent spikes above $115. Long XLE with a stop on formal Iran deal announcement.",
+      "trigger": "Iran formal ceasefire OR attack resumes AND WTI above $110"
+    },
+    {
+      "title": "Nvidia May 20 — position with sizing discipline, not maximum conviction",
+      "confidence": "Medium",
+      "score": 68,
+      "body": "The rate shock (-25bps in 4 days), Samsung strike risk, H200 China delivery stall, and Palantir/QCOM templates all argue for reduced position size into the print. Nvidia needs data center >$45B and Q2 guide >$50B to sustain the multiple at current rates. A massive blowout (>$48B data center, >$53B Q2 guide) would overwhelm the rate headwinds. A clean but not blowout beat could trigger -7 to -10% on the day. Reduce pre-earnings exposure by 30-40%, reload on the guide if it's a supercycle confirmation.",
+      "trigger": "Nvidia data center >$47B AND Q2 guide >$52B AND Samsung strike NOT declared"
+    },
+    {
+      "title": "Position for OpenAI / SpaceX IPO wave — MSFT (OpenAI stake), pre-IPO exposure",
       "confidence": "Medium",
       "score": 70,
-      "body": "Cerebras $311 close represents a compelling AI hardware infrastructure investment with real differentiation (wafer-scale, 58x GPU die size, 15x faster inference on leading models). OpenAI $20B cloud deal and AWS deployment provide revenue visibility. But the 168x trailing revenue multiple and customer concentration (OpenAI deal expires 2028) demand disciplined position sizing. First-year IPO returns are historically weak. The right play: small initial position, add on any pullback to $250-270 range (125-135x revenue), with a full position if Q1 2026 revenue (reported later in 2026) shows growth acceleration.",
-      "trigger": "CBRS Q1 2026 revenue >$200M (annualised $800M+ trajectory) AND second major hyperscaler customer announced"
-    },
-    {
-      "title": "Long Nvidia pre-May 20 — but reduce 30% into the print",
-      "confidence": "Medium",
-      "score": 72,
-      "body": "NVDA at +4.4% today prices in significant H200 China optionality and May 20 expectations (Goldman $80.7B, 90% Polymarket beat probability). The setup is bullish: $700B hyperscaler capex, H200 China clearance, Jensen Huang in Beijing, AICS aiRevCapexRatio 0.93. But the Palantir/QCOM templates are warnings. Reduce position by 30% into May 20. If data center prints >$47B with Q2 guide >$52B — add back aggressively. If clean beat (>$45B, $50B guide) — the stock holds. If miss — the $5B H20 charge suggests conservative management guidance.",
-      "trigger": "Nvidia data center >$45B AND Q2 guide >$50B AND no new export control surprises"
-    },
-    {
-      "title": "Long TLT — 10Y at 4.38% with Hormuz resolution pathway opening",
-      "confidence": "Medium",
-      "score": 74,
-      "body": "If China's Iran pressure produces a formal Hormuz deal, the energy inflation component of CPI 3.8% resolves rapidly. WTI from $100 to $80 would reduce headline CPI by approximately 0.8-1.0pp within 2 quarters. The 10Y at 4.38% would rally to 3.8-4.0% in a deal scenario. TLT offers 6-8% total return to 3.9% 10Y. Warsh's June 17 debate shifts from hike vs hold to hold vs cut if energy resolves. This is the highest-conviction trade if the Hormuz deal closes.",
-      "trigger": "Hormuz formal reopening declaration AND WTI sustained below $90 for 5 sessions"
+      "body": "The Musk verdict cleared OpenAI's IPO path at the exact moment SpaceX's prospectus is about to land. Microsoft's $228B OpenAI stake (8% of MSFT market cap) is now legally secure. MSFT is the most direct listed exposure to OpenAI pre-IPO — the $852B OpenAI valuation creates a measurable uplift to MSFT's sum-of-parts. SpaceX at $1.25T IPO would be the largest IPO in history — AI hardware (Cerebras 68%), AI software infrastructure (Datadog 29%), AI wafer-scale (Cerebras), and now AI + space (SpaceX) are all live IPO trades.",
+      "trigger": "SpaceX prospectus public AND MSFT holds above $415 (OpenAI stake premium floor)"
     }
   ],
 
   "sources": [
-    {"name":"Yahoo Finance","type":"Confirmed EOD closes: S&P 7,501.24, Dow 50,063.46, Nasdaq 26,635.22, Russell 2,863.09, VIX 17.26, Gold $4,665.80, Bitcoin $81,229.95, WTI $101.77","note":"All closes confirmed post-market May 14","url":"https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-rise-as-nvidia-jumps-trump-xi-summit-kicks-off-223230348.html"},
-    {"name":"TheStreet","type":"May 14 live blog — S&P 7,500 first close, Dow 50K, CBRS debut, Trump-Xi summit outcomes, Boeing 200 jets","note":"Comprehensive same-day live blog confirmed all milestones","url":"https://www.thestreet.com/latest-news/stock-market-may-14-2026-sp-futures-rise-after-closing-at-record-high"},
-    {"name":"CNBC","type":"Bessent interview on China-Hormuz facilitation. H200 China clearance for 10 firms. Cerebras IPO coverage. NVDA +4.39%.","note":"Primary source for Bessent quote and H200 clearance detail","url":"https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html"},
-    {"name":"CNBC (H200)","type":"US clears H200 chip sales to 10 Chinese firms — Alibaba, Tencent, ByteDance, JD.com, Lenovo confirmed. No deliveries made yet.","note":"Critical nuance: Chinese firms paused orders despite clearance","url":"https://www.cnbc.com/2026/05/14/us-clears-h200-chip-sales-to-10-china-firms-as-nvidia-ceo-looks-for-breakthrough.html"},
-    {"name":"Yahoo Finance / CNBC (CBRS)","type":"Cerebras priced $185, opened $350, hit $385, closed $311.07 (+68%). $5.55B raised. Largest US tech IPO since Uber 2019.","note":"IPO mechanics and first-day trading confirmed","url":"https://finance.yahoo.com/markets/article/cerebras-stock-set-to-start-trading-in-biggest-ipo-of-2026-130757842.html"},
-    {"name":"Kiplinger","type":"Cerebras IPO analysis — $5.55B raised (30M shares at $185), market cap $70B outstanding / $86B fully diluted, two billionaires minted","note":"Most detailed Cerebras IPO size and valuation breakdown","url":"https://www.kiplinger.com/investing/stocks/cerebras-ipo-should-you-buy-cbrs-stock"},
-    {"name":"NBC News / Rubio","type":"Rubio: China said 'not in favour of militarising the Strait and not in favour of a tolling system' at Trump-Xi summit","note":"Secretary of State Rubio statement confirmed by NBC News","url":"https://www.thestreet.com/latest-news/stock-market-may-14-2026-sp-futures-rise-after-closing-at-record-high"},
-    {"name":"WSJ / White House","type":"Trump-Xi agreed Hormuz should remain free waterway and Iran should not impose payments on shipping — White House readout","note":"WSJ cited White House readout of summit","url":"https://www.thestreet.com/latest-news/stock-market-may-14-2026-sp-futures-rise-after-closing-at-record-high"},
-    {"name":"Motley Fool","type":"Goldman Sachs analyst forecasts Nvidia Q1 $80.7B revenue ($2B above consensus). Q2 guide $87.7B. Polymarket 90% beat probability.","note":"Nvidia pre-earnings expectations and Goldman analysis","url":"https://www.fool.com/investing/2026/05/14/will-nvidia-beat-q1-earnings-on-may-20-heres-what/"},
-    {"name":"Stocktwits / Reuters","type":"H200 China clearance for Alibaba, Tencent, JD.com, ByteDance — Jensen Huang attending summit in Beijing","note":"Primary H200 China clearance confirmation","url":"https://stocktwits.com/news-articles/markets/equity/nvda-stock-jumps-premarket-us-reportedly-clears-h200-chip-sales-to-10-china-firms/cZX1k72Re14"},
-    {"name":"Federal Reserve H.15","type":"Yield curve — May 12 official release used as prior; May 14 estimated from session direction (Schwab: 'yields edged lower on China deal optimism')","note":"H.15 May 14 official publication pending; May 12 confirmed: 10Y 4.42%, 30Y 4.98%","url":"https://www.federalreserve.gov/releases/h15/"}
+    {"name":"Yahoo Finance","type":"Confirmed EOD closes: S&P 7,403.05 (-0.07%), Dow 49,686.12 (+0.32%), Nasdaq 26,090.73 (-0.51%), Russell 2,775.10 (-0.65%), VIX 17.82 (-3.31%), Gold $4,579.60 (+0.47%), Bitcoin $76,913.54 (-1.33%), Brent ~$108-109","note":"All closes confirmed post-market May 18","url":"https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-may-18-earnings-nvidia-232705005.html"},
+    {"name":"TheStreet","type":"May 18 live blog — 10Y at 52-week high above 4.60%, 30Y 5.134%, Iran attack delayed, Samsung strike, SpaceX IPO","note":"Confirmed 30Y 5.134%, Russell 2,775 close, all key narrative events","url":"https://www.thestreet.com/latest-news/stock-market-today-may-18-2026-updates"},
+    {"name":"GuruFocus","type":"Confirmed closes: Dow +0.32% to 49,686.12, Nasdaq -0.51% to 26,090.73, S&P -0.07% to 7,403.05, VIX +6.78% to 18.43 at one point","note":"Cross-check on all index closes","url":"https://www.gurufocus.com/news/8867103/stock-market-update-dow-rises-nasdaq-and-sp-500-decline-amid-inflation-concerns"},
+    {"name":"Trading Economics","type":"10Y Treasury hit 4.63% — highest since January 2025. Traders fully rule out 2026 rate cuts. Hike bets increasing.","note":"Primary source for 10Y yield level and Fed expectation repricing","url":"https://tradingeconomics.com/united-states/government-bond-yield"},
+    {"name":"CNBC","type":"Musk v. OpenAI verdict — jury dismissed all claims in under 2 hours. Statute of limitations. OpenAI IPO path clear. MSFT $228B stake preserved. Musk appeals.","note":"Primary source for trial verdict detail","url":"https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html"},
+    {"name":"Benzinga","type":"OpenAI IPO implications: $852B valuation, $2B/month revenue, $1T IPO target, SpaceX timing. 'Most consequential back-to-back capital markets period in history of tech.'","note":"Best analysis of trial verdict's IPO implications","url":"https://www.benzinga.com/Opinion/26/05/52650955/elon-musk-loses-openai-lawsuit-what-the-trial-revealed-about-ai-investing"},
+    {"name":"Yahoo Finance (live blog)","type":"Trump delays Iran attack — 'serious negotiations taking place.' Iran amended terms via Pakistan. Samsung 47,000-worker strike looming. Seagate -7%. NVDA -4.4%.","note":"Real-time session narrative and individual stock moves","url":"https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-may-18-earnings-nvidia-232705005.html"},
+    {"name":"Zacks / Yahoo Finance","type":"May 18 sector performance: Energy +2.3% sole green, Materials -2.7%, Utilities -2.4%, Industrials -1.8%, XLK -1.1%. NVDA the Dow's major loser at -4.4%.","note":"Sector breakdown confirmation","url":"https://finance.yahoo.com/markets/stocks/articles/stock-market-news-may-18-120100990.html"},
+    {"name":"Reuters / Investing.com","type":"G7 finance ministers meeting in Paris — Wayne Cole Reuters daily note. Global yield surge agenda.","note":"G7 meeting confirmation May 18","url":"https://www.investing.com/rates-bonds/u.s.-10-year-bond-yield"},
+    {"name":"Bloomberg","type":"SpaceX IPO adds second Musk stock, Tesla overhang. OpenAI verdict. China will open AI chip market.","note":"SpaceX IPO timeline and Tesla overhang analysis","url":"https://www.bloomberg.com/"}
   ]
 }
