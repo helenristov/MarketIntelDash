@@ -1,0 +1,337 @@
+{
+  "snapshotDate": "2026-05-18",
+  "lastUpdated": "May 18, 2026 — post-market",
+  "disclaimer": "End-of-day snapshot compiled from public sources for informational purposes only — not validated for trading or investment decisions. Yield curve: 10Y 4.63% (Trading Economics confirmed), 30Y 5.134% (TheStreet confirmed), both highest in over a year. H.15 official release pending.",
+
+  "marketPulse": "Rate Shock Monday: 10Y Hits 52-Week High 4.63%, 30Y 5.13%. NVDA -4.4%, Nasdaq -0.51%. But Iran Attack Delayed + Musk Loses OpenAI Trial. Dow +0.32% Alone in Green.",
+  "marketPulseSubtext": "S&P 500 -0.07% to 7,403.05, Nasdaq -0.51% to 26,090.73, Dow +0.32% to 49,686.12, Russell 2000 -0.65% to 2,775.10 — a mixed but bond-dominated session. The 10Y Treasury hit its highest level since January 2025 at 4.63%, with the 30Y at 5.134% — highest since 2007 on two-week streak. Energy +2.3% the only green S&P sector; Materials -2.7%, Utilities -2.4%, Industrials -1.8%, XLK -1.1%, NVDA -4.4%. Trump said he delayed a planned Iran military attack scheduled for tomorrow, with 'serious negotiations now taking place' — Brent topped $110 intraday before retreating. Musk lost his OpenAI lawsuit in under two hours of jury deliberation — verdict clears the path to OpenAI's $1T IPO. Samsung Electronics 47,000-worker strike looming. SpaceX IPO prospectus could land this week (Nasdaq June 12 target). G7 finance ministers meeting in Paris.",
+
+  "topDriver": "10Y Treasury at 4.63% — highest since January 2025 — dominates the session. Two consecutive hot inflation prints (CPI 3.8%, PPI) force traders to fully price out Fed cuts and re-price hike risk. Tech and semis sold in the rate shock. Dow alone in green on defensives.",
+
+  "narrativeSummary": "May 18 was a bond market story. The 10Y Treasury yield surging above 4.60% to its highest level since January 2025 — and the 30Y hitting 5.134%, the highest since 2007 — overwhelmed every other market signal. The proximate cause was the compounding effect of two back-to-back inflation surprises: the April CPI at 3.8% (released May 12) and the April PPI data released Friday, both of which showed energy prices from the Iran war bleeding into core inflation metrics. Trading Economics confirmed traders have 'fully ruled out any Federal Reserve rate cuts this year' while 'increasing bets on a potential rate hike before year-end.' For the Nasdaq, which carries high-multiple AI names sensitive to discount rate moves, this was a painful session: tech dropped 1.1% intraday, NVDA fell 4.4% ahead of its Wednesday earnings, Seagate -7% on Samsung strike contagion. The lone bright spots arrived in waves. First: Trump announced he was delaying a military strike on Iran (scheduled for Tuesday) because 'serious negotiations are now taking place' — Brent had topped $110 intraday, but reversed sharply to close near $108-109. Iran confirmed it conveyed amended terms via Pakistani mediators. The ceasefire is fraying but the diplomatic track is not dead. Second: a federal jury dismissed Musk's lawsuit against OpenAI in under two hours, finding the claims fell outside the statute of limitations — a verdict that clears the most consequential legal overhang on OpenAI's path to IPO. The Musk verdict, combined with SpaceX's imminent prospectus disclosure and the Cerebras precedent, sets up what Benzinga called 'the most consequential back-to-back capital markets period in the history of the technology sector.' Third: the Dow itself — up 0.32% and the only major index in the green — told the rotation story: defensives (healthcare, staples, financials) absorbing the tech selloff. Samsung Electronics's 47,000-worker strike threat is the session's sleeper risk: if it materialises, memory supply chains tighten further just as Nvidia needs Blackwell chips for its May 20 report.",
+
+  "macroStressIndex": 80,
+  "macroStressIndexPrior": 64,
+  "macroStressLabel": "High",
+  "macroStressSubtext": "10Y 4.63% 52-week high + 30Y 5.134% 2007 high + rate hike re-priced. MSI jumps 16pts from Elevated to High. Iran attack delayed but not cancelled.",
+
+  "rateCurve": [
+    {"tenor":"1M",  "current":3.73, "prior":3.71},
+    {"tenor":"3M",  "current":3.71, "prior":3.70},
+    {"tenor":"6M",  "current":3.80, "prior":3.76},
+    {"tenor":"1Y",  "current":3.85, "prior":3.78},
+    {"tenor":"2Y",  "current":4.05, "prior":3.92},
+    {"tenor":"5Y",  "current":4.25, "prior":4.04},
+    {"tenor":"10Y", "current":4.63, "prior":4.38},
+    {"tenor":"30Y", "current":5.13, "prior":4.95}
+  ],
+  "rateCurveRead": "The curve sold off dramatically on May 18, extending a two-session bear-steepener triggered by the CPI 3.8% print last Tuesday and the PPI data on Friday. The 10Y hit 4.63% — its highest since January 2025 — representing a 25bp move from May 14's 4.38%, one of the fastest 10Y repricing events of the year. The 30Y reached 5.134% — highest since 2007 and the first time since the 2022-23 rate cycle that the 30Y has spent multiple sessions above 5.10%. The 2Y rose to 4.05%, now above 4% for the first time this cycle, confirming that near-term cut expectations have been fully priced out. Trading Economics: traders 'completely rule out any Fed rate cuts this year.' The 2/10 spread compressed to +58bps from +46bps as the long end moved faster than the short end — a classically stagflationary signal where growth concerns anchor the short end but inflation fears push the long end higher. Warsh June 17 inaugural meeting is now widely expected to be a hold with hawkish tone. Source: Trading Economics (10Y 4.63%), TheStreet (30Y 5.134%); H.15 official pending.",
+
+  "scenarios": [
+    {
+      "label": "Bear",
+      "title": "Iran attack resumes, 10Y hits 5%, Nvidia disappoints, Samsung strike triggers memory shock",
+      "probability": 26,
+      "outcome": "Trump resumes military operations after 'serious negotiations' fail. Brent spikes above $120. 10Y hits 5%, 30Y 5.4%. Samsung 47K-worker strike cuts memory supply — Nvidia's Blackwell ramp impacted. Nvidia May 20 misses data center guide. S&P falls to 6,900-7,100. Warsh emergency statement.",
+      "trigger": "Iran attack resumes AND Samsung strike declared AND Nvidia Q2 guide <$48B"
+    },
+    {
+      "label": "Base",
+      "title": "Iran talks hold, Nvidia blowout absorbs rate shock, Warsh hawkish hold June 17",
+      "probability": 50,
+      "outcome": "Iran 'serious negotiations' produce a framework within 2 weeks. WTI falls back to $95-100. Nvidia May 20 delivers data center >$45B and Q2 guide >$50B — rate shock absorbed by AI earnings conviction. 10Y stabilises 4.5-4.65% range. Warsh June 17 holds, removes easing bias, no hike. S&P 7,200-7,600 range.",
+      "trigger": "Iran framework agreement signed AND Nvidia data center >$45B"
+    },
+    {
+      "label": "Bull",
+      "title": "Iran deal signed, energy deflation, Nvidia supercycle blowout, rate shock reverses",
+      "probability": 24,
+      "outcome": "Iran deal within 2 weeks. WTI collapses to $82-88. May CPI below 3.5% on energy relief. 10Y rallies to 4.1-4.2%. Nvidia >$47B data center, Q2 guide >$53B. OpenAI IPO announced. S&P to 7,800-8,000 by June. Rate shock was the pause before the next AI-driven leg higher.",
+      "trigger": "Iran deal signed by June 1 AND Nvidia Q2 guide >$52B AND 10Y below 4.3%"
+    }
+  ],
+
+  "flows": [
+    {
+      "asset": "Energy — XLE, Brent futures, XOM, CVX",
+      "direction": "Inflow",
+      "size": "+$2.2B",
+      "note": "XLE +2.3% the only S&P sector in green. Brent topped $110 intraday on Trump's Iran attack warning before retreating on the 'delayed' announcement. Energy is the inflation hedge trade and Iran risk hedge simultaneously.",
+      "significance": "High"
+    },
+    {
+      "asset": "Short-duration Treasuries — SHY, BIL",
+      "direction": "Inflow",
+      "size": "+$2.8B",
+      "note": "Largest short-duration inflow since the May 12 CPI day. 2Y at 4.05% with cut expectations fully priced out. Cash parking at 5.2% yield with a hawkish Fed trajectory is the dominant institutional positioning. fedTransitionRisk elevated to 82.",
+      "significance": "High"
+    },
+    {
+      "asset": "TIPS — TIP, SCHP",
+      "direction": "Inflow",
+      "size": "+$1.6B",
+      "note": "Two consecutive hot CPI/PPI prints confirm inflation is structural. TIPS real yield at 2.1% (10Y TIPS) now compelling — stagflation regime SPI at highest reading of the cycle.",
+      "significance": "High"
+    },
+    {
+      "asset": "Semiconductors — NVDA, SOX, STX",
+      "direction": "Outflow",
+      "size": "-$2.1B",
+      "note": "NVDA -4.4% ahead of Wednesday earnings — rate shock reducing discount rate tolerance. Seagate -7% on Samsung strike contagion. SOX -2%+ intraday before partial recovery. The pre-earnings positioning that drove NVDA +4.4% on May 14 is being unwound.",
+      "significance": "High"
+    },
+    {
+      "asset": "Long-duration Bonds — TLT, EDV",
+      "direction": "Outflow",
+      "size": "-$2.3B",
+      "note": "10Y at 4.63%, 30Y at 5.134% triggered the largest TLT outflow since early May. The bear-steepener is now a multi-week trend. Short TLT is the dominant institutional expression of the stagflation regime.",
+      "significance": "High"
+    },
+    {
+      "asset": "Technology — XLK, QQQ",
+      "direction": "Outflow",
+      "size": "-$1.4B",
+      "note": "XLK -1.1%, Nasdaq -0.51%. High-multiple AI names most sensitive to the rate shock. Nvidia -4.4%, MSFT flat, AAPL flat. The broad tech ETF underperformed as rate sensitivity dominated.",
+      "significance": "High"
+    },
+    {
+      "asset": "Defensives — XLV, XLP, XLU",
+      "direction": "Inflow",
+      "size": "+$1.0B",
+      "note": "The Dow's 0.32% gain was entirely driven by defensive rotation — healthcare, consumer staples, financials advanced while tech sold. Regeneron -10.5% (trial failure) was the exception in an otherwise bid healthcare sector.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "OpenAI / AI IPO pipeline — pre-positioning",
+      "direction": "Inflow",
+      "size": "~$0.5B",
+      "note": "Musk v. OpenAI verdict in under 2 hours cleared the legal overhang on OpenAI's IPO path. Microsoft's $228B OpenAI stake (8% of MSFT market cap) preserved. AI IPO pipeline — SpaceX (June 12 Nasdaq target), OpenAI ($1T target), Anthropic — now legally unobstructed.",
+      "significance": "Medium"
+    }
+  ],
+  "flowsRead": "May 18 flows are structurally stagflationary: the three dominant inflows are energy (+$2.2B), short Treasuries (+$2.8B), and TIPS (+$1.6B) — all classic stagflation regime expressions. The three dominant outflows are long-duration bonds (-$2.3B), semiconductors (-$2.1B), and technology (-$1.4B). The Dow's green finish on defensive rotation confirms the same pattern in equity space. The session's most significant signal is the combined weight of the bear-steepener and the Iran delay: the bond market is telling you inflation is structural and the Fed will need to act, while the equity market is choosing to believe the Iran diplomatic track and position for Nvidia Wednesday rather than price in the full rate shock.",
+
+  "indicators": {
+    "brentWTISpread": 5.80,
+    "hormuzclosurePct": 4,
+    "tankerRatePremium": 135,
+    "futuresBackwardationBp": 710,
+    "cloudGrowthRate": 63,
+    "aiRevCapexRatio": 0.93,
+    "earningsRevisionTrend": 82,
+    "corePCETrend": 3.2,
+    "gdpGrowthEstimate": 2.0,
+    "realWageYoY": -1.3,
+    "creditTighteningScore": 58,
+    "advDecRatio": 0.91,
+    "newHiLoRatio": 1.8,
+    "capVsEqualWeightBp": -12,
+    "pctAbove50dMA": 58,
+    "opecCohesionScore": 58,
+    "fedTransitionRisk": 82,
+    "enterpriseSoftwareAIRevGrowth": 24.6
+  },
+
+  "topThemes": [
+    {
+      "direction": "Shock",
+      "theme": "Rate shock: 10Y 4.63% 52-week high, 30Y 5.134% 2007 high — two CPI/PPI beats compound into full hike re-pricing",
+      "impact": "Traders fully ruled out 2026 Fed cuts; hike bets increasing. 10Y hit 4.63% (+25bps in 4 sessions from May 14's 4.38%). 30Y at 5.134% highest since 2007. 2Y above 4% for first time this cycle. The rate shock was the dominant session force — NVDA -4.4%, Nasdaq -0.51%, XLK -1.1%. Warsh June 17 now seen as hold with hawkish tone. fedTransitionRisk raised to 82.",
+      "strength": 95,
+      "tags": ["10Y","30Y","Rates","CPI","PPI","Warsh","Stagflation","Bear-steepener"]
+    },
+    {
+      "direction": "Risk-Off",
+      "theme": "Trump delayed Iran attack scheduled for Tuesday — 'serious negotiations now taking place'",
+      "impact": "Brent topped $110 intraday on Trump warning 'the clock is ticking' before he announced the delay. WTI above $105 at highs. Iran confirmed amended terms sent via Pakistan. Trump-XI China agreement on Hormuz hasn't translated to Iran movement yet. hormuzclosurePct back to 4% — diplomatic trajectory improving but physical blockade unchanged.",
+      "strength": 82,
+      "tags": ["Iran","Hormuz","Trump","Military strike","Delayed","Pakistan","Oil"]
+    },
+    {
+      "direction": "Leadership",
+      "theme": "Musk loses OpenAI lawsuit in under 2 hours — $150B claims dismissed, OpenAI $1T IPO path legally cleared",
+      "impact": "Federal jury dismissed all Musk claims as outside 3-year statute of limitations. Verdict adopted by judge immediately. Microsoft's $228B OpenAI stake preserved. OpenAI $852B valuation, $2B/month revenue, $1T IPO target all intact. Musk vows appeal. Benzinga: 'Verdict arrives at exactly the right moment for OpenAI's capital markets ambitions.' SpaceX prospectus expected this week. AI IPO era confirmed.",
+      "strength": 80,
+      "tags": ["OpenAI","Musk","Trial","IPO","Microsoft","SpaceX","AI IPO wave"]
+    },
+    {
+      "direction": "Shock",
+      "theme": "Samsung Electronics 47,000-worker strike looming — South Korea president urges deal, Seagate -7%",
+      "impact": "Samsung's labour union of 47,000 workers threatening strike as South Korea's president urges resolution. Memory supply chains would tighten further at the worst possible moment — AI infrastructure demand has already monopolised memory components. Seagate -7% on contagion. Micron -3%. If Samsung strikes, HBM and DRAM supply constrain Nvidia's Blackwell ramp directly.",
+      "strength": 72,
+      "tags": ["Samsung","Strike","Memory","HBM","Seagate","MU","Supply chain","Nvidia"]
+    },
+    {
+      "direction": "Data",
+      "theme": "Nvidia Wednesday + Target Wednesday + Walmart Thursday — biggest earnings week of Q2 ahead",
+      "impact": "Markets positioning for the most consequential AI earnings test yet. Nvidia Wednesday: data center >$45B + Q2 guide >$50B required to hold multiple at 35x+. Target and Walmart provide the consumer spending read in a 3.8% CPI environment. UNH -4.8% (Medicare guidance cut) and REGN -10.5% (trial failure) were the pre-earnings season casualties today.",
+      "strength": 68,
+      "tags": ["NVDA","TGT","WMT","Earnings week","Consumer","AI","Wednesday"]
+    }
+  ],
+
+  "crossMarket": [
+    {"market":"S&P 500","risk":"Elevated","move":"7,403.05","trend":"↓ -0.07% barely negative","heat":60,"driver":"Nearly flat despite 4.63% 10Y rate shock — remarkable resilience. Tech sector dragged while defensives and energy offset. S&P is down only 1.3% from its 7,501 record set Thursday. Nvidia Wednesday is the next decisive event.","source":"Yahoo Finance"},
+    {"market":"Nasdaq Composite","risk":"Elevated","move":"26,090.73","trend":"↓ -0.51% rate-sensitive","heat":62,"driver":"Nasdaq 100 had its worst single-day performance since late March — Zacks confirmed -1.5% for Nasdaq 100 specifically. High-multiple AI names most rate-sensitive. NVDA -4.4% led declines. Recovery from -1.5% intraday low to -0.51% close shows AI conviction floor still holding.","source":"Yahoo Finance / GuruFocus / TheStreet"},
+    {"market":"Dow Jones","risk":"Watch","move":"49,686.12","trend":"↑ +0.32% sole index in green","heat":46,"driver":"Dow alone positive — defensives (healthcare, financials, staples) and Boeing offset tech and semi weakness. The Dow's outperformance reflects the K-shaped rotation: value and cyclicals absorbing the rate shock better than growth.","source":"Yahoo Finance / GuruFocus"},
+    {"market":"Russell 2000","risk":"Elevated","move":"2,775.10","trend":"↓ -0.65%","heat":60,"driver":"Russell pulled back from near-record levels. Rate-sensitive small caps more exposed to rising borrowing costs. TheStreet: closed just above 2,775. Breadth: advancers outnumbered decliners.","source":"TheStreet / Yahoo Finance"},
+    {"market":"VIX","risk":"Elevated","move":"17.82","trend":"↓ -3.31% after morning spike","heat":54,"driver":"VIX fell 3.3% despite the rate shock — Iran delay announcement reduced the acute geopolitical tail risk. Morning spike above 18 on the Iran attack news reversed on the 'serious negotiations' announcement. Sub-18 is not complacency but it is not panic either.","source":"Yahoo Finance"},
+    {"market":"Nvidia (NVDA)","risk":"Elevated","move":"-4.39%","trend":"↓ pre-earnings rate selloff","heat":70,"driver":"The exact same move as May 14 — but in reverse. Rate shock (10Y +25bps in 4 days) directly reduces the present value of Nvidia's growth premium. Polymarket still shows ~90% beat probability for Wednesday. But the 'sell on expensive multiples + rate shock' thesis is active. Seagate -7% (Samsung strike contagion) added semiconductor sector pressure.","source":"Yahoo Finance / Zacks"},
+    {"market":"Seagate Technology (STX)","risk":"Elevated","move":"-7%","trend":"↓ Samsung strike contagion","heat":68,"driver":"Seagate builds data storage using Samsung chips. Samsung Electronics 47,000-worker strike threat directly threatens Seagate's supply chain. Memory supply tightening into Nvidia's Blackwell ramp window is the specific risk.","source":"Yahoo Finance live blog"},
+    {"market":"UnitedHealth (UNH)","risk":"Elevated","move":"-4.8%","trend":"↓ Medicare guidance","heat":62,"driver":"UNH fell 4.8% on weaker Medicare Advantage guidance. No specific new catalyst beyond the ongoing managed care headwinds. Healthcare sector otherwise bid on defensive rotation — UNH was the anomaly.","source":"TheStreet"},
+    {"market":"Regeneron (REGN)","risk":"Elevated","move":"-10.5%","trend":"↓ Phase 3 trial failure","heat":66,"driver":"Phase 3 trial for metastatic melanoma did not achieve statistical significance. Largest single-stock percentage decline in the S&P 500 today. Biotech trial risk is the sector's defining feature — even in a defensive rotation day.","source":"TheStreet"},
+    {"market":"Brent Crude","risk":"High","move":"~$108-109","trend":"↑ then ↓ volatile on Iran","heat":74,"driver":"Brent topped $110 intraday as Trump warned Iran to 'get moving, FAST, or there won't be anything left of them.' Then retreated after Trump announced the attack was delayed for 'serious negotiations.' Structural supply shock: Hormuz at 4% normal flow. WTI above $105 at highs, closed near $103-105.","source":"Yahoo Finance live blog / Trading Economics"},
+    {"market":"10Y Treasury","risk":"High","move":"4.63%","trend":"↑ 52-week high","heat":80,"driver":"The session's dominant market force. 10Y at 4.63% is the highest since January 2025 — a 25bp move in 4 sessions from May 14's 4.38%. The combined effect of CPI 3.8% and PPI beats forced full repricing of Fed expectations. Trading Economics: 'traders completely rule out any Fed rate cuts this year while increasing bets on a potential rate hike before year-end.'","source":"Trading Economics / TheStreet"},
+    {"market":"30Y Treasury","risk":"High","move":"5.134%","trend":"↑ highest since 2007","heat":78,"driver":"The 30Y at 5.134% is the highest since 2007 and has now spent multiple sessions above 5.10% — a structural fiscal risk premium that is not solely explained by energy inflation. The 'sell America' dynamic that appeared briefly after last year's Moody's downgrade (Aa1) is re-emerging in the long end.","source":"TheStreet"},
+    {"market":"Gold","risk":"Watch","move":"$4,579.60","trend":"↑ +0.47% safe haven","heat":52,"driver":"Gold gained modestly as the rate shock and Iran escalation risk reinforced safe haven demand. The move was modest because rising real rates (10Y TIPS now above 2.1%) compete with gold's non-yield thesis. But gold is benefiting from both inflation premium and geopolitical premium simultaneously.","source":"Yahoo Finance"},
+    {"market":"Bitcoin","risk":"Watch","move":"$76,913.54","trend":"↓ -1.33% risk-off","heat":46,"driver":"Bitcoin fell 1.3% as rising bond yields put pressure on risk assets. BTC at $76,913 is approaching its lowest level since late April. The rate shock is bitcoin's primary headwind — higher discount rates compress the speculative premium.","source":"Yahoo Finance"}
+  ],
+
+  "sectorHeat": [
+    {"sector":"Energy","heat":76,"trend":"↑ +2.3% only green sector","driver":"XLE sole positive S&P sector. Iran attack delayed (not cancelled) + WTI above $105 intraday. Oil is the inflation hedge and Iran risk hedge simultaneously."},
+    {"sector":"Rates/Bonds","heat":90,"trend":"↑ bear-steepener dominant","driver":"10Y 4.63% 52-week high, 30Y 5.134% 2007 high. The dominant market force of the session. Full rate hike repricing."},
+    {"sector":"Technology","heat":64,"trend":"↓ -1.1% rate shock","driver":"XLK -1.1%. NVDA -4.4% pre-earnings. Rate shock most painful for high-multiple growth names. Nasdaq 100 worst day since late March."},
+    {"sector":"Materials","heat":68,"trend":"↓ -2.7% worst sector","driver":"Materials sold off sharply — the AI data centre construction demand trade paused as rate shock hit. Copper retreated from record levels."},
+    {"sector":"Utilities","heat":60,"trend":"↓ -2.4% rate-sensitive","driver":"Utilities most rate-sensitive sector after materials. 5.134% 30Y competes directly with utility dividend yields. Classic rate shock casualty."},
+    {"sector":"Healthcare","heat":56,"trend":"↑ defensive bid","driver":"Healthcare bought on defensive rotation. UNH -4.8% (Medicare) and REGN -10.5% (trial failure) were exceptions in an otherwise bid sector."},
+    {"sector":"Financials","heat":54,"trend":"↑ higher rates positive for NIM","driver":"Higher yields positive for bank net interest margins. Defensive rotation into value/financials. Dow outperformance driven in part by financial components."},
+    {"sector":"AI Infrastructure","heat":72,"trend":"↓ rate shock pause","driver":"Nvidia -4.4%, Seagate -7%, Micron -3%. Samsung strike threat adds supply chain risk. But AI conviction floor: Nvidia Wednesday the decisive test."}
+  ],
+
+  "drivers": [
+    {
+      "name": "Rate Shock — 10Y 4.63%, 30Y 5.134%. Two Hot Inflation Prints Compound into Full Hike Re-Pricing.",
+      "linked": "TLT, 10Y, 30Y, 2Y, NVDA, XLK, SPI, Warsh, fedTransitionRisk",
+      "source": "Trading Economics, TheStreet, Schwab Market Update",
+      "confidence": "High",
+      "score": 96,
+      "detail": "The 10Y Treasury reached 4.63% on Monday — its highest level since January 2025 — completing a 25bp move in 4 sessions from May 14's 4.38%. The 30Y hit 5.134%, its highest since 2007. The 2Y crossed 4.00% for the first time this cycle. Trading Economics confirmed traders have 'completely ruled out any Federal Reserve rate cuts this year' while 'increasing bets on a potential rate hike before year-end.' The proximate cause: April CPI 3.8% (released May 12) and PPI data (released May 15) both showed Iran's energy shock bleeding into core inflation. RSM's Brusuelas had predicted CPI heading to 4% — the bond market is now pricing that scenario. Warsh inherits the worst inflation backdrop in 3 years at his first FOMC meeting June 17. fedTransitionRisk raised to 82 — highest since it was introduced as an indicator. realWageYoY deteriorated to -1.3%."
+    },
+    {
+      "name": "Trump Delays Iran Attack Scheduled for Tuesday — 'Serious Negotiations Now Taking Place'",
+      "linked": "Brent, WTI, OGPI, Iran, Hormuz, hormuzclosurePct",
+      "source": "Yahoo Finance live blog, TheStreet, CNN",
+      "confidence": "High",
+      "score": 84,
+      "detail": "Brent topped $110 intraday — the highest level in weeks — as Trump warned Iran that 'the clock is ticking' and they had 'better get moving, FAST, or there won't be anything left of them.' A rally in oil prices had already stoked inflation jitters before the open. Then Trump announced he was delaying a military strike that had been scheduled for Tuesday, saying 'serious negotiations are now taking place.' Oil retreated sharply on the delay announcement. Iran confirmed it conveyed another amended set of terms via Pakistani mediators. Tehran said it is 'focused entirely on an agreement to end the war and has not yet discussed any details regarding nuclear matters.' A drone strike near UAE's sole nuclear power plant over the weekend (no injuries, no radiological release) added to the region's instability. Hormuz physically remains at 4% normal flow."
+    },
+    {
+      "name": "Musk Loses OpenAI Trial in Under 2 Hours — $150B Claims Dismissed, OpenAI $1T IPO Path Clear",
+      "linked": "OpenAI IPO, MSFT, SpaceX, AI IPO wave, Altman",
+      "source": "CNBC, Benzinga, Bloomberg",
+      "confidence": "High",
+      "score": 82,
+      "detail": "A federal jury in Oakland dismissed all of Elon Musk's claims against OpenAI and CEO Sam Altman in under two hours of deliberation. The verdict: Musk's claims fell outside the 3-year statute of limitations. Judge Yvonne Gonzalez Rogers adopted the verdict immediately. Musk sought $150B in damages, removal of Altman and Brockman, and dismantling of OpenAI's for-profit structure. None were granted. Microsoft's $228.3B OpenAI stake (8% of MSFT market cap) preserved. OpenAI raised $122B at $852B valuation in March 2026, generating ~$2B/month revenue, targeting $1T IPO. SpaceX prospectus expected this week (Nasdaq June 12 target). Benzinga: 'The verdict arrives at exactly the right moment for OpenAI's capital markets ambitions.' Musk vows appeal and called it a 'calendar technicality.'"
+    },
+    {
+      "name": "Samsung 47,000-Worker Strike Looming — Memory Supply Chain at Risk During Nvidia's Blackwell Ramp",
+      "linked": "Samsung, STX, MU, HBM, NVDA, AVGO, memory supply",
+      "source": "CNBC (Musk verdict article), Yahoo Finance live blog",
+      "confidence": "Medium",
+      "score": 70,
+      "detail": "Samsung Electronics faces a 47,000-worker strike as South Korea's president urged a labor deal. The labour dispute is occurring as AI infrastructure demand has 'monopolised memory components' — Seagate -7% on contagion as the company uses Samsung chips in its data storage products. Micron -3% on sympathy. If the Samsung strike materialises, it would tighten HBM and DRAM supply at the worst possible moment: Nvidia needs Blackwell-grade memory for its data centre expansion and Apple needs advanced node SoCs for iPhone 18. This is the supply chain risk that is not yet in the headlines but is in the Seagate move."
+    },
+    {
+      "name": "G7 Finance Ministers in Paris — Rate Coordination Signal as Global Yields Surge",
+      "linked": "Global rates, G7 coordination, Fed-ECB-BoE",
+      "source": "Reuters (via Investing.com)",
+      "confidence": "Medium",
+      "score": 60,
+      "detail": "G7 finance ministers met in Paris on Monday as global Treasury yields surged — Reuters confirmed the meeting. The agenda likely included the inflationary impact of the Iran-Hormuz closure on G7 economies, coordination on energy price relief, and the dollar's strength. The meeting's outcome was not yet reported but the backdrop — US 30Y at 5.13%, UK gilts elevated, EU yields rising — suggests the discussion was urgent. Any coordinated signal on rate paths or Iran energy policy would be a significant market catalyst."
+    }
+  ],
+
+  "risks": [
+    {
+      "title": "10Y hits 5% before Warsh's June 17 — rate shock has momentum and no near-term catalyst to stop it",
+      "level": "High",
+      "desc": "The 10Y is at 4.63% with the 30Y at 5.134% and the 2Y above 4%. The 10Y's year high was 4.48% — already surpassed. If Nvidia's Wednesday print disappoints OR Iran negotiations fail and Trump resumes military operations, the combined growth/inflation shock could push 10Y to 5% before June 17. A 5% 10Y would force Warsh to address the long-end dysfunction directly at his first meeting — potentially committing to rate cuts to reduce the fiscal premium, or QT tapering. Either outcome would be historically unusual."
+    },
+    {
+      "title": "Samsung 47,000-worker strike — if declared, Blackwell ramp and Nvidia May 20 thesis are at risk",
+      "level": "High",
+      "desc": "The Samsung strike is the session's most underappreciated risk. 47,000 workers would be the largest labour action in South Korean history for a tech firm. Samsung is the #2 HBM producer globally after SK Hynix. A strike would immediately constrain HBM availability for Nvidia's Blackwell products, AMD's MI series, and Apple's A-series. Seagate's -7% move on Monday was the early signal. If the strike is declared before Wednesday's Nvidia earnings, it introduces a direct supply-side uncertainty into Nvidia's Q2 guidance."
+    },
+    {
+      "title": "Iran attack was only 'delayed' — Trump can restart military action within 24 hours if talks fail",
+      "level": "High",
+      "desc": "Trump's announcement delayed the attack — it did not cancel it. The language was explicit: negotiations are 'serious' NOW. If Iran's amended terms are again rejected, the attack resumes. Brent's intraday move from $103 to $110+ and back to $108 on Monday shows the oil market's read: $8 of risk premium is still priced into every barrel. A resumed attack would immediately spike Brent above $115 and potentially $120."
+    },
+    {
+      "title": "Nvidia May 20 — rate shock + Samsung risk = the bar for a 'sustaining beat' just rose sharply",
+      "level": "Elevated",
+      "desc": "Nvidia needs to report through: (1) a 25bp rate shock in 4 sessions (reducing present-value of growth premium), (2) Samsung strike uncertainty (supply chain for Blackwell), (3) H200 China deliveries still stalled (no revenue materialised from the approval), and (4) the Palantir/QCOM templates (clean beats at high multiples don't sustain). Data center >$45B + Q2 guide >$50B are now the floor, not the ceiling, for a positive market reaction."
+    },
+    {
+      "title": "SpaceX IPO prospectus this week — 'second Musk stock' creates Tesla overhang",
+      "level": "Medium",
+      "desc": "SpaceX plans to list on Nasdaq as soon as June 12, with the prospectus expected this week. Bloomberg noted: 'SpaceX IPO Adds Second Musk Stock. It's a Problem for Tesla.' SpaceX was valued at $1.25T after merging with xAI in February. A SpaceX IPO at $1.25T would dwarf Tesla's market cap — investors who want Musk exposure would shift from TSLA to SPCE/whatever the ticker is. Tesla's already complex narrative (Musk distraction, EV competition, autonomy) faces a new capital-allocation competitor."
+    }
+  ],
+
+  "timeline": [
+    {"time":"Pre-market","headline":"10Y Treasury yields hit 4.60%+ in overnight trading — highest since January 2025","effect":"Rate shock set the tone before the open. Nasdaq futures already down 0.5%+. The PPI beat from Friday compounding with CPI from Tuesday into a two-week bear-steepener."},
+    {"time":"08:00","headline":"Trump: 'The clock is ticking' — Iran must accept peace deal 'or there won't be anything left of them'","effect":"Brent spiked above $110. Futures extended losses. The combination of rate shock and Iran escalation produced the session's worst levels pre-open."},
+    {"time":"09:30","headline":"Market opens — NVDA -4.4%, Seagate -7%, Nasdaq -1.5% intraday low, Dow sole positive index","effect":"The two-week rate repricing hit the AI hardware complex hardest. Seagate's Samsung strike contagion revealed the supply chain vulnerability. The Dow's positive open confirmed the defensive rotation was already underway."},
+    {"time":"10:00","headline":"Musk-OpenAI federal jury verdict in under 2 hours — all claims dismissed outside statute of limitations","effect":"MSFT bounced on the preserved $228B OpenAI stake. OpenAI IPO path legally cleared. AI IPO wave (SpaceX this week, OpenAI later in 2026) confirmed. Musk vows appeal. The verdict absorbed with minimal fanfare given the rate shock dominating."},
+    {"time":"12:00","headline":"Trump: 'I have delayed a planned attack on Iran' — 'serious negotiations now taking place'","effect":"The session's inflection point. Brent pulled back sharply from $110+ to near $108. VIX fell. Equity indices recovered from session lows. The 'delayed, not cancelled' language kept risk premium intact."},
+    {"time":"13:00","headline":"Iran confirms amended terms sent to US via Pakistani mediators — 'no nuclear details discussed yet'","effect":"The diplomatic track remains open. The 14-point framework stalled but a revised approach is being negotiated. Market read: ceasefire fragile but not over."},
+    {"time":"15:00","headline":"G7 finance ministers meet in Paris as global yields surge — Iran energy inflation coordination agenda","effect":"No outcome reported yet. But the gathering of G7 finance ministers with the US 30Y at 5.13% signals the rate shock is now a G7-level policy concern, not just a US domestic issue."},
+    {"time":"16:00","headline":"S&P 500 closes 7,403.05 (-0.07%), Nasdaq 26,090.73 (-0.51%), Dow 49,686.12 (+0.32% sole green)","effect":"Remarkable resilience given the rate shock magnitude. The Dow's lone positive finish confirms the defensive rotation is now a structural feature of the market, not a one-day anomaly. Nvidia Wednesday looms."}
+  ],
+
+  "watchpoints": [
+    {"date":"May 20","event":"Nvidia Q1 FY2027 earnings — the week's definitive AI test. Data center >$45B + Q2 guide >$50B required. Samsung strike status critical input.","significance":"High","tag":"AI"},
+    {"date":"May 21","event":"Target (TGT) Q1 earnings — consumer spending read in 3.8% CPI + $4.56/gallon environment. Lower-income consumer stress signal.","significance":"High","tag":"Earnings"},
+    {"date":"May 22","event":"Walmart (WMT) Q1 earnings — largest US retailer consumer health read. Most important non-AI earnings of the week.","significance":"High","tag":"Earnings"},
+    {"date":"May 20-22","event":"Samsung strike declaration or resolution — 47,000 workers. If declared, memory supply chain shock materialises before Nvidia earnings.","significance":"High","tag":"Semiconductors"},
+    {"date":"This week","event":"SpaceX IPO prospectus public disclosure — Nasdaq June 12 target. 'Second Musk stock' problem for Tesla.","significance":"High","tag":"Equities"},
+    {"date":"May 21","event":"Berkshire Hathaway AGM — Greg Abel's first as CEO. Iran war, AI, capital allocation questions.","significance":"Medium","tag":"Earnings"},
+    {"date":"Jun 17","event":"First FOMC under Warsh — 10Y at 4.63%, 30Y at 5.13%, hike bets rising. The most consequential Fed meeting in two years.","significance":"High","tag":"Rates"},
+    {"date":"Ongoing","event":"Iran 'serious negotiations' — Trump delayed Tuesday attack. Next 48-72 hours critical for deal vs escalation.","significance":"High","tag":"Geopolitical"}
+  ],
+
+  "strategies": [
+    {
+      "title": "Short TLT / Long TIPS — bear-steepener has momentum, 30Y at 5.13% is structural",
+      "confidence": "High",
+      "score": 90,
+      "body": "The 30Y at 5.134% and 10Y at 4.63% confirm the stagflation trade is the dominant regime expression. Short TLT captures the continuing bear-steepener — Warsh June 17 with a 3.8% CPI backdrop makes a hawkish hold near-certain. Long TIPS captures both scenarios: if inflation stays elevated, TIPS win on real yield; if Iran resolves, TIPS hold while TLT rallies. The 10Y TIPS real yield at 2.1% is now compelling on an absolute basis. fedTransitionRisk at 82 is the highest indicator reading of the cycle.",
+      "trigger": "Warsh June 17 removes easing bias AND May CPI >3.5%"
+    },
+    {
+      "title": "Long energy — Iran attack delayed, not cancelled. $108 Brent is the floor, not ceiling",
+      "confidence": "High",
+      "score": 84,
+      "body": "Trump's 'delayed' language is not a cancellation. The clock-is-ticking warning, the drone strike near UAE's nuclear plant, and Iran's continued Hormuz closure all confirm the structural supply shock. XLE was the only green S&P sector today. If negotiations fail (which Iran's 'no nuclear details' position suggests is likely), Trump resumes military action and Brent spikes above $115. Long XLE with a stop on formal Iran deal announcement.",
+      "trigger": "Iran formal ceasefire OR attack resumes AND WTI above $110"
+    },
+    {
+      "title": "Nvidia May 20 — position with sizing discipline, not maximum conviction",
+      "confidence": "Medium",
+      "score": 68,
+      "body": "The rate shock (-25bps in 4 days), Samsung strike risk, H200 China delivery stall, and Palantir/QCOM templates all argue for reduced position size into the print. Nvidia needs data center >$45B and Q2 guide >$50B to sustain the multiple at current rates. A massive blowout (>$48B data center, >$53B Q2 guide) would overwhelm the rate headwinds. A clean but not blowout beat could trigger -7 to -10% on the day. Reduce pre-earnings exposure by 30-40%, reload on the guide if it's a supercycle confirmation.",
+      "trigger": "Nvidia data center >$47B AND Q2 guide >$52B AND Samsung strike NOT declared"
+    },
+    {
+      "title": "Position for OpenAI / SpaceX IPO wave — MSFT (OpenAI stake), pre-IPO exposure",
+      "confidence": "Medium",
+      "score": 70,
+      "body": "The Musk verdict cleared OpenAI's IPO path at the exact moment SpaceX's prospectus is about to land. Microsoft's $228B OpenAI stake (8% of MSFT market cap) is now legally secure. MSFT is the most direct listed exposure to OpenAI pre-IPO — the $852B OpenAI valuation creates a measurable uplift to MSFT's sum-of-parts. SpaceX at $1.25T IPO would be the largest IPO in history — AI hardware (Cerebras 68%), AI software infrastructure (Datadog 29%), AI wafer-scale (Cerebras), and now AI + space (SpaceX) are all live IPO trades.",
+      "trigger": "SpaceX prospectus public AND MSFT holds above $415 (OpenAI stake premium floor)"
+    }
+  ],
+
+  "sources": [
+    {"name":"Yahoo Finance","type":"Confirmed EOD closes: S&P 7,403.05 (-0.07%), Dow 49,686.12 (+0.32%), Nasdaq 26,090.73 (-0.51%), Russell 2,775.10 (-0.65%), VIX 17.82 (-3.31%), Gold $4,579.60 (+0.47%), Bitcoin $76,913.54 (-1.33%), Brent ~$108-109","note":"All closes confirmed post-market May 18","url":"https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-may-18-earnings-nvidia-232705005.html"},
+    {"name":"TheStreet","type":"May 18 live blog — 10Y at 52-week high above 4.60%, 30Y 5.134%, Iran attack delayed, Samsung strike, SpaceX IPO","note":"Confirmed 30Y 5.134%, Russell 2,775 close, all key narrative events","url":"https://www.thestreet.com/latest-news/stock-market-today-may-18-2026-updates"},
+    {"name":"GuruFocus","type":"Confirmed closes: Dow +0.32% to 49,686.12, Nasdaq -0.51% to 26,090.73, S&P -0.07% to 7,403.05, VIX +6.78% to 18.43 at one point","note":"Cross-check on all index closes","url":"https://www.gurufocus.com/news/8867103/stock-market-update-dow-rises-nasdaq-and-sp-500-decline-amid-inflation-concerns"},
+    {"name":"Trading Economics","type":"10Y Treasury hit 4.63% — highest since January 2025. Traders fully rule out 2026 rate cuts. Hike bets increasing.","note":"Primary source for 10Y yield level and Fed expectation repricing","url":"https://tradingeconomics.com/united-states/government-bond-yield"},
+    {"name":"CNBC","type":"Musk v. OpenAI verdict — jury dismissed all claims in under 2 hours. Statute of limitations. OpenAI IPO path clear. MSFT $228B stake preserved. Musk appeals.","note":"Primary source for trial verdict detail","url":"https://www.cnbc.com/2026/05/18/musk-altman-openai-trial-verdict.html"},
+    {"name":"Benzinga","type":"OpenAI IPO implications: $852B valuation, $2B/month revenue, $1T IPO target, SpaceX timing. 'Most consequential back-to-back capital markets period in history of tech.'","note":"Best analysis of trial verdict's IPO implications","url":"https://www.benzinga.com/Opinion/26/05/52650955/elon-musk-loses-openai-lawsuit-what-the-trial-revealed-about-ai-investing"},
+    {"name":"Yahoo Finance (live blog)","type":"Trump delays Iran attack — 'serious negotiations taking place.' Iran amended terms via Pakistan. Samsung 47,000-worker strike looming. Seagate -7%. NVDA -4.4%.","note":"Real-time session narrative and individual stock moves","url":"https://finance.yahoo.com/markets/stocks/live/stock-market-today-monday-may-18-earnings-nvidia-232705005.html"},
+    {"name":"Zacks / Yahoo Finance","type":"May 18 sector performance: Energy +2.3% sole green, Materials -2.7%, Utilities -2.4%, Industrials -1.8%, XLK -1.1%. NVDA the Dow's major loser at -4.4%.","note":"Sector breakdown confirmation","url":"https://finance.yahoo.com/markets/stocks/articles/stock-market-news-may-18-120100990.html"},
+    {"name":"Reuters / Investing.com","type":"G7 finance ministers meeting in Paris — Wayne Cole Reuters daily note. Global yield surge agenda.","note":"G7 meeting confirmation May 18","url":"https://www.investing.com/rates-bonds/u.s.-10-year-bond-yield"},
+    {"name":"Bloomberg","type":"SpaceX IPO adds second Musk stock, Tesla overhang. OpenAI verdict. China will open AI chip market.","note":"SpaceX IPO timeline and Tesla overhang analysis","url":"https://www.bloomberg.com/"}
+  ]
+}
