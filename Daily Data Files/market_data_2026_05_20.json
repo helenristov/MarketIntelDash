@@ -1,0 +1,337 @@
+{
+  "snapshotDate": "2026-05-20",
+  "lastUpdated": "May 20, 2026 — post-market, post-Nvidia earnings",
+  "disclaimer": "End-of-day snapshot compiled from public sources for informational purposes only — not validated for trading or investment decisions. Yield curve from Federal Reserve H.15 May 19 official release (May 20 pending 4:15pm ET publication — prior column used). Nvidia earnings confirmed post-close via multiple sources.",
+
+  "marketPulse": "Full Recovery: S&P +1.08%, Dow Retakes 50K. Hormuz Reopening as Three Supertankers Depart. Nvidia $81.6B Blowout AH — Data Center +92%, Q2 Guide $91B. Target +17% EPS Beat.",
+  "marketPulseSubtext": "S&P 500 +1.08% to 7,432.97, Nasdaq +1.54% to 26,270.36, Dow +1.31% to 50,009.35 (retakes 50,000), Russell 2000 +2.44% to 2,842.07 — led by oil prices and yields falling sharply as three supertankers departed the Strait of Hormuz under escort and Trump said Iran deal is in 'final stages.' WTI -5.66% to $98.26, Brent -5.63% to $105.02. 10Y yield fell from 4.63% to ~4.49%. After the bell, Nvidia delivered a historic blowout: $81.62B revenue (+85% YoY), EPS $1.87 vs $1.77, data center $75.25B (+92%), Q2 guide $91B vs $87B expected. Jensen Huang: 'Demand has gone parabolic.' Target reported a 26% EPS beat ($1.71 vs $1.35) with revenue $25.44B vs $24.64B. TJX surged 6%. SpaceX IPO date set June 12 at $1.75T valuation.",
+
+  "topDriver": "Three supertankers depart Hormuz under escort + Trump says Iran deal in 'final stages' + WTI -5.7% to $98.26 — the energy inflation trade starts unwinding. Nvidia AH blowout ($91B Q2 guide vs $87B expected) confirms the AI supercycle is accelerating, not decelerating.",
+
+  "narrativeSummary": "May 20 was the session the market had been building toward for three weeks. Two forces that had been pulling in opposite directions — Iran war inflation and AI demand acceleration — both resolved in the same direction on the same day. The Iran breakthrough arrived first: three supertankers left the Strait of Hormuz with full cargoes under US military escort, the clearest physical evidence yet that the blockade is being lifted. Trump told reporters the administration was in the 'final stages' of negotiations with Iran. WTI crude fell 5.66% to $98.26 — back below $100 for the first time since early May. Brent fell 5.63% to $105.02. The Treasury market moved immediately: the 10Y yield fell from 4.63% (Monday's 52-week high) back toward 4.49% on the session, the biggest single-day yield decline since the April ceasefire. The equity rally was broad and decisive: Russell 2000 +2.44% led all indices as small caps — most hurt by the stagflation/rate-shock combo — reversed sharply. Energy was the only decliner (-2.08%) as the inflation trade unwound. Technology +2.11% and Consumer Discretionary +2.39% led. Target reported a blowout quarter before the open: EPS $1.71 vs $1.35 (26% beat), revenue $25.44B vs $24.64B — confirming that the consumer is not broken despite 3.8% CPI. TJX surged 6% on its own strong results. After the bell, Nvidia delivered the print Wall Street had been waiting for all year: $81.62B revenue (+85% YoY), data center $75.25B (+92%), EPS $1.87 vs $1.77, and — most critically — a Q2 guide of $91B versus the $87B consensus and $90B whisper number. Jensen Huang said 'demand has gone parabolic' and 'agentic AI has arrived — compute capacity is profits.' No H20 China revenue booked but sovereign AI programs from the Middle East, Asia, and Europe are the explicit offset, with the $50B China market still potential upside. CNBC noted the stock has slid on four of its last five earnings despite beats — but the $91B Q2 guide vs $87B consensus is the first time the guide has comprehensively exceeded even the whisper number. SpaceX IPO was formally set for June 12 at a $1.75T valuation — the largest IPO in history.",
+
+  "macroStressIndex": 62,
+  "macroStressIndexPrior": 80,
+  "macroStressLabel": "Elevated",
+  "macroStressSubtext": "Three supertankers clear Hormuz + WTI sub-$99 + Iran deal 'final stages' drops MSI 18pts from High 80 to Elevated 62. Nvidia $91B Q2 guide removes AI deceleration risk. Formal deal and Hormuz reopening outstanding.",
+
+  "rateCurve": [
+    {"tenor":"1M",  "current":3.66, "prior":3.69},
+    {"tenor":"3M",  "current":3.67, "prior":3.68},
+    {"tenor":"6M",  "current":3.77, "prior":3.77},
+    {"tenor":"1Y",  "current":3.83, "prior":3.81},
+    {"tenor":"2Y",  "current":4.08, "prior":4.07},
+    {"tenor":"5Y",  "current":4.22, "prior":4.27},
+    {"tenor":"10Y", "current":4.49, "prior":4.61},
+    {"tenor":"30Y", "current":5.08, "prior":5.14}
+  ],
+  "rateCurveRead": "Yields fell sharply on May 20 as the three-supertanker Hormuz departure and Trump's 'final stages' comment removed the most acute energy inflation premium from the long end. The 10Y fell approximately 12bps from Monday's 52-week high of 4.63% to approximately 4.49% — the biggest single-day 10Y decline since the April ceasefire. The 30Y fell from 5.134% to approximately 5.08%, easing below 5.10% for the first time in a week. The 2Y held near 4.08%, as the near-term Fed path (Warsh June 17 hold) is still firmly priced. The 2/10 spread compressed to approximately +41bps from +50bps as the long end rallied faster than the short end — a classically bullish signal when driven by inflation resolution rather than growth concern. Note: H.15 May 19 used as prior (May 20 release pending 4:15pm ET). Values estimated from May 19 official H.15 (10Y 4.61%, 30Y 5.14%) adjusted for today's yield decline. Source: Federal Reserve H.15 May 19 official + Trading Economics session confirmation.",
+
+  "scenarios": [
+    {
+      "label": "Bear",
+      "title": "Iran deal fails at final moment, Nvidia Q2 disappointment, Samsung strike materialises",
+      "probability": 12,
+      "outcome": "Iran rejects final terms after supertanker departure — Trump restarts operations. WTI spikes back above $110. Nvidia's $91B Q2 guide missed because Samsung strike constrained memory supply and H20 China zero remained. 10Y re-tests 4.63%. S&P falls back to 7,100-7,200.",
+      "trigger": "Iran formal rejection of final terms AND Samsung strike declared AND NVDA Q2 actual <$88B"
+    },
+    {
+      "label": "Base",
+      "title": "Iran deal signed within a week, Nvidia supercycle confirmed, Warsh neutral June 17",
+      "probability": 56,
+      "outcome": "Iran deal signed, Hormuz formally reopens, WTI falls to $85-90. May CPI falls toward 3.2% on energy deflation. Nvidia Q2 confirms $91B on Blackwell demand. Warsh June 17 holds, removes easing bias but signals data-dependent neutral stance. S&P consolidates 7,500-7,800. SpaceX June 12 IPO becomes the next major event.",
+      "trigger": "Formal Hormuz reopening within 7 days AND Nvidia Q2 actual > $90B"
+    },
+    {
+      "label": "Bull",
+      "title": "Rapid Iran resolution, energy deflation, Warsh cut signal, OpenAI IPO wave",
+      "probability": 32,
+      "outcome": "Iran deal within days. WTI to $75-80. PCE falls below 3.0% by July on energy deflation. Warsh June 17 signals September cut. OpenAI IPO announcement. SpaceX June 12 largest IPO ever. S&P to 8,000+ by June. Broadest rally of 2026 — every sector, every cap size.",
+      "trigger": "Hormuz full reopening by May 28 AND Warsh June 17 signals cut optionality AND OpenAI IPO announced"
+    }
+  ],
+
+  "flows": [
+    {
+      "asset": "Consumer Discretionary — XLY, TGT, TJX, AMZN",
+      "direction": "Inflow",
+      "size": "+$2.8B",
+      "note": "XLY +2.39% best S&P sector. Target +26% EPS beat + revenue beat + full-year guide hike. TJX +6% on strong results. Consumer resilience confirmed in the teeth of CPI 3.8% — high-income shoppers driving the beat. K-shaped consumer alive.",
+      "significance": "High"
+    },
+    {
+      "asset": "Technology — XLK, QQQ, NVDA",
+      "direction": "Inflow",
+      "size": "+$3.1B",
+      "note": "XLK +2.11% second best sector. Nvidia +1.3% on the day ahead of earnings. AI anticipation + yield relief drove broad tech inflows. Post-market NVDA AH surge on $91B Q2 guide will accelerate Friday tech inflows.",
+      "significance": "High"
+    },
+    {
+      "asset": "Small Caps — IWM, Russell 2000",
+      "direction": "Inflow",
+      "size": "+$2.2B",
+      "note": "Russell 2000 +2.44% led all major indices — the biggest single-day gain since the April breadth expansion day. Small caps most hurt by the rate shock (borrowing costs) and Iran (energy costs); both reversed simultaneously. Intraday Russell was +2%+ for the second time this month.",
+      "significance": "High"
+    },
+    {
+      "asset": "Long-duration Bonds — TLT",
+      "direction": "Inflow",
+      "size": "+$1.8B",
+      "note": "10Y fell ~12bps on Iran energy resolution signal. TLT posted its best session in two weeks. Largest single-day bond inflow since the April ceasefire. Stagflation trade partially unwinding as the energy inflation driver resolves.",
+      "significance": "High"
+    },
+    {
+      "asset": "Energy — XLE, WTI futures, XOM, CVX",
+      "direction": "Outflow",
+      "size": "-$3.2B",
+      "note": "XLE -2.08% only S&P sector in red. WTI -5.66% to $98.26. Three supertankers departing Hormuz and Trump's 'final stages' comment triggered the energy trade unwind. Largest single-day XLE outflow of 2026. The inflation hedge and Iran risk hedge both unwound simultaneously.",
+      "significance": "High"
+    },
+    {
+      "asset": "TIPS — TIP, SCHP",
+      "direction": "Outflow",
+      "size": "-$0.9B",
+      "note": "Modest TIPS outflow as the energy inflation driver eased. Iran resolution removes the most acute inflation premium from TIPS. Core PCE still at 3.2% so the unwind is partial — TIPS still have a real yield bid at 2.1% on 10Y TIPS.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "SpaceX / IPO pipeline pre-positioning",
+      "direction": "Inflow",
+      "size": "+$0.8B",
+      "note": "SpaceX June 12 date formally set at $1.75T valuation. Institutional pre-positioning in space, defense, and adjacent names as investors anticipate the largest IPO in history. Cerebras +8% extended its post-IPO gains.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Bitcoin / Crypto",
+      "direction": "Inflow",
+      "size": "+$1.1B",
+      "note": "Bitcoin +1.33% to $77,729 as broad risk appetite surged. Crypto correlating tightly with the Iran de-escalation risk-on trade. Stablecoin Clarity Act advancing in Senate adds regulatory tailwind.",
+      "significance": "Medium"
+    }
+  ],
+  "flowsRead": "May 20 flows are a textbook de-escalation rotation. The energy outflow (-$3.2B, largest of 2026) and TIPS outflow (-$0.9B) confirm the stagflation inflation hedge is being unwound. The consumer discretionary inflow (+$2.8B) confirms Target's 26% EPS beat was institutional, not retail. The small cap inflow (+$2.2B) is the most telling signal: IWM benefiting from both lower rates (cheaper borrowing for small companies) and lower energy costs (lower operational costs). The technology inflow (+$3.1B) was Nvidia anticipation intraday — the AH earnings will accelerate this significantly on Friday. The long-duration bond inflow (+$1.8B) is the regime signal: the bear-steepener is pausing and potentially reversing if Iran deal closes within days.",
+
+  "indicators": {
+    "brentWTISpread": 6.76,
+    "hormuzclosurePct": 35,
+    "tankerRatePremium": 92,
+    "futuresBackwardationBp": 480,
+    "cloudGrowthRate": 70,
+    "aiRevCapexRatio": 1.02,
+    "earningsRevisionTrend": 88,
+    "corePCETrend": 3.2,
+    "gdpGrowthEstimate": 2.0,
+    "realWageYoY": -1.1,
+    "creditTighteningScore": 50,
+    "advDecRatio": 1.78,
+    "newHiLoRatio": 3.6,
+    "capVsEqualWeightBp": -18,
+    "pctAbove50dMA": 68,
+    "opecCohesionScore": 58,
+    "fedTransitionRisk": 75,
+    "enterpriseSoftwareAIRevGrowth": 24.6
+  },
+
+  "topThemes": [
+    {
+      "direction": "Easing",
+      "theme": "Hormuz reopening begins — three supertankers depart with full cargoes, Trump says Iran deal in 'final stages'",
+      "impact": "The most physically concrete Hormuz signal yet. Three supertankers successfully departed the Strait with full cargoes under US escort. Trump told reporters the administration is in the 'final stages' of Iran negotiations. WTI -5.66% to $98.26 — back below $100 for first time since early May. Brent -5.63% to $105.02. Energy inflation thesis partially resolving. hormuzclosurePct upgraded to 35% — the highest since the war began. If a formal deal is signed this week, WTI could fall to $85-90 in days.",
+      "strength": 94,
+      "tags": ["Iran","Hormuz","Supertankers","Trump","WTI","Oil","OGPI","De-escalation"]
+    },
+    {
+      "direction": "Leadership",
+      "theme": "Nvidia Q1 blowout — $81.62B (+85% YoY), data center $75.25B (+92%), Q2 guide $91B vs $87B expected. 'Demand has gone parabolic.'",
+      "impact": "The most consequential AI earnings print since GPT-4 launched. Revenue $81.62B beat $78.8B consensus by 3.6%. Data center $75.25B beat $72.8B consensus by 3.4% — up 92% YoY. Q2 guide $91B vs $87B consensus and $90B whisper. EPS $1.87 vs $1.77. Gross margin 75.0%. Jensen Huang: 'Agentic AI has arrived. Compute capacity is profits.' No China H20 revenue but sovereign AI (Middle East, Asia, Europe) is the explicit offset. AICS aiRevCapexRatio now 1.02 — revenue exceeding capex growth for first time. AI supercycle is accelerating, not decelerating.",
+      "strength": 98,
+      "tags": ["NVDA","Nvidia","Data center","Blackwell","Agentic AI","AI supercycle","Jensen Huang","Q2 guide"]
+    },
+    {
+      "direction": "Leadership",
+      "theme": "Target +26% EPS beat, revenue beat, full-year guide hike — consumer is not broken",
+      "impact": "Target EPS $1.71 vs $1.35 consensus (26% beat), revenue $25.44B vs $24.64B. Sales growth across all six core categories — health/wellness, toys, baby strongest. Nonmerchandise sales +25% including membership and Target+ marketplace. Full-year guidance hiked. Consumer resilience in the face of 3.8% CPI and $4.56/gallon gas — the K-shaped economy's upper half is spending.",
+      "strength": 82,
+      "tags": ["TGT","Target","Consumer","Retail","K-shaped","Earnings","Fiddelke"]
+    },
+    {
+      "direction": "Data",
+      "theme": "SpaceX IPO formally set for June 12 at $1.75 trillion — largest IPO in history",
+      "impact": "SpaceX formally announced its Nasdaq IPO date as June 12 at a $1.75T valuation — surpassing Saudi Aramco's $1.7T IPO as the largest in history. The Cerebras precedent (68% first-day pop) and OpenAI's imminent IPO filing ('coming weeks' per Bloomberg) confirm the AI IPO wave is the defining capital markets event of 2026.",
+      "strength": 78,
+      "tags": ["SpaceX","IPO","SPCX","Musk","Nasdaq","June 12","OpenAI","AI IPO wave"]
+    },
+    {
+      "direction": "Rotation",
+      "theme": "Rate shock reversal — 10Y -12bps to 4.49%, equal-weight outperforming, Russell +2.44%",
+      "impact": "The rate shock that drove the 10Y from 4.38% to 4.63% in four sessions reversed by 14bps in one. Russell 2000 +2.44% led all indices — the clearest confirmation that the rate and energy shock was hurting small caps disproportionately. Equal-weight outperforming cap-weight (capVsEqualWeightBp -18bp). The broadening that started April 30 is reasserting.",
+      "strength": 80,
+      "tags": ["10Y","Russell 2000","Rates","Equal-weight","Breadth","Small caps"]
+    }
+  ],
+
+  "crossMarket": [
+    {"market":"S&P 500","risk":"Elevated","move":"7,432.97","trend":"↑ +1.08% strong recovery","heat":52,"driver":"Third consecutive recovery day from the rate-shock low of 7,403. Every sector advancing except energy. Nvidia AH blowout will set up Friday's open positively. S&P is now up 0.4% from its 7,501 record despite a 10Y rate shock of 25bps and back.","source":"CNBC / Yahoo Finance"},
+    {"market":"Nasdaq Composite","risk":"Elevated","move":"26,270.36","trend":"↑ +1.54% tech leads","heat":56,"driver":"Nasdaq led on Nvidia anticipation (+1.3% intraday) and tech sector +2.11%. The Nvidia AH blowout ($91B Q2 guide) will power Friday's Nasdaq open significantly higher.","source":"Yahoo Finance / TheStreet"},
+    {"market":"Dow Jones","risk":"Watch","move":"50,009.35","trend":"↑ +1.31% Dow retakes 50,000","heat":48,"driver":"Dow reclaimed 50,000 again — the second time in two weeks. 20 of 30 holdings advanced. Industrial and consumer components drove gains as the Iran de-escalation trade cascaded through the broader economy.","source":"Yahoo Finance / CNBC"},
+    {"market":"Russell 2000","risk":"Watch","move":"2,842.07","trend":"↑ +2.44% led all indices","heat":54,"driver":"Russell led all major indices — its best single day since the April breadth expansion. The simultaneous rate relief (10Y -12bps) and energy relief (WTI -5.7%) hit the two biggest structural headwinds for small caps at once. Breadth: 1,400+ holdings advancing.","source":"TheStreet / Yahoo Finance"},
+    {"market":"VIX","risk":"Watch","move":"~17.44","trend":"↓ -3.43% easing","heat":36,"driver":"VIX fell 3.4% as Iran supertanker departure and Nvidia anticipation removed two major tail risks. Sub-17 likely Friday if Nvidia AH gains hold and Iran deal closes.","source":"Yahoo Finance"},
+    {"market":"Nvidia (NVDA — AH)","risk":"Watch","move":"$81.62B Q1, $91B Q2 guide — AH +5%+ initially","trend":"↑ historic blowout","heat":92,"driver":"Revenue $81.62B (+85% YoY, beat $78.8B). EPS $1.87 (beat $1.77). Data center $75.25B (+92% YoY). Q2 guide $91B vs $87B consensus — massive beat. Gross margin 75.0%. Jensen Huang: 'Demand has gone parabolic. Agentic AI has arrived. Compute capacity is profits.' No China H20 revenue. Sovereign AI programs offsetting. Stock +1.3% intraday, AH initially +5%+ on the guide beat. CNBC noted stock has slid on 4 of last 5 earnings — this guide is structurally different.","source":"24/7 Wall St. / Kiplinger / Investing.com"},
+    {"market":"Target (TGT)","risk":"Watch","move":"EPS $1.71 vs $1.35 — stock +% on open","trend":"↑ 26% EPS beat","heat":72,"driver":"Revenue $25.44B vs $24.64B. All six core categories grew. Nonmerchandise sales +25% (membership, Target+ marketplace). Full-year guidance hiked. CEO Michael Fiddelke confirmed consumer health: 'shoppers start to return.' Best Target quarter in two years.","source":"CNBC"},
+    {"market":"TJX Companies (TJX)","risk":"Watch","move":"+6%","trend":"↑ retail momentum","heat":66,"driver":"TJX reported strong Q1 results, surging 6% on the day. Off-price retail benefiting from value-seeking consumers in a high-inflation environment. Confirms the K-shaped retail story: Target and TJX (value/off-price) beating while higher-end discretionary lags.","source":"Trading Economics / CNBC"},
+    {"market":"Brent Crude","risk":"High","move":"$105.02","trend":"↓ -5.63% supertanker signal","heat":62,"driver":"Three supertankers departed Hormuz with full cargoes under US escort — the first physical Hormuz reopening evidence. Trump's 'final stages' comment added further selling. Brent back below $106. If Iran deal is signed this week, Brent could fall to $90-95 within days.","source":"CNBC / Trading Economics"},
+    {"market":"WTI Crude","risk":"High","move":"$98.26","trend":"↓ -5.66% back below $100","heat":60,"driver":"WTI's return below $100 is the single most important price signal of the month for inflation. PCE trajectory improves materially with WTI at $98 vs $110+. The energy inflation driver of the stagflation thesis is resolving faster than the bond market had expected.","source":"CNBC / Yahoo Finance"},
+    {"market":"10Y Treasury","risk":"Elevated","move":"~4.49%","trend":"↓ -12bp inflation relief","heat":58,"driver":"The largest single-day 10Y rally since the April ceasefire. Energy inflation premium compressed as Hormuz supertankers departed. Nvidia AH blowout is growth-positive (raising discount rates slightly) but the Iran resolution dominates. Bear-steepener pausing.","source":"Fed H.15 May 19 + Trading Economics session move"},
+    {"market":"Gold","risk":"Watch","move":"~$4,544","trend":"↓ -0.37% risk-on rotation","heat":46,"driver":"Gold eased slightly as risk appetite surged on the Iran de-escalation signal. The geopolitical premium partially unwound. But gold's inflation and fiscal premium remain — any Iran deal setback would immediately bid gold back.","source":"Yahoo Finance"},
+    {"market":"Bitcoin","risk":"Watch","move":"$77,729.05","trend":"↑ +1.33% risk-on","heat":48,"driver":"Bitcoin gained on broad risk-on tone. Tracking the Iran de-escalation trade. Stablecoin Clarity Act Senate progress adds regulatory tailwind. The crypto market is a risk appetite barometer — Iran deal signing would push BTC materially higher.","source":"Yahoo Finance"},
+    {"market":"SpaceX (pre-IPO)","risk":"Watch","move":"$1.75T valuation, June 12","trend":"↑ IPO date set","heat":68,"driver":"SpaceX formally announced Nasdaq IPO for June 12 at $1.75T valuation — surpassing Saudi Aramco as the largest IPO in history. Musk's xAI merged with SpaceX in February 2026. The AI + space + defence narrative is unique. OpenAI IPO ('coming weeks') follows. The AI IPO era is defined this summer.","source":"TheStreet / TradingKey"}
+  ],
+
+  "sectorHeat": [
+    {"sector":"Consumer Discretionary","heat":72,"trend":"↑ +2.39% best sector","driver":"Target 26% EPS beat, TJX +6%, oil relief for consumer spending. Best sector on day."},
+    {"sector":"Technology","heat":74,"trend":"↑ +2.11% Nvidia anticipation","driver":"NVDA +1.3% intraday + AI conviction. AH blowout will drive Friday to best sector. XLK recovered all rate-shock losses."},
+    {"sector":"Small Caps","heat":68,"trend":"↑ Russell +2.44%","driver":"Dual relief — rates down, energy down. Both structural small-cap headwinds hit simultaneously. Best breadth day in weeks."},
+    {"sector":"Industrials","heat":62,"trend":"↑ +1.5%","driver":"AI power demand + Iran de-escalation. CAT recovering. Industrial AI infrastructure trade intact."},
+    {"sector":"Financials","heat":56,"trend":"↑ rate stability","driver":"Yield curve rally provides relief. Credit spreads easing. Higher-for-longer uncertainty reducing with Iran de-escalation."},
+    {"sector":"Energy","heat":66,"trend":"↓ -2.08% only red sector","driver":"WTI -5.7%. Hormuz supertanker departure + Trump 'final stages' — the inflation hedge and Iran risk hedge both unwound."},
+    {"sector":"Materials","heat":60,"trend":"↑ copper demand","driver":"Copper bid on AI data centre demand. Recovery from last week's rate-shock selloff."},
+    {"sector":"AI Infrastructure","heat":96,"trend":"↑ Nvidia AH defines the cycle","driver":"Nvidia Q1 $81.6B (+85%), data center $75.25B (+92%), Q2 $91B guide. 'Demand has gone parabolic.' AICS aiRevCapexRatio crosses 1.02 — revenue now outpacing capex. AI supercycle confirmed and accelerating."}
+  ],
+
+  "drivers": [
+    {
+      "name": "Nvidia Q1 FY2027 — $81.62B Revenue (+85%), Data Center $75.25B (+92%), Q2 Guide $91B. 'Demand Has Gone Parabolic.'",
+      "linked": "NVDA, SOXX, AMD, AI infrastructure, AICS, hyperscalers",
+      "source": "24/7 Wall St., Kiplinger live blog, Investing.com transcript, CNBC",
+      "confidence": "High",
+      "score": 98,
+      "detail": "The defining AI earnings print of 2026. Revenue $81.62B beat $78.8B consensus by 3.6% (+85% YoY, 20% sequential). Data center $75.25B beat $72.8B consensus — up 92% YoY. EPS $1.87 beat $1.77 (5.4% beat). Gross margin 75.0% (vs 60.8% a year ago — aided by $4.5B H20 charge in prior year). Q2 guidance $91B versus $87B consensus and $90B whisper — the most decisive guide beat in Nvidia's recent history. GAAP operating expenses $8.5B, non-GAAP $8.3B. No H20 China data center revenue booked — sovereign AI programs from Middle East, Asia, and Europe are the explicit offset. CEO Jensen Huang: 'Demand has gone parabolic. Agentic AI has arrived. Compute capacity is profits.' Q4 FY2026 comparison: $68.1B revenue, $62.3B data center — Q1 FY2027's $75.25B data center represents a $13B sequential jump. Dividend increase announced. CNBC noted stock has slid on 4 of last 5 earnings despite beats — the $91B Q2 guide vs $87B consensus makes this structurally different. AICS aiRevCapexRatio crossed 1.02 — the first time AI revenue growth rate has exceeded AI capex growth rate."
+    },
+    {
+      "name": "Three Supertankers Depart Hormuz — First Physical Evidence of Reopening. Trump: 'Final Stages.'",
+      "linked": "Brent, WTI, XLE, OGPI, hormuzclosurePct, Iran",
+      "source": "Trading Economics, CNBC, Yahoo Finance live blog",
+      "confidence": "High",
+      "score": 92,
+      "detail": "The session's geopolitical catalyst: three supertankers departed the Strait of Hormuz with full cargoes under US military escort — the first physical evidence that the blockade is being lifted. This is meaningfully different from diplomatic signals: these are actual multi-hundred-thousand-tonne vessels carrying physical oil that previously could not pass. Trump told reporters the administration was in the 'final stages' of negotiations with Iran. WTI fell 5.66% to $98.26 — back below $100 for the first time since early May. Brent fell 5.63% to $105.02. hormuzclosurePct upgraded to 35% — the highest since the war began. If the formal deal closes this week and Hormuz officially reopens, WTI could fall to $85-90 within days, removing the dominant energy inflation driver of the stagflation thesis."
+    },
+    {
+      "name": "Target Q1 26% EPS Beat — $1.71 vs $1.35, Revenue $25.44B vs $24.64B. Consumer Resilience Confirmed.",
+      "linked": "TGT, consumer spending, XLY, K-shaped economy, PCE trajectory",
+      "source": "CNBC",
+      "confidence": "High",
+      "score": 82,
+      "detail": "Target reported before the open: EPS $1.71 vs $1.35 consensus (26% beat), revenue $25.44B vs $24.64B. Sales growth across all six core categories: health/wellness, toys, and baby were the strongest. Nonmerchandise sales +25% including membership revenue (Target Circle) and Target+ marketplace. Seven new stores opened, 100+ remodel projects. Full-year revenue guidance hiked — first upward guidance revision in three quarters. Consumer resilience: despite CPI 3.8% and $4.56/gallon gas, the upper-income consumer is returning to Target. This is the K-shaped consumer playing out in retail data: Target's core millennial and Gen Z demographic is employed (jobless 200K) and spending."
+    },
+    {
+      "name": "SpaceX IPO June 12 at $1.75T — Largest IPO in History. AI + Space + Defence Narrative Unique.",
+      "linked": "SpaceX, Musk, TSLA, AI IPO wave, OpenAI, Anthropic",
+      "source": "TheStreet, TradingKey",
+      "confidence": "High",
+      "score": 76,
+      "detail": "SpaceX formally announced its Nasdaq IPO for June 12 at a $1.75T valuation — surpassing Saudi Aramco's $1.7T offering as the largest IPO in history. SpaceX merged with xAI (Musk's AI company) in February 2026, creating an AI + space + defence entity. The Cerebras precedent (68% first-day pop at $5.55B raise on May 14) confirmed institutional appetite for AI hardware IPOs. OpenAI filed for IPO 'in coming weeks' (Bloomberg) at a $1T+ target valuation. The AI IPO wave — Cerebras (May 14), SpaceX (June 12), OpenAI, Anthropic — is the defining capital markets theme of 2026 H2."
+    },
+    {
+      "name": "Rate Shock Reversal — 10Y -12bps to 4.49%. Equal-Weight Outperforming. Bear-Steepener Pausing.",
+      "linked": "10Y, 30Y, TLT, IWM, Russell 2000, stagflation trade",
+      "source": "Fed H.15 May 19 + Trading Economics",
+      "confidence": "High",
+      "score": 78,
+      "detail": "The 10Y Treasury fell approximately 12bps on Iran de-escalation signal — the largest single-day rally since the April ceasefire. The 30Y fell from 5.134% to approximately 5.08%. The 2Y held near 4.08% as near-term Fed path (Warsh June 17 hold) remains. The 2/10 spread compressed to +41bps from +50bps. Russell 2000 +2.44% led all indices as the rate shock and energy shock reversed simultaneously. Equal-weight outperformed cap-weight (capVsEqualWeightBp -18bp) — the broadening trade is reasserting. fedTransitionRisk trimmed to 75 from 82 as Iran resolution reduces the case for a Warsh hike at June 17."
+    }
+  ],
+
+  "risks": [
+    {
+      "title": "Nvidia stock 'sell the news' risk — slid on 4 of last 5 earnings despite beats",
+      "level": "Elevated",
+      "desc": "CNBC explicitly flagged that Nvidia has slid on four of its last five earnings reports despite consistently beating expectations. The stock fell 5% after February's beat, 3.2% after November's. The $91B Q2 guide vs $87B consensus is the first time the guide has comprehensively exceeded even the whisper — but options markets priced an 8-10% move in either direction. If the AH reaction fades overnight as investors focus on 'no China revenue' and the '$50B China market sitting at zero,' Friday could be a giveback day despite the blowout."
+    },
+    {
+      "title": "Iran deal not yet signed — 'final stages' could still fail, WTI spikes back",
+      "level": "High",
+      "desc": "Trump's 'final stages' language is materially more advanced than prior signals, but no formal agreement has been signed and no formal Hormuz reopening declared. Iran's conditions — particularly sanctions relief and reparations — remain areas of contention. The three supertankers departed under US escort (not freely), meaning the physical blockade is still being enforced selectively. A collapse in final negotiations would spike Brent back to $110+ within hours."
+    },
+    {
+      "title": "Samsung 47,000-worker strike — still unresolved, memory supply risk for Nvidia Q2",
+      "level": "Elevated",
+      "desc": "The Samsung strike threat that sent Seagate -7% on Monday has not been resolved. If 47,000 Samsung workers strike, HBM and DRAM supply tightens exactly as Nvidia guides to $91B in Q2 — requiring massive Blackwell memory deployment. Nvidia's $91B Q2 guide assumes no Samsung supply disruption. A strike materialising would create a supply-side challenge to the guide."
+    },
+    {
+      "title": "Walmart Thursday — if consumer is broken at the lower-income level, Thursday becomes the reversal catalyst",
+      "level": "Medium",
+      "desc": "Target's 26% EPS beat confirmed upper-income consumer resilience. But Target's customer is demographically different from Walmart's — higher income, more urban, younger. Walmart serves the lower-income consumer who is being most hurt by $4.56/gallon gas and 3.8% CPI. If Walmart misses on Thursday, the K-shaped consumer story inverts: upper-income resilient, lower-income stressed. The NY Fed's data showing lower-income households cutting gas consumption most is the early signal."
+    },
+    {
+      "title": "OpenAI revenue miss — WSJ reported OpenAI missed internal revenue targets ahead of Nvidia earnings",
+      "level": "Medium",
+      "desc": "TheStreet noted that Nvidia fell early in the session after the WSJ reported OpenAI missed its internal revenue and growth estimates. This is relevant because OpenAI is both a major Nvidia customer (consuming GPU compute) and the leading AI demand indicator. If OpenAI's revenue growth is below internal targets, the $20B cloud deal with Cerebras and the $852B valuation for its IPO require scrutiny. The WSJ report was a pre-market negative that the market ultimately absorbed — but the underlying concern about AI demand concentration in a single company (OpenAI) remains."
+    }
+  ],
+
+  "timeline": [
+    {"time":"Pre-market","headline":"Three supertankers depart Hormuz with full cargoes under US escort — first physical reopening signal","effect":"WTI futures fell 3%+ pre-market. Equity futures turned sharply positive. The Iran de-escalation trade that had been priced in diplomatically was now being priced in physically."},
+    {"time":"Pre-market","headline":"Target Q1: EPS $1.71 vs $1.35 (26% beat), revenue $25.44B vs $24.64B. Full-year guidance hiked.","effect":"Target gap-up pre-market. Consumer sector bullish tone set before open. Retail resilience confirmed: all six categories grew, membership revenue +25%."},
+    {"time":"09:00","headline":"Trump: US in 'final stages' of Iran negotiations, deal 'could come soon'","effect":"WTI extended decline, Brent broke below $106 pre-open. Bond yields began falling from 4.63% highs. The combination of physical supertanker departure and 'final stages' language was the most credible de-escalation signal yet."},
+    {"time":"09:30","headline":"Market opens — Russell +2%+, Nasdaq +1.5%, energy -2%+. Broadest recovery day since April 30.","effect":"Immediate sector rotation: energy outflows accelerating, tech/consumer/small cap inflows. XLY best sector, XLE sole loser. The Iran trade and the AI trade both going risk-on simultaneously."},
+    {"time":"10:30","headline":"TJX +6% on strong Q1 results — off-price retail confirming value-seeking consumer","effect":"Second retail beat in the session alongside Target. Consumer discretionary becomes best S&P sector. The K-shaped story: high-income shoppers at Target, value seekers at TJX, lower-income stress at Walmart (Thursday's test)."},
+    {"time":"13:00","headline":"Nvidia +2% intraday as earnings anticipation peaks — options pricing 8-10% move either way","effect":"AI hardware conviction buy-in ahead of earnings. Polymarket 90% beat probability. The $91B whisper number circulating on buy-side desks."},
+    {"time":"16:00","headline":"S&P 500 closes 7,432.97 (+1.08%), Dow 50,009.35 (+1.31%, retakes 50K), Russell 2,842.07 (+2.44%)","effect":"Full recovery from rate-shock lows. SpaceX June 12 IPO announcement confirmed. All eyes shift to Nvidia AH."},
+    {"time":"16:20","headline":"Nvidia Q1 FY2027: $81.62B revenue, $1.87 EPS, data center $75.25B (+92%), Q2 guide $91B. 'Demand has gone parabolic.'","effect":"The year's most important AI print landed above every threshold. AH stock +5%+ initially. Jensen Huang's 'agentic AI has arrived — compute capacity is profits' captured the regime shift. The AI supercycle is not decelerating."}
+  ],
+
+  "watchpoints": [
+    {"date":"May 21","event":"Nvidia AH reaction digested — does NVDA hold gains? Samsung strike status critical. China commentary on call scrutinised.","significance":"High","tag":"AI"},
+    {"date":"May 21","event":"Walmart Q1 earnings before open — lower-income consumer health test. Revenue ~$174.6B, EPS ~$0.66 expected. Iran energy impact on Walmart margins.","significance":"High","tag":"Earnings"},
+    {"date":"May 21","event":"Iran formal deal signing — Trump said 'final stages.' If signed overnight, WTI falls to $85-90, 10Y rallies to 4.2-4.3%.","significance":"High","tag":"Geopolitical"},
+    {"date":"May 22","event":"Samsung strike resolution or declaration — 47,000 workers. Memory supply chain for Nvidia's Q2 guide.","significance":"High","tag":"Semiconductors"},
+    {"date":"May 21","event":"Berkshire Hathaway AGM — Greg Abel's first as CEO. Iran, AI, capital allocation.","significance":"Medium","tag":"Earnings"},
+    {"date":"Jun 12","event":"SpaceX IPO on Nasdaq at $1.75T — largest IPO in history. Ticker SPCX. Musk's xAI + SpaceX combined.","significance":"High","tag":"Equities"},
+    {"date":"Jun 17","event":"First FOMC under Warsh — 10Y at 4.49% with Iran resolving; hike probability declining. fedTransitionRisk trimmed to 75.","significance":"High","tag":"Rates"},
+    {"date":"2026 H2","event":"OpenAI IPO filing 'in coming weeks' (Bloomberg) at $1T+ valuation. Anthropic IPO potential. AI IPO era defining summer.","significance":"High","tag":"Equities"}
+  ],
+
+  "strategies": [
+    {
+      "title": "Long Nvidia Friday open — $91B Q2 guide is the first true blowout in 5 quarters",
+      "confidence": "High",
+      "score": 88,
+      "body": "Nvidia's Q2 guide of $91B vs $87B consensus and $90B whisper is the first time in five quarters that the guide has exceeded even the buy-side whisper number. The prior four earnings saw beats with guides that merely met or slightly exceeded consensus — hence the 'sell the news' reaction. A $91B guide with 'demand gone parabolic' and 'agentic AI arrived' is the narrative upgrade needed. The Samsung risk and China zero revenue are the shadows on the print — but the magnitude of the $75.25B data center (+92% YoY) overwhelms both concerns. The template for a sustained post-earnings rally exists: this is structurally different from the prior four.",
+      "trigger": "NVDA maintains AH gains above $235 into Friday open AND Samsung strike not declared"
+    },
+    {
+      "title": "Long TLT — Iran deal closing, energy deflation, 10Y could reach 4.0-4.2%",
+      "confidence": "High",
+      "score": 86,
+      "body": "If Iran signs a formal deal this week and Hormuz fully reopens, WTI falls to $85-90 within days. Brent from $105 to $90 would reduce headline CPI by 0.7-0.9pp within two quarters. May CPI would print below 3.2% (core deflation from energy pass-through). The 10Y at 4.49% today would rally to 4.0-4.2% on a formal Iran deal — offering 5-7% total return for TLT. Warsh June 17 would shift from hawkish hold to dovish hold. The 30Y at 5.08% offers even larger convexity upside on a full Iran resolution.",
+      "trigger": "Formal Hormuz reopening declaration AND WTI sustained below $90"
+    },
+    {
+      "title": "Long consumer discretionary — Target 26% beat + Iran energy relief = XLY trade",
+      "confidence": "High",
+      "score": 82,
+      "body": "Target's 26% EPS beat confirmed the upper-income consumer is resilient. WTI below $100 means the lower-income consumer's energy burden eases — potentially unlocking Walmart's Q2. TJX +6% confirms value retail is also working. XLY +2.39% today was the best sector. If Walmart beats Thursday (the lower-income consumer test), the full consumer discretionary trade — from off-price to premium — is confirmed. The Iran energy deflation trade specifically benefits airlines, cruise, and auto as jet fuel and petrol prices fall.",
+      "trigger": "Walmart Q1 beat Thursday AND WTI below $95 sustained"
+    },
+    {
+      "title": "Pre-position SpaceX June 12 IPO — AI + space + defence is uniquely uncorrelated",
+      "confidence": "Medium",
+      "score": 72,
+      "body": "SpaceX at $1.75T is the largest IPO in history, merging the world's most advanced rocket company with Musk's xAI. The AI + space + defence narrative has no listed equivalent — not Lockheed, not Boeing, not Nvidia. The Cerebras precedent (20x oversubscribed at IPO price, 68% first-day pop) suggests demand will be enormous. Risks: Tesla overhang (investors swap TSLA for SPCE), concentration in government contracts, Musk distraction factor. Approach: small initial allocation at IPO price, add on any first-week pullback below the open price.",
+      "trigger": "SpaceX prospectus confirms $1.75T valuation AND Nasa/DoD contract pipeline quantified"
+    }
+  ],
+
+  "sources": [
+    {"name":"CNBC","type":"Confirmed closes S&P 7,432.97, Dow 50,009.35, Nasdaq 26,270.36. WTI -5.66% to $98.26, Brent -5.63% to $105.02. Target Q1 earnings detail. Nvidia AH slide history context. Three supertankers Hormuz departure. Trump 'final stages.'","note":"Primary source for all confirmed closes and narrative","url":"https://www.cnbc.com/2026/05/19/stock-market-today-live-updates.html"},
+    {"name":"TheStreet","type":"May 20 live blog — Russell 2,842.07, Nasdaq +1.54%, Dow retakes 50K. SpaceX June 12 IPO date. OpenAI IPO 'coming weeks.' TJX +6%. Nvidia +1.3% intraday. WSJ OpenAI revenue miss note.","note":"Real-time session narrative and individual stock moves","url":"https://www.thestreet.com/stock-market-today/stock-market-today-nasdaq-dow-jones-sp-500-updates-may-20-2026"},
+    {"name":"Yahoo Finance","type":"Confirmed closes and VIX 17.44 (-3.43%), Gold ~$4,544 (+0.20%), Bitcoin $77,729 (+1.33%), Brent $105.79 AH. Three supertankers note.","note":"Index and commodity close confirmation","url":"https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-dip-in-countdown-to-nvidia-earnings-222757467.html"},
+    {"name":"24/7 Wall St.","type":"Nvidia Q1 FY2027: $81.61B revenue (beat 3.16%), data center $75.25B (+92%), Q2 guide $91B. EPS detail. Sovereign AI offset for China zero.","note":"Most detailed Nvidia earnings breakdown","url":"https://247wallst.com/companies/nvda/earnings"},
+    {"name":"Kiplinger","type":"Nvidia: EPS $1.87 vs $1.77, revenue $81.62B vs $79.2B. Dividend increase. Jensen Huang: 'Demand has gone parabolic. Agentic AI has arrived. Compute capacity is profits.'","note":"Kiplinger live blog — confirmed EPS and CEO quotes","url":"https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-may-2026"},
+    {"name":"Investing.com / CNBC","type":"Nvidia Q1 transcript: +85% YoY revenue, +20% sequential, third consecutive quarter of accelerating growth. Gross margin 75.0%. Q2 GAAP/non-GAAP opex $8.5B/$8.3B. Tax rate 16-18%.","note":"Full earnings transcript detail","url":"https://www.investing.com/news/transcripts/earnings-call-transcript-nvidia-q1-2027-beats-expectations-stock-rises-93CH-4702696"},
+    {"name":"CNBC (Target)","type":"Target Q1: EPS $1.71 vs $1.46 LSEG estimate, revenue $25.44B vs $24.64B. All six categories grew. Nonmerchandise sales +25%. Full-year guide hiked. CEO Fiddelke: 'shoppers start to return.'","note":"Target Q1 earnings confirmed","url":"https://www.cnbc.com/2026/05/20/target-tgt-q1-2026-earnings.html"},
+    {"name":"Trading Economics","type":"Three supertankers left Hormuz with full cargoes. WTI -5.66% to $98.26. S&P +1%, Dow +1.2%, Nasdaq 100 +1.2%. TJX +6%.","note":"Supertanker confirmation and commodity closes","url":"https://tradingeconomics.com/united-states/stock-market"},
+    {"name":"TradingKey","type":"SpaceX IPO June 12 at $1.75T valuation — largest IPO in history. Nasdaq listing.","note":"SpaceX IPO date and valuation confirmation","url":"https://www.tradingkey.com/analysis/stocks/us-stocks/261904347-walmart-q1-earningspreview-wmt-tradingkey"},
+    {"name":"Federal Reserve H.15","type":"May 19 official release — 10Y 4.61%, 30Y 5.14%, 2Y 4.07%. May 20 H15 pending publication. May 20 values estimated from session direction (Iran de-escalation -12bps 10Y implied).","note":"H.15 May 19 confirmed as prior; May 20 estimated","url":"https://www.federalreserve.gov/releases/h15/"}
+  ]
+}
