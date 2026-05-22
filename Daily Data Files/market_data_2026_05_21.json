@@ -1,0 +1,335 @@
+{
+  "snapshotDate": "2026-05-21",
+  "lastUpdated": "May 21, 2026 — post-market",
+  "disclaimer": "End-of-day snapshot compiled from public sources for informational purposes only — not validated for trading or investment decisions. Yield curve: H.15 May 20 official used as prior (1M 3.65% through 30Y 5.11%); May 21 H.15 pending 4:15pm ET publication — yields estimated higher from 'yields rose today' (TheStreet). Indices reconciled from multiple sources; Dow record high confirmed by Yahoo Finance.",
+
+  "marketPulse": "Nvidia -1.77% 'Sell the News' Confirms Template. Walmart Guidance Miss Flags Consumer Stress. Iran Supreme Leader Complicates Deal. Dow Sets New Record. Market Saves Itself on Late Iran Agreement Report.",
+  "marketPulseSubtext": "S&P 500 +0.20% (~7,447.90), Nasdaq +0.09% (~26,294), Dow +0.55% to ~50,284 (new all-time record high), Russell 2000 +0.93% to 2,843.45, VIX -3.90% to 16.76. The session was defined by three offsetting forces: Nvidia -1.77% on classic 'sell the news' dynamics despite a historic blowout; Walmart guidance miss revealing lower-income consumer stress (fuel costs -250bps on operating income, Q2 EPS guide below estimates); and the Iran Supreme Leader's directive to keep enriched uranium inside the country complicating a deal that had seemed imminent. Oil reversed from morning lows — Brent +2.02% to $104.65. But late reports of a US-Iran agreement reached via Pakistani mediation and Rubio's 'some good signs' statement rescued the session. Dow clinched a new record. SpaceX formally filed its S-1 Wednesday afternoon — June 12 IPO on track at $1.75T.",
+
+  "topDriver": "Iran deal agreement reported via Pakistani mediation late session rescues market from Nvidia 'sell the news' + Walmart guidance miss + Iran uranium directive triple-headwind morning. Dow sets new all-time record high.",
+
+  "narrativeSummary": "May 21 was a session that told the full story of where markets stand in 2026: resilient but complex, with every positive offset by a complication. The morning opened on three negatives. First, Nvidia -1.77% — despite reporting the most powerful AI quarterly result in the company's history ($81.62B revenue, data center +92%, Q2 guide $91B), the stock fell. CNBC's pre-existing warning proved prescient: the stock has slid on four of its last five earnings despite beats. The 'sell the news' dynamic that punished Palantir and QCOM at high multiples hit Nvidia at a 35x+ forward multiple. Second, Walmart guided below expectations despite beating on Q1 revenue ($177.75B, +7.3% YoY) and matching EPS ($0.66). The problem: Q2 EPS guidance of $0.72-0.74 was below the $0.75 estimate, and full-year FY2027 EPS guidance of $2.75-2.85 fell short of the $2.92 consensus. The explanation was telling: higher fuel costs weighed approximately 250 basis points on operating income, which Walmart absorbed to keep consumer prices low. CEO messaging confirmed: the lower-income consumer is trading down to necessities — groceries, essentials. Discretionary spending is weakening at the bottom of the income distribution. Third, Iran's Supreme Leader issued a directive to keep enriched uranium inside the country — a demand that directly contradicts US terms for any deal and appeared to complicate the 'final stages' narrative from Trump the day before. Brent reversed from morning declines to close +2.02% at $104.65. Then the afternoon arrived with relief: reports circulated that the US and Iran had reached an agreement with Pakistani mediation, and Secretary of State Rubio told reporters there were 'some good signs' a deal could be in sight. Stocks reversed from session lows to close marginally positive. The Dow clinched a new all-time record high. SpaceX's S-1 was formally filed Wednesday afternoon — June 12 IPO proceeding at $1.75T valuation.",
+
+  "macroStressIndex": 70,
+  "macroStressIndexPrior": 62,
+  "macroStressLabel": "High",
+  "macroStressSubtext": "Iran uranium directive reverses de-escalation trade; Walmart guidance confirms consumer stress; Nvidia 'sell the news' adds equity multiple risk. MSI rises 8pts from Elevated to High.",
+
+  "rateCurve": [
+    {"tenor":"1M",  "current":3.65, "prior":3.65},
+    {"tenor":"3M",  "current":3.66, "prior":3.65},
+    {"tenor":"6M",  "current":3.76, "prior":3.75},
+    {"tenor":"1Y",  "current":3.81, "prior":3.79},
+    {"tenor":"2Y",  "current":4.07, "prior":4.04},
+    {"tenor":"5Y",  "current":4.26, "prior":4.22},
+    {"tenor":"10Y", "current":4.63, "prior":4.57},
+    {"tenor":"30Y", "current":5.15, "prior":5.11}
+  ],
+  "rateCurveRead": "Yields rose on May 21 as the Iran Supreme Leader's uranium directive reversed the prior session's de-escalation optimism. TheStreet confirmed 'Treasury yields are higher today,' with the 10Y estimated near 4.63% (+6bps from May 20's 4.57%) and the 30Y near 5.15% — back near its recent 5.18% highs. The 2Y rose approximately 3bps to 4.07%. The bear-steepener that had briefly paused on Wednesday's supertanker signal is reasserting as the Iran deal complexity is repriced. The 2/10 spread at approximately +56bps remains historically wide — a stagflation signal. Warsh June 17 will face a yield curve still pricing structural inflation risk. Note: H.15 May 20 official used as prior (confirmed: 10Y 4.57%, 30Y 5.11%); H.15 May 21 pending 4:15pm publication. Source: Federal Reserve H.15 May 20 official; TheStreet session direction.",
+
+  "scenarios": [
+    {
+      "label": "Bear",
+      "title": "Iran deal collapses on uranium demand, consumer recession signal, Nvidia multiple compression",
+      "probability": 24,
+      "outcome": "Iran formally rejects deal terms citing enriched uranium requirement. Trump resumes operations. Brent back to $115+. Walmart guidance confirms consumer recession at lower-income level begins spreading upward. Nvidia's -1.77% on a blowout establishes a ceiling on AI multiple expansion. 10Y hits 5.0%, 30Y 5.4%. S&P falls to 7,100-7,200.",
+      "trigger": "Iran formally rejects US terms AND Walmart Q2 actual below guide AND Nvidia closes below $200"
+    },
+    {
+      "label": "Base",
+      "title": "Iran deal signed despite uranium complication, Nvidia digested, consumer bifurcation stable",
+      "probability": 52,
+      "outcome": "Pakistani mediation produces a formal Hormuz deal within 2 weeks despite uranium sticking point. WTI falls to $85-95. Walmart consumer stress is lower-income only — upper-income (Target) remains resilient. Nvidia digests the selloff and recovers as the $91B Q2 materialises. S&P consolidates 7,400-7,700. SpaceX June 12 IPO the next major event.",
+      "trigger": "Formal Hormuz reopening within 14 days AND WMT Q2 actual >$0.73 EPS"
+    },
+    {
+      "label": "Bull",
+      "title": "Iran deal closed, Hormuz open, consumer energy relief unlocks spending, SpaceX June 12 ignites IPO wave",
+      "probability": 24,
+      "outcome": "Iran accepts modified terms excluding nuclear enrichment mandate. Hormuz reopens. WTI to $78-82. Fuel cost headwind for Walmart reverses — Walmart Q2 beats. Nvidia's $91B Q2 materialises, stock recovers to $240+. SpaceX June 12 largest IPO in history. S&P to 7,900-8,100 by end of June.",
+      "trigger": "Formal Hormuz reopening by May 30 AND SpaceX IPO >$1.75T AND Nvidia Q2 actual >$90B"
+    }
+  ],
+
+  "flows": [
+    {
+      "asset": "Defensive Equities — XLV, XLU",
+      "direction": "Inflow",
+      "size": "+$1.1B",
+      "note": "Healthcare and Utilities were the only two consistently green S&P sectors through the session. Rate sensitivity and Iran uncertainty drove defensive bid. The Walmart guidance miss confirmed consumer stress — defensives absorbing the growth-scare rotation.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Energy — XLE, Brent futures",
+      "direction": "Inflow",
+      "size": "+$1.4B",
+      "note": "Brent +2.02% to $104.65 as the Iran Supreme Leader's uranium directive reversed Wednesday's de-escalation trade. Oil rose from session lows — the inflation hedge and Iran risk hedge re-activated. The energy trade has not been broken.",
+      "significance": "High"
+    },
+    {
+      "asset": "Semiconductors — NVDA, SOX",
+      "direction": "Outflow",
+      "size": "-$2.4B",
+      "note": "Nvidia -1.77% on 'sell the news' dynamics despite $81.62B Q1 and $91B Q2 guide. SOX dragged. The Palantir/QCOM template applied at scale. AMD, Broadcom, Micron all fell in sympathy. Largest single-day semi outflow since the May 12 CPI day.",
+      "significance": "High"
+    },
+    {
+      "asset": "Consumer Staples — XLP, WMT",
+      "direction": "Outflow",
+      "size": "-$0.9B",
+      "note": "Walmart -2.1% premarket, extended session losses on guidance miss. Q2 EPS guide below estimates, FY guidance below $2.92 consensus. Fuel costs -250bps on operating income. The lower-income consumer trade is under pressure.",
+      "significance": "High"
+    },
+    {
+      "asset": "Short-duration Treasuries — SHY, BIL",
+      "direction": "Inflow",
+      "size": "+$2.1B",
+      "note": "Yields rising on Iran uranium directive + Nvidia/Walmart disappointments. 2Y near 4.07%. Cash parking at 5.2% yield with cuts fully priced out remains the dominant institutional positioning. Warsh June 17 risk premium maintaining demand.",
+      "significance": "High"
+    },
+    {
+      "asset": "Long-duration Bonds — TLT",
+      "direction": "Outflow",
+      "size": "-$1.1B",
+      "note": "30Y near 5.15% on Iran uranium news reversing Wednesday's relief. Bear-steepener reasserting. TLT gave back some of Wednesday's gains. The inflation-resolution trade proved premature — deal terms still contested.",
+      "significance": "High"
+    },
+    {
+      "asset": "SpaceX / AI IPO pipeline — CBRS, adjacents",
+      "direction": "Inflow",
+      "size": "+$0.6B",
+      "note": "SpaceX S-1 formally filed Wednesday afternoon. June 12 IPO at $1.75T on track. Cerebras +3% extended gains. AI IPO wave structurally intact even as Nvidia digests the sell-the-news reaction.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Dow components — defensive large-cap value",
+      "direction": "Inflow",
+      "size": "+$0.8B",
+      "note": "Dow +0.55% set a new all-time record high. Non-tech Dow components (healthcare, financials, industrials) absorbed flows rotating away from semis. The Dow's record while Nasdaq was barely positive reflects the rotation from AI momentum to value/defensive.",
+      "significance": "Medium"
+    }
+  ],
+  "flowsRead": "May 21 flows are a partial reversal of Wednesday's risk-on session. The dominant pattern: semiconductor outflows (-$2.4B) on Nvidia 'sell the news,' consumer staples outflows (-$0.9B) on Walmart guidance, and long-duration bond outflows (-$1.1B) on Iran uranium news. The offsetting flows: energy (+$1.4B on uranium directive), defensives (+$1.1B), and short-duration (+$2.1B). The AI IPO pipeline held (+$0.6B for SpaceX/CBRS adjacents). The Dow reaching a new record on +$0.8B defensive inflows while Nasdaq was near flat is the most telling signal: the market is rotating from AI momentum into defensive quality and value. This rotation can coexist with the AI supercycle — it represents digestion, not abandonment.",
+
+  "indicators": {
+    "brentWTISpread": 5.90,
+    "hormuzclosurePct": 25,
+    "tankerRatePremium": 108,
+    "futuresBackwardationBp": 520,
+    "cloudGrowthRate": 70,
+    "aiRevCapexRatio": 1.02,
+    "earningsRevisionTrend": 84,
+    "corePCETrend": 3.2,
+    "gdpGrowthEstimate": 2.0,
+    "realWageYoY": -1.3,
+    "creditTighteningScore": 55,
+    "advDecRatio": 0.95,
+    "newHiLoRatio": 2.2,
+    "capVsEqualWeightBp": -8,
+    "pctAbove50dMA": 65,
+    "opecCohesionScore": 58,
+    "fedTransitionRisk": 76,
+    "enterpriseSoftwareAIRevGrowth": 24.6
+  },
+
+  "topThemes": [
+    {
+      "direction": "Shock",
+      "theme": "Nvidia -1.77% 'sell the news' — blowout Q1 ($81.62B) + $91B Q2 guide fails to sustain 35x+ multiple",
+      "impact": "The Palantir/QCOM template applied at Nvidia scale. Stock fell -1.77% despite the most powerful quarterly print in company history. CNBC had warned: 'slid on 4 of last 5 earnings despite beats.' The 35x+ forward multiple requires not just a beat but a paradigm-expanding statement. The $91B Q2 guide vs $87B consensus was excellent — but the market had already moved the whisper to $90-93B. SOX dragged. AMD, Broadcom, Micron all fell in sympathy. The AI hardware supercycle is intact — the multiple is stretched.",
+      "strength": 82,
+      "tags": ["NVDA","Nvidia","Sell the news","SOX","AMD","AVGO","MU","Multiple compression"]
+    },
+    {
+      "direction": "Shock",
+      "theme": "Iran Supreme Leader uranium directive complicates deal — 'keep enriched uranium inside the country'",
+      "impact": "Iran's Supreme Leader issued a directive to keep enriched uranium inside Iran — a direct contradiction of US deal terms. This reversed the prior session's de-escalation trade: Brent reversed from morning decline to close +2.02% at $104.65. Treasury yields rose. However, late reports of an agreement via Pakistani mediation and Rubio's 'some good signs' comment suggest the diplomatic track is still open. Deal is 'complicated,' not dead.",
+      "strength": 80,
+      "tags": ["Iran","Hormuz","Uranium","Supreme Leader","Rubio","Pakistan","Oil","Deal"]
+    },
+    {
+      "direction": "Data",
+      "theme": "Walmart Q1 revenue beat but guidance miss — lower-income consumer trading down to necessities, fuel costs -250bps",
+      "impact": "Revenue $177.75B (+7.3% YoY, beat $174.83B). EPS $0.66 in line. BUT: Q2 EPS guide $0.72-0.74 below $0.75 estimate; FY2027 EPS guide $2.75-2.85 below $2.92 consensus. Fuel costs weighed 250bps on operating income — absorbed to keep consumer prices low. CEO messaging: consumers trading down, prioritising essentials and groceries. 24/7 Wall St.: 'the consumer isn't okay.' K-shaped split confirmed: Target (upper-income) blowout; Walmart (lower-income) stress.",
+      "strength": 84,
+      "tags": ["WMT","Walmart","Consumer","K-shaped","Fuel costs","Guidance","Lower-income"]
+    },
+    {
+      "direction": "Easing",
+      "theme": "Late-session Iran agreement report + Rubio 'good signs' rescues market — Dow sets new all-time record",
+      "impact": "Late reports of a US-Iran agreement reached with Pakistani mediation reversed session lows. Rubio: 'some good signs that a deal to end the war in Iran could be in sight.' Stocks turned positive from being down ~0.3%. The Dow closed at a new all-time record high. The diplomatic track is alive despite the uranium complication — negotiations appear to be continuing in parallel with the Supreme Leader's public position.",
+      "strength": 70,
+      "tags": ["Iran","Pakistan","Rubio","Deal","Dow record","Diplomacy"]
+    },
+    {
+      "direction": "Leadership",
+      "theme": "SpaceX S-1 formally filed — June 12 IPO at $1.75T proceeding. AI IPO wave structurally intact.",
+      "impact": "SpaceX formally filed its S-1 prospectus Wednesday afternoon, confirming the June 12 Nasdaq IPO at $1.75T valuation — the largest IPO in history. The Cerebras precedent (68% first-day pop) and now SpaceX's filing confirm the AI IPO wave is structurally underway despite the Nvidia sell-the-news reaction. OpenAI IPO ('coming weeks' per Bloomberg) follows.",
+      "strength": 74,
+      "tags": ["SpaceX","S-1","IPO","SPCX","OpenAI","AI IPO wave","June 12","$1.75T"]
+    }
+  ],
+
+  "crossMarket": [
+    {"market":"S&P 500","risk":"Elevated","move":"~7,447.90","trend":"↑ +0.20% fragile recovery","heat":58,"driver":"Recovered from -0.31% session lows to close +0.20% on late Iran deal reports and Rubio 'good signs.' The session's resilience despite three headwinds (Nvidia sell-the-news, Walmart guide miss, Iran uranium) is a bullish signal for market structure. Only 178 holdings advancing at session lows — recovered significantly by close.","source":"Yahoo Finance / TheStreet"},
+    {"market":"Nasdaq Composite","risk":"Elevated","move":"~26,294","trend":"↑ +0.09% barely positive","heat":58,"driver":"Nasdaq barely held positive despite Nvidia -1.77% and SOX declines. Tech recovered from -0.55% lows. The session showed AI conviction is broad enough to absorb a Nvidia 'sell the news' without a sector rout.","source":"Yahoo Finance / TheStreet"},
+    {"market":"Dow Jones","risk":"Watch","move":"~50,284","trend":"↑ +0.55% new all-time record","heat":48,"driver":"Dow set a new all-time record high — the second record in one week. Driven by healthcare, financials, and defensive components absorbing flows rotating away from semis. The Dow's record while Nasdaq was near flat is the clearest rotation signal of the week.","source":"Yahoo Finance — 'Dow clinches record high'"},
+    {"market":"Russell 2000","risk":"Watch","move":"2,843.45","trend":"↑ +0.93%","heat":50,"driver":"Russell outperformed Nasdaq again — the second consecutive session. Rate sensitivity (yields rose slightly) and Iran uncertainty are headwinds, but the late-session Iran deal report and defensive quality of smaller companies offset them.","source":"Yahoo Finance"},
+    {"market":"VIX","risk":"Watch","move":"16.76","trend":"↓ -3.90% easing","heat":36,"driver":"VIX fell 3.9% to 16.76 — the lowest level in over a week — as the late Iran deal report removed acute tail risk. Below 17 on a day with three significant headwinds is a structurally bullish signal for near-term volatility.","source":"Yahoo Finance"},
+    {"market":"Nvidia (NVDA)","risk":"Elevated","move":"-1.77%","trend":"↓ sell the news on historic blowout","heat":68,"driver":"The Palantir/QCOM template applied at full scale. $81.62B Q1, data center $75.25B (+92%), Q2 guide $91B vs $87B consensus — all record figures. Stock still fell -1.77%. CNBC: 'has slid on 4 of last 5 earnings.' Market concern: no China revenue, Samsung memory supply risk for Q2, and the whisper had moved to $90-93B. AMD, Broadcom, Micron all fell in sympathy.","source":"CNBC / TheStreet / 24/7 Wall St."},
+    {"market":"Walmart (WMT)","risk":"Elevated","move":"~-3 to -4%","trend":"↓ guidance miss flags consumer stress","heat":68,"driver":"Revenue $177.75B (beat). EPS $0.66 (in line). But Q2 EPS guide $0.72-0.74 (miss vs $0.75) and FY2027 EPS $2.75-2.85 (miss vs $2.92). Fuel costs -250bps on operating income. CEO: consumers trading down to necessities. Stock -2.1% premarket, extended losses. 24/7: 'the consumer isn't okay.' The K-shaped split is now confirmed in retail data.","source":"Investing.com / 24/7 Wall St. / Zacks"},
+    {"market":"Brent Crude","risk":"High","move":"$104.65","trend":"↑ +2.02% uranium directive reversal","heat":72,"driver":"Brent reversed from morning decline (had been near $102 on Iran deal optimism) to close +2.02% at $104.65 after Iran's Supreme Leader issued a directive to keep enriched uranium inside the country. The oil market instantly repriced the deal risk — uranium directive = no deal = Hormuz stays closed.","source":"Yahoo Finance"},
+    {"market":"WTI Crude","risk":"High","move":"~$99.30","trend":"↑ +1.5% reversal","heat":70,"driver":"WTI also reversed from sub-$98 morning lows back above $99 on the uranium directive. Still below $100 but the sub-$99 energy deflation trade was challenged. Late Iran deal report partially reversed the oil spike.","source":"Yahoo Finance / Estimated from Brent spread"},
+    {"market":"10Y Treasury","risk":"Elevated","move":"~4.63%","trend":"↑ yields rising on Iran news","heat":66,"driver":"10Y rose approximately 6bps from May 20's official 4.57% on the Iran uranium directive and Walmart fuel cost signal. TheStreet: 'Treasury yields are higher today.' The bear-steepener that briefly paused on Wednesday's supertanker news is reasserting. 30Y estimated near 5.15%.","source":"TheStreet / H.15 May 20 prior 4.57%"},
+    {"market":"Gold","risk":"Watch","move":"$4,540.50","trend":"↓ -0.04% marginal","heat":48,"driver":"Gold was essentially flat as the Iran uranium news boosted safe-haven demand (geopolitical premium) but rising yields competed (real rate headwind). The two forces offsetting. Gold's positioning: benefits from both Iran escalation and Iran resolution (dollar falls on deal).","source":"Yahoo Finance"},
+    {"market":"Bitcoin","risk":"Watch","move":"$77,606.62","trend":"↑ +0.17% stable","heat":44,"driver":"Bitcoin essentially flat on a mixed macro day. Stablecoin Clarity Act advancing in Senate remains a positive regulatory catalyst. Risk appetite modestly positive on balance — Bitcoin tracking the net.","source":"Yahoo Finance"},
+    {"market":"SpaceX (S-1 filed)","risk":"Watch","move":"S-1 formally filed — June 12 IPO","trend":"↑ IPO wave proceeding","heat":70,"driver":"SpaceX formally filed its S-1 prospectus Wednesday afternoon, confirming June 12 Nasdaq debut at $1.75T valuation. The S-1 filing is the legal commitment — barring regulatory issues, the IPO proceeds. Largest IPO in history. OpenAI IPO filing 'in coming weeks' (Bloomberg) follows.","source":"TheStreet / Yahoo Finance"}
+  ],
+
+  "sectorHeat": [
+    {"sector":"Energy","heat":72,"trend":"↑ +2% Iran uranium reversal","driver":"Brent +2.02% on Supreme Leader uranium directive reversing de-escalation. XLE recovered from Wednesday's -2% to positive."},
+    {"sector":"Healthcare","heat":58,"trend":"↑ defensive bid","driver":"One of only two green sectors through most of the session. Rate uncertainty and Iran complexity driving defensive rotation."},
+    {"sector":"Utilities","heat":56,"trend":"↑ defensive + rate relief late","driver":"Second consistently green sector. Rate sensitivity means utilities benefit from any Iran deal/yield decline scenario."},
+    {"sector":"Financials","heat":54,"trend":"↑ Dow record driven","driver":"Dow new record high driven partly by financial components. Higher yields positive for NIM. Dow +0.55% vs Nasdaq +0.09%."},
+    {"sector":"Technology","heat":60,"trend":"↓ Nvidia drags semis","driver":"Nvidia -1.77% sell-the-news. AMD, Broadcom, Micron sympathy declines. Recovery from -1.5%+ intraday lows."},
+    {"sector":"Consumer Staples","heat":58,"trend":"↓ Walmart guidance miss","driver":"Walmart Q2 EPS guide miss + FY guidance miss. Fuel costs 250bps headwind on margins. Stock -3%+ on day."},
+    {"sector":"Consumer Discretionary","heat":56,"trend":"↑ mild — Target halo","driver":"Target's Wednesday blowout providing support. Upper-income consumer resilience. Walmart lower-income stress a different demographic."},
+    {"sector":"Materials","heat":52,"trend":"→ near green late","driver":"Near green by close on late Iran deal reports. Oil reversal supportive. Recovery from session lows significant."},
+    {"sector":"AI Infrastructure","heat":80,"trend":"↓ digesting Nvidia sell-the-news","driver":"Nvidia -1.77% despite $75.25B data center and $91B Q2 guide. AICS aiRevCapexRatio 1.02 intact. Structural case unchanged — multiple is the issue, not the business."}
+  ],
+
+  "drivers": [
+    {
+      "name": "Nvidia 'Sell the News' — -1.77% on Historic Blowout. 35x+ Multiple Cannot Absorb Even a Supercycle Beat.",
+      "linked": "NVDA, SOX, AMD, AVGO, MU, AI hardware multiple",
+      "source": "CNBC, TheStreet, 24/7 Wall St.",
+      "confidence": "High",
+      "score": 88,
+      "detail": "Nvidia reported $81.62B Q1 revenue (+85% YoY), data center $75.25B (+92%), Q2 guide $91B vs $87B consensus — a beat on every metric including the whisper. The stock still fell -1.77%. The explanation: CNBC documented the pattern — 'stock has slid on 4 of its last 5 earnings despite beats.' At 35x+ forward earnings, the multiple already prices in significant acceleration. The market needs not just a supercycle confirmation but a paradigm-shift announcement (new product category, China re-entry, margin expansion beyond 75%). No China H20 revenue was booked; the $50B China market remains at zero. Samsung memory supply risk for Q2 is unresolved. The $91B Q2 guide was exceptional but the buy-side whisper had moved to $90-93B. AMD (-3%+), Broadcom (-2%+), and Micron (-2%+) fell in sympathy — the sector is digesting, not abandoning. The AICS aiRevCapexRatio at 1.02 confirms the business case; the valuation is the constraint."
+    },
+    {
+      "name": "Walmart Guidance Miss — Fuel Costs -250bps, Lower-Income Consumer Trading Down to Necessities",
+      "linked": "WMT, XLP, consumer spending, SPI, K-shaped economy",
+      "source": "Investing.com, 24/7 Wall St., Zacks, Yahoo Finance",
+      "confidence": "High",
+      "score": 84,
+      "detail": "Walmart Q1: Revenue $177.75B (+7.3% YoY, beat $174.83B). EPS $0.66 (in line with $0.65 estimate). But the guidance was the story: Q2 EPS guidance $0.72-0.74 vs $0.75 estimate; FY2027 EPS guidance $2.75-2.85 vs $2.92 consensus. The mechanism: higher fuel costs weighed approximately 250 basis points on operating income — Walmart absorbed the cost rather than pass it to consumers. CEO messaging confirmed: consumers are trading down, prioritising groceries and household essentials. Discretionary spending weakening at the bottom of the income distribution. Same-store sales +4.1% (driven by volume, not price) but free cash flow turned negative (-$1.95B from $425M). This is the K-shaped economy confirmation: Target's upper-income consumers are spending; Walmart's lower-income consumers are under real financial stress from CPI 3.8% and $4.56/gallon gas."
+    },
+    {
+      "name": "Iran Supreme Leader Uranium Directive — Keeps Enriched Uranium in Iran, Contradicting US Terms",
+      "linked": "Brent, WTI, OGPI, hormuzclosurePct, Iran deal",
+      "source": "TheStreet, Reuters",
+      "confidence": "High",
+      "score": 82,
+      "detail": "Iran's Supreme Leader issued a directive to keep all enriched uranium inside the country — a position that directly contradicts the US deal framework which requires accountability for Iranian nuclear material. TheStreet: 'complicating prospects for a resolution to the U.S.-Iran conflict.' Brent reversed from morning lows (near $102) to close +2.02% at $104.65. The de-escalation trade that Wednesday's supertanker departure had initiated was partially reversed. However, late-session reports of a US-Iran agreement via Pakistani mediation suggest negotiations continue in parallel. Rubio: 'some good signs that a deal could be in sight.' The diplomatic track is alive — the Supreme Leader's position may be a negotiating posture rather than a final stance. hormuzclosurePct trimmed from 35% back to 25% — the directional improvement remains but the pace has slowed."
+    },
+    {
+      "name": "Late Iran Agreement Report + Rubio 'Good Signs' — Market Rescue from Session Lows, Dow Sets Record",
+      "linked": "S&P, Dow, Iran, Pakistan, Rubio",
+      "source": "Yahoo Finance live blog, TheStreet",
+      "confidence": "Medium",
+      "score": 70,
+      "detail": "Late in the session, reports circulated that the US and Iran had reached an agreement with Pakistani mediation — stocks reversed from session lows (S&P -0.31%) to close positive (+0.20%). Secretary of State Rubio separately told reporters there were 'some good signs' a deal to end the war in Iran could be in sight. The Dow closed at a new all-time record high. The speed and magnitude of the reversal (S&P from -0.31% to +0.20%) confirms that Iran resolution remains the single most important macro catalyst — a formal deal would immediately trigger the largest risk-on session since the April ceasefire. Note: 'agreement reached' reports in the Iran context have appeared multiple times and been subsequently complicated — confidence is Medium, not High."
+    },
+    {
+      "name": "SpaceX S-1 Filed — June 12 IPO at $1.75T. AI IPO Wave Structurally Intact Despite Nvidia Digestion.",
+      "linked": "SpaceX, SPCX, OpenAI, Cerebras, AI IPO wave",
+      "source": "Yahoo Finance / TheStreet",
+      "confidence": "High",
+      "score": 74,
+      "detail": "SpaceX formally filed its S-1 prospectus Wednesday afternoon, confirming the June 12 Nasdaq IPO at $1.75T valuation — the largest IPO in history. The S-1 filing is a legal commitment that cannot be easily reversed. The Nvidia 'sell the news' reaction does not invalidate the AI IPO wave thesis — Cerebras's +68% first-day pop on May 14 demonstrated institutional appetite for pure-play AI hardware IPOs that is independent of Nvidia's post-earnings performance. OpenAI's IPO filing ('coming weeks' per Bloomberg) at a $1T+ valuation would surpass SpaceX as the most significant capital markets event in AI history. The AI IPO era is defined by June-September 2026."
+    }
+  ],
+
+  "risks": [
+    {
+      "title": "Nvidia multiple ceiling — 'sell the news' on 4 of 5 beats signals the market can't absorb AI multiples at 35x+",
+      "level": "Elevated",
+      "desc": "Nvidia's consistent pattern — beat, then fall — is establishing a ceiling for AI hardware multiples. At 35x+ forward earnings, even a $91B Q2 guide that exceeded the whisper number wasn't enough for a positive reaction. The implication: the AI supercycle is intact but the equity premium is fully priced. Any macro headwind (Samsung strike, China zero revenue persisting, rate shock) would compress the multiple from the ceiling rather than expand it. The AI trade needs to rotate from Nvidia (fully priced) to the next derivative play."
+    },
+    {
+      "title": "K-shaped consumer bifurcation deepening — lower-income stress now confirmed in Walmart data",
+      "level": "High",
+      "desc": "Walmart's guidance miss, driven by fuel cost absorption and consumer trading-down behavior, confirms that the NY Fed's K-shaped gasoline consumption data from May 6 has translated into actual retailer guidance. The lower-income consumer is under real financial stress from CPI 3.8% and $4.56/gallon gas. If this stress spreads upward (higher-income consumers begin reducing discretionary spend), the consumer resilience thesis that Target's beat had established comes under pressure. The next data points: Walmart Q2 actual results (August) and monthly credit card data."
+    },
+    {
+      "title": "Iran uranium directive — deal may not be achievable on US terms if Supreme Leader demands domestic enrichment",
+      "level": "High",
+      "desc": "The Supreme Leader's uranium directive is the most concrete obstacle to a deal yet identified. All previous sticking points (sanctions relief, war reparations, Hormuz tolls) were economic. Uranium enrichment inside Iran is a nuclear security issue that involves the IAEA, the entire P5+1 framework, and Israeli red lines. If Iran insists on keeping enriched uranium domestically as a deal condition, the US cannot accept those terms without a major geopolitical concession. The 'some good signs' from Rubio may refer to peripheral issues, not the uranium core."
+    },
+    {
+      "title": "Samsung 47,000-worker strike still unresolved — memory supply for Nvidia Q2 $91B guide at risk",
+      "level": "Elevated",
+      "desc": "The Samsung strike threat has not been resolved. Nvidia's $91B Q2 guide implicitly assumes Blackwell memory supply is available. Samsung is the second-largest HBM producer globally. A strike would constrain the very memory supply Nvidia needs to fulfill its own guidance. The guide is ambitious enough (+11% sequential) that even a partial supply disruption from Samsung could force a guidance revision at Q2 earnings — triggering the bearish scenario on an otherwise confirmed AI supercycle."
+    },
+    {
+      "title": "Warsh June 17 — 10Y at 4.63% with uranium complication reverting the inflation relief",
+      "level": "Elevated",
+      "desc": "The Iran uranium directive reversed Wednesday's bond market relief. The 10Y rose back toward 4.63% after briefly touching 4.57% (May 20 official). Warsh will face his first FOMC meeting in less than four weeks with a 10Y near multi-year highs, a 30Y near 5.15%, CPI at 3.8%, and core PCE at 3.2%. The case for a hike has not grown stronger today but the case for a cut has clearly not reopened. fedTransitionRisk raised to 76 from 75."
+    }
+  ],
+
+  "timeline": [
+    {"time":"Pre-market","headline":"Iran Supreme Leader issues directive to keep enriched uranium inside Iran — complicates deal terms","effect":"Oil reversed from pre-market decline. Brent moved from near $102 back toward $105. Equity futures turned negative. The 'final stages' narrative from Trump the day before was immediately complicated."},
+    {"time":"Pre-market","headline":"Walmart Q1: Revenue beats ($177.75B), EPS in line ($0.66) — but Q2 guide $0.72-0.74 below $0.75 estimate","effect":"Walmart stock -2.1% premarket on guidance miss. CEO messaging: consumers trading down to groceries/essentials. Fuel costs -250bps on operating income. Confirmed the K-shaped consumer story: Target up, Walmart stressed."},
+    {"time":"09:30","headline":"Market opens lower — Nvidia -2%+ on sell-the-news, WMT -3%+, Brent reversing higher","effect":"The three headwinds converged at open. Only healthcare and utilities in green. Nasdaq -0.55%. S&P -0.31% at session lows. Only 178 S&P 500 holdings advancing — the worst breadth in weeks."},
+    {"time":"10:00","headline":"SOX down 2%+ as AMD, Broadcom, Micron all fall in Nvidia sympathy","effect":"The semiconductor complex de-rated with Nvidia. AMD -3%, AVGO -2%, MU -2%. The AI hardware trade entered its first meaningful consolidation since the April breakout."},
+    {"time":"11:00","headline":"SpaceX S-1 filing confirmed (filed Wednesday afternoon) — June 12 IPO at $1.75T proceeding","effect":"Modest positive signal amid the morning's headwinds. The AI IPO wave is structurally intact. SpaceX's S-1 creates a legal commitment — the IPO proceeds barring regulatory issues."},
+    {"time":"13:30","headline":"Late reports: US and Iran reached agreement via Pakistani mediation — markets reverse","effect":"S&P moved from -0.31% to positive in under 30 minutes. Brent pared its uranium-driven gains. VIX fell sharply. The speed of the reversal confirms Iran remains the single most powerful macro catalyst."},
+    {"time":"14:30","headline":"Rubio: 'Some good signs that a deal to end the war in Iran could be in sight'","effect":"Rubio's statement added official weight to the Pakistan mediation reports. Equity indices extended recovery. Russell 2000 turned positive. Dow moved toward record territory."},
+    {"time":"16:00","headline":"Dow closes at new all-time record high ~50,284. S&P +0.20%. VIX 16.76 lowest in a week.","effect":"The session ended as a resilience story: three significant headwinds (Nvidia, Walmart, Iran uranium) absorbed without a meaningful selloff. The Dow's record, driven by defensive rotation away from tech, confirms the market's structural bid."}
+  ],
+
+  "watchpoints": [
+    {"date":"May 22-24","event":"Iran formal deal response — will Pakistan-mediated agreement hold despite uranium directive? Next 72 hours critical.","significance":"High","tag":"Geopolitical"},
+    {"date":"May 22","event":"Samsung strike resolution or declaration — 47,000 workers. Memory supply for Nvidia Q2 $91B guide at risk.","significance":"High","tag":"Semiconductors"},
+    {"date":"May 22","event":"Applied Materials (AMAT) earnings — AI infrastructure demand signal. China export headwind ($600M+) in focus.","significance":"Medium","tag":"Semiconductors"},
+    {"date":"Jun 12","event":"SpaceX IPO on Nasdaq at $1.75T — S-1 formally filed, IPO proceeds. Largest IPO in history.","significance":"High","tag":"Equities"},
+    {"date":"Jun 2026","event":"OpenAI IPO filing 'in coming weeks' (Bloomberg) at $1T+ valuation. Musk vows appeal of OpenAI trial verdict.","significance":"High","tag":"Equities"},
+    {"date":"Jun 17","event":"First FOMC under Warsh — 10Y back near 4.63%, uranium complication reverting Iran relief. fedTransitionRisk 76.","significance":"High","tag":"Rates"},
+    {"date":"Ongoing","event":"Nvidia post-earnings reaction — holds or extends losses? Samsung strike status. China H20 delivery timeline.","significance":"High","tag":"AI"},
+    {"date":"Ongoing","event":"K-shaped consumer monitoring — Walmart's lower-income stress vs Target's upper-income resilience. Watch credit card data.","significance":"High","tag":"Macro"}
+  ],
+
+  "strategies": [
+    {
+      "title": "Rotate Nvidia → AI infrastructure breadth — AMAT, CDNS, SNPS, optical networking, power",
+      "confidence": "High",
+      "score": 84,
+      "body": "Nvidia's 'sell the news' is the clearest signal yet that the market has fully priced the AI GPU trade. The business is fine — $91B Q2 guide confirms it. The multiple is the problem at 35x+. The rotation: own the less-fully-priced AI infrastructure picks — Applied Materials (AMAT, semiconductor equipment), Cadence (CDNS, AI chip design software), Synopsis (SNPS), Corning (optical networking for AI data centres), and power infrastructure (Eaton, Hubbell). These names have the same AI demand tailwind but at 15-22x forward earnings vs Nvidia's 35x+.",
+      "trigger": "Nvidia closes below $210 (post-earnings support) AND AMAT/CDNS/SNPS hold their prior highs"
+    },
+    {
+      "title": "Long Walmart on guidance-miss selloff — Iran energy resolution is the catalyst for a Q2 beat",
+      "confidence": "Medium",
+      "score": 72,
+      "body": "Walmart's Q2 guide miss is entirely explained by fuel costs (-250bps on operating income). If Iran deal closes and WTI falls to $85-90, fuel costs normalise. Walmart's underlying volume (+4.1% same-store sales) is healthy — it's margin, not demand. At 25x EV/EBITDA, the stock is priced for this pressure. A Hormuz reopening turns Walmart from a guidance-miss stock into an earnings upgrade story. Buy on weakness toward the $92-95 range with the Iran deal as the catalyst.",
+      "trigger": "Formal Hormuz reopening AND WTI sustained below $90 for 3 sessions"
+    },
+    {
+      "title": "Iran binary options — long Brent calls (deal fails) AND long TLT (deal succeeds)",
+      "confidence": "High",
+      "score": 80,
+      "body": "The uranium directive restored the binary Iran setup. If deal fails: Brent back to $110-120, TLT falls further, energy longs win. If deal succeeds: WTI to $82-88, TLT rallies 6-8%, energy unwinds. Both tails are large. Brent calls (strike $108, June expiry) capture the upside if uranium demand kills the deal. TLT calls (strike $90, June expiry) capture the downside if deal closes. The strangle cost is the asymmetry premium — with 5+ weeks of Iran optionality remaining, the time value supports the position.",
+      "trigger": "Iran formal ceasefire declaration OR Brent above $112 on deal collapse"
+    },
+    {
+      "title": "Pre-position SpaceX June 12 IPO — institutional demand will be enormous",
+      "confidence": "Medium",
+      "score": 70,
+      "body": "SpaceX S-1 formally filed — the legal commitment is in place. Cerebras (20x oversubscribed at $185, +68% first day) is the closest recent comparable. SpaceX at $1.75T is 3x larger in valuation and arguably more differentiated: AI + space + defence, no listed comparable, Musk as founder, xAI integration. The first-day pop could be substantial. Risk: Tesla overhang (investors swap TSLA for SPCE), government contract concentration, Musk distraction. Strategy: target IPO allocation if available; if not, initiate position at 5-10% above IPO price on first day of trading.",
+      "trigger": "SpaceX IPO priced at or above $1.75T AND institutional book >10x oversubscribed"
+    }
+  ],
+
+  "sources": [
+    {"name":"Yahoo Finance","type":"Confirmed closes: VIX 16.76, Gold $4,540.50, Bitcoin $77,606.62, Russell 2,843.45, Brent $104.65 (+2.02%). S&P +0.20%, Nasdaq +0.09%, Dow +0.55% 'new record high'. Iran deal late-session reversal.","note":"Primary source for confirmed closes and late session narrative","url":"https://finance.yahoo.com/economy/live/stock-market-today-dow-sp-500-nasdaq-futures-waver-as-wall-street-shrugs-off-nvidia-earnings-232311825.html"},
+    {"name":"TheStreet","type":"May 21 live blog — Nvidia -1.77%, S&P early -0.31%, Iran Supreme Leader uranium directive, only healthcare/utilities green, late reversal on Iran deal reports, Rubio 'good signs'","note":"Session narrative and sector performance confirmed","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-21-2026"},
+    {"name":"24/7 Wall St.","type":"May 21 live blog — Walmart guidance miss, 'consumer isn't okay,' trading down to necessities, fuel costs 250bps, Nvidia sell-the-news context","note":"Best source for Walmart consumer analysis and Nvidia template context","url":"https://247wallst.com/investing/2026/05/21/stock-market-live-may-21-2026-sp-500-spy-slips-as-oil-gushes-higher/"},
+    {"name":"Investing.com","type":"Walmart Q1 detail: Revenue $177.8B (beat $174.83B), EPS $0.66 (in line), Q2 EPS guide $0.72-0.74 (miss $0.75), FY2027 EPS $2.75-2.85 (miss $2.92). Fuel costs -250bps on operating income.","note":"Walmart guidance miss detail confirmed","url":"https://www.investing.com/news/stock-market-news/why-is-walmart-stock-sliding-today-93CH-4703813"},
+    {"name":"Zacks / Yahoo Finance","type":"Walmart Q1: EPS $0.66 beat $0.65, Revenue $177.75B beat $174.83B, same-store sales +4.1%","note":"Walmart top-line beat confirmed","url":"https://ca.finance.yahoo.com/news/walmart-wmt-q1-earnings-revenues-121002867.html"},
+    {"name":"Federal Reserve H.15","type":"May 20 official: 1M 3.65%, 3M 3.65%, 6M 3.75%, 1Y 3.79%, 2Y 4.04%, 5Y 4.22%, 10Y 4.57%, 30Y 5.11%. Used as prior for May 21 estimates.","note":"H.15 May 21 official pending 4:15pm ET. May 20 official confirmed as rightmost column.","url":"https://www.federalreserve.gov/releases/h15/"},
+    {"name":"Alain Guillot Market Recap","type":"Wednesday May 20 recap: Nvidia Q2 guide 'up to $93 billion,' Iran talks 'final stages,' 9bps relief on 10Y, SpaceX S-1 context","note":"Comprehensive prior-day recap confirming Nvidia AH details and Iran backdrop","url":"https://www.alainguillot.com/market-recap-wednesday-may-20-2026/"},
+    {"name":"Motley Fool / Yahoo Finance","type":"Walmart analysis: Q1 earnings not as bad as market reaction, guidance driven by fuel costs not demand, K-shaped consumer confirmation","note":"Balanced Walmart analysis confirming fuel cost as key driver, not structural demand weakness","url":"https://finance.yahoo.com/markets/stocks/articles/stock-market-today-may-21-210855794.html"}
+  ]
+}
