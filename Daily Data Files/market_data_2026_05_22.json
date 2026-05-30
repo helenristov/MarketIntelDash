@@ -1,0 +1,332 @@
+{
+  "snapshotDate": "2026-05-22",
+  "lastUpdated": "May 22, 2026 — post-market (last session before Memorial Day weekend)",
+  "disclaimer": "End-of-day snapshot compiled from public sources for informational purposes only — not validated for trading or investment decisions. Yield curve: H.15 May 21 official confirmed as prior (10Y 4.57%, 30Y 5.10%); May 22 H.15 pending 4:15pm ET. Yields estimated from TheStreet confirmed: 10Y fell 2.6bps to 4.558%, 30Y fell 4.7bps to 5.064%. US markets closed Monday May 25 for Memorial Day — next session Tuesday May 26.",
+
+  "marketPulse": "Pre-Holiday Rally: Dow +294 Pts to New Record, S&P Crosses 7,473. Rubio 'Slight Progress' on Iran. WTI +1.8% on Barclays Supply Warning. SpaceX Starship Scrubbed. Markets Closed Monday.",
+  "marketPulseSubtext": "S&P 500 +0.37% to 7,473.47, Dow +294 pts (+0.59%) to 50,579.66 (new all-time record high), Nasdaq +0.19% to 26,343.97, Russell 2000 +0.91% to 2,869.23. Yields eased into the long weekend: 10Y fell 2.6bps to 4.558%, 30Y fell 4.7bps to 5.064%. WTI +1.8% to $98.05, Brent +2.31% to $105 — Barclays warned 6-8 million barrel/day deficit with US inventories near 2020 lows. Rubio: 'slight progress' on Iran deal; deal 'unfeasible' if Iran controls Hormuz tolls. Kevin Warsh took oath as Fed Chair. SpaceX scrubbed Starship V3 launch 10 seconds before liftoff. US and Canada confirmed USMCA extension. Markets closed Memorial Day Monday — next session Tuesday May 26.",
+
+  "topDriver": "Pre-holiday positioning + Rubio 'slight progress' on Iran + yields easing into the weekend = modest broad rally. Dow sets second consecutive all-time record. The week ends with Iran stalemate on uranium/Hormuz but diplomatic channels intact.",
+
+  "narrativeSummary": "May 22 — the last session before the Memorial Day weekend — delivered exactly the kind of quiet, constructive close that markets needed after a volatile week. The Dow set its second consecutive all-time record high, closing at 50,579.66, driven by defensive and value components absorbing the rotation away from AI momentum. The S&P 500 crossed 7,473.47 and the Russell 2000 led major indices with +0.91%, both reflecting the gradual unwinding of the rate-shock premium as Treasury yields eased into the three-day weekend. Secretary of State Rubio provided the session's tone-setting comment: 'slight progress' toward an Iran deal, while also drawing a bright red line — any deal would be 'unfeasible' if Iran seeks permanent control of Hormuz shipping tolls. Iran and the US have 'narrowed gaps' but the sticking points remain uranium enrichment (Iran insists on keeping it domestically) and Hormuz tolling rights (US says non-negotiable). The oil market told a different story: WTI rose 1.8% to $98.05 and Brent +2.31% to $105 despite the diplomatic signals. The reason: Barclays published a research note warning of a 6-8 million barrel/day inventory deficit, with US crude stockpiles approaching their lowest levels since 2020. Even a full Hormuz reopening today would take months to replenish depleted inventories — structural supply damage is independent of the geopolitical resolution. Kevin Warsh took the oath of office as the new Federal Reserve Chair, formally ending the Powell era. His first FOMC meeting is June 17. SpaceX scrubbed its Starship V3 launch attempt just 10 seconds before liftoff due to a technical issue with the new rocket and new launch pad. The US and Canada confirmed a USMCA extension, removing the trade policy overhang from one of the US's largest trading relationships. The week as a whole: S&P +0.5%, Dow +0.7%, Nasdaq -0.1% — a modest gain that masked extraordinary volatility, from the rate-shock high of 4.63% 10Y to Nvidia's historic blowout and back.",
+
+  "macroStressIndex": 68,
+  "macroStressIndexPrior": 70,
+  "macroStressLabel": "High",
+  "macroStressSubtext": "Yields ease into long weekend; Rubio 'slight progress' on Iran; but WTI +1.8% on Barclays supply deficit warning keeps regime in High. Warsh era begins.",
+
+  "rateCurve": [
+    {"tenor":"1M",  "current":3.72, "prior":3.72},
+    {"tenor":"3M",  "current":3.68, "prior":3.68},
+    {"tenor":"6M",  "current":3.78, "prior":3.78},
+    {"tenor":"1Y",  "current":3.83, "prior":3.83},
+    {"tenor":"2Y",  "current":4.07, "prior":4.08},
+    {"tenor":"5Y",  "current":4.23, "prior":4.25},
+    {"tenor":"10Y", "current":4.56, "prior":4.57},
+    {"tenor":"30Y", "current":5.06, "prior":5.10}
+  ],
+  "rateCurveRead": "Yields eased modestly into the Memorial Day long weekend as Rubio's 'slight progress' signal provided marginal Iran relief and pre-holiday positioning reduced duration risk appetite. The 10Y fell 2.6bps to 4.558% (confirmed by TheStreet), the 30Y fell 4.7bps to 5.064% — notable since the 30Y has been the most sensitive to Iran energy inflation risk this cycle. The 2Y fell about 1bp to 4.07% as the near-term Fed path (Warsh June 17 hold) remains firmly priced. The 2/10 spread at +49bps is essentially unchanged from the week's highs. The week's yield journey — from 4.38% (Monday open) to 4.63% (Monday 52-week high) back to 4.56% (Friday close) — encapsulates the regime: Iran news dominates the long end, and diplomatic progress is the primary catalyst for yield relief. Warsh takes oath today; June 17 FOMC is the next structural rates event. Note: H.15 May 21 official confirmed as prior (10Y 4.57%, 30Y 5.10%); May 22 H.15 pending 4:15pm ET. Source: TheStreet confirmed May 22 yield moves.",
+
+  "scenarios": [
+    {
+      "label": "Bear",
+      "title": "Iran deal collapses over holiday weekend, Barclays supply deficit worsens, Warsh hikes June 17",
+      "probability": 18,
+      "outcome": "Iran formally rejects US Hormuz and uranium terms over the long weekend. WTI spikes above $110 on Tuesday open. Barclays 6-8mb/d deficit worsens — US inventories hit 2020 lows by June. Warsh June 17 faces 4.0%+ CPI and hikes 25bps. S&P falls to 7,100-7,200. 30Y retests 5.20%.",
+      "trigger": "Iran formal rejection of Hormuz/uranium terms AND WTI above $110 on May 26 open AND CPI >4.0%"
+    },
+    {
+      "label": "Base",
+      "title": "Iran 'slight progress' leads to framework in 2-3 weeks, Warsh holds June 17 but removes easing bias",
+      "probability": 56,
+      "outcome": "Iran and US make incremental progress on Hormuz tolling compromise during the long weekend. WTI range-bound $95-105 as Barclays supply deficit limits downside even with partial deal. Warsh June 17 holds, removes easing bias, signals data-dependent stance. S&P consolidates 7,400-7,700 through June. SpaceX June 12 IPO becomes the next major catalyst.",
+      "trigger": "Rubio confirms Hormuz tolling compromise within 2 weeks AND Warsh June 17 removes easing bias"
+    },
+    {
+      "label": "Bull",
+      "title": "Holiday weekend deal breakthrough, full Hormuz reopening, Warsh signals cut optionality",
+      "probability": 26,
+      "outcome": "Iran accepts modified terms over Memorial Day weekend — Hormuz formally reopens. Barclays concedes supply will be replenished within 60-90 days — WTI falls to $80-85. May CPI falls toward 3.0%. Warsh June 17 signals September cut. SpaceX June 12 IPO world's largest. OpenAI IPO announced. S&P to 8,000+ by July.",
+      "trigger": "Formal Hormuz reopening by May 28 AND Warsh June 17 signals cut optionality AND CPI <3.2%"
+    }
+  ],
+
+  "flows": [
+    {
+      "asset": "Broad Equities — SPY, DIA, IWM",
+      "direction": "Inflow",
+      "size": "+$1.8B",
+      "note": "Pre-holiday positioning and yield relief drove modest broad inflows. Dow new record and Russell +0.91% leading. Institutional rebalancing into the long weekend after a volatile week.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Energy — XLE, Brent futures, WTI",
+      "direction": "Inflow",
+      "size": "+$1.4B",
+      "note": "Barclays 6-8mb/d supply deficit warning and US crude stockpiles near 2020 lows drove energy buying despite Rubio's diplomatic progress signals. The structural supply damage is independent of the Iran deal — even full reopening takes months to replenish inventories.",
+      "significance": "High"
+    },
+    {
+      "asset": "Long-duration Bonds — TLT",
+      "direction": "Inflow",
+      "size": "+$0.9B",
+      "note": "10Y -2.6bps, 30Y -4.7bps into the long weekend as Iran 'slight progress' provided marginal relief. Modest TLT inflow as traders reduced short positions ahead of a three-day weekend with significant geopolitical uncertainty.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Short-duration Treasuries — SHY, BIL",
+      "direction": "Inflow",
+      "size": "+$1.5B",
+      "note": "Cash parking demand into the long weekend. 2Y at 4.07% with Warsh June 17 uncertainty. Warsh takes oath today — institutional caution on rate path adds to short-end demand.",
+      "significance": "High"
+    },
+    {
+      "asset": "Semiconductors — SOX, NVDA recovery",
+      "direction": "Flat",
+      "size": "~$0",
+      "note": "Nvidia stabilised after Thursday's -1.77% sell-the-news. No significant flows either direction — the market is in digest mode ahead of the long weekend. Samsung strike still unresolved. AI conviction intact, multiple ceiling confirmed.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "SpaceX / AI IPO pipeline",
+      "direction": "Inflow",
+      "size": "+$0.5B",
+      "note": "Despite SpaceX's Starship V3 launch scrub (technical issue, not structural), the June 12 IPO narrative intact. Cerebras holding gains. OpenAI IPO 'coming weeks.' The AI IPO wave calendar is set.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "USMCA trade — Canada/Mexico equities",
+      "direction": "Inflow",
+      "size": "+$0.3B",
+      "note": "US-Canada USMCA extension confirmed — removes the near-term trade policy overhang from the US's second-largest trading partner. Modest flow into North American-exposed sectors.",
+      "significance": "Low"
+    },
+    {
+      "asset": "Gold — GLD",
+      "direction": "Inflow",
+      "size": "+$0.4B",
+      "note": "Gold held above $4,540 into the long weekend as geopolitical uncertainty kept the safe-haven bid alive. Warsh era beginning and Iran stalemate both supportive of gold's dual inflation/geopolitical premium.",
+      "significance": "Low"
+    }
+  ],
+  "flowsRead": "May 22 flows reflect pre-holiday positioning rather than a decisive regime shift. Energy inflows (+$1.4B) on Barclays supply warning confirm that the oil trade is now structurally driven — even Iran diplomacy progress doesn't resolve the 6-8mb/d inventory deficit. Short-duration inflows (+$1.5B) confirm Warsh rate uncertainty persists into his June 17 debut. The broad equity inflow (+$1.8B) is mechanical — end-of-month and pre-holiday rebalancing. The week's net message: AI supercycle confirmed (Nvidia AH blowout), K-shaped consumer confirmed (Target beat, Walmart guide miss), Iran deal making 'slight progress' but structurally stalled on uranium and Hormuz tolling. The market enters the long weekend with the Iran binary as the dominant risk: deal or no deal over Memorial Day weekend could be a ±3-5% gap on Tuesday's open.",
+
+  "indicators": {
+    "brentWTISpread": 6.95,
+    "hormuzclosurePct": 25,
+    "tankerRatePremium": 112,
+    "futuresBackwardationBp": 530,
+    "cloudGrowthRate": 70,
+    "aiRevCapexRatio": 1.02,
+    "earningsRevisionTrend": 85,
+    "corePCETrend": 3.2,
+    "gdpGrowthEstimate": 2.0,
+    "realWageYoY": -1.3,
+    "creditTighteningScore": 54,
+    "advDecRatio": 1.22,
+    "newHiLoRatio": 2.4,
+    "capVsEqualWeightBp": -6,
+    "pctAbove50dMA": 63,
+    "opecCohesionScore": 58,
+    "fedTransitionRisk": 78,
+    "enterpriseSoftwareAIRevGrowth": 24.6
+  },
+
+  "topThemes": [
+    {
+      "direction": "Data",
+      "theme": "Rubio: 'Slight progress' toward Iran deal — deal 'unfeasible' if Iran controls Hormuz tolls. Gaps narrowed but sticking points remain.",
+      "impact": "Rubio confirmed 'slight progress' Friday while drawing a clear red line: any deal is 'unfeasible' if Iran seeks permanent control of Hormuz shipping tolls. Iranian media reported similar signals. The two sticking points are now explicitly: (1) uranium enrichment inside Iran (vs US demand for external accountability) and (2) Hormuz tolling rights (Iran wants revenue; US says non-negotiable). 'Gaps have narrowed' per a senior Iranian official — deal possible but not imminent. Market enters the long weekend with Iran as the primary binary.",
+      "strength": 78,
+      "tags": ["Iran","Hormuz","Rubio","Uranium","Tolls","Pakistan","Progress","Memorial Day"]
+    },
+    {
+      "direction": "Shock",
+      "theme": "Barclays: 6-8 million barrel/day supply deficit — WTI +1.8% despite Iran progress. Structural supply damage persists.",
+      "impact": "Barclays maintained its $100 Brent average forecast for 2026 with upside risks, warning of a 6-8mb/day inventory deficit. US crude inventories approaching lowest levels since 2020. 'Even if the Strait of Hormuz were to fully reopen today, inventory replenishment would take months.' WTI +1.8% to $98.05, Brent +2.31% to $105 — oil rose despite diplomatic progress signals. The structural supply damage is now the primary oil driver, separate from the Iran binary.",
+      "strength": 82,
+      "tags": ["Barclays","Oil supply","WTI","Brent","Inventory deficit","Hormuz","Structural"]
+    },
+    {
+      "direction": "Data",
+      "theme": "Kevin Warsh takes oath as Fed Chair — Powell era ends. June 17 FOMC inaugural meeting sets the tone.",
+      "impact": "Kevin Warsh formally took the oath of office as the 17th Federal Reserve Chair today. The Powell era — which navigated COVID, the 2022 rate shock cycle, and the current Iran inflation — is over. Warsh inherits a 10Y near 4.56%, 30Y near 5.06%, CPI at 3.8%, and an Iran energy supply shock. His June 17 FOMC meeting will be his first public act as Chair. fedTransitionRisk at 78 — the market is pricing meaningful probability of a hawkish-hold statement.",
+      "strength": 74,
+      "tags": ["Warsh","Fed","FOMC","Powell","June 17","fedTransitionRisk","Rate path"]
+    },
+    {
+      "direction": "Leadership",
+      "theme": "Dow second consecutive all-time record — value and defensive rotation, Russell +0.91% leads on yield relief",
+      "impact": "The Dow set its second consecutive record high at 50,579.66. Russell 2000 +0.91% led major indices as the 10Y falling 2.6bps provided meaningful relief to rate-sensitive small caps. The week's dominant pattern — Dow and Russell outperforming Nasdaq — confirms the rotation from AI momentum to value/defensives/small caps is structural, not a one-session anomaly. Equal-weight outperforming cap-weight (capVsEqualWeightBp -6bp).",
+      "strength": 70,
+      "tags": ["Dow record","Russell 2000","Small caps","Value rotation","Yields","Breadth"]
+    },
+    {
+      "direction": "Data",
+      "theme": "SpaceX Starship V3 scrubbed 10 seconds before launch — technical issue, not structural. June 12 IPO intact.",
+      "impact": "SpaceX scrubbed its Starship V3 launch attempt 10 seconds before liftoff due to a technical issue with the new rocket and new launch pad. 'New rocket, new pad, we're learning a lot about these new systems,' said SpaceX communications official Dan Huot. The scrub does not affect the June 12 IPO timeline — it is a development milestone, not a commercial event. A reattempt was expected Saturday.",
+      "strength": 58,
+      "tags": ["SpaceX","Starship V3","Launch scrub","IPO","June 12","Musk"]
+    }
+  ],
+
+  "crossMarket": [
+    {"market":"S&P 500","risk":"Elevated","move":"7,473.47","trend":"↑ +0.37% weekly close","heat":52,"driver":"S&P closed at 7,473.47 (+0.37%), crossing the 7,450 level for the first time. The week's net gain: +0.5% despite the 10Y hitting a 52-week high of 4.63% on Monday. Remarkable resilience — the market's ability to absorb rate shocks and Nvidia sell-the-news confirms structural AI demand floor.","source":"TheStreet"},
+    {"market":"Dow Jones","risk":"Watch","move":"50,579.66","trend":"↑ +294 pts new record","heat":48,"driver":"Dow set its second consecutive all-time record. +294 points driven by healthcare, financials, and industrial components. The Dow's back-to-back records while Nasdaq was flat on the week is the clearest rotation signal of the month: value and defensives absorbing the AI momentum digestion.","source":"TheStreet"},
+    {"market":"Nasdaq Composite","risk":"Elevated","move":"26,343.97","trend":"↑ +0.19% modest","heat":54,"driver":"Nasdaq gained modestly. Nvidia stabilised after Thursday's sell-the-news. AI hardware conviction floor intact. The Nasdaq was -0.1% for the week — a remarkable achievement given Monday's rate-shock severity.","source":"TheStreet"},
+    {"market":"Russell 2000","risk":"Watch","move":"2,869.23","trend":"↑ +0.91% led all indices","heat":50,"driver":"Russell led all major indices for the second consecutive session. 10Y -2.6bps provided rate relief to small-cap borrowing costs. Approaching its all-time high again. Breadth: much closer to re-testing record per TheStreet.","source":"TheStreet"},
+    {"market":"VIX","risk":"Watch","move":"~17.26","trend":"↓ easing into long weekend","heat":36,"driver":"VIX eased into the long weekend as yields retreated and Rubio's progress signals provided modest risk relief. Below 18 confirms the market is not panic-pricing the Iran binary — it is holding it as a positive optionality event.","source":"Estimated from prior session + yield movement"},
+    {"market":"Warsh Fed Chair","risk":"Watch","move":"Oath taken — June 17 inaugural FOMC","trend":"↑ new era begins","heat":66,"driver":"Kevin Warsh formally took the oath of office as the 17th Federal Reserve Chair. His background: Morgan Stanley managing director, former Fed Governor (2006-2011), authored the 2022 WSJ op-ed calling for faster rate hikes. June 17 is his first FOMC meeting. The market has priced hawkish-hold as the base case. fedTransitionRisk at 78.","source":"TheStreet / Schwab"},
+    {"market":"Brent Crude","risk":"High","move":"$105.02","trend":"↑ +2.31% supply deficit","heat":70,"driver":"Brent +2.31% to $105 despite Iran progress signals. Barclays: 6-8mb/day inventory deficit, US stockpiles near 2020 lows. 'Even if Hormuz fully reopened today, months to replenish.' The structural supply damage has decoupled oil from the Iran binary in the near term.","source":"TheStreet / Barclays"},
+    {"market":"WTI Crude","risk":"High","move":"$98.05","trend":"↑ +1.8% above $98","heat":68,"driver":"WTI +1.8% to $98.05 — back near $100. The structural supply argument from Barclays dominates the diplomatic progress signal. US crude inventories at near-2020 lows means any Iran deal's energy deflation impact is delayed by 60-90 days minimum.","source":"TheStreet / Barclays"},
+    {"market":"10Y Treasury","risk":"Elevated","move":"4.558%","trend":"↓ -2.6bp easing into weekend","heat":60,"driver":"10Y fell 2.6bps to 4.558% into the long weekend — confirmed by TheStreet. The 30Y fell 4.7bps to 5.064%. Week's journey: 4.38% (pre-rate-shock) → 4.63% (Monday 52-week high) → 4.56% (Friday close). The partial reversal confirms Iran diplomacy is the marginal yield driver. Warsh June 17 is the structural anchor.","source":"TheStreet — confirmed 10Y 4.558%, 30Y 5.064%"},
+    {"market":"Gold","risk":"Watch","move":"~$4,540-4,550","trend":"↑ safe haven into weekend","heat":48,"driver":"Gold maintained its bid into the long weekend. Warsh oath and Iran uncertainty both supportive. Real 10Y TIPS at 2.13% competes but the geopolitical premium holds. Entering the Memorial Day weekend with Iran as the dominant risk binary.","source":"Yahoo Finance estimate"},
+    {"market":"SpaceX (pre-IPO)","risk":"Watch","move":"Starship V3 scrubbed — June 12 IPO intact","trend":"→ technical delay, not structural","heat":60,"driver":"Starship V3 launch scrubbed 10 seconds before liftoff. Technical issue with new rocket and new pad. Reattempt Saturday. June 12 IPO timeline unaffected — this is a development milestone, not a commercial event. SpaceX's commercial operations (Falcon 9, Dragon) are independent of Starship development milestones.","source":"TheStreet / Space.com"},
+    {"market":"USMCA","risk":"Watch","move":"US-Canada extension confirmed","trend":"↑ trade clarity","heat":40,"driver":"US and Canada confirmed USMCA extension — removes the near-term trade policy uncertainty from the US's second-largest trading partner. Canada is the US's top oil import source and third-largest export market. Trade clarity adds marginal positive to the macro backdrop.","source":"TheStreet"}
+  ],
+
+  "sectorHeat": [
+    {"sector":"Energy","heat":70,"trend":"↑ Barclays supply deficit dominant","driver":"WTI +1.8%, Brent +2.31%. Structural supply damage from Hormuz closure independent of diplomatic progress. 6-8mb/day deficit near 2020 lows."},
+    {"sector":"Financials","heat":56,"trend":"↑ Warsh era begins","driver":"Higher-for-longer rate environment positive for bank NIMs. Warsh oath supportive of the 'rates stay elevated' thesis."},
+    {"sector":"Healthcare","heat":54,"trend":"↑ defensive bid","driver":"Defensive rotation into healthcare continued. Rate uncertainty and Iran geopolitical risk keeping defensive bid alive."},
+    {"sector":"Industrials","heat":56,"trend":"↑ AI power demand + USMCA","driver":"AI data centre construction demand. USMCA extension removes supply chain uncertainty for North American industrial networks."},
+    {"sector":"Technology","heat":58,"trend":"↑ Nvidia digesting","driver":"Nasdaq +0.19%. Nvidia stabilised after sell-the-news. AI supercycle confirmed by Q1/Q2 prints — multiple is the constraint. SpaceX IPO narrative intact."},
+    {"sector":"Russell / Small Caps","heat":60,"trend":"↑ +0.91% yield relief","driver":"Russell led all indices on 10Y -2.6bps. Small caps most sensitive to rate changes — Friday's yield easing provided direct cost-of-capital relief."},
+    {"sector":"Consumer Staples","heat":50,"trend":"→ Walmart hangover","driver":"Walmart guidance miss overhang persisting. Lower-income consumer stress confirmed. The K-shaped split is now retail data, not just theory."},
+    {"sector":"AI Infrastructure","heat":82,"trend":"↑ supercycle confirmed","driver":"AICS aiRevCapexRatio 1.02. Nvidia Q1 $81.62B, Q2 $91B guide. The AI cycle is accelerating — the multiple is the challenge, not the business."}
+  ],
+
+  "drivers": [
+    {
+      "name": "Barclays Supply Deficit Warning — 6-8mb/Day Gap, US Inventories Near 2020 Lows. Oil Structural.",
+      "linked": "Brent, WTI, XLE, OGPI, energy sector",
+      "source": "Barclays research note via TheStreet",
+      "confidence": "High",
+      "score": 88,
+      "detail": "Barclays maintained its 2026 average Brent forecast at $100/barrel with risks skewed to the upside. The bank's key data point: inventory trends show a 6-8 million barrel per day deficit, with US crude stockpiles approaching their lowest levels since 2020. The critical insight: 'Even if the Strait of Hormuz were to fully reopen today, inventory replenishment would take months.' This decouples the near-term oil price from the Iran diplomatic binary — structural supply damage has been done. WTI rose 1.8% and Brent rose 2.31% on Friday despite Rubio's 'slight progress' signal, confirming that the oil market is no longer purely pricing diplomacy. The Barclays analysis reframes the Iran deal impact: even the best-case scenario (immediate reopening) produces a gradual oil decline, not a collapse to $80-85 as was previously modelled."
+    },
+    {
+      "name": "Rubio 'Slight Progress' + Red Lines — Deal Possible But Uranium/Hormuz Tolling Are Non-Negotiables",
+      "linked": "Iran, Hormuz, Brent, WTI, OGPI",
+      "source": "TheStreet, CNBC",
+      "confidence": "High",
+      "score": 80,
+      "detail": "Secretary of State Rubio provided the week's final Iran statement: 'slight progress' toward a deal, while explicitly framing Hormuz tolling as a deal-breaker — 'unfeasible if Iran pursues measures to permanently control shipping through the Strait of Hormuz.' Iran and the US agreed to a truce on April 8 and have been exchanging messages via Pakistan regarding a longer-term deal. Both sides have said they are prepared to resume hostilities. Iranian media reported similar 'slight progress' signals. The sticking points are now clearly defined: (1) uranium enrichment inside Iran vs external accountability, and (2) Hormuz tolling rights. The Barclays supply analysis adds urgency — even after a deal, oil supply needs time to normalise. hormuzclosurePct held at 25% — directional progress but formal deal not imminent."
+    },
+    {
+      "name": "Kevin Warsh Takes Oath as Fed Chair — June 17 FOMC Is His First Act",
+      "linked": "10Y, 30Y, Fed funds, SPI, fedTransitionRisk",
+      "source": "TheStreet, Schwab",
+      "confidence": "High",
+      "score": 76,
+      "detail": "Kevin Warsh formally became the 17th Federal Reserve Chair today, taking the oath of office. He inherits: 10Y at 4.56%, 30Y at 5.06%, CPI at 3.8%, core PCE at 3.2%, and a structural Iran energy supply shock. His background: Morgan Stanley managing director, former Fed Governor (2006-2011) who joined other dissenters in calling for faster rate hikes in 2022 via WSJ op-ed. Market consensus: hawkish-hold at June 17 — rates unchanged but easing bias removed and data-dependent language introduced. fedTransitionRisk at 78 reflects 22% probability of a surprise hawkish lean. The Powell era successfully navigated COVID monetary expansion and the subsequent tightening cycle; Warsh inherits the stagflation chapter."
+    },
+    {
+      "name": "Week's Net Result — S&P +0.5% Absorbing: 10Y 52-Week High, Nvidia Sell-the-News, Walmart Guide Miss",
+      "linked": "S&P 500, Nasdaq, Dow, market structure",
+      "source": "TheStreet, CNBC",
+      "confidence": "High",
+      "score": 72,
+      "detail": "The week of May 18-22 was one of the most eventful of 2026: Monday's 10Y hit a 52-week high of 4.63%; Wednesday's Nvidia blowout ($81.62B, $91B Q2 guide) was followed by a Thursday sell-the-news -1.77%; Walmart's guidance miss confirmed lower-income consumer stress; Iran's uranium directive reversed de-escalation optimism; and Friday's Rubio 'slight progress' and yield easing provided a constructive close. Net result for the week: S&P +0.5%, Dow +0.7%, Nasdaq -0.1%. The market's ability to absorb all of this and close the Dow at an all-time record is a genuine measure of structural resilience."
+    },
+    {
+      "name": "USMCA Extension Confirmed — Trade Clarity With US Second-Largest Partner",
+      "linked": "Canada, trade policy, North American supply chains",
+      "source": "TheStreet",
+      "confidence": "High",
+      "score": 62,
+      "detail": "The US and Canada confirmed a USMCA (US-Mexico-Canada Agreement) extension, removing the near-term trade policy uncertainty from the US's second-largest trading partner. Canada is the US's top oil import source (approximately 4 million barrels/day), third-largest export market, and a critical partner in automotive and agricultural supply chains. The confirmation provides trade policy clarity that was missing during the broader tariff uncertainty period. Marginal positive for North American-exposed industrials, energy companies, and consumer goods manufacturers."
+    }
+  ],
+
+  "risks": [
+    {
+      "title": "Memorial Day weekend Iran binary — deal breakthrough or escalation could produce ±3-5% Tuesday gap",
+      "level": "High",
+      "desc": "The US market is closed Monday May 25. Oil markets and foreign exchange continue to trade. If Iran accepts modified terms over the weekend and Hormuz formally reopens, WTI could open Tuesday down 8-10% — the largest single-day oil decline since the April ceasefire. If Iran resumes military activity, WTI could spike above $110 on Tuesday's open. The asymmetry is unusually large heading into a three-day weekend. Rubio's 'slight progress' language suggests a deal is directionally possible — but the uranium and Hormuz tolling sticking points mean 'weekend deal' is not the base case."
+    },
+    {
+      "title": "Barclays supply deficit — even a deal won't collapse oil quickly. Stagflation trade has a longer tail.",
+      "level": "High",
+      "desc": "Barclays' warning that the 6-8mb/day deficit would take months to replenish even with an immediate Hormuz reopening fundamentally changes the Iran deal calculus. The market had been pricing a deal as a rapid oil deflation event (WTI to $80-85 within days). The structural supply damage reality: WTI to $85-90 over 60-90 days, not immediately. This means the inflation relief from an Iran deal is delayed — PCE won't fall materially until August-September even with a June deal. Warsh's June 17 meeting won't have the benefit of inflation deflation data."
+    },
+    {
+      "title": "Warsh June 17 — first FOMC with 3.8% CPI, 4.56% 10Y, and no inflation relief visible yet",
+      "level": "Elevated",
+      "desc": "Warsh inherits the worst inflation backdrop in three years. Even if Iran deal is signed before June 17, Barclays says oil inventory replenishment takes months — no PCE relief will be visible. Warsh's hawkish-leaning history (2022 WSJ op-ed dissenting against slow hikes) and 78 fedTransitionRisk suggest the market may be surprised by his tone. If he signals openness to a hike, the 10Y could spike back to 4.63%+ and compress AI equity multiples."
+    },
+    {
+      "title": "Samsung strike still unresolved — Nvidia Q2 $91B guide memory supply risk",
+      "level": "Elevated",
+      "desc": "The Samsung 47,000-worker strike threat remains unresolved heading into the long weekend. Nvidia's $91B Q2 guide is ambitious — it requires Blackwell memory to scale at rates that depend on Samsung (HBM #2 globally) and SK Hynix (#1). A Samsung strike would constrain Blackwell supply directly. If Nvidia is forced to revise its $91B Q2 guide at earnings (August) due to memory supply, the sell-the-news reaction from Thursday becomes a larger structural re-rating."
+    },
+    {
+      "title": "SpaceX Starship V3 scrub — technical issues with new rocket could delay launch cadence",
+      "level": "Medium",
+      "desc": "Starship V3 scrubbed 10 seconds before liftoff. SpaceX said it is 'learning a lot about these new systems.' A repeated scrub pattern or anomaly on the Saturday reattempt would create narrative pressure on the June 12 IPO, where investors are pricing SpaceX's Mars ambitions and advanced launch capability. The IPO proceeds regardless — but a high-profile launch failure close to IPO day would be a reputational headwind at the worst possible moment."
+    }
+  ],
+
+  "timeline": [
+    {"time":"Pre-market","headline":"Stock futures higher on Iran 'slight progress' signals and Rubio 'good signs' from Thursday","effect":"Set a constructive tone for the session. The market entered Friday knowing the week had been volatile but net positive. Pre-holiday positioning began immediately."},
+    {"time":"Pre-market","headline":"Barclays publishes supply deficit note: 6-8mb/day gap, US inventories near 2020 lows","effect":"WTI futures rose despite Iran progress signals. The Barclays note fundamentally reframed the Iran deal oil impact — even full reopening produces gradual, not immediate, supply restoration. Oil's +1.8% session gain reflects this."},
+    {"time":"09:00","headline":"Kevin Warsh takes oath as Fed Chair — formally ends Powell era","effect":"Institutional note rather than market-moving event. fedTransitionRisk at 78 maintained. June 17 is Warsh's first public act. The market has priced hawkish-hold but the uncertainty premium remains."},
+    {"time":"09:30","headline":"Market opens modestly higher — Russell leads, Dow pushing toward new record","effect":"Pre-holiday positioning dominated. Energy +1%+ on Barclays note. Russell +0.5%+ on yield relief. Technology flat as Nvidia digested its Thursday selloff."},
+    {"time":"11:30","headline":"Rubio: 'Slight progress' toward Iran deal. Any deal 'unfeasible' if Iran controls Hormuz tolls.","effect":"The explicit 'Hormuz tolling' red line is new and important — it means Iran cannot monetise the blockade as a deal term. Brent remained elevated as the market absorbed both the progress and the constraint."},
+    {"time":"13:00","headline":"SpaceX scrubs Starship V3 launch 10 seconds before liftoff — technical issue","effect":"Limited market impact — SpaceX's commercial operations independent of Starship development. June 12 IPO narrative intact. Reattempt expected Saturday."},
+    {"time":"14:30","headline":"US and Canada confirm USMCA extension — North American trade clarity","effect":"Modest positive for industrials and energy. Canada is US's top oil import source. Trade policy uncertainty reduced for North America's supply chains."},
+    {"time":"16:00","headline":"Dow closes at new all-time record 50,579.66. S&P 7,473.47. Russell leads +0.91%. Markets closed Monday.","effect":"The week closes constructively. Two consecutive Dow records. The rate-shock week (10Y 4.63% Monday) ends with a dignified close. Iran binary holds over Memorial Day weekend. Next session: Tuesday May 26."}
+  ],
+
+  "watchpoints": [
+    {"date":"May 26","event":"FIRST SESSION AFTER MEMORIAL DAY — Iran deal status over the weekend is the dominant binary. ±3-5% gap open possible.","significance":"High","tag":"Geopolitical"},
+    {"date":"May 26","event":"Samsung strike resolution — if declared over the weekend, Nvidia Q2 $91B supply chain at risk on Tuesday open","significance":"High","tag":"Semiconductors"},
+    {"date":"May 26","event":"SpaceX Starship V3 Saturday reattempt outcome — repeat scrub or success before June 12 IPO","significance":"Medium","tag":"Equities"},
+    {"date":"Jun 5","event":"May unemployment/NFP report — Warsh's first labour market data as Chair. Tight labour market complicates rate path.","significance":"High","tag":"Macro"},
+    {"date":"Jun 12","event":"SpaceX IPO on Nasdaq — largest IPO in history at $1.75T. S-1 filed. June 12 confirmed.","significance":"High","tag":"Equities"},
+    {"date":"Jun 17","event":"First FOMC under Warsh — rate decision and tone-setting. CPI 3.8%, 10Y 4.56%. fedTransitionRisk 78.","significance":"High","tag":"Rates"},
+    {"date":"Jun 2026","event":"OpenAI IPO filing 'in coming weeks' (Bloomberg) at $1T+ valuation. The defining AI capital markets event of 2026.","significance":"High","tag":"Equities"},
+    {"date":"Aug 2026","event":"Nvidia Q2 FY2027 earnings — the $91B guide materialises or doesn't. Samsung supply chain the key variable.","significance":"High","tag":"AI"}
+  ],
+
+  "strategies": [
+    {
+      "title": "Iran long weekend binary — pre-position for gap risk with options, not directional equity",
+      "confidence": "High",
+      "score": 84,
+      "body": "The Memorial Day weekend creates an unusually concentrated Iran binary: deal or no deal over 72 hours with no US market to absorb it. WTI and Brent will trade continuously. Options structures (S&P straddle expiring May 28 or May 30, or WTI options) capture the gap risk in either direction. A deal produces: WTI -$8-12, 10Y -15-20bps, S&P +3-5%. A deal collapse produces: WTI +$10-15, 10Y +10-15bps, S&P -4-6%. The strangle cost at ~17 VIX is relatively low for the magnitude of potential moves.",
+      "trigger": "Iran formal deal or formal ceasefire termination over Memorial Day weekend"
+    },
+    {
+      "title": "Revise Hormuz deal oil price target — Barclays supply deficit means $85 floor, not $75-80",
+      "confidence": "High",
+      "score": 82,
+      "body": "Barclays' 6-8mb/day inventory deficit fundamentally changes the post-deal oil price target. Previous models assumed WTI falls to $78-85 on a Hormuz deal. The Barclays analysis: even with full reopening today, it takes 60-90 days to replenish depleted US inventories (near 2020 lows). Revise the deal scenario oil floor to $88-93 WTI and $95-100 Brent. This means: (1) energy companies remain profitable even with a deal, (2) PCE relief is delayed by 60-90 days, and (3) Warsh still faces elevated inflation at June 17 even if Iran deal closes today.",
+      "trigger": "Formal Hormuz reopening AND WTI trade — floor target revised to $88-93"
+    },
+    {
+      "title": "Long Warsh rate hike hedge — fedTransitionRisk 78 into June 17",
+      "confidence": "Medium",
+      "score": 70,
+      "body": "Warsh took the oath today. He inherits 3.8% CPI, 4.56% 10Y, and a structural energy supply shock that Barclays says won't resolve before his first meeting. His 2022 WSJ op-ed called for faster tightening. The hike probability is not consensus but is now 10-15% on CME FedWatch. Short 2Y Treasuries and long USD capture the hike risk at low cost. If Warsh removes the easing bias (base case) but signals data-dependence that includes hike optionality, 2Y yields could rise 15-20bps from current 4.07% on the statement alone.",
+      "trigger": "Warsh June 17 statement removes easing bias AND 30Y closes above 5.20%"
+    },
+    {
+      "title": "SpaceX June 12 IPO — institutional allocation strategy ahead of largest IPO in history",
+      "confidence": "Medium",
+      "score": 72,
+      "body": "S-1 formally filed, June 12 confirmed, Starship scrub doesn't affect commercial operations. The Cerebras template (20x oversubscribed, +68% first day) and the AI IPO wave confirms institutional appetite. SpaceX at $1.75T is AI + space + defence + Musk founder narrative — no listed equivalent. Strategy: seek IPO allocation through broker at $1.75T; if unavailable, initiate small position at IPO price on May 26 market open; add on any first-week pullback below 5% premium to IPO price.",
+      "trigger": "SpaceX IPO priced at or above $1.75T AND institutional book >10x oversubscribed per prospectus"
+    }
+  ],
+
+  "sources": [
+    {"name":"TheStreet (May 22 live blog)","type":"Confirmed closes: Dow +294 pts to record 50,579.66, S&P 7,473.47, Nasdaq 26,343.97, Russell 2,869.23 (+0.91%). WTI $98.05 (+1.8%), Brent $105 (+2.31%). 10Y fell 2.6bps to 4.558%, 30Y fell 4.7bps to 5.064%. Warsh takes oath. SpaceX scrub. USMCA extension. Rubio 'slight progress.'","note":"Primary source for all confirmed May 22 closes and narrative","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-22-2026"},
+    {"name":"Barclays Research (via TheStreet)","type":"6-8mb/day inventory deficit. US inventories near 2020 lows. Maintained $100 Brent average with upside risks. 'Even if Hormuz reopened today, months to replenish.'","note":"Definitive oil supply analysis changing the post-deal price target","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-22-2026"},
+    {"name":"CNBC (Rubio quote)","type":"Rubio: 'some good signs' Thursday; 'slight progress' Friday; deal 'unfeasible' if Iran controls Hormuz tolls","note":"Rubio red line on Hormuz tolling — key diplomatic framing","url":"https://www.cnbc.com/2026/05/20/stock-market-today-live-updates.html"},
+    {"name":"Schwab Market Update (May 21)","type":"Warsh to take oath. 10Y edged to 4.6% Thursday. Global oil stocks rapidly depleting. US crude stockpiles fell 4th straight week. Nvidia topped consensus with firm guidance.","note":"Thursday backdrop and Warsh context confirmed","url":"https://www.schwab.com/learn/story/stock-market-update-open"},
+    {"name":"Space.com / TheStreet","type":"SpaceX Starship V3 scrub 10 seconds before liftoff. Technical issue with new rocket and new pad. Dan Huot: 'New rocket, new pad, we're learning a lot.'","note":"SpaceX launch scrub detail confirmed","url":"https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-22-2026"},
+    {"name":"Federal Reserve H.15","type":"May 21 official confirmed: 1M 3.72%, 3M 3.68%, 6M 3.78%, 1Y 3.83%, 2Y 4.08%, 5Y 4.25%, 10Y 4.57%, 30Y 5.10%. Used as prior for May 22. May 22 H.15 pending.","note":"H.15 May 21 official extracted directly from Fed website — 5 column rightmost confirmed as May 21","url":"https://www.federalreserve.gov/releases/h15/"},
+    {"name":"TheStreet (May 21 confirmed closes)","type":"Previously confirmed May 21: S&P 7,445.72 (+0.17%), Nasdaq 26,293.10 (+0.09%), Dow 50,285.66 (+0.55%, record), Russell 2,843.45. 10Y 4.566%, 30Y 5.098%, 20Y 5.105%.","note":"Cross-check for prior session — confirmed by CNBC market data page","url":"https://www.cnbc.com/2026/05/20/stock-market-today-live-updates.html"}
+  ]
+}
