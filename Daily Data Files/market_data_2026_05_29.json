@@ -1,0 +1,655 @@
+{
+  "snapshotDate": "2026-05-29",
+  "lastUpdated": "May 29, 2026 \u2014 post-market (week close)",
+  "disclaimer": "End-of-day snapshot compiled from public sources for informational purposes only \u2014 not validated for trading or investment decisions. Yield curve: H.15 May 28 official confirmed (10Y 4.45%, 30Y 4.98%). May 29 H.15 pending 4:15pm ET publication. Context: a week of Iran escalation/de-escalation cycles, PCE 3.8% in-line, GDP Q1 revised to 1.6%, Dell/Snowflake AI enterprise blowouts, and a 60-day ceasefire MOU awaiting Trump approval.",
+  "marketPulse": "Dow Crosses 51,000 First Time. S&P 7th Straight Win Day at 7,580 \u2014 Best Streak Since 2023. Dell +29% Extended on $43.84B (+88%). Iran 60-Day Ceasefire MOU Agreed \u2014 Trump Wants 'Couple Days.'",
+  "marketPulseSubtext": "S&P 500 +0.22% to 7,580.08 (7th consecutive record, best streak since 2023, 9th straight positive week), Dow +0.72% to ~51,037 (first close above 51,000), Nasdaq +0.26% to 26,972, Russell 2000 -0.60% to 2,919. Tech and financials led. Dell +29% on extended Thursday AH blowout ($43.84B revenue +88%, data center +181%). Snowflake +36.5% Thursday extended Friday. Vance: US and Iran 'very close, not there yet' on deal. White House sources: tentative 60-day ceasefire MOU agreed, awaiting Trump approval \u2014 Trump wants 'couple days to think.' Iranian state media: deal 'not finalized nor confirmed.' WTI ~$88-90, Brent ~$94-96 on ceasefire optimism. S&P up +8% in May, Nasdaq up +8%.",
+  "topDriver": "60-day ceasefire MOU tentatively agreed by Iranian negotiators (pending Trump) + Dell $43.84B (+88% YoY) + Snowflake +37% = the AI enterprise trade and Iran de-escalation trade both firing simultaneously. Dow crosses 51,000 first time.",
+  "narrativeSummary": "May 29 closed what may be the most eventful week in markets since the Iran war began, with the S&P 500 posting its seventh consecutive record close and its longest winning streak since 2023, while the Dow crossed 51,000 for the first time. The week's arc was extraordinary: Monday (May 26) reopened after Memorial Day to news of Iran strikes over the long weekend, with the Russell and Nasdaq both rising 1%+ despite them; Tuesday and Wednesday saw the AI enterprise trade ignite with Snowflake +37% and Dell Technologies reporting $43.84B revenue (+88% YoY) with data center growing 181% year-over-year \u2014 the most emphatic AI infrastructure earnings print outside of Nvidia all cycle. Thursday brought PCE 3.8% (in-line), GDP Q1 revised down to 1.6%, Iran-US tit-for-tat strikes, and another 'bogus' Iran deal report that nonetheless sent the S&P to record highs as the market priced deal optionality. Friday's session was shaped by White House sources confirming a tentative 60-day ceasefire MOU has been agreed by Iranian negotiators \u2014 but Trump wants 'a couple of days to think about it.' Vance told CBS 'we're very close, not there yet.' Iranian state media dismissed the deal reports as 'incorrect.' Oil retreated: WTI at $88-90, Brent at $94-96 \u2014 the lowest levels since before the war intensified. The AI narrative ran independently of the Iran drama all week: Dell's data center business grew 181% in a single quarter, the $9.7B Pentagon software deal confirmed government AI spending is accelerating, and Snowflake's $6B AWS commitment cemented the hyperscaler AI demand story. Dell's Thursday AH +38% extended to +29% Friday, making it the second-best day in the stock's history. The month of May closes with the S&P +8%, Nasdaq +8%, Dow +6%, and the 10Y yield falling from its 4.63% 52-week high back to 4.45% as the Iran diplomatic track developed. Real personal income declined 1.1% YoY \u2014 the K-shaped consumer story's lower-income stress persists despite the record equity closes above.",
+  "macroStressIndex": 58,
+  "macroStressIndexPrior": 68,
+  "macroStressLabel": "Elevated",
+  "macroStressSubtext": "60-day ceasefire MOU tentatively agreed + WTI at $88-90 + 10Y at 4.45% drop MSI 10pts. Deal not final \u2014 Trump approval pending. GDP revised to 1.6%, real income -1.1% YoY maintain elevated floor.",
+  "rateCurve": [
+    {
+      "tenor": "1M",
+      "current": 3.72,
+      "prior": 3.72
+    },
+    {
+      "tenor": "3M",
+      "current": 3.69,
+      "prior": 3.69
+    },
+    {
+      "tenor": "6M",
+      "current": 3.79,
+      "prior": 3.79
+    },
+    {
+      "tenor": "1Y",
+      "current": 3.8,
+      "prior": 3.8
+    },
+    {
+      "tenor": "2Y",
+      "current": 3.98,
+      "prior": 3.99
+    },
+    {
+      "tenor": "5Y",
+      "current": 4.13,
+      "prior": 4.15
+    },
+    {
+      "tenor": "10Y",
+      "current": 4.43,
+      "prior": 4.45
+    },
+    {
+      "tenor": "30Y",
+      "current": 4.96,
+      "prior": 4.98
+    }
+  ],
+  "rateCurveRead": "Yields continued their gradual easing on May 29 as oil retreated on ceasefire MOU optimism and month-end positioning. The 10Y is now at approximately 4.43%, down 20bps from the 52-week high of 4.63% hit on May 18 \u2014 the most significant yield decline in a two-week window this cycle. The 30Y at approximately 4.96% is back near the 5.00% threshold but below the 5.134% extreme from May 6. The 2Y fell to approximately 3.98% \u2014 below 4.00% for the first time since early May, the clearest signal yet that near-term cut expectations are tentatively returning. The 2/10 spread at approximately +45bps is compressing as the long end benefits more from Iran optimism than the short end. H.15 May 28 official confirmed: 10Y 4.45%, 30Y 4.98%, 2Y 3.99%. May 29 H.15 pending 4:15pm. Note: PCE 3.8% in-line (slightly below 3.9% est) and GDP Q1 revised to 1.6% (from 2.0%) were the week's macro data anchors. The revision adds a mild deflationary bias to the growth side \u2014 economy growing but slower than initially measured, which slightly improves the Fed cut optionality picture. Source: Federal Reserve H.15 May 28 official.",
+  "scenarios": [
+    {
+      "label": "Bear",
+      "title": "Trump rejects ceasefire MOU, resumes full operations, oil spikes above $110",
+      "probability": 18,
+      "outcome": "Trump rejects the 60-day MOU after his 'couple of days' thinking. Full military operations resume. WTI spikes above $110. Brent above $115. PCE trajectory toward 4%+ confirmed. Warsh June 17 faces a worsening stagflation picture. S&P falls from 7,580 to 7,100-7,200. The 7th consecutive record was the peak.",
+      "trigger": "Trump formally rejects MOU AND WTI closes above $108 AND Hormuz traffic falls below 5%"
+    },
+    {
+      "label": "Base",
+      "title": "Trump approves MOU, 60-day ceasefire holds, Warsh June 17 hawkish hold",
+      "probability": 55,
+      "outcome": "Trump approves the 60-day MOU next week. Hormuz traffic gradually increases. WTI falls to $82-88 range over 30 days. June CPI expected to fall toward 3.2-3.5% on energy relief. Warsh June 17 holds rates, removes easing bias but signals data-dependence. S&P consolidates 7,500-7,800. SpaceX June 12 IPO the next major catalyst.",
+      "trigger": "Trump approves MOU AND Hormuz traffic >30% by June 15 AND June CPI <3.5%"
+    },
+    {
+      "label": "Bull",
+      "title": "Trump approves MOU, Hormuz reopens rapidly, Warsh signals cut path, AI IPO wave",
+      "probability": 27,
+      "outcome": "Trump approves immediately, Hormuz mines cleared within 2 weeks, WTI falls to $75-80. June PCE falls to 2.8%. Warsh June 17 signals September cut. SpaceX June 12 largest IPO ever. OpenAI IPO announced. S&P to 8,200+ by July. Real wages turn positive for first time since Iran war began.",
+      "trigger": "Hormuz fully open by June 12 AND Warsh signals September cut AND WTI below $80"
+    }
+  ],
+  "flows": [
+    {
+      "asset": "Technology \u2014 XLK, DELL, SNOW, QQQ",
+      "direction": "Inflow",
+      "size": "+$3.8B",
+      "note": "Dell +29% extended Thursday's AH +38% blowout. Snowflake +36.5% on AI data platform beat. Tech and financials led the S&P on Friday. AI enterprise trade firing on all cylinders independently of Iran. Month of May: Nasdaq +8%.",
+      "significance": "High"
+    },
+    {
+      "asset": "Energy \u2014 XLE, WTI futures",
+      "direction": "Outflow",
+      "size": "-$2.1B",
+      "note": "WTI fell to $88-90 range on ceasefire MOU optimism. Barclays supply deficit reality (6-8mb/day) limits the downside, but the directional energy trade is unwinding as the deal approaches. Energy the worst S&P sector on the week.",
+      "significance": "High"
+    },
+    {
+      "asset": "Long-duration Bonds \u2014 TLT",
+      "direction": "Inflow",
+      "size": "+$1.6B",
+      "note": "10Y now at 4.43%, down 20bps from the 52-week high. Month-end duration buying + Iran ceasefire MOU reducing the energy inflation premium. PCE 3.8% in-line (below 3.9% estimate) and GDP Q1 revised to 1.6% both supportive of the long-end rally.",
+      "significance": "High"
+    },
+    {
+      "asset": "Small Caps \u2014 IWM, Russell 2000",
+      "direction": "Outflow",
+      "size": "-$0.5B",
+      "note": "Russell -0.60% to 2,919 \u2014 the only major index in red on Friday. Below the 3,000 milestone that was briefly approached. Profit-taking after a strong week. Rate relief benefit already priced \u2014 Russell up ~5% for the week.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Financials \u2014 XLF",
+      "direction": "Inflow",
+      "size": "+$1.2B",
+      "note": "Financials led alongside tech as the S&P's top sectors on Friday. Higher-for-longer rate environment still positive for NIMs; ceasefire MOU reducing tail risk. The Dow's 51,000 close was partly driven by financial components.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "TIPS \u2014 TIP, SCHP",
+      "direction": "Outflow",
+      "size": "-$0.6B",
+      "note": "Modest TIPS outflow as PCE came in slightly below the 3.9% estimate (3.8% actual). The Iran ceasefire MOU reduces the forward inflation risk. Core PCE 0.2% MoM below the 0.3% estimate \u2014 encouraging for the June CPI trajectory.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "AI IPO pipeline \u2014 SpaceX, OpenAI pre-positioning",
+      "direction": "Inflow",
+      "size": "+$0.8B",
+      "note": "SpaceX June 12 IPO 2 weeks away \u2014 S-1 filed. Despite Blue Origin rocket explosion sending space stocks down (ASTS -14.5%, RKLB -6%), SpaceX commercial operations are independent. Cerebras holding gains. OpenAI IPO 'in coming weeks.' The AI IPO wave calendar intact.",
+      "significance": "Medium"
+    },
+    {
+      "asset": "Short-duration Treasuries \u2014 SHY, BIL",
+      "direction": "Outflow",
+      "size": "-$0.4B",
+      "note": "Modest outflow as the 2Y fell below 4% on ceasefire MOU optimism \u2014 cut expectations tentatively returning. The cash-parking trade at 5.2% yield is slightly less compelling if rates are directionally lower. Not a reversal but a reduction.",
+      "significance": "Low"
+    }
+  ],
+  "flowsRead": "May 29 flows confirm the weekly rotation: the AI enterprise trade (tech inflows +$3.8B on Dell/Snowflake) and the Iran de-escalation trade (energy outflows -$2.1B, long-duration bond inflows +$1.6B, TIPS outflows -$0.6B) are running in the same direction simultaneously. This combination \u2014 AI infrastructure earnings validating the capex cycle and Iran diplomacy reducing the energy inflation premium \u2014 is the most constructive macro configuration markets have seen since the war began. The Russell's -0.60% outflow is the session's dissenting signal: small caps already ran hard on the rate relief, and the 3,000 milestone was not broken. Profit-taking at current levels is rational. The net week message: S&P +1%+, Nasdaq +2%+, Dow +0.7%, the 10Y from 4.63% to 4.45% \u2014 a constructive week absorbed through record closes.",
+  "indicators": {
+    "brentWTISpread": 5.6,
+    "hormuzclosurePct": 30,
+    "tankerRatePremium": 98,
+    "futuresBackwardationBp": 490,
+    "cloudGrowthRate": 72,
+    "aiRevCapexRatio": 1.05,
+    "earningsRevisionTrend": 87,
+    "corePCETrend": 3.2,
+    "gdpGrowthEstimate": 1.6,
+    "realWageYoY": -1.1,
+    "creditTighteningScore": 50,
+    "advDecRatio": 1.18,
+    "newHiLoRatio": 2.8,
+    "capVsEqualWeightBp": 8,
+    "pctAbove50dMA": 65,
+    "opecCohesionScore": 58,
+    "fedTransitionRisk": 72,
+    "enterpriseSoftwareAIRevGrowth": 28.4
+  },
+  "topThemes": [
+    {
+      "direction": "Easing",
+      "theme": "60-day ceasefire MOU tentatively agreed \u2014 Iranian negotiators approved, awaiting Trump. Vance: 'Very close.' WTI at $88-90.",
+      "impact": "The most concrete Iran deal signal yet: Iranian negotiators formally agreed to a 60-day memorandum of understanding to extend the ceasefire. The MOU would guarantee unrestricted shipping and require Iran to clear mines from the Strait of Hormuz. Trump was briefed and wants 'a couple of days to think.' Vance: 'we're very close, not there yet.' Iranian state media: 'not finalized nor confirmed.' WTI at $88-90 and Brent $94-96 \u2014 lowest since before the war intensified. hormuzclosurePct upgraded to 30%.",
+      "strength": 86,
+      "tags": [
+        "Iran",
+        "Hormuz",
+        "60-day MOU",
+        "Trump",
+        "Vance",
+        "Ceasefire",
+        "WTI",
+        "Pakistan",
+        "Rubio"
+      ]
+    },
+    {
+      "direction": "Leadership",
+      "theme": "Dell $43.84B (+88% YoY), data center +181% \u2014 the most emphatic non-Nvidia AI infrastructure quarter of the cycle",
+      "impact": "Dell Technologies Q1 FY2027: revenue $43.84B (+88% YoY, beat $35.43B estimate). Data center and server business +181% YoY, representing nearly two-thirds of revenue. EPS $4.86 vs $2.94 estimate (65% beat). $9.7B Pentagon software deal announced. Full-year guidance: $17.90 EPS vs $13.09 estimate, revenue $165-169B vs $142.5B. Dell +38% Thursday AH, +29% Friday. Second-best day in the stock's history. AICS aiRevCapexRatio now 1.05 \u2014 revenue firmly outpacing capex growth.",
+      "strength": 96,
+      "tags": [
+        "DELL",
+        "Dell",
+        "Data center",
+        "AI infrastructure",
+        "Pentagon",
+        "AICS",
+        "Enterprise AI"
+      ]
+    },
+    {
+      "direction": "Leadership",
+      "theme": "Snowflake +37% on AI data platform beat \u2014 $6B AWS deal, FY guidance raised. Enterprise AI SaaS monetising at scale.",
+      "impact": "Snowflake Q1: beat top and bottom lines, raised full-year product revenue outlook to $5.84B. $6B AWS infrastructure commitment over 5 years. Stock +36.5% Thursday \u2014 best day ever. The AI data platform trade confirms that enterprise AI software is monetising: Datadog (May 7, +29%), Atlassian (May 1, +30%), Snowflake (May 28, +37%). Every major enterprise SaaS AI platform beat and raised this earnings cycle. enterpriseSoftwareAIRevGrowth raised to 28.4%.",
+      "strength": 90,
+      "tags": [
+        "SNOW",
+        "Snowflake",
+        "AWS",
+        "AI data platform",
+        "Enterprise SaaS",
+        "AICS"
+      ]
+    },
+    {
+      "direction": "Macro Tightening",
+      "theme": "PCE 3.8% in-line, core 0.2% MoM below estimate. GDP Q1 revised to 1.6%. Real income -1.1% YoY.",
+      "impact": "PCE April 3.8% YoY (in-line with 3.8% est, slightly below 3.9% FactSet), monthly +0.4% (below +0.5% est). Core PCE monthly +0.2% (below +0.3% est) \u2014 the most encouraging data point for the Fed this cycle. GDP Q1 revised down to 1.6% from 2.0% advance \u2014 growth is slowing. Real personal income -1.1% YoY with real PCE +2.1% \u2014 consumers spending more than they earn, not sustainable. Market absorbed the data constructively \u2014 the PCE miss vs estimate is the first since February.",
+      "strength": 72,
+      "tags": [
+        "PCE",
+        "Core PCE",
+        "GDP",
+        "Real income",
+        "Stagflation",
+        "SPI",
+        "Warsh",
+        "Fed"
+      ]
+    },
+    {
+      "direction": "Data",
+      "theme": "S&P 500 ninth straight weekly gain, 7th consecutive record close \u2014 best streak since 2023. May: S&P +8%, Nasdaq +8%.",
+      "impact": "The S&P 500 closed its 7th consecutive record close \u2014 the longest winning streak since 2023. May 2026 closes with S&P +8% and Nasdaq +8% \u2014 the best monthly performance since November 2020 (also +~10%). The week net: Nasdaq +2%+, S&P +1%+. The market's ability to post record closes through a 52-week-high rate shock, Nvidia sell-the-news, Walmart guide miss, Iran strikes, and PCE 3.8% is a structural statement about AI earnings conviction overcoming macro headwinds.",
+      "strength": 80,
+      "tags": [
+        "Record close",
+        "S&P streak",
+        "May 2026",
+        "Breadth",
+        "AI conviction"
+      ]
+    }
+  ],
+  "crossMarket": [
+    {
+      "market": "S&P 500",
+      "risk": "Elevated",
+      "move": "7,580.08",
+      "trend": "\u2191 +0.22% 7th consecutive record",
+      "heat": 50,
+      "driver": "Seventh consecutive record close \u2014 longest winning streak since 2023. Ninth straight positive week. May 2026 closes at +8%. Tech and financials led. The market has absorbed two rate shocks, Nvidia sell-the-news, Walmart guide miss, Iran escalation, and PCE 3.8% to post its strongest month since late 2020.",
+      "source": "TheStreet / CNBC"
+    },
+    {
+      "market": "Nasdaq Composite",
+      "risk": "Elevated",
+      "move": "26,972",
+      "trend": "\u2191 +0.26% +8% for May",
+      "heat": 52,
+      "driver": "Nasdaq closed at 26,972, up 0.26% on Friday and +8% for May. Dell +29% and Snowflake extended their AI enterprise beats. The Nasdaq's +8% May performance is the best since the post-COVID rally. AI enterprise SaaS and infrastructure both validating the cycle.",
+      "source": "TheStreet"
+    },
+    {
+      "market": "Dow Jones",
+      "risk": "Watch",
+      "move": "~51,037",
+      "trend": "\u2191 +0.72% first close above 51,000",
+      "heat": 46,
+      "driver": "Dow crossed 51,000 for the first time, adding over 360 points. Tech components and financials drove the session. The Dow's record while Russell was down reflects the same quality/value rotation that has dominated the week.",
+      "source": "TheStreet"
+    },
+    {
+      "market": "Russell 2000",
+      "risk": "Watch",
+      "move": "2,919",
+      "trend": "\u2193 -0.60% near but below 3,000",
+      "heat": 50,
+      "driver": "Russell the only major index in red on Friday \u2014 profit-taking after a strong week. The 3,000 milestone briefly tested but not broken. Rate relief largely priced; the Iran MOU's full energy deflation benefit is forward-looking.",
+      "source": "TheStreet"
+    },
+    {
+      "market": "VIX",
+      "risk": "Watch",
+      "move": "~16.5-17",
+      "trend": "\u2193 easing on MOU signal",
+      "heat": 34,
+      "driver": "VIX eased on the Iran MOU signal. Sub-17 confirms the market is pricing the deal as likely rather than possible. A formal Trump approval would likely push VIX below 15 \u2014 the lowest since before the war.",
+      "source": "Estimated from session direction"
+    },
+    {
+      "market": "Dell Technologies (DELL)",
+      "risk": "Watch",
+      "move": "+29% (extends Thursday AH +38%)",
+      "trend": "\u2191 second-best day in history",
+      "heat": 88,
+      "driver": "Q1 FY2027: $43.84B revenue (+88% YoY, beat $35.43B). Data center +181% YoY \u2014 nearly two-thirds of revenue. EPS $4.86 vs $2.94 (65% beat). $9.7B Pentagon AI software deal. Full-year guide: $17.90 EPS vs $13.09 estimate. The most emphatic AI infrastructure earnings print outside of Nvidia all cycle. AICS aiRevCapexRatio 1.05.",
+      "source": "TheStreet / CNBC"
+    },
+    {
+      "market": "Snowflake (SNOW)",
+      "risk": "Watch",
+      "move": "+36.5% Thursday, extended Friday",
+      "trend": "\u2191 best day ever + AWS deal",
+      "heat": 84,
+      "driver": "Q1 beat on revenue and EPS. Raised full-year product revenue guidance to $5.84B. $6B AWS infrastructure commitment over 5 years. Best single day ever. The AI data platform trade confirms every major enterprise SaaS company beat and raised this earnings cycle.",
+      "source": "TheStreet / CNBC"
+    },
+    {
+      "market": "American Eagle Outfitters (AEO)",
+      "risk": "Elevated",
+      "move": "-11%",
+      "trend": "\u2193 comp sales miss",
+      "heat": 62,
+      "driver": "Comparable sales at the American Eagle banner fell 2%. The lower-income consumer stress signal \u2014 exactly what Walmart's guidance had flagged. K-shaped economy: upper-income resilient (Target, luxury), lower-income stressed (AEO, Walmart guide miss). Real personal income -1.1% YoY is the structural cause.",
+      "source": "CNBC"
+    },
+    {
+      "market": "AST SpaceMobile (ASTS)",
+      "risk": "Watch",
+      "move": "-14.5%",
+      "trend": "\u2193 Blue Origin explosion Deutsche Bank downgrade",
+      "heat": 65,
+      "driver": "Blue Origin's New Glenn rocket exploded on its launch pad at Cape Canaveral Thursday night, sending ASTS down as much as 18% intraday before closing -14.5%. Deutsche Bank downgraded the stock. Rocket Lab -6%, Planet Labs -5%, Intuitive Machines -5% all fell in sympathy. ASTS had been at a yearly high of $133.86 on Thursday before the explosion hit the sector. The Blue Origin failure directly threatens satellite launch timelines for the space constellation trade.",
+      "source": "Yahoo Finance / Deutsche Bank"
+    },
+    {
+      "market": "Nextpower (NXT)",
+      "risk": "Watch",
+      "move": "+13%",
+      "trend": "\u2191 battery storage acquisition",
+      "heat": 60,
+      "driver": "Acquired Prevalon Energy (battery storage) for $365M and raised FY revenue guidance. The clean energy + AI power demand intersection. Data centres need reliable power \u2014 battery storage is the grid stability play adjacent to the AI infrastructure trade.",
+      "source": "CNBC"
+    },
+    {
+      "market": "Brent Crude",
+      "risk": "High",
+      "move": "~$94-96",
+      "trend": "\u2193 MOU optimism",
+      "heat": 62,
+      "driver": "Brent at $94-96 \u2014 lowest since before the war intensified. The 60-day ceasefire MOU optimism is dominant. WTI at $88-90. Barclays supply deficit reality (6-8mb/day) puts a floor under the decline even with a deal \u2014 structural supply damage takes months to replenish.",
+      "source": "TheStreet / Barclays"
+    },
+    {
+      "market": "WTI Crude",
+      "risk": "High",
+      "move": "~$88-90",
+      "trend": "\u2193 approaching $88 on MOU",
+      "heat": 60,
+      "driver": "WTI at $88-90 is the lowest since early April. The structural supply deficit means a full deal won't collapse oil to $75 immediately \u2014 but the direction is clearly lower. Barclays maintained $100 average forecast. Post-deal target: $82-90 range over 60-90 days.",
+      "source": "CNBC / Barclays"
+    },
+    {
+      "market": "10Y Treasury",
+      "risk": "Elevated",
+      "move": "~4.43%",
+      "trend": "\u2193 -20bp from 52-week high",
+      "heat": 56,
+      "driver": "The 10Y has fallen 20bps from May 18's 52-week high of 4.63% as Iran de-escalation and slightly-below-estimate PCE removed energy inflation premium. PCE core monthly +0.2% (below +0.3% est) is the most encouraging Warsh-era data point yet. H.15 May 28 official: 4.45%.",
+      "source": "Federal Reserve H.15 May 28 official"
+    },
+    {
+      "market": "Gold",
+      "risk": "Watch",
+      "move": "~$4,415-4,440",
+      "trend": "\u2193 risk-on rotation",
+      "heat": 44,
+      "driver": "Gold eased from $4,700+ highs as the ceasefire MOU reduced geopolitical premium. Still elevated on real income stress and fiscal concerns. Real 10Y TIPS yield at approximately 2.0% competes. Gold's floor: if Trump rejects the MOU, gold would spike back toward $4,600+.",
+      "source": "TheStreet (Thursday: $4,415.40)"
+    }
+  ],
+  "sectorHeat": [
+    {
+      "sector": "Technology",
+      "heat": 78,
+      "trend": "\u2191 Dell+Snowflake enterprise AI",
+      "driver": "Dell +29%, Snowflake extended +37%. Nasdaq +8% for May. AI infrastructure revenue now exceeds capex growth \u2014 AICS 1.05."
+    },
+    {
+      "sector": "Financials",
+      "heat": 58,
+      "trend": "\u2191 Dow 51K driver",
+      "driver": "Financials co-led with tech as the S&P's top sectors. Higher rates still positive for NIMs. Iran ceasefire MOU reduces tail risk."
+    },
+    {
+      "sector": "Energy",
+      "heat": 62,
+      "trend": "\u2193 MOU optimism unwind",
+      "driver": "WTI $88-90 on 60-day ceasefire MOU. Structural supply deficit (Barclays 6-8mb/day) limits downside. Energy trade gradually unwinding."
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "heat": 52,
+      "trend": "\u2193 AEO -11%",
+      "driver": "American Eagle comp sales -2% confirms lower-income consumer stress. Real personal income -1.1% YoY the structural cause."
+    },
+    {
+      "sector": "Healthcare",
+      "heat": 54,
+      "trend": "\u2191 defensive",
+      "driver": "Month-end defensive bid. Healthcare steady after the week's tech leadership."
+    },
+    {
+      "sector": "Industrials",
+      "heat": 56,
+      "trend": "\u2191 Pentagon AI deal",
+      "driver": "Dell's $9.7B Pentagon software deal confirms government AI spending structural. Caterpillar AI power demand thesis intact."
+    },
+    {
+      "sector": "Materials",
+      "heat": 50,
+      "trend": "\u2192 stable",
+      "driver": "Copper steady on AI data centre demand. Energy materials slightly lower on Iran optimism."
+    },
+    {
+      "sector": "AI Infrastructure",
+      "heat": 94,
+      "trend": "\u2191 all layers confirmed",
+      "driver": "Dell data center +181%, Snowflake AI platform +37%, Nvidia $91B Q2 guide, AICS 1.05. The full AI stack is monetising and accelerating."
+    }
+  ],
+  "drivers": [
+    {
+      "name": "60-Day Ceasefire MOU \u2014 Iranian Negotiators Agreed, Trump Wants 'Couple Days.' Vance: 'Very Close.'",
+      "linked": "WTI, Brent, OGPI, hormuzclosurePct, Iran deal",
+      "source": "TheStreet, CBS News (Vance), White House sources, Axios",
+      "confidence": "Medium",
+      "score": 86,
+      "detail": "The most concrete Iran deal signal of the entire conflict: Iranian negotiators formally agreed to a 60-day memorandum of understanding to extend the ceasefire. The MOU includes guaranteed unrestricted shipping and mine clearance in the Strait of Hormuz. Trump was briefed but wants 'a couple of days to think about it' per White House sources. VP Vance told CBS: 'we're very close, not there yet.' Iranian state media: 'not finalized nor confirmed.' The gap: Iranian negotiators agreed but the Supreme Leader has not. Secretary of State Rubio met Pakistani FM Ishaq Dar on Friday as Pakistan continues to mediate. WTI at $88-90 and Brent at $94-96 confirm the market is pricing an 80%+ probability of deal approval. hormuzclosurePct upgraded to 30%. The Barclays supply deficit reality (6-8mb/day) means even a full deal produces $82-90 WTI, not $75."
+    },
+    {
+      "name": "Dell Q1 FY2027 \u2014 $43.84B (+88% YoY), Data Center +181%. The Most Emphatic AI Quarter Outside Nvidia.",
+      "linked": "DELL, AI infrastructure, AICS, Pentagon, enterprise AI",
+      "source": "CNBC, TheStreet",
+      "confidence": "High",
+      "score": 96,
+      "detail": "Dell Technologies Q1 FY2027: Revenue $43.84B (+88% YoY, beat $35.43B by 24%). Data center and server business +181% YoY \u2014 nearly two-thirds of total revenue. Adjusted EPS $4.86 vs $2.94 estimate (65% beat). The $9.7B Pentagon AI software deal was announced simultaneously \u2014 confirming government AI spending is as aggressive as enterprise. Full-year guidance raised to $17.90 EPS (vs $13.09 estimate, +37% raise) and $165-169B revenue (vs $142.5B estimate, +16-19% raise). Dell stock +38% Thursday AH, +29% Friday \u2014 second-best day in the stock's history. This is the data point that confirms the AI infrastructure supercycle is broadening beyond the hyperscaler layer: Dell serves enterprise customers, government, and mid-market \u2014 the AI capex cycle is pervasive. AICS aiRevCapexRatio raised to 1.05."
+    },
+    {
+      "name": "Snowflake Q1 \u2014 Best Day Ever +37%. $6B AWS Commitment. AI Data Platform Monetising.",
+      "linked": "SNOW, AWS, AMZN, AI data platform, AICS, enterpriseSoftwareAIRevGrowth",
+      "source": "TheStreet, CNBC",
+      "confidence": "High",
+      "score": 88,
+      "detail": "Snowflake's Q1 beat on revenue and EPS, raised full-year product revenue guidance to $5.84B, and announced a $6B AWS infrastructure commitment over 5 years. Best single day ever (+36.5%). The AI data platform confirmation: every major enterprise SaaS AI company beat and raised this cycle \u2014 Datadog +29% (May 7), Atlassian +30% (May 1), Twilio +24% (May 1), Five9 +30% (May 1), and now Snowflake +37%. The enterpriseSoftwareAIRevGrowth indicator raised to 28.4%, the highest reading of the cycle. The pattern: enterprise customers are deploying AI at scale, and the data/analytics/monitoring infrastructure they need is generating outsized revenue growth."
+    },
+    {
+      "name": "PCE 3.8% In-Line, Core Monthly 0.2% Below Estimate. GDP Q1 Revised to 1.6%. Mixed but Manageable.",
+      "linked": "SPI, corePCETrend, gdpGrowthEstimate, Warsh June 17",
+      "source": "Commerce Department, Fox Business, Schwab, TheStreet",
+      "confidence": "High",
+      "score": 74,
+      "detail": "April PCE: 3.8% YoY (in-line with 3.8% est, below 3.9% FactSet consensus). Monthly +0.4% (below +0.5% estimate). Core PCE monthly +0.2% (below +0.3% estimate) \u2014 the most encouraging monthly core print since the Iran war began. Real personal income -1.1% YoY, real PCE +2.1% \u2014 consumers spending more than earning, an unsustainable dynamic. GDP Q1 revised to 1.6% from 2.0% advance \u2014 growth is slower than initially measured. The market absorbed the data constructively: PCE slightly below estimate + GDP revision = slightly lower inflation + slightly slower growth = the case for Warsh June 17 hold strengthens. fedTransitionRisk trimmed to 72. gdpGrowthEstimate updated to 1.6%."
+    },
+    {
+      "name": "S&P 500 Ninth Straight Winning Week, 7th Consecutive Record Close \u2014 Best Streak Since 2023",
+      "linked": "S&P 500, market structure, AI conviction, breadth",
+      "source": "TheStreet / CNBC",
+      "confidence": "High",
+      "score": 76,
+      "detail": "The S&P 500 closed its 7th consecutive record close and its 9th straight winning week \u2014 the longest both streaks since 2023. May 2026 closes at +8% (best month since November 2020). The market absorbed: 10Y hitting 4.63% (52-week high), Nvidia sell-the-news, Walmart guidance miss, Iran tit-for-tat strikes, and PCE 3.8% \u2014 and still posted record closes. The AI conviction floor has proven stronger than every macro headwind this cycle. capVsEqualWeightBp turned positive (+8bp) as the week ended with the cap-weighted S&P outperforming the equal-weight \u2014 the AI mega-cap trade reasserted on the Dell/Snowflake prints."
+    }
+  ],
+  "risks": [
+    {
+      "title": "Trump MOU rejection \u2014 'couple of days to think' introduces weekend uncertainty",
+      "level": "High",
+      "desc": "The most immediate risk: Trump has not yet approved the 60-day MOU. Iranian state media is already calling it 'incorrect.' Trump's history with Iran negotiations includes multiple sudden position changes. If Trump rejects or significantly modifies the MOU, WTI could spike back to $95-100+ on the Monday open. The market has priced an ~80% deal approval probability \u2014 a rejection would be a 3-5% gap down."
+    },
+    {
+      "title": "Real income -1.1% YoY \u2014 lower-income consumer stress is structural and worsening",
+      "level": "High",
+      "desc": "Real personal income declined 1.1% YoY in April while real PCE rose 2.1% \u2014 the K-shaped stress is deepening. Consumers are drawing down savings and credit to maintain spending. American Eagle -11% on comp sales -2% is the retail confirmation. This dynamic \u2014 spending above income \u2014 is not sustainable beyond 2-3 quarters. If Warsh June 17 holds rates (as expected) and Iran energy costs don't resolve, the lower-income consumer enters a credit stress cycle by Q3."
+    },
+    {
+      "title": "Barclays supply deficit \u2014 deal won't collapse oil quickly, stagflation trade has a longer tail",
+      "level": "Elevated",
+      "desc": "Even if Trump approves the MOU and Hormuz reopens, Barclays' 6-8mb/day inventory deficit means WTI falls gradually to $82-90 over 60-90 days, not immediately to $75-80. This delays the energy inflation relief that would most help Warsh's June 17 case for a cut. PCE may not fall below 3.0% until September-October even with an immediate Hormuz reopening. The stagflation trade (short TLT, long TIPS, long energy) has a longer duration than an immediate MOU approval suggests."
+    },
+    {
+      "title": "Dell/Snowflake multiple expansion \u2014 AI infrastructure multiples pricing perfection",
+      "level": "Elevated",
+      "desc": "Dell +67% in two days (Thursday AH + Friday) is extraordinary. Snowflake +37% puts the stock at approximately 25x forward revenue. The AI infrastructure trade is working \u2014 but the Palantir/Nvidia/QCOM templates all showed that high-multiple AI names sell off even on massive beats. Dell at 14x forward EPS post-blowout is less stretched than Nvidia at 35x, but any quarterly miss would produce a violent reversal from these levels. The second-best day in Dell's history is also the risk setup for the next 'sell the news' event."
+    },
+    {
+      "title": "SpaceX June 12 IPO \u2014 Blue Origin rocket explosion + Starship scrubs adding pre-IPO technical risk",
+      "level": "Medium",
+      "desc": "Blue Origin's New Glenn rocket exploded on its launch pad Thursday night \u2014 ASTS fell -14.5% (as much as -18% intraday), Deutsche Bank downgraded, Rocket Lab -6%, Planet Labs -5%, Intuitive Machines -5%. This is the sector sentiment headwind hitting the space trade 2 weeks before SpaceX's June 12 IPO. SpaceX's own Starship V3 had two consecutive scrubs last week. A negative space-sector narrative at IPO time could reduce oversubscription demand or price SpaceX below $1.75T. The commercial business (Falcon 9, Dragon) is independent of Blue Origin \u2014 but retail and institutional perception of 'space tech' is correlated. Note: the Blue Origin explosion also took out a payload that SpaceX had competed to launch \u2014 potentially a minor SpaceX revenue benefit."
+    }
+  ],
+  "timeline": [
+    {
+      "time": "Monday May 26",
+      "headline": "Markets reopen post-Memorial Day: Iran struck US targets over the weekend. Russell +1%, Nasdaq +1% despite escalation.",
+      "effect": "The market's resilience to Iran strikes is now structural \u2014 investors learned the ceasefire/escalation cycle and stopped panic-selling. The AI conviction floor absorbed the geopolitical news."
+    },
+    {
+      "time": "Tuesday-Wednesday May 27-28",
+      "headline": "Snowflake +37% (best day ever), Dell AH +38% on $43.84B revenue (+88%). AI enterprise trade ignites.",
+      "effect": "Two consecutive sessions of enterprise AI earnings blowouts confirmed the AI trade is broadening beyond hyperscalers. Dell's data center +181% and $9.7B Pentagon deal are the definitive AI enterprise confirmation."
+    },
+    {
+      "time": "Thursday May 28 AM",
+      "headline": "PCE April 3.8% (in-line), core monthly 0.2% (below 0.3% est). GDP Q1 revised to 1.6%. Iran tit-for-tat strikes.",
+      "effect": "The stagflation data was constructive at the margins \u2014 core PCE slightly below estimate, GDP slower than expected (deflationary). Market opened flat on the data, then rallied on Iran deal reports."
+    },
+    {
+      "time": "Thursday May 28 PM",
+      "headline": "Reports: US-Iran negotiators agreed 60-day ceasefire MOU. Trump briefed, wants 'couple days.' S&P, Nasdaq hit records.",
+      "effect": "S&P +0.58% to 7,563.63 record. Nasdaq +0.91% to 26,917.47 record. Snowflake and Dell extended gains. Oil fell on the MOU news. 6th consecutive record close."
+    },
+    {
+      "time": "Friday May 29 AM",
+      "headline": "Vance: 'Very close, not there yet.' White House: MOU agreed, awaits Trump. Iranian media: 'not finalized.'",
+      "effect": "Market opened cautiously positive. The conflicting signals (White House vs Iranian media) created volatility but the net read was constructive \u2014 both sides confirm negotiations are at an advanced stage."
+    },
+    {
+      "time": "Friday May 29 Midday",
+      "headline": "Dell +29% extended. Rubio-Pakistan FM meeting confirmed. WTI falls to $88-90. Dow pushes toward 51,000.",
+      "effect": "Dell extended its Thursday AH blowout to +29% on Friday \u2014 second-best day in history. Energy continued to sell off on MOU optimism. Dow built toward 51,000."
+    },
+    {
+      "time": "16:00",
+      "headline": "Dow closes 51,037 \u2014 first close above 51,000. S&P 7,580.08 \u2014 7th consecutive record. Nasdaq 26,972. May: +8%.",
+      "effect": "The week closes with the S&P's longest winning streak since 2023, its best month since November 2020, and the Dow crossing 51,000. The AI enterprise trade and Iran de-escalation trade converged on the same week to produce a historically significant month-end close."
+    }
+  ],
+  "watchpoints": [
+    {
+      "date": "Jun 2-3",
+      "event": "Trump MOU decision \u2014 will he approve the 60-day ceasefire extension? The most important binary of the summer.",
+      "significance": "High",
+      "tag": "Geopolitical"
+    },
+    {
+      "date": "Jun 5",
+      "event": "May Non-Farm Payrolls \u2014 Warsh's first jobs report as Fed Chair. Tight labour market + PCE 3.8% framing.",
+      "significance": "High",
+      "tag": "Macro"
+    },
+    {
+      "date": "Jun 12",
+      "event": "SpaceX IPO on Nasdaq \u2014 $1.75T valuation, S-1 filed. Largest IPO in history. Two weeks away.",
+      "significance": "High",
+      "tag": "Equities"
+    },
+    {
+      "date": "Jun 17",
+      "event": "First FOMC under Warsh \u2014 rate decision. PCE core 0.2% MoM (below est) + GDP 1.6% revision slightly improve the picture. fedTransitionRisk 72. Holds but tone is critical.",
+      "significance": "High",
+      "tag": "Rates"
+    },
+    {
+      "date": "Jun 2026",
+      "event": "OpenAI IPO filing 'in coming weeks' (Bloomberg). The defining AI capital markets event of 2026.",
+      "significance": "High",
+      "tag": "Equities"
+    },
+    {
+      "date": "Jun 2026",
+      "event": "Hormuz mine clearance timeline \u2014 even with MOU, physical reopening takes 2-4 weeks. Barclays supply deficit resolution 60-90 days.",
+      "significance": "High",
+      "tag": "Energy"
+    },
+    {
+      "date": "Aug 2026",
+      "event": "Nvidia Q2 FY2027 \u2014 the $91B guide materialises or not. Samsung strike still unresolved. China H20 delivery status.",
+      "significance": "High",
+      "tag": "AI"
+    },
+    {
+      "date": "Ongoing",
+      "event": "K-shaped consumer monitoring \u2014 real income -1.1% YoY. Walmart Q2 August. AEO comp sales -2%. Credit card data.",
+      "significance": "High",
+      "tag": "Macro"
+    }
+  ],
+  "strategies": [
+    {
+      "title": "Long Iran resolution trade \u2014 TLT, airlines (DAL/LUV), consumer (DIS, RCL) on MOU approval",
+      "confidence": "High",
+      "score": 88,
+      "body": "With WTI at $88-90 and the 60-day MOU tentatively agreed, the Iran resolution trade is entering its execution phase. TLT benefits from the energy inflation resolution \u2014 10Y could reach 4.0-4.2% if Hormuz reopens and June CPI falls toward 3.2%. Airlines (DAL, LUV, UAL) benefit directly from lower jet fuel costs \u2014 a $15/barrel WTI decline saves the industry approximately $8-10B annually. Consumer experience plays (DIS, RCL) benefit from lower petrol costs releasing disposable income. Note Barclays supply deficit: resolution is gradual (60-90 days), not immediate.",
+      "trigger": "Trump formally approves MOU AND WTI closes below $85"
+    },
+    {
+      "title": "Long AI enterprise infrastructure broadening \u2014 DELL, SNOW, DDOG, CDNS, AMAT",
+      "confidence": "High",
+      "score": 90,
+      "body": "Dell's +181% data center growth and Snowflake's $6B AWS deal confirm the AI infrastructure trade has moved beyond the hyperscaler layer into enterprise, government, and mid-market. AICS aiRevCapexRatio now 1.05 \u2014 revenues are growing faster than capex across the full ecosystem. The picks-and-shovels trade: DELL (servers/data center), SNOW (AI data platform), DDOG (AI monitoring), CDNS (AI chip design EDA), AMAT (semiconductor equipment). All at lower multiples than Nvidia but with the same AI infrastructure demand tailwind.",
+      "trigger": "Enterprise AI capex spending >$200B annualised AND 2+ consecutive quarters of AICS >1.0"
+    },
+    {
+      "title": "SpaceX June 12 IPO \u2014 largest IPO in history, 2 weeks away",
+      "confidence": "Medium",
+      "score": 74,
+      "body": "SpaceX $1.75T valuation, S-1 filed, June 12 confirmed. The Cerebras precedent (20x oversubscribed, +68% first day) + institutional AI hardware appetite + SpaceX's unique AI+space+defence narrative = likely massive oversubscription. Risk: Starship V3 scrubs, Blue Origin explosion (sector sentiment), Trump MOU rejection (macro risk-off). Strategy: seek IPO allocation; if unavailable, buy in first 30 minutes of trading if stock opens within 15% of IPO price.",
+      "trigger": "SpaceX IPO oversubscription >10x confirmed by underwriters AND no major launch anomaly before June 12"
+    },
+    {
+      "title": "Long DELL \u2014 second-best day in history on structural AI infrastructure conviction",
+      "confidence": "High",
+      "score": 84,
+      "body": "Dell's $43.84B Q1 (+88%), data center +181%, $9.7B Pentagon deal, and full-year EPS guide of $17.90 vs $13.09 estimate is the strongest non-Nvidia AI infrastructure print of the cycle. At approximately 14x forward EPS post-blowout, Dell is the cheapest AI infrastructure play in the S&P 500. The enterprise/government AI spend cycle is just beginning \u2014 Dell's direct-sales model means every large enterprise AI deployment flows through Dell's infrastructure. The guide raise of +37% EPS is not conservative.",
+      "trigger": "Dell Q2 data center revenue maintained above $25B AND Pentagon deal implementation begins"
+    }
+  ],
+  "sources": [
+    {
+      "name": "TheStreet (May 29 live blog)",
+      "type": "Confirmed closes: Dow +0.72% above 51,000 first time, S&P +0.22% to 7,580.08 (7th record, 9th winning week), Nasdaq +0.26% to 26,972, Russell -0.60% to 2,919. Vance 'very close, not there yet.' White House: MOU agreed, awaits Trump.",
+      "note": "Primary source for all May 29 confirmed closes and narrative",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-29-2026"
+    },
+    {
+      "name": "TheStreet (May 28 live blog)",
+      "type": "PCE April 3.8% YoY / monthly +0.4%. Dell AH +38%: $43.84B rev, data center +181%, EPS $4.86, $9.7B Pentagon deal. Snowflake +37% best day ever. Iran tit-for-tat strikes. S&P 7,563.63 record, Nasdaq 26,917.47 record.",
+      "note": "Thursday prior session \u2014 all confirmed closes and earnings detail",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-may-28-2026"
+    },
+    {
+      "name": "CNBC (May 28 live blog)",
+      "type": "S&P 7,563.63 (+0.58%), Nasdaq 26,917.47 (+0.91%), Dow 50,668.97. WTI $88.90, Brent $96.29. 60-day ceasefire MOU reports. Dell and Snowflake confirmed.",
+      "note": "CNBC confirmed closes Thursday and MOU context",
+      "url": "https://www.cnbc.com/2026/05/27/stock-market-today-live-updates.html"
+    },
+    {
+      "name": "CNBC (May 29 market news)",
+      "type": "Dell +29% extending AH gains. AEO -11% on comp sales -2%. Nextpower +13% battery storage acquisition. S&P 7th winning day.",
+      "note": "Friday individual stock moves and sector colour",
+      "url": "https://www.cnbc.com/2026/05/28/stock-market-today-live-updates.html"
+    },
+    {
+      "name": "Stocktwits / Benzinga",
+      "type": "Trump 'couple of days to think' on Iran MOU. PCE 3.8% in-line. GDP Q1 revised to 1.6%. ASTS +13% then -7% AH.",
+      "note": "Trump MOU delay detail and GDP revision confirmed",
+      "url": "https://stocktwits.com/news-articles/markets/equity/sp500-nasdaq-futures-pull-back-after-trump-wants-couple-days-to-think-about-iran-ceasefire-deal/cZgS7tGRet0"
+    },
+    {
+      "name": "Fox Business",
+      "type": "PCE April: 3.8% YoY (in-line with 3.8% est). Monthly +0.4% (below +0.5% est). 'Slightly cooler than expected monthly figures.' Real personal income -1.1% YoY.",
+      "note": "PCE detail and real income data confirmed",
+      "url": "https://www.foxbusiness.com/economy/april-2026-pce-inflation"
+    },
+    {
+      "name": "Schwab Market Update (May 28)",
+      "type": "PCE 0.4% headline, 0.2% core (below 0.3% est). GDP revised. Iran strikes. Stock flat before rallying on deal reports.",
+      "note": "Thursday morning context and PCE/GDP reading",
+      "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+    },
+    {
+      "name": "EconCurrents Substack",
+      "type": "Dell $43.84B revenue (+88%), data center +181%, full-year guide $17.90 EPS. Snowflake $5.84B FY guidance. Real income -1.1% YoY. WTI $90-91, Brent $94. 30Y above 5%.",
+      "note": "Comprehensive Thursday earnings detail and macro data",
+      "url": "https://econcurrents.substack.com/p/28-may-2026-market-close-and-major"
+    },
+    {
+      "name": "Federal Reserve H.15",
+      "type": "May 28 official: 1M 3.72%, 3M 3.69%, 6M 3.79%, 1Y 3.80%, 2Y 3.99%, 5Y 4.15%, 10Y 4.45%, 30Y 4.98%. Used as prior for May 29 estimate. May 29 H.15 pending 4:15pm ET.",
+      "note": "H.15 May 28 official extracted directly from Fed website \u2014 confirmed rightmost column",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    }
+  ]
+}
