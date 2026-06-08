@@ -1,0 +1,335 @@
+{
+  "snapshotDate": "2026-06-05",
+  "lastUpdated": "June 5, 2026 — post-market",
+  "disclaimer": "End-of-day snapshot compiled from public sources for informational purposes only — not validated for trading or investment decisions. Yield curve: H.15 June 4 official confirmed as prior (10Y 4.47%, 30Y 4.97%); June 5 H.15 pending 4:15pm ET. 10Y confirmed above 4.53% intraday per CNBC; rate hike probability jumped to 72.7% per CME FedWatch.",
+
+  "marketPulse": "NFP Shock: 172K Jobs vs 80K Expected Ignites Rate Hike Repricing. Nasdaq -4.18%, S&P -2.64%. Broadcom Chip Weakness + Bitcoin Below $60K. Consumer Staples Lone Refuge. SpaceX S&P 500 Exclusion Confirmed.",
+  "marketPulseSubtext": "S&P 500 -2.64% to 7,383.74, Nasdaq -4.18% to 25,709.43, Dow -1.35% to 50,866.78. May NFP: 172,000 jobs (vs 80,000 consensus) — more than double expectations. Unemployment rate held at 4.3%. CME FedWatch: rate hike probability by year-end jumped from 50.5% to 72.7% in a single session. 10Y yield surged above 4.53%. Broadcom's weak AI chip outlook (reported Thursday) hit semi stocks hard — AMD -12.6% over two sessions, Micron -17%, Intel -9%, Nvidia -6.2% on day. Bitcoin fell below $60,000 for first time since October 2024. Consumer Staples +2% (Procter & Gamble +5%, Clorox +5%) and Healthcare +1.7% were the only green sectors. Lululemon -13% after guidance cut. S&P Dow Jones kept 12-month IPO seasoning rule — SpaceX won't enter S&P 500 for at least a year after its June 12 IPO.",
+
+  "topDriver": "May NFP +172K vs +80K expected — more than double consensus — forces full rate hike re-pricing in a single session. Hike probability 72.7% by year-end. 10Y above 4.53%. Worst Nasdaq session in weeks.",
+
+  "narrativeSummary": "June 5 delivered the most significant single macro shock since the Iran-driven inflation prints in May. May Non-Farm Payrolls came in at 172,000 — more than double the 80,000 economist consensus — demolishing any remaining hope of a 2026 rate cut and pushing rate hike probability to 72.7% by year-end from 50.5% just one day prior. The unemployment rate held steady at 4.3%, but the payroll surge was the signal markets couldn't absorb: with CPI already at 3.8%, core PCE sticky, and now labour demand running at 2x consensus, Kevin Warsh faces an extraordinarily difficult first FOMC meeting on June 17. Economists at Bank of America flagged that the outsized gain was concentrated in Leisure & Hospitality (+70,000) and local government security/infrastructure (+50,000), consistent with early World Cup hiring ahead of the tournament starting June 11 — a potentially transient distortion. But the market didn't wait for that interpretation. The Nasdaq fell 4.18% — its worst session in weeks — as high-multiple AI names were crushed by the discount rate shock. Nvidia fell 6.2% on the day (Broadcom's weak AI chip outlook from Thursday was still reverberating), AMD fell further after already losing 12.6% over two sessions post-Broadcom, Micron was down 17% over two sessions, Intel -9%. Broadcom itself fell 1% more after its 12.5% Thursday plunge on the AI chip guidance miss. Alphabet was on pace for its fourth straight weekly loss, facing an $85 billion capital raise that surprised the market from a company that has never needed external capital. Bitcoin crashed below $60,000 for the first time since October 2024 — a 17% weekly loss — as the crypto market priced the hawkish rates shift and Strategy (MicroStrategy's rebranded entity) headed for a 25% weekly loss. The flight to safety was clear: Consumer Staples +2% (best sector, with Procter & Gamble +5%, Clorox +5%), Healthcare +1.7% (XLV heading for a 3% weekly gain). In an irony of timing, S&P Dow Jones Indices ruled Thursday that it would maintain the 12-month IPO seasoning requirement — meaning SpaceX, whose June 12 IPO priced at $1.77T, will not be eligible for S&P 500 inclusion for at least a year. Trump meanwhile softened his Iran rhetoric, saying he would be 'honored' to meet Khamenei 'if it was to make a deal.'",
+
+  "macroStressIndex": 82,
+  "macroStressIndexPrior": 58,
+  "macroStressLabel": "High",
+  "macroStressSubtext": "NFP 172K (2x consensus) → rate hike prob 72.7% → 10Y above 4.53% → Nasdaq -4.18% → Bitcoin below $60K. MSI jumps 24pts from Elevated to High in one session.",
+
+  "rateCurve": [
+    {"tenor":"1M",  "current":3.71, "prior":3.71},
+    {"tenor":"3M",  "current":3.79, "prior":3.78},
+    {"tenor":"6M",  "current":3.79, "prior":3.78},
+    {"tenor":"1Y",  "current":3.84, "prior":3.82},
+    {"tenor":"2Y",  "current":4.18, "prior":4.05},
+    {"tenor":"5Y",  "current":4.32, "prior":4.18},
+    {"tenor":"10Y", "current":4.56, "prior":4.47},
+    {"tenor":"30Y", "current":5.04, "prior":4.97}
+  ],
+  "rateCurveRead": "The May NFP print detonated the yield curve. The 10Y surged above 4.53% intraday — confirmed by CNBC — from June 4's official 4.47%, a +9bp move in a single session. The 2Y jumped approximately 13bps to 4.18%, the largest single-day 2Y move since the cycle began, as markets priced a rate hike with near-certainty by year-end (CME FedWatch: 72.7% hike probability, up from 50.5%). The 30Y crossed back above 5.00% to approximately 5.04%. The 5Y rose 14bps to approximately 4.32% — the mid-curve is screaming that the Fed has no room to cut or hold neutrally. The 2/10 spread at approximately +38bps is unusually narrow — the curve is bear-flattening as near-term hike expectations drive the short end faster than the long end. Bank of America flagged that the NFP surge may be World Cup-driven (Leisure & Hospitality +70K, local government security/infrastructure +50K for June 11 tournament), which would make it partially transient. But Warsh June 17 will face this data regardless of the interpretation. H.15 June 4 official: 10Y 4.47%, 30Y 4.97%. June 5 H.15 pending 4:15pm ET. Source: CNBC confirmed 10Y above 4.53%.",
+
+  "scenarios": [
+    {
+      "label": "Bear",
+      "title": "Warsh hikes June 17, tech multiple collapses, Iran deal stalls, Bitcoin contagion",
+      "probability": 30,
+      "outcome": "Warsh reads the 172K NFP + 3.8% CPI as requiring immediate action and hikes 25bps at June 17. This would be the first hike since 2023. High-multiple AI names reprice violently — Nvidia could fall 20%+ on a hike. Bitcoin extends below $50K. Iran deal stalls as the US focuses on domestic inflation. S&P falls to 6,900-7,100. 30Y hits 5.40%.",
+      "trigger": "Warsh hikes June 17 AND June CPI >3.9% AND Iran deal not signed before June 17"
+    },
+    {
+      "label": "Base",
+      "title": "Warsh holds June 17 but signals hike optionality — market digests NFP as World Cup distortion",
+      "probability": 50,
+      "outcome": "Bank of America's World Cup hiring explanation gains traction over the weekend. Warsh holds June 17, removes easing bias, explicitly signals a hike is 'on the table' but not imminent. June NFP (July 3) will determine whether May was a distortion. S&P stabilises 7,200-7,500. Nasdaq recovers partially as AI earnings (Dell, Snowflake) re-anchor the trade. SpaceX June 12 IPO provides a positive narrative. Iran deal slowly progresses.",
+      "trigger": "Warsh holds June 17 with explicit hike optionality AND June NFP <100K confirming World Cup distortion"
+    },
+    {
+      "label": "Bull",
+      "title": "World Cup distortion confirmed, Iran deal signed, Warsh signals neutral hold",
+      "probability": 20,
+      "outcome": "June NFP (July 3) comes in at 60-80K confirming World Cup one-time distortion. Iran deal signed before June 17 — energy deflation begins. Warsh June 17 holds with neutral (not hawkish) language. Bitcoin recovers above $70K. S&P back to 7,600+. AI trade resumes with Dell/Snowflake fundamentals as the anchor.",
+      "trigger": "June NFP <80K AND Iran deal signed AND Warsh June 17 explicitly neutral"
+    }
+  ],
+
+  "flows": [
+    {
+      "asset": "Consumer Staples — XLP, PG, CLX, WMT, KO",
+      "direction": "Inflow",
+      "size": "+$2.8B",
+      "note": "XLP +2% the best S&P sector. Flight to safety from NFP shock. PG +5%, Clorox +5%, Coca-Cola +3%. Staples have been the year's second-worst sector — this is a genuine defensive rotation, not sector momentum. Walmart +2% also bid.",
+      "significance": "High"
+    },
+    {
+      "asset": "Healthcare — XLV, COO, PODD, UHS",
+      "direction": "Inflow",
+      "size": "+$1.6B",
+      "note": "XLV +1.7%, on pace for +3% weekly gain. Cooper Companies +8% on Q2 earnings beat. Insulet +5%, Eli Lilly +3%. Healthcare the second safe haven alongside staples on the NFP rate shock day.",
+      "significance": "High"
+    },
+    {
+      "asset": "Short-duration Treasuries — SHY, BIL",
+      "direction": "Inflow",
+      "size": "+$3.4B",
+      "note": "Largest single-day short-duration inflow of the cycle. 2Y yield surged 13bps to 4.18% — cash parking at 5.2%+ yield with hike probability now 72.7%. Institutional positioning shifted from 'hold vs cut' to 'hold vs hike' in a single session.",
+      "significance": "High"
+    },
+    {
+      "asset": "Semiconductors — NVDA, AMD, MU, INTC, AVGO",
+      "direction": "Outflow",
+      "size": "-$4.8B",
+      "note": "The largest single-day semi outflow of 2026. Nvidia -6.2%, AMD -3% (on top of prior two-day -12.6%), Micron compounding -17% over two sessions, Intel -2.5%. Broadcom's weak AI chip outlook from Thursday triggered the initial move; the NFP rate shock amplified it. High-multiple AI names crushed by the discount rate impact.",
+      "significance": "High"
+    },
+    {
+      "asset": "Technology — XLK, QQQ",
+      "direction": "Outflow",
+      "size": "-$3.2B",
+      "note": "Nasdaq -4.18% — worst session in weeks. XLK the worst major sector alongside semis. The NFP-driven rate shock is uniquely painful for high-multiple growth names. Alphabet heading for 4-week losing streak while raising $85B in external capital.",
+      "significance": "High"
+    },
+    {
+      "asset": "Long-duration Bonds — TLT",
+      "direction": "Outflow",
+      "size": "-$2.1B",
+      "note": "30Y back above 5.00%. TLT sold off hard on the NFP print. The rate hike premium is now structural in the long end — Warsh June 17 faces a hike-or-hold binary that TLT cannot survive on the hike scenario.",
+      "significance": "High"
+    },
+    {
+      "asset": "Bitcoin / Crypto — BTC, Coinbase, Strategy",
+      "direction": "Outflow",
+      "size": "-$2.4B",
+      "note": "Bitcoin below $60,000 for first time since October 2024, down 17% on the week. Coinbase -8%, Strategy (MicroStrategy) -25% on the week. The rate hike repricing is the primary driver — higher discount rates compress speculative premiums. Strategy's large-scale Bitcoin strategy faces a credibility question if BTC continues lower.",
+      "significance": "High"
+    },
+    {
+      "asset": "IPO pipeline — Quantinuum, SpaceX",
+      "direction": "Outflow",
+      "size": "-$0.4B",
+      "note": "Quantinuum fell below its $60 IPO price after debuting flat Thursday. Quantum computing stocks (Rigetti -13%, D-Wave -12%) fell in sympathy. SpaceX IPO next Friday faces a tougher macro backdrop — NFP shock, semi selloff, and S&P Dow Jones keeping 12-month seasoning rule (SpaceX won't enter S&P 500 for a year).",
+      "significance": "Medium"
+    }
+  ],
+  "flowsRead": "June 5 flows are a textbook NFP-shock rotation: everything rate-sensitive and high-multiple sold (semis -$4.8B, tech -$3.2B, long bonds -$2.1B, crypto -$2.4B), everything defensive and short-duration bought (staples +$2.8B, healthcare +$1.6B, short Treasuries +$3.4B). The $4.8B semi outflow is the largest of the cycle — it combines Broadcom's AI chip warning from Thursday with the NFP discount-rate shock on Friday. The crypto outflow (-$2.4B) is notable because Bitcoin breaking $60,000 is a psychological threshold that typically triggers additional retail selling. The short-Treasury inflow (+$3.4B) is structurally significant: it represents institutional acceptance that the next Fed move is a hike, not a cut — a complete reversal of the 2026 consensus from just two months ago.",
+
+  "indicators": {
+    "brentWTISpread": 5.50,
+    "hormuzclosurePct": 30,
+    "tankerRatePremium": 95,
+    "futuresBackwardationBp": 470,
+    "cloudGrowthRate": 72,
+    "aiRevCapexRatio": 1.05,
+    "earningsRevisionTrend": 79,
+    "corePCETrend": 3.2,
+    "gdpGrowthEstimate": 1.6,
+    "realWageYoY": -1.4,
+    "creditTighteningScore": 64,
+    "advDecRatio": 0.72,
+    "newHiLoRatio": 1.4,
+    "capVsEqualWeightBp": 22,
+    "pctAbove50dMA": 54,
+    "opecCohesionScore": 58,
+    "fedTransitionRisk": 88,
+    "enterpriseSoftwareAIRevGrowth": 28.4
+  },
+
+  "topThemes": [
+    {
+      "direction": "Shock",
+      "theme": "NFP May +172K vs +80K — rate hike probability 72.7%. Worst single macro shock since Iran CPI prints.",
+      "impact": "More than double consensus. Unemployment held at 4.3%. Leisure & Hospitality +70K and local government security/infrastructure +50K — Bank of America flagged potential World Cup hiring distortion. But market didn't wait: CME FedWatch hike probability surged from 50.5% to 72.7%, 2Y rose 13bps to 4.18%, Nasdaq fell 4.18%. Warsh June 17 is now a hike-or-hold binary. fedTransitionRisk raised to 88 — the highest reading of the series.",
+      "strength": 96,
+      "tags": ["NFP","Jobs","Payrolls","Rate hike","Warsh","June 17","CME FedWatch","World Cup"]
+    },
+    {
+      "direction": "Shock",
+      "theme": "Broadcom AI chip outlook miss + NFP rate shock = largest semi selloff of 2026. AMD -12.6%, Micron -17%, NVDA -6.2%.",
+      "impact": "Broadcom's weaker-than-expected AI chip outlook (reported Thursday) + Friday's NFP rate shock compounded. AMD -12.6% over two sessions. Micron -17% over two sessions. Intel -9% over two sessions. Nvidia -6.2% Friday. Broadcom itself down 1% more after Thursday's -12.5%. The AI hardware trade's first sustained multi-session decline. Separately, Alphabet headed for 4-week losing streak while raising $85B in fresh capital — a concerning signal.",
+      "strength": 88,
+      "tags": ["AVGO","AMD","MU","INTC","NVDA","Semis","AI chips","Broadcom","Rate shock"]
+    },
+    {
+      "direction": "Rotation",
+      "theme": "Flight to defensive quality — Consumer Staples +2% best sector, Healthcare +1.7% second. PG +5%, Clorox +5%.",
+      "impact": "Consumer Staples the best S&P 500 sector on the day — the clearest flight-to-safety signal of the cycle. Procter & Gamble +5%, Clorox +5%, Coca-Cola +3%, Walmart +2%. Healthcare second best — Cooper Companies +8% on earnings beat, Insulet +5%, Eli Lilly +3%, XLV heading for +3% weekly gain. Staples had been the year's second-worst sector — Friday's inflow is genuine defensive rotation, not sector momentum.",
+      "strength": 80,
+      "tags": ["XLP","XLV","PG","CLX","KO","WMT","Defensive","Flight to safety","Rotation"]
+    },
+    {
+      "direction": "Shock",
+      "theme": "Bitcoin below $60,000 — first time since October 2024. -17% on the week. Strategy -25% weekly.",
+      "impact": "Bitcoin's $60K psychological floor broken. Coinbase -8%, Strategy -25% on the week. The rate hike repricing is the primary driver — higher discount rates compress speculative premiums across all risk assets. Strategy's leveraged Bitcoin model faces questions if BTC extends lower. CME crypto derivatives showing elevated put-side demand.",
+      "strength": 76,
+      "tags": ["Bitcoin","BTC","Crypto","Coinbase","Strategy","$60K","Rate hike"]
+    },
+    {
+      "direction": "Data",
+      "theme": "S&P Dow Jones keeps 12-month IPO rule — SpaceX won't enter S&P 500 for a year after June 12 IPO.",
+      "impact": "S&P Dow Jones Indices ruled Thursday it would maintain the 12-month IPO seasoning requirement for S&P 500 inclusion. SpaceX's June 12 IPO at $1.77T means it cannot enter the S&P 500 until June 2027 at the earliest. This creates a structural divergence: passive S&P 500 funds won't hold SpaceX; only investors who actively buy will. Reduces forced-buying premium from passive index inclusion. SpaceX IPO still proceeding — but the S&P exclusion removes a major automatic demand source.",
+      "strength": 68,
+      "tags": ["SpaceX","S&P 500","IPO seasoning","Index inclusion","June 12","Passive funds"]
+    }
+  ],
+
+  "crossMarket": [
+    {"market":"S&P 500","risk":"High","move":"7,383.74","trend":"↓ -2.64% NFP shock selloff","heat":72,"driver":"The S&P's worst single-day decline since early May. NFP 172K (2x consensus) triggered immediate rate hike repricing. All 11 sectors fell except Consumer Staples and Healthcare. The S&P has now given back all of its post-May-29 gains, sitting below 7,400 for the first time in two weeks.","source":"CNBC"},
+    {"market":"Nasdaq Composite","risk":"High","move":"25,709.43","trend":"↓ -4.18% worst session in weeks","heat":82,"driver":"Nasdaq's worst session in weeks. High-multiple AI names crushed by the dual impact of Broadcom's AI chip warning and the NFP rate shock. Nvidia -6.2%, AMD further down, ARM -5% premarket, Broadcom -1% more. The tech premium built on 'cuts coming' narrative has been fully reversed.","source":"CNBC"},
+    {"market":"Dow Jones","risk":"Elevated","move":"50,866.78","trend":"↓ -695 pts -1.35%","heat":60,"driver":"Dow fell 695 points but held above 50,000 — the defensive components (healthcare, consumer staples) buffered the decline. The Dow's relative outperformance vs Nasdaq (-1.35% vs -4.18%) reflects the defensive rotation into the Dow's value-heavy composition.","source":"CNBC"},
+    {"market":"VIX","risk":"High","move":"~21-22","trend":"↑ spiking on rate shock","heat":74,"driver":"VIX spiked to approximately 21-22 on the NFP print — the highest since the early-May Iran escalation days. A VIX above 20 signals genuine market stress, not just caution. The rate hike probability shift from 50.5% to 72.7% is the primary VIX driver.","source":"Estimated from CNBC session narrative"},
+    {"market":"Nvidia (NVDA)","risk":"High","move":"-6.2%","trend":"↓ Broadcom contagion + rate shock","heat":78,"driver":"Nvidia's fourth significant down session since its May 20 AH blowout. Thursday's Broadcom AI chip guidance weakness reverberated, and the NFP rate shock compressed the AI multiple further. BofA's Vivek Arya maintained Buy at $350 PT (+60% upside from Thursday close), calling Nvidia 'king of diversity.' But the stock is -6.2% Friday regardless.","source":"CNBC / Bank of America"},
+    {"market":"Broadcom (AVGO)","risk":"High","move":"-1% (after -12.5% Thursday)","trend":"↓ AI chip outlook miss","heat":76,"driver":"Broadcom reported weaker-than-expected AI chip outlook Thursday, falling 12.5% in its worst session this year. Friday added -1% more. AMD, Micron, Intel all fell in sympathy over Thursday-Friday. The Broadcom AI chip miss is the most significant negative datapoint for the AI hardware trade since the cycle began.","source":"CNBC"},
+    {"market":"AMD","risk":"High","move":"-3% (after -9.6% Thursday) = -12.6% two-day","trend":"↓ Broadcom + rate shock compound","heat":72,"driver":"AMD's worst two-session decline since the May sell-the-news episodes. Broadcom's AI chip weakness directly implies AMD's data center AI GPU outlook may face similar headwinds. The rate shock amplified the multiple compression.","source":"CNBC"},
+    {"market":"Alphabet (GOOGL)","risk":"Elevated","move":"4-week losing streak","trend":"↓ $85B capital raise concerns","heat":65,"driver":"Alphabet on pace for 4-week losing streak while seeking $85B in fresh capital. 'I never thought Google would need to hit the public markets to raise money' — Dan Niles, Niles Investment Management. Alphabet briefly surpassed Nvidia by market cap a month ago. The $85B raise implies AI infrastructure costs are exceeding even Google's massive cash generation.","source":"CNBC / Dan Niles"},
+    {"market":"Bitcoin (BTC)","risk":"High","move":"~$60,450 (low $59,764)","trend":"↓ first sub-$60K since Oct 2024","heat":76,"driver":"Bitcoin broke the $60,000 psychological floor for first time since October 2024, falling as low as $59,764. Down 17% on the week. Rate hike repricing is the primary driver — higher discount rates compress all speculative premiums. Strategy (MicroStrategy) -25% on the week. Coinbase -8% Friday. Circle -8%.","source":"CNBC / Tanaya Macheel"},
+    {"market":"Lululemon (LULU)","risk":"Elevated","move":"-13%","trend":"↓ guidance cut + CEO transition","heat":66,"driver":"Lowered full-year EPS and revenue guidance. Q2 guidance below estimates. Interim CEO Meghan Frank blamed 'negative commentary in the brand' and product launches underperforming. BTIG downgraded to neutral. Incoming CEO Heidi O'Neill arrives September. Q2 sales set to decline for first time post-COVID.","source":"CNBC / BTIG"},
+    {"market":"Quantinuum (QTUM)","risk":"Elevated","move":"-8% (below $60 IPO price)","trend":"↓ IPO below offer price","heat":62,"driver":"Debuted on Nasdaq Thursday to a flat reception, then fell -8% Friday below its $60 IPO price. Rigetti Computing -13%, D-Wave Quantum -12% in sympathy. The quantum computing sector is getting caught in the broader tech selloff and rate shock repricing. A lukewarm IPO in the current environment is the Cerebras contrast.","source":"CNBC"},
+    {"market":"FedEx Freight (FDX spin-off)","risk":"Watch","move":"+8% on week","trend":"↑ spin-off outperforming","heat":55,"driver":"FedEx Freight Holding Company began trading June 1 and headed for a +6% weekly gain including +8% Friday. The LTL (less-than-truckload) spin-off is a value unlock story independent of the AI-semiconductor narrative.","source":"CNBC"},
+    {"market":"10Y Treasury","risk":"High","move":"~4.56% (above 4.53% intraday)","trend":"↑ +9bp NFP shock","heat":78,"driver":"10Y surged above 4.53% on the NFP print — confirmed by CNBC. The session confirmed: rate hike probability 72.7% by year-end. The 10Y is approaching its May 18 52-week high of 4.63%. If June CPI also beats, 5.00% 10Y becomes a real probability for the first time in the cycle.","source":"CNBC — '10Y yield jumped sharply above 4.53%'"},
+    {"market":"30Y Treasury","risk":"High","move":"~5.04%","trend":"↑ back above 5% on hike pricing","heat":76,"driver":"30Y crossed back above 5.00% as hike expectations fully repriced. The fiscal risk premium + inflation premium + hike premium are all simultaneously elevated. TLT experienced a significant selloff. The 30Y at 5.04% is 7bps from the May 18 extreme of 5.134%.","source":"H.15 June 4 prior 4.97% + NFP shock implied move"}
+  ],
+
+  "sectorHeat": [
+    {"sector":"Consumer Staples","heat":32,"trend":"↑ +2% only green major sector","driver":"Flight to safety. PG +5%, Clorox +5%, Coca-Cola +3%. Second-worst S&P sector YTD suddenly the best defensive harbour."},
+    {"sector":"Healthcare","heat":36,"trend":"↑ +1.7% defensive bid","driver":"Cooper Companies +8% earnings beat. Insulet +5%, Eli Lilly +3%. XLV on pace for +3% weekly gain. Second safe harbour alongside staples."},
+    {"sector":"Technology","heat":82,"trend":"↓ -4%+ Nasdaq worst session","driver":"NVDA -6.2%, Broadcom -1% (after -12.5%), AMD -3%, Arm -5% premarket. NFP rate shock and Broadcom AI miss combining."},
+    {"sector":"Semiconductors","heat":86,"trend":"↓ worst day of 2026","driver":"Largest semi outflow of the cycle. AMD -12.6% two-day, Micron -17% two-day, Intel -9% two-day, NVDA -6.2% today. $4.8B outflow."},
+    {"sector":"Crypto / Bitcoin","heat":78,"trend":"↓ BTC below $60K","driver":"First sub-$60K since Oct 2024. Strategy -25% weekly. Coinbase -8%. Rate hike premium compresses all speculative assets."},
+    {"sector":"Financials","heat":60,"trend":"↓ slight decline","driver":"Higher rates positive for NIM in theory — but hike risk creates uncertainty. KRE (regional banks) weaker on credit quality concerns."},
+    {"sector":"Energy","heat":58,"trend":"↓ slight","driver":"Iran ceasefire MOU awaiting Trump. WTI near $88-92. Limited moves on energy given the NFP/rate narrative dominating."},
+    {"sector":"AI Infrastructure","heat":74,"trend":"↓ Broadcom miss + rate shock","driver":"The first genuine multi-session AI infrastructure de-rating of the cycle. Broadcom AI chip outlook the catalyst. Rate hike repricing the amplifier."}
+  ],
+
+  "drivers": [
+    {
+      "name": "NFP May +172K vs +80K Expected — Rate Hike Probability Jumps to 72.7%. World Cup Distortion?",
+      "linked": "10Y, 2Y, Nasdaq, fedTransitionRisk, Warsh June 17",
+      "source": "Bureau of Labor Statistics, CME FedWatch, Bank of America, CNBC",
+      "confidence": "High",
+      "score": 96,
+      "detail": "May Non-Farm Payrolls: 172,000 (vs 80,000 consensus, nearly 2.2x expectations). Unemployment rate: 4.3% (in-line). CME FedWatch: rate hike probability by year-end jumped from 50.5% to 72.7% in a single session. 10Y surged above 4.53%. 2Y rose 13bps to approximately 4.18%. Bank of America economist Shruti Mishra flagged: 'The upside surprise was highly concentrated in two sectors. Leisure & hospitality added 70k (out of 92k private services gains), while non-education local government (security, infrastructure, etc) rose 50k. This is consistent with early World Cup hiring, which we had flagged as a risk.' The World Cup starts June 11 across 16 US cities. If June NFP (July 3) reverts to 70-90K, confirming the distortion, the market will have over-priced the hike. But Warsh June 17 will have only May's data to work with. fedTransitionRisk raised to 88 — the highest of the series."
+    },
+    {
+      "name": "Broadcom AI Chip Outlook Miss — AMD -12.6%, Micron -17%, Intel -9% Over Two Sessions. First Sustained AI Hardware De-Rating.",
+      "linked": "AVGO, AMD, MU, INTC, NVDA, SOX",
+      "source": "CNBC",
+      "confidence": "High",
+      "score": 86,
+      "detail": "Broadcom reported its earnings Thursday with a weaker-than-expected AI chip outlook, falling 12.5% — its worst session of 2026. The contagion over Thursday-Friday: AMD -12.6% over two sessions, Micron -17% over two sessions, Intel -9% over two sessions, Nvidia -6.2% on Friday alone, ARM -5% premarket. This is the AI hardware trade's first sustained multi-session decline since the cycle began. Bank of America's Vivek Arya maintained Buy on Nvidia at $350 PT (60% upside) citing Nvidia's diversification across hyperscalers, AI cloud, industrial, and enterprise. But the immediate market read on Broadcom is: if Broadcom's AI chip demand is softer than expected, the entire AI capex cycle may be plateauing at levels below what was priced in. The AICS aiRevCapexRatio at 1.05 is still positive — but the direction of the Broadcom signal is the concern."
+    },
+    {
+      "name": "Flight to Defensive Quality — Consumer Staples +2%, Healthcare +1.7%. Procter & Gamble +5%, Clorox +5%.",
+      "linked": "XLP, XLV, PG, CLX, KO, WMT, COO",
+      "source": "CNBC",
+      "confidence": "High",
+      "score": 78,
+      "detail": "Consumer Staples +2% the best S&P 500 sector — only sector in positive territory. Procter & Gamble +5%, Clorox +5%, Coca-Cola +3%, Walmart +2%. Healthcare +1.7% second best — XLV on pace for +3% weekly gain, Cooper Companies +8% on Q2 beat, Insulet +5%, Eli Lilly +3%. Staples had been the second-worst performing S&P sector in 2026 (after financials) — the rotation into it on a rate shock day is genuine defensive demand, not sector momentum. The same rotation that characterised the May 12 CPI shock is playing out: AI trade unwinds → defensives receive the flows."
+    },
+    {
+      "name": "Bitcoin Below $60,000 — First Since October 2024. Strategy -25% Weekly. Rate Hike Repricing Compresses All Speculative Assets.",
+      "linked": "BTC, Coinbase, Strategy, COIN",
+      "source": "CNBC",
+      "confidence": "High",
+      "score": 76,
+      "detail": "Bitcoin fell to $59,764 — the lowest since October 2024 — capping a 17% weekly loss. Coinbase -8% Friday, Circle -8%, Strategy (MicroStrategy) headed for a 25% weekly loss. Rate hike repricing is the primary driver: as the Fed's next move shifts from 'cut' to 'hold' to 'hike,' the speculative premium in risk assets compresses. Bitcoin's $60,000 psychological floor has historically been significant. If Strategy reports it was a net seller (not buyer) over this period, it removes one of crypto's most important structural demand sources. The CNBC report noted: 'If the company comes back as an aggressive buyer, it could help stabilize sentiment. If the report shows it sold or was inactive, it's likely to fuel concerns about one of crypto's most important sources of structural demand.'"
+    },
+    {
+      "name": "S&P 500 12-Month IPO Seasoning Maintained — SpaceX Won't Enter S&P 500 Until June 2027.",
+      "linked": "SpaceX IPO, S&P 500, passive funds, SPCX",
+      "source": "CNBC / S&P Dow Jones Indices",
+      "confidence": "High",
+      "score": 68,
+      "detail": "S&P Dow Jones Indices ruled Thursday it would maintain the 12-month seasoning requirement for S&P 500 inclusion — rejecting a proposed shortening to 6 months. SpaceX's June 12 IPO at $1.77T means it cannot enter the S&P 500 until June 2027 at the earliest. This removes the automatic passive-fund buying that S&P 500 inclusion triggers (which would have required passive funds managing ~$5T in S&P products to buy SpaceX proportional to its weight). SpaceX will still be included in Nasdaq-100 on an expedited basis — but the S&P exclusion removes a massive structural demand source. CNBC noted this 'could result in dramatic variations between the broad market index's returns versus those of other averages.'"
+    }
+  ],
+
+  "risks": [
+    {
+      "title": "Warsh June 17 hike — 72.7% year-end hike probability with NFP 172K and CPI 3.8%",
+      "level": "High",
+      "desc": "The single most consequential near-term risk. Warsh's inaugural FOMC meeting on June 17 now faces: NFP 172K (vs 80K consensus), CPI 3.8%, core PCE 3.2%, and a 2Y yield above 4.18%. If he hikes 25bps — the first hike since 2023 — the market impact would be severe: Nasdaq could fall 8-12% in a single session, high-multiple AI names would reprice violently, Bitcoin would extend below $50K, and mortgage rates would spike. The Bank of America World Cup distortion argument is the Fed's best counter-narrative — but Warsh would need to publicly acknowledge it at the press conference."
+    },
+    {
+      "title": "Broadcom AI chip demand signal — the first sustained AI hardware de-rating of the cycle",
+      "level": "High",
+      "desc": "Broadcom's weak AI chip outlook triggered the largest multi-session semi selloff of 2026. AMD -12.6%, Micron -17%, Intel -9% over two sessions. If Broadcom's signal is correct — that AI chip demand is plateauing at current levels — the entire AI infrastructure investment thesis needs revision. AICS aiRevCapexRatio at 1.05 is still positive, but the direction of the Broadcom data point is the concern. Nvidia's May 20 $91B Q2 guide becomes the decisive data point — if Nvidia's Q2 actual (reported August) comes in below $91B, the AI hardware supercycle has peaked."
+    },
+    {
+      "title": "Bitcoin below $60K and Strategy contagion — leverage unwind risk",
+      "level": "Elevated",
+      "desc": "Strategy (MicroStrategy) has built a leveraged Bitcoin position using convertible debt. A sustained BTC price below $60K tests the convertible debt holders' confidence in the strategy. If Strategy is forced to sell Bitcoin to service debt or meet margin requirements, it would create a disorderly forced-seller event in an already weakened crypto market. The $50K level would likely trigger forced selling across the leveraged crypto ecosystem."
+    },
+    {
+      "title": "Alphabet $85B capital raise — 'I never thought Google would need to raise money publicly'",
+      "level": "Elevated",
+      "desc": "Alphabet seeking $85 billion in fresh external capital — a first for the cash-generating search/cloud giant — signals that AI infrastructure costs have exceeded even Google's prodigious internal cash flow. If even the most profitable ad platform on earth needs external capital to fund AI, the question is: at what point does the AI capex cycle become unsustainable? Dan Niles at Niles Investment Management made the blunt observation. Alphabet on its 4-week losing streak while simultaneously raising capital is a concerning combination."
+    },
+    {
+      "title": "World Cup distortion risk — if June NFP reverts, June 17 Warsh decision will have been wrong",
+      "level": "Medium",
+      "desc": "Bank of America's argument that May's 172K was driven by World Cup hiring (Leisure & Hospitality +70K, local government security +50K for a tournament starting June 11) is economically credible. If correct, June NFP (July 3) will revert to 70-90K. If Warsh hikes at June 17 based on the distorted May number and June then confirms the distortion, the Fed will have made an unnecessary 25bp hike into a slowing economy with declining real wages — a significant policy error."
+    }
+  ],
+
+  "timeline": [
+    {"time":"08:30","headline":"NFP May: +172,000 (vs +80,000 consensus). Unemployment 4.3% (in-line).","effect":"Immediate and violent market reaction. 10Y surged above 4.53%. S&P futures went from +0.1% to -1.5% in minutes. CME FedWatch hike probability jumped from 50.5% to 72.7%. The single most market-moving macro datapoint since the Iran-driven CPI prints."},
+    {"time":"09:00","headline":"Bank of America: 'Upside surprise concentrated in Leisure & Hospitality and local government — consistent with World Cup hiring'","effect":"Provided a potential 'distortion' narrative that slightly buffered the selloff. But institutional traders largely ignored the caveat and sold first."},
+    {"time":"09:30","headline":"Market opens: Nasdaq -1.1%, S&P -0.6%, Dow near flat. Chip stocks extend Thursday's Broadcom-driven selloff.","effect":"Nvidia, AMD, Micron, Intel all gapped lower compounding Thursday's Broadcom-driven weakness. Consumer Staples and Healthcare gapped higher on defensive rotation."},
+    {"time":"11:00","headline":"Bitcoin falls below $60,000 — lowest since October 2024. Strategy headed for -25% weekly loss.","effect":"The $60K psychological floor breaking added to the risk-off mood. Coinbase, Circle, and crypto-adjacent names all declined sharply."},
+    {"time":"12:00","headline":"Nasdaq approaches -2%, then accelerates lower. VIX breaks above 21.","effect":"The rate shock and Broadcom AI miss combined into an accelerating decline. Consumer Staples continued to outperform as the only major sector in positive territory."},
+    {"time":"14:00","headline":"S&P Dow Jones Indices (Thursday ruling confirmed): 12-month IPO seasoning maintained — SpaceX won't enter S&P 500 for a year.","effect":"The market absorbed the news noting SpaceX's passive-fund demand source is removed. SpaceX IPO June 12 proceeds but without the S&P inclusion automatic-buying catalyst."},
+    {"time":"15:00","headline":"Iran: Trump says he would be 'honored' to meet Khamenei 'if it was to make a deal.' Tone softening.","effect":"Limited market impact on a rate-dominated session. Iran de-escalation narrative remains alive but overshadowed by NFP."},
+    {"time":"16:00","headline":"Nasdaq closes -4.18% at 25,709.43. S&P -2.64% at 7,383.74. Dow -695 pts at 50,866.78.","effect":"The week closes sharply lower. The S&P has given back all of its post-May-29 gains. The AI hardware trade is in its first sustained de-rating since the cycle began. Warsh June 17 is now the defining event of the summer."}
+  ],
+
+  "watchpoints": [
+    {"date":"Jun 11","event":"World Cup opens across 16 US cities — if May NFP was distorted by pre-tournament hiring, this is the reference point for the June jobs market","significance":"Medium","tag":"Macro"},
+    {"date":"Jun 12","event":"SpaceX IPO on Nasdaq at $1.77T — will NOT enter S&P 500 for a year per S&P Dow Jones Indices ruling. Largest IPO in history regardless.","significance":"High","tag":"Equities"},
+    {"date":"Jun 17","event":"First FOMC under Warsh — hold vs hike binary. NFP 172K + CPI 3.8% + hike prob 72.7%. The most consequential Fed meeting since 2023.","significance":"High","tag":"Rates"},
+    {"date":"Jun 11","event":"May CPI — released just before Warsh's FOMC meeting. If >3.9%, hike becomes near-certain. If <3.5% on energy relief, Warsh can hold.","significance":"High","tag":"Macro"},
+    {"date":"Jun 2026","event":"Strategy (MicroStrategy) Monday report — was it a buyer, seller, or inactive during Bitcoin's -17% week? Determines crypto market stability.","significance":"High","tag":"Crypto"},
+    {"date":"Jun 2026","event":"OpenAI IPO filing 'in coming weeks' (Bloomberg) — will the NFP/rate shock delay or derail the IPO plan?","significance":"High","tag":"Equities"},
+    {"date":"Jul 3","event":"June NFP — the definitive test of the World Cup distortion hypothesis. If <100K, May was noise. If >140K again, the hike was justified.","significance":"High","tag":"Macro"},
+    {"date":"Aug 2026","event":"Nvidia Q2 FY2027 actual vs $91B guide — the definitive AI hardware supercycle test. Broadcom's miss sets up concern.","significance":"High","tag":"AI"}
+  ],
+
+  "strategies": [
+    {
+      "title": "Long consumer staples / healthcare — the NFP shock rotation trade has legs",
+      "confidence": "High",
+      "score": 84,
+      "body": "Consumer Staples and Healthcare were the only green sectors in a -2.64% S&P session. With NFP confirming a tight labour market and rate hikes being priced, the defensive quality rotation is structural, not one-day. Staples were the year's second-worst sector before today — they are genuinely cheap relative to the broader market at current valuations. If Warsh hikes at June 17, staples and healthcare are the two sectors that benefit from being anti-correlated to tech multiple compression. P&G, Clorox, Coca-Cola, Eli Lilly, Cooper Companies all showed genuine institutional buying.",
+      "trigger": "Warsh June 17 hawkish hold or hike AND June CPI >3.5%"
+    },
+    {
+      "title": "Hold shorts on duration — 30Y above 5% confirms structural repricing",
+      "confidence": "High",
+      "score": 86,
+      "body": "The 30Y crossed back above 5% on the NFP print. The 2Y is at 4.18% — the curve is pricing a hike now, not just a hold. Short TLT is the cleanest expression of the current regime: NFP 172K + CPI 3.8% + 72.7% hike probability + Warsh hawkish history = the highest probability of a June 17 hike in the cycle. If Warsh hikes, TLT falls further. If he holds hawkishly, TLT holds near current levels. Only an Iran deal closing rapidly enough to deflate May/June energy prices gives TLT meaningful upside before June 17.",
+      "trigger": "June CPI >3.5% AND Warsh June 17 holds with explicit hike guidance"
+    },
+    {
+      "title": "Reduce Nvidia and broad semi exposure — Broadcom signal requires earnings confirmation",
+      "confidence": "High",
+      "score": 80,
+      "body": "Broadcom's AI chip outlook miss + NFP rate shock produced the largest semi outflow of 2026. Nvidia's $91B Q2 guide (August) is now in question — if Broadcom's demand signal is correct, the hyperscaler capex cycle is plateauing. The Palantir/QCOM/Nvidia sell-the-news templates all apply. At current levels post-blowout, Nvidia is still pricing accelerating AI demand. A 20-30% position reduction into the Warsh June 17 meeting and Broadcom's next quarterly update is prudent risk management.",
+      "trigger": "Broadcom Q3 AI chip guidance maintained below Q2 actuals AND Warsh June 17 hike"
+    },
+    {
+      "title": "Monitor Bitcoin $60K — Strategy Monday report is the near-term catalyst",
+      "confidence": "Medium",
+      "score": 62,
+      "body": "Bitcoin's $60K floor breaking is technically significant. The key near-term catalyst is Strategy's Monday report on whether it bought, sold, or was inactive this week. If Strategy was an aggressive buyer (its historical pattern during BTC declines), the floor holds and the $65-70K recovery trade re-opens. If Strategy sold or was inactive, forced-selling concern accelerates BTC below $55K. A Warsh hold at June 17 (not a hike) would also provide crypto relief — the rate hike pricing is the primary headwind.",
+      "trigger": "Strategy confirms aggressive buying in weekly report AND Warsh June 17 holds rates"
+    }
+  ],
+
+  "sources": [
+    {"name":"CNBC (June 5 live blog)","type":"Confirmed closes: S&P -2.64% to 7,383.74, Nasdaq -4.18% to 25,709.43, Dow -695 pts to 50,866.78. NFP 172K vs 80K. CME hike prob 72.7%. 10Y above 4.53%. Broadcom/semi detail. Bitcoin below $60K. Consumer Staples +2%. Healthcare +1.7%. Alphabet $85B raise. Lululemon -13%. Quantinuum IPO below price. SpaceX S&P 500 exclusion. Trump Iran meeting offer.","note":"Primary source for all confirmed closes, sector performance, and narrative detail","url":"https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html"},
+    {"name":"Bureau of Labor Statistics","type":"May 2026 Non-Farm Payrolls: +172,000 (vs +80,000 consensus). Unemployment rate: 4.3% (in-line). Leisure & Hospitality +70K, local government +50K.","note":"Primary macro data source","url":"https://www.bls.gov"},
+    {"name":"CME FedWatch Tool","type":"Rate hike probability by year-end: 72.7% (up from 50.5% prior day). Hold probability: 26.9% (down from 47.4%). Cut probability: 0.5%.","note":"Rate expectations shift confirmed via CNBC","url":"https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html"},
+    {"name":"Bank of America (Shruti Mishra)","type":"'Upside surprise consistent with early World Cup hiring. Leisure & hospitality +70k, non-education local government +50k.' World Cup 16 US cities, starts June 11.","note":"World Cup distortion hypothesis for May NFP","url":"https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html"},
+    {"name":"Federal Reserve H.15","type":"June 4 official: 1M 3.71%, 3M 3.78%, 6M 3.78%, 1Y 3.82%, 2Y 4.05%, 5Y 4.18%, 10Y 4.47%, 30Y 4.97%. June 5 H.15 pending 4:15pm ET. Used as prior.","note":"H.15 June 4 official confirmed from Fed website — rightmost column","url":"https://www.federalreserve.gov/releases/h15/"},
+    {"name":"S&P Dow Jones Indices","type":"Maintained 12-month IPO seasoning requirement for S&P 500. SpaceX (IPO June 12) won't be eligible until June 2027 minimum. Nasdaq-100 expedited inclusion available.","note":"S&P 500 index methodology ruling confirmed","url":"https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html"},
+    {"name":"Bank of America / Vivek Arya (re: Nvidia)","type":"BofA reiterated Buy on Nvidia, $350 PT (+60%). 'NVDA believes every new generation can increase addressable market materially.' Called Nvidia 'king of diversity.'","note":"Nvidia bull case maintained despite session selloff","url":"https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html"},
+    {"name":"Citi / Beata Manthey","type":"'Global equities near all-time highs with signs of growing exuberance. Valuations stretched. Pickup in IPOs highlights strong demand for risk. None of this, on its own, signals an imminent downturn.' Maintained constructive outlook.","note":"Contrarian voice maintaining constructive stance on NFP-shock day","url":"https://www.cnbc.com/2026/06/04/stock-market-today-live-updates.html"}
+  ]
+}
