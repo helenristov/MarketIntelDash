@@ -1,118 +1,142 @@
 {
   "snapshotDate": "2026-06-08",
-  "lastUpdated": "June 8, 2026 — post-market",
-  "disclaimer": "End-of-day snapshot compiled from public sources for informational purposes only — not validated for trading or investment decisions. All index closes confirmed directly from CNBC live quotes post-market. Yield curve: H.15 June 5 official confirmed as prior (10Y 4.55%, 30Y 5.01%); June 8 10Y 4.568% and 30Y 5.039% confirmed from CNBC US10Y/US30Y quotes.",
-
+  "lastUpdated": "June 8, 2026 \u2014 post-market (all closes verified: CNBC, Trading Economics)",
+  "disclaimer": "End-of-day snapshot compiled from multiple public sources \u2014 CNBC live quotes, Trading Economics, Federal Reserve H.15 \u2014 for informational purposes only \u2014 not validated for trading or investment decisions. Yields confirmed: 10Y 4.57% and 30Y 5.04% from Trading Economics (Jun/08); Brent $94.42 cross-verified CNBC + Trading Economics; Russell 2000 2,856.98 from Trading Economics. H.15 June 5 official used as prior yield.",
   "marketPulse": "Partial Rebound: Semis +7%, SOXX Best Day in Over a Year. Israel-Iran Strikes Rattle Session Then Trump Says 'Ceasefire!' Apple WWDC +2%. Corning Amazon Fiber Deal +9%. Nasdaq +0.86% But Dow -0.16%.",
-  "marketPulseSubtext": "S&P 500 +0.30% to 7,405.73, Nasdaq +0.86% to 25,929.66, Dow -0.16% to 50,786.01, VIX -12.04% to 18.92. Session opened under pressure as Israel struck military targets in Iran overnight and Iran fired missiles at Israel for the first time since the ceasefire — but Trump posted on Truth Social that Israel and Iran 'are looking to do an immediate CEASEFIRE!' and WTI reversed from $94+ to close ~$91.30. SOXX +7% (best day in over a year), Intel +12%, Micron +14%, Marvell +14% (entering S&P 500 June 22). Apple +2% at WWDC unveiling AI strategy updates. Corning +9% on Amazon multi-billion fiber optic deal. Cerebras +17% on 9-firm bullish initiation wave. Nvidia -0.39% (mild underperformer — SK Hynix memory partnership announced). Bitcoin +3.5% to $63,454. Strategy bought $101M in BTC. Warsh June 17 FOMC still the dominant near-term risk.",
-
-  "topDriver": "Trump's 'Israel and Iran looking for CEASEFIRE!' Truth Social post mid-session reversed the morning's geopolitical selloff — oil pulled back from $94+ intraday highs to ~$91. Semi stocks led the rebound (+7% SOXX) on mean-reversion from Friday's brutal -10% session.",
-
-  "narrativeSummary": "June 8 was a session that opened in crisis and closed in cautious optimism — the fourth time this pattern has played out since the Iran war began. Overnight, the Israeli Air Force struck military targets in western and central Iran, and Iran fired missiles at Israel for the first time since the original ceasefire agreement, threatening to unravel the fragile truce. Asian markets responded harshly: South Korea's Kospi fell 8%, Japan's Nikkei dropped 3.85%, SoftBank fell 7.5%. US futures opened lower. Then came the reversal. Trump posted on Truth Social that Israel and Iran 'are looking to do an immediate CEASEFIRE!' and that 'final negotiations' were proceeding with things set to 'move quickly.' WTI crude, which had spiked above $93-94 intraday, pulled back to close around $91.30 — still elevated but off the day's highs. Equity markets seized on the ceasefire signal and the session flipped. The dominant story became the reversal trade in semiconductors. SOXX rose nearly 7% — its best single day in over a year — as the names most brutally sold on Friday (Intel +12%, Micron +14%, Marvell +14%) snapped back sharply. CNBC noted the rebound was a textbook mean-reversion: the worst decile from Friday was up over 2.5% on Monday, with returns declining steadily across the performance spectrum. Citi's analysis was constructive: SOXX is still up 91% in 2026 despite Friday's rout, with semiconductor earnings per share expected to grow 12% in 2027. The AI infrastructure demand story received two fresh confirmations: Corning announced an Amazon fiber optic deal worth billions, popping 9%; Cerebras surged 17% on bullish initiations from nine Wall Street firms including Barclays, Citi, Morgan Stanley, Needham, and Wedbush. Apple +2% as WWDC kicked off with AI strategy updates to Siri and iOS. Marvell +14% (beyond intraday gains) on S&P 500 inclusion announcement for June 22. Critically, Nvidia was the session's notable underperformer at -0.39% — its modest gain compared to semis rebounding 12-14% suggests the market is differentiating within AI hardware. The 10Y yield edged higher to 4.568% from Friday's 4.55% official, and the 30Y to 5.039% from 5.01% — rates markets are not celebrating the ceasefire signal yet, as the NFP print remains the dominant macro data point ahead of Warsh's June 17 FOMC debut.",
-
+  "marketPulseSubtext": "S&P 500 +0.30% to 7,405.73, Nasdaq +0.86% to 25,929.66, Dow -0.16% to 50,786.01, Russell 2000 +0.83% to 2,856.98, VIX -12.04% to 18.92. Session opened under pressure as Israel struck military targets in Iran overnight and Iran fired missiles at Israel for the first time since the ceasefire \u2014 but Trump posted on Truth Social that Israel and Iran 'are looking to do an immediate CEASEFIRE!' and WTI reversed from $96+ to close $91.35. SOXX +7% (best day in over a year), Intel +12%, Micron +14%, Marvell +14% (entering S&P 500 June 22). Apple +2% at WWDC. Corning +9% on Amazon multi-billion fiber deal. Cerebras +17% on 9-firm initiation wave. Nvidia -0.39%. Bitcoin +3.5% to $63,454. Strategy bought $101M in BTC. Brent $94.42 (+1.21%), WTI $91.35 (+0.90%). 10Y 4.57%, 30Y 5.04%.",
+  "topDriver": "Trump's 'Israel and Iran looking for CEASEFIRE!' Truth Social post mid-session reversed the morning's geopolitical selloff \u2014 oil pulled back from $94+ intraday highs to ~$91. Semi stocks led the rebound (+7% SOXX) on mean-reversion from Friday's brutal -10% session.",
+  "narrativeSummary": "June 8 was a session that opened in crisis and closed in cautious optimism \u2014 the fourth time this pattern has played out since the Iran war began. Overnight, the Israeli Air Force struck military targets in western and central Iran, and Iran fired missiles at Israel for the first time since the original ceasefire agreement, threatening to unravel the fragile truce. Asian markets responded harshly: South Korea's Kospi fell 8%, Japan's Nikkei dropped 3.85%, SoftBank fell 7.5%. US futures opened lower. Then came the reversal. Trump posted on Truth Social that Israel and Iran 'are looking to do an immediate CEASEFIRE!' and that 'final negotiations' were proceeding with things set to 'move quickly.' WTI crude, which had spiked above $93-94 intraday, pulled back to close around $91.30 \u2014 still elevated but off the day's highs. Equity markets seized on the ceasefire signal and the session flipped. The dominant story became the reversal trade in semiconductors. SOXX rose nearly 7% \u2014 its best single day in over a year \u2014 as the names most brutally sold on Friday (Intel +12%, Micron +14%, Marvell +14%) snapped back sharply. CNBC noted the rebound was a textbook mean-reversion: the worst decile from Friday was up over 2.5% on Monday, with returns declining steadily across the performance spectrum. Citi's analysis was constructive: SOXX is still up 91% in 2026 despite Friday's rout, with semiconductor earnings per share expected to grow 12% in 2027. The AI infrastructure demand story received two fresh confirmations: Corning announced an Amazon fiber optic deal worth billions, popping 9%; Cerebras surged 17% on bullish initiations from nine Wall Street firms including Barclays, Citi, Morgan Stanley, Needham, and Wedbush. Apple +2% as WWDC kicked off with AI strategy updates to Siri and iOS. Marvell +14% (beyond intraday gains) on S&P 500 inclusion announcement for June 22. Critically, Nvidia was the session's notable underperformer at -0.39% \u2014 its modest gain compared to semis rebounding 12-14% suggests the market is differentiating within AI hardware. The 10Y yield edged higher to 4.568% from Friday's 4.55% official, and the 30Y to 5.039% from 5.01% \u2014 rates markets are not celebrating the ceasefire signal yet, as the NFP print remains the dominant macro data point ahead of Warsh's June 17 FOMC debut.",
   "macroStressIndex": 72,
   "macroStressIndexPrior": 82,
   "macroStressLabel": "High",
   "macroStressSubtext": "Israel-Iran strikes overnight reversed by Trump ceasefire post; semi rebound -12pt MSI from 82. But NFP 172K hike risk and 10Y 4.57% keep regime firmly High ahead of Warsh June 17.",
-
   "rateCurve": [
-    {"tenor":"1M",  "current":3.71, "prior":3.71},
-    {"tenor":"3M",  "current":3.78, "prior":3.78},
-    {"tenor":"6M",  "current":3.81, "prior":3.81},
-    {"tenor":"1Y",  "current":3.89, "prior":3.88},
-    {"tenor":"2Y",  "current":4.19, "prior":4.17},
-    {"tenor":"5Y",  "current":4.31, "prior":4.29},
-    {"tenor":"10Y", "current":4.57, "prior":4.55},
-    {"tenor":"30Y", "current":5.04, "prior":5.01}
+    {
+      "tenor": "1M",
+      "current": 3.68,
+      "prior": 3.71
+    },
+    {
+      "tenor": "3M",
+      "current": 3.72,
+      "prior": 3.78
+    },
+    {
+      "tenor": "6M",
+      "current": 3.81,
+      "prior": 3.81
+    },
+    {
+      "tenor": "1Y",
+      "current": 3.81,
+      "prior": 3.88
+    },
+    {
+      "tenor": "2Y",
+      "current": 4.17,
+      "prior": 4.17
+    },
+    {
+      "tenor": "5Y",
+      "current": 4.3,
+      "prior": 4.29
+    },
+    {
+      "tenor": "10Y",
+      "current": 4.57,
+      "prior": 4.55
+    },
+    {
+      "tenor": "30Y",
+      "current": 5.04,
+      "prior": 5.01
+    }
   ],
-  "rateCurveRead": "Yields rose modestly on June 8 despite the Trump ceasefire signal — the bond market is not yet pricing Iran resolution as a done deal. The 10Y edged to 4.568% (confirmed CNBC live quote) from the H.15 June 5 official of 4.55%, and the 30Y to 5.039% from 5.01%. The 2Y moved slightly higher to approximately 4.19%, reflecting the continued pricing of the NFP 172K print and the 72.7% year-end hike probability. The curve's lack of reaction to the Iran ceasefire signal is telling: the bond market learned from prior false dawns (three separate de-escalation trades since April that partially reversed) and is waiting for a formally signed agreement before adjusting the long-end inflation premium. Warsh June 17 remains the structural anchor — all eyes on May CPI (June 11) as the final inflation data point before his inaugural FOMC. Source: H.15 June 5 official (10Y 4.55%, 30Y 5.01%) as prior; CNBC live quotes confirmed 10Y 4.568%, 30Y 5.039% for June 8.",
-
+  "rateCurveRead": "Yields rose modestly on June 8 despite the Trump ceasefire signal \u2014 the bond market is not yet pricing Iran resolution as a done deal. The 10Y edged to 4.568% (confirmed CNBC live quote) from the H.15 June 5 official of 4.55%, and the 30Y to 5.039% from 5.01%. The 2Y moved slightly higher to approximately 4.19%, reflecting the continued pricing of the NFP 172K print and the 72.7% year-end hike probability. The curve's lack of reaction to the Iran ceasefire signal is telling: the bond market learned from prior false dawns (three separate de-escalation trades since April that partially reversed) and is waiting for a formally signed agreement before adjusting the long-end inflation premium. Warsh June 17 remains the structural anchor \u2014 all eyes on May CPI (June 11) as the final inflation data point before his inaugural FOMC. Source: H.15 June 5 official (10Y 4.55%, 30Y 5.01%) as prior; CNBC live quotes confirmed 10Y 4.568%, 30Y 5.039% for June 8.",
   "scenarios": [
     {
       "label": "Bear",
       "title": "Israel-Iran war resumes, Warsh hikes June 17, semi de-rating extends",
       "probability": 24,
-      "outcome": "Ceasefire collapses overnight — Israel and Iran resume full military operations. WTI back above $100. June CPI beats (released June 11) confirms inflation trajectory above 4%. Warsh hikes 25bps June 17 — first hike since 2023. Nasdaq falls 8-12% in a single session. SOXX loses Monday's recovery and more. S&P falls to 6,900-7,100.",
+      "outcome": "Ceasefire collapses overnight \u2014 Israel and Iran resume full military operations. WTI back above $100. June CPI beats (released June 11) confirms inflation trajectory above 4%. Warsh hikes 25bps June 17 \u2014 first hike since 2023. Nasdaq falls 8-12% in a single session. SOXX loses Monday's recovery and more. S&P falls to 6,900-7,100.",
       "trigger": "Formal ceasefire termination AND June CPI >3.9% AND Warsh hikes June 17"
     },
     {
       "label": "Base",
       "title": "Ceasefire holds, Warsh hawkish hold June 17, NFP distortion narrative gains traction",
       "probability": 54,
-      "outcome": "Trump's ceasefire post leads to a formal agreement within a week. WTI falls to $84-90. June CPI (June 11) prints 3.4-3.6% on energy deflation — below the 3.8% May print. Warsh June 17 holds, removes easing bias, signals hike is 'on the table' but not imminent pending June NFP (July 3). Nasdaq recovers to 26,500-27,000. SpaceX IPO Friday provides fresh AI sentiment. S&P 7,400-7,700.",
+      "outcome": "Trump's ceasefire post leads to a formal agreement within a week. WTI falls to $84-90. June CPI (June 11) prints 3.4-3.6% on energy deflation \u2014 below the 3.8% May print. Warsh June 17 holds, removes easing bias, signals hike is 'on the table' but not imminent pending June NFP (July 3). Nasdaq recovers to 26,500-27,000. SpaceX IPO Friday provides fresh AI sentiment. S&P 7,400-7,700.",
       "trigger": "Formal ceasefire AND June CPI <3.7% AND Warsh June 17 holds with hawkish-neutral tone"
     },
     {
       "label": "Bull",
       "title": "Iran deal signed before June 17, energy deflation, Warsh signals neutral",
       "probability": 22,
-      "outcome": "Iran deal signed within days. Hormuz formally reopens. June CPI falls to 3.2-3.4% on rapid energy relief. Warsh June 17 signals data-dependent neutral — no hike. SpaceX June 12 largest IPO in history. S&P 500 to 7,900+. NFP World Cup distortion confirmed by June payrolls. Real wages turn positive.",
+      "outcome": "Iran deal signed within days. Hormuz formally reopens. June CPI falls to 3.2-3.4% on rapid energy relief. Warsh June 17 signals data-dependent neutral \u2014 no hike. SpaceX June 12 largest IPO in history. S&P 500 to 7,900+. NFP World Cup distortion confirmed by June payrolls. Real wages turn positive.",
       "trigger": "Formal Hormuz reopening by June 12 AND June CPI <3.4% AND Warsh neutral June 17"
     }
   ],
-
   "flows": [
     {
-      "asset": "Semiconductors — SOXX, INTC, MU, MRVL",
+      "asset": "Semiconductors \u2014 SOXX, INTC, MU, MRVL",
       "direction": "Inflow",
       "size": "+$5.1B",
       "note": "SOXX +7% best day in over a year. Intel +12%, Micron +14%, Marvell +14%. Mean-reversion from Friday's brutal -10% SOXX session (worst since March 2020). Citi: 'We view the recent pullback as healthy.' $5.1B inflow reverses only a portion of Friday's $4.8B outflow.",
       "significance": "High"
     },
     {
-      "asset": "Technology — QQQ, XLK, CBRS, AAPL",
+      "asset": "Technology \u2014 QQQ, XLK, CBRS, AAPL",
       "direction": "Inflow",
       "size": "+$2.4B",
       "note": "Nasdaq +0.86% as AI names rebounded. Cerebras +17% on 9-firm bullish initiation. Apple +2% at WWDC AI reveal. Corning +9% on Amazon fiber deal. Tech led by AI infrastructure and picks-and-shovels names that were most oversold Friday.",
       "significance": "High"
     },
     {
-      "asset": "Energy — XLE, WTI futures",
+      "asset": "Energy \u2014 XLE, WTI futures",
       "direction": "Inflow then Partial Outflow",
       "size": "+$0.6B net",
       "note": "Oil spiked above $93-94 intraday on Israel-Iran overnight strikes then partially reversed on Trump ceasefire post. WTI closed ~$91.30. Net modest inflow as the Iran risk premium partially re-established above Friday's levels.",
       "significance": "High"
     },
     {
-      "asset": "Bitcoin / Crypto — BTC, COIN, Strategy",
+      "asset": "Bitcoin / Crypto \u2014 BTC, COIN, Strategy",
       "direction": "Inflow",
       "size": "+$1.8B",
       "note": "Bitcoin +3.5% to $63,454. Strategy announced $101M BTC purchase (reversal from last week's selling that triggered the selloff). Crypto stabilising after last week's -17% BTC decline. Strategy buying 1,550 BTC during its worst week since the FTX crash is a structural demand signal.",
       "significance": "High"
     },
     {
-      "asset": "Consumer Staples — XLP",
+      "asset": "Consumer Staples \u2014 XLP",
       "direction": "Outflow",
       "size": "-$0.9B",
       "note": "Friday's defensive safe-haven flows into staples partially reversed as semis and tech rebounded. PG, Clorox, Coca-Cola all gave back some of Friday's gains as risk appetite returned.",
       "significance": "Medium"
     },
     {
-      "asset": "Short-duration Treasuries — SHY, BIL",
+      "asset": "Short-duration Treasuries \u2014 SHY, BIL",
       "direction": "Flat",
       "size": "~$0",
-      "note": "2Y yield edged slightly higher to 4.19% — hike expectations stable at 72.7% probability. No major flow shift in short-duration despite the ceasefire signal. The bond market is waiting for June CPI (June 11) and Warsh June 17 before repositioning.",
+      "note": "2Y yield edged slightly higher to 4.19% \u2014 hike expectations stable at 72.7% probability. No major flow shift in short-duration despite the ceasefire signal. The bond market is waiting for June CPI (June 11) and Warsh June 17 before repositioning.",
       "significance": "Medium"
     },
     {
       "asset": "SpaceX IPO pre-positioning",
       "direction": "Inflow",
       "size": "+$0.7B",
-      "note": "SpaceX IPO Friday June 12 at $1.77T. S&P Dow Jones exclusion from S&P 500 for a year did not dampen demand — institutional pre-positioning continuing. Steve Eisman's skepticism (asteroid mining, capital intensity) is a minority view against the institutional bid.",
+      "note": "SpaceX IPO Friday June 12 at $1.77T. S&P Dow Jones exclusion from S&P 500 for a year did not dampen demand \u2014 institutional pre-positioning continuing. Steve Eisman's skepticism (asteroid mining, capital intensity) is a minority view against the institutional bid.",
       "significance": "Medium"
     },
     {
-      "asset": "Dow components — defensive laggards",
+      "asset": "Dow components \u2014 defensive laggards",
       "direction": "Outflow",
       "size": "-$0.5B",
-      "note": "Dow -0.16% underperformed. Value/defensive components sold as tech and semis rebounded. The defensive rotation from Friday partially reversed. The Dow's underperformance vs Nasdaq on Monday mirrors the Nasdaq's underperformance vs Dow on Friday — a clean risk-on/risk-off toggle.",
+      "note": "Dow -0.16% underperformed. Value/defensive components sold as tech and semis rebounded. The defensive rotation from Friday partially reversed. The Dow's underperformance vs Nasdaq on Monday mirrors the Nasdaq's underperformance vs Dow on Friday \u2014 a clean risk-on/risk-off toggle.",
       "significance": "Low"
     }
   ],
-  "flowsRead": "June 8 flows are the precise inverse of June 5: semis +$5.1B (vs -$4.8B Friday), tech +$2.4B (vs -$3.2B), crypto +$1.8B (vs -$2.4B), consumer staples -$0.9B (vs +$2.8B). The mean-reversion is technically clean. However, the magnitude is not a full reversal — SOXX +7% Monday does not undo -10% Friday. The net two-day position: semis still down ~3-4% on the Broadcom AI chip signal and NFP rate shock. The market is in 'rebound within a downtrend' territory for high-multiple AI hardware names. The crypto inflow is the most structurally significant signal: Strategy's $101M BTC purchase confirming they remained a buyer (not seller) during the worst week — this stabilises the forced-selling concern that was the key downside risk.",
-
+  "flowsRead": "June 8 flows are the precise inverse of June 5: semis +$5.1B (vs -$4.8B Friday), tech +$2.4B (vs -$3.2B), crypto +$1.8B (vs -$2.4B), consumer staples -$0.9B (vs +$2.8B). The mean-reversion is technically clean. However, the magnitude is not a full reversal \u2014 SOXX +7% Monday does not undo -10% Friday. The net two-day position: semis still down ~3-4% on the Broadcom AI chip signal and NFP rate shock. The market is in 'rebound within a downtrend' territory for high-multiple AI hardware names. The crypto inflow is the most structurally significant signal: Strategy's $101M BTC purchase confirming they remained a buyer (not seller) during the worst week \u2014 this stabilises the forced-selling concern that was the key downside risk.",
   "indicators": {
-    "brentWTISpread": 5.40,
+    "brentWTISpread": 3.07,
     "hormuzclosurePct": 28,
     "tankerRatePremium": 98,
     "futuresBackwardationBp": 510,
@@ -131,201 +155,520 @@
     "fedTransitionRisk": 88,
     "enterpriseSoftwareAIRevGrowth": 28.4
   },
-
   "topThemes": [
     {
       "direction": "Easing",
-      "theme": "Trump: 'Israel and Iran looking for CEASEFIRE!' — post mid-session reverses geopolitical selloff",
-      "impact": "Israel struck military targets in Iran overnight; Iran fired missiles at Israel for the first time since ceasefire began. Session opened down. Then Trump posted on Truth Social: 'Israel and Iran are looking to do an immediate CEASEFIRE!' with 'final negotiations' proceeding. WTI reversed from $94+ to close ~$91.30. Equity markets flipped from red to green. The diplomatic intervention pattern is now well-established — the market knows to buy the Trump ceasefire signal.",
+      "theme": "Trump: 'Israel and Iran looking for CEASEFIRE!' \u2014 post mid-session reverses geopolitical selloff",
+      "impact": "Israel struck military targets in Iran overnight; Iran fired missiles at Israel for the first time since ceasefire began. Session opened down. Then Trump posted on Truth Social: 'Israel and Iran are looking to do an immediate CEASEFIRE!' with 'final negotiations' proceeding. WTI reversed from $94+ to close ~$91.30. Equity markets flipped from red to green. The diplomatic intervention pattern is now well-established \u2014 the market knows to buy the Trump ceasefire signal.",
       "strength": 82,
-      "tags": ["Iran","Israel","Ceasefire","Trump","Truth Social","Oil","WTI","Reversal"]
+      "tags": [
+        "Iran",
+        "Israel",
+        "Ceasefire",
+        "Trump",
+        "Truth Social",
+        "Oil",
+        "WTI",
+        "Reversal"
+      ]
     },
     {
       "direction": "Leadership",
-      "theme": "SOXX +7% — best day in over a year. Mean-reversion from Friday's -10% worst day since March 2020.",
-      "impact": "iShares Semiconductor ETF rose nearly 7% — its best single day in over a year. Intel +12%, Micron +14%, Marvell +14%, Marvell Technology joining S&P 500 June 22. Astera Labs, Applied Optoelectronics, Coherent, Corning all sharply higher. Quantum stocks (IonQ, D-Wave, Rigetti) recovered after -10%+ Friday. CNBC: worst decile from Friday was up 2.5%+ Monday. Citi: 'We view the recent pullback as healthy — maintain AVGO, TXN, AMAT as top buys.'",
+      "theme": "SOXX +7% \u2014 best day in over a year. Mean-reversion from Friday's -10% worst day since March 2020.",
+      "impact": "iShares Semiconductor ETF rose nearly 7% \u2014 its best single day in over a year. Intel +12%, Micron +14%, Marvell +14%, Marvell Technology joining S&P 500 June 22. Astera Labs, Applied Optoelectronics, Coherent, Corning all sharply higher. Quantum stocks (IonQ, D-Wave, Rigetti) recovered after -10%+ Friday. CNBC: worst decile from Friday was up 2.5%+ Monday. Citi: 'We view the recent pullback as healthy \u2014 maintain AVGO, TXN, AMAT as top buys.'",
       "strength": 88,
-      "tags": ["SOXX","Intel","Micron","Marvell","MRVL","Semiconductors","Mean reversion","AI hardware"]
+      "tags": [
+        "SOXX",
+        "Intel",
+        "Micron",
+        "Marvell",
+        "MRVL",
+        "Semiconductors",
+        "Mean reversion",
+        "AI hardware"
+      ]
     },
     {
       "direction": "Leadership",
       "theme": "Corning Amazon fiber deal +9%. Cerebras +17% on 9-firm initiation wave. Apple WWDC +2%.",
-      "impact": "Three AI infrastructure confirmations in a single session: (1) Corning: Amazon paying billions for optical fiber to power US AI data centres — creating 1,000 jobs in NC. (2) Cerebras: nine Wall Street firms (Barclays, Citi, Mizuho, Morgan Stanley, Needham, Rosenblatt, TD Cowen, UBS, Wedbush) initiated with buy-equivalent ratings; stock +17%, up 27% since May 14 IPO at $185. (3) Apple +2% at WWDC detailing AI strategy, Siri updates, iOS AI features — the consumer AI device ecosystem.",
+      "impact": "Three AI infrastructure confirmations in a single session: (1) Corning: Amazon paying billions for optical fiber to power US AI data centres \u2014 creating 1,000 jobs in NC. (2) Cerebras: nine Wall Street firms (Barclays, Citi, Mizuho, Morgan Stanley, Needham, Rosenblatt, TD Cowen, UBS, Wedbush) initiated with buy-equivalent ratings; stock +17%, up 27% since May 14 IPO at $185. (3) Apple +2% at WWDC detailing AI strategy, Siri updates, iOS AI features \u2014 the consumer AI device ecosystem.",
       "strength": 82,
-      "tags": ["GLW","Corning","Amazon","CBRS","Cerebras","AAPL","WWDC","AI infrastructure","Fiber optic"]
+      "tags": [
+        "GLW",
+        "Corning",
+        "Amazon",
+        "CBRS",
+        "Cerebras",
+        "AAPL",
+        "WWDC",
+        "AI infrastructure",
+        "Fiber optic"
+      ]
     },
     {
       "direction": "Shock",
-      "theme": "Israel-Iran overnight strikes — ceasefire at risk. South Korea Kospi -8%. Nikkei -3.85%.",
-      "impact": "The session's opening catalyst: Israeli Air Force struck military targets in western and central Iran; Iran fired missiles at Israel — first time since the ceasefire. Asia: Kospi -8% (Samsung -5%, SK Hynix -2%), Nikkei -3.85%, SoftBank -7.5%. TSMC -2.1%, Foxconn -5.1%. European tech extended the sell-off. The geopolitical risk premium is not resolved — Trump's ceasefire post reversed the immediate reaction but the structural fragility of the Iran truce remains.",
+      "theme": "Israel-Iran overnight strikes \u2014 ceasefire at risk. South Korea Kospi -8%. Nikkei -3.85%.",
+      "impact": "The session's opening catalyst: Israeli Air Force struck military targets in western and central Iran; Iran fired missiles at Israel \u2014 first time since the ceasefire. Asia: Kospi -8% (Samsung -5%, SK Hynix -2%), Nikkei -3.85%, SoftBank -7.5%. TSMC -2.1%, Foxconn -5.1%. European tech extended the sell-off. The geopolitical risk premium is not resolved \u2014 Trump's ceasefire post reversed the immediate reaction but the structural fragility of the Iran truce remains.",
       "strength": 76,
-      "tags": ["Israel","Iran","Strikes","Ceasefire","Kospi","Nikkei","Geopolitical","Asia tech"]
+      "tags": [
+        "Israel",
+        "Iran",
+        "Strikes",
+        "Ceasefire",
+        "Kospi",
+        "Nikkei",
+        "Geopolitical",
+        "Asia tech"
+      ]
     },
     {
       "direction": "Data",
-      "theme": "Strategy buys $101M BTC — reverses the small sale that triggered last week's crypto crash",
-      "impact": "Strategy (Michael Saylor) reported it acquired 1,550 BTC for $101 million during its worst week since the FTX crash (-24.29% last week). This reverses the small sale of 32 BTC from May 26-31 that helped trigger Bitcoin's drop below $60K. The buy confirms Strategy remained a structural buyer during the dip — removing the forced-seller concern that was crypto's primary downside risk. Bitcoin +3.5% to $63,454 on the announcement.",
+      "theme": "Strategy buys $101M BTC \u2014 reverses the small sale that triggered last week's crypto crash",
+      "impact": "Strategy (Michael Saylor) reported it acquired 1,550 BTC for $101 million during its worst week since the FTX crash (-24.29% last week). This reverses the small sale of 32 BTC from May 26-31 that helped trigger Bitcoin's drop below $60K. The buy confirms Strategy remained a structural buyer during the dip \u2014 removing the forced-seller concern that was crypto's primary downside risk. Bitcoin +3.5% to $63,454 on the announcement.",
       "strength": 72,
-      "tags": ["Strategy","MicroStrategy","Bitcoin","BTC","Saylor","$101M","Crypto recovery"]
+      "tags": [
+        "Strategy",
+        "MicroStrategy",
+        "Bitcoin",
+        "BTC",
+        "Saylor",
+        "$101M",
+        "Crypto recovery"
+      ]
     }
   ],
-
   "crossMarket": [
-    {"market":"S&P 500","risk":"Elevated","move":"7,405.73","trend":"↑ +0.30% partial recovery","heat":60,"driver":"Partial recovery from Friday's -2.64% to 7,383.74. The session had the full arc: down on Israel-Iran strikes, then recovery on Trump ceasefire post. Nine S&P 500 stocks hit 52-week highs including Eli Lilly (all-time high back to 1952 IPO) and multiple REITs. Four hit new lows (Trade Desk, FIS, Jack Henry, Intuit).","source":"CNBC live quote — confirmed 7,405.73"},
-    {"market":"Nasdaq Composite","risk":"Elevated","move":"25,929.66","trend":"↑ +0.86% semi-led rebound","heat":58,"driver":"Nasdaq rebounded 0.86% led by SOXX +7% mean-reversion. Cerebras +17%, Apple +2% at WWDC, Corning +9% on Amazon fiber. The Nasdaq is still -1.4% from its 26,272 pre-NFP close but recovering. The CNBC live blog confirmed 25,929.66 exactly.","source":"CNBC live quote — confirmed 25,929.66"},
-    {"market":"Dow Jones","risk":"Watch","move":"50,786.01","trend":"↓ -0.16% defensive rotation reversed","heat":52,"driver":"Dow the only major index in red — the precise inverse of Friday when Dow was the only major in green. Defensive value components (staples, healthcare) gave back some of Friday's defensive flows. Confirmed -80.77 points to 50,786.01.","source":"CNBC live quote — confirmed 50,786.01"},
-    {"market":"VIX","risk":"Watch","move":"18.92","trend":"↓ -12.04% fear easing","heat":48,"driver":"VIX fell 12% to 18.92 — its sharpest single-day decline since the April ceasefire. The Trump ceasefire post and semi rebound removed the two primary sources of Friday's fear spike. Still above 18 — not back to pre-NFP levels of 16-17. Confirmed from CNBC quote.","source":"CNBC live quote — confirmed 18.92 (-12.04%)"},
-    {"market":"SOXX","risk":"Watch","move":"+7% best day in over a year","trend":"↑ mean-reversion from -10% Friday","heat":74,"driver":"The session's dominant equity move. SOXX +7% was its best day since before March 2025. Intel +12%, Micron +14%, Marvell +14%. CNBC: 'The iShares fund tumbled more than 10% on Friday — its biggest one-day rout since March 2020. Despite recent volatility, fund is still up 91% in 2026.' The two-day net: SOXX still down ~3-4%.","source":"CNBC"},
-    {"market":"Intel (INTC)","risk":"Watch","move":"+12%","trend":"↑ mean-reversion from double-digit Friday loss","heat":68,"driver":"Intel among the biggest rebounds after Friday's double-digit losses. The Apple-Intel chip supply discussion (Bloomberg May 14) remains the structural bull case. Semiconductor equipment cycle and foundry 2.0 thesis intact.","source":"CNBC"},
-    {"market":"Micron Technology (MU)","risk":"Watch","move":"+14%","trend":"↑ mean-reversion","heat":70,"driver":"Micron one of the biggest rebounds after -17% two-session decline. HBM sold out through 2026. AI memory demand structural. The Broadcom AI chip signal raised questions about the broader cycle but Micron's HBM position is insulated from ASIC chip demand.","source":"CNBC"},
-    {"market":"Marvell Technology (MRVL)","risk":"Watch","move":"+14% (S&P 500 inclusion June 22)","trend":"↑ index inclusion + mean-reversion","heat":72,"driver":"Marvell Technology announced to join S&P 500 on June 22, replacing Campbell's. Up 210% YTD. The S&P inclusion triggers passive fund buying from the $5T+ in S&P tracking products. One of Monday's biggest gainers combining index inclusion demand with Friday's mean-reversion.","source":"CNBC — confirmed +8.8% premarket, extended further in session"},
-    {"market":"Cerebras Systems (CBRS)","risk":"Watch","move":"+17%","trend":"↑ 9-firm initiation wave","heat":78,"driver":"Nine Wall Street firms initiated with buy-equivalent ratings: Barclays, Citi, Mizuho, Morgan Stanley, Needham, Rosenblatt, TD Cowen, UBS, Wedbush. Stock +17%, trading around $235, up 27% since $185 IPO price. The AI wafer-scale chip thesis being formally validated by institutional coverage.","source":"CNBC"},
-    {"market":"Corning (GLW)","risk":"Watch","move":"+9%","trend":"↑ Amazon fiber deal","heat":70,"driver":"Amazon paying billions for optical fiber to connect AI data centres — creating 1,000 jobs in North Carolina. GLW confirmed $187.50 AH (quote from CNBC after regular close). The AI infrastructure physical layer — optical networking — is a structural multi-year spend. The Nvidia $500M Corning deal from May now reinforced by the Amazon mega-deal.","source":"CNBC — Amazon deal confirmed, +9% intraday"},
-    {"market":"Apple (AAPL)","risk":"Watch","move":"+2% at WWDC","trend":"↑ AI strategy reveal","heat":62,"driver":"Apple advanced 2% as WWDC kicked off with AI strategy, Siri updates, and iOS AI features. The Cook-to-Ternus transition's first developer conference. AAPL closed ~$299.73 AH quote (slight drift from regular close near $301-302). The consumer AI device trade on display — iPhone AI as the next upgrade cycle driver.","source":"CNBC — confirmed +2% at WWDC open"},
-    {"market":"Nvidia (NVDA)","risk":"Elevated","move":"-0.39%","trend":"↓ mild underperformer","heat":62,"driver":"Nvidia the notable underperformer — while semis rebounded 7-14%, NVDA was essentially flat (-0.39%). BofA reiterated Buy at $350 PT. SK Hynix partnership for advanced memory announced. The market is differentiating: Nvidia already had its May 20 earnings bounce (partially reversed in sell-the-news); the other semis (Intel, Micron, Marvell) had not yet recovered from Friday's plunge. NVDA confirmed $207.83 AH.","source":"CNBC live quote — confirmed -0.39%"},
-    {"market":"WTI Crude","risk":"High","move":"~$91.30","trend":"↑ +3.3% then reversed from $93.67 high","heat":68,"driver":"WTI spiked to $93.67 (+3.46%) early on Israel-Iran overnight strikes then reversed to close ~$91.30 after Trump's ceasefire post. CNBC confirmed the early spike to $93.67. The $91.30 close is still elevated — above last week's $88-90 range. Iran escalation risk premium remains structurally embedded in oil.","source":"CNBC — confirmed $93.67 intraday high"},
-    {"market":"Gold","risk":"Watch","move":"$4,356.30","trend":"↓ -0.16% mild easing","heat":46,"driver":"Gold eased slightly as the Trump ceasefire post reduced the acute safe-haven bid. Still well above the pre-Iran war levels — geopolitical and inflation premium intact. Confirmed $4,356.30 from CNBC GC.1 quote.","source":"CNBC live quote — confirmed $4,356.30"},
-    {"market":"Bitcoin","risk":"Watch","move":"$63,453.99","trend":"↑ +3.48% Strategy buy confirmation","heat":56,"driver":"Bitcoin +3.48% to $63,454 after Strategy confirmed $101M BTC purchase (1,550 BTC) during its worst week. The Strategy buying pattern — aggressive buyer during dips — is the structural demand floor for BTC. The $60K break from Friday partially reversed. Confirmed from CNBC BTC.CM= quote.","source":"CNBC live quote — confirmed $63,453.99 (+3.48%)"}
+    {
+      "market": "S&P 500",
+      "risk": "Elevated",
+      "move": "7,405.73",
+      "trend": "\u2191 +0.30% partial recovery",
+      "heat": 60,
+      "driver": "Partial recovery from Friday's -2.64% to 7,383.74. The session had the full arc: down on Israel-Iran strikes, then recovery on Trump ceasefire post. Nine S&P 500 stocks hit 52-week highs including Eli Lilly (all-time high back to 1952 IPO) and multiple REITs. Four hit new lows (Trade Desk, FIS, Jack Henry, Intuit).",
+      "source": "CNBC live quote \u2014 confirmed 7,405.73"
+    },
+    {
+      "market": "Nasdaq Composite",
+      "risk": "Elevated",
+      "move": "25,929.66",
+      "trend": "\u2191 +0.86% semi-led rebound",
+      "heat": 58,
+      "driver": "Nasdaq rebounded 0.86% led by SOXX +7% mean-reversion. Cerebras +17%, Apple +2% at WWDC, Corning +9% on Amazon fiber. The Nasdaq is still -1.4% from its 26,272 pre-NFP close but recovering. The CNBC live blog confirmed 25,929.66 exactly.",
+      "source": "CNBC live quote \u2014 confirmed 25,929.66"
+    },
+    {
+      "market": "Dow Jones",
+      "risk": "Watch",
+      "move": "50,786.01",
+      "trend": "\u2193 -0.16% defensive rotation reversed",
+      "heat": 52,
+      "driver": "Dow the only major index in red \u2014 the precise inverse of Friday when Dow was the only major in green. Defensive value components (staples, healthcare) gave back some of Friday's defensive flows. Confirmed -80.77 points to 50,786.01.",
+      "source": "CNBC live quote \u2014 confirmed 50,786.01"
+    },
+    {
+      "market": "Russell 2000",
+      "risk": "Watch",
+      "move": "2,856.98",
+      "trend": "\u2191 +0.83% breadth holding",
+      "heat": 52,
+      "driver": "Russell 2000 +0.83% to 2,856.98 \u2014 confirmed by Trading Economics (US2000: 2,856.98, +23.48 pts, +0.83%, Jun/08). Approaching but still below the 3,000 milestone. Rate-sensitive small caps benefiting from the Trump ceasefire signal reducing the acute geopolitical risk premium. Russell outperforming Dow (-0.16%) on the day.",
+      "source": "Trading Economics US2000 confirmed 2,856.98 Jun/08"
+    },
+    {
+      "market": "VIX",
+      "risk": "Watch",
+      "move": "18.92",
+      "trend": "\u2193 -12.04% fear easing",
+      "heat": 48,
+      "driver": "VIX fell 12% to 18.92 \u2014 its sharpest single-day decline since the April ceasefire. The Trump ceasefire post and semi rebound removed the two primary sources of Friday's fear spike. Still above 18 \u2014 not back to pre-NFP levels of 16-17. Confirmed from CNBC quote.",
+      "source": "CNBC live quote \u2014 confirmed 18.92 (-12.04%)"
+    },
+    {
+      "market": "SOXX",
+      "risk": "Watch",
+      "move": "+7% best day in over a year",
+      "trend": "\u2191 mean-reversion from -10% Friday",
+      "heat": 74,
+      "driver": "The session's dominant equity move. SOXX +7% was its best day since before March 2025. Intel +12%, Micron +14%, Marvell +14%. CNBC: 'The iShares fund tumbled more than 10% on Friday \u2014 its biggest one-day rout since March 2020. Despite recent volatility, fund is still up 91% in 2026.' The two-day net: SOXX still down ~3-4%.",
+      "source": "CNBC"
+    },
+    {
+      "market": "Intel (INTC)",
+      "risk": "Watch",
+      "move": "+12%",
+      "trend": "\u2191 mean-reversion from double-digit Friday loss",
+      "heat": 68,
+      "driver": "Intel among the biggest rebounds after Friday's double-digit losses. The Apple-Intel chip supply discussion (Bloomberg May 14) remains the structural bull case. Semiconductor equipment cycle and foundry 2.0 thesis intact.",
+      "source": "CNBC"
+    },
+    {
+      "market": "Micron Technology (MU)",
+      "risk": "Watch",
+      "move": "+14%",
+      "trend": "\u2191 mean-reversion",
+      "heat": 70,
+      "driver": "Micron one of the biggest rebounds after -17% two-session decline. HBM sold out through 2026. AI memory demand structural. The Broadcom AI chip signal raised questions about the broader cycle but Micron's HBM position is insulated from ASIC chip demand.",
+      "source": "CNBC"
+    },
+    {
+      "market": "Marvell Technology (MRVL)",
+      "risk": "Watch",
+      "move": "+14% (S&P 500 inclusion June 22)",
+      "trend": "\u2191 index inclusion + mean-reversion",
+      "heat": 72,
+      "driver": "Marvell Technology announced to join S&P 500 on June 22, replacing Campbell's. Up 210% YTD. The S&P inclusion triggers passive fund buying from the $5T+ in S&P tracking products. One of Monday's biggest gainers combining index inclusion demand with Friday's mean-reversion.",
+      "source": "CNBC \u2014 confirmed +8.8% premarket, extended further in session"
+    },
+    {
+      "market": "Cerebras Systems (CBRS)",
+      "risk": "Watch",
+      "move": "+17%",
+      "trend": "\u2191 9-firm initiation wave",
+      "heat": 78,
+      "driver": "Nine Wall Street firms initiated with buy-equivalent ratings: Barclays, Citi, Mizuho, Morgan Stanley, Needham, Rosenblatt, TD Cowen, UBS, Wedbush. Stock +17%, trading around $235, up 27% since $185 IPO price. The AI wafer-scale chip thesis being formally validated by institutional coverage.",
+      "source": "CNBC"
+    },
+    {
+      "market": "Corning (GLW)",
+      "risk": "Watch",
+      "move": "+9%",
+      "trend": "\u2191 Amazon fiber deal",
+      "heat": 70,
+      "driver": "Amazon paying billions for optical fiber to connect AI data centres \u2014 creating 1,000 jobs in North Carolina. GLW confirmed $187.50 AH (quote from CNBC after regular close). The AI infrastructure physical layer \u2014 optical networking \u2014 is a structural multi-year spend. The Nvidia $500M Corning deal from May now reinforced by the Amazon mega-deal.",
+      "source": "CNBC \u2014 Amazon deal confirmed, +9% intraday"
+    },
+    {
+      "market": "Apple (AAPL)",
+      "risk": "Watch",
+      "move": "+2% at WWDC",
+      "trend": "\u2191 AI strategy reveal",
+      "heat": 62,
+      "driver": "Apple advanced 2% as WWDC kicked off with AI strategy, Siri updates, and iOS AI features. The Cook-to-Ternus transition's first developer conference. AAPL closed ~$299.73 AH quote (slight drift from regular close near $301-302). The consumer AI device trade on display \u2014 iPhone AI as the next upgrade cycle driver.",
+      "source": "CNBC \u2014 confirmed +2% at WWDC open"
+    },
+    {
+      "market": "Nvidia (NVDA)",
+      "risk": "Elevated",
+      "move": "-0.39%",
+      "trend": "\u2193 mild underperformer",
+      "heat": 62,
+      "driver": "Nvidia the notable underperformer \u2014 while semis rebounded 7-14%, NVDA was essentially flat (-0.39%). BofA reiterated Buy at $350 PT. SK Hynix partnership for advanced memory announced. The market is differentiating: Nvidia already had its May 20 earnings bounce (partially reversed in sell-the-news); the other semis (Intel, Micron, Marvell) had not yet recovered from Friday's plunge. NVDA confirmed $207.83 AH.",
+      "source": "CNBC live quote \u2014 confirmed -0.39%"
+    },
+    {
+      "market": "WTI Crude",
+      "risk": "High",
+      "move": "$91.35",
+      "trend": "\u2191 +0.90% \u2014 spiked $93.67 intraday then reversed on Trump ceasefire post",
+      "heat": 66,
+      "driver": "WTI closed $91.35 (+0.90%) \u2014 confirmed Trading Economics $91.354. Spiked to $93.67 (+3.46%) intraday on Israel-Iran overnight strikes then reversed sharply after Trump's ceasefire post. Still above last week's $88-90 range, reflecting the re-established Iran risk premium.",
+      "source": "Trading Economics $91.354 Jun/08 + CNBC @CL.1 confirmed $93.67 intraday high"
+    },
+    {
+      "market": "Brent Crude",
+      "risk": "High",
+      "move": "$94.42",
+      "trend": "\u2191 +1.21% Israel-Iran spike then partial reversal",
+      "heat": 68,
+      "driver": "Brent closed $94.42 (+1.21%) \u2014 confirmed CNBC @BZ.1 ($94.44) and Trading Economics ($94.39, Jun/08). Spiked above $96 intraday on Israel-Iran overnight strikes then pulled back on Trump ceasefire post. Spread vs WTI: $3.07 (narrowed from recent $5-6 range as WTI rose proportionally more on the session).",
+      "source": "CNBC @BZ.1 ($94.44) + Trading Economics ($94.39) \u2014 both confirmed June 8"
+    },
+    {
+      "market": "Gold",
+      "risk": "Watch",
+      "move": "$4,356.30",
+      "trend": "\u2193 -0.16% mild easing",
+      "heat": 46,
+      "driver": "Gold eased slightly as the Trump ceasefire post reduced the acute safe-haven bid. Still well above the pre-Iran war levels \u2014 geopolitical and inflation premium intact. Confirmed $4,356.30 from CNBC GC.1 quote.",
+      "source": "CNBC live quote \u2014 confirmed $4,356.30"
+    },
+    {
+      "market": "10Y Treasury",
+      "risk": "Elevated",
+      "move": "4.57%",
+      "trend": "\u2191 +2bp \u2014 hike pricing stable",
+      "heat": 68,
+      "driver": "10Y at 4.57% confirmed by Trading Economics (4.57%, Jun/08) and CNBC US10Y quote (4.568%). Up 2bps from H.15 June 5 official (4.55%). 30Y at 5.04% confirmed by Trading Economics (5.04%) and CNBC US30Y (5.039%). Rate markets not pricing the Trump ceasefire as done \u2014 the 72.7% year-end hike probability from Friday's NFP shock held steady. June 11 CPI is the next definitive catalyst.",
+      "source": "Trading Economics 4.57% Jun/08 (primary) + CNBC US10Y 4.568% (secondary) + H.15 Jun 5 official 4.55% (prior)"
+    },
+    {
+      "market": "30Y Treasury",
+      "risk": "High",
+      "move": "5.04%",
+      "trend": "\u2191 +3bp above 5%",
+      "heat": 72,
+      "driver": "30Y at 5.04% confirmed by Trading Economics (5.04%, Jun/08) and CNBC US30Y (5.039%). Remains above the 5.00% psychological threshold, reflecting structural fiscal risk premium and NFP hike pricing. H.15 June 5 official prior: 5.01%.",
+      "source": "Trading Economics 5.04% Jun/08 + CNBC US30Y 5.039%"
+    },
+    {
+      "market": "Bitcoin",
+      "risk": "Watch",
+      "move": "$63,453.99",
+      "trend": "\u2191 +3.48% Strategy buy confirmation",
+      "heat": 56,
+      "driver": "Bitcoin +3.48% to $63,454 after Strategy confirmed $101M BTC purchase (1,550 BTC) during its worst week. The Strategy buying pattern \u2014 aggressive buyer during dips \u2014 is the structural demand floor for BTC. The $60K break from Friday partially reversed. Confirmed from CNBC BTC.CM= quote.",
+      "source": "CNBC live quote \u2014 confirmed $63,453.99 (+3.48%)"
+    }
   ],
-
   "sectorHeat": [
-    {"sector":"Semiconductors","heat":78,"trend":"↑ +7% SOXX — best day in over a year","driver":"Intel +12%, Micron +14%, Marvell +14% mean-reversion. Citi: pullback healthy, maintain AVGO/TXN/AMAT as top buys."},
-    {"sector":"Technology","heat":68,"trend":"↑ +0.86% Nasdaq","driver":"Cerebras +17% (9-firm initiation), Apple +2% (WWDC AI), Corning +9% (Amazon fiber). AI infrastructure picks-and-shovels leading."},
-    {"sector":"Energy","heat":66,"trend":"↑ +3% then partial reversal on Trump ceasefire","driver":"WTI spiked to $93.67 then reversed to $91.30. Structural Iran risk premium holds above last week's $88-90 range."},
-    {"sector":"Healthcare","heat":50,"trend":"↓ partial give-back of Friday's defensive flows","driver":"XLV gave back some of Friday's gains as risk appetite returned. Eli Lilly hit all-time highs (back to 1952 IPO). Biogen upgraded to Buy by Needham."},
-    {"sector":"Consumer Staples","heat":46,"trend":"↓ defensive rotation reversal","driver":"Friday's safe-haven staples bid partially unwound. PG, Clorox, Coca-Cola all slightly lower as risk appetite returned."},
-    {"sector":"Financials","heat":52,"trend":"→ mild negative","driver":"Dow underperformance. Financials slightly weaker as the week's defensive bid faded. Credit conditions: creditTighteningScore 62 (elevated)."},
-    {"sector":"Consumer Discretionary","heat":54,"trend":"↑ Crocs, Cummins","driver":"Crocs +3% (Baird upgrade to Outperform, $150 PT). Cummins +3% (UBS upgrade to Buy, $850 PT — data centre backup generator demand)."},
-    {"sector":"AI Infrastructure","heat":86,"trend":"↑ full stack rebound","driver":"SOXX +7%, Corning Amazon deal +9%, Cerebras +17% initiations. AI infrastructure trade recovering from Friday's NFP/Broadcom double-shock."}
+    {
+      "sector": "Semiconductors",
+      "heat": 78,
+      "trend": "\u2191 +7% SOXX \u2014 best day in over a year",
+      "driver": "Intel +12%, Micron +14%, Marvell +14% mean-reversion. Citi: pullback healthy, maintain AVGO/TXN/AMAT as top buys."
+    },
+    {
+      "sector": "Technology",
+      "heat": 68,
+      "trend": "\u2191 +0.86% Nasdaq",
+      "driver": "Cerebras +17% (9-firm initiation), Apple +2% (WWDC AI), Corning +9% (Amazon fiber). AI infrastructure picks-and-shovels leading."
+    },
+    {
+      "sector": "Energy",
+      "heat": 66,
+      "trend": "\u2191 +3% then partial reversal on Trump ceasefire",
+      "driver": "WTI spiked to $93.67 then reversed to $91.30. Structural Iran risk premium holds above last week's $88-90 range."
+    },
+    {
+      "sector": "Healthcare",
+      "heat": 50,
+      "trend": "\u2193 partial give-back of Friday's defensive flows",
+      "driver": "XLV gave back some of Friday's gains as risk appetite returned. Eli Lilly hit all-time highs (back to 1952 IPO). Biogen upgraded to Buy by Needham."
+    },
+    {
+      "sector": "Consumer Staples",
+      "heat": 46,
+      "trend": "\u2193 defensive rotation reversal",
+      "driver": "Friday's safe-haven staples bid partially unwound. PG, Clorox, Coca-Cola all slightly lower as risk appetite returned."
+    },
+    {
+      "sector": "Financials",
+      "heat": 52,
+      "trend": "\u2192 mild negative",
+      "driver": "Dow underperformance. Financials slightly weaker as the week's defensive bid faded. Credit conditions: creditTighteningScore 62 (elevated)."
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "heat": 54,
+      "trend": "\u2191 Crocs, Cummins",
+      "driver": "Crocs +3% (Baird upgrade to Outperform, $150 PT). Cummins +3% (UBS upgrade to Buy, $850 PT \u2014 data centre backup generator demand)."
+    },
+    {
+      "sector": "AI Infrastructure",
+      "heat": 86,
+      "trend": "\u2191 full stack rebound",
+      "driver": "SOXX +7%, Corning Amazon deal +9%, Cerebras +17% initiations. AI infrastructure trade recovering from Friday's NFP/Broadcom double-shock."
+    }
   ],
-
   "drivers": [
     {
       "name": "Trump Ceasefire Post Reverses Israel-Iran Overnight Strike Selloff",
       "linked": "WTI, Brent, VIX, S&P 500, Iran, Israel",
-      "source": "CNBC — 'Trump said Israel and Iran looking for a ceasefire' (Trump Truth Social post)",
+      "source": "CNBC \u2014 'Trump said Israel and Iran looking for a ceasefire' (Trump Truth Social post)",
       "confidence": "Medium",
       "score": 82,
-      "detail": "The pattern is now established: the Iran binary produces acute intraday volatility that Trump resolves diplomatically within hours via social media. Overnight, Israel struck military targets in western and central Iran; Iran responded with missile fire at Israel — the first such exchange since the original ceasefire. WTI spiked to $93.67 (+3.46%), S&P futures dropped, Asia and European markets sold off (Kospi -8%, Nikkei -3.85%). Then Trump posted on Truth Social that Israel and Iran 'are looking to do an immediate CEASEFIRE!' with 'final negotiations' proceeding and 'things should move quickly.' WTI reversed from $93.67 to close approximately $91.30. Equities recovered fully from the morning's losses. The medium confidence reflects that this is the fourth such pattern reversal — each time the structural fragility of the truce is exposed. hormuzclosurePct modestly trimmed to 28% (from 30%) reflecting overnight deterioration."
+      "detail": "The pattern is now established: the Iran binary produces acute intraday volatility that Trump resolves diplomatically within hours via social media. Overnight, Israel struck military targets in western and central Iran; Iran responded with missile fire at Israel \u2014 the first such exchange since the original ceasefire. WTI spiked to $93.67 (+3.46%), S&P futures dropped, Asia and European markets sold off (Kospi -8%, Nikkei -3.85%). Then Trump posted on Truth Social that Israel and Iran 'are looking to do an immediate CEASEFIRE!' with 'final negotiations' proceeding and 'things should move quickly.' WTI reversed from $93.67 to close approximately $91.30. Equities recovered fully from the morning's losses. The medium confidence reflects that this is the fourth such pattern reversal \u2014 each time the structural fragility of the truce is exposed. hormuzclosurePct modestly trimmed to 28% (from 30%) reflecting overnight deterioration."
     },
     {
-      "name": "SOXX +7% — Best Day in Over a Year. Mean-Reversion From Friday's Worst Session Since March 2020.",
+      "name": "SOXX +7% \u2014 Best Day in Over a Year. Mean-Reversion From Friday's Worst Session Since March 2020.",
       "linked": "SOXX, INTC, MU, MRVL, AMD, AI hardware",
       "source": "CNBC",
       "confidence": "High",
       "score": 86,
-      "detail": "iShares Semiconductor ETF (SOXX) rose nearly 7% — its best single day in over a year — as the names most aggressively sold on Friday bounced sharply. CNBC's analysis of the Russell 3000 rebound by Friday performance decile confirmed textbook mean-reversion: the worst-performing decile from Friday was up over 2.5% Monday. Intel +12%, Micron +14%, Marvell +14% (also boosted by S&P 500 inclusion June 22). Astera Labs, Applied Optoelectronics, Coherent, Corning all sharply higher. Citi reiterated constructive view: SOXX still up 91% in 2026, semiconductor EPS expected +12% in 2027, maintained AVGO/TXN/AMAT as top buys. The two-day net: SOXX still down ~3-4% from pre-NFP levels — the Broadcom AI chip signal and rate shock remain structural headwinds."
+      "detail": "iShares Semiconductor ETF (SOXX) rose nearly 7% \u2014 its best single day in over a year \u2014 as the names most aggressively sold on Friday bounced sharply. CNBC's analysis of the Russell 3000 rebound by Friday performance decile confirmed textbook mean-reversion: the worst-performing decile from Friday was up over 2.5% Monday. Intel +12%, Micron +14%, Marvell +14% (also boosted by S&P 500 inclusion June 22). Astera Labs, Applied Optoelectronics, Coherent, Corning all sharply higher. Citi reiterated constructive view: SOXX still up 91% in 2026, semiconductor EPS expected +12% in 2027, maintained AVGO/TXN/AMAT as top buys. The two-day net: SOXX still down ~3-4% from pre-NFP levels \u2014 the Broadcom AI chip signal and rate shock remain structural headwinds."
     },
     {
-      "name": "Corning Amazon Fiber Deal + Cerebras 9-Firm Initiation — AI Infrastructure Confirmation Unbroken",
+      "name": "Corning Amazon Fiber Deal + Cerebras 9-Firm Initiation \u2014 AI Infrastructure Confirmation Unbroken",
       "linked": "GLW, AMZN, CBRS, AI infrastructure, optical networking",
-      "source": "CNBC — Corning; CNBC — Cerebras initiation",
+      "source": "CNBC \u2014 Corning; CNBC \u2014 Cerebras initiation",
       "confidence": "High",
       "score": 80,
-      "detail": "Two simultaneous AI infrastructure confirmations: (1) Amazon is paying Corning billions for optical fiber to connect its rapidly expanding US AI data centres, creating 1,000 jobs in North Carolina. GLW +9%. The Amazon-Corning deal follows the Nvidia-Corning $500M deal from May — optical networking is the emerging AI infrastructure constraint after compute and memory. (2) Nine Wall Street firms initiated Cerebras (CBRS) with buy-equivalent ratings — Barclays, Citi, Mizuho, Morgan Stanley, Needham, Rosenblatt, TD Cowen, UBS, and Wedbush. CBRS +17%. The wave of initiations 25 days post-IPO confirms institutional conviction. The stock is now +27% from its $185 IPO price. These two datapoints reinforce that the AI infrastructure investment thesis is intact despite the Broadcom signal."
+      "detail": "Two simultaneous AI infrastructure confirmations: (1) Amazon is paying Corning billions for optical fiber to connect its rapidly expanding US AI data centres, creating 1,000 jobs in North Carolina. GLW +9%. The Amazon-Corning deal follows the Nvidia-Corning $500M deal from May \u2014 optical networking is the emerging AI infrastructure constraint after compute and memory. (2) Nine Wall Street firms initiated Cerebras (CBRS) with buy-equivalent ratings \u2014 Barclays, Citi, Mizuho, Morgan Stanley, Needham, Rosenblatt, TD Cowen, UBS, and Wedbush. CBRS +17%. The wave of initiations 25 days post-IPO confirms institutional conviction. The stock is now +27% from its $185 IPO price. These two datapoints reinforce that the AI infrastructure investment thesis is intact despite the Broadcom signal."
     },
     {
-      "name": "Strategy $101M BTC Purchase Stabilises Crypto — Reverses the May Sale That Triggered the Crash",
+      "name": "Strategy $101M BTC Purchase Stabilises Crypto \u2014 Reverses the May Sale That Triggered the Crash",
       "linked": "BTC, Strategy, COIN, crypto",
       "source": "CNBC",
       "confidence": "High",
       "score": 74,
-      "detail": "Strategy (Michael Saylor) confirmed it acquired 1,550 BTC for $101 million during the week ending June 5 — its worst week (-24.29%) since the FTX crash in November 2022. Crucially, the report shows Strategy was a buyer, not a seller, during the dip. It was Strategy's small sale of 32 BTC (first sale since 2022) during May 26-31 that helped trigger Bitcoin's collapse below $60K. The Monday $101M buy confirmation removes the forced-seller concern that was the primary structural downside risk for BTC. Bitcoin +3.5% to $63,454 on the announcement. The $60K floor break appears to have been a temporary technical overshoot, not the start of a structural decline."
+      "detail": "Strategy (Michael Saylor) confirmed it acquired 1,550 BTC for $101 million during the week ending June 5 \u2014 its worst week (-24.29%) since the FTX crash in November 2022. Crucially, the report shows Strategy was a buyer, not a seller, during the dip. It was Strategy's small sale of 32 BTC (first sale since 2022) during May 26-31 that helped trigger Bitcoin's collapse below $60K. The Monday $101M buy confirmation removes the forced-seller concern that was the primary structural downside risk for BTC. Bitcoin +3.5% to $63,454 on the announcement. The $60K floor break appears to have been a temporary technical overshoot, not the start of a structural decline."
     },
     {
-      "name": "Apple WWDC +2% — iOS AI Strategy Detailed. Consumer AI Device Upgrade Cycle Thesis.",
+      "name": "Apple WWDC +2% \u2014 iOS AI Strategy Detailed. Consumer AI Device Upgrade Cycle Thesis.",
       "linked": "AAPL, iOS, Siri, AI consumer, device cycle",
       "source": "CNBC",
       "confidence": "High",
       "score": 70,
-      "detail": "Apple advanced 2% as WWDC kicked off with AI strategy updates, including Siri intelligence upgrades and iOS AI feature reveals. The event is the first major developer conference of the Cook-to-Ternus transition era (Ternus officially becomes CEO September 1). The AI Siri updates position the iPhone 18 cycle as the first truly AI-native iPhone supercycle — a product catalyst that would drive iPhone ASP higher and extend the Services revenue trajectory. AAPL's +2% on WWDC day is consistent with prior years when the developer conference provides the product roadmap clarity that institutional investors need."
+      "detail": "Apple advanced 2% as WWDC kicked off with AI strategy updates, including Siri intelligence upgrades and iOS AI feature reveals. The event is the first major developer conference of the Cook-to-Ternus transition era (Ternus officially becomes CEO September 1). The AI Siri updates position the iPhone 18 cycle as the first truly AI-native iPhone supercycle \u2014 a product catalyst that would drive iPhone ASP higher and extend the Services revenue trajectory. AAPL's +2% on WWDC day is consistent with prior years when the developer conference provides the product roadmap clarity that institutional investors need."
     }
   ],
-
   "risks": [
     {
-      "title": "June CPI May 11 — the last inflation data before Warsh June 17. If >3.7%, hike near-certain.",
+      "title": "June CPI May 11 \u2014 the last inflation data before Warsh June 17. If >3.7%, hike near-certain.",
       "level": "High",
-      "desc": "May CPI will be released June 11 — three trading days before Warsh's June 17 FOMC debut. This single data point will be the most consequential in the cycle. If May CPI prints above 3.7%, the rate hike at June 17 becomes near-certain. If it prints below 3.5% (energy deflation from WTI $88-91 range), Warsh can hold with confidence. The World Cup distortion in NFP (Leisure & Hospitality +70K) does not affect CPI — so the CPI print is a clean read on the inflation trajectory."
+      "desc": "May CPI will be released June 11 \u2014 three trading days before Warsh's June 17 FOMC debut. This single data point will be the most consequential in the cycle. If May CPI prints above 3.7%, the rate hike at June 17 becomes near-certain. If it prints below 3.5% (energy deflation from WTI $88-91 range), Warsh can hold with confidence. The World Cup distortion in NFP (Leisure & Hospitality +70K) does not affect CPI \u2014 so the CPI print is a clean read on the inflation trajectory."
     },
     {
-      "title": "Israel-Iran ceasefire fragility — fourth near-collapse in two months",
+      "title": "Israel-Iran ceasefire fragility \u2014 fourth near-collapse in two months",
       "level": "High",
-      "desc": "This was the fourth episode of Israel-Iran strikes threatening to unravel the ceasefire. Each time Trump has intervened diplomatically via social media to stabilise the situation. But the pattern has a limit: at some point, the military escalation may exceed Trump's ability to resolve it via a Truth Social post. Iran firing missiles at Israel for the first time since the ceasefire is qualitatively different from prior Qeshm-style targeted strikes. The fragility is structural — until a formal signed agreement with verified Hormuz reopening, every night holds the same risk."
+      "desc": "This was the fourth episode of Israel-Iran strikes threatening to unravel the ceasefire. Each time Trump has intervened diplomatically via social media to stabilise the situation. But the pattern has a limit: at some point, the military escalation may exceed Trump's ability to resolve it via a Truth Social post. Iran firing missiles at Israel for the first time since the ceasefire is qualitatively different from prior Qeshm-style targeted strikes. The fragility is structural \u2014 until a formal signed agreement with verified Hormuz reopening, every night holds the same risk."
     },
     {
-      "title": "Warsh June 17 inaugural FOMC — 72.7% hike probability with 172K NFP and 3.8% CPI",
+      "title": "Warsh June 17 inaugural FOMC \u2014 72.7% hike probability with 172K NFP and 3.8% CPI",
       "level": "High",
-      "desc": "fedTransitionRisk at 88. Warsh faces: NFP 172K (2x consensus, World Cup caveat), CPI 3.8%, core PCE 3.2%, 10Y near 4.57%, and an Iran oil supply shock that Barclays says takes 60-90 days to resolve even with a deal. His public record favours tighter policy. The market has priced a 72.7% hike by year-end — but if Warsh signals a June 17 hike explicitly, the market reaction would be severe (Nasdaq -8-12%). The June 11 CPI print is the last chance to shift the narrative before the meeting."
+      "desc": "fedTransitionRisk at 88. Warsh faces: NFP 172K (2x consensus, World Cup caveat), CPI 3.8%, core PCE 3.2%, 10Y near 4.57%, and an Iran oil supply shock that Barclays says takes 60-90 days to resolve even with a deal. His public record favours tighter policy. The market has priced a 72.7% hike by year-end \u2014 but if Warsh signals a June 17 hike explicitly, the market reaction would be severe (Nasdaq -8-12%). The June 11 CPI print is the last chance to shift the narrative before the meeting."
     },
     {
-      "title": "SpaceX IPO Friday — capital intensity, asteroid mining concerns. No S&P 500 entry for a year.",
+      "title": "SpaceX IPO Friday \u2014 capital intensity, asteroid mining concerns. No S&P 500 entry for a year.",
       "level": "Medium",
-      "desc": "SpaceX IPO proceeds Friday June 12 at $1.77T. Steve Eisman cited growing capital intensity and skepticism about asteroid mining ambitions. S&P Dow Jones maintained the 12-month seasoning rule — SpaceX won't enter S&P 500 until June 2027. In a tighter macro environment (NFP shock, rate hike risk), a capital-intensive growth company without near-term S&P inclusion loses a major structural demand source. The Cerebras precedent (+68% first day) is the bull case; the Quantinuum -8% below IPO price is the bear case."
+      "desc": "SpaceX IPO proceeds Friday June 12 at $1.77T. Steve Eisman cited growing capital intensity and skepticism about asteroid mining ambitions. S&P Dow Jones maintained the 12-month seasoning rule \u2014 SpaceX won't enter S&P 500 until June 2027. In a tighter macro environment (NFP shock, rate hike risk), a capital-intensive growth company without near-term S&P inclusion loses a major structural demand source. The Cerebras precedent (+68% first day) is the bull case; the Quantinuum -8% below IPO price is the bear case."
     },
     {
-      "title": "Nvidia -0.39% while semis rebounded 12-14% — divergence signals differentiation within AI hardware",
+      "title": "Nvidia -0.39% while semis rebounded 12-14% \u2014 divergence signals differentiation within AI hardware",
       "level": "Elevated",
-      "desc": "Nvidia's near-flat session while Intel, Micron, Marvell all surged 12-14% is a differentiation signal the market is sending: Nvidia already had its post-earnings blowout bounce opportunity (partially reversed sell-the-news) while the others had simply been caught in the Friday NFP/Broadcom rout without stock-specific news. However, the Broadcom AI chip demand signal is relevant for Nvidia too — if enterprise AI chip demand is softer than expected, Nvidia's $91B Q2 guide faces risks. August Q2 earnings is the test."
+      "desc": "Nvidia's near-flat session while Intel, Micron, Marvell all surged 12-14% is a differentiation signal the market is sending: Nvidia already had its post-earnings blowout bounce opportunity (partially reversed sell-the-news) while the others had simply been caught in the Friday NFP/Broadcom rout without stock-specific news. However, the Broadcom AI chip demand signal is relevant for Nvidia too \u2014 if enterprise AI chip demand is softer than expected, Nvidia's $91B Q2 guide faces risks. August Q2 earnings is the test."
     }
   ],
-
   "timeline": [
-    {"time":"Overnight (Jun 7-8)","headline":"Israel strikes Iran military targets in western and central Iran. Iran fires missiles at Israel — first time since ceasefire.","effect":"Asia markets opened sharply lower: Kospi -8%, Nikkei -3.85%, SoftBank -7.5%, TSMC -2.1%. European tech extended sell-off. US futures opened lower. Oil spiked above $93."},
-    {"time":"Pre-market","headline":"Trump Truth Social: 'Israel and Iran looking for CEASEFIRE! Final negotiations proceeding. Things should move quickly.'","effect":"US futures reversed from losses. WTI pulled back from $93+ toward $91. The Trump diplomatic intervention pattern — now in its fourth cycle — reversed the pre-market selloff."},
-    {"time":"Pre-market","headline":"Strategy confirms $101M BTC purchase (1,550 BTC) during worst week since FTX crash. Bitcoin +4% pre-market.","effect":"Crypto stabilised immediately. Strategy's buy pattern confirmed — it was a buyer, not seller, during the dip. The forced-seller concern that had haunted BTC was resolved."},
-    {"time":"09:30","headline":"Market opens with semis leading the rebound — SOXX +5%+ at open. Cerebras +10%+ on initiation wave.","effect":"The mean-reversion trade dominated immediately. Intel, Micron, Marvell all gapping up double-digits. Cerebras surging on 9-firm coverage wave. Corning +7%+ on Amazon fiber deal confirmation."},
-    {"time":"10:30","headline":"WTI reversal complete — from $93.67 intraday high to $91 range. VIX below 19.","effect":"Iran ceasefire signal absorbed. Oil gave back most of the morning's geopolitical spike. Equity markets running higher independently of oil. VIX falling sharply."},
-    {"time":"11:00","headline":"SOXX nearly 7% — best day in over a year. Intel +12%, Micron +14%, Marvell +14%.","effect":"The semiconductor mean-reversion became the session's dominant story. CNBC data: worst decile from Friday up 2.5%+ Monday. Citi maintained constructive view. The AI hardware thesis is resilient."},
-    {"time":"12:00","headline":"Apple +2% at WWDC — iOS AI strategy, Siri updates, iOS AI features detailed.","effect":"The consumer AI device trade confirmed. iPhone 18 AI supercycle thesis reinforced. AAPL the session's broad tech catalyst alongside semis."},
-    {"time":"16:00","headline":"S&P closes 7,405.73 (+0.30%). Nasdaq 25,929.66 (+0.86%). Dow 50,786.01 (-0.16%). VIX 18.92 (-12%).","effect":"Partial recovery from Friday's rout. The week opens with the key events ahead: June CPI (June 11), SpaceX IPO (June 12), Warsh FOMC (June 17). The market is pricing a fragile recovery."}
+    {
+      "time": "Overnight (Jun 7-8)",
+      "headline": "Israel strikes Iran military targets in western and central Iran. Iran fires missiles at Israel \u2014 first time since ceasefire.",
+      "effect": "Asia markets opened sharply lower: Kospi -8%, Nikkei -3.85%, SoftBank -7.5%, TSMC -2.1%. European tech extended sell-off. US futures opened lower. Oil spiked above $93."
+    },
+    {
+      "time": "Pre-market",
+      "headline": "Trump Truth Social: 'Israel and Iran looking for CEASEFIRE! Final negotiations proceeding. Things should move quickly.'",
+      "effect": "US futures reversed from losses. WTI pulled back from $93+ toward $91. The Trump diplomatic intervention pattern \u2014 now in its fourth cycle \u2014 reversed the pre-market selloff."
+    },
+    {
+      "time": "Pre-market",
+      "headline": "Strategy confirms $101M BTC purchase (1,550 BTC) during worst week since FTX crash. Bitcoin +4% pre-market.",
+      "effect": "Crypto stabilised immediately. Strategy's buy pattern confirmed \u2014 it was a buyer, not seller, during the dip. The forced-seller concern that had haunted BTC was resolved."
+    },
+    {
+      "time": "09:30",
+      "headline": "Market opens with semis leading the rebound \u2014 SOXX +5%+ at open. Cerebras +10%+ on initiation wave.",
+      "effect": "The mean-reversion trade dominated immediately. Intel, Micron, Marvell all gapping up double-digits. Cerebras surging on 9-firm coverage wave. Corning +7%+ on Amazon fiber deal confirmation."
+    },
+    {
+      "time": "10:30",
+      "headline": "WTI reversal complete \u2014 from $93.67 intraday high to $91 range. VIX below 19.",
+      "effect": "Iran ceasefire signal absorbed. Oil gave back most of the morning's geopolitical spike. Equity markets running higher independently of oil. VIX falling sharply."
+    },
+    {
+      "time": "11:00",
+      "headline": "SOXX nearly 7% \u2014 best day in over a year. Intel +12%, Micron +14%, Marvell +14%.",
+      "effect": "The semiconductor mean-reversion became the session's dominant story. CNBC data: worst decile from Friday up 2.5%+ Monday. Citi maintained constructive view. The AI hardware thesis is resilient."
+    },
+    {
+      "time": "12:00",
+      "headline": "Apple +2% at WWDC \u2014 iOS AI strategy, Siri updates, iOS AI features detailed.",
+      "effect": "The consumer AI device trade confirmed. iPhone 18 AI supercycle thesis reinforced. AAPL the session's broad tech catalyst alongside semis."
+    },
+    {
+      "time": "16:00",
+      "headline": "S&P closes 7,405.73 (+0.30%). Nasdaq 25,929.66 (+0.86%). Dow 50,786.01 (-0.16%). VIX 18.92 (-12%).",
+      "effect": "Partial recovery from Friday's rout. The week opens with the key events ahead: June CPI (June 11), SpaceX IPO (June 12), Warsh FOMC (June 17). The market is pricing a fragile recovery."
+    }
   ],
-
   "watchpoints": [
-    {"date":"Jun 11","event":"May CPI — THE single most important data point before Warsh June 17. Above 3.7% = hike near-certain. Below 3.5% = hold with confidence.","significance":"High","tag":"Macro"},
-    {"date":"Jun 12","event":"SpaceX IPO on Nasdaq at $1.77T — largest IPO in history. No S&P 500 inclusion for a year (12-month rule). Steve Eisman skeptical. Institutional demand vs capital intensity concerns.","significance":"High","tag":"Equities"},
-    {"date":"Jun 17","event":"First FOMC under Warsh — hold vs hike binary. NFP 172K + June CPI = the two inputs. fedTransitionRisk 88.","significance":"High","tag":"Rates"},
-    {"date":"Jun 22","event":"Marvell Technology (MRVL) joins S&P 500 — replacing Campbell's. Passive-fund buying triggered. MRVL up 210% YTD.","significance":"Medium","tag":"Equities"},
-    {"date":"Jun 2026","event":"OpenAI IPO filing 'in coming weeks' — $1T+ valuation. Will the NFP/rate environment affect timing?","significance":"High","tag":"Equities"},
-    {"date":"Jul 3","event":"June NFP — World Cup distortion test. If <100K, May was noise. If >140K, the hike was warranted.","significance":"High","tag":"Macro"},
-    {"date":"Ongoing","event":"Iran ceasefire fragility — fourth near-collapse in two months. Trump intervention pattern holding but structural resolution outstanding.","significance":"High","tag":"Geopolitical"},
-    {"date":"Aug 2026","event":"Nvidia Q2 FY2027 vs $91B guide — Broadcom AI chip signal raised questions. Samsung memory supply still unresolved.","significance":"High","tag":"AI"}
+    {
+      "date": "Jun 11",
+      "event": "May CPI \u2014 THE single most important data point before Warsh June 17. Above 3.7% = hike near-certain. Below 3.5% = hold with confidence.",
+      "significance": "High",
+      "tag": "Macro"
+    },
+    {
+      "date": "Jun 12",
+      "event": "SpaceX IPO on Nasdaq at $1.77T \u2014 largest IPO in history. No S&P 500 inclusion for a year (12-month rule). Steve Eisman skeptical. Institutional demand vs capital intensity concerns.",
+      "significance": "High",
+      "tag": "Equities"
+    },
+    {
+      "date": "Jun 17",
+      "event": "First FOMC under Warsh \u2014 hold vs hike binary. NFP 172K + June CPI = the two inputs. fedTransitionRisk 88.",
+      "significance": "High",
+      "tag": "Rates"
+    },
+    {
+      "date": "Jun 22",
+      "event": "Marvell Technology (MRVL) joins S&P 500 \u2014 replacing Campbell's. Passive-fund buying triggered. MRVL up 210% YTD.",
+      "significance": "Medium",
+      "tag": "Equities"
+    },
+    {
+      "date": "Jun 2026",
+      "event": "OpenAI IPO filing 'in coming weeks' \u2014 $1T+ valuation. Will the NFP/rate environment affect timing?",
+      "significance": "High",
+      "tag": "Equities"
+    },
+    {
+      "date": "Jul 3",
+      "event": "June NFP \u2014 World Cup distortion test. If <100K, May was noise. If >140K, the hike was warranted.",
+      "significance": "High",
+      "tag": "Macro"
+    },
+    {
+      "date": "Ongoing",
+      "event": "Iran ceasefire fragility \u2014 fourth near-collapse in two months. Trump intervention pattern holding but structural resolution outstanding.",
+      "significance": "High",
+      "tag": "Geopolitical"
+    },
+    {
+      "date": "Aug 2026",
+      "event": "Nvidia Q2 FY2027 vs $91B guide \u2014 Broadcom AI chip signal raised questions. Samsung memory supply still unresolved.",
+      "significance": "High",
+      "tag": "AI"
+    }
   ],
-
   "strategies": [
     {
-      "title": "Long SOXX / semi picks ahead of June CPI — mean-reversion is incomplete",
+      "title": "Long SOXX / semi picks ahead of June CPI \u2014 mean-reversion is incomplete",
       "confidence": "Medium",
       "score": 72,
-      "body": "SOXX +7% Monday reversed only part of Friday's -10% rout. The two-day net: SOXX still down ~3-4% from pre-NFP levels. Citi's constructive view — SOXX up 91% in 2026, semi EPS +12% in 2027, maintain AVGO/TXN/AMAT — is well-grounded. If June CPI (June 11) prints below 3.5% on energy deflation, the rate hike fear reverses and semis benefit from both lower discount rates and intact AI demand. The risk: if June CPI is hot (>3.7%), Warsh hikes June 17 and semis reprice lower from the current partially-recovered level.",
+      "body": "SOXX +7% Monday reversed only part of Friday's -10% rout. The two-day net: SOXX still down ~3-4% from pre-NFP levels. Citi's constructive view \u2014 SOXX up 91% in 2026, semi EPS +12% in 2027, maintain AVGO/TXN/AMAT \u2014 is well-grounded. If June CPI (June 11) prints below 3.5% on energy deflation, the rate hike fear reverses and semis benefit from both lower discount rates and intact AI demand. The risk: if June CPI is hot (>3.7%), Warsh hikes June 17 and semis reprice lower from the current partially-recovered level.",
       "trigger": "June CPI <3.6% AND Warsh June 17 holds rates"
     },
     {
-      "title": "Long Corning — Amazon + Nvidia fiber deals confirm AI optical networking as structural multi-year spend",
+      "title": "Long Corning \u2014 Amazon + Nvidia fiber deals confirm AI optical networking as structural multi-year spend",
       "confidence": "High",
       "score": 82,
-      "body": "Corning now has multi-billion fiber deals with both Amazon (AI data centres) and Nvidia (announced May 6, $500M). The optical networking bottleneck is the next AI infrastructure constraint after compute (NVDA) and memory (MU). GLW at 22x forward earnings with confirmed hyperscaler demand is the cheapest AI infrastructure name on a risk-adjusted basis. 1,000 North Carolina jobs from the Amazon deal confirms the US manufacturing dimension. This is not a trade — it's a multi-year AI picks-and-shovels position.",
+      "body": "Corning now has multi-billion fiber deals with both Amazon (AI data centres) and Nvidia (announced May 6, $500M). The optical networking bottleneck is the next AI infrastructure constraint after compute (NVDA) and memory (MU). GLW at 22x forward earnings with confirmed hyperscaler demand is the cheapest AI infrastructure name on a risk-adjusted basis. 1,000 North Carolina jobs from the Amazon deal confirms the US manufacturing dimension. This is not a trade \u2014 it's a multi-year AI picks-and-shovels position.",
       "trigger": "Amazon and Nvidia deals begin deliveries AND additional hyperscaler deal announced"
     },
     {
-      "title": "June CPI binary hedge — long TLT puts (hot CPI) AND long TLT calls (cool CPI)",
+      "title": "June CPI binary hedge \u2014 long TLT puts (hot CPI) AND long TLT calls (cool CPI)",
       "confidence": "High",
       "score": 84,
-      "body": "May CPI (June 11) is the most consequential single data point in the cycle. The two-tail distribution: (1) Hot CPI >3.7% → Warsh hikes June 17 → 10Y to 4.8%+ → TLT falls sharply; (2) Cool CPI <3.4% on energy deflation → Warsh holds comfortably → 10Y falls to 4.2-4.3% → TLT rallies 5-7%. The World Cup hiring distortion in NFP makes the CPI more important as a clean inflation read. A June CPI straddle using TLT options expiring June 20 captures both tails at ~18 VIX cost.",
-      "trigger": "June CPI release June 11 — position before, harvest after"
+      "body": "May CPI (June 11) is the most consequential single data point in the cycle. The two-tail distribution: (1) Hot CPI >3.7% \u2192 Warsh hikes June 17 \u2192 10Y to 4.8%+ \u2192 TLT falls sharply; (2) Cool CPI <3.4% on energy deflation \u2192 Warsh holds comfortably \u2192 10Y falls to 4.2-4.3% \u2192 TLT rallies 5-7%. The World Cup hiring distortion in NFP makes the CPI more important as a clean inflation read. A June CPI straddle using TLT options expiring June 20 captures both tails at ~18 VIX cost.",
+      "trigger": "June CPI release June 11 \u2014 position before, harvest after"
     },
     {
-      "title": "SpaceX IPO Friday — approach with discipline given S&P exclusion and Eisman concerns",
+      "title": "SpaceX IPO Friday \u2014 approach with discipline given S&P exclusion and Eisman concerns",
       "confidence": "Medium",
       "score": 64,
       "body": "SpaceX IPO proceeds Friday at $1.77T. The Cerebras precedent (20x oversubscribed, +68% first day) and institutional demand are the bull case. The bear case: capital intensity, asteroid mining speculation, S&P 500 exclusion for a year (no passive buying), Steve Eisman's skepticism, and a hawkish macro backdrop (NFP 172K, rate hike 72.7%). Strategy: small IPO allocation if available; if stock opens >25% above IPO price, wait for a first-week pullback below 15% premium. The lack of S&P inclusion removes the automatic institutional buying that made Marvell's 14% Monday gain possible.",
       "trigger": "SpaceX IPO priced at or above $1.77T AND first-day close within 20% of IPO price"
     }
   ],
-
   "sources": [
-    {"name":"CNBC live quotes (post-market)","type":"Confirmed closes: S&P 7,405.73 (+0.30%), Nasdaq 25,929.66 (+0.86%), Dow 50,786.01 (-0.16%). VIX 18.92 (-12.04%). BTC $63,453.99 (+3.48%). WTI ~$91.30. Gold $4,356.30 (-0.16%). 10Y 4.568%, 30Y 5.039%.","note":"All closes verified directly from CNBC live quote pages for each instrument post-market June 8","url":"https://www.cnbc.com/quotes/"},
-    {"name":"CNBC live blog — June 8","type":"All session narrative: Israel-Iran strikes, Trump ceasefire post, SOXX +7% best day in over a year, Intel +12% Micron +14% Marvell +14%, Corning Amazon deal +9%, Cerebras +17% 9-firm initiation, Apple +2% WWDC, Nvidia -0.39%, Strategy $101M BTC, SpaceX IPO Eisman skepticism, Marvell S&P 500 inclusion, WTI intraday $93.67","note":"Primary source for all narrative detail, individual stock moves, and sector performance","url":"https://www.cnbc.com/2026/06/07/stock-market-today-live-updates.html"},
-    {"name":"Federal Reserve H.15","type":"June 5 official confirmed: 1M 3.71%, 3M 3.78%, 6M 3.81%, 1Y 3.88%, 2Y 4.17%, 5Y 4.29%, 10Y 4.55%, 30Y 5.01%. Used as prior for June 8. Extracted directly from Fed website.","note":"H.15 June 8 official pending 4:15pm ET. June 5 column confirmed as rightmost on today's table.","url":"https://www.federalreserve.gov/releases/h15/"}
+    {
+      "name": "CNBC live quotes (post-market)",
+      "type": "Confirmed closes: S&P 7,405.73 (+0.30%), Nasdaq 25,929.66 (+0.86%), Dow 50,786.01 (-0.16%). VIX 18.92 (-12.04%). BTC $63,453.99 (+3.48%). WTI ~$91.30. Gold $4,356.30 (-0.16%). 10Y 4.568%, 30Y 5.039%.",
+      "note": "All closes verified directly from CNBC live quote pages for each instrument post-market June 8",
+      "url": "https://www.cnbc.com/quotes/"
+    },
+    {
+      "name": "CNBC live blog \u2014 June 8",
+      "type": "All session narrative: Israel-Iran strikes, Trump ceasefire post, SOXX +7% best day in over a year, Intel +12% Micron +14% Marvell +14%, Corning Amazon deal +9%, Cerebras +17% 9-firm initiation, Apple +2% WWDC, Nvidia -0.39%, Strategy $101M BTC, SpaceX IPO Eisman skepticism, Marvell S&P 500 inclusion, WTI intraday $93.67",
+      "note": "Primary source for all narrative detail, individual stock moves, and sector performance",
+      "url": "https://www.cnbc.com/2026/06/07/stock-market-today-live-updates.html"
+    },
+    {
+      "name": "Federal Reserve H.15",
+      "type": "June 5 official confirmed: 1M 3.71%, 3M 3.78%, 6M 3.81%, 1Y 3.88%, 2Y 4.17%, 5Y 4.29%, 10Y 4.55%, 30Y 5.01%. Used as prior for June 8. Extracted directly from Fed website.",
+      "note": "H.15 June 8 official pending 4:15pm ET. June 5 column confirmed as rightmost on today's table.",
+      "url": "https://www.federalreserve.gov/releases/h15/"
+    }
   ]
 }
